@@ -1,4 +1,4 @@
-let lang = 'zh';
+let lang = (typeof defaultLang !== 'undefined') ? defaultLang : 'zh';
 let currentPage = 'home';
 let currentCat = 'all';
 let currentVerifyFilter = 'all';
@@ -8,9 +8,12 @@ function pq(p) { return (lang === 'en' && p.q_en) ? p.q_en : p.q; }
 function pa(p) { return (lang === 'en' && p.a_en) ? p.a_en : p.a; }
 
 function switchLang() {
-  lang = lang === 'zh' ? 'en' : 'zh';
-  document.querySelector('.lang-toggle').textContent = lang === 'zh' ? 'EN' : '中文';
-  renderAll();
+  const base = location.pathname.replace(/\/en\/?$/, '/');
+  if (lang === 'zh') {
+    location.href = base + 'en/';
+  } else {
+    location.href = base;
+  }
 }
 
 function switchPage(page) {
@@ -236,4 +239,7 @@ window.addEventListener('scroll', () => {
   btn.classList.toggle('show', window.scrollY > 400);
 });
 
-document.addEventListener('DOMContentLoaded', renderAll);
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.lang-toggle').textContent = lang === 'zh' ? 'EN' : '中文';
+  renderAll();
+});
