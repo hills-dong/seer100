@@ -4,6 +4,8 @@ let currentCat = 'all';
 let currentVerifyFilter = 'all';
 
 function t(key) { return I18N[lang][key] || key; }
+function pq(p) { return (lang === 'en' && p.q_en) ? p.q_en : p.q; }
+function pa(p) { return (lang === 'en' && p.a_en) ? p.a_en : p.a; }
 
 function switchLang() {
   lang = lang === 'zh' ? 'en' : 'zh';
@@ -72,7 +74,7 @@ function renderAllProphecies(searchOnly) {
   let filtered = PROPHECIES.filter(p => {
     if (currentCat !== 'all' && p.cat !== currentCat) return false;
     if (search) {
-      const text = (p.q + p.a).toLowerCase();
+      const text = (p.q + p.a + (p.q_en || '') + (p.a_en || '')).toLowerCase();
       return text.includes(search);
     }
     return true;
@@ -93,8 +95,8 @@ function renderAllProphecies(searchOnly) {
             <span class="prophecy-cat">${cat.icon} ${cat[catKey]}</span>
             ${p.year ? `<span class="prophecy-year-tag">${p.year}</span>` : ''}
           </div>
-          <div class="prophecy-q">${p.q}</div>
-          <div class="prophecy-a"><span class="kfk-name">KFK: </span>${p.a}</div>
+          <div class="prophecy-q">${pq(p)}</div>
+          <div class="prophecy-a"><span class="kfk-name">KFK: </span>${pa(p)}</div>
         </div>
       `;
     });
@@ -173,8 +175,8 @@ function renderVerify() {
         <div class="verify-body">
           <div class="verify-prophecy">
             <div class="verify-label">${t('prophecyLabel')}</div>
-            <div class="verify-q">${p.q}</div>
-            <div class="verify-a" style="margin-top:4px"><span class="kfk-name" style="color:var(--green);font-weight:bold">KFK:</span> ${p.a}</div>
+            <div class="verify-q">${pq(p)}</div>
+            <div class="verify-a" style="margin-top:4px"><span class="kfk-name" style="color:var(--green);font-weight:bold">KFK:</span> ${pa(p)}</div>
           </div>
           ${verdict ? `
             <div>
