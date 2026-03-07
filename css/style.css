@@ -1,535 +1,529 @@
 :root {
-  --bg: #0a0e17;
-  --bg2: #111827;
-  --bg3: #1a2235;
-  --text: #e2e8f0;
-  --text2: #94a3b8;
-  --accent: #38bdf8;
-  --accent2: #818cf8;
-  --green: #4ade80;
-  --yellow: #fbbf24;
-  --red: #f87171;
-  --border: #1e293b;
-  --glow: rgba(56, 189, 248, 0.15);
+  --bg: #f6f6f1;
+  --white: #fff;
+  --text: #494949;
+  --text2: #999;
+  --text-light: #666;
+  --green: #00b51d;
+  --green-dark: #007722;
+  --green-bg: #f0fff0;
+  --link: #37a;
+  --border: #e5e5e5;
+  --border2: #ccc;
+  --orange: #e09015;
+  --red: #e04040;
+  --blue: #3377aa;
+  --tag-bg: #f4f4ec;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.7;
-  min-height: 100vh;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
-/* Stars background */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image:
-    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.3), transparent),
-    radial-gradient(1px 1px at 50% 10%, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1px 1px at 70% 40%, rgba(255,255,255,0.2), transparent),
-    radial-gradient(1px 1px at 90% 80%, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1px 1px at 15% 85%, rgba(255,255,255,0.3), transparent),
-    radial-gradient(1px 1px at 45% 45%, rgba(255,255,255,0.2), transparent),
-    radial-gradient(1px 1px at 80% 15%, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1.5px 1.5px at 25% 35%, rgba(56,189,248,0.6), transparent),
-    radial-gradient(1.5px 1.5px at 65% 75%, rgba(129,140,248,0.5), transparent);
-  pointer-events: none;
-  z-index: 0;
-}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-/* Header */
+/* Header - Douban style top bar */
 .site-header {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(10, 14, 23, 0.9);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
 }
 
 .header-inner {
-  max-width: 1100px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0.75rem 1.5rem;
+  padding: 0 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  height: 48px;
+  gap: 20px;
 }
 
 .logo {
-  font-size: 1.25rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--green);
   cursor: pointer;
   white-space: nowrap;
+  letter-spacing: 1px;
 }
 
-nav { display: flex; gap: 0.25rem; }
+nav {
+  display: flex;
+  gap: 0;
+  height: 100%;
+}
 
 nav button {
   background: none;
   border: none;
-  color: var(--text2);
-  padding: 0.5rem 1rem;
+  border-bottom: 3px solid transparent;
+  color: var(--text);
+  padding: 0 15px;
   cursor: pointer;
-  font-size: 0.9rem;
-  border-radius: 6px;
-  transition: all 0.2s;
+  font-size: 14px;
+  height: 48px;
+  line-height: 48px;
+  transition: color 0.2s;
 }
 
-nav button:hover { color: var(--text); background: var(--bg3); }
-nav button.active { color: var(--accent); background: var(--bg3); }
+nav button:hover { color: var(--green); }
+nav button.active {
+  color: var(--green);
+  border-bottom-color: var(--green);
+  font-weight: bold;
+}
 
 .lang-toggle {
-  background: var(--bg3);
-  border: 1px solid var(--border);
-  color: var(--text2);
-  padding: 0.35rem 0.75rem;
-  border-radius: 6px;
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--border2);
+  color: var(--text-light);
+  padding: 3px 10px;
+  border-radius: 3px;
   cursor: pointer;
-  font-size: 0.85rem;
-  transition: all 0.2s;
+  font-size: 12px;
 }
 
-.lang-toggle:hover { color: var(--accent); border-color: var(--accent); }
+.lang-toggle:hover { border-color: var(--green); color: var(--green); }
 
 /* Main content */
 main {
-  position: relative;
-  z-index: 1;
-  max-width: 1100px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  padding: 20px 10px 40px;
 }
 
-.page { display: none; animation: fadeIn 0.3s ease; }
+.page { display: none; }
 .page.active { display: block; }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Hero section */
-.hero {
-  text-align: center;
-  padding: 3rem 0;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 0.5rem;
-}
-
-.hero p { color: var(--text2); font-size: 1.1rem; }
-
-/* Section titles */
-.section-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 2.5rem 0 1rem;
-  color: var(--accent);
-}
-
-.section-subtitle {
-  color: var(--text2);
-  margin-bottom: 1.5rem;
-}
-
-/* Cards */
-.card {
-  background: var(--bg2);
+/* ===== Home page - Douban group topic style ===== */
+.topic-header {
+  background: var(--white);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-  transition: border-color 0.2s;
+  padding: 20px 25px;
+  margin-bottom: 15px;
 }
 
-.card:hover { border-color: rgba(56, 189, 248, 0.3); }
-
-/* Intro cards */
-.intro-text {
-  color: var(--text2);
-  margin-bottom: 1rem;
-  font-size: 1rem;
-}
-
-.quote-card {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(129, 140, 248, 0.08));
-  border: 1px solid rgba(56, 189, 248, 0.2);
-  border-radius: 12px;
-  padding: 2rem;
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.quote-card .label {
-  font-size: 0.85rem;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 0.75rem;
-}
-
-.quote-card blockquote {
-  font-size: 1.15rem;
-  font-style: italic;
+.topic-title {
+  font-size: 22px;
   color: var(--text);
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.topic-meta {
+  font-size: 12px;
+  color: var(--text2);
+}
+
+.topic-meta .author { color: var(--link); }
+.topic-meta .group { color: var(--link); }
+
+.topic-body {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: none;
+  padding: 20px 25px;
+}
+
+.topic-body p {
+  margin-bottom: 12px;
+  line-height: 1.8;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.topic-body .quote-block {
+  background: var(--tag-bg);
+  border-left: 3px solid var(--green);
+  padding: 12px 18px;
+  margin: 18px 0;
+  color: var(--text);
+  font-size: 14px;
   line-height: 1.8;
 }
 
-/* Timeline */
-.timeline {
-  position: relative;
-  padding-left: 2rem;
-  margin: 1.5rem 0 2rem;
+.topic-body .quote-block .quote-label {
+  font-size: 12px;
+  color: var(--green);
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
-.timeline::before {
+.timeline-list {
+  margin: 15px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.timeline-list li {
+  padding: 8px 0 8px 18px;
+  position: relative;
+  border-bottom: 1px dashed var(--border);
+  font-size: 14px;
+}
+
+.timeline-list li:last-child { border-bottom: none; }
+
+.timeline-list li::before {
   content: '';
   position: absolute;
-  left: 0.5rem;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--accent), var(--accent2));
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 1rem;
-  padding: 0.5rem 0;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -1.65rem;
-  top: 0.75rem;
-  width: 10px;
-  height: 10px;
-  background: var(--accent);
+  left: 0;
+  top: 15px;
+  width: 8px;
+  height: 8px;
+  background: var(--green);
   border-radius: 50%;
-  box-shadow: 0 0 8px var(--accent);
 }
 
-.timeline-item .year-label {
-  font-weight: 700;
-  color: var(--accent);
+.timeline-list .tl-year {
+  color: var(--green-dark);
+  font-weight: bold;
 }
 
-/* Search & Filter */
+/* Section header within topic */
+.section-header {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--text);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  margin: 20px 0 12px;
+}
+
+/* ===== All prophecies - Douban comment/reply style ===== */
+.all-header {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 15px 20px;
+  margin-bottom: 0;
+}
+
+.all-header h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.all-header .count {
+  font-size: 12px;
+  color: var(--text2);
+  margin-top: 2px;
+}
+
+/* Toolbar */
 .toolbar {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: none;
+  padding: 10px 20px;
   display: flex;
-  gap: 0.75rem;
-  margin-bottom: 1.5rem;
+  gap: 10px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .search-box {
   flex: 1;
-  min-width: 200px;
-  background: var(--bg3);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 0.6rem 1rem;
+  min-width: 180px;
+  border: 1px solid var(--border2);
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 13px;
   color: var(--text);
-  font-size: 0.95rem;
   outline: none;
-  transition: border-color 0.2s;
 }
 
-.search-box:focus { border-color: var(--accent); }
-.search-box::placeholder { color: var(--text2); }
+.search-box:focus { border-color: var(--green); }
+.search-box::placeholder { color: #ccc; }
 
 .filter-bar {
   display: flex;
-  gap: 0.35rem;
+  gap: 3px;
   flex-wrap: wrap;
 }
 
 .filter-btn {
-  background: var(--bg3);
+  background: var(--tag-bg);
   border: 1px solid var(--border);
-  color: var(--text2);
-  padding: 0.4rem 0.75rem;
-  border-radius: 6px;
+  color: var(--text-light);
+  padding: 3px 10px;
+  border-radius: 3px;
   cursor: pointer;
-  font-size: 0.8rem;
-  transition: all 0.2s;
+  font-size: 12px;
+  transition: all 0.15s;
   white-space: nowrap;
 }
 
-.filter-btn:hover { color: var(--text); border-color: var(--text2); }
-.filter-btn.active { color: var(--accent); border-color: var(--accent); background: rgba(56, 189, 248, 0.1); }
-
-/* Prophecy item */
-.prophecy-item {
-  background: var(--bg2);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.25rem;
-  margin-bottom: 0.75rem;
-  transition: border-color 0.2s;
+.filter-btn:hover { color: var(--green); border-color: var(--green); }
+.filter-btn.active {
+  color: #fff;
+  background: var(--green);
+  border-color: var(--green);
 }
 
-.prophecy-item:hover { border-color: rgba(56, 189, 248, 0.3); }
+/* Prophecy items - styled as Douban comments */
+.prophecy-list {
+  border: 1px solid var(--border);
+  border-top: none;
+}
+
+.prophecy-item {
+  background: var(--white);
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.prophecy-item:last-child { border-bottom: none; }
+
+.prophecy-item:hover { background: #fafaf5; }
 
 .prophecy-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
 .prophecy-id {
-  background: var(--bg3);
-  color: var(--accent);
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
-  min-width: 2rem;
-  text-align: center;
+  color: var(--text2);
+  font-size: 12px;
+  font-family: monospace;
 }
 
 .prophecy-cat {
-  font-size: 0.75rem;
+  font-size: 11px;
   color: var(--text2);
-  background: var(--bg3);
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
+  background: var(--tag-bg);
+  padding: 1px 6px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+}
+
+.prophecy-year-tag {
+  font-size: 11px;
+  color: var(--green-dark);
+  background: var(--green-bg);
+  padding: 1px 6px;
+  border-radius: 2px;
+  border: 1px solid #d0e8d0;
 }
 
 .prophecy-q {
-  color: var(--text2);
-  font-size: 0.9rem;
-  margin-bottom: 0.4rem;
+  color: var(--text-light);
+  font-size: 13px;
+  margin-bottom: 6px;
+  padding-left: 2px;
 }
-
-.prophecy-q::before { content: 'Q: '; font-weight: 600; color: var(--text2); }
 
 .prophecy-a {
   color: var(--text);
-  font-size: 0.95rem;
+  font-size: 14px;
+  line-height: 1.7;
+  padding-left: 2px;
 }
 
-.prophecy-a::before {
-  content: 'KFK: ';
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Verification page */
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 0.75rem;
-  margin-bottom: 2rem;
-}
-
-.stat-card {
-  background: var(--bg2);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.25rem;
-  text-align: center;
-}
-
-.stat-num {
-  font-size: 2rem;
-  font-weight: 800;
-  line-height: 1;
-  margin-bottom: 0.25rem;
-}
-
-.stat-num.accent { color: var(--accent); }
-.stat-num.green { color: var(--green); }
-.stat-num.yellow { color: var(--yellow); }
-.stat-num.red { color: var(--red); }
-.stat-num.blue { color: var(--accent2); }
-
-.stat-label {
-  font-size: 0.8rem;
-  color: var(--text2);
-}
-
-.hit-rate-card {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.1), rgba(129, 140, 248, 0.1));
-  border: 1px solid rgba(56, 189, 248, 0.2);
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.hit-rate-num {
-  font-size: 3rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hit-rate-label {
-  font-size: 0.9rem;
-  color: var(--text2);
-}
-
-.hit-rate-note {
-  font-size: 0.8rem;
-  color: var(--text2);
-  margin-top: 0.5rem;
-}
-
-/* Verify items */
-.verify-item {
-  background: var(--bg2);
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  overflow: hidden;
-}
-
-.verify-item .verify-header {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 1rem 1.25rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.status-badge {
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 0.25rem 0.6rem;
-  border-radius: 20px;
-  white-space: nowrap;
-}
-
-.status-badge.verified { background: rgba(74, 222, 128, 0.15); color: var(--green); border: 1px solid rgba(74, 222, 128, 0.3); }
-.status-badge.partial { background: rgba(251, 191, 36, 0.15); color: var(--yellow); border: 1px solid rgba(251, 191, 36, 0.3); }
-.status-badge.failed { background: rgba(248, 113, 113, 0.15); color: var(--red); border: 1px solid rgba(248, 113, 113, 0.3); }
-.status-badge.pending { background: rgba(129, 140, 248, 0.15); color: var(--accent2); border: 1px solid rgba(129, 140, 248, 0.3); }
-
-.verify-year {
-  font-size: 0.8rem;
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.verify-body { padding: 1rem 1.25rem; }
-
-.verify-prophecy {
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.verify-label {
-  font-size: 0.75rem;
-  color: var(--text2);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.25rem;
-}
-
-.verify-q { color: var(--text2); font-size: 0.9rem; }
-.verify-a { color: var(--text); font-size: 0.95rem; font-weight: 500; }
-
-.verify-verdict {
-  color: var(--text2);
-  font-size: 0.9rem;
-  line-height: 1.6;
-}
-
-.verify-item.verified { border-left: 3px solid var(--green); }
-.verify-item.partial { border-left: 3px solid var(--yellow); }
-.verify-item.failed { border-left: 3px solid var(--red); }
-.verify-item.pending { border-left: 3px solid var(--accent2); }
-
-/* Filter tabs for verify */
-.verify-filters {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-}
-
-/* Footer */
-footer {
-  position: relative;
-  z-index: 1;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
-  border-top: 1px solid var(--border);
-  text-align: center;
-  color: var(--text2);
-  font-size: 0.85rem;
-}
-
-footer a { color: var(--accent); text-decoration: none; }
-footer a:hover { text-decoration: underline; }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .header-inner { flex-wrap: wrap; }
-  nav { width: 100%; justify-content: center; }
-  nav button { padding: 0.4rem 0.6rem; font-size: 0.8rem; }
-  .hero h1 { font-size: 1.75rem; }
-  .stats-grid { grid-template-columns: repeat(3, 1fr); }
-  .toolbar { flex-direction: column; }
-}
-
-@media (max-width: 480px) {
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
-  main { padding: 1rem 1rem 3rem; }
+.prophecy-a .kfk-name {
+  color: var(--green);
+  font-weight: bold;
 }
 
 /* No results */
 .no-results {
   text-align: center;
   color: var(--text2);
-  padding: 3rem 1rem;
-  font-size: 1rem;
+  padding: 40px 10px;
+  font-size: 14px;
+  background: var(--white);
 }
+
+/* ===== Verify page ===== */
+.stats-bar {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.stat-num.green { color: var(--green); }
+.stat-num.orange { color: var(--orange); }
+.stat-num.red { color: var(--red); }
+.stat-num.blue { color: var(--blue); }
+.stat-num.accent { color: var(--text); }
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text2);
+  margin-top: 3px;
+}
+
+.hit-rate-box {
+  margin-left: auto;
+  text-align: center;
+  padding: 5px 20px;
+  border-left: 1px solid var(--border);
+}
+
+.hit-rate-num {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--green);
+}
+
+.hit-rate-label {
+  font-size: 11px;
+  color: var(--text2);
+}
+
+.hit-rate-note {
+  font-size: 11px;
+  color: var(--text2);
+}
+
+.verify-filters {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+/* Verify items - styled as Douban review entries */
+.verify-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+
+.verify-item .verify-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background: #fafaf5;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+
+.status-badge {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.status-badge.verified { background: #e8f5e9; color: #2e7d32; }
+.status-badge.partial { background: #fff8e1; color: #f57f17; }
+.status-badge.failed { background: #fce4ec; color: #c62828; }
+.status-badge.pending { background: #e3f2fd; color: #1565c0; }
+
+.verify-year {
+  font-size: 12px;
+  color: var(--green-dark);
+  font-weight: bold;
+}
+
+.verify-body { padding: 12px 15px; }
+
+.verify-prophecy {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.verify-label {
+  font-size: 12px;
+  color: var(--text2);
+  margin-bottom: 3px;
+}
+
+.verify-q { color: var(--text-light); font-size: 13px; }
+.verify-a { color: var(--text); font-size: 14px; }
+
+.verify-verdict {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.7;
+  background: var(--tag-bg);
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.verify-item.verified { border-left: 3px solid var(--green); }
+.verify-item.partial { border-left: 3px solid var(--orange); }
+.verify-item.failed { border-left: 3px solid var(--red); }
+.verify-item.pending { border-left: 3px solid var(--blue); }
+
+/* Footer - Douban style */
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text2);
+  font-size: 12px;
+}
+
+footer a { color: var(--link); }
 
 /* Scroll to top */
 .scroll-top {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  width: 40px;
-  height: 40px;
-  background: var(--accent);
-  color: var(--bg);
-  border: none;
-  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  background: var(--white);
+  color: var(--text-light);
+  border: 1px solid var(--border2);
+  border-radius: 3px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 16px;
   display: none;
   align-items: center;
   justify-content: center;
   z-index: 100;
-  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
-  transition: transform 0.2s;
 }
 
-.scroll-top:hover { transform: scale(1.1); }
+.scroll-top:hover { color: var(--green); border-color: var(--green); }
 .scroll-top.show { display: flex; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-inner { gap: 10px; }
+  nav button { padding: 0 10px; font-size: 13px; }
+  .topic-header, .topic-body { padding: 15px; }
+  .stats-bar { gap: 12px; }
+  .hit-rate-box { margin-left: 0; border-left: none; border-top: 1px solid var(--border); padding-top: 10px; width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .logo { font-size: 15px; }
+  nav button { padding: 0 8px; font-size: 12px; }
+  main { padding: 10px 5px 30px; }
+}

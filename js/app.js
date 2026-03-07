@@ -30,28 +30,37 @@ function renderNav() {
 
 function renderHome() {
   const page = document.getElementById('page-home');
+  const groupName = lang === 'zh' ? '苏珊米勒' : 'Susan Miller';
+  const dateStr = '2019-06-22 23:Mo';
   page.innerHTML = `
-    <div class="hero">
-      <h1>${t('siteTitle')}</h1>
-      <p>${t('siteSubtitle')}</p>
+    <div class="topic-header">
+      <h1 class="topic-title">${t('siteTitle')}</h1>
+      <div class="topic-meta">
+        <span class="author">KFK</span> &nbsp;
+        ${lang === 'zh' ? '发布于' : 'posted in'}
+        <span class="group">${groupName}</span> &nbsp;
+        ${dateStr}
+      </div>
     </div>
-    <div class="card">
-      <h2 class="section-title" style="margin-top:0">${t('homeTitle')}</h2>
-      <p class="intro-text">${t('homeIntro1')}</p>
-      <p class="intro-text">${t('homeIntro2')}</p>
-      <p class="intro-text">${t('homeIntro3')}</p>
-    </div>
-    <div class="quote-card">
-      <div class="label">${t('coreMessage')}</div>
-      <blockquote>${t('coreQuote')}</blockquote>
-    </div>
-    <h2 class="section-title">${t('keyPoints')}</h2>
-    <div class="timeline">
-      <div class="timeline-item"><span class="year-label">${t('kp2019')}</span></div>
-      <div class="timeline-item"><span class="year-label">${t('kp2035')}</span></div>
-      <div class="timeline-item"><span class="year-label">${t('kp2038')}</span></div>
-      <div class="timeline-item"><span class="year-label">${t('kp2048')}</span></div>
-      <div class="timeline-item"><span class="year-label">${t('kp2060')}</span></div>
+    <div class="topic-body">
+      <div class="section-header">${t('homeTitle')}</div>
+      <p>${t('homeIntro1')}</p>
+      <p>${t('homeIntro2')}</p>
+      <p>${t('homeIntro3')}</p>
+
+      <div class="quote-block">
+        <div class="quote-label">${t('coreMessage')}</div>
+        ${t('coreQuote')}
+      </div>
+
+      <div class="section-header">${t('keyPoints')}</div>
+      <ul class="timeline-list">
+        <li><span class="tl-year">${t('kp2019')}</span></li>
+        <li><span class="tl-year">${t('kp2035')}</span></li>
+        <li><span class="tl-year">${t('kp2038')}</span></li>
+        <li><span class="tl-year">${t('kp2048')}</span></li>
+        <li><span class="tl-year">${t('kp2060')}</span></li>
+      </ul>
     </div>
   `;
 }
@@ -87,23 +96,25 @@ function renderAllProphecies() {
           <div class="prophecy-header">
             <span class="prophecy-id">#${p.id}</span>
             <span class="prophecy-cat">${cat.icon} ${cat[catKey]}</span>
-            ${p.year ? `<span class="prophecy-cat" style="color:var(--accent)">${p.year}</span>` : ''}
+            ${p.year ? `<span class="prophecy-year-tag">${p.year}</span>` : ''}
           </div>
           <div class="prophecy-q">${p.q}</div>
-          <div class="prophecy-a">${p.a}</div>
+          <div class="prophecy-a"><span class="kfk-name">KFK: </span>${p.a}</div>
         </div>
       `;
     });
   }
 
   page.innerHTML = `
-    <h1 class="section-title" style="margin-top:0">${t('allTitle')}</h1>
-    <p class="section-subtitle">${t('allSubtitle').replace('{count}', PROPHECIES.length)}</p>
+    <div class="all-header">
+      <h2>${t('allTitle')}</h2>
+      <div class="count">${t('allSubtitle').replace('{count}', PROPHECIES.length)}</div>
+    </div>
     <div class="toolbar">
       <input type="text" class="search-box" id="search-input" placeholder="${t('searchPlaceholder')}" value="${search}" oninput="renderAllProphecies()">
+      <div class="filter-bar">${filterHtml}</div>
     </div>
-    <div class="filter-bar" style="margin-bottom:1.5rem">${filterHtml}</div>
-    <div id="prophecy-list">${itemsHtml}</div>
+    <div class="prophecy-list">${itemsHtml}</div>
   `;
 }
 
@@ -158,7 +169,7 @@ function renderVerify() {
           <div class="verify-prophecy">
             <div class="verify-label">${t('prophecyLabel')}</div>
             <div class="verify-q">${p.q}</div>
-            <div class="verify-a" style="margin-top:0.25rem">KFK: ${p.a}</div>
+            <div class="verify-a" style="margin-top:4px"><span class="kfk-name" style="color:var(--green);font-weight:bold">KFK:</span> ${p.a}</div>
           </div>
           ${verdict ? `
             <div>
@@ -172,19 +183,21 @@ function renderVerify() {
   }).join('');
 
   page.innerHTML = `
-    <h1 class="section-title" style="margin-top:0">${t('verifyTitle')}</h1>
-    <p class="section-subtitle">${t('verifySubtitle')}</p>
-    <div class="stats-grid">
-      <div class="stat-card"><div class="stat-num accent">${verifiable.length}</div><div class="stat-label">${t('statsTotal')}</div></div>
-      <div class="stat-card"><div class="stat-num green">${verified.length}</div><div class="stat-label">${t('statsVerified')}</div></div>
-      <div class="stat-card"><div class="stat-num yellow">${partial.length}</div><div class="stat-label">${t('statsPartial')}</div></div>
-      <div class="stat-card"><div class="stat-num red">${failed.length}</div><div class="stat-label">${t('statsFailed')}</div></div>
-      <div class="stat-card"><div class="stat-num blue">${pending.length}</div><div class="stat-label">${t('statsPending')}</div></div>
+    <div class="all-header">
+      <h2>${t('verifyTitle')}</h2>
+      <div class="count">${t('verifySubtitle')}</div>
     </div>
-    <div class="hit-rate-card">
-      <div class="hit-rate-num">${hitRate}%</div>
-      <div class="hit-rate-label">${t('hitRate')}</div>
-      <div class="hit-rate-note">${lang === 'zh' ? `基于 ${decidable} 条已到期预言（已应验计1分，部分相关计0.5分）` : `Based on ${decidable} expired predictions (verified=1, partial=0.5)`}</div>
+    <div class="stats-bar">
+      <div class="stat-item"><div class="stat-num accent">${verifiable.length}</div><div class="stat-label">${t('statsTotal')}</div></div>
+      <div class="stat-item"><div class="stat-num green">${verified.length}</div><div class="stat-label">${t('statsVerified')}</div></div>
+      <div class="stat-item"><div class="stat-num orange">${partial.length}</div><div class="stat-label">${t('statsPartial')}</div></div>
+      <div class="stat-item"><div class="stat-num red">${failed.length}</div><div class="stat-label">${t('statsFailed')}</div></div>
+      <div class="stat-item"><div class="stat-num blue">${pending.length}</div><div class="stat-label">${t('statsPending')}</div></div>
+      <div class="hit-rate-box">
+        <div class="hit-rate-num">${hitRate}%</div>
+        <div class="hit-rate-label">${t('hitRate')}</div>
+        <div class="hit-rate-note">${lang === 'zh' ? `${decidable}条已到期` : `${decidable} expired`}</div>
+      </div>
     </div>
     <div class="verify-filters">${filterHtml}</div>
     <div id="verify-list">${itemsHtml}</div>
@@ -199,7 +212,7 @@ function setVerifyFilter(f) {
 function renderFooter() {
   document.getElementById('footer-text').innerHTML = `
     <p>${t('footerNote')}</p>
-    <p style="margin-top:0.5rem">${t('footerSource')}: <a href="https://www.15um.com/2709" target="_blank">15um.com</a></p>
+    <p style="margin-top:5px">${t('footerSource')}: <a href="https://www.15um.com/2709" target="_blank">15um.com</a></p>
   `;
 }
 
@@ -211,7 +224,6 @@ function renderAll() {
   renderFooter();
 }
 
-// Scroll to top
 window.addEventListener('scroll', () => {
   const btn = document.querySelector('.scroll-top');
   btn.classList.toggle('show', window.scrollY > 400);
