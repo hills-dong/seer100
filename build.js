@@ -65,33 +65,17 @@ function injectIntoHtml(htmlPath, lang) {
   const verifyTitle = lang === 'zh' ? '预言验证' : 'Prophecy Verification';
   const verifySubtitle = lang === 'zh' ? '对已到期的预言时间点进行真实度评估' : 'Evaluating predictions against reality for expired time points';
 
-  // Generate static content for page-all
-  const allHtml = `<noscript><h2>${allTitle}</h2><p>${allCount}</p>\n${generateAllProphecies(lang)}</noscript>`;
+  // Generate combined noscript content for page-home
+  const noscriptHtml = `<noscript><h1>KFK 2060 ${allTitle}</h1><p>${allCount}</p>\n` +
+    generateAllProphecies(lang) +
+    `<h2>${verifyTitle}</h2><p>${verifySubtitle}</p>\n` +
+    generateVerifyList(lang) +
+    `</noscript>`;
 
-  // Generate static content for page-verify
-  const verifyHtml = `<noscript><h2>${verifyTitle}</h2><p>${verifySubtitle}</p>\n${generateVerifyList(lang)}</noscript>`;
-
-  // Inject into page-all div
+  // Inject noscript content after last section div, replacing any existing noscript
   html = html.replace(
-    /<div id="page-all" class="page"><\/div>/,
-    `<div id="page-all" class="page">${allHtml}</div>`
-  );
-
-  // Also handle case where noscript content already exists (re-build)
-  html = html.replace(
-    /<div id="page-all" class="page"><noscript>[\s\S]*?<\/noscript><\/div>/,
-    `<div id="page-all" class="page">${allHtml}</div>`
-  );
-
-  // Inject into page-verify div
-  html = html.replace(
-    /<div id="page-verify" class="page"><\/div>/,
-    `<div id="page-verify" class="page">${verifyHtml}</div>`
-  );
-
-  html = html.replace(
-    /<div id="page-verify" class="page"><noscript>[\s\S]*?<\/noscript><\/div>/,
-    `<div id="page-verify" class="page">${verifyHtml}</div>`
+    /(\s*<div id="section-intro"[^>]*><\/div>)\s*(?:<noscript>[\s\S]*?<\/noscript>\s*)?/,
+    `$1\n    ${noscriptHtml}\n`
   );
 
   fs.writeFileSync(htmlPath, html, 'utf8');

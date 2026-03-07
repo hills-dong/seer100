@@ -4,8 +4,8 @@
   --text: #494949;
   --text2: #999;
   --text-light: #666;
-  --green: #00b51d;
-  --green-dark: #007722;
+  --green: #007722;
+  --green-dark: #005518;
   --green-bg: #f0fff0;
   --link: #37a;
   --border: #e5e5e5;
@@ -16,7 +16,11 @@
   --tag-bg: #f4f4ec;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -26,8 +30,14 @@ body {
   line-height: 1.6;
 }
 
-a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 /* Header - Douban style top bar */
 .site-header {
@@ -44,17 +54,46 @@ a:hover { text-decoration: underline; }
   padding: 0 10px;
   display: flex;
   align-items: center;
-  height: 48px;
-  gap: 20px;
+  gap: 12px;
 }
 
 .logo {
-  font-size: 18px;
-  font-weight: bold;
-  color: var(--green);
   cursor: pointer;
   white-space: nowrap;
-  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 0;
+}
+
+.nav-tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text2);
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  transition: color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+
+.nav-tab:hover {
+  color: var(--green-dark);
+}
+
+.nav-tab.active {
+  color: var(--green-dark);
+  border-bottom-color: var(--green-dark);
+  font-weight: bold;
 }
 
 nav {
@@ -76,7 +115,10 @@ nav button {
   transition: color 0.2s;
 }
 
-nav button:hover { color: var(--green); }
+nav button:hover {
+  color: var(--green);
+}
+
 nav button.active {
   color: var(--green);
   border-bottom-color: var(--green);
@@ -94,24 +136,110 @@ nav button.active {
   font-size: 12px;
 }
 
-.lang-toggle:hover { border-color: var(--green); color: var(--green); }
+.lang-toggle:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
 
 /* Main content */
 main {
   max-width: 960px;
   margin: 0 auto;
-  padding: 20px 10px 40px;
+  padding: 10px 10px 40px;
 }
 
-.page { display: none; }
-.page.active { display: block; }
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+/* Filter section */
+.filter-section {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: none;
+  padding: 10px 20px;
+}
+
+.filter-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.filter-row:last-child {
+  margin-bottom: 0;
+}
+
+.filter-label {
+  font-size: 12px;
+  color: var(--text2);
+  white-space: nowrap;
+  min-width: 56px;
+}
+
+.list-info {
+  padding: 8px 20px;
+  font-size: 12px;
+  color: var(--text2);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: none;
+}
+
+.all-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+/* Prophecy verdict inline */
+.prophecy-verdict {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: var(--tag-bg);
+  border-radius: 3px;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.prophecy-verdict .verify-label {
+  font-size: 12px;
+  color: var(--green-dark);
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+/* Status colors on prophecy items */
+.prophecy-item.verified {
+  border-left: 3px solid var(--green);
+}
+
+.prophecy-item.partial {
+  border-left: 3px solid var(--orange);
+}
+
+.prophecy-item.failed {
+  border-left: 3px solid var(--red);
+}
+
+.prophecy-item.pending {
+  border-left: 3px solid var(--blue);
+}
+
+
 
 /* ===== Home page - Douban group topic style ===== */
 .topic-header {
   background: var(--white);
   border: 1px solid var(--border);
   padding: 20px 25px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .topic-title {
@@ -126,13 +254,17 @@ main {
   color: var(--text2);
 }
 
-.topic-meta .author { color: var(--link); }
-.topic-meta .group { color: var(--link); }
+.topic-meta .author {
+  color: var(--link);
+}
+
+.topic-meta .group {
+  color: var(--link);
+}
 
 .topic-body {
   background: var(--white);
   border: 1px solid var(--border);
-  border-top: none;
   padding: 20px 25px;
 }
 
@@ -173,7 +305,9 @@ main {
   font-size: 14px;
 }
 
-.timeline-list li:last-child { border-bottom: none; }
+.timeline-list li:last-child {
+  border-bottom: none;
+}
 
 .timeline-list li::before {
   content: '';
@@ -222,10 +356,15 @@ main {
 }
 
 /* Toolbar */
+.sticky-filter-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .toolbar {
   background: var(--white);
   border: 1px solid var(--border);
-  border-top: none;
   padding: 10px 20px;
   display: flex;
   gap: 10px;
@@ -244,8 +383,13 @@ main {
   outline: none;
 }
 
-.search-box:focus { border-color: var(--green); }
-.search-box::placeholder { color: #ccc; }
+.search-box:focus {
+  border-color: var(--green);
+}
+
+.search-box::placeholder {
+  color: #ccc;
+}
 
 .filter-bar {
   display: flex;
@@ -257,7 +401,7 @@ main {
   background: var(--tag-bg);
   border: 1px solid var(--border);
   color: var(--text-light);
-  padding: 3px 10px;
+  padding: 3px 6px;
   border-radius: 3px;
   cursor: pointer;
   font-size: 12px;
@@ -265,7 +409,11 @@ main {
   white-space: nowrap;
 }
 
-.filter-btn:hover { color: var(--green); border-color: var(--green); }
+.filter-btn:hover {
+  color: var(--green);
+  border-color: var(--green);
+}
+
 .filter-btn.active {
   color: #fff;
   background: var(--green);
@@ -284,15 +432,45 @@ main {
   border-bottom: 1px solid var(--border);
 }
 
-.prophecy-item:last-child { border-bottom: none; }
+.prophecy-item:last-child {
+  border-bottom: none;
+}
 
-.prophecy-item:hover { background: #fafaf5; }
+.prophecy-item:hover {
+  background: #fafaf5;
+}
 
 .prophecy-header {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-bottom: 8px;
+  flex-wrap: nowrap;
+}
+
+.prophecy-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.prophecy-header-title {
+  font-size: 13px;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.prophecy-header-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  flex-shrink: 0;
 }
 
 .prophecy-id {
@@ -351,8 +529,8 @@ main {
 .stats-bar {
   background: var(--white);
   border: 1px solid var(--border);
-  padding: 15px 20px;
-  margin-bottom: 15px;
+  padding: 4px 20px;
+  margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -369,11 +547,25 @@ main {
   line-height: 1;
 }
 
-.stat-num.green { color: var(--green); }
-.stat-num.orange { color: var(--orange); }
-.stat-num.red { color: var(--red); }
-.stat-num.blue { color: var(--blue); }
-.stat-num.accent { color: var(--text); }
+.stat-num.green {
+  color: var(--green);
+}
+
+.stat-num.orange {
+  color: var(--orange);
+}
+
+.stat-num.red {
+  color: var(--red);
+}
+
+.stat-num.blue {
+  color: var(--blue);
+}
+
+.stat-num.accent {
+  color: var(--text);
+}
 
 .stat-label {
   font-size: 11px;
@@ -436,10 +628,25 @@ main {
   white-space: nowrap;
 }
 
-.status-badge.verified { background: #e8f5e9; color: #2e7d32; }
-.status-badge.partial { background: #fff8e1; color: #f57f17; }
-.status-badge.failed { background: #fce4ec; color: #c62828; }
-.status-badge.pending { background: #e3f2fd; color: #1565c0; }
+.status-badge.verified {
+  background: #e8f5e9;
+  color: var(--green);
+}
+
+.status-badge.partial {
+  background: #fff8e1;
+  color: #f57f17;
+}
+
+.status-badge.failed {
+  background: #fce4ec;
+  color: #c62828;
+}
+
+.status-badge.pending {
+  background: #e3f2fd;
+  color: #1565c0;
+}
 
 .verify-year {
   font-size: 12px;
@@ -447,7 +654,9 @@ main {
   font-weight: bold;
 }
 
-.verify-body { padding: 12px 15px; }
+.verify-body {
+  padding: 12px 15px;
+}
 
 .verify-prophecy {
   margin-bottom: 10px;
@@ -461,8 +670,15 @@ main {
   margin-bottom: 3px;
 }
 
-.verify-q { color: var(--text-light); font-size: 13px; }
-.verify-a { color: var(--text); font-size: 14px; }
+.verify-q {
+  color: var(--text-light);
+  font-size: 13px;
+}
+
+.verify-a {
+  color: var(--text);
+  font-size: 14px;
+}
 
 .verify-verdict {
   color: var(--text);
@@ -473,10 +689,21 @@ main {
   border-radius: 3px;
 }
 
-.verify-item.verified { border-left: 3px solid var(--green); }
-.verify-item.partial { border-left: 3px solid var(--orange); }
-.verify-item.failed { border-left: 3px solid var(--red); }
-.verify-item.pending { border-left: 3px solid var(--blue); }
+.verify-item.verified {
+  border-left: 3px solid var(--green);
+}
+
+.verify-item.partial {
+  border-left: 3px solid var(--orange);
+}
+
+.verify-item.failed {
+  border-left: 3px solid var(--red);
+}
+
+.verify-item.pending {
+  border-left: 3px solid var(--blue);
+}
 
 /* Footer - Douban style */
 footer {
@@ -489,7 +716,9 @@ footer {
   font-size: 12px;
 }
 
-footer a { color: var(--link); }
+footer a {
+  color: var(--link);
+}
 
 /* Scroll to top */
 .scroll-top {
@@ -510,20 +739,55 @@ footer a { color: var(--link); }
   z-index: 100;
 }
 
-.scroll-top:hover { color: var(--green); border-color: var(--green); }
-.scroll-top.show { display: flex; }
+.scroll-top:hover {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.scroll-top.show {
+  display: flex;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
-  .header-inner { gap: 10px; }
-  nav button { padding: 0 10px; font-size: 13px; }
-  .topic-header, .topic-body { padding: 15px; }
-  .stats-bar { gap: 12px; }
-  .hit-rate-box { margin-left: 0; border-left: none; border-top: 1px solid var(--border); padding-top: 10px; width: 100%; }
+  .header-inner {
+    gap: 10px;
+  }
+
+  nav button {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+
+  .topic-header,
+  .topic-body {
+    padding: 15px;
+  }
+
+  .stats-bar {
+    gap: 12px;
+  }
+
+  .hit-rate-box {
+    margin-left: 0;
+    border-left: none;
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-  .logo { font-size: 15px; }
-  nav button { padding: 0 8px; font-size: 12px; }
-  main { padding: 10px 5px 30px; }
+  .logo {
+    font-size: 15px;
+  }
+
+  nav button {
+    padding: 0 8px;
+    font-size: 12px;
+  }
+
+  main {
+    padding: 10px 5px 30px;
+  }
 }
