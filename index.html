@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KFK 2060 预言 | Prophecies from 2060</title>
+  <meta name="description" content="KFK 2060预言完整版 - 来自2060年的时间旅行者在豆瓣留下的282条预言，及预言验证分析">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo" onclick="switchPage('home')">KFK 2060</div>
+      <nav>
+        <button class="active" data-page="home" onclick="switchPage('home')">背景介绍</button>
+        <button data-page="all" onclick="switchPage('all')">预言全集</button>
+        <button data-page="verify" onclick="switchPage('verify')">预言验证</button>
+      </nav>
+      <button class="lang-toggle" onclick="switchLang()">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="page-home" class="page active"></div>
+    <div id="page-all" class="page"></div>
+    <div id="page-verify" class="page"></div>
+  </main>
+
+  <footer>
+    <div id="footer-text"></div>
+  </footer>
+
+  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
