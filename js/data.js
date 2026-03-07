@@ -62,7 +62,7 @@ const PROPHECIES = [
   { id: 21, cat: "economy", q: "你带钱了吗？", a: "没有。因为在2060年，纸是奢侈品。一切财富都将数字化。" },
   { id: 37, cat: "economy", q: "交通费贵吗？房价不高了，那什么是贵的？", a: "2060年的公共交通是免费的。日常比较昂贵的消费品是水果牛奶，只有富有的人可以吃。房子是极速工具建造，除非特别富有的人指定用木头作为材质，一般人都可以申请建造自己的房屋，成本都很廉价。" },
   { id: 125, cat: "economy", q: "请问在20-30年代转行就业适宜且能拿到最大红利的行业是？", a: "20年代中后期从事生机农业。我印象中从事生机农业生产者的亲戚都很富有。" },
-  { id: 223, cat: "economy", q: "比特币在你那个时代值多少？", a: "不再存在。", year: 2026, status: "failed", verdict_zh: "截至2026年，比特币不但存在，且已成为全球主要资产类别之一，多国将其纳入战略储备。", verdict_en: "As of 2026, Bitcoin not only exists but has become one of the major global asset classes, with multiple countries including it in strategic reserves." },
+  { id: 223, cat: "economy", q: "比特币在你那个时代值多少？", a: "不再存在。", year: 2060, status: "pending" },
   { id: 253, cat: "economy", q: "金融的意义是否降低？拜金主义是否加重？", a: "一个小时内，全球金融系统崩溃后，人们将不再拜金，转而追求内在文明。" },
   { id: 258, cat: "economy", q: "金融系统怎么可能在一小时内崩溃？", a: "那个时代的人也不相信。不再回答个人问题。" },
 
@@ -152,7 +152,7 @@ const PROPHECIES = [
   { id: 115, cat: "specific", q: "自动驾驶在中国成功了吗？", a: "自动驾驶在中国最终并不是成功的实验。" },
   { id: 127, cat: "specific", q: "上海在二十年代还安全吗？", a: "2048年以前都算安全。" },
   { id: 130, cat: "specific", q: "中国女排东京奥运会夺冠了吗？", a: "没有。东京奥运会会有事故发生。", year: 2021, status: "verified", verdict_zh: "中国女排确实未在东京奥运会夺冠（小组赛即被淘汰）。东京奥运会因新冠推迟一年，空场举办，可视为'事故'。应验。", verdict_en: "China's women's volleyball indeed didn't win at Tokyo Olympics (eliminated in group stage). The Olympics were delayed one year due to COVID and held without spectators — arguably an 'accident'. Verified." },
-  { id: 136, cat: "specific", q: "2032夏季奥运会是哪个国家举办？", a: "雅加达。", year: 2032, status: "failed", verdict_zh: "2032年夏季奥运会举办城市为澳大利亚布里斯班，而非雅加达。未应验。", verdict_en: "The 2032 Summer Olympics will be held in Brisbane, Australia, not Jakarta. Not verified." },
+  { id: 136, cat: "specific", q: "2032夏季奥运会是哪个国家举办？", a: "雅加达。", year: 2032, status: "pending" },
   { id: 151, cat: "specific", q: "2020年中国会统一台湾吗？", a: "不会。", year: 2020, status: "verified", verdict_zh: "2020年中国确实没有统一台湾。应验。", verdict_en: "China indeed did not unify Taiwan in 2020. Verified." },
   { id: 166, cat: "specific", q: "全世界还有哪些地方适合生存吗？", a: "西澳相对稳定。" },
   { id: 174, cat: "specific", q: "你怎么用繁体字是从台湾来的吗？", a: "2020至2048年间我生活在上海、其次是昆山、湖州、宁波。2048年至2060年我生活在澳洲。使用繁体字，只是一个旅行的选项，这样可以避免信息引起注意，被迫离开这里。" },
