@@ -65,7 +65,7 @@ function renderHome() {
   `;
 }
 
-function renderAllProphecies() {
+function renderAllProphecies(searchOnly) {
   const page = document.getElementById('page-all');
   const search = document.getElementById('search-input')?.value?.toLowerCase() || '';
 
@@ -79,11 +79,6 @@ function renderAllProphecies() {
   }).sort((a, b) => a.id - b.id);
 
   const catKey = lang === 'zh' ? 'zh' : 'en';
-
-  let filterHtml = `<button class="filter-btn ${currentCat === 'all' ? 'active' : ''}" onclick="setCat('all')">${t('filterAll')}</button>`;
-  for (const [key, val] of Object.entries(CATEGORIES)) {
-    filterHtml += `<button class="filter-btn ${currentCat === key ? 'active' : ''}" onclick="setCat('${key}')">${val.icon} ${val[catKey]}</button>`;
-  }
 
   let itemsHtml = '';
   if (filtered.length === 0) {
@@ -105,16 +100,26 @@ function renderAllProphecies() {
     });
   }
 
+  if (searchOnly) {
+    document.getElementById('prophecy-list').innerHTML = itemsHtml;
+    return;
+  }
+
+  let filterHtml = `<button class="filter-btn ${currentCat === 'all' ? 'active' : ''}" onclick="setCat('all')">${t('filterAll')}</button>`;
+  for (const [key, val] of Object.entries(CATEGORIES)) {
+    filterHtml += `<button class="filter-btn ${currentCat === key ? 'active' : ''}" onclick="setCat('${key}')">${val.icon} ${val[catKey]}</button>`;
+  }
+
   page.innerHTML = `
     <div class="all-header">
       <h2>${t('allTitle')}</h2>
       <div class="count">${t('allSubtitle').replace('{count}', PROPHECIES.length)}</div>
     </div>
     <div class="toolbar">
-      <input type="text" class="search-box" id="search-input" placeholder="${t('searchPlaceholder')}" value="${search}" oninput="renderAllProphecies()">
+      <input type="text" class="search-box" id="search-input" placeholder="${t('searchPlaceholder')}" value="${search}" oninput="renderAllProphecies(true)">
       <div class="filter-bar">${filterHtml}</div>
     </div>
-    <div class="prophecy-list">${itemsHtml}</div>
+    <div class="prophecy-list" id="prophecy-list">${itemsHtml}</div>
   `;
 }
 
