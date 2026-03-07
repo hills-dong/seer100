@@ -147,7 +147,7 @@ const PROPHECIES = [
   { id: 272, cat: "spirit", q: "你如何解释既视感？", a: "瞬间意识到观察者存在的感知。" },
 
   // ===== 具体预测 =====
-  { id: 48, cat: "specific", q: "今年看来还不是所谓的"多事之秋"啊，集中在下半年？", a: "下半年。", year: 2019, status: "verified", verdict_zh: "2019年下半年：香港事件、中美贸易战升级、12月新冠病毒出现。确实是多事之秋。", verdict_en: "2019 H2: Hong Kong protests, US-China trade war escalation, COVID-19 emerged in December. Indeed an eventful period." },
+  { id: 48, cat: "specific", q: "今年看来还不是所谓的'多事之秋'啊，集中在下半年？", a: "下半年。", year: 2019, status: "verified", verdict_zh: "2019年下半年：香港事件、中美贸易战升级、12月新冠病毒出现。确实是多事之秋。", verdict_en: "2019 H2: Hong Kong protests, US-China trade war escalation, COVID-19 emerged in December. Indeed an eventful period." },
   { id: 50, cat: "specific", q: "大清药丸了吗？", a: "我透过数据分析后，才理解你这句话于2019年才能明白的古语。我这里的数据结论是2048年。", year: 2048, status: "pending" },
   { id: 115, cat: "specific", q: "自动驾驶在中国成功了吗？", a: "自动驾驶在中国最终并不是成功的实验。" },
   { id: 127, cat: "specific", q: "上海在二十年代还安全吗？", a: "2048年以前都算安全。" },
