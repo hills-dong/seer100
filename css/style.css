@@ -781,7 +781,9 @@ footer a {
   }
 
   .prophecy-header-title {
+    order: 3;
     width: 100%;
+    flex-basis: 100%;
     white-space: normal;
     overflow: visible;
   }
