@@ -775,6 +775,16 @@ footer a {
     padding-top: 10px;
     width: 100%;
   }
+
+  .prophecy-header {
+    flex-wrap: wrap;
+  }
+
+  .prophecy-header-title {
+    width: 100%;
+    white-space: normal;
+    overflow: visible;
+  }
 }
 
 @media (max-width: 480px) {
