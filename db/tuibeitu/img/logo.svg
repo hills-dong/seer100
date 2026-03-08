@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 28" height="20">
+  <!-- Taijitu (yin-yang) symbol -->
+  <circle cx="14" cy="14" r="12" fill="#1a3a5c"/>
+  <!-- Light half (right) -->
+  <path d="M14,2 A12,12 0 0,1 14,26 A6,6 0 0,0 14,14 A6,6 0 0,1 14,2" fill="#f0ece4"/>
+  <!-- Small dots -->
+  <circle cx="14" cy="8" r="2.2" fill="#f0ece4"/>
+  <circle cx="14" cy="20" r="2.2" fill="#1a3a5c"/>
+  <!-- Outer ring -->
+  <circle cx="14" cy="14" r="12" fill="none" stroke="#1a3a5c" stroke-width="0.8"/>
+  <!-- Text: 推背图 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#1a3a5c" letter-spacing="2">推背图</text>
+</svg>

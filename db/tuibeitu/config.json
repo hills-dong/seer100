@@ -1,0 +1,98 @@
+{
+  "siteId": "tuibeitu",
+  "answererName": "李淳风 & 袁天罡",
+  "baseUrl": "https://pre.hilife.me/tuibeitu",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "推背图全集 - 唐代李淳风袁天罡60象预言详解与验证 | Tui Bei Tu Prophecies",
+      "description": "推背图是唐朝贞观年间由太史令李淳风与术士袁天罡合著的预言奇书，全书共60象，每象以卦象、图画、谶语、颂诗四部分构成，据信预言了从唐朝至未来的中国历史大事。本站完整收录60象原文并进行验证分析。",
+      "keywords": "推背图,李淳风,袁天罡,推背图预言,推背图60象,金圣叹,Tui Bei Tu",
+      "siteName": "推背图预言",
+      "ogTitle": "推背图全集 - 唐代60象预言详解 | Tui Bei Tu",
+      "ogDescription": "唐代李淳风袁天罡合著《推背图》60象预言完整收录与验证分析。涵盖朝代更替、战争兴衰、历史转折等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "推背图预言验证：武则天称帝、安史之乱、靖康之变、明太祖登极、日本投降等。60象预言逐一解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Tui Bei Tu - Complete 60 Prophecies from Tang Dynasty China | Full Archive & Verification",
+      "description": "Tui Bei Tu (推背图) is a Tang dynasty Chinese prophecy text attributed to Li Chunfeng and Yuan Tiangang, containing 60 prophetic images with hexagrams, illustrations, and verses predicting China's future from the 7th century onward. Full archive with accuracy verification.",
+      "keywords": "Tui Bei Tu,Li Chunfeng,Yuan Tiangang,Chinese prophecy,Tang dynasty prophecy",
+      "siteName": "Tui Bei Tu Prophecies",
+      "ogTitle": "Tui Bei Tu - The Complete 60 Prophecies of Tang Dynasty China",
+      "ogDescription": "60 prophetic images from Tang dynasty seers Li Chunfeng and Yuan Tiangang. Full archive with real-world verification covering dynastic changes, wars, and historical turning points.",
+      "locale": "en_US",
+      "twitterDescription": "Tui Bei Tu prophecies verified: Wu Zetian's reign, An Lushan Rebellion, fall of Northern Song, Ming dynasty founding, WWII surrender and more. 60 images analyzed."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "推背图预言",
+      "alternateName": "Tui Bei Tu Prophecies",
+      "url": "https://pre.hilife.me/tuibeitu/",
+      "description": "唐代李淳风袁天罡合著《推背图》60象预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "推背图是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "推背图相传为唐朝贞观年间太史令李淳风与术士袁天罡合著的预言书。全书共60象，每象包含一幅图画、一个卦象、一首谶语和一首颂诗，据信预言了从唐朝至未来的中国重大历史事件。现存最流行的版本为清代金圣叹批注本。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "推背图的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "前40余象被认为与历史事件高度吻合，包括武则天称帝、安史之乱、靖康之变、明朝建立、清朝入关等。但学界对推背图的成书年代和真伪存在较大争议，部分学者认为现存版本可能经过后人增补修改。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Tui Bei Tu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tui Bei Tu (推背图) is a Chinese prophetic text traditionally attributed to two Tang dynasty astrologers, Li Chunfeng and Yuan Tiangang, composed during the reign of Emperor Taizong (circa 7th century). It contains 60 prophetic images, each with a hexagram, illustration, cryptic verse, and commentary poem, believed to predict major events in Chinese history from the Tang dynasty into the future."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f0ece4",
+    "white": "#fff",
+    "text": "#2c2416",
+    "text2": "#8a7e6e",
+    "textLight": "#5c5245",
+    "primary": "#1a3a5c",
+    "primaryDark": "#0d2440",
+    "primaryBg": "#e8eef5",
+    "link": "#1a3a5c",
+    "border": "#d8d0c4",
+    "border2": "#bab2a4",
+    "orange": "#c4880e",
+    "red": "#b84040",
+    "blue": "#2c5a8c",
+    "tagBg": "#ebe6dc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "推背图 Tui Bei Tu"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/推背图",
+    "sourceLabel": "维基百科"
+  }
+}
