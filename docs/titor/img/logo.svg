@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 28" height="20">
-  <!-- Hourglass/time symbol -->
-  <polygon points="6,3 22,3 14,14" fill="#4a6741"/>
-  <polygon points="6,25 22,25 14,14" fill="#354d30"/>
-  <circle cx="14" cy="14" r="2.5" fill="#f2f3f0"/>
+  <!-- Time vortex: concentric circles with clock hands -->
+  <circle cx="14" cy="14" r="12" fill="none" stroke="#4a6741" stroke-width="2.5"/>
+  <circle cx="14" cy="14" r="7" fill="none" stroke="#354d30" stroke-width="1.8"/>
+  <circle cx="14" cy="14" r="2.5" fill="#4a6741"/>
+  <!-- Clock hands -->
+  <line x1="14" y1="14" x2="14" y2="5" stroke="#354d30" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="14" y1="14" x2="21" y2="14" stroke="#4a6741" stroke-width="1.3" stroke-linecap="round"/>
   <!-- Site name -->
   <text x="32" y="19" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#354d30" letter-spacing="0.5">JOHN TITOR</text>
 </svg>

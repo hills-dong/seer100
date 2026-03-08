@@ -2,7 +2,7 @@
 // Generate 180x180 PNG favicons by parsing logo SVG icon shapes.
 // No external dependencies - uses zlib for deflate and manual PNG chunk construction.
 //
-// For sites with logo.svg: auto-parses circle, polygon, path elements and renders them.
+// For sites with logo.svg: auto-parses circle, line, rect, polygon, path elements and renders them.
 // For sites with logo.png (no SVG): uses custom builder if registered.
 
 const fs = require('fs');
@@ -30,7 +30,7 @@ function dist(x, y, cx, cy) {
 }
 
 // ============================================================
-// SVG parsing — extract circle, polygon, path from logo SVG
+// SVG parsing — extract circle, line, rect, polygon, path from logo SVG
 // ============================================================
 
 function parseAttrs(str) {
@@ -43,7 +43,7 @@ function parseAttrs(str) {
 
 function parseSvgShapes(svgContent) {
   const shapes = [];
-  const tagRe = /<(circle|polygon|path)\s+([^>]*?)\/>/g;
+  const tagRe = /<(circle|line|rect|polygon|path)\s+([^>]*?)\/>/g;
   let m;
   while ((m = tagRe.exec(svgContent)) !== null) {
     const tag = m[1];
@@ -58,13 +58,36 @@ function parseSvgShapes(svgContent) {
       const sw = parseFloat(a['stroke-width'] || 0);
       if (fill !== 'none') shapes.push({ type: 'circle', cx, cy, r, color: hexToRGB(fill) });
       if (stroke !== 'none' && sw > 0) shapes.push({ type: 'ring', cx, cy, r, sw, color: hexToRGB(stroke) });
+    } else if (tag === 'line') {
+      const x1 = parseFloat(a.x1 || 0), y1 = parseFloat(a.y1 || 0);
+      const x2 = parseFloat(a.x2 || 0), y2 = parseFloat(a.y2 || 0);
+      const stroke = a.stroke || 'none';
+      const sw = parseFloat(a['stroke-width'] || 1);
+      const linecap = a['stroke-linecap'] || 'butt';
+      if (stroke !== 'none') shapes.push({ type: 'line', x1, y1, x2, y2, sw, linecap, color: hexToRGB(stroke) });
+    } else if (tag === 'rect') {
+      const rx = parseFloat(a.x || 0), ry = parseFloat(a.y || 0);
+      const rw = parseFloat(a.width || 0), rh = parseFloat(a.height || 0);
+      const cr = parseFloat(a.rx || a.ry || 0);
+      const fill = a.fill || 'none';
+      const stroke = a.stroke || 'none';
+      const sw = parseFloat(a['stroke-width'] || 0);
+      if (fill !== 'none') shapes.push({ type: 'rect', rx, ry, rw, rh, cr, color: hexToRGB(fill) });
+      if (stroke !== 'none' && sw > 0) shapes.push({ type: 'rect_stroke', rx, ry, rw, rh, cr, sw, color: hexToRGB(stroke) });
     } else if (tag === 'polygon') {
       const pts = a.points.trim().split(/\s+/).map(p => p.split(',').map(Number));
-      if (a.fill !== 'none') shapes.push({ type: 'polygon', pts, color: hexToRGB(a.fill || '#000') });
+      const fill = a.fill || '#000';
+      const stroke = a.stroke || 'none';
+      const sw = parseFloat(a['stroke-width'] || 0);
+      if (fill !== 'none') shapes.push({ type: 'polygon', pts, color: hexToRGB(fill) });
+      if (stroke !== 'none' && sw > 0) shapes.push({ type: 'poly_stroke', pts, sw, color: hexToRGB(stroke) });
     } else if (tag === 'path' && a.d) {
-      if ((a.fill || '#000') !== 'none') {
-        shapes.push({ type: 'path', polyline: pathToPolyline(a.d), color: hexToRGB(a.fill || '#000') });
-      }
+      const fill = a.fill || '#000';
+      const stroke = a.stroke || 'none';
+      const sw = parseFloat(a['stroke-width'] || 0);
+      const polyline = pathToPolyline(a.d);
+      if (fill !== 'none') shapes.push({ type: 'path', polyline, color: hexToRGB(fill) });
+      if (stroke !== 'none' && sw > 0) shapes.push({ type: 'path_stroke', polyline, sw, color: hexToRGB(stroke) });
     }
   }
   return shapes;
@@ -156,6 +179,38 @@ function distToPolyEdge(px, py, poly) {
   return minD;
 }
 
+// Distance from point to line segment
+function distToSeg(px, py, x1, y1, x2, y2) {
+  const dx = x2 - x1, dy = y2 - y1, len2 = dx * dx + dy * dy;
+  if (len2 === 0) return dist(px, py, x1, y1);
+  const t = Math.max(0, Math.min(1, ((px - x1) * dx + (py - y1) * dy) / len2));
+  return dist(px, py, x1 + t * dx, y1 + t * dy);
+}
+
+// Distance from point to polyline (open path, not closed polygon)
+function distToPolylineEdge(px, py, pts) {
+  let minD = Infinity;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const d = distToSeg(px, py, pts[i][0], pts[i][1], pts[i+1][0], pts[i+1][1]);
+    if (d < minD) minD = d;
+  }
+  return minD;
+}
+
+// Check if point is inside a rounded rectangle
+function pointInRoundedRect(px, py, rx, ry, rw, rh, cr) {
+  if (px < rx || px > rx + rw || py < ry || py > ry + rh) return false;
+  if (cr <= 0) return true;
+  // Check corners
+  for (const [ccx, ccy] of [[rx+cr, ry+cr], [rx+rw-cr, ry+cr], [rx+cr, ry+rh-cr], [rx+rw-cr, ry+rh-cr]]) {
+    if (px >= rx && px <= rx+rw && py >= ry && py <= ry+rh) {
+      const inCornerRegion = (px < rx+cr || px > rx+rw-cr) && (py < ry+cr || py > ry+rh-cr);
+      if (inCornerRegion && dist(px, py, ccx, ccy) > cr) return false;
+    }
+  }
+  return true;
+}
+
 // Compute shape coverage (0..1) at logo-space point (lx, ly)
 function shapeCoverage(shape, lx, ly) {
   const aa = AA;
@@ -175,12 +230,64 @@ function shapeCoverage(shape, lx, ly) {
     if (d > outer - aa) cov = Math.min(cov, (outer - d + aa) / (2 * aa));
     return Math.max(0, cov);
   }
+  if (shape.type === 'line') {
+    const d = distToSeg(lx, ly, shape.x1, shape.y1, shape.x2, shape.y2);
+    const halfW = shape.sw / 2;
+    // Round linecap: extend with circle at endpoints
+    if (shape.linecap === 'round') {
+      const dEnd1 = dist(lx, ly, shape.x1, shape.y1);
+      const dEnd2 = dist(lx, ly, shape.x2, shape.y2);
+      const minD = Math.min(d, dEnd1, dEnd2);
+      if (minD <= halfW - aa) return 1;
+      if (minD >= halfW + aa) return 0;
+      return (halfW + aa - minD) / (2 * aa);
+    }
+    if (d <= halfW - aa) return 1;
+    if (d >= halfW + aa) return 0;
+    return (halfW + aa - d) / (2 * aa);
+  }
+  if (shape.type === 'rect') {
+    const inside = pointInRoundedRect(lx, ly, shape.rx, shape.ry, shape.rw, shape.rh, shape.cr);
+    if (inside) return 1;
+    return 0;
+  }
+  if (shape.type === 'rect_stroke') {
+    // Approximate: render as 4 lines forming a rectangle border
+    const { rx, ry, rw, rh, sw } = shape;
+    const halfW = sw / 2;
+    const lines = [
+      [rx, ry, rx+rw, ry], [rx+rw, ry, rx+rw, ry+rh],
+      [rx+rw, ry+rh, rx, ry+rh], [rx, ry+rh, rx, ry]
+    ];
+    let minD = Infinity;
+    for (const [x1, y1, x2, y2] of lines) {
+      const d = distToSeg(lx, ly, x1, y1, x2, y2);
+      if (d < minD) minD = d;
+    }
+    if (minD <= halfW - aa) return 1;
+    if (minD >= halfW + aa) return 0;
+    return (halfW + aa - minD) / (2 * aa);
+  }
   if (shape.type === 'polygon' || shape.type === 'path') {
     const poly = shape.type === 'polygon' ? shape.pts : shape.polyline;
     const inside = pointInPolygon(lx, ly, poly);
     const ed = distToPolyEdge(lx, ly, poly);
     if (inside) return ed >= aa ? 1 : ed / aa;
     return ed < aa ? 1 - ed / aa : 0;
+  }
+  if (shape.type === 'poly_stroke') {
+    const halfW = shape.sw / 2;
+    const d = distToPolyEdge(lx, ly, shape.pts);
+    if (d <= halfW - aa) return 1;
+    if (d >= halfW + aa) return 0;
+    return (halfW + aa - d) / (2 * aa);
+  }
+  if (shape.type === 'path_stroke') {
+    const halfW = shape.sw / 2;
+    const d = distToPolylineEdge(lx, ly, shape.polyline);
+    if (d <= halfW - aa) return 1;
+    if (d >= halfW + aa) return 0;
+    return (halfW + aa - d) / (2 * aa);
   }
   return 0;
 }

@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 28" height="20">
-  <!-- Hexagonal portal/gateway -->
-  <polygon points="14,2 24.5,8 24.5,20 14,26 3.5,20 3.5,8" fill="none" stroke="#2563a0" stroke-width="2.5"/>
-  <polygon points="14,7 20,10.5 20,17.5 14,21 8,17.5 8,10.5" fill="#2563a0"/>
+  <!-- Hexagonal portal -->
+  <polygon points="14,2 24.5,8 24.5,20 14,26 3.5,20 3.5,8" fill="none" stroke="#2563a0" stroke-width="2"/>
+  <!-- Inner hexagon filled -->
+  <polygon points="14,8 19.5,11 19.5,17 14,20 8.5,17 8.5,11" fill="#2563a0"/>
   <!-- Arrow in center -->
-  <polygon points="12,11 18,14 12,17" fill="#f0f2f5"/>
+  <polygon points="12,11.5 17.5,14 12,16.5" fill="#f0f2f5"/>
+  <!-- Cross lines for digital feel -->
+  <line x1="14" y1="2" x2="14" y2="8" stroke="#1a4670" stroke-width="1"/>
+  <line x1="14" y1="20" x2="14" y2="26" stroke="#1a4670" stroke-width="1"/>
   <!-- Site name -->
   <text x="32" y="19" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#1a4670" letter-spacing="2">2062未来人</text>
 </svg>
