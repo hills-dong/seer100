@@ -38,16 +38,22 @@ function switchTab(tab) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function tlItem(key) {
+  const raw = t(key);
+  const sep = raw.includes('——') ? '——' : '—';
+  const parts = raw.split(sep);
+  return `<li><span class="tl-year">${(parts[0] || '').trim()}</span> — ${(parts[1] || '').trim()}</li>`;
+}
+
 function renderIntro() {
-  const answerer = typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG.answererName : 'KFK';
-  const group = lang === 'zh' ? '豆瓣 苏珊米勒小组' : 'Douban Susan Miller Group';
+  const answerer = typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG.answererName : '';
+  const pubDate = typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG.publishDate : '';
   document.getElementById('section-intro').innerHTML = `
     <div class="topic-header">
       <h1 class="topic-title">${t('homeTitle')}</h1>
       <div class="topic-meta">
-        <span class="author">${answerer}</span> ·
-        <span class="group">${group}</span> ·
-        <span>2019-06-22</span>
+        <span class="author">${answerer}</span>
+        ${pubDate ? ` · <span>${pubDate}</span>` : ''}
       </div>
     </div>
     <div class="topic-body">
@@ -60,11 +66,11 @@ function renderIntro() {
       </div>
       <div class="section-header">${t('keyPoints')}</div>
       <ul class="timeline-list">
-        <li><span class="tl-year">2019</span> — ${t('kp2019').split('——')[1] || t('kp2019').split('—')[1] || ''}</li>
-        <li><span class="tl-year">2035</span> — ${t('kp2035').split('——')[1] || t('kp2035').split('—')[1] || ''}</li>
-        <li><span class="tl-year">2038</span> — ${t('kp2038').split('——')[1] || t('kp2038').split('—')[1] || ''}</li>
-        <li><span class="tl-year">2048</span> — ${t('kp2048').split('——')[1] || t('kp2048').split('—')[1] || ''}</li>
-        <li><span class="tl-year">2060</span> — ${t('kp2060').split('——')[1] || t('kp2060').split('—')[1] || ''}</li>
+        ${tlItem('kp2019')}
+        ${tlItem('kp2035')}
+        ${tlItem('kp2038')}
+        ${tlItem('kp2048')}
+        ${tlItem('kp2060')}
       </ul>
     </div>
   `;
@@ -100,12 +106,14 @@ function renderList(searchOnly) {
       const cat = CATEGORIES[p.cat];
       const st = p.status ? STATUS_MAP[p.status] : null;
       const verdict = p[verdictKey] || '';
+      const pubDate = p.date || (typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG.publishDate : '');
       itemsHtml += `
         <div class="prophecy-item${st ? ' ' + st.cls : ''}">
           <div class="prophecy-header">
             <div class="prophecy-header-title"><span class="prophecy-id">#${p.id}</span> ${pq(p)}</div>
             <div class="prophecy-header-tags">
               <span class="prophecy-cat">${cat.icon} ${cat[catKey]}</span>
+              ${pubDate ? `<span class="prophecy-date">${pubDate}</span>` : ''}
               ${p.year ? `<span class="prophecy-year-tag">${p.year}</span>` : ''}
               ${st ? `<span class="status-badge ${st.cls}">${st.icon} ${st[catKey]}</span>` : ''}
             </div>

@@ -157,7 +157,7 @@ function generateHTML(siteData, lang) {
   // Inline data scripts
   const dataScript = `const PROPHECIES = ${JSON.stringify(prophecies.prophecies)};\nconst CATEGORIES = ${JSON.stringify(prophecies.categories)};\nconst STATUS_MAP = ${JSON.stringify(prophecies.statusMap)};`;
   const i18nScript = `const I18N = ${JSON.stringify(i18n)};`;
-  const siteConfigScript = `var SITE_CONFIG = ${JSON.stringify({ answererName: config.answererName, siteId: config.siteId })};`;
+  const siteConfigScript = `var SITE_CONFIG = ${JSON.stringify({ answererName: config.answererName, siteId: config.siteId, publishDate: config.publishDate || '' })};`;
 
   // Replace all placeholders
   const replacements = {

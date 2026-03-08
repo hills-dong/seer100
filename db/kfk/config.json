@@ -1,6 +1,7 @@
 {
   "siteId": "kfk",
   "answererName": "KFK",
+  "publishDate": "2019-06-22",
   "baseUrl": "https://pre.hilife.me/kfk/",
   "defaultLang": "zh",
   "languages": ["zh", "en"],

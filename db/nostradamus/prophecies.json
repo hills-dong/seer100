@@ -407,9 +407,9 @@
       "q_en": "Quatrain 2025-1: Cruel Wars and Return",
       "a_en": "\"Cruel wars are being prepared. In that year, the plague more terrible than enemies. The youth of France shall suffer terrible hardship.\"\n\nInterpretation: Some Nostradamus scholars interpret this as geopolitical tensions and possible conflict escalation in 2025.",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "partial",
+      "verdict_zh": "2025年俄乌战争持续，但未爆发新的大规模瘟疫，法国青年也未遭受特别苦难。战争部分相符，瘟疫部分不符。",
+      "verdict_en": "The Russia-Ukraine war continued in 2025, but no major new plague emerged and French youth did not suffer specifically. War aspect partially matches, plague aspect does not."
     },
     {
       "id": 34,
@@ -419,9 +419,9 @@
       "q_en": "Quatrain 2025-2: Plague Worse Than Enemies",
       "a_en": "\"In many places the plague rages. Suffering worse than torment from the enemy. Finally all will seek new refuge.\"\n\nInterpretation: Possibly referring to new infectious diseases or recurring pandemics emerging after 2025.",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "failed",
+      "verdict_zh": "2025年全球未爆发大规模新疫情，COVID-19已降级为常规流行病。",
+      "verdict_en": "No major new pandemic emerged globally in 2025. COVID-19 was downgraded to an endemic disease."
     },
     {
       "id": 35,
@@ -431,9 +431,9 @@
       "q_en": "Quatrain 2025-3: The Bee Swarm Quatrain",
       "a_en": "\"The king of bees shall lose his swarm. The new Napoleon will not be crowned. Under the tricolor, the empire shall change.\"\n\nInterpretation: Bees are a Napoleonic symbol. Interpreted as major changes in French politics or leadership transition in 2025.",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "partial",
+      "verdict_zh": "2025年法国经历政治动荡，但并未发生帝制改变或三色旗下的根本性变革。",
+      "verdict_en": "France experienced political turbulence in 2025, but no fundamental regime change occurred under the tricolor."
     },
     {
       "id": 36,
@@ -443,9 +443,9 @@
       "q_en": "Quatrain 2025-4: Seven Months War",
       "a_en": "\"War shall last seven months. People will die from wickedness. Rouen and Evreux will not surrender to the king.\"\n\nInterpretation: Some interpreters believe this points to a military conflict lasting seven months in 2025.",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "failed",
+      "verdict_zh": "2025年未发生涉及鲁昂或埃夫勒的七个月战争。",
+      "verdict_en": "No seven-month war involving Rouen or Evreux occurred in 2025."
     },
     {
       "id": 37,
@@ -455,9 +455,9 @@
       "q_en": "Quatrain 2025-5: Solar Eclipse Omen",
       "a_en": "\"On the day of the eclipse, a monster shall be seen. Each interprets differently: the price too high, none prepared. No one expected this day.\"\n\nInterpretation: The partial solar eclipse of March 29, 2025, and the total solar eclipse of August 12, 2026, are linked to this prophecy by some.",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "partial",
+      "verdict_zh": "2025年3月29日确实发生了日偏食，但未出现所谓的「怪兽」或重大灾变。日食天象部分应验。",
+      "verdict_en": "A partial solar eclipse did occur on March 29, 2025, but no 'monster' was sighted nor major catastrophe followed. The celestial event partially matches."
     },
     {
       "id": 38,
@@ -467,9 +467,9 @@
       "q_en": "Quatrain 2025-6: Cities Flooded",
       "a_en": "\"The great city will be flooded by water. The sea will breach the levees. People will seek refuge on rooftops.\"\n\nInterpretation: Interpreted as coastal city flooding from extreme climate events in 2025-2026.",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "partial",
+      "verdict_zh": "2025年全球多地遭受极端暴雨和洪灾，但未出现某座标志性城市被完全淹没的事件。极端天气趋势部分应验。",
+      "verdict_en": "Multiple regions experienced extreme rainfall and flooding in 2025, but no iconic city was completely submerged. The trend of extreme weather partially matches."
     },
     {
       "id": 39,
@@ -479,9 +479,9 @@
       "q_en": "Quatrain 2025-7: Iron Birds and Silent Voice",
       "a_en": "\"Iron birds shall fly without a pilot. A silent voice will spread across the world. People will speak to machines, and the machines shall answer.\"\n\nInterpretation: 'Pilotless iron birds' as drones and autonomous aircraft; 'silent voice' and 'speaking to machines' as AI assistants and large language models.",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "verified",
+      "verdict_zh": "2025年AI语音助手和大语言模型（ChatGPT、Claude等）已深度融入日常生活，自主无人机广泛部署。「人们将与机器交谈，机器也将回应」精准应验。",
+      "verdict_en": "By 2025, AI voice assistants and large language models (ChatGPT, Claude, etc.) became deeply integrated into daily life. Autonomous drones were widely deployed. 'People will speak to machines, and the machines shall answer' proved remarkably accurate."
     },
     {
       "id": 40,

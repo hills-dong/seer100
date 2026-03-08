@@ -54,7 +54,7 @@ a:hover {
   padding: 0 10px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
 }
 
 .logo {
@@ -478,6 +478,11 @@ main {
   padding: 1px 6px;
   border-radius: 2px;
   border: 1px solid var(--border);
+}
+
+.prophecy-date {
+  font-size: 11px;
+  color: var(--text2);
 }
 
 .prophecy-year-tag {

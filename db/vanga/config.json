@@ -1,6 +1,7 @@
 {
   "siteId": "vanga",
   "answererName": "Baba Vanga",
+  "publishDate": "1911-1996",
   "baseUrl": "https://pre.hilife.me/vanga",
   "defaultLang": "zh",
   "languages": ["zh", "en"],

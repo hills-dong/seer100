@@ -28,6 +28,7 @@
   <meta name="twitter:description" content="{{twitterDescription}}">
 
   <link rel="icon" type="image/png" href="{{assetPrefix}}img/favicon.png">
+  <link rel="apple-touch-icon" href="{{assetPrefix}}img/favicon.png">
   <link rel="stylesheet" href="{{assetPrefix}}css/style.css">
 
   <!-- Structured Data -->
