@@ -1,6 +1,7 @@
 {
   "siteId": "nostradamus",
   "answererName": "Nostradamus",
+  "publishDate": "1555",
   "baseUrl": "https://pre.hilife.me/nostradamus",
   "defaultLang": "zh",
   "languages": ["zh", "en"],

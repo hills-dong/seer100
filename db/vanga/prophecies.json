@@ -109,9 +109,9 @@
       "q_en": "2025 European conflict",
       "a_en": "\"Europe will experience severe war conflict, causing large areas to become sparsely populated.\"",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "partial",
+      "verdict_zh": "2025年俄乌战争持续，但未导致欧洲大片地区人口稀少。冲突存在但规模未达预言程度。",
+      "verdict_en": "The Russia-Ukraine war continued in 2025, but did not cause large areas of Europe to become depopulated. Conflict existed but not at the predicted scale."
     },
     {
       "id": 9,
@@ -121,9 +121,9 @@
       "q_en": "2025: Lab-grown organs",
       "a_en": "\"Lab-grown human organs will be used for medical purposes.\"",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "partial",
+      "verdict_zh": "2025年类器官和生物打印技术取得显著进展，但实验室培育的完整器官尚未用于常规临床移植。",
+      "verdict_en": "Organoid and bioprinting technologies made significant advances in 2025, but lab-grown complete organs were not yet used in routine clinical transplants."
     },
     {
       "id": 10,
@@ -133,9 +133,9 @@
       "q_en": "2025: Alien contact",
       "a_en": "\"Humans will make contact with aliens during a major sporting event.\"",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "failed",
+      "verdict_zh": "2025年未在任何体育赛事期间发生与外星人的接触事件。",
+      "verdict_en": "No contact with extraterrestrial beings occurred during any sporting event in 2025."
     },
     {
       "id": 11,
@@ -145,9 +145,9 @@
       "q_en": "2025: Human telepathy",
       "a_en": "\"Humans will develop telepathy, possibly through brain-computer interfaces.\"",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "status": "partial",
+      "verdict_zh": "2025年Neuralink等脑机接口技术取得重要进展，首批人体试验成功，但真正的心灵感应能力尚未实现。",
+      "verdict_en": "Neuralink and other BCI technologies made important progress in 2025 with successful first human trials, but true telepathic ability has not been achieved."
     },
     {
       "id": 12,

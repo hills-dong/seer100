@@ -802,7 +802,9 @@
       "q_en": "When do Chinese house prices start declining?",
       "a_en": "I don't remember the exact year clearly, so it should be in the early 2020s.",
       "year": 2025,
-      "status": "pending"
+      "status": "verified",
+      "verdict_zh": "中国房价自2021年起持续下跌，2025年多地房价已回落至2016-2017年水平，预言应验。",
+      "verdict_en": "Chinese housing prices have been declining since 2021. By 2025, prices in many cities had fallen back to 2016-2017 levels. Prediction verified."
     },
     {
       "id": 73,
@@ -842,7 +844,9 @@
       "q_en": "You said 2019 is the year before your birth, and houses weren't valuable when you were born — so houses become cheap next year?",
       "a_en": "I don't care much about houses. I can only share an impression — in the 2020s, houses start becoming worthless.",
       "year": 2025,
-      "status": "pending"
+      "status": "verified",
+      "verdict_zh": "中国楼市下行趋势明确，2025年房产投资价值大幅缩水，「房子不值钱」的趋势已经显现。",
+      "verdict_en": "The Chinese housing market downturn is clear. By 2025, real estate investment value had significantly diminished. The trend of 'houses becoming worthless' has manifested."
     },
     {
       "id": 7,
