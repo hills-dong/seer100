@@ -8,7 +8,7 @@
     "biology": { "zh": "生命与进化", "en": "Biology & Evolution", "icon": "🧬" },
     "spirit": { "zh": "宗教与精神", "en": "Religion & Spirit", "icon": "🔮" },
     "politics": { "zh": "政治与人物", "en": "Politics & Figures", "icon": "👤" },
-    "history": { "zh": "已验证历史", "en": "Verified Historical", "icon": "📜" }
+    "energy": { "zh": "能源与环境", "en": "Energy & Environment", "icon": "⚡" }
   },
   "statusMap": {
     "verified": { "zh": "已应验", "en": "Verified", "icon": "✅", "cls": "verified" },
@@ -19,7 +19,7 @@
   "prophecies": [
     {
       "id": 1,
-      "cat": "history",
+      "cat": "war",
       "q": "1989年，万加对美国发出警告",
       "a": "「恐怖啊，恐怖！美国的兄弟将在钢铁之鸟的攻击下倒塌。丛林中的狼群将嚎叫。无辜者的鲜血将四处喷溅。」",
       "q_en": "In 1989, Vanga warned about America",
@@ -31,7 +31,7 @@
     },
     {
       "id": 2,
-      "cat": "history",
+      "cat": "disaster",
       "q": "1980年，万加提到库尔斯克",
       "a": "「在1999年8月，库尔斯克将被淹没在水下，整个世界都会为之哀悼。」",
       "q_en": "In 1980, Vanga mentioned Kursk",
@@ -43,7 +43,7 @@
     },
     {
       "id": 3,
-      "cat": "history",
+      "cat": "politics",
       "q": "万加曾预言美国第44任总统",
       "a": "「第44任美国总统将是一位非裔美国人。但他也将是最后一位总统。」",
       "q_en": "Vanga predicted the 44th US president",
@@ -55,7 +55,7 @@
     },
     {
       "id": 4,
-      "cat": "history",
+      "cat": "politics",
       "q": "1969年，万加对印度总理英迪拉·甘地发出警告",
       "a": "「裙子会毁了她。我在烟火中看见一件橙黄色的裙子。」",
       "q_en": "In 1969, Vanga warned Indian PM Indira Gandhi",
@@ -67,7 +67,7 @@
     },
     {
       "id": 5,
-      "cat": "history",
+      "cat": "spirit",
       "q": "万加预言自己的死亡日期",
       "a": "「我将在1996年8月11日离开。」",
       "q_en": "Vanga predicted her own death",
@@ -79,7 +79,7 @@
     },
     {
       "id": 6,
-      "cat": "history",
+      "cat": "disaster",
       "q": "万加预言了2022年的干旱和洪水",
       "a": "「大城市将经历干旱和水源短缺，澳大利亚和亚洲将面临严重洪灾。」",
       "q_en": "Vanga predicted 2022 droughts and floods",
@@ -151,7 +151,7 @@
     },
     {
       "id": 12,
-      "cat": "tech",
+      "cat": "energy",
       "q": "2025年：新能源发现",
       "a": "「一种新的能源将被发现。」",
       "q_en": "2025: New energy source",
@@ -163,7 +163,7 @@
     },
     {
       "id": 13,
-      "cat": "tech",
+      "cat": "energy",
       "q": "新能源与太空探索",
       "a": "「一种新的能源被创造出来，世界饥荒被消除，人类到达金星。」",
       "q_en": "New energy and space exploration",
@@ -487,7 +487,7 @@
     },
     {
       "id": 40,
-      "cat": "tech",
+      "cat": "energy",
       "q": "从黑洞中获取能量",
       "a": "「人类将发现如何从黑洞和物质弯曲中获取能量。」",
       "q_en": "Energy from black holes",
