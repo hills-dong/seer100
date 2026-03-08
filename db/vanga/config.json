@@ -1,0 +1,68 @@
+{
+  "siteId": "vanga",
+  "answererName": "Baba Vanga",
+  "baseUrl": "https://hilife.me/vanga",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "巴巴·万加预言全集 - 盲眼预言家对人类未来的85条预言与验证 | Baba Vanga Prophecies",
+      "description": "保加利亚盲眼预言家巴巴·万加（1911-1996）留下的85条预言完整收录，涵盖自然灾害、战争、科技、宇宙探索等领域，从2025年延伸至5079年世界末日。已应验预言包括911事件、库尔斯克号沉没、奥巴马当选等。",
+      "keywords": "巴巴万加,万加预言,盲眼龙婆,Baba Vanga,预言家,2060预言,世界末日,未来预言,保加利亚预言家,万加预言验证",
+      "siteName": "巴巴·万加预言",
+      "ogTitle": "巴巴·万加预言全集 | Baba Vanga Prophecies",
+      "ogDescription": "保加利亚盲眼预言家巴巴·万加留下的85条预言完整收录与验证分析。涵盖自然灾害、战争、科技、宇宙探索等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "85条盲眼预言家巴巴·万加的预言，含真实度验证。已应验：911事件、库尔斯克号沉没、奥巴马当选等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Baba Vanga Prophecies - 85 Predictions from the Blind Mystic (1911-1996) | Full Archive & Verification",
+      "description": "Bulgarian blind mystic Baba Vanga (1911-1996) left 85 prophecies spanning from 2025 to 5079, covering natural disasters, wars, technology, and cosmic events. Verified predictions include 9/11, Kursk submarine, Obama presidency, and more.",
+      "keywords": "Baba Vanga,Baba Vanga predictions,blind mystic,Bulgarian prophet,Vanga prophecy,future predictions,end of world 5079,Baba Vanga verified,Nostradamus",
+      "siteName": "Baba Vanga Prophecies",
+      "ogTitle": "Baba Vanga Prophecies - The Blind Mystic's Complete Predictions",
+      "ogDescription": "85 prophecies from Bulgarian blind mystic Baba Vanga (1911-1996). Full archive with real-world verification covering disasters, wars, technology, and cosmic events.",
+      "locale": "en_US",
+      "twitterDescription": "85 predictions from Baba Vanga, the blind mystic. Verified: 9/11, Kursk submarine, Obama presidency. Predictions extend to 5079."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "巴巴·万加预言",
+      "alternateName": "Baba Vanga Prophecies",
+      "url": "https://hilife.me/vanga/",
+      "description": "保加利亚盲眼预言家巴巴·万加留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f3f0eb",
+    "white": "#fff",
+    "text": "#3a3530",
+    "text2": "#9a9088",
+    "textLight": "#665e56",
+    "primary": "#7b4a9e",
+    "primaryDark": "#5c2d82",
+    "primaryBg": "#f5eefa",
+    "link": "#7b4a9e",
+    "border": "#e0dbd5",
+    "border2": "#c5beb6",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#f0ece6"
+  },
+  "logo": {
+    "type": "text",
+    "text": "Baba Vanga",
+    "alt": "Baba Vanga Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Baba_Vanga",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "siteId": "kfk",
+  "answererName": "KFK",
+  "baseUrl": "https://hilife.me/kfk/",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "KFK 2060 预言完整版 - 来自2060年未来人的281条预言与验证 | KFK Prophecies from 2060",
+      "description": "2019年豆瓣网友KFK自称来自2060年，留下281条预言涵盖战争、科技、经济、气候等领域。本站完整收录所有预言原文，并对已到期预言进行真实度验证与评估。KFK 2060 time traveler prophecies with full verification.",
+      "keywords": "KFK,KFK预言,2060预言,未来人,时间旅行,豆瓣KFK,KFK prophecy,time traveler 2060,KFK 2060,穿越者,预言验证,KFK predictions",
+      "ogTitle": "KFK 2060 预言完整版 | Prophecies from 2060",
+      "ogDescription": "来自2060年的时间旅行者KFK在豆瓣留下的281条预言完整收录与验证分析。涵盖战争、科技、经济、气候、哲学等领域。",
+      "twitterDescription": "281条来自2060年未来人的预言，含真实度验证。已应验：2019转折年、东京奥运事故、远程办公普及等。",
+      "siteName": "KFK 2060 预言",
+      "locale": "zh_CN"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "KFK 2060 Prophecies - 281 Predictions from a Time Traveler from 2060 | Full Collection & Verification",
+      "description": "In 2019, an anonymous user 'KFK' on Douban claimed to be from 2060, leaving 281 prophecies covering war, technology, economy, climate & more. Full archive with accuracy verification.",
+      "keywords": "KFK,KFK prophecy,2060 prophecy,time traveler,Douban KFK,KFK 2060,predictions,future person,prophecy verification",
+      "ogTitle": "KFK 2060 Prophecies - Time Traveler from 2060",
+      "ogDescription": "281 prophecies from a self-claimed time traveler from 2060. Full collection with real-world verification of expired predictions.",
+      "twitterDescription": "281 predictions from a claimed 2060 time traveler, with verification. Confirmed: 2019 turning point, Tokyo Olympics incident, remote work rise & more.",
+      "siteName": "KFK 2060 Prophecies",
+      "locale": "en_US"
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "KFK 2060 预言",
+      "alternateName": "KFK 2060 Prophecies",
+      "url": "https://hilife.me/kfk/",
+      "description": "来自2060年的时间旅行者KFK在2019年豆瓣留下的281条预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KFK是谁？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KFK是2019年6月22日在豆瓣苏珊米勒小组发帖的匿名用户，自称来自2060年的时间旅行者，回答了281个关于未来的问题。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KFK的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "在已到期的可验证预言中，多条预言与现实高度吻合，包括2019年是人类转折年（新冠疫情）、东京奥运会事故（推迟空场）、远程办公普及、吴亦凡热点新闻等。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is KFK?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KFK is an anonymous user who posted on Douban (Chinese social media) on June 22, 2019, claiming to be a time traveler from 2060. They answered 281 questions about the future."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f6f6f1",
+    "white": "#fff",
+    "text": "#494949",
+    "text2": "#999",
+    "textLight": "#666",
+    "primary": "#007722",
+    "primaryDark": "#005518",
+    "primaryBg": "#f0fff0",
+    "link": "#37a",
+    "border": "#e5e5e5",
+    "border2": "#ccc",
+    "orange": "#e09015",
+    "red": "#e04040",
+    "blue": "#3377aa",
+    "tagBg": "#f4f4ec"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.png",
+    "alt": "KFK 2060"
+  },
+  "footer": {
+    "sourceUrl": "https://www.douban.com/group/topic/140935793/",
+    "sourceLabel": "豆瓣原帖"
+  }
+}
