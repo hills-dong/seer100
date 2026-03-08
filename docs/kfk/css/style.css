@@ -60,17 +60,21 @@ a:hover {
 .logo {
   cursor: pointer;
   white-space: nowrap;
-  flex-shrink: 0;
+  min-width: 0;
+  flex-shrink: 1;
+  overflow: hidden;
 }
 
 .logo-img {
   height: 20px;
+  max-width: 100%;
   vertical-align: middle;
 }
 
 .nav-tabs {
   display: flex;
   gap: 0;
+  flex-shrink: 0;
 }
 
 .nav-tab {
