@@ -309,3 +309,27 @@ node server.js
 - GitHub Pages 从 main 分支的 `/docs` 目录部署
 - CNAME 文件在 `docs/CNAME`，内容为 `pre.hilife.me`
 - PR 合并时用 `--delete-branch=false`（避免 worktree 冲突）
+
+---
+
+## Design Context
+
+### Users
+Chinese-speaking readers curious about prophecy and paranormal content, browsing on both mobile and desktop. They explore prophecy archives, read original texts, and check verification results. Secondary audience: English-speaking visitors via bilingual support.
+
+### Brand Personality
+Scholarly, archival, quietly mysterious. The site treats fringe content with the seriousness of a reference library rather than sensationalizing it.
+
+### Aesthetic Direction
+- **Primary influence**: Douban (豆瓣) — minimalist, text-focused, community-archive feel
+- **Tone**: Academic neutrality meets curated curiosity cabinet
+- **Anti-references**: Flashy conspiracy sites, new-age spiritual blogs, generic SaaS dashboards, AI-generated card grids with gradient text
+- **Theme**: Light mode only. Warm neutral backgrounds (#f0-f6 range), per-site accent colors that evoke each prophet's cultural context
+- **Typography**: System font stack; no decorative fonts. Chinese text is primary.
+
+### Design Principles
+1. **Content is the interface** — Text hierarchy does the heavy lifting; decoration is minimal
+2. **Distinctive per site, cohesive overall** — Each prophet site has its own color palette and cultural personality, but shares the same layout and interaction patterns
+3. **WCAG AA minimum** — All text must meet 4.5:1 contrast ratio. text2 values per site must be verified against that site's bg color
+4. **No AI slop** — Avoid gradient text, glassmorphism, hero metric dashboards, bounce easing, generic card grids, and every other AI aesthetic tell from 2024-2025
+5. **Mobile-first data density** — Filters, search, and scanning should work well on narrow screens. Hide secondary info (hit rate badge) rather than breaking layout

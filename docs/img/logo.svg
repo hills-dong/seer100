@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="48" height="48">
+  <!-- Scroll/document body -->
+  <rect x="4" y="6" width="27" height="29" rx="2" fill="#f5f5f0" stroke="#494949" stroke-width="2"/>
+  <!-- Scroll curl (top-right corner fold) -->
+  <path d="M6,6 Q6,1.5 10,1.5 L31,1.5 Q35.5,1.5 35.5,6 L35.5,11" fill="none" stroke="#494949" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Prophetic eye in center of scroll -->
+  <path d="M8,19 Q17.5,10 27,19 Q17.5,28 8,19 Z" fill="none" stroke="#494949" stroke-width="1.8" stroke-linejoin="round"/>
+  <circle cx="17.5" cy="19" r="3.2" fill="#494949"/>
+  <!-- Light reflection -->
+  <circle cx="16" cy="17.5" r="1" fill="#fff"/>
+  <!-- Text lines at bottom -->
+  <line x1="9" y1="28" x2="26" y2="28" stroke="#494949" stroke-width="1.2" opacity="0.35" stroke-linecap="round"/>
+  <line x1="9" y1="31" x2="21" y2="31" stroke="#494949" stroke-width="1.2" opacity="0.35" stroke-linecap="round"/>
+</svg>

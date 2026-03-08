@@ -4,9 +4,9 @@
   --text: {{theme.text}};
   --text2: {{theme.text2}};
   --text-light: {{theme.textLight}};
-  --green: {{theme.primary}};
-  --green-dark: {{theme.primaryDark}};
-  --green-bg: {{theme.primaryBg}};
+  --primary: {{theme.primary}};
+  --primary-dark: {{theme.primaryDark}};
+  --primary-bg: {{theme.primaryBg}};
   --link: {{theme.link}};
   --border: {{theme.border}};
   --border2: {{theme.border2}};
@@ -14,7 +14,7 @@
   --red: {{theme.red}};
   --blue: {{theme.blue}};
   --tag-bg: {{theme.tagBg}};
-  --hover-bg: color-mix(in srgb, var(--bg) 60%, var(--green) 3%);
+  --hover-bg: color-mix(in srgb, var(--bg) 60%, var(--primary) 3%);
 }
 
 /* Icon system - SVG mask icons */
@@ -59,6 +59,14 @@
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linejoin='round'%3E%3Cpath d='M8 1.5L14.5 8 8 14.5 1.5 8z'/%3E%3Cpath d='M1.5 8h13'/%3E%3C/svg%3E");
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linejoin='round'%3E%3Cpath d='M8 1.5L14.5 8 8 14.5 1.5 8z'/%3E%3Cpath d='M1.5 8h13'/%3E%3C/svg%3E");
 }
+.i-info {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='8' cy='8' r='6.5'/%3E%3Cpath d='M8 7v4'/%3E%3Cpath d='M8 5.5v-.01'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='8' cy='8' r='6.5'/%3E%3Cpath d='M8 7v4'/%3E%3Cpath d='M8 5.5v-.01'/%3E%3C/svg%3E");
+}
+.i-target {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round'%3E%3Ccircle cx='8' cy='8' r='6'/%3E%3Ccircle cx='8' cy='8' r='2.5'/%3E%3Cpath d='M8 2v2M8 12v2M2 8h2M12 8h2'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round'%3E%3Ccircle cx='8' cy='8' r='6'/%3E%3Ccircle cx='8' cy='8' r='2.5'/%3E%3Cpath d='M8 2v2M8 12v2M2 8h2M12 8h2'/%3E%3C/svg%3E");
+}
 .i-other {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='3.5' cy='8' r='1.5' fill='%23000'/%3E%3Ccircle cx='8' cy='8' r='1.5' fill='%23000'/%3E%3Ccircle cx='12.5' cy='8' r='1.5' fill='%23000'/%3E%3C/svg%3E");
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='3.5' cy='8' r='1.5' fill='%23000'/%3E%3Ccircle cx='8' cy='8' r='1.5' fill='%23000'/%3E%3Ccircle cx='12.5' cy='8' r='1.5' fill='%23000'/%3E%3C/svg%3E");
@@ -80,18 +88,13 @@
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='8' cy='8' r='6'/%3E%3Cpath d='M8 4.5v4l2.5 1.5'/%3E%3C/svg%3E");
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
   font-kerning: normal;
 }
 
 body {
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   background: var(--bg);
   color: var(--text);
@@ -113,7 +116,7 @@ body {
 
 /* Focus-visible for keyboard accessibility */
 :focus-visible {
-  outline: 2px solid var(--green);
+  outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
 
@@ -132,7 +135,7 @@ a:hover {
 
 /* Selection color */
 ::selection {
-  background: color-mix(in srgb, var(--green) 25%, transparent);
+  background: color-mix(in srgb, var(--primary) 25%, transparent);
 }
 
 /* Header - Douban style top bar */
@@ -147,7 +150,7 @@ a:hover {
 .header-inner {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -188,65 +191,76 @@ a:hover {
 }
 
 .nav-tab:hover {
-  color: var(--green-dark);
+  color: var(--primary-dark);
 }
 
 .nav-tab.active {
-  color: var(--green-dark);
-  border-bottom-color: var(--green-dark);
+  color: var(--primary-dark);
+  border-bottom-color: var(--primary-dark);
 }
 
-nav {
+.header-right {
   display: flex;
-  gap: 0;
-  height: 100%;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
 }
 
-nav button {
-  background: none;
-  border: none;
-  border-bottom: 3px solid transparent;
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header-tools .search-box {
+  width: 200px;
+  border: 1px solid var(--border2);
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
   color: var(--text);
-  padding: 0 15px;
-  cursor: pointer;
-  font-size: 0.875rem;
-  height: 48px;
-  line-height: 48px;
-  transition: color 0.2s ease-out;
+  background: var(--bg);
+  outline: none;
+  height: 28px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
-nav button:hover {
-  color: var(--green);
+.header-tools .search-box:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 12%, transparent);
+  background: var(--white);
 }
 
-nav button.active {
-  color: var(--green);
-  border-bottom-color: var(--green);
-  font-weight: bold;
+.header-tools .search-box::placeholder {
+  color: var(--text2);
 }
 
 .lang-toggle {
-  margin-left: auto;
+  flex-shrink: 0;
   background: none;
   border: 1px solid var(--border2);
   color: var(--text-light);
-  padding: 4px 12px;
+  padding: 0 10px;
+  height: 28px;
+  line-height: 26px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.75rem;
+  box-sizing: border-box;
   transition: border-color 0.2s ease-out, color 0.2s ease-out;
 }
 
 .lang-toggle:hover {
-  border-color: var(--green);
-  color: var(--green);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 /* Main content */
 main {
   max-width: 960px;
   margin: 0 auto;
-  padding: 12px 12px 48px;
+  padding: 12px 0 48px;
 }
 
 .page {
@@ -261,8 +275,7 @@ main {
 .filter-section {
   background: var(--white);
   border: 1px solid var(--border);
-  border-top: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
 }
 
 .filter-row {
@@ -292,12 +305,6 @@ main {
   border-top: none;
 }
 
-.all-title {
-  font-size: 1.125rem;
-  font-weight: bold;
-  color: var(--text);
-}
-
 /* Prophecy verdict inline */
 .prophecy-verdict {
   margin-top: 8px;
@@ -311,14 +318,14 @@ main {
 
 .prophecy-verdict .verify-label {
   font-size: 0.75rem;
-  color: var(--green-dark);
+  color: var(--primary-dark);
   font-weight: bold;
   margin-right: 6px;
 }
 
 /* Status colors on prophecy items */
 .prophecy-item.verified {
-  border-left: 3px solid var(--green);
+  border-left: 3px solid var(--primary);
 }
 
 .prophecy-item.partial {
@@ -331,6 +338,12 @@ main {
 
 .prophecy-item.pending {
   border-left: 3px solid var(--blue);
+}
+
+/* Pending cards visually subdued so verified ones stand out */
+.prophecy-item.pending .prophecy-a,
+.prophecy-item:not(.verified):not(.partial):not(.failed):not(.pending) .prophecy-a {
+  color: var(--text-light);
 }
 
 /* ===== Home page - Douban group topic style ===== */
@@ -359,10 +372,6 @@ main {
   color: var(--link);
 }
 
-.topic-meta .group {
-  color: var(--link);
-}
-
 .topic-body {
   background: var(--white);
   border: 1px solid var(--border);
@@ -378,7 +387,7 @@ main {
 
 .topic-body .quote-block {
   background: var(--tag-bg);
-  border-left: 3px solid var(--green);
+  border-left: 3px solid var(--primary);
   padding: 12px 18px;
   margin: 20px 0;
   color: var(--text);
@@ -388,8 +397,8 @@ main {
 
 .topic-body .quote-block .quote-label {
   font-size: 0.75rem;
-  color: var(--green);
-  margin-bottom: 5px;
+  color: var(--primary);
+  margin-bottom: 6px;
   font-weight: bold;
 }
 
@@ -418,12 +427,12 @@ main {
   top: 16px;
   width: 8px;
   height: 8px;
-  background: var(--green);
+  background: var(--primary);
   border-radius: 50%;
 }
 
 .timeline-list .tl-year {
-  color: var(--green-dark);
+  color: var(--primary-dark);
   font-weight: bold;
 }
 
@@ -437,63 +446,11 @@ main {
   margin: 24px 0 12px;
 }
 
-/* ===== All prophecies - Douban comment/reply style ===== */
-.all-header {
-  background: var(--white);
-  border: 1px solid var(--border);
-  padding: 15px 20px;
-  margin-bottom: 0;
-}
-
-.all-header h2 {
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--text);
-}
-
-.all-header .count {
-  font-size: 0.75rem;
-  color: var(--text2);
-  margin-top: 2px;
-}
-
-/* Toolbar */
+/* Sticky filter wrap - sits below header */
 .sticky-filter-wrap {
   position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.toolbar {
-  background: var(--white);
-  border: 1px solid var(--border);
-  padding: 10px 20px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.search-box {
-  flex: 1;
-  min-width: 180px;
-  border: 1px solid var(--border2);
-  border-radius: 4px;
-  padding: 6px 12px;
-  font-size: 1rem;
-  color: var(--text);
-  background: var(--white);
-  outline: none;
-  transition: border-color 0.2s ease-out, box-shadow 0.2s ease-out;
-}
-
-.search-box:focus {
-  border-color: var(--green);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 12%, transparent);
-}
-
-.search-box::placeholder {
-  color: var(--text2);
+  top: 44px;
+  z-index: 90;
 }
 
 .filter-bar {
@@ -515,15 +472,15 @@ main {
 }
 
 .filter-btn:hover {
-  color: var(--green);
-  border-color: var(--green);
-  background: var(--green-bg);
+  color: var(--primary);
+  border-color: var(--primary);
+  background: var(--primary-bg);
 }
 
 .filter-btn.active {
   color: var(--white);
-  background: var(--green);
-  border-color: var(--green);
+  background: var(--primary);
+  border-color: var(--primary);
 }
 
 /* Prophecy items - styled as Douban comments */
@@ -591,15 +548,16 @@ main {
   font-size: 0.6875rem;
   color: var(--text2);
   font-variant-numeric: tabular-nums;
+  margin-left: 6px;
 }
 
 .prophecy-year-tag {
   font-size: 0.6875rem;
-  color: var(--green-dark);
-  background: var(--green-bg);
+  color: var(--primary-dark);
+  background: var(--primary-bg);
   padding: 2px 6px;
   border-radius: 3px;
-  border: 1px solid color-mix(in srgb, var(--green) 25%, var(--border));
+  border: 1px solid color-mix(in srgb, var(--primary) 25%, var(--border));
   font-variant-numeric: tabular-nums;
 }
 
@@ -618,7 +576,7 @@ main {
 }
 
 .prophecy-a .kfk-name {
-  color: var(--green);
+  color: var(--primary);
   font-weight: bold;
 }
 
@@ -626,93 +584,79 @@ main {
 .no-results {
   text-align: center;
   color: var(--text2);
-  padding: 48px 12px;
+  padding: 48px 20px;
   font-size: 0.875rem;
   background: var(--white);
 }
 
-/* ===== Verify page ===== */
-.stats-bar {
-  background: var(--white);
-  border: 1px solid var(--border);
-  padding: 8px 20px;
-  margin-bottom: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-}
-
-.stat-item {
-  text-align: center;
-}
-
-.stat-num {
-  font-size: 1.5rem;
+/* Hit rate badge in toolbar */
+.hit-rate-badge {
+  font-size: 0.75rem;
   font-weight: bold;
-  line-height: 1;
+  color: var(--primary);
+  background: var(--primary-bg);
+  border: 1px solid color-mix(in srgb, var(--primary) 25%, var(--border));
+  padding: 0 10px;
+  height: 28px;
+  line-height: 26px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: default;
   font-variant-numeric: tabular-nums;
 }
 
-.stat-num.green {
-  color: var(--green);
+.hit-rate-info {
+  position: relative;
+  display: inline-flex;
+  margin-left: 4px;
+  vertical-align: middle;
+  cursor: help;
 }
 
-.stat-num.orange {
-  color: var(--orange);
+.hit-rate-info .i-info {
+  width: 0.875em;
+  height: 0.875em;
+  opacity: 0.6;
+  transition: opacity 0.15s;
 }
 
-.stat-num.red {
-  color: var(--red);
+.hit-rate-info:hover .i-info {
+  opacity: 1;
 }
 
-.stat-num.blue {
-  color: var(--blue);
-}
-
-.stat-num.accent {
-  color: var(--text);
-}
-
-.stat-label {
+.hit-rate-tooltip {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--text);
+  color: var(--white);
   font-size: 0.6875rem;
-  color: var(--text2);
-  margin-top: 4px;
+  font-weight: normal;
+  line-height: 1.6;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  z-index: 200;
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--text) 20%, transparent);
 }
 
-.hit-rate-box {
-  margin-left: auto;
-  text-align: center;
-  padding: 6px 20px;
-  border-left: 1px solid var(--border);
+.hit-rate-tooltip::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 12px;
+  border: 5px solid transparent;
+  border-bottom-color: var(--text);
 }
 
-.hit-rate-num {
-  font-size: 2rem;
-  font-weight: bold;
-  color: var(--green);
-  font-variant-numeric: tabular-nums;
+.hit-rate-info:hover .hit-rate-tooltip {
+  display: block;
 }
 
-.hit-rate-label {
-  font-size: 0.6875rem;
-  color: var(--text2);
-}
-
-.hit-rate-note {
-  font-size: 0.6875rem;
-  color: var(--text2);
-  font-variant-numeric: tabular-nums;
-}
-
-.verify-filters {
-  display: flex;
-  gap: 4px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
-}
-
-/* Verify items - styled as Douban review entries */
+/* Verify items - noscript SEO content */
 .verify-item {
   background: var(--white);
   border: 1px solid var(--border);
@@ -738,8 +682,8 @@ main {
 }
 
 .status-badge.verified {
-  background: color-mix(in srgb, var(--green) 12%, var(--white));
-  color: var(--green);
+  background: color-mix(in srgb, var(--primary) 12%, var(--white));
+  color: var(--primary);
 }
 
 .status-badge.partial {
@@ -759,7 +703,7 @@ main {
 
 .verify-year {
   font-size: 0.75rem;
-  color: var(--green-dark);
+  color: var(--primary-dark);
   font-weight: bold;
 }
 
@@ -799,7 +743,7 @@ main {
 }
 
 .verify-item.verified {
-  border-left: 3px solid var(--green);
+  border-left: 3px solid var(--primary);
 }
 
 .verify-item.partial {
@@ -818,7 +762,7 @@ main {
 footer {
   max-width: 960px;
   margin: 0 auto;
-  padding: 24px 12px;
+  padding: 24px 0;
   border-top: 1px solid var(--border);
   text-align: center;
   color: var(--text2);
@@ -843,22 +787,105 @@ footer a {
   border-radius: 4px;
   cursor: pointer;
   font-size: 1rem;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
-  transition: color 0.2s ease-out, border-color 0.2s ease-out, box-shadow 0.2s ease-out;
+  transition: color 0.2s ease-out, border-color 0.2s ease-out, box-shadow 0.2s ease-out, opacity 0.2s ease-out;
   box-shadow: 0 1px 3px color-mix(in srgb, var(--text) 8%, transparent);
+  opacity: 0;
+  pointer-events: none;
 }
 
 .scroll-top:hover {
-  color: var(--green);
-  border-color: var(--green);
+  color: var(--primary);
+  border-color: var(--primary);
   box-shadow: 0 2px 8px color-mix(in srgb, var(--text) 12%, transparent);
 }
 
 .scroll-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Search icon button - hidden by default, shown on small screens */
+.search-icon-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+  background: none;
+  border: 1px solid var(--border2);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--text-light);
+  flex-shrink: 0;
+  transition: border-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.search-icon-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.i-search {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round'%3E%3Ccircle cx='7' cy='7' r='4.5'/%3E%3Cpath d='M10.5 10.5L14 14'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round'%3E%3Ccircle cx='7' cy='7' r='4.5'/%3E%3Cpath d='M10.5 10.5L14 14'/%3E%3C/svg%3E");
+}
+
+/* Search overlay for mobile */
+.search-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: color-mix(in srgb, var(--text) 50%, transparent);
+  z-index: 200;
+}
+
+.search-overlay.active {
+  display: block;
+}
+
+.search-overlay-inner {
+  background: var(--white);
+  padding: 12px;
   display: flex;
+  gap: 8px;
+  align-items: center;
+  box-shadow: 0 2px 12px color-mix(in srgb, var(--text) 15%, transparent);
+}
+
+.search-overlay-inner .search-box {
+  flex: 1;
+  border: 1px solid var(--border2);
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  color: var(--text);
+  background: var(--bg);
+  outline: none;
+  height: 36px;
+}
+
+.search-overlay-inner .search-box:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary) 12%, transparent);
+  background: var(--white);
+}
+
+.search-overlay-close {
+  background: none;
+  border: none;
+  color: var(--text2);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
 }
 
 /* Responsive */
@@ -867,40 +894,14 @@ footer a {
     gap: 4px;
   }
 
-  nav button {
-    padding: 0 10px;
-    font-size: 0.8125rem;
+  .nav-tab {
+    padding: 10px 8px;
+    font-size: 0.75rem;
   }
 
   .topic-header,
   .topic-body {
     padding: 16px;
-  }
-
-  .stats-bar {
-    gap: 8px;
-    padding: 4px 12px;
-  }
-
-  .stat-num {
-    font-size: 1.125rem;
-  }
-
-  .stat-label {
-    font-size: 0.625rem;
-  }
-
-  .hit-rate-num {
-    font-size: 1.125rem;
-  }
-
-  .hit-rate-label,
-  .hit-rate-note {
-    font-size: 0.625rem;
-  }
-
-  .hit-rate-box {
-    padding: 5px 12px;
   }
 
   .filter-bar {
@@ -912,6 +913,21 @@ footer a {
 
   .filter-bar::-webkit-scrollbar {
     display: none;
+  }
+
+  .filter-row {
+    position: relative;
+  }
+
+  .filter-row::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 24px;
+    background: linear-gradient(to right, transparent, var(--white));
+    pointer-events: none;
   }
 
   .prophecy-header {
@@ -940,18 +956,26 @@ footer a {
     font-size: 0.75rem;
   }
 
-  nav button {
-    padding: 0 8px;
-    font-size: 0.75rem;
+  .header-tools .search-box {
+    display: none;
+  }
+
+  .search-icon-btn {
+    display: flex;
+  }
+
+  .hit-rate-badge {
+    font-size: 0.6875rem;
+    padding: 0 6px;
   }
 
   .lang-toggle {
-    padding: 3px 6px;
+    padding: 0 6px;
     font-size: 0.6875rem;
   }
 
   main {
-    padding: 8px 6px 32px;
+    padding: 8px 0 32px;
   }
 }
 

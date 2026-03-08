@@ -275,9 +275,94 @@ function encodePNG(imageData) {
   return Buffer.concat([sig, makeChunk('IHDR', ihdr), makeChunk('IDAT', compressed), makeChunk('IEND', Buffer.alloc(0))]);
 }
 
+// --- KFK: Bold "K" letter with time-circle motif (matching green text logo) ---
+// Logo: "KFK 2060" text in #007722 green
+function buildKfkData() {
+  const primary = hexToRGB('#007722');
+  const dark = hexToRGB('#005518');
+  const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
+
+  // Draw a rounded-square background with the letter "K"
+  const pad = 16;        // padding from edge
+  const cornerR = 28;    // corner radius
+  const strokeW = 22;    // stroke width for the K
+  const cx = CX, cy = CY;
+
+  // Helper: is point inside rounded rect
+  function inRoundedRect(px, py) {
+    if (px >= pad + cornerR && px <= SIZE - pad - cornerR) {
+      if (py >= pad && py <= SIZE - pad) return true;
+    }
+    if (py >= pad + cornerR && py <= SIZE - pad - cornerR) {
+      if (px >= pad && px <= SIZE - pad) return true;
+    }
+    // Corners
+    const corners = [
+      [pad + cornerR, pad + cornerR],
+      [SIZE - pad - cornerR, pad + cornerR],
+      [pad + cornerR, SIZE - pad - cornerR],
+      [SIZE - pad - cornerR, SIZE - pad - cornerR],
+    ];
+    for (const [ccx, ccy] of corners) {
+      if (dist(px, py, ccx, ccy) <= cornerR) return true;
+    }
+    return false;
+  }
+
+  // "K" shape: vertical bar on left, two diagonals meeting at center-left
+  const kLeft = 52;          // left edge of vertical bar
+  const kBarW = strokeW;     // vertical bar width
+  const kMidY = cy;          // where diagonals meet
+  const kJoinX = kLeft + kBarW + 4; // where diagonals join the vertical
+  const kTopRight = 132;     // right end of upper diagonal
+  const kBotRight = 132;     // right end of lower diagonal
+  const kTopY = pad + 20;    // top of K
+  const kBotY = SIZE - pad - 20; // bottom of K
+
+  function distToSegment(px, py, x1, y1, x2, y2) {
+    const dx = x2 - x1, dy = y2 - y1;
+    const len2 = dx * dx + dy * dy;
+    if (len2 === 0) return dist(px, py, x1, y1);
+    let t = ((px - x1) * dx + (py - y1) * dy) / len2;
+    t = Math.max(0, Math.min(1, t));
+    return dist(px, py, x1 + t * dx, y1 + t * dy);
+  }
+
+  function inK(px, py) {
+    // Vertical bar
+    if (px >= kLeft && px <= kLeft + kBarW && py >= kTopY && py <= kBotY) return true;
+    // Upper diagonal: from (kJoinX, kMidY) to (kTopRight, kTopY)
+    const d1 = distToSegment(px, py, kJoinX, kMidY, kTopRight, kTopY);
+    if (d1 <= strokeW / 2) return true;
+    // Lower diagonal: from (kJoinX, kMidY) to (kBotRight, kBotY)
+    const d2 = distToSegment(px, py, kJoinX, kMidY, kBotRight, kBotY);
+    if (d2 <= strokeW / 2) return true;
+    return false;
+  }
+
+  for (let y = 0; y < SIZE; y++) {
+    const rowOff = y * (1 + SIZE * 4);
+    buf[rowOff] = 0;
+    for (let x = 0; x < SIZE; x++) {
+      const px = x + 0.5, py = y + 0.5;
+      const pixOff = rowOff + 1 + x * 4;
+
+      if (!inRoundedRect(px, py)) {
+        setPx(buf, pixOff, 0, 0, 0, 0);
+      } else if (inK(px, py)) {
+        setPx(buf, pixOff, 255, 255, 255, 255);
+      } else {
+        setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
+      }
+    }
+  }
+  return buf;
+}
+
 // --- Generate ---
 const baseDir = __dirname;
 const sites = [
+  { name: 'kfk', builder: buildKfkData, out: 'db/kfk/img/favicon.png' },
   { name: 'vanga', builder: buildVangaData, out: 'db/vanga/img/favicon.png' },
   { name: 'nostradamus', builder: buildNostradamusData, out: 'db/nostradamus/img/favicon.png' },
   { name: 'tuibeitu', builder: buildTuibeituData, out: 'db/tuibeitu/img/favicon.png' },

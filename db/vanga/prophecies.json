@@ -1,12 +1,12 @@
 {
   "categories": {
-    "politics": { "zh": "政治与权力", "en": "Politics & Power", "icon": "i-politics" },
-    "war": { "zh": "战争与冲突", "en": "War & Conflict", "icon": "i-war" },
-    "tech": { "zh": "科技与发现", "en": "Technology & Discovery", "icon": "i-tech" },
-    "economy": { "zh": "经济与金融", "en": "Economy & Finance", "icon": "i-economy" },
-    "society": { "zh": "社会与文明", "en": "Society & Civilization", "icon": "i-society" },
-    "climate": { "zh": "气候与灾害", "en": "Climate & Disasters", "icon": "i-climate" },
-    "spirit": { "zh": "宗教与哲学", "en": "Religion & Philosophy", "icon": "i-spirit" },
+    "politics": { "zh": "政治", "en": "Politics & Power", "icon": "i-politics" },
+    "war": { "zh": "战争", "en": "War & Conflict", "icon": "i-war" },
+    "tech": { "zh": "科技", "en": "Technology & Discovery", "icon": "i-tech" },
+    "economy": { "zh": "经济", "en": "Economy & Finance", "icon": "i-economy" },
+    "society": { "zh": "社会", "en": "Society & Civilization", "icon": "i-society" },
+    "climate": { "zh": "气候", "en": "Climate & Disasters", "icon": "i-climate" },
+    "spirit": { "zh": "哲学", "en": "Religion & Philosophy", "icon": "i-spirit" },
     "other": { "zh": "其他", "en": "Other", "icon": "i-other" }
   },
   "statusMap": {

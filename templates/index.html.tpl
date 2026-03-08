@@ -42,7 +42,10 @@
         <button class="nav-tab active" data-tab="all" onclick="switchTab('all')"><span class="logo">{{logoHtml}}</span></button>
         <button class="nav-tab" data-tab="intro" onclick="switchTab('intro')">{{navHome}}</button>
       </div>
-      <button class="lang-toggle" onclick="switchLang()">{{langToggleText}}</button>
+      <div class="header-right">
+        <div class="header-tools" id="header-tools"></div>
+        <button class="lang-toggle" onclick="switchLang()">{{langToggleText}}</button>
+      </div>
     </div>
   </header>
 
@@ -59,7 +62,7 @@
     <p>{{footerSourceLabel}}: <a href="{{footerSourceUrl}}" target="_blank" rel="noopener">{{footerSourceUrl}}</a></p>
   </footer>
 
-  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">↑</button>
 
   <script>var defaultLang = '{{lang}}';</script>
   <script>

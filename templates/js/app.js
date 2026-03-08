@@ -4,8 +4,9 @@ let currentStatus = 'all';
 let currentTab = 'all'; // 'intro' or 'all'
 
 function t(key) { return I18N[lang][key] || key; }
-function pq(p) { return (lang === 'en' && p.q_en) ? p.q_en : p.q; }
-function pa(p) { return (lang === 'en' && p.a_en) ? p.a_en : p.a; }
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function pq(p) { return esc((lang === 'en' && p.q_en) ? p.q_en : p.q); }
+function pa(p) { return esc((lang === 'en' && p.a_en) ? p.a_en : p.a); }
 
 function switchLang() {
   const path = location.pathname;
@@ -27,13 +28,15 @@ function switchLang() {
 function switchTab(tab) {
   currentTab = tab;
   document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
-  document.querySelector(`.nav-tab[data-tab="${tab}"]`).classList.add('active');
+  document.querySelector(`.nav-tab[data-tab="${tab}"]`)?.classList.add('active');
   if (tab === 'intro') {
     document.getElementById('section-intro').style.display = 'block';
     document.getElementById('section-all').style.display = 'none';
+    document.getElementById('header-tools').style.display = 'none';
   } else {
     document.getElementById('section-intro').style.display = 'none';
     document.getElementById('section-all').style.display = 'block';
+    document.getElementById('header-tools').style.display = '';
   }
   window.scrollTo({ top: 0 });
 }
@@ -105,16 +108,15 @@ function renderList(searchOnly) {
     filtered.forEach(p => {
       const cat = CATEGORIES[p.cat];
       const st = p.status ? STATUS_MAP[p.status] : null;
-      const verdict = p[verdictKey] || '';
+      const verdict = esc(p[verdictKey] || '');
       const pubDate = p.date || (typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG.publishDate : '');
       itemsHtml += `
         <div class="prophecy-item${st ? ' ' + st.cls : ''}">
           <div class="prophecy-header">
-            <div class="prophecy-header-title"><span class="prophecy-id">#${p.id}</span> ${pq(p)}</div>
+            <div class="prophecy-header-title"><span class="prophecy-id">#${p.id}</span> ${pq(p)} ${pubDate ? `<span class="prophecy-date">${lang === 'zh' ? '发布于' : 'Pub'} ${pubDate}</span>` : ''}</div>
             <div class="prophecy-header-tags">
               <span class="prophecy-cat"><i class="${cat.icon}"></i> ${cat[catKey]}</span>
-              ${pubDate ? `<span class="prophecy-date">${lang === 'zh' ? '发布' : 'Pub'}: ${pubDate}</span>` : ''}
-              ${p.year ? `<span class="prophecy-year-tag">${lang === 'zh' ? '预言' : 'Pred'}: ${p.year}</span>` : ''}
+              ${p.year ? `<span class="prophecy-year-tag"><i class="i-target"></i> ${p.year}</span>` : ''}
               ${st ? `<span class="status-badge ${st.cls}"><i class="${st.icon}"></i> ${st[catKey]}</span>` : ''}
             </div>
           </div>
@@ -163,23 +165,15 @@ function renderList(searchOnly) {
   const decidable = verified.length + partial.length + failed.length;
   const hitRate = decidable > 0 ? Math.round((verified.length + partial.length * 0.5) / decidable * 100) : 0;
 
+  // Populate header tools (search + hit rate)
+  document.getElementById('header-tools').innerHTML = `
+    <input type="text" class="search-box" id="search-input" placeholder="${t('searchPlaceholder')}" aria-label="${t('searchPlaceholder')}" oninput="renderList(true)">
+    <button class="search-icon-btn" onclick="openSearchOverlay()" aria-label="${t('searchPlaceholder')}"><i class="i-search"></i></button>
+    <span class="hit-rate-badge">${t('hitRate')} ${hitRate}%<span class="hit-rate-info"><i class="i-info"></i><span class="hit-rate-tooltip">${lang === 'zh' ? `已应验 ${verified.length} + 部分相关 ${partial.length}×0.5，共 ${decidable} 条可判定` : `Verified ${verified.length} + Partial ${partial.length}×0.5, ${decidable} decidable`}<br>${lang === 'zh' ? '公式' : 'Formula'}: (${verified.length}+${partial.length}×0.5)÷${decidable} = ${hitRate}%</span></span></span>
+  `;
+
   document.getElementById('section-all').innerHTML = `
-    <div class="stats-bar">
-      <div class="stat-item"><div class="stat-num accent">${verifiable.length}</div><div class="stat-label">${t('statsTotal')}</div></div>
-      <div class="stat-item"><div class="stat-num green">${verified.length}</div><div class="stat-label">${t('statsVerified')}</div></div>
-      <div class="stat-item"><div class="stat-num orange">${partial.length}</div><div class="stat-label">${t('statsPartial')}</div></div>
-      <div class="stat-item"><div class="stat-num red">${failed.length}</div><div class="stat-label">${t('statsFailed')}</div></div>
-      <div class="stat-item"><div class="stat-num blue">${pending.length}</div><div class="stat-label">${t('statsPending')}</div></div>
-      <div class="hit-rate-box">
-        <div class="hit-rate-num">${hitRate}%</div>
-        <div class="hit-rate-label">${t('hitRate')}</div>
-        <div class="hit-rate-note">${lang === 'zh' ? `(${verified.length}+${partial.length}×0.5)÷${decidable}` : `(${verified.length}+${partial.length}×0.5)÷${decidable}`}</div>
-      </div>
-    </div>
     <div class="sticky-filter-wrap">
-    <div class="toolbar">
-      <input type="text" class="search-box" id="search-input" placeholder="${t('searchPlaceholder')}" oninput="renderList(true)">
-    </div>
     <div class="filter-section">
       <div class="filter-row">
         <span class="filter-label">${lang === 'zh' ? '分类' : 'Category'}:</span>
@@ -212,6 +206,40 @@ function setStatus(status) {
   renderList();
   const newBar = document.querySelector('.filter-row:last-child .filter-bar');
   if (newBar) newBar.scrollLeft = scrollPos;
+}
+
+function openSearchOverlay() {
+  let overlay = document.getElementById('search-overlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'search-overlay';
+    overlay.className = 'search-overlay';
+    overlay.innerHTML = `
+      <div class="search-overlay-inner">
+        <input type="text" class="search-box" id="search-overlay-input" placeholder="${t('searchPlaceholder')}" aria-label="${t('searchPlaceholder')}">
+        <button class="search-overlay-close" onclick="closeSearchOverlay()">✕</button>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) closeSearchOverlay();
+    });
+    document.getElementById('search-overlay-input').addEventListener('input', function() {
+      var mainInput = document.getElementById('search-input');
+      if (mainInput) mainInput.value = this.value;
+      renderList(true);
+    });
+  }
+  var overlayInput = document.getElementById('search-overlay-input');
+  var mainInput = document.getElementById('search-input');
+  if (mainInput) overlayInput.value = mainInput.value;
+  overlay.classList.add('active');
+  overlayInput.focus();
+}
+
+function closeSearchOverlay() {
+  var overlay = document.getElementById('search-overlay');
+  if (overlay) overlay.classList.remove('active');
 }
 
 function renderFooter() {
