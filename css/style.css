@@ -455,17 +455,18 @@ main {
   margin-bottom: 8px;
 }
 
-.prophecy-header-title {
-  font-size: 13px;
-  color: var(--text);
-  width: 100%;
-}
-
 .prophecy-header-tags {
   display: flex;
   align-items: center;
   gap: 6px;
   margin-left: auto;
+}
+
+.prophecy-header-title {
+  font-size: 13px;
+  color: var(--text);
+  width: 100%;
+  order: 2;
 }
 
 .prophecy-id {
