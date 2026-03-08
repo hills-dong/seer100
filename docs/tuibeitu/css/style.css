@@ -78,7 +78,7 @@ a:hover {
   border: none;
   border-bottom: 3px solid transparent;
   color: var(--text2);
-  padding: 8px 14px;
+  padding: 8px 10px;
   cursor: pointer;
   font-size: 14px;
   font-weight: normal;
@@ -748,7 +748,7 @@ footer a {
 /* Responsive */
 @media (max-width: 768px) {
   .header-inner {
-    gap: 10px;
+    gap: 4px;
   }
 
   nav button {
