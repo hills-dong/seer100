@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 28" height="20">
+  <!-- Star/celestial icon -->
+  <polygon points="14,2 17.5,10 26,10 19.5,15.5 22,24 14,19 6,24 8.5,15.5 2,10 10.5,10" fill="#8b1a1a"/>
+  <circle cx="14" cy="14" r="4" fill="#f5f0e8"/>
+  <circle cx="14" cy="14" r="2" fill="#8b1a1a"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#6b0f0f" letter-spacing="0.5">NOSTRADAMUS</text>
+</svg>

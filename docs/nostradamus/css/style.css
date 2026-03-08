@@ -1,0 +1,825 @@
+:root {
+  --bg: #f5f0e8;
+  --white: #fff;
+  --text: #3a2a1a;
+  --text2: #8a7a6a;
+  --text-light: #5a4a3a;
+  --green: #8b1a1a;
+  --green-dark: #6b0f0f;
+  --green-bg: #fff5f5;
+  --link: #8b1a1a;
+  --border: #ddd5c8;
+  --border2: #c5b8a8;
+  --orange: #d4880e;
+  --red: #c04040;
+  --blue: #4a6a8b;
+  --tag-bg: #f0ebe0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header - Douban style top bar */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 0;
+}
+
+.nav-tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text2);
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  transition: color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+
+.nav-tab:hover {
+  color: var(--green-dark);
+}
+
+.nav-tab.active {
+  color: var(--green-dark);
+  border-bottom-color: var(--green-dark);
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 0;
+  height: 100%;
+}
+
+nav button {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text);
+  padding: 0 15px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 48px;
+  line-height: 48px;
+  transition: color 0.2s;
+}
+
+nav button:hover {
+  color: var(--green);
+}
+
+nav button.active {
+  color: var(--green);
+  border-bottom-color: var(--green);
+  font-weight: bold;
+}
+
+.lang-toggle {
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--border2);
+  color: var(--text-light);
+  padding: 3px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.lang-toggle:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+/* Main content */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 10px 40px;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+/* Filter section */
+.filter-section {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: none;
+  padding: 10px 20px;
+}
+
+.filter-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.filter-row:last-child {
+  margin-bottom: 0;
+}
+
+.filter-label {
+  font-size: 12px;
+  color: var(--text2);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.list-info {
+  padding: 8px 20px;
+  font-size: 12px;
+  color: var(--text2);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-top: none;
+}
+
+.all-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+/* Prophecy verdict inline */
+.prophecy-verdict {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: var(--tag-bg);
+  border-radius: 3px;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.prophecy-verdict .verify-label {
+  font-size: 12px;
+  color: var(--green-dark);
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+/* Status colors on prophecy items */
+.prophecy-item.verified {
+  border-left: 3px solid var(--green);
+}
+
+.prophecy-item.partial {
+  border-left: 3px solid var(--orange);
+}
+
+.prophecy-item.failed {
+  border-left: 3px solid var(--red);
+}
+
+.prophecy-item.pending {
+  border-left: 3px solid var(--blue);
+}
+
+
+
+/* ===== Home page - Douban group topic style ===== */
+.topic-header {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 20px 25px;
+  margin-bottom: 10px;
+}
+
+.topic-title {
+  font-size: 22px;
+  color: var(--text);
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.topic-meta {
+  font-size: 12px;
+  color: var(--text2);
+}
+
+.topic-meta .author {
+  color: var(--link);
+}
+
+.topic-meta .group {
+  color: var(--link);
+}
+
+.topic-body {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 20px 25px;
+}
+
+.topic-body p {
+  margin-bottom: 12px;
+  line-height: 1.8;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.topic-body .quote-block {
+  background: var(--tag-bg);
+  border-left: 3px solid var(--green);
+  padding: 12px 18px;
+  margin: 18px 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.topic-body .quote-block .quote-label {
+  font-size: 12px;
+  color: var(--green);
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.timeline-list {
+  margin: 15px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.timeline-list li {
+  padding: 8px 0 8px 18px;
+  position: relative;
+  border-bottom: 1px dashed var(--border);
+  font-size: 14px;
+}
+
+.timeline-list li:last-child {
+  border-bottom: none;
+}
+
+.timeline-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 8px;
+  height: 8px;
+  background: var(--green);
+  border-radius: 50%;
+}
+
+.timeline-list .tl-year {
+  color: var(--green-dark);
+  font-weight: bold;
+}
+
+/* Section header within topic */
+.section-header {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--text);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  margin: 20px 0 12px;
+}
+
+/* ===== All prophecies - Douban comment/reply style ===== */
+.all-header {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 15px 20px;
+  margin-bottom: 0;
+}
+
+.all-header h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.all-header .count {
+  font-size: 12px;
+  color: var(--text2);
+  margin-top: 2px;
+}
+
+/* Toolbar */
+.sticky-filter-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.toolbar {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 180px;
+  border: 1px solid var(--border2);
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: var(--text);
+  outline: none;
+}
+
+.search-box:focus {
+  border-color: var(--green);
+}
+
+.search-box::placeholder {
+  color: #ccc;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: var(--tag-bg);
+  border: 1px solid var(--border);
+  color: var(--text-light);
+  padding: 3px 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.filter-btn.active {
+  color: #fff;
+  background: var(--green);
+  border-color: var(--green);
+}
+
+/* Prophecy items - styled as Douban comments */
+.prophecy-list {
+  border: 1px solid var(--border);
+  border-top: none;
+}
+
+.prophecy-item {
+  background: var(--white);
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.prophecy-item:last-child {
+  border-bottom: none;
+}
+
+.prophecy-item:hover {
+  background: #fafaf5;
+}
+
+.prophecy-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.prophecy-header-title {
+  font-size: 13px;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.prophecy-header-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.prophecy-id {
+  color: var(--text2);
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.prophecy-cat {
+  font-size: 11px;
+  color: var(--text2);
+  background: var(--tag-bg);
+  padding: 1px 6px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+}
+
+.prophecy-year-tag {
+  font-size: 11px;
+  color: var(--green-dark);
+  background: var(--green-bg);
+  padding: 1px 6px;
+  border-radius: 2px;
+  border: 1px solid #d0e8d0;
+}
+
+.prophecy-q {
+  color: var(--text-light);
+  font-size: 13px;
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+
+.prophecy-a {
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.7;
+  padding-left: 2px;
+}
+
+.prophecy-a .kfk-name {
+  color: var(--green);
+  font-weight: bold;
+}
+
+/* No results */
+.no-results {
+  text-align: center;
+  color: var(--text2);
+  padding: 40px 10px;
+  font-size: 14px;
+  background: var(--white);
+}
+
+/* ===== Verify page ===== */
+.stats-bar {
+  background: var(--white);
+  border: 1px solid var(--border);
+  padding: 4px 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.stat-num.green {
+  color: var(--green);
+}
+
+.stat-num.orange {
+  color: var(--orange);
+}
+
+.stat-num.red {
+  color: var(--red);
+}
+
+.stat-num.blue {
+  color: var(--blue);
+}
+
+.stat-num.accent {
+  color: var(--text);
+}
+
+.stat-label {
+  font-size: 11px;
+  color: var(--text2);
+  margin-top: 3px;
+}
+
+.hit-rate-box {
+  margin-left: auto;
+  text-align: center;
+  padding: 5px 20px;
+  border-left: 1px solid var(--border);
+}
+
+.hit-rate-num {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--green);
+}
+
+.hit-rate-label {
+  font-size: 11px;
+  color: var(--text2);
+}
+
+.hit-rate-note {
+  font-size: 11px;
+  color: var(--text2);
+}
+
+.verify-filters {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+/* Verify items - styled as Douban review entries */
+.verify-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  margin-bottom: 10px;
+}
+
+.verify-item .verify-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background: #fafaf5;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+
+.status-badge {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.status-badge.verified {
+  background: #e8f5e9;
+  color: var(--green);
+}
+
+.status-badge.partial {
+  background: #fff8e1;
+  color: #f57f17;
+}
+
+.status-badge.failed {
+  background: #fce4ec;
+  color: #c62828;
+}
+
+.status-badge.pending {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.verify-year {
+  font-size: 12px;
+  color: var(--green-dark);
+  font-weight: bold;
+}
+
+.verify-body {
+  padding: 12px 15px;
+}
+
+.verify-prophecy {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed var(--border);
+}
+
+.verify-label {
+  font-size: 12px;
+  color: var(--text2);
+  margin-bottom: 3px;
+}
+
+.verify-q {
+  color: var(--text-light);
+  font-size: 13px;
+}
+
+.verify-a {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.verify-verdict {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.7;
+  background: var(--tag-bg);
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.verify-item.verified {
+  border-left: 3px solid var(--green);
+}
+
+.verify-item.partial {
+  border-left: 3px solid var(--orange);
+}
+
+.verify-item.failed {
+  border-left: 3px solid var(--red);
+}
+
+.verify-item.pending {
+  border-left: 3px solid var(--blue);
+}
+
+/* Footer - Douban style */
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text2);
+  font-size: 12px;
+}
+
+footer a {
+  color: var(--link);
+}
+
+/* Scroll to top */
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  background: var(--white);
+  color: var(--text-light);
+  border: 1px solid var(--border2);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.scroll-top:hover {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.scroll-top.show {
+  display: flex;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-inner {
+    gap: 10px;
+  }
+
+  nav button {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+
+  .topic-header,
+  .topic-body {
+    padding: 15px;
+  }
+
+  .stats-bar {
+    gap: 8px;
+    padding: 4px 10px;
+  }
+
+  .stat-num {
+    font-size: 18px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+  }
+
+  .hit-rate-num {
+    font-size: 18px;
+  }
+
+  .hit-rate-label,
+  .hit-rate-note {
+    font-size: 10px;
+  }
+
+  .hit-rate-box {
+    padding: 5px 12px;
+  }
+
+  .filter-bar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .prophecy-header {
+    flex-wrap: wrap;
+  }
+
+  .prophecy-header-title {
+    flex-basis: 100%;
+    white-space: normal;
+    overflow: visible;
+    order: -1;
+  }
+
+  .prophecy-header-tags {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 15px;
+  }
+
+  nav button {
+    padding: 0 8px;
+    font-size: 12px;
+  }
+
+  main {
+    padding: 10px 5px 30px;
+  }
+}

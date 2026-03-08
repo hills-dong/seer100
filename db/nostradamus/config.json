@@ -1,0 +1,98 @@
+{
+  "siteId": "nostradamus",
+  "answererName": "Nostradamus",
+  "baseUrl": "https://pre.hilife.me/nostradamus",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "诺斯特拉达穆斯预言全集 - 法国先知942首四行诗预言与验证 | Nostradamus Prophecies",
+      "description": "法国先知诺斯特拉达穆斯（1503-1566）所著《百诗集》收录942首四行诗预言，涵盖战争、天灾、王权、科技、宗教等领域。本站完整收录代表性预言原文，并对已到期预言进行真实度验证与评估。",
+      "keywords": "诺斯特拉达穆斯,Nostradamus,百诗集,Les Prophéties,四行诗,预言家,法国先知,亨利二世,伦敦大火,法国大革命,拿破仑,希特勒,911,预言验证",
+      "siteName": "诺斯特拉达穆斯预言",
+      "ogTitle": "诺斯特拉达穆斯预言全集 | Nostradamus Prophecies",
+      "ogDescription": "法国先知诺斯特拉达穆斯《百诗集》942首四行诗预言完整收录与验证分析。涵盖战争、天灾、王权、科技、宗教等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "法国先知诺斯特拉达穆斯的预言验证：亨利二世之死、伦敦大火、法国大革命、拿破仑崛起、希特勒、911事件等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Nostradamus Prophecies - 942 Quatrains from the French Seer (1503-1566) | Full Archive & Verification",
+      "description": "French seer Nostradamus (1503-1566) published Les Prophéties containing 942 quatrains covering war, disaster, royalty, technology, and religion. Full archive with accuracy verification of expired predictions.",
+      "keywords": "Nostradamus,Les Prophéties,quatrains,prophecy,French seer,Henry II,Great Fire London,French Revolution,Napoleon,Hitler,9/11,predictions,Centuries",
+      "siteName": "Nostradamus Prophecies",
+      "ogTitle": "Nostradamus Prophecies - The Complete Quatrains of the French Seer",
+      "ogDescription": "942 quatrains from French seer Nostradamus (1503-1566). Full archive with real-world verification covering wars, disasters, royalty, technology, and cosmic events.",
+      "locale": "en_US",
+      "twitterDescription": "Nostradamus prophecies verified: Henry II death, Great Fire of London, French Revolution, Napoleon, Hitler, 9/11 and more. 942 quatrains analyzed."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "诺斯特拉达穆斯预言",
+      "alternateName": "Nostradamus Prophecies",
+      "url": "https://pre.hilife.me/nostradamus/",
+      "description": "法国先知诺斯特拉达穆斯《百诗集》942首四行诗预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "诺斯特拉达穆斯是谁？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "诺斯特拉达穆斯（Michel de Nostredame, 1503-1566）是法国文艺复兴时期的药剂师、医师和预言家。他于1555年出版了《百诗集》（Les Prophéties），包含942首四行诗预言，被认为预言了此后数百年间的重大历史事件。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "诺斯特拉达穆斯的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "部分预言与历史事件高度吻合，包括亨利二世在比武中的死亡（1559年）、伦敦大火（1666年）、法国大革命（1789年）等。但其四行诗语言晦涩，解读存在较大争议。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Nostradamus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nostradamus (Michel de Nostredame, 1503-1566) was a French Renaissance-era apothecary, physician, and reputed seer. He published Les Prophéties in 1555, containing 942 quatrains that are believed by many to have predicted major historical events spanning centuries into the future."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f5f0e8",
+    "white": "#fff",
+    "text": "#3a2a1a",
+    "text2": "#8a7a6a",
+    "textLight": "#5a4a3a",
+    "primary": "#8b1a1a",
+    "primaryDark": "#6b0f0f",
+    "primaryBg": "#fff5f5",
+    "link": "#8b1a1a",
+    "border": "#ddd5c8",
+    "border2": "#c5b8a8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a6a8b",
+    "tagBg": "#f0ebe0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Nostradamus Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nostradamus",
+    "sourceLabel": "Wikipedia"
+  }
+}
