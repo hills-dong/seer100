@@ -60,7 +60,7 @@ a:hover {
 .logo {
   cursor: pointer;
   white-space: nowrap;
-  min-width: 0;
+  min-width: 28px;
   flex-shrink: 1;
   overflow: hidden;
 }
@@ -74,7 +74,8 @@ a:hover {
 .nav-tabs {
   display: flex;
   gap: 0;
-  flex-shrink: 0;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .nav-tab {
@@ -823,9 +824,19 @@ footer a {
     font-size: 15px;
   }
 
+  .nav-tab {
+    padding: 8px 6px;
+    font-size: 12px;
+  }
+
   nav button {
     padding: 0 8px;
     font-size: 12px;
+  }
+
+  .lang-toggle {
+    padding: 3px 6px;
+    font-size: 11px;
   }
 
   main {
