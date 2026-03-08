@@ -184,13 +184,21 @@ function renderList(searchOnly) {
 }
 
 function setCat(cat) {
+  const bar = document.querySelector('.filter-row:first-child .filter-bar');
+  const scrollPos = bar ? bar.scrollLeft : 0;
   currentCat = cat;
   renderList();
+  const newBar = document.querySelector('.filter-row:first-child .filter-bar');
+  if (newBar) newBar.scrollLeft = scrollPos;
 }
 
 function setStatus(status) {
+  const bar = document.querySelector('.filter-row:last-child .filter-bar');
+  const scrollPos = bar ? bar.scrollLeft : 0;
   currentStatus = status;
   renderList();
+  const newBar = document.querySelector('.filter-row:last-child .filter-bar');
+  if (newBar) newBar.scrollLeft = scrollPos;
 }
 
 function renderFooter() {

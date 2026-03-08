@@ -757,11 +757,20 @@ footer a {
   }
 
   .stats-bar {
-    gap: 12px;
+    gap: 8px;
+    padding: 4px 10px;
+  }
+
+  .stat-num {
+    font-size: 18px;
+  }
+
+  .stat-label {
+    font-size: 10px;
   }
 
   .hit-rate-num {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .hit-rate-label,
@@ -789,9 +798,14 @@ footer a {
   }
 
   .prophecy-header-title {
-    width: 100%;
+    flex-basis: 100%;
     white-space: normal;
     overflow: visible;
+    order: -1;
+  }
+
+  .prophecy-header-tags {
+    margin-left: auto;
   }
 }
 
