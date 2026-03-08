@@ -1,24 +1,76 @@
 {
   "categories": {
-    "tang": { "zh": "唐朝", "en": "Tang Dynasty", "icon": "🏯" },
-    "wudai": { "zh": "五代十国", "en": "Five Dynasties", "icon": "⚔️" },
-    "song": { "zh": "宋朝", "en": "Song Dynasty", "icon": "🏛️" },
-    "yuan": { "zh": "元朝", "en": "Yuan Dynasty", "icon": "🐎" },
-    "ming": { "zh": "明朝", "en": "Ming Dynasty", "icon": "🔥" },
-    "qing": { "zh": "清朝", "en": "Qing Dynasty", "icon": "👑" },
-    "modern": { "zh": "近现代", "en": "Modern Era", "icon": "🌍" },
-    "future": { "zh": "未来", "en": "Future", "icon": "🔮" }
+    "politics": {
+      "zh": "政治与权力",
+      "en": "Politics & Power",
+      "icon": "i-politics"
+    },
+    "war": {
+      "zh": "战争与冲突",
+      "en": "War & Conflict",
+      "icon": "i-war"
+    },
+    "tech": {
+      "zh": "科技与发现",
+      "en": "Technology & Discovery",
+      "icon": "i-tech"
+    },
+    "economy": {
+      "zh": "经济与金融",
+      "en": "Economy & Finance",
+      "icon": "i-economy"
+    },
+    "society": {
+      "zh": "社会与文明",
+      "en": "Society & Civilization",
+      "icon": "i-society"
+    },
+    "climate": {
+      "zh": "气候与灾害",
+      "en": "Climate & Disasters",
+      "icon": "i-climate"
+    },
+    "spirit": {
+      "zh": "宗教与哲学",
+      "en": "Religion & Philosophy",
+      "icon": "i-spirit"
+    },
+    "other": {
+      "zh": "其他",
+      "en": "Other",
+      "icon": "i-other"
+    }
   },
   "statusMap": {
-    "verified": { "zh": "已应验", "en": "Verified", "icon": "✅", "cls": "verified" },
-    "partial": { "zh": "部分相关", "en": "Partial", "icon": "🔶", "cls": "partial" },
-    "failed": { "zh": "未应验", "en": "Failed", "icon": "❌", "cls": "failed" },
-    "pending": { "zh": "待验证", "en": "Pending", "icon": "⏳", "cls": "pending" }
+    "verified": {
+      "zh": "已应验",
+      "en": "Verified",
+      "icon": "i-verified",
+      "cls": "verified"
+    },
+    "partial": {
+      "zh": "部分相关",
+      "en": "Partial",
+      "icon": "i-partial",
+      "cls": "partial"
+    },
+    "failed": {
+      "zh": "未应验",
+      "en": "Failed",
+      "icon": "i-failed",
+      "cls": "failed"
+    },
+    "pending": {
+      "zh": "待验证",
+      "en": "Pending",
+      "icon": "i-pending",
+      "cls": "pending"
+    }
   },
   "prophecies": [
     {
       "id": 1,
-      "cat": "tang",
+      "cat": "spirit",
       "q": "第一象 甲子 乾卦\n谶曰：茫茫天地，不知所止。日月循环，周而复始。",
       "a": "颂曰：自从盘古迄希夷，虎斗龙争事正奇。悟得循环真谛在，试于唐后论元机。\n\n金圣叹注解：此象古今治乱相因，如日月往来，阴阳递嬗。",
       "q_en": "Hexagram 1 · Jiazi · Qian\nProphetic verse: Boundless heaven and earth, none knows where they end. Sun and moon revolve, cycling without cease.",
@@ -29,7 +81,7 @@
     },
     {
       "id": 2,
-      "cat": "tang",
+      "cat": "politics",
       "q": "第二象 乙丑 姤卦\n谶曰：累累硕果，莫明其数。一果一仁，即新即故。",
       "a": "颂曰：万物土中生，二九先成实。一统定中原，阴盛阳先竭。\n\n金圣叹注解：唐高祖至昭宣凡二十一主，唐祚二百八十九年。",
       "q_en": "Hexagram 2 · Yichou · Gou\nProphetic verse: Clusters of ripe fruit, none can count them all. Each fruit holds a seed — what is new is also old.",
@@ -40,7 +92,7 @@
     },
     {
       "id": 3,
-      "cat": "tang",
+      "cat": "politics",
       "q": "第三象 丙寅 遯卦\n谶曰：日月当空，照临下土。扑朔迷离，不文亦武。",
       "a": "颂曰：参遍空王色相空，一朝重入帝王宫。遗枝拨尽根犹在，喔喔晨鸡孰是雄。\n\n金圣叹注解：武则天当国，废中宗，杀唐宗室殆尽。",
       "q_en": "Hexagram 3 · Bingyin · Dun\nProphetic verse: Sun and moon hang in the sky, shining upon the earth below. Confusing and elusive — neither civil nor martial, yet both.",
@@ -51,7 +103,7 @@
     },
     {
       "id": 4,
-      "cat": "tang",
+      "cat": "politics",
       "q": "第四象 丁卯 否卦\n谶曰：飞者不飞，走者不走。振羽高冈，乃克有后。",
       "a": "颂曰：威行青女实权奇，极目萧条十八枝。赖有猴儿齐着力，已倾大树仗扶持。\n\n金圣叹注解：狄仁杰荐张柬之等五人反周为唐。",
       "q_en": "Hexagram 4 · Dingmao · Pi\nProphetic verse: What flies does not fly; what runs does not run. Spreading wings on the high ridge, thus there shall be heirs.",
@@ -62,7 +114,7 @@
     },
     {
       "id": 5,
-      "cat": "tang",
+      "cat": "war",
       "q": "第五象 戊辰 观卦\n谶曰：杨花飞，蜀道难。截断竹箫方见日，更无一史乃平安。",
       "a": "颂曰：渔阳鼙鼓过潼关，此日君王幸剑山。木易若逢山下鬼，定于此处葬金环。\n\n金圣叹注解：安禄山、史思明之乱，贵妃死于马嵬坡。",
       "q_en": "Hexagram 5 · Wuchen · Guan\nProphetic verse: Willow catkins fly, the road to Shu is hard. Cut the bamboo flute and you shall see the sun; when no more 'Shi' remains, there is peace.",
@@ -73,7 +125,7 @@
     },
     {
       "id": 6,
-      "cat": "tang",
+      "cat": "politics",
       "q": "第六象 己巳 剥卦\n谶曰：非都是都，非皇是皇。阴霾既去，日月復光。",
       "a": "颂曰：大帜巍巍树两京，辇舆今日又东行。乾坤再造人中乐，一二年来见太平。\n\n金圣叹注解：明皇还西京，安史之乱尽弭。",
       "q_en": "Hexagram 6 · Jisi · Bo\nProphetic verse: What is not the capital becomes the capital; who is not the emperor becomes the emperor. Once the dark clouds lift, sun and moon shine again.",
@@ -84,7 +136,7 @@
     },
     {
       "id": 7,
-      "cat": "tang",
+      "cat": "war",
       "q": "第七象 庚午 无妄卦\n谶曰：旌节满我目，山川局我足。破关客乍来，陡令中原哭。",
       "a": "颂曰：蝼蚁从来足溃堤，六宫深锁梦全非。重门金鼓含兵气，小草滋生土口啼。\n\n金圣叹注解：藩镇跋扈及吐蕃入寇中原。",
       "q_en": "Hexagram 7 · Gengwu · Wuwang\nProphetic verse: Banners and insignia fill my eyes; mountains and rivers confine my steps. Invaders suddenly breach the passes, bringing cries across the Central Plain.",
@@ -95,7 +147,7 @@
     },
     {
       "id": 8,
-      "cat": "tang",
+      "cat": "war",
       "q": "第八象 辛未 晋卦\n谶曰：搀槍血中土，破賊还为賊。朵朵李花飞，帝曰迁大吉。",
       "a": "颂曰：天子蒙尘马首东，居然三杰踞关中。孤军一驻安社稷，內外能收手臂功。\n\n金圣叹注解：建中之乱，三人为李希烈、朱泚、李怀光。",
       "q_en": "Hexagram 8 · Xinwei · Jin\nProphetic verse: Spears drip blood upon the land; those who defeat bandits become bandits themselves. Petals of plum blossom fly; the emperor says relocation brings fortune.",
@@ -106,7 +158,7 @@
     },
     {
       "id": 9,
-      "cat": "tang",
+      "cat": "war",
       "q": "第九象 壬申 大有卦\n谶曰：非白非黑，草头人出。借得一枝，满天飞血。",
       "a": "颂曰：万人头上起英雄，血染河山日色红。一树李花都惨淡，可怜巢覆亦成空。\n\n金圣叹注解：黄巢作乱，朱温弒昭宣以自立。",
       "q_en": "Hexagram 9 · Renshen · Dayou\nProphetic verse: Neither white nor black — a man from the grass emerges. Borrowing a single branch, blood flies across the sky.",
@@ -117,7 +169,7 @@
     },
     {
       "id": 10,
-      "cat": "tang",
+      "cat": "politics",
       "q": "第十象 癸酉 坎卦\n谶曰：荡荡中原，莫御八牛。泅水不涤，有血无头。",
       "a": "颂曰：一后二主尽升遐，四海茫茫总一家。不但我生还杀我，回头还有李儿花。\n\n金圣叹注解：朱温弒何皇后、昭宣、昭宗而自立。",
       "q_en": "Hexagram 10 · Guiyou · Kan\nProphetic verse: The vast Central Plain cannot restrain the 'eight-ox.' Muddied waters are never cleansed; there is blood but no head.",
@@ -128,7 +180,7 @@
     },
     {
       "id": 11,
-      "cat": "wudai",
+      "cat": "war",
       "q": "第十一象 甲戌 节卦\n谶曰：五人同卜，非禄非福。兼而言之，喜怒哀乐。",
       "a": "颂曰：龙蛇相斗三十年，一日同光直上天。上得天堂好游戏，东兵百万入秦川。\n\n金圣叹注解：伶人郭从谦作乱，唐主为流矢所中。",
       "q_en": "Hexagram 11 · Jiaxu · Jie\nProphetic verse: Five men divine together — neither fortune nor blessing. Taking all together: joy, anger, sorrow, and delight.",
@@ -139,7 +191,7 @@
     },
     {
       "id": 12,
-      "cat": "wudai",
+      "cat": "politics",
       "q": "第十二象 乙亥 屯卦\n谶曰：块然一石，谓他人父。统二八州，已非唐土。",
       "a": "颂曰：反兆先多口，出入皆无主。系铃自解铃，父亡子亦死。\n\n金圣叹注解：石敬塘求救于契丹，事之以父礼。",
       "q_en": "Hexagram 12 · Yihai · Zhun\nProphetic verse: A single block of stone calls another man 'father.' Ruling sixteen provinces, this is no longer Tang soil.",
@@ -150,7 +202,7 @@
     },
     {
       "id": 13,
-      "cat": "wudai",
+      "cat": "politics",
       "q": "第十三象 丙子 既济卦\n谶曰：汉水竭，雀高飞。飞来飞去何所止，高山不及城郭低。",
       "a": "颂曰：百个雀儿水上飞，九十九个过山西。惟有一个踏破足，高栖独自理毛衣。\n\n金圣叹注解：周主郭威夺汉自立。",
       "q_en": "Hexagram 13 · Bingzi · Jiji\nProphetic verse: The Han waters dry up; the sparrow flies high. Flying here and there with nowhere to rest — the high mountain is lower than the city wall.",
@@ -161,7 +213,7 @@
     },
     {
       "id": 14,
-      "cat": "wudai",
+      "cat": "politics",
       "q": "第十四象 丁丑 革卦\n谶曰：李树得根芽，石榴漫放花。枯木逢春只一瞬，让他天下竞荣华。",
       "a": "颂曰：金木水火土已终，十三童子五王公。英明重见太平日，五十三参运不通。\n\n金圣叹注解：周世宗承郭威受命为五代之终。",
       "q_en": "Hexagram 14 · Dingchou · Ge\nProphetic verse: The plum tree gets root and sprout; pomegranate blossoms bloom wild. Dead wood meets spring for but a moment — let all the world compete in glory.",
@@ -172,7 +224,7 @@
     },
     {
       "id": 15,
-      "cat": "song",
+      "cat": "politics",
       "q": "第十五象 戊寅 丰卦\n谶曰：天有日月，地有山川。海內纷纷，父后子前。",
       "a": "颂曰：战事中原迄未休，几人高枕卧金戈。寰中自有真天子，扫尽群妖见日头。\n\n金圣叹注解：五代末造，太祖崛起拯民水火。",
       "q_en": "Hexagram 15 · Wuyin · Feng\nProphetic verse: Heaven has sun and moon; earth has mountains and rivers. Chaos reigns across the land — the father behind, the son ahead.",
@@ -183,7 +235,7 @@
     },
     {
       "id": 16,
-      "cat": "song",
+      "cat": "society",
       "q": "第十六象 己卯 明夷卦\n谶曰：天一生水，姿稟圣武。顺天应人，无今无古。",
       "a": "颂曰：纳土姓钱并姓李，其余相次朝天子。天将一统付真人，不杀人民更全嗣。\n\n金圣叹注解：宋太祖受禅汴都，天下大定。",
       "q_en": "Hexagram 16 · Jimao · Mingyi\nProphetic verse: Heaven first creates water — endowed with sacred martial prowess. Obeying heaven, responding to the people — unprecedented through the ages.",
@@ -194,7 +246,7 @@
     },
     {
       "id": 17,
-      "cat": "song",
+      "cat": "war",
       "q": "第十七象 庚辰 师卦\n谶曰：声赫赫，干戈息。扫边氛，奠邦邑。",
       "a": "颂曰：天子亲征乍渡河，欢声百里起讴歌。运筹幸有完全女，奏得奇功在议和。\n\n金圣叹注解：宋真宗澶渊之役。",
       "q_en": "Hexagram 17 · Gengchen · Shi\nProphetic verse: Resounding fame — weapons are laid to rest. Border threats are swept away; the nation is secured.",
@@ -205,7 +257,7 @@
     },
     {
       "id": 18,
-      "cat": "song",
+      "cat": "politics",
       "q": "第十八象 辛巳 艮卦\n谶曰：天下之母，金刀伏兔。三八之年，治安巩固。",
       "a": "颂曰：水旱频仍不是灾，力扶幼主坐灵台。朝中又见钗光照，宇內承平气象开。\n\n金圣叹注解：仁宗嗣立，刘太后垂帘听政。",
       "q_en": "Hexagram 18 · Xinsi · Gen\nProphetic verse: Mother of the realm, golden blade hides the rabbit. In the year of three-eights, peace and order are secured.",
@@ -216,7 +268,7 @@
     },
     {
       "id": 19,
-      "cat": "song",
+      "cat": "politics",
       "q": "第十九象 壬午 贲卦\n谶曰：众人嚚嚚，尽入其室。百万雄师，头上一石。",
       "a": "颂曰：朝用奇谋夕丧师，人民西北尽流离。韶华虽好春光老，悔不深居坐殿墀。\n\n金圣叹注解：神宗误用安石，致启边衅。",
       "q_en": "Hexagram 19 · Renwu · Bi\nProphetic verse: The masses clamor noisily, all entering his chambers. A million mighty soldiers — a stone upon their heads.",
@@ -227,7 +279,7 @@
     },
     {
       "id": 20,
-      "cat": "song",
+      "cat": "politics",
       "q": "第二十象 癸未 同人卦\n谶曰：朝无光，日月盲。莫与京，终旁皇。",
       "a": "颂曰：父子同心并同道，中天日月手中物。奇云翻过北海头，凤阙龙廷生怛恻。\n\n金圣叹注解：蔡京父子弄权，贤良受锢。",
       "q_en": "Hexagram 20 · Guiwei · Tongren\nProphetic verse: The court has no light; sun and moon are blind. None can match 'Jing' — in the end, all wander aimlessly.",
@@ -238,7 +290,7 @@
     },
     {
       "id": 21,
-      "cat": "song",
+      "cat": "war",
       "q": "第二一象 甲申 损卦\n谶曰：空厥宫中，雪深三尺。吁嗟元首，南辕北辙。",
       "a": "颂曰：妖氛未靖不康宁，北扫烽烟望帝京。异姓立朝终国位，卜世三六又南行。\n\n金圣叹注解：金兵南下，徽宗禅位，靖康元年京师陷。",
       "q_en": "Hexagram 21 · Jiashen · Sun\nProphetic verse: The palace stands empty; snow lies three feet deep. Alas, the sovereign — heading south while aiming north.",
@@ -249,7 +301,7 @@
     },
     {
       "id": 22,
-      "cat": "song",
+      "cat": "politics",
       "q": "第二二象 乙酉 睽卦\n谶曰：天马当空，否极见泰。凤凤淼淼，木冓大赖。",
       "a": "颂曰：神京王气满东南，祸水汪洋把策干。一木会支二八月，临行马色半平安。\n\n金圣叹注解：高宗南渡，偏安东南。",
       "q_en": "Hexagram 22 · Yiyou · Kui\nProphetic verse: The heavenly horse stands in the sky — from the worst, the best emerges. Phoenix upon phoenix, waters vast; wood-framed, greatly sustained.",
@@ -260,7 +312,7 @@
     },
     {
       "id": 23,
-      "cat": "song",
+      "cat": "politics",
       "q": "第二三象 丙戌 履卦\n谶曰：似道非道，乾沈坤黯。祥光宇內，一江断楫。",
       "a": "颂曰：胡儿大张挞伐威，两柱擎天力不支。如何兵火连天夜，犹自张灯作水嬉。\n\n金圣叹注解：贾似道当权，宋室之亡。",
       "q_en": "Hexagram 23 · Bingxu · Lü\nProphetic verse: Seems like the Way but is not; heaven sinks and earth darkens. Auspicious light within the realm — yet a river of broken oars.",
@@ -271,7 +323,7 @@
     },
     {
       "id": 24,
-      "cat": "song",
+      "cat": "war",
       "q": "第二四象 丁亥 中孚卦\n谶曰：山崖海边，不帝亦仙。二九四八，于万斯年。",
       "a": "颂曰：十一卜人小月终，回天无力道俱穷。干戈四起疑无路，指点洪涛巨浪中。\n\n金圣叹注解：帝昺迁山，陆秀夫负帝赴海。",
       "q_en": "Hexagram 24 · Dinghai · Zhongfu\nProphetic verse: By mountain cliff and seashore — not emperor, yet immortal. Two-nine-four-eight, for ten thousand years.",
@@ -282,7 +334,7 @@
     },
     {
       "id": 25,
-      "cat": "yuan",
+      "cat": "politics",
       "q": "第二五象 戊子 渐卦\n谶曰：北帝南臣，一兀自立。斡离河水，燕巢捕麦。",
       "a": "颂曰：鼎足争雄事本奇，一狼二鼠判须臾。北关锁钥虽牢固，子子孙孙五五宜。\n\n金圣叹注解：元太祖称帝离河，凡十主。",
       "q_en": "Hexagram 25 · Wuzi · Jian\nProphetic verse: The northern emperor, the southern vassal — 'one-wu' stands alone. At the Orkhon River waters, swallows nest and sparrows harvest.",
@@ -293,7 +345,7 @@
     },
     {
       "id": 26,
-      "cat": "yuan",
+      "cat": "war",
       "q": "第二六象 己丑 震卦\n谶曰：时无夜，年无米。花不花，贼四起。",
       "a": "颂曰：鼎沸中原木木来，四方警报起边垓。房中自有长生术，莫怪都城澈夜开。\n\n金圣叹注解：顺帝溺于娱乐，五方豪杰乘机而起。",
       "q_en": "Hexagram 26 · Jichou · Zhen\nProphetic verse: Time has no night; the year has no rice. Flowers are not flowers — bandits rise on all sides.",
@@ -304,7 +356,7 @@
     },
     {
       "id": 27,
-      "cat": "ming",
+      "cat": "politics",
       "q": "第二七象 庚寅 豫卦\n谶曰：惟日与月，下民之极。应运而兴，其色曰赤。",
       "a": "颂曰：枝枝叶叶现金光，晃晃朗朗照四方。江东岸上光明起，谈空说偈有真王。\n\n金圣叹注解：明太祖登极，太祖曾为皇觉寺僧。",
       "q_en": "Hexagram 27 · Gengyin · Yu\nProphetic verse: Only the sun and moon — the ultimate for the people below. Rising in accordance with destiny, its color is called red.",
@@ -315,7 +367,7 @@
     },
     {
       "id": 28,
-      "cat": "ming",
+      "cat": "war",
       "q": "第二八象 辛卯 解卦\n谶曰：草头火脚，宫阙灰飞。家中有鸟，郊外有尼。",
       "a": "颂曰：羽满高飞日，争妍有李花。真龙游四海，方外是吾家。\n\n金圣叹注解：燕王起兵，建文祝发出亡。",
       "q_en": "Hexagram 28 · Xinmao · Xie\nProphetic verse: Grass on top, fire below — palace halls turn to ash. A bird in the house, a nun in the outskirts.",
@@ -326,7 +378,7 @@
     },
     {
       "id": 29,
-      "cat": "ming",
+      "cat": "politics",
       "q": "第二九象 壬辰 恒卦\n谶曰：枝发厥荣，为国之栋。皞皞熙熙，康乐利众。",
       "a": "颂曰：一枝向北一枝东，又有南枝种亦同。宇內同歌贤母德，真有三代之遗风。\n\n金圣叹注解：宣宗时张太后用杨士奇等三人。",
       "q_en": "Hexagram 29 · Renchen · Heng\nProphetic verse: Branches flourish in glory, pillars of the nation. Bright and harmonious — prosperity and joy for all.",
@@ -337,7 +389,7 @@
     },
     {
       "id": 30,
-      "cat": "ming",
+      "cat": "war",
       "q": "第三十象 癸巳 升卦\n谶曰：半圭半林，合则生变。石亦有灵，生荣死贱。",
       "a": "颂曰：缺一不成也占先，六龙亲御到胡边。天心復见人心顺，相剋相生马不前。\n\n金圣叹注解：张太后崩权归王振，致有土木堡之变。",
       "q_en": "Hexagram 30 · Guisi · Sheng\nProphetic verse: Half 'gui,' half 'lin' — when combined, change is born. Even stone has spirit — honored in life, despised in death.",
@@ -348,7 +400,7 @@
     },
     {
       "id": 31,
-      "cat": "ming",
+      "cat": "politics",
       "q": "第三一象 甲午 家人卦\n谶曰：当涂遗孽，秽乱宫阙。一男一女，断送人国。",
       "a": "颂曰：忠臣贤士尽沉沦，天启其衷乱更纷。纵有胸怀能坦白，乾坤不属旧明君。\n\n金圣叹注解：天启年间魏忠贤与客氏。",
       "q_en": "Hexagram 31 · Jiawu · Jiaren\nProphetic verse: Remnant evil at the road's edge, defiling the palace halls. One man and one woman — they deliver the nation to ruin.",
@@ -359,7 +411,7 @@
     },
     {
       "id": 32,
-      "cat": "ming",
+      "cat": "war",
       "q": "第三二象 乙未 井卦\n谶曰：马跳北阙，犬敖西方。八九数尽，日月无光。",
       "a": "颂曰：杨花落尽李花残，五色旗分自北来。太息金陵王气尽，一枝春色占长安。\n\n金圣叹注解：李闯、张献忠扰乱，崇祯投环，明亡。",
       "q_en": "Hexagram 32 · Yiwei · Jing\nProphetic verse: The horse leaps at the northern gate; the dog howls in the west. When eight and nine are exhausted, sun and moon lose their light.",
@@ -370,7 +422,7 @@
     },
     {
       "id": 33,
-      "cat": "ming",
+      "cat": "war",
       "q": "第三三象 丙申 大过卦\n谶曰：黄河水清，气顺则治。主客不分，地支无子。",
       "a": "颂曰：天长白瀑来，胡人气不衰。藩篱多撤去，稚子半可哀。\n\n金圣叹注解：满清入关之徵。",
       "q_en": "Hexagram 33 · Bingshen · Daguo\nProphetic verse: The Yellow River runs clear; when qi is smooth, there is order. Host and guest are indistinguishable; the earthly branches lack 'zi.'",
@@ -381,7 +433,7 @@
     },
     {
       "id": 34,
-      "cat": "qing",
+      "cat": "war",
       "q": "第三四象 丁酉 巽卦\n谶曰：头有发，衣怕白。太平时，王杀王。",
       "a": "颂曰：太平又见血花飞，五色章成里外衣。洪水滔天苗不秀，中原曾见梦全非。\n\n金圣叹注解：太平天国之乱。",
       "q_en": "Hexagram 34 · Dingyou · Xun\nProphetic verse: Heads have hair; garments fear white. In times of 'Taiping,' king slays king.",
@@ -392,7 +444,7 @@
     },
     {
       "id": 35,
-      "cat": "qing",
+      "cat": "war",
       "q": "第三五象 戊戌 随卦\n谶曰：西方有人，足踏神京。帝出不还，三台扶倾。",
       "a": "颂曰：黑云黯黯自西来，帝子临河筑金台。南有兵戎北有火，中兴曾见有奇才。\n\n金圣叹注解：八国联军入京，光绪出逃。",
       "q_en": "Hexagram 35 · Wuxu · Sui\nProphetic verse: Westerners come, treading upon the sacred capital. The emperor departs and does not return; three pillars prop the tilting realm.",
@@ -403,7 +455,7 @@
     },
     {
       "id": 36,
-      "cat": "qing",
+      "cat": "war",
       "q": "第三六象 己亥 小畜卦\n谶曰：纤纤女子，赤手御敌。不分祸福，灯光蔽日。",
       "a": "颂曰：双拳旋转乾坤，海内无端不靖。母子不分先后，西望长安入觐。\n\n金圣叹注解：义和团与慈禧太后。",
       "q_en": "Hexagram 36 · Jihai · Xiaoxu\nProphetic verse: A delicate woman, bare-handed against the enemy. Not distinguishing fortune from disaster, lamplight obscures the sun.",
@@ -414,7 +466,7 @@
     },
     {
       "id": 37,
-      "cat": "modern",
+      "cat": "politics",
       "q": "第三七象 庚子 益卦\n谶曰：汉水茫茫，不统继统。南北不分，和衷与共。",
       "a": "颂曰：水清终有竭，倒戈逢八月。海内竟无王，半凶还半吉。\n\n金圣叹注解：辛亥革命，民国建立。",
       "q_en": "Hexagram 37 · Gengzi · Yi\nProphetic verse: The Han River stretches vast — those who did not rule now continue the rule. North and south are no longer divided; in harmony, they work together.",
@@ -425,7 +477,7 @@
     },
     {
       "id": 38,
-      "cat": "modern",
+      "cat": "war",
       "q": "第三八象 辛丑 噬嗑卦\n谶曰：门外一鹿，群雄争逐。劫及鸢鱼，水深火热。",
       "a": "颂曰：火运开时祸蔓延，万人后死万人生。海波能使江河浊，境外何殊在目前。\n\n金圣叹注解：抗日战争。",
       "q_en": "Hexagram 38 · Xinchou · Shihe\nProphetic verse: A deer outside the gate — heroes contend to catch it. Calamity reaches kites and fish; the people are in deep water and hot fire.",
@@ -436,7 +488,7 @@
     },
     {
       "id": 39,
-      "cat": "modern",
+      "cat": "war",
       "q": "第三九象 壬寅 颐卦\n谶曰：鸟无足，山有月。旭初升，人都哭。",
       "a": "颂曰：十二月中气不和，南山有雀北山罗。一朝听得金鸡叫，大海沉沉日已过。\n\n金圣叹注解：日本投降（鸟无足山有月=岛，金鸡叫=酉年1945）。",
       "q_en": "Hexagram 39 · Renyin · Yi\nProphetic verse: A bird without feet; a mountain with a moon. The dawn sun rises — all the people weep.",
@@ -447,7 +499,7 @@
     },
     {
       "id": 40,
-      "cat": "modern",
+      "cat": "politics",
       "q": "第四十象 癸卯 蛊卦\n谶曰：一二三四，无土有主。小小天罡，垂拱而治。",
       "a": "颂曰：一口东来气太骄，脚下无履首无毛。若逢木子冰霜涣，生我者猴死我雕。\n\n金圣叹注解：国共内战，有一李姓能服东夷。",
       "q_en": "Hexagram 40 · Guimao · Gu\nProphetic verse: One, two, three, four — no land but there is a master. A small Tiangang star rules with folded hands.",
@@ -458,7 +510,7 @@
     },
     {
       "id": 41,
-      "cat": "modern",
+      "cat": "society",
       "q": "第四一象 甲辰 离卦\n谶曰：天地晦盲，草木蕃殖。阴阳反背，上土下日。",
       "a": "颂曰：帽儿须戴血无头，手弄乾坤何日休。九十九年成大错，称王只合在秦州。\n\n金圣叹注解：文化大革命（有争议）。",
       "q_en": "Hexagram 41 · Jiachen · Li\nProphetic verse: Heaven and earth are dark and blind; grass and trees grow wild. Yin and yang are reversed — earth above, sun below.",
@@ -469,7 +521,7 @@
     },
     {
       "id": 42,
-      "cat": "modern",
+      "cat": "society",
       "q": "第四二象 乙巳 旅卦\n谶曰：美人自西来，天朝中日渐安。长弓在地，危而不危。",
       "a": "颂曰：西方女子琵琶仙，皎皎衣裳色更鲜。此时浑迹居朝市，闹乱君臣百万般。\n\n金圣叹注解：改革开放（有争议）。",
       "q_en": "Hexagram 42 · Yisi · Lü\nProphetic verse: A beauty comes from the west; the Celestial Kingdom gradually finds peace. The long bow lies on the ground — dangerous yet not dangerous.",
@@ -480,7 +532,7 @@
     },
     {
       "id": 43,
-      "cat": "modern",
+      "cat": "politics",
       "q": "第四三象 丙午 鼎卦\n谶曰：君非君，臣非臣。始艰危，终克定。",
       "a": "颂曰：黑兔走入青龙穴，欲尽不尽不可说。惟有外边根树上，三十年中子孙结。\n\n金圣叹注解：有争议，一说两岸关系。",
       "q_en": "Hexagram 43 · Bingwu · Ding\nProphetic verse: The ruler is not a ruler; the minister is not a minister. Beginning in peril and hardship, in the end order prevails.",
@@ -491,7 +543,7 @@
     },
     {
       "id": 44,
-      "cat": "future",
+      "cat": "society",
       "q": "第四四象 丁未 未济卦\n谶曰：日月丽天，群阴慑服。百灵来朝，双羽四足。",
       "a": "颂曰：中国而今有圣人，虽非豪杰也周成。四夷重译称天子，否极泰来九国春。\n\n金圣叹注解：圣人出世，四夷来朝。",
       "q_en": "Hexagram 44 · Dingwei · Weiji\nProphetic verse: Sun and moon grace the heavens; all dark forces submit. A hundred spirits pay homage — double-winged and four-footed.",
@@ -500,7 +552,7 @@
     },
     {
       "id": 45,
-      "cat": "future",
+      "cat": "war",
       "q": "第四五象 戊申 蒙卦\n谶曰：有客西来至东而止，木火金水，洗此大耻。",
       "a": "颂曰：炎运宏开世界同，金乌隐匿白洋中。从此不敢称雄长，兵气全销运已终。\n\n金圣叹注解：收复领土，一雪前耻。",
       "q_en": "Hexagram 45 · Wushen · Meng\nProphetic verse: A guest comes from the west, stopping at the east. Wood, fire, metal, water — this great shame is washed away.",
@@ -509,7 +561,7 @@
     },
     {
       "id": 46,
-      "cat": "future",
+      "cat": "politics",
       "q": "第四六象 己酉 涣卦\n谶曰：黯黯阴霾，杀不用刀。万人不死，一人难逃。",
       "a": "颂曰：有一军人身带弓，只言我是白头翁。东边门里伏金剑，勇士后门入帝宫。\n\n金圣叹注解：军人执政。",
       "q_en": "Hexagram 46 · Jiyou · Huan\nProphetic verse: Dark, dark are the clouded skies; killing without a blade. Ten thousand people do not die, but one person cannot escape.",
@@ -518,7 +570,7 @@
     },
     {
       "id": 47,
-      "cat": "future",
+      "cat": "society",
       "q": "第四七象 庚戌 讼卦\n谶曰：偃武修文紫薇星明，匹夫有责，一言为君。",
       "a": "颂曰：无王无帝定乾坤，来自田间第一人。好把旧书多读到，义言一出见英明。\n\n金圣叹注解：大同世界初现。",
       "q_en": "Hexagram 47 · Gengxu · Song\nProphetic verse: Weapons laid down, culture cultivated — the Ziwei star shines bright. Every man bears responsibility; a single word makes one a leader.",
@@ -527,7 +579,7 @@
     },
     {
       "id": 48,
-      "cat": "future",
+      "cat": "politics",
       "q": "第四八象 辛亥 同人卦\n谶曰：卯午之开，厥象维离。八牛牵动，雍雍熙熙。",
       "a": "颂曰：水火既济人民吉，手执金戈不杀贼。五十年中一将臣，青青草自田间出。\n\n金圣叹注解：朱姓人物以德服人。",
       "q_en": "Hexagram 48 · Xinhai · Tongren\nProphetic verse: The opening of Mao and Wu — its image is Li. Eight oxen set things in motion — harmonious and joyful.",
@@ -536,7 +588,7 @@
     },
     {
       "id": 49,
-      "cat": "future",
+      "cat": "society",
       "q": "第四九象 壬子 坤卦\n谶曰：山谷少人口，欲剿失其巢。帝王称弟兄，纷纷是英豪。",
       "a": "颂曰：一个或人口内啼，分南分北分东西。六爻占尽文明见，棋布星罗日月济。\n\n金圣叹注解：久分必合之兆。",
       "q_en": "Hexagram 49 · Renzi · Kun\nProphetic verse: In the mountain valley, few people remain; seeking to destroy, one finds the nest already gone. Emperors call each other brothers; heroes abound on every side.",
@@ -545,7 +597,7 @@
     },
     {
       "id": 50,
-      "cat": "future",
+      "cat": "war",
       "q": "第五十象 癸丑 复卦\n谶曰：水火相战，时穷则变。贞下起元，兽贵人贱。",
       "a": "颂曰：虎头人遇虎头年，白米盈仓不值钱。豺狼结队街中走，拨尽风云始见天。\n\n金圣叹注解：遇寅年遭大乱。",
       "q_en": "Hexagram 50 · Guichou · Fu\nProphetic verse: Water and fire wage war; when times are exhausted, change comes. From the bottom of constancy, a new cycle begins; beasts are valued, humans cheapened.",
@@ -554,7 +606,7 @@
     },
     {
       "id": 51,
-      "cat": "future",
+      "cat": "politics",
       "q": "第五一象 甲寅 临卦\n谶曰：阴阳和，化以正。坤顺而感，后见尧舜。",
       "a": "颂曰：谁云女子尚刚强，坤德居然感四方。重见中天新气象，卜年一六寿而康。\n\n金圣叹注解：明君得贤后之助。",
       "q_en": "Hexagram 51 · Jiayin · Lin\nProphetic verse: Yin and yang in harmony, transformation through righteousness. Kun is receptive and inspiring — hereafter, Yao and Shun appear again.",
@@ -563,7 +615,7 @@
     },
     {
       "id": 52,
-      "cat": "future",
+      "cat": "war",
       "q": "第五二象 乙卯 泰卦\n谶曰：慧星乍见，不利东北。踽踽何之，瞻彼乐国。",
       "a": "颂曰：搀枪一点现东方，吴楚依然有帝王。门外客来终不久，乾坤再造在角亢。\n\n金圣叹注解：东北被夷人所扰。",
       "q_en": "Hexagram 52 · Yimao · Tai\nProphetic verse: A comet suddenly appears — ill-omened for the northeast. Walking alone, where does one go? Gazing upon that land of joy.",
@@ -572,7 +624,7 @@
     },
     {
       "id": 53,
-      "cat": "future",
+      "cat": "politics",
       "q": "第五三象 丙辰 大壮卦\n谶曰：阙中天子，礼贤下士。顺天休命，半老有子。",
       "a": "颂曰：一个孝子自西来，手掘干纲天下安。域中两见旌旗美，前人不及后人才。\n\n金圣叹注解：一秦姓者登极。",
       "q_en": "Hexagram 53 · Bingchen · Dazhuang\nProphetic verse: The Son of Heaven in the palace treats the worthy with courtesy. Following heaven's command to rest — in later years, a son is born.",
@@ -581,7 +633,7 @@
     },
     {
       "id": 54,
-      "cat": "future",
+      "cat": "politics",
       "q": "第五四象 丁巳 夬卦\n谶曰：磊磊落落，残棋一局。啄息苟安，虽笑亦哭。",
       "a": "颂曰：不分牛鼠和牛羊，去毛存鞟尚称强。寰中自有真龙出，九曲黄河水不黄。\n\n金圣叹注解：号令不行，久合必分。",
       "q_en": "Hexagram 54 · Dingsi · Guai\nProphetic verse: Grand and open, a chess game nearing its end. Pecking for rest, settling for temporary peace — though laughing, also crying.",
@@ -590,7 +642,7 @@
     },
     {
       "id": 55,
-      "cat": "future",
+      "cat": "politics",
       "q": "第五五象 戊午 需卦\n谶曰：惧则生戒，无远勿届。水边有女，对日自拜。",
       "a": "颂曰：觊觎神器终无用，翼翼小心有臣众。转危为安见节义，未必河山自我送。\n\n金圣叹注解：一统中原，有谋篡者。",
       "q_en": "Hexagram 55 · Wuwu · Xu\nProphetic verse: Fear gives birth to vigilance; nowhere is beyond reach. A woman by the water bows to the sun.",
@@ -599,7 +651,7 @@
     },
     {
       "id": 56,
-      "cat": "future",
+      "cat": "tech",
       "q": "第五六象 己未 比卦\n谶曰：飞者非鸟，潜者非鱼。战不在兵，造化游戏。",
       "a": "颂曰：海疆万里尽云烟，上迄云霄下及泉。金母木公工幻弄，干戈未接祸连天。\n\n金圣叹注解：高科技战争。",
       "q_en": "Hexagram 56 · Jiwei · Bi\nProphetic verse: What flies is not a bird; what lurks beneath is not a fish. The battle is not fought with soldiers — it is nature's game.",
@@ -608,7 +660,7 @@
     },
     {
       "id": 57,
-      "cat": "future",
+      "cat": "society",
       "q": "第五七象 庚申 兑卦\n谶曰：物极必反，以毒制毒。三尺童子，四夷詟服。",
       "a": "颂曰：坎离相克见天倪，天使斯人弭杀机。不信奇才产吴越，重洋从此戢兵师。\n\n金圣叹注解：吴越奇才平息战火。",
       "q_en": "Hexagram 57 · Gengshen · Dui\nProphetic verse: Things taken to the extreme must reverse; fight poison with poison. A three-foot child — the four barbarian peoples tremble in submission.",
@@ -617,7 +669,7 @@
     },
     {
       "id": 58,
-      "cat": "future",
+      "cat": "society",
       "q": "第五八象 辛酉 困卦\n谶曰：大乱平，四夷服。称弟兄，六七国。",
       "a": "颂曰：烽烟净尽海无波，称帝称王又统和。犹有煞星隐西北，未能遍唱太平歌。\n\n金圣叹注解：世界大体和平。",
       "q_en": "Hexagram 58 · Xinyou · Kun\nProphetic verse: The great turmoil is quelled; the four barbarian peoples submit. They call each other brothers — six or seven nations.",
@@ -626,7 +678,7 @@
     },
     {
       "id": 59,
-      "cat": "future",
+      "cat": "society",
       "q": "第五九象 壬戌 咸卦\n谶曰：无城无府，无尔无我。天下一家，治臻大化。",
       "a": "颂曰：一人为大世界福，手执签筒拔去竹。红黄黑白不分明，东南西北尽和睦。\n\n金圣叹注解：世界大同。",
       "q_en": "Hexagram 59 · Renxu · Xian\nProphetic verse: No cities, no prefectures; no 'you,' no 'I.' All under heaven is one family — governance reaches the Great Transformation.",
@@ -635,7 +687,7 @@
     },
     {
       "id": 60,
-      "cat": "future",
+      "cat": "spirit",
       "q": "第六十象 癸亥 萃卦\n谶曰：一阴一阳，无终无始。终者日终，始者自始。",
       "a": "颂曰：茫茫天数此中求，世道兴衰不自由。万万千千说不尽，不如推背去归休。\n\n金圣叹注解：推背图终结，万千说不尽。",
       "q_en": "Hexagram 60 · Guihai · Cui\nProphetic verse: One yin, one yang — no end, no beginning. What ends shall end in its day; what begins shall begin of itself.",

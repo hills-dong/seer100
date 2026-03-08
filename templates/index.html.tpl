@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
   <meta name="keywords" content="{{keywords}}">
@@ -38,9 +38,8 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <div class="logo">{{logoHtml}}</div>
       <div class="nav-tabs">
-        <button class="nav-tab active" data-tab="all" onclick="switchTab('all')">{{navAll}}</button>
+        <button class="nav-tab active" data-tab="all" onclick="switchTab('all')"><span class="logo">{{logoHtml}}</span></button>
         <button class="nav-tab" data-tab="intro" onclick="switchTab('intro')">{{navHome}}</button>
       </div>
       <button class="lang-toggle" onclick="switchLang()">{{langToggleText}}</button>

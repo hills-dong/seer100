@@ -1,51 +1,51 @@
 {
   "categories": {
-    "tech": {
-      "zh": "科技与通讯",
-      "en": "Technology & Communication",
-      "icon": "🔬"
-    },
     "politics": {
-      "zh": "地缘政治与战争",
-      "en": "Geopolitics & War",
-      "icon": "🌍"
+      "zh": "政治与权力",
+      "en": "Politics & Power",
+      "icon": "i-politics"
+    },
+    "war": {
+      "zh": "战争与冲突",
+      "en": "War & Conflict",
+      "icon": "i-war"
+    },
+    "tech": {
+      "zh": "科技与发现",
+      "en": "Technology & Discovery",
+      "icon": "i-tech"
     },
     "economy": {
       "zh": "经济与金融",
       "en": "Economy & Finance",
-      "icon": "💰"
+      "icon": "i-economy"
     },
     "society": {
-      "zh": "社会与生活",
-      "en": "Society & Life",
-      "icon": "🏠"
+      "zh": "社会与文明",
+      "en": "Society & Civilization",
+      "icon": "i-society"
     },
     "climate": {
-      "zh": "气候与自然灾害",
+      "zh": "气候与灾害",
       "en": "Climate & Disasters",
-      "icon": "🌊"
+      "icon": "i-climate"
     },
     "spirit": {
-      "zh": "哲学与精神",
-      "en": "Philosophy & Spirituality",
-      "icon": "🧠"
-    },
-    "specific": {
-      "zh": "具体预测",
-      "en": "Specific Predictions",
-      "icon": "📅"
+      "zh": "宗教与哲学",
+      "en": "Religion & Philosophy",
+      "icon": "i-spirit"
     },
     "other": {
-      "zh": "个人与其他",
-      "en": "Personal & Others",
-      "icon": "💬"
+      "zh": "其他",
+      "en": "Other",
+      "icon": "i-other"
     }
   },
   "statusMap": {
     "verified": {
       "zh": "已应验",
       "en": "Verified",
-      "icon": "✅",
+      "icon": "i-verified",
       "cls": "verified"
     },
     "partial": {
@@ -57,13 +57,13 @@
     "failed": {
       "zh": "未应验",
       "en": "Not Verified",
-      "icon": "❌",
+      "icon": "i-failed",
       "cls": "failed"
     },
     "pending": {
       "zh": "尚待验证",
       "en": "Pending",
-      "icon": "🔄",
+      "icon": "i-pending",
       "cls": "pending"
     }
   },
@@ -312,7 +312,7 @@
     },
     {
       "id": 20,
-      "cat": "politics",
+      "cat": "war",
       "q": "哪里的战争？",
       "a": "牵扯到全球的两个世界文明，地点是在三个大洲交界。我只能说这么多。",
       "q_en": "Where is the war?",
@@ -342,7 +342,7 @@
     },
     {
       "id": 106,
-      "cat": "politics",
+      "cat": "war",
       "q": "中国在第三次世界大战处于什么位置？",
       "a": "与美国欧盟以色列对抗。与中东印度联盟。",
       "q_en": "What is China's position in World War III?",
@@ -364,7 +364,7 @@
     },
     {
       "id": 119,
-      "cat": "politics",
+      "cat": "war",
       "q": "俄罗斯呢？",
       "a": "表面中立。",
       "q_en": "What about Russia?",
@@ -374,7 +374,7 @@
     },
     {
       "id": 120,
-      "cat": "politics",
+      "cat": "war",
       "q": "与中东印度联盟的话，中东的宗教问题对中国有没有伤害？",
       "a": "朝鲜不久会有变动。",
       "q_en": "If allied with Middle East and India, will Middle Eastern religious issues harm China?",
@@ -394,7 +394,7 @@
     },
     {
       "id": 133,
-      "cat": "politics",
+      "cat": "war",
       "q": "日本还存在吗？",
       "a": "存在，但失去一半。",
       "q_en": "Does Japan still exist?",
@@ -404,7 +404,7 @@
     },
     {
       "id": 140,
-      "cat": "politics",
+      "cat": "war",
       "q": "战争都是因何而起的呢？",
       "a": "宗教与文明的冲突。",
       "q_en": "What causes the wars?",
@@ -414,7 +414,7 @@
     },
     {
       "id": 153,
-      "cat": "politics",
+      "cat": "war",
       "q": "请问中国最近的一次大规模战争是什么时候？",
       "a": "不在中国本土。在三大洲交界。",
       "q_en": "When is China's most recent large-scale war?",
@@ -434,7 +434,7 @@
     },
     {
       "id": 162,
-      "cat": "politics",
+      "cat": "war",
       "q": "全世界哪些地方适合定居呢？",
       "a": "欧洲将是战争发源地。",
       "q_en": "Where in the world is suitable for settling?",
@@ -444,7 +444,7 @@
     },
     {
       "id": 169,
-      "cat": "politics",
+      "cat": "war",
       "q": "战争的形式还是短兵相接炮火纷争吗？",
       "a": "尸首成堆，血流成河。",
       "q_en": "Is war still fought with conventional weapons?",
@@ -454,7 +454,7 @@
     },
     {
       "id": 188,
-      "cat": "politics",
+      "cat": "war",
       "q": "日本迁哪里去了？",
       "a": "迁都冈山。",
       "q_en": "Where did Japan relocate?",
@@ -464,7 +464,7 @@
     },
     {
       "id": 190,
-      "cat": "politics",
+      "cat": "war",
       "q": "欧洲发展怎么样了？",
       "a": "因为中东宗教渗入，整体显得软弱无力，直到一个强盛的人出现。战乱因他而起，也到他为止。世界因此震动，一切改变。",
       "q_en": "How has Europe developed?",
@@ -494,7 +494,7 @@
     },
     {
       "id": 202,
-      "cat": "politics",
+      "cat": "war",
       "q": "特朗普的历史意义是什么？",
       "a": "引发了第二次冷战。",
       "q_en": "What is Trump's historical significance?",
@@ -504,7 +504,7 @@
     },
     {
       "id": 203,
-      "cat": "politics",
+      "cat": "economy",
       "q": "哪个国家GDP最高？",
       "a": "2048年前中国和美国交替。",
       "q_en": "Which country has the highest GDP?",
@@ -514,7 +514,7 @@
     },
     {
       "id": 207,
-      "cat": "politics",
+      "cat": "war",
       "q": "世界大战是否发生在2048年？持续多久？",
       "a": "超过三年。",
       "q_en": "Does the world war happen in 2048? How long does it last?",
@@ -544,7 +544,7 @@
     },
     {
       "id": 227,
-      "cat": "politics",
+      "cat": "war",
       "q": "描述东亚冲突和救赎之路？",
       "a": "局部战争以和平协议结束。",
       "q_en": "Describe East Asian conflicts and paths to salvation?",
@@ -616,7 +616,7 @@
     },
     {
       "id": 281,
-      "cat": "politics",
+      "cat": "war",
       "q": "俄罗斯在世界大战中的角色？",
       "a": "表面中立，暗中推动战争。",
       "q_en": "What is Russia's role in the world war?",
@@ -626,7 +626,7 @@
     },
     {
       "id": 59,
-      "cat": "politics",
+      "cat": "war",
       "q": "这次战争的规模有多大，是否适用大型核武器？",
       "a": "全球性战争。中心在三大洲交界处。比个别适用核武器更为恐怖。",
       "q_en": "How large is this war? Are nuclear weapons used?",
@@ -636,7 +636,7 @@
     },
     {
       "id": 68,
-      "cat": "politics",
+      "cat": "war",
       "q": "近几年会有战争吗？",
       "a": "2048年以前不会有全球性战争。但局部战争没有停止过。",
       "q_en": "Will there be wars in the near future?",
@@ -646,7 +646,7 @@
     },
     {
       "id": 81,
-      "cat": "politics",
+      "cat": "war",
       "q": "第二次冷战中国输了吗？",
       "a": "持续了30年。",
       "q_en": "Did China lose the Second Cold War?",
@@ -656,7 +656,7 @@
     },
     {
       "id": 83,
-      "cat": "politics",
+      "cat": "war",
       "q": "美国在那时候居住生活环境好吗？还是不是第一大国？",
       "a": "美国是战前最后一个帝国。欧盟是战争的决定因素。中国和印度将成为东方的另外一股势力。",
       "q_en": "Is the US still a good place to live? Is it still the top power?",
@@ -666,7 +666,7 @@
     },
     {
       "id": 93,
-      "cat": "politics",
+      "cat": "war",
       "q": "第三次世界大战打了吗？",
       "a": "打过了。",
       "q_en": "Has World War III happened?",
@@ -1766,7 +1766,7 @@
     },
     {
       "id": 48,
-      "cat": "specific",
+      "cat": "society",
       "q": "今年看来还不是所谓的'多事之秋'啊，集中在下半年？",
       "a": "下半年。",
       "q_en": "This year doesn't seem eventful yet. Will it concentrate in the second half?",
@@ -1778,7 +1778,7 @@
     },
     {
       "id": 50,
-      "cat": "specific",
+      "cat": "politics",
       "q": "大清药丸了吗？",
       "a": "我透过数据分析后，才理解你这句话于2019年才能明白的古语。我这里的数据结论是2048年。",
       "q_en": "Is the regime doomed? (Chinese internet slang)",
@@ -1788,7 +1788,7 @@
     },
     {
       "id": 115,
-      "cat": "specific",
+      "cat": "tech",
       "q": "自动驾驶在中国成功了吗？",
       "a": "自动驾驶在中国最终并不是成功的实验。",
       "q_en": "Has autonomous driving succeeded in China?",
@@ -1798,7 +1798,7 @@
     },
     {
       "id": 127,
-      "cat": "specific",
+      "cat": "society",
       "q": "上海在二十年代还安全吗？",
       "a": "2048年以前都算安全。",
       "q_en": "Is Shanghai safe in the 2020s?",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": 130,
-      "cat": "specific",
+      "cat": "society",
       "q": "中国女排东京奥运会夺冠了吗？",
       "a": "没有。东京奥运会会有事故发生。",
       "q_en": "Did China's women's volleyball win at the Tokyo Olympics?",
@@ -1820,7 +1820,7 @@
     },
     {
       "id": 136,
-      "cat": "specific",
+      "cat": "society",
       "q": "2032夏季奥运会是哪个国家举办？",
       "a": "雅加达。",
       "q_en": "Which country hosts the 2032 Summer Olympics?",
@@ -1830,7 +1830,7 @@
     },
     {
       "id": 151,
-      "cat": "specific",
+      "cat": "politics",
       "q": "2020年中国会统一台湾吗？",
       "a": "不会。",
       "q_en": "Will China unify Taiwan in 2020?",
@@ -1842,7 +1842,7 @@
     },
     {
       "id": 166,
-      "cat": "specific",
+      "cat": "society",
       "q": "全世界还有哪些地方适合生存吗？",
       "a": "西澳相对稳定。",
       "q_en": "Where in the world is suitable for survival?",
@@ -1852,7 +1852,7 @@
     },
     {
       "id": 174,
-      "cat": "specific",
+      "cat": "other",
       "q": "你怎么用繁体字是从台湾来的吗？",
       "a": "2020至2048年间我生活在上海、其次是昆山、湖州、宁波。2048年至2060年我生活在澳洲。使用繁体字，只是一个旅行的选项，这样可以避免信息引起注意，被迫离开这里。",
       "q_en": "You use traditional characters — are you from Taiwan?",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": 193,
-      "cat": "specific",
+      "cat": "society",
       "q": "2020-21年适合去英国留学吗？",
       "a": "20年代的欧洲，特别是英国，相对安全。",
       "q_en": "Is it suitable to study in the UK in 2020-21?",
@@ -1872,7 +1872,7 @@
     },
     {
       "id": 206,
-      "cat": "specific",
+      "cat": "society",
       "q": "2019-2025年去意大利留学安全吗？",
       "a": "相对安全，但会有意外发生。",
       "q_en": "Is it safe to study in Italy from 2019-2025?",
@@ -1884,7 +1884,7 @@
     },
     {
       "id": 219,
-      "cat": "specific",
+      "cat": "society",
       "q": "大学还有辅导员吗？",
       "a": "2019-2030辅导员显得尤为重要。",
       "q_en": "Do universities still have counselors?",
@@ -1894,7 +1894,7 @@
     },
     {
       "id": 240,
-      "cat": "specific",
+      "cat": "society",
       "q": "重庆/成都在2030年前适合居住吗？",
       "a": "不太适合。",
       "q_en": "Are Chongqing/Chengdu suitable for living before 2030?",
@@ -1904,7 +1904,7 @@
     },
     {
       "id": 242,
-      "cat": "specific",
+      "cat": "other",
       "q": "你为什么移居澳大利亚？",
       "a": "家人与安全。",
       "q_en": "Why did you migrate to Australia?",
@@ -1914,7 +1914,7 @@
     },
     {
       "id": 270,
-      "cat": "specific",
+      "cat": "other",
       "q": "2031年电话预言是真的吗？",
       "a": "假的。",
       "q_en": "Is the 2031 phone call prophecy true?",
@@ -1924,7 +1924,7 @@
     },
     {
       "id": 282,
-      "cat": "specific",
+      "cat": "other",
       "q": "解释一下红楼梦中薛宝钗的命运？",
       "a": "原作者本意，是婚后死于宝玉以先，原因是心灰意冷，任留小病累计成为大病。",
       "q_en": "Explain Xue Baochai's fate in Dream of the Red Chamber?",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": 63,
-      "cat": "specific",
+      "cat": "society",
       "q": "请问您最想对我们2019年的人类说些什么话呢？",
       "a": "希望2019年的人能记得，上半年是你们最美好的一年，下半年进入的动荡，会是人类未来的常态。",
       "q_en": "What do you most want to say to people of 2019?",
@@ -1946,7 +1946,7 @@
     },
     {
       "id": 67,
-      "cat": "specific",
+      "cat": "society",
       "q": "2048是你的回答里提到很多的一个年份，请问那一年是很特殊的一年吗？",
       "a": "是的。不仅对中国，对全球都很特殊。",
       "q_en": "2048 is mentioned frequently in your answers. Is that a special year?",
@@ -1956,7 +1956,7 @@
     },
     {
       "id": 72,
-      "cat": "specific",
+      "cat": "society",
       "q": "2030年后我们还能自由的到其他国家旅行么？出国留学会受影响么？",
       "a": "2030年以后可以。但是2048年以后旅行和留学将会没有意义。",
       "q_en": "Can we still freely travel abroad after 2030? Will studying abroad be affected?",
@@ -1966,7 +1966,7 @@
     },
     {
       "id": 88,
-      "cat": "specific",
+      "cat": "other",
       "q": "请问，马航MH370最后有找到吗？",
       "a": "会在不久的将来由第三方国家解密。",
       "q_en": "Was Malaysia Airlines MH370 ever found?",
@@ -1976,7 +1976,7 @@
     },
     {
       "id": 97,
-      "cat": "specific",
+      "cat": "society",
       "q": "2020-2030年会过的很艰苦吗？",
       "a": "有的国家是。",
       "q_en": "Will 2020-2030 be very difficult?",

@@ -27,19 +27,21 @@ function blend(c1, c2, t) {
   ];
 }
 
-// --- Vanga: Eye icon (matching logo) ---
-// Outer colored circle with white iris and colored pupil
+// Helper: write pixel with RGBA
+function setPx(buf, pixOff, r, g, b, a) {
+  buf[pixOff] = r; buf[pixOff + 1] = g; buf[pixOff + 2] = b; buf[pixOff + 3] = a;
+}
+
+// --- Vanga: Concentric circles (matching logo SVG) ---
+// Logo: outer circle #7b4a9e, white ring #fff, inner pupil #5c2d82
 function buildVangaData() {
-  const [pr, pg, pb] = hexToRGB('#7b4a9e');
+  const primary = hexToRGB('#7b4a9e');
   const dark = hexToRGB('#5c2d82');
-  const white = [255, 255, 255];
   const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
 
-  const R = 78; // outer circle
-  const eyeW = 70; // eye-shaped white area half-width
-  const eyeH = 40; // eye-shaped white area half-height
-  const irisR = 28; // iris radius
-  const pupilR = 14; // pupil radius
+  const outerR = 78;
+  const whiteR = 36;
+  const pupilR = 18;
 
   for (let y = 0; y < SIZE; y++) {
     const rowOff = y * (1 + SIZE * 4);
@@ -48,66 +50,75 @@ function buildVangaData() {
       const px = x + 0.5, py = y + 0.5;
       const d = dist(px, py, CX, CY);
       const pixOff = rowOff + 1 + x * 4;
-      let r, g, b;
 
-      // Eye shape: elliptical with pointed ends
-      const nx = (px - CX) / eyeW;
-      const ny = (py - CY) / eyeH;
-      const eyeDist = nx * nx + ny * ny;
-
-      if (d > R + 0.8) {
-        r = 255; g = 255; b = 255; // background
-      } else if (d > R - 0.8) {
-        const t = Math.max(0, Math.min(1, (R - d + 0.8) / 1.6));
-        [r, g, b] = blend([pr, pg, pb], white, t);
-      } else if (d <= pupilR + 0.8 && d > pupilR - 0.8) {
-        const t = Math.max(0, Math.min(1, (pupilR - d + 0.8) / 1.6));
-        [r, g, b] = blend(dark, white, t);
+      if (d > outerR + 0.8) {
+        setPx(buf, pixOff, 0, 0, 0, 0); // transparent
+      } else if (d > outerR - 0.8) {
+        const a = Math.round(Math.max(0, Math.min(1, (outerR - d + 0.8) / 1.6)) * 255);
+        setPx(buf, pixOff, primary[0], primary[1], primary[2], a);
       } else if (d <= pupilR) {
-        r = dark[0]; g = dark[1]; b = dark[2];
-      } else if (d <= irisR + 0.8 && d > irisR - 0.8 && eyeDist < 1.2) {
-        const t = Math.max(0, Math.min(1, (irisR - d + 0.8) / 1.6));
-        [r, g, b] = blend(white, [pr, pg, pb], t);
-      } else if (d <= irisR && eyeDist < 1.0) {
-        r = 255; g = 255; b = 255;
-      } else if (eyeDist < 1.05 && eyeDist > 0.95) {
-        const t = Math.max(0, Math.min(1, (1.0 - eyeDist) / 0.1 + 0.5));
-        [r, g, b] = blend(white, [pr, pg, pb], t);
-      } else if (eyeDist < 1.0) {
-        r = 255; g = 255; b = 255;
+        setPx(buf, pixOff, dark[0], dark[1], dark[2], 255);
+      } else if (d <= pupilR + 0.8) {
+        const [r, g, b] = blend(dark, [255, 255, 255], Math.max(0, Math.min(1, (pupilR - d + 0.8) / 1.6)));
+        setPx(buf, pixOff, r, g, b, 255);
+      } else if (d <= whiteR) {
+        setPx(buf, pixOff, 255, 255, 255, 255);
+      } else if (d <= whiteR + 0.8) {
+        const [r, g, b] = blend([255, 255, 255], primary, Math.max(0, Math.min(1, (whiteR - d + 0.8) / 1.6)));
+        setPx(buf, pixOff, r, g, b, 255);
       } else {
-        r = pr; g = pg; b = pb;
+        setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
       }
-
-      buf[pixOff] = r; buf[pixOff + 1] = g; buf[pixOff + 2] = b; buf[pixOff + 3] = 255;
     }
   }
   return buf;
 }
 
-// --- Nostradamus: Star icon (matching logo's star polygon) ---
+// --- Nostradamus: Sharp 5-pointed star with center circles (matching logo SVG) ---
+// Logo: polygon star #8b1a1a, inner circle r=4 #f5f0e8, dot r=2 #8b1a1a
 function buildNostradamusData() {
   const primary = hexToRGB('#8b1a1a');
   const bg = hexToRGB('#f5f0e8');
   const white = [255, 255, 255];
   const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
 
-  // 5-pointed star using polar coordinates
-  const R_OUTER_STAR = 75;
-  const R_INNER_STAR = 30;
-  const innerCircleR = 22;
-  const dotR = 12;
+  // Build star polygon matching logo: points="14,2 17.5,10 26,10 19.5,15.5 22,24 14,19 6,24 8.5,15.5 2,10 10.5,10"
+  // Scale from logo coords (center 14,14, range ~2-26) to 180x180 (center 90,90)
+  const scale = 180 / 28;
+  const logoPoints = [
+    [14,2], [17.5,10], [26,10], [19.5,15.5], [22,24],
+    [14,19], [6,24], [8.5,15.5], [2,10], [10.5,10]
+  ];
+  const starPoly = logoPoints.map(([lx, ly]) => [lx * scale, ly * scale]);
 
-  function isInStar(px, py) {
-    const dx = px - CX, dy = py - CY;
-    const angle = Math.atan2(dy, dx);
-    const r = Math.sqrt(dx * dx + dy * dy);
-    // 5-pointed star: alternating outer/inner radii every 36 degrees
-    const a = ((angle + Math.PI * 2.5) % (Math.PI * 2)); // rotate so top point is up
-    const sector = a / (Math.PI * 2) * 10; // 0-10 for 10 sectors
-    const sectorAngle = (sector % 2) < 1 ? (sector % 2) : (2 - (sector % 2)); // 0->1->0 triangle wave
-    const edgeR = R_INNER_STAR + (R_OUTER_STAR - R_INNER_STAR) * (1 - sectorAngle);
-    return r <= edgeR ? edgeR - r : -(r - edgeR);
+  const innerCircleR = 4 * scale;   // ~25.7
+  const dotR = 2 * scale;           // ~12.9
+
+  function pointInPolygon(px, py, poly) {
+    let inside = false;
+    for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+      const [xi, yi] = poly[i], [xj, yj] = poly[j];
+      if ((yi > py) !== (yj > py) && px < (xj - xi) * (py - yi) / (yj - yi) + xi) {
+        inside = !inside;
+      }
+    }
+    return inside;
+  }
+
+  // Distance from point to polygon edge (for anti-aliasing)
+  function distToPolygonEdge(px, py, poly) {
+    let minD = Infinity;
+    for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+      const [x1, y1] = poly[j], [x2, y2] = poly[i];
+      const dx = x2 - x1, dy = y2 - y1;
+      const len2 = dx * dx + dy * dy;
+      let t = len2 > 0 ? ((px - x1) * dx + (py - y1) * dy) / len2 : 0;
+      t = Math.max(0, Math.min(1, t));
+      const cx = x1 + t * dx, cy = y1 + t * dy;
+      const d = Math.sqrt((px - cx) * (px - cx) + (py - cy) * (py - cy));
+      if (d < minD) minD = d;
+    }
+    return minD;
   }
 
   for (let y = 0; y < SIZE; y++) {
@@ -117,45 +128,62 @@ function buildNostradamusData() {
       const px = x + 0.5, py = y + 0.5;
       const pixOff = rowOff + 1 + x * 4;
       const d = dist(px, py, CX, CY);
-      let r, g, b;
 
-      const starDist = isInStar(px, py);
-
-      if (d <= dotR + 0.8 && d > dotR - 0.8) {
-        const t = Math.max(0, Math.min(1, (dotR - d + 0.8) / 1.6));
-        [r, g, b] = blend(primary, bg, t);
-      } else if (d <= dotR) {
-        r = primary[0]; g = primary[1]; b = primary[2];
-      } else if (d <= innerCircleR + 0.8 && d > innerCircleR - 0.8) {
-        const t = Math.max(0, Math.min(1, (innerCircleR - d + 0.8) / 1.6));
-        [r, g, b] = blend(bg, primary, t);
-      } else if (d <= innerCircleR) {
-        r = bg[0]; g = bg[1]; b = bg[2];
-      } else if (starDist > -1.2 && starDist < 1.2) {
-        const t = Math.max(0, Math.min(1, (starDist + 1.2) / 2.4));
-        [r, g, b] = blend(primary, white, t);
-      } else if (starDist >= 1.2) {
-        r = primary[0]; g = primary[1]; b = primary[2];
-      } else {
-        r = 255; g = 255; b = 255;
+      // Center dot (primary)
+      if (d <= dotR) {
+        setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
+      } else if (d <= dotR + 0.8) {
+        const [r, g, b] = blend(primary, bg, Math.max(0, Math.min(1, (dotR - d + 0.8) / 1.6)));
+        setPx(buf, pixOff, r, g, b, 255);
       }
-
-      buf[pixOff] = r; buf[pixOff + 1] = g; buf[pixOff + 2] = b; buf[pixOff + 3] = 255;
+      // Inner circle (bg color)
+      else if (d <= innerCircleR) {
+        setPx(buf, pixOff, bg[0], bg[1], bg[2], 255);
+      } else if (d <= innerCircleR + 0.8) {
+        const [r, g, b] = blend(bg, primary, Math.max(0, Math.min(1, (innerCircleR - d + 0.8) / 1.6)));
+        setPx(buf, pixOff, r, g, b, 255);
+      }
+      // Star polygon
+      else {
+        const inStar = pointInPolygon(px, py, starPoly);
+        const edgeDist = distToPolygonEdge(px, py, starPoly);
+        if (inStar) {
+          if (edgeDist < 1.2) {
+            const a = Math.round(Math.max(0, Math.min(1, edgeDist / 1.2)) * 255);
+            setPx(buf, pixOff, primary[0], primary[1], primary[2], a);
+          } else {
+            setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
+          }
+        } else {
+          if (edgeDist < 1.2) {
+            const a = Math.round(Math.max(0, Math.min(1, 1 - edgeDist / 1.2)) * 255);
+            setPx(buf, pixOff, primary[0], primary[1], primary[2], a);
+          } else {
+            setPx(buf, pixOff, 0, 0, 0, 0); // transparent
+          }
+        }
+      }
     }
   }
   return buf;
 }
 
-// --- Tui Bei Tu: Yin-Yang / Taijitu icon (matching logo) ---
+// --- Tui Bei Tu: Yin-Yang / Taijitu icon (matching logo SVG) ---
+// Logo: dark=#1a3a5c fills full circle, light=#f0ece4 is the right-side fish via S-curve path,
+// light dot at top (cy=8), dark dot at bottom (cy=20), outer ring stroke
 function buildTuibeituData() {
   const dark = hexToRGB('#1a3a5c');
   const light = hexToRGB('#f0ece4');
   const white = [255, 255, 255];
   const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
 
-  const R = 78;
-  const smallR = R / 2;   // radius of the S-curve semicircles
-  const dotR = R / 6;     // small dots
+  // Logo: center (14,14), outer r=12, dots at (14,8) r=2.2 and (14,20) r=2.2
+  // Scale: 180/28 ≈ 6.43
+  const R = 78;            // 12 * 6.5
+  const smallR = R / 2;    // half-circle radius for S-curve
+  // Dots: at (14,8) and (14,20) in logo → offset ±6 from center → ±39 in 180px
+  const dotOffY = 39;
+  const dotR = 14;         // 2.2 * 6.43 ≈ 14
 
   for (let y = 0; y < SIZE; y++) {
     const rowOff = y * (1 + SIZE * 4);
@@ -167,63 +195,51 @@ function buildTuibeituData() {
       let r, g, b;
 
       if (d > R + 0.8) {
-        // Background
-        r = 255; g = 255; b = 255;
+        setPx(buf, pixOff, 0, 0, 0, 0); // transparent
       } else {
-        // Inside the main circle - determine yin or yang side
-        const dx = px - CX, dy = py - CY;
+        const dx = px - CX;
 
-        // Top small semicircle center (dark side contains light dot)
-        const topCY = CY - smallR;
-        const dTop = dist(px, py, CX, topCY);
+        const dTop = dist(px, py, CX, CY - smallR);
+        const dBot = dist(px, py, CX, CY + smallR);
 
-        // Bottom small semicircle center (light side contains dark dot)
-        const botCY = CY + smallR;
-        const dBot = dist(px, py, CX, botCY);
-
-        // Determine which half: S-curve divides the circle
-        // Right half = dark (yang), left half = light (yin)
-        // But top semicircle bulges right, bottom bulges left
-        let isDark;
+        let isLight;
         if (dTop <= smallR) {
-          isDark = true;  // top bulge is dark
+          isLight = true;
         } else if (dBot <= smallR) {
-          isDark = false;  // bottom bulge is light
+          isLight = false;
         } else {
-          isDark = dx >= 0; // right = dark, left = light
+          isLight = dx >= 0;
         }
 
         // Small dots (opposing color)
-        const dotTopD = dist(px, py, CX, topCY);
-        const dotBotD = dist(px, py, CX, botCY);
+        const dotTopD = dist(px, py, CX, CY - dotOffY);
+        const dotBotD = dist(px, py, CX, CY + dotOffY);
+        let r, g, b;
 
         if (dotTopD <= dotR + 0.8 && dotTopD > dotR - 0.8) {
           const t = Math.max(0, Math.min(1, (dotR - dotTopD + 0.8) / 1.6));
           [r, g, b] = blend(light, dark, t);
         } else if (dotTopD <= dotR) {
-          // Light dot in dark area
           r = light[0]; g = light[1]; b = light[2];
         } else if (dotBotD <= dotR + 0.8 && dotBotD > dotR - 0.8) {
           const t = Math.max(0, Math.min(1, (dotR - dotBotD + 0.8) / 1.6));
           [r, g, b] = blend(dark, light, t);
         } else if (dotBotD <= dotR) {
-          // Dark dot in light area
           r = dark[0]; g = dark[1]; b = dark[2];
-        } else if (isDark) {
-          r = dark[0]; g = dark[1]; b = dark[2];
-        } else {
+        } else if (isLight) {
           r = light[0]; g = light[1]; b = light[2];
+        } else {
+          r = dark[0]; g = dark[1]; b = dark[2];
         }
 
-        // Anti-alias outer edge
+        // Anti-alias outer edge with alpha
         if (d > R - 0.8) {
-          const t = Math.max(0, Math.min(1, (R - d + 0.8) / 1.6));
-          const inner = [r, g, b];
-          [r, g, b] = blend(inner, white, t);
+          const a = Math.round(Math.max(0, Math.min(1, (R - d + 0.8) / 1.6)) * 255);
+          setPx(buf, pixOff, r, g, b, a);
+        } else {
+          setPx(buf, pixOff, r, g, b, 255);
         }
       }
-
-      buf[pixOff] = r; buf[pixOff + 1] = g; buf[pixOff + 2] = b; buf[pixOff + 3] = 255;
     }
   }
   return buf;

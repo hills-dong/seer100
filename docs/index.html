@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>预言档案馆 | Prophecy Archive</title>
+<meta name="description" content="收录多位预言者的预言全集与验证分析。A collection of prophecy archives with verification analysis.">
+<link rel="icon" type="image/png" href="kfk/img/favicon.png">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: #f5f5f0;
+  color: #494949;
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+.header {
+  text-align: center;
+  padding: 48px 20px 32px;
+}
+.header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+.header p {
+  color: #888;
+  font-size: 15px;
+}
+.lang-switch {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 16px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #666;
+  background: #fff;
+  transition: all .2s;
+}
+.lang-switch:hover { border-color: #999; color: #333; }
+.grid {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; }
+  .header { padding: 36px 20px 24px; }
+  .header h1 { font-size: 22px; }
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  transition: box-shadow .2s, transform .15s;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,.1);
+  transform: translateY(-2px);
+}
+.card-accent {
+  height: 4px;
+}
+.card-body {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.card-logo {
+  height: 22px;
+  margin-bottom: 12px;
+  object-fit: contain;
+  object-position: left;
+  max-width: 160px;
+}
+.card-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #333;
+}
+.card-subtitle {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 12px;
+}
+.card-desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  border-top: 1px solid #f0f0f0;
+  font-size: 12px;
+  color: #aaa;
+}
+.card-stats span { margin-right: 12px; }
+.card-enter {
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 4px 14px;
+  border-radius: 14px;
+  transition: all .2s;
+}
+.card-enter:hover { opacity: .85; }
+.footer-note {
+  text-align: center;
+  padding: 20px;
+  color: #bbb;
+  font-size: 12px;
+}
+[data-lang="en"] { display: none; }
+body.en [data-lang="zh"] { display: none; }
+body.en [data-lang="en"] { display: initial; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>
+    <span data-lang="zh">预言档案馆</span>
+    <span data-lang="en">Prophecy Archive</span>
+  </h1>
+  <p>
+    <span data-lang="zh">收录多位预言者的预言全集与验证分析</span>
+    <span data-lang="en">A collection of prophecy archives with verification</span>
+  </p>
+  <div class="lang-switch" onclick="document.body.classList.toggle('en');this.textContent=document.body.classList.contains('en')?'中文':'EN'">EN</div>
+</div>
+<div class="grid">
+  <div class="card">
+    <div class="card-accent" style="background:#007722"></div>
+    <div class="card-body">
+      <img class="card-logo" src="kfk/img/logo.png" alt="KFK 2060">
+      <div class="card-title">
+        <span data-lang="zh">KFK 2060 预言</span>
+        <span data-lang="en">KFK 2060 Prophecies</span>
+      </div>
+      <div class="card-subtitle">
+        <span data-lang="zh">来自2060年的时间旅行者</span>
+        <span data-lang="en">A Time Traveler from 2060</span>
+      </div>
+      <div class="card-desc">
+        <span data-lang="zh">2019年豆瓣网友KFK自称来自2060年，留下281条预言涵盖战争、科技、经济、气候等领域。本站完整收录所有预言原文，并对已到期预言进行真实度验证与评估。KFK 2060 time traveler prophecies with full verification.</span>
+        <span data-lang="en">In 2019, an anonymous user 'KFK' on Douban claimed to be from 2060, leaving 281 prophecies covering war, technology, economy, climate &amp; more. Full archive with accuracy verification.</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="card-stats">
+        <span data-lang="zh">281 条预言</span>
+        <span data-lang="en">281 prophecies</span>
+        <span>·</span>
+        <span data-lang="zh">发布: 2019-06-22</span>
+        <span data-lang="en">Pub: 2019-06-22</span>
+      </div>
+      <a class="card-enter" href="kfk/" style="color:#007722;border:1px solid #007722">
+        <span data-lang="zh">进入 →</span>
+        <span data-lang="en">Enter →</span>
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-accent" style="background:#8b1a1a"></div>
+    <div class="card-body">
+      <img class="card-logo" src="nostradamus/img/logo.svg" alt="Nostradamus Prophecies">
+      <div class="card-title">
+        <span data-lang="zh">诺斯特拉达穆斯预言</span>
+        <span data-lang="en">Nostradamus Prophecies</span>
+      </div>
+      <div class="card-subtitle">
+        <span data-lang="zh">法国先知（1503-1566）</span>
+        <span data-lang="en">French Seer (1503-1566)</span>
+      </div>
+      <div class="card-desc">
+        <span data-lang="zh">法国先知诺斯特拉达穆斯（1503-1566）所著《百诗集》收录942首四行诗预言，涵盖战争、天灾、王权、科技、宗教等领域。本站完整收录代表性预言原文，并对已到期预言进行真实度验证与评估。</span>
+        <span data-lang="en">French seer Nostradamus (1503-1566) published Les Prophéties containing 942 quatrains covering war, disaster, royalty, technology, and religion. Full archive with accuracy verification of expired predictions.</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="card-stats">
+        <span data-lang="zh">60 条预言</span>
+        <span data-lang="en">60 prophecies</span>
+        <span>·</span>
+        <span data-lang="zh">发布: 1555</span>
+        <span data-lang="en">Pub: 1555</span>
+      </div>
+      <a class="card-enter" href="nostradamus/" style="color:#8b1a1a;border:1px solid #8b1a1a">
+        <span data-lang="zh">进入 →</span>
+        <span data-lang="en">Enter →</span>
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-accent" style="background:#1a3a5c"></div>
+    <div class="card-body">
+      <img class="card-logo" src="tuibeitu/img/logo.svg" alt="推背图 Tui Bei Tu">
+      <div class="card-title">
+        <span data-lang="zh">推背图预言</span>
+        <span data-lang="en">Tui Bei Tu Prophecies</span>
+      </div>
+      <div class="card-subtitle">
+        <span data-lang="zh">唐代·李淳风 &amp; 袁天罡</span>
+        <span data-lang="en">Tang Dynasty · Li Chunfeng &amp; Yuan Tiangang</span>
+      </div>
+      <div class="card-desc">
+        <span data-lang="zh">推背图是唐朝贞观年间由太史令李淳风与术士袁天罡合著的预言奇书，全书共60象，每象以卦象、图画、谶语、颂诗四部分构成，据信预言了从唐朝至未来的中国历史大事。本站完整收录60象原文并进行验证分析。</span>
+        <span data-lang="en">Tui Bei Tu (推背图) is a Tang dynasty Chinese prophecy text attributed to Li Chunfeng and Yuan Tiangang, containing 60 prophetic images with hexagrams, illustrations, and verses predicting China's future from the 7th century onward. Full archive with accuracy verification.</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="card-stats">
+        <span data-lang="zh">60 条预言</span>
+        <span data-lang="en">60 prophecies</span>
+        <span>·</span>
+        <span data-lang="zh">发布: 约公元650年</span>
+        <span data-lang="en">Pub: 约公元650年</span>
+      </div>
+      <a class="card-enter" href="tuibeitu/" style="color:#1a3a5c;border:1px solid #1a3a5c">
+        <span data-lang="zh">进入 →</span>
+        <span data-lang="en">Enter →</span>
+      </a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-accent" style="background:#7b4a9e"></div>
+    <div class="card-body">
+      <img class="card-logo" src="vanga/img/logo.svg" alt="Baba Vanga Prophecies">
+      <div class="card-title">
+        <span data-lang="zh">巴巴·万加预言</span>
+        <span data-lang="en">Baba Vanga Prophecies</span>
+      </div>
+      <div class="card-subtitle">
+        <span data-lang="zh">保加利亚盲眼预言家（1911-1996）</span>
+        <span data-lang="en">Bulgarian Blind Mystic (1911-1996)</span>
+      </div>
+      <div class="card-desc">
+        <span data-lang="zh">保加利亚盲眼预言家巴巴·万加（1911-1996）留下的85条预言完整收录，涵盖自然灾害、战争、科技、宇宙探索等领域，从2025年延伸至5079年世界末日。已应验预言包括911事件、库尔斯克号沉没、奥巴马当选等。</span>
+        <span data-lang="en">Bulgarian blind mystic Baba Vanga (1911-1996) left 85 prophecies spanning from 2025 to 5079, covering natural disasters, wars, technology, and cosmic events. Verified predictions include 9/11, Kursk submarine, Obama presidency, and more.</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="card-stats">
+        <span data-lang="zh">71 条预言</span>
+        <span data-lang="en">71 prophecies</span>
+        <span>·</span>
+        <span data-lang="zh">发布: 1911-1996</span>
+        <span data-lang="en">Pub: 1911-1996</span>
+      </div>
+      <a class="card-enter" href="vanga/" style="color:#7b4a9e;border:1px solid #7b4a9e">
+        <span data-lang="zh">进入 →</span>
+        <span data-lang="en">Enter →</span>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="footer-note">
+  <span data-lang="zh">预言档案馆 — 记录与验证</span>
+  <span data-lang="en">Prophecy Archive — Record & Verify</span>
+</div>
+</body>
+</html>

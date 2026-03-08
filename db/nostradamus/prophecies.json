@@ -1,18 +1,19 @@
 {
   "categories": {
-    "war": { "zh": "战争与革命", "en": "War & Revolution", "icon": "⚔️" },
-    "disaster": { "zh": "天灾与瘟疫", "en": "Disasters & Plague", "icon": "🌊" },
-    "politics": { "zh": "王权与政治", "en": "Royalty & Politics", "icon": "👑" },
-    "tech": { "zh": "科技与发现", "en": "Technology & Discovery", "icon": "🔬" },
-    "religion": { "zh": "宗教与精神", "en": "Religion & Spirit", "icon": "⛪" },
-    "cosmic": { "zh": "天象与宇宙", "en": "Celestial & Cosmic", "icon": "☄️" },
-    "society": { "zh": "社会与文明", "en": "Society & Civilization", "icon": "🏛️" }
+    "politics": { "zh": "政治与权力", "en": "Politics & Power", "icon": "i-politics" },
+    "war": { "zh": "战争与冲突", "en": "War & Conflict", "icon": "i-war" },
+    "tech": { "zh": "科技与发现", "en": "Technology & Discovery", "icon": "i-tech" },
+    "economy": { "zh": "经济与金融", "en": "Economy & Finance", "icon": "i-economy" },
+    "society": { "zh": "社会与文明", "en": "Society & Civilization", "icon": "i-society" },
+    "climate": { "zh": "气候与灾害", "en": "Climate & Disasters", "icon": "i-climate" },
+    "spirit": { "zh": "宗教与哲学", "en": "Religion & Philosophy", "icon": "i-spirit" },
+    "other": { "zh": "其他", "en": "Other", "icon": "i-other" }
   },
   "statusMap": {
-    "verified": { "zh": "已应验", "en": "Verified", "icon": "✅", "cls": "verified" },
-    "partial": { "zh": "部分相关", "en": "Partial", "icon": "🔶", "cls": "partial" },
-    "failed": { "zh": "未应验", "en": "Failed", "icon": "❌", "cls": "failed" },
-    "pending": { "zh": "待验证", "en": "Pending", "icon": "⏳", "cls": "pending" }
+    "verified": { "zh": "已应验", "en": "Verified", "icon": "i-verified", "cls": "verified" },
+    "partial": { "zh": "部分相关", "en": "Partial", "icon": "i-partial", "cls": "partial" },
+    "failed": { "zh": "未应验", "en": "Failed", "icon": "i-failed", "cls": "failed" },
+    "pending": { "zh": "待验证", "en": "Pending", "icon": "i-pending", "cls": "pending" }
   },
   "prophecies": [
     {
@@ -29,7 +30,7 @@
     },
     {
       "id": 2,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集II-51：伦敦大火（1666年）",
       "a": "「正义者的鲜血将在伦敦被索求，在六十六年被闪电焚烧。古老的大教堂将从高处坠落，几座建筑也将被摧毁。」\n\n解读：「六十六年」直接对应1666年，伦敦大火烧毁了旧圣保罗大教堂和大量建筑。",
       "q_en": "Century II-51: Great Fire of London (1666)",
@@ -113,7 +114,7 @@
     },
     {
       "id": 9,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集VI-97：911恐怖袭击（2001年）",
       "a": "「天空将在北纬四十五度燃烧，火焰逼近伟大的新城。巨大的散落的火焰即刻跃起，当他们想要诺曼人的证据时。」\n\n另见X-72：「1999年7月，恐怖大王将从天而降。」\n\n解读：「伟大的新城」被解读为纽约（New York），「天空燃烧」对应世贸双塔的大火。纽约大约在北纬40-41度，接近「四十五度」。",
       "q_en": "Century VI-97: 9/11 Attacks (2001)",
@@ -137,7 +138,7 @@
     },
     {
       "id": 11,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集II-53：新冠疫情（2020年）",
       "a": "「海洋城市的大瘟疫将不会停止，直到被一个正义之人的死亡所报复。他因没有罪恶的缘故而被谴责和追捕。大女士因伪装而被愤怒所侮辱。」\n\n解读：「海洋城市的大瘟疫」被解读为源自沿海城市（武汉虽非沿海但通过长江连接海洋）的新冠疫情全球大流行。",
       "q_en": "Century II-53: COVID-19 Pandemic (2020)",
@@ -185,7 +186,7 @@
     },
     {
       "id": 15,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集I-87：大地震",
       "a": "「以地球中心之火震动的大地，将使新城周围颤抖。两块巨大的岩石将长期交战，然后阿瑞图萨将使新河变红。」\n\n解读：被解读为与地震相关的预言，可能指旧金山1906年大地震或其他重大地震事件。",
       "q_en": "Century I-87: Great Earthquake",
@@ -221,7 +222,7 @@
     },
     {
       "id": 18,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集V-90：希腊之灾",
       "a": "「在希腊群岛中将诞生如此残暴之人。他将被从皇位驱逐。一位国王将来到，他将在没有任何法律的情况下带来如此巨大的瘟疫。」\n\n解读：被解读为1821年希腊独立战争中奥斯曼帝国对希腊的残酷镇压。",
       "q_en": "Century V-90: Calamity of Greece",
@@ -257,7 +258,7 @@
     },
     {
       "id": 21,
-      "cat": "cosmic",
+      "cat": "tech",
       "q": "百诗集I-84：月球之面",
       "a": "「月亮在夜晚的深处被遮蔽。她的年轻先知将被他的弟子看见。一整天行走在狂热的研究中。」\n\n解读：一些人将此解读为1969年阿波罗11号登月，「年轻先知」指宇航员阿姆斯特朗。",
       "q_en": "Century I-84: Moon Landing",
@@ -269,7 +270,7 @@
     },
     {
       "id": 22,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集X-72：1999年恐怖大王",
       "a": "「1999年，第七个月。天空将降下一位恐怖大王，使蒙古大王复活。在此前后，马尔斯以幸运之名统治。」\n\n解读：这是诺斯特拉达穆斯最著名的带有明确日期的预言。许多人在1999年前对此恐慌不已。",
       "q_en": "Century X-72: King of Terror in 1999",
@@ -317,7 +318,7 @@
     },
     {
       "id": 26,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集I-16：土星与农业之灾",
       "a": "「土星在射手座与水的回合中出现，在其最高的升华之时。瘟疫、饥荒、由战争引起的死亡。世纪和时代都在更新。」\n\n解读：泛指多次出现的饥荒与瘟疫，可对应1348年黑死病等历史事件。",
       "q_en": "Century I-16: Saturn and Agricultural Disaster",
@@ -341,7 +342,7 @@
     },
     {
       "id": 28,
-      "cat": "religion",
+      "cat": "spirit",
       "q": "百诗集V-46：教会的衰落",
       "a": "「因为红衣主教们之间的争执不和。当被选出的萨宾人受到压迫时。他们将对抗他制造谣言。而伟大的老者将被冰冷地排除。」\n\n解读：被解读为天主教会内部改革和梵蒂冈危机。",
       "q_en": "Century V-46: Decline of the Church",
@@ -365,7 +366,7 @@
     },
     {
       "id": 30,
-      "cat": "cosmic",
+      "cat": "climate",
       "q": "百诗集II-46：重大天象事件",
       "a": "「在天空中看到一颗大胡须星，在大瘟疫之后，三位伟大者将死去。灾难打击了大地，世界变得渺小。洪水过后，两个地方各自争斗。」\n\n解读：「大胡须星」指彗星，此预言被解读为与重大彗星出现同期的政治剧变。",
       "q_en": "Century II-46: Great Celestial Event",
@@ -389,7 +390,7 @@
     },
     {
       "id": 32,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集VIII-17：突然富有者将遭灾",
       "a": "「突然富有的人将被三重痛苦打倒。世界动荡不安。如此之多的背叛。」\n\n解读：被解读为2008年全球金融危机，「突然富有者」指金融投机者。",
       "q_en": "Century VIII-17: The Suddenly Rich Will Suffer",
@@ -413,7 +414,7 @@
     },
     {
       "id": 34,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集2025-2：瘟疫比敌人更可怕",
       "a": "「在许多地方瘟疫肆虐。痛苦比敌人的折磨更甚。最终所有人都将寻求新的庇护所。」\n\n解读：可能指2025年后出现的新型传染病或现有疫情的反复。",
       "q_en": "Quatrain 2025-2: Plague Worse Than Enemies",
@@ -449,7 +450,7 @@
     },
     {
       "id": 37,
-      "cat": "cosmic",
+      "cat": "climate",
       "q": "百诗集2025-5：日食之兆",
       "a": "「日食之日，怪兽将被看见。各有不同的解读：价格太高，无人准备。谁也没有料到会有这一天。」\n\n解读：2025年3月29日的日偏食以及2026年8月12日的日全食，被一些人与此预言联系起来。",
       "q_en": "Quatrain 2025-5: Solar Eclipse Omen",
@@ -461,7 +462,7 @@
     },
     {
       "id": 38,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集2025-6：水淹城市",
       "a": "「伟大的城市将被水所淹没。海水将冲破堤坝。人们在屋顶上寻求庇护。」\n\n解读：被解读为2025-2026年极端气候导致的沿海城市洪灾。",
       "q_en": "Quatrain 2025-6: Cities Flooded",
@@ -497,7 +498,7 @@
     },
     {
       "id": 41,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集2026-2：火山之怒",
       "a": "「沉睡已久的山将再次醒来。灰烬将覆盖天空，遮蔽太阳。附近的城市将被遗弃。」\n\n解读：被解读为2026年可能发生的重大火山喷发事件，可能指意大利维苏威火山或冰岛火山系统。",
       "q_en": "Quatrain 2026-2: Wrath of the Volcano",
@@ -533,7 +534,7 @@
     },
     {
       "id": 44,
-      "cat": "cosmic",
+      "cat": "climate",
       "q": "百诗集II-43：大彗星的来临",
       "a": "「在大胡须星出现之际，三位伟大的王子将成为敌人。天空中的和平被从高处击碎。波河泛滥，弯曲的海岸上，蛇被安置。」\n\n解读：「大胡须星」指大彗星，此预言与未来重大彗星事件相关。",
       "q_en": "Century II-43: The Great Comet",
@@ -569,7 +570,7 @@
     },
     {
       "id": 47,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集I-17：气候大灾变",
       "a": "「四十年间彩虹不会出现。四十年间它将被每天看到。干旱的土地将变得更加荒芜，饥荒之后将出现大洪水。」\n\n解读：被解读为全球气候变化导致的极端干旱和洪水交替出现。",
       "q_en": "Century I-17: Climate Catastrophe",
@@ -581,7 +582,7 @@
     },
     {
       "id": 48,
-      "cat": "cosmic",
+      "cat": "climate",
       "q": "百诗集II-62：马比斯与大火",
       "a": "「马比斯将很快死去，接着将发生一场可怕的人与兽的毁灭。然后突然间报复将被看到：百手、饥渴、当彗星经过之时。」\n\n解读：「马比斯」（Mabus）被一些人解读为第三个敌基督的名字的变体。其死亡将引发全球性灾难。",
       "q_en": "Century II-62: Mabus and the Great Fire",
@@ -593,7 +594,7 @@
     },
     {
       "id": 49,
-      "cat": "religion",
+      "cat": "spirit",
       "q": "百诗集V-53：新的宗教法则",
       "a": "「太阳和金星的法律将被争夺。借用先知的精神。两者的法律都不会被倾听。通过太阳，弥赛亚的法律将存续。」\n\n解读：预言未来宗教的融合与变革，可能出现新的全球性精神运动。",
       "q_en": "Century V-53: New Religious Law",
@@ -617,7 +618,7 @@
     },
     {
       "id": 51,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集I-69：大山倒塌七个体育场",
       "a": "「大山，直径七个体育场。在和平、战争、饥荒和洪水之后。它将向远方蔓延，摧毁大国，甚至连古老的遗迹和巨大的基础都将被摧毁。」\n\n解读：被解读为一颗巨大的小行星或彗星撞击地球的预言。",
       "q_en": "Century I-69: Great Mountain Falls Seven Stadia",
@@ -629,7 +630,7 @@
     },
     {
       "id": 52,
-      "cat": "cosmic",
+      "cat": "climate",
       "q": "百诗集I-46：阿格达附近的天象",
       "a": "「非常靠近阿格达的地方，三兄弟之中。将摧毁大城市的东西将来自天空。」\n\n解读：预言未来天体事件对地球城市的威胁。",
       "q_en": "Century I-46: Celestial Event Near Auch",
@@ -653,7 +654,7 @@
     },
     {
       "id": 54,
-      "cat": "religion",
+      "cat": "spirit",
       "q": "百诗集X-74：第七个大数完成之年",
       "a": "「在第七个大数完成的一年。它将出现在祭献的时刻。不远于大千禧年。死者将从坟墓中走出。」\n\n解读：「第七个大数」被一些人解读为公元7000年或其他计算方式。这是诺斯特拉达穆斯最具末世色彩的预言之一。",
       "q_en": "Century X-74: The Seventh Great Number",
@@ -665,7 +666,7 @@
     },
     {
       "id": 55,
-      "cat": "cosmic",
+      "cat": "spirit",
       "q": "百诗集I-48：月球时代",
       "a": "「二十年的月亮统治已经过去。七千年后另一个将掌权。当太阳取回它的日子。那时我的预言就会结束并完成。」\n\n解读：诺斯特拉达穆斯暗示他的预言将延续到公元7000年左右，之后将进入新时代。",
       "q_en": "Century I-48: Age of the Moon",
@@ -701,7 +702,7 @@
     },
     {
       "id": 58,
-      "cat": "cosmic",
+      "cat": "spirit",
       "q": "诺斯特拉达穆斯的终极预言：公元3797年",
       "a": "「我的预言将延续至公元3797年。」——诺斯特拉达穆斯在《百诗集》序言中的声明。\n\n解读：诺斯特拉达穆斯在致其子凯撒的序言中明确表示，他的预言时间跨度延续到公元3797年，被一些人解读为世界末日之年。",
       "q_en": "Nostradamus's Ultimate Prophecy: Year 3797",
@@ -713,7 +714,7 @@
     },
     {
       "id": 59,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "百诗集I-56：大地的巨变",
       "a": "「你将早晚看到巨大的变化。极端的恐怖和报复。月亮在其天使的引导下，天空接近倾斜。」\n\n解读：预言地球将经历一次巨大的地质或天文变化，可能是地轴偏移或极端天气。",
       "q_en": "Century I-56: Great Change of the Earth",
@@ -725,7 +726,7 @@
     },
     {
       "id": 60,
-      "cat": "religion",
+      "cat": "spirit",
       "q": "百诗集X-42：人类的最终命运",
       "a": "「人类的王国是天使般的统治。它将使和平与统一。被囚禁了一半的战争。人们将在和平中长久安息。」\n\n解读：这是诺斯特拉达穆斯少有的乐观预言，暗示人类最终将实现持久和平，进入「天使般的统治」时代。",
       "q_en": "Century X-42: Humanity's Final Destiny",

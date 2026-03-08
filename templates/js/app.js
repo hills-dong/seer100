@@ -35,7 +35,7 @@ function switchTab(tab) {
     document.getElementById('section-intro').style.display = 'none';
     document.getElementById('section-all').style.display = 'block';
   }
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 0 });
 }
 
 function tlItem(key) {
@@ -112,10 +112,10 @@ function renderList(searchOnly) {
           <div class="prophecy-header">
             <div class="prophecy-header-title"><span class="prophecy-id">#${p.id}</span> ${pq(p)}</div>
             <div class="prophecy-header-tags">
-              <span class="prophecy-cat">${cat.icon} ${cat[catKey]}</span>
+              <span class="prophecy-cat"><i class="${cat.icon}"></i> ${cat[catKey]}</span>
               ${pubDate ? `<span class="prophecy-date">${lang === 'zh' ? '发布' : 'Pub'}: ${pubDate}</span>` : ''}
               ${p.year ? `<span class="prophecy-year-tag">${lang === 'zh' ? '预言' : 'Pred'}: ${p.year}</span>` : ''}
-              ${st ? `<span class="status-badge ${st.cls}">${st.icon} ${st[catKey]}</span>` : ''}
+              ${st ? `<span class="status-badge ${st.cls}"><i class="${st.icon}"></i> ${st[catKey]}</span>` : ''}
             </div>
           </div>
           <div class="prophecy-a"><span class="kfk-name">${answerer}: </span>${pa(p)}</div>
@@ -132,9 +132,10 @@ function renderList(searchOnly) {
   }
 
   // Category filter
-  let catFilterHtml = `<button class="filter-btn ${currentCat === 'all' ? 'active' : ''}" onclick="setCat('all')">${t('filterAll')}</button>`;
+  let catFilterHtml = `<button class="filter-btn ${currentCat === 'all' ? 'active' : ''}" onclick="setCat('all')">${t('filterAll')} (${PROPHECIES.length})</button>`;
   for (const [key, val] of Object.entries(CATEGORIES)) {
-    catFilterHtml += `<button class="filter-btn ${currentCat === key ? 'active' : ''}" onclick="setCat('${key}')">${val.icon} ${val[catKey]}</button>`;
+    const catCount = PROPHECIES.filter(p => p.cat === key).length;
+    catFilterHtml += `<button class="filter-btn ${currentCat === key ? 'active' : ''}" onclick="setCat('${key}')"><i class="${val.icon}"></i> ${val[catKey]} (${catCount})</button>`;
   }
 
   // Status filter
@@ -153,9 +154,10 @@ function renderList(searchOnly) {
     { key: 'pending', label: STATUS_MAP.pending[catKey], count: pending.length },
     { key: 'none', label: lang === 'zh' ? '无状态' : 'No Status', count: noStatus.length },
   ];
-  let statusFilterHtml = statusBtns.map(f =>
-    `<button class="filter-btn ${currentStatus === f.key ? 'active' : ''}" onclick="setStatus('${f.key}')">${f.label} (${f.count})</button>`
-  ).join('');
+  let statusFilterHtml = statusBtns.map(f => {
+    const iconHtml = f.key !== 'all' && f.key !== 'none' && STATUS_MAP[f.key] ? `<i class="${STATUS_MAP[f.key].icon}"></i> ` : '';
+    return `<button class="filter-btn ${currentStatus === f.key ? 'active' : ''}" onclick="setStatus('${f.key}')">${iconHtml}${f.label} (${f.count})</button>`;
+  }).join('');
 
   // Stats
   const decidable = verified.length + partial.length + failed.length;
@@ -233,6 +235,5 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.lang-toggle').textContent = lang === 'zh' ? 'EN' : '中文';
   // Set tab labels
   document.querySelector('.nav-tab[data-tab="intro"]').textContent = t('navHome');
-  document.querySelector('.nav-tab[data-tab="all"]').textContent = t('navAll');
   renderAll();
 });

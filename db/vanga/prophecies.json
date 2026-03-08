@@ -1,20 +1,19 @@
 {
   "categories": {
-    "disaster": { "zh": "自然灾害", "en": "Natural Disasters", "icon": "🌊" },
-    "war": { "zh": "战争与冲突", "en": "War & Conflict", "icon": "⚔️" },
-    "tech": { "zh": "科技与发明", "en": "Technology", "icon": "🔬" },
-    "space": { "zh": "宇宙探索", "en": "Space & Cosmos", "icon": "🚀" },
-    "society": { "zh": "社会与文明", "en": "Society & Civilization", "icon": "🏛️" },
-    "biology": { "zh": "生命与进化", "en": "Biology & Evolution", "icon": "🧬" },
-    "spirit": { "zh": "宗教与精神", "en": "Religion & Spirit", "icon": "🔮" },
-    "politics": { "zh": "政治与人物", "en": "Politics & Figures", "icon": "👤" },
-    "energy": { "zh": "能源与环境", "en": "Energy & Environment", "icon": "⚡" }
+    "politics": { "zh": "政治与权力", "en": "Politics & Power", "icon": "i-politics" },
+    "war": { "zh": "战争与冲突", "en": "War & Conflict", "icon": "i-war" },
+    "tech": { "zh": "科技与发现", "en": "Technology & Discovery", "icon": "i-tech" },
+    "economy": { "zh": "经济与金融", "en": "Economy & Finance", "icon": "i-economy" },
+    "society": { "zh": "社会与文明", "en": "Society & Civilization", "icon": "i-society" },
+    "climate": { "zh": "气候与灾害", "en": "Climate & Disasters", "icon": "i-climate" },
+    "spirit": { "zh": "宗教与哲学", "en": "Religion & Philosophy", "icon": "i-spirit" },
+    "other": { "zh": "其他", "en": "Other", "icon": "i-other" }
   },
   "statusMap": {
-    "verified": { "zh": "已应验", "en": "Verified", "icon": "✅", "cls": "verified" },
-    "partial": { "zh": "部分相关", "en": "Partial", "icon": "🔶", "cls": "partial" },
-    "failed": { "zh": "未应验", "en": "Failed", "icon": "❌", "cls": "failed" },
-    "pending": { "zh": "待验证", "en": "Pending", "icon": "⏳", "cls": "pending" }
+    "verified": { "zh": "已应验", "en": "Verified", "icon": "i-verified", "cls": "verified" },
+    "partial": { "zh": "部分相关", "en": "Partial", "icon": "i-partial", "cls": "partial" },
+    "failed": { "zh": "未应验", "en": "Failed", "icon": "i-failed", "cls": "failed" },
+    "pending": { "zh": "待验证", "en": "Pending", "icon": "i-pending", "cls": "pending" }
   },
   "prophecies": [
     {
@@ -31,7 +30,7 @@
     },
     {
       "id": 2,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "1980年，万加提到库尔斯克",
       "a": "「在1999年8月，库尔斯克将被淹没在水下，整个世界都会为之哀悼。」",
       "q_en": "In 1980, Vanga mentioned Kursk",
@@ -79,7 +78,7 @@
     },
     {
       "id": 6,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "万加预言了2022年的干旱和洪水",
       "a": "「大城市将经历干旱和水源短缺，澳大利亚和亚洲将面临严重洪灾。」",
       "q_en": "Vanga predicted 2022 droughts and floods",
@@ -127,7 +126,7 @@
     },
     {
       "id": 10,
-      "cat": "space",
+      "cat": "tech",
       "q": "2025年：与外星人接触",
       "a": "「人类将在一场大型体育赛事期间与外星人建立联系。」",
       "q_en": "2025: Alien contact",
@@ -151,7 +150,7 @@
     },
     {
       "id": 12,
-      "cat": "energy",
+      "cat": "tech",
       "q": "2025年：新能源发现",
       "a": "「一种新的能源将被发现。」",
       "q_en": "2025: New energy source",
@@ -163,7 +162,7 @@
     },
     {
       "id": 13,
-      "cat": "energy",
+      "cat": "tech",
       "q": "新能源与太空探索",
       "a": "「一种新的能源被创造出来，世界饥荒被消除，人类到达金星。」",
       "q_en": "New energy and space exploration",
@@ -175,7 +174,7 @@
     },
     {
       "id": 14,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "海平面上升",
       "a": "「由于气候变化，海平面将大幅上升。」",
       "q_en": "Sea levels rise",
@@ -199,7 +198,7 @@
     },
     {
       "id": 16,
-      "cat": "biology",
+      "cat": "tech",
       "q": "人造器官量产",
       "a": "「合成器官将被大规模生产。」",
       "q_en": "Mass-produced synthetic organs",
@@ -235,7 +234,7 @@
     },
     {
       "id": 19,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "自然自我修复",
       "a": "「自然界将开始自我修复。」",
       "q_en": "Nature revives",
@@ -247,7 +246,7 @@
     },
     {
       "id": 20,
-      "cat": "biology",
+      "cat": "tech",
       "q": "快速衰老病毒",
       "a": "「一种导致快速衰老的病毒将出现。」",
       "q_en": "Rapid aging virus",
@@ -259,7 +258,7 @@
     },
     {
       "id": 21,
-      "cat": "biology",
+      "cat": "tech",
       "q": "衰老病毒被根除",
       "a": "「快速衰老病毒将被根除。」",
       "q_en": "Aging virus eradicated",
@@ -283,7 +282,7 @@
     },
     {
       "id": 23,
-      "cat": "biology",
+      "cat": "society",
       "q": "人类机器化",
       "a": "「人类将逐步变得机械化。」",
       "q_en": "Humans become robotic",
@@ -307,7 +306,7 @@
     },
     {
       "id": 25,
-      "cat": "space",
+      "cat": "tech",
       "q": "匈牙利接收深空信号",
       "a": "「匈牙利将接收到来自深空的信号。巴巴·万加将'重新浮现'。」",
       "q_en": "Hungary receives deep space signals",
@@ -319,7 +318,7 @@
     },
     {
       "id": 26,
-      "cat": "space",
+      "cat": "tech",
       "q": "在外星人帮助下建立海底社会",
       "a": "「在外星人的帮助下，人类将建立海底文明。」",
       "q_en": "Undersea societies with alien help",
@@ -331,7 +330,7 @@
     },
     {
       "id": 27,
-      "cat": "biology",
+      "cat": "society",
       "q": "动物进化为人形",
       "a": "「动物将进化成类人生物。」",
       "q_en": "Animals evolve to human-like",
@@ -355,7 +354,7 @@
     },
     {
       "id": 29,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "地球沙漠化",
       "a": "「地球将变得干燥，沙漠化严重。」",
       "q_en": "Earth becomes desert",
@@ -367,7 +366,7 @@
     },
     {
       "id": 30,
-      "cat": "space",
+      "cat": "tech",
       "q": "火星殖民地独立",
       "a": "「火星殖民地将自给自足，并要求主权独立。」",
       "q_en": "Mars colony demands sovereignty",
@@ -403,7 +402,7 @@
     },
     {
       "id": 33,
-      "cat": "biology",
+      "cat": "society",
       "q": "欧亚混合人种",
       "a": "「由于人口融合，将形成欧亚混合人种。」",
       "q_en": "Euro-Asian race forms",
@@ -415,7 +414,7 @@
     },
     {
       "id": 34,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "太阳冷却",
       "a": "「太阳将冷却，导致重大气候变化。」",
       "q_en": "Sun cools down",
@@ -427,7 +426,7 @@
     },
     {
       "id": 35,
-      "cat": "space",
+      "cat": "tech",
       "q": "人类面对外星人的恐怖发现",
       "a": "「在对外星生命的探索中，人类将面对令人恐惧的发现。」",
       "q_en": "Horrifying alien revelations",
@@ -439,7 +438,7 @@
     },
     {
       "id": 36,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "星际病毒随火箭返回地球",
       "a": "「一种来自外星的病毒将随火箭返回地球。」",
       "q_en": "Intergalactic virus",
@@ -451,7 +450,7 @@
     },
     {
       "id": 37,
-      "cat": "space",
+      "cat": "tech",
       "q": "火星面临小行星毁灭威胁",
       "a": "「火星将受到小行星撞击的毁灭性威胁。」",
       "q_en": "Mars threatened by asteroid",
@@ -475,7 +474,7 @@
     },
     {
       "id": 39,
-      "cat": "biology",
+      "cat": "society",
       "q": "非欧亚混合人种形成",
       "a": "「通过基因融合，非洲-欧亚混合人种将形成。」",
       "q_en": "Afro-Eurasian race forms",
@@ -487,7 +486,7 @@
     },
     {
       "id": 40,
-      "cat": "energy",
+      "cat": "tech",
       "q": "从黑洞中获取能量",
       "a": "「人类将发现如何从黑洞和物质弯曲中获取能量。」",
       "q_en": "Energy from black holes",
@@ -523,7 +522,7 @@
     },
     {
       "id": 43,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "太阳耀斑与卫星坠毁",
       "a": "「太阳耀斑频发，卫星因引力变化而坠毁。」",
       "q_en": "Solar flares crash satellites",
@@ -559,7 +558,7 @@
     },
     {
       "id": 46,
-      "cat": "space",
+      "cat": "tech",
       "q": "人类深入研究月球",
       "a": "「人类将广泛深入地研究月球。」",
       "q_en": "Extensive Moon study",
@@ -571,7 +570,7 @@
     },
     {
       "id": 47,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "外太空威胁地球",
       "a": "「地球将面临来自外太空的严重威胁。」",
       "q_en": "Outer space danger",
@@ -583,7 +582,7 @@
     },
     {
       "id": 48,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "全球水资源短缺",
       "a": "「由于意想不到的地球问题，将出现水资源短缺。」",
       "q_en": "Water shortages",
@@ -595,7 +594,7 @@
     },
     {
       "id": 49,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "全球饥荒",
       "a": "「饥荒将成为全球性问题。」",
       "q_en": "Global famine",
@@ -607,7 +606,7 @@
     },
     {
       "id": 50,
-      "cat": "biology",
+      "cat": "society",
       "q": "新人类种族诞生",
       "a": "「一个新的人类种族将诞生。」",
       "q_en": "New human race emerges",
@@ -619,7 +618,7 @@
     },
     {
       "id": 51,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "两颗人造太阳碰撞导致全球停电",
       "a": "「两颗人造太阳碰撞，导致全球彻底停电。」",
       "q_en": "Total blackout",
@@ -643,7 +642,7 @@
     },
     {
       "id": 53,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "小行星撞击月球",
       "a": "「一颗小行星将撞击月球，形成碎石尘埃云。」",
       "q_en": "Asteroid hits Moon",
@@ -655,7 +654,7 @@
     },
     {
       "id": 54,
-      "cat": "space",
+      "cat": "tech",
       "q": "地球生命消失，殖民新星系",
       "a": "「地球上所有生命将消失。人类将殖民新的太阳系。」",
       "q_en": "Humans colonize new solar system",
@@ -787,7 +786,7 @@
     },
     {
       "id": 65,
-      "cat": "biology",
+      "cat": "tech",
       "q": "永生成为常态",
       "a": "「不朽将成为正常现象。」",
       "q_en": "Immortality achieved",
@@ -811,7 +810,7 @@
     },
     {
       "id": 67,
-      "cat": "space",
+      "cat": "tech",
       "q": "已知宇宙边界被发现",
       "a": "「人类将发现已知宇宙的边界。」",
       "q_en": "Edge of universe discovered",
@@ -823,7 +822,7 @@
     },
     {
       "id": 68,
-      "cat": "space",
+      "cat": "tech",
       "q": "尝试离开宇宙",
       "a": "「人类将尝试离开宇宙，但40%的人拒绝。」",
       "q_en": "Humans attempt to leave universe",
@@ -835,7 +834,7 @@
     },
     {
       "id": 69,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "世界末日",
       "a": "「世界将在这一年终结。」",
       "q_en": "End of the world",
@@ -847,7 +846,7 @@
     },
     {
       "id": 70,
-      "cat": "space",
+      "cat": "tech",
       "q": "2026年11月：大型飞船抵达地球",
       "a": "「2026年11月，一艘大型宇宙飞船将抵达地球，代表地球人与外星人的首次正式接触。」",
       "q_en": "November 2026: Large spacecraft arrives",
@@ -859,7 +858,7 @@
     },
     {
       "id": 71,
-      "cat": "disaster",
+      "cat": "climate",
       "q": "2026年：大规模地震和火山喷发",
       "a": "「大规模地震、剧烈火山喷发和极端天气将影响地球7%-8%的陆地面积。」",
       "q_en": "2026: Massive earthquakes and volcanic eruptions",
