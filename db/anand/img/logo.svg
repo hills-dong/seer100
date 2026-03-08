@@ -1,16 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 28" height="20">
-  <!-- Vedic sun/chakra symbol -->
-  <circle cx="14" cy="14" r="5" fill="#c46210"/>
-  <circle cx="14" cy="14" r="10" fill="none" stroke="#c46210" stroke-width="1.8"/>
-  <!-- Sun rays -->
-  <line x1="14" y1="1" x2="14" y2="5" stroke="#9a4d0c" stroke-width="1.5" stroke-linecap="round"/>
-  <line x1="14" y1="23" x2="14" y2="27" stroke="#9a4d0c" stroke-width="1.5" stroke-linecap="round"/>
-  <line x1="1" y1="14" x2="5" y2="14" stroke="#9a4d0c" stroke-width="1.5" stroke-linecap="round"/>
-  <line x1="23" y1="14" x2="27" y2="14" stroke="#9a4d0c" stroke-width="1.5" stroke-linecap="round"/>
-  <line x1="4.8" y1="4.8" x2="7.6" y2="7.6" stroke="#9a4d0c" stroke-width="1.2" stroke-linecap="round"/>
-  <line x1="20.4" y1="20.4" x2="23.2" y2="23.2" stroke="#9a4d0c" stroke-width="1.2" stroke-linecap="round"/>
-  <line x1="23.2" y1="4.8" x2="20.4" y2="7.6" stroke="#9a4d0c" stroke-width="1.2" stroke-linecap="round"/>
-  <line x1="7.6" y1="20.4" x2="4.8" y2="23.2" stroke="#9a4d0c" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Eight-pointed star (Vedic/astrological symbol) -->
+  <polygon points="14,1 17,10 26,10 19,16 21,25 14,20 7,25 9,16 2,10 11,10" fill="#c46210"/>
+  <circle cx="14" cy="14" r="4" fill="#f5f2ee"/>
+  <circle cx="14" cy="14" r="2" fill="#9a4d0c"/>
   <!-- Site name -->
   <text x="32" y="19" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#9a4d0c" letter-spacing="2">阿南德预言</text>
 </svg>
