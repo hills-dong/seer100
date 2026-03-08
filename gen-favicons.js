@@ -1,251 +1,284 @@
 #!/usr/bin/env node
-// Generate 180x180 PNG favicons with unique designs matching each site's logo.
+// Generate 180x180 PNG favicons by parsing logo SVG icon shapes.
 // No external dependencies - uses zlib for deflate and manual PNG chunk construction.
+//
+// For sites with logo.svg: auto-parses circle, polygon, path elements and renders them.
+// For sites with logo.png (no SVG): uses custom builder if registered.
 
 const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 
 const SIZE = 180;
-const CX = SIZE / 2;
-const CY = SIZE / 2;
+const ICON_BOX = 28;       // Logo icon area: x=0..28, y=0..28
+const SCALE = SIZE / ICON_BOX;
+const AA = 0.12;           // Anti-aliasing edge width in logo-space units
+
+// ============================================================
+// Color utilities
+// ============================================================
 
 function hexToRGB(hex) {
-  const n = parseInt(hex.replace('#', ''), 16);
+  let h = hex.replace('#', '');
+  if (h.length === 3) h = h[0]+h[0]+h[1]+h[1]+h[2]+h[2];
+  const n = parseInt(h, 16);
   return [(n >> 16) & 0xff, (n >> 8) & 0xff, n & 0xff];
 }
 
 function dist(x, y, cx, cy) {
-  return Math.sqrt((x - cx) * (x - cx) + (y - cy) * (y - cy));
+  return Math.sqrt((x - cx) ** 2 + (y - cy) ** 2);
 }
 
-function blend(c1, c2, t) {
-  return [
-    Math.round(c1[0] * t + c2[0] * (1 - t)),
-    Math.round(c1[1] * t + c2[1] * (1 - t)),
-    Math.round(c1[2] * t + c2[2] * (1 - t)),
-  ];
+// ============================================================
+// SVG parsing — extract circle, polygon, path from logo SVG
+// ============================================================
+
+function parseAttrs(str) {
+  const attrs = {};
+  const re = /([\w-]+)\s*=\s*"([^"]*)"/g;
+  let m;
+  while ((m = re.exec(str)) !== null) attrs[m[1]] = m[2];
+  return attrs;
 }
 
-// Helper: write pixel with RGBA
-function setPx(buf, pixOff, r, g, b, a) {
-  buf[pixOff] = r; buf[pixOff + 1] = g; buf[pixOff + 2] = b; buf[pixOff + 3] = a;
+function parseSvgShapes(svgContent) {
+  const shapes = [];
+  const tagRe = /<(circle|polygon|path)\s+([^>]*?)\/>/g;
+  let m;
+  while ((m = tagRe.exec(svgContent)) !== null) {
+    const tag = m[1];
+    const a = parseAttrs(m[2]);
+
+    if (tag === 'circle') {
+      const cx = parseFloat(a.cx || 0);
+      const cy = parseFloat(a.cy || 0);
+      const r = parseFloat(a.r || 0);
+      const fill = a.fill || 'none';
+      const stroke = a.stroke || 'none';
+      const sw = parseFloat(a['stroke-width'] || 0);
+      if (fill !== 'none') shapes.push({ type: 'circle', cx, cy, r, color: hexToRGB(fill) });
+      if (stroke !== 'none' && sw > 0) shapes.push({ type: 'ring', cx, cy, r, sw, color: hexToRGB(stroke) });
+    } else if (tag === 'polygon') {
+      const pts = a.points.trim().split(/\s+/).map(p => p.split(',').map(Number));
+      if (a.fill !== 'none') shapes.push({ type: 'polygon', pts, color: hexToRGB(a.fill || '#000') });
+    } else if (tag === 'path' && a.d) {
+      if ((a.fill || '#000') !== 'none') {
+        shapes.push({ type: 'path', polyline: pathToPolyline(a.d), color: hexToRGB(a.fill || '#000') });
+      }
+    }
+  }
+  return shapes;
 }
 
-// --- Vanga: Concentric circles (matching logo SVG) ---
-// Logo: outer circle #7b4a9e, white ring #fff, inner pupil #5c2d82
-function buildVangaData() {
-  const primary = hexToRGB('#7b4a9e');
-  const dark = hexToRGB('#5c2d82');
+// ============================================================
+// SVG path → polyline (supports M, A, Z commands)
+// ============================================================
+
+function pathToPolyline(d) {
+  const pts = [];
+  const tokens = d.match(/[MmAaLlZz]|[-+]?\d*\.?\d+/g);
+  if (!tokens) return pts;
+  let i = 0, cx = 0, cy = 0;
+
+  while (i < tokens.length) {
+    const cmd = tokens[i++];
+    if (cmd === 'M') {
+      cx = parseFloat(tokens[i++]); cy = parseFloat(tokens[i++]);
+      pts.push([cx, cy]);
+    } else if (cmd === 'A') {
+      const rx = parseFloat(tokens[i++]);
+      parseFloat(tokens[i++]); // ry (unused, assume rx=ry)
+      parseFloat(tokens[i++]); // x-rotation
+      const la = parseInt(tokens[i++]);
+      const sw = parseInt(tokens[i++]);
+      const x2 = parseFloat(tokens[i++]);
+      const y2 = parseFloat(tokens[i++]);
+      pts.push(...arcToSegments(cx, cy, rx, la, sw, x2, y2));
+      cx = x2; cy = y2;
+    } else if (cmd === 'L') {
+      cx = parseFloat(tokens[i++]); cy = parseFloat(tokens[i++]);
+      pts.push([cx, cy]);
+    } else if (cmd === 'Z' || cmd === 'z') {
+      // close path — implicit
+    }
+  }
+  return pts;
+}
+
+function arcToSegments(x1, y1, r, largeArc, sweep, x2, y2) {
+  const segs = 64;
+  const dx = (x1 - x2) / 2, dy = (y1 - y2) / 2;
+  const d2 = dx * dx + dy * dy;
+  let sq = Math.sqrt(Math.max(0, r * r / d2 - 1));
+  if (largeArc === sweep) sq = -sq;
+  const acx = sq * dy + (x1 + x2) / 2;
+  const acy = -sq * dx + (y1 + y2) / 2;
+
+  let a1 = Math.atan2(y1 - acy, x1 - acx);
+  let a2 = Math.atan2(y2 - acy, x2 - acx);
+  let da = a2 - a1;
+  if (sweep && da < 0) da += 2 * Math.PI;
+  if (!sweep && da > 0) da -= 2 * Math.PI;
+
+  const pts = [];
+  for (let i = 1; i <= segs; i++) {
+    const a = a1 + da * (i / segs);
+    pts.push([acx + r * Math.cos(a), acy + r * Math.sin(a)]);
+  }
+  return pts;
+}
+
+// ============================================================
+// Pixel-level rendering (logo-space coordinates, scaled to SIZE)
+// ============================================================
+
+function pointInPolygon(px, py, poly) {
+  let inside = false;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const [xi, yi] = poly[i], [xj, yj] = poly[j];
+    if ((yi > py) !== (yj > py) && px < (xj - xi) * (py - yi) / (yj - yi) + xi)
+      inside = !inside;
+  }
+  return inside;
+}
+
+function distToPolyEdge(px, py, poly) {
+  let minD = Infinity;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const [x1, y1] = poly[j], [x2, y2] = poly[i];
+    const edx = x2 - x1, edy = y2 - y1;
+    const len2 = edx * edx + edy * edy;
+    let t = len2 > 0 ? ((px - x1) * edx + (py - y1) * edy) / len2 : 0;
+    t = Math.max(0, Math.min(1, t));
+    const d = dist(px, py, x1 + t * edx, y1 + t * edy);
+    if (d < minD) minD = d;
+  }
+  return minD;
+}
+
+// Compute shape coverage (0..1) at logo-space point (lx, ly)
+function shapeCoverage(shape, lx, ly) {
+  const aa = AA;
+  if (shape.type === 'circle') {
+    const d = dist(lx, ly, shape.cx, shape.cy);
+    if (d <= shape.r - aa) return 1;
+    if (d >= shape.r + aa) return 0;
+    return (shape.r + aa - d) / (2 * aa);
+  }
+  if (shape.type === 'ring') {
+    const d = dist(lx, ly, shape.cx, shape.cy);
+    const inner = shape.r - shape.sw / 2;
+    const outer = shape.r + shape.sw / 2;
+    if (d < inner - aa || d > outer + aa) return 0;
+    let cov = 1;
+    if (d < inner + aa) cov = Math.min(cov, (d - inner + aa) / (2 * aa));
+    if (d > outer - aa) cov = Math.min(cov, (outer - d + aa) / (2 * aa));
+    return Math.max(0, cov);
+  }
+  if (shape.type === 'polygon' || shape.type === 'path') {
+    const poly = shape.type === 'polygon' ? shape.pts : shape.polyline;
+    const inside = pointInPolygon(lx, ly, poly);
+    const ed = distToPolyEdge(lx, ly, poly);
+    if (inside) return ed >= aa ? 1 : ed / aa;
+    return ed < aa ? 1 - ed / aa : 0;
+  }
+  return 0;
+}
+
+function buildFromSvg(svgPath) {
+  const svg = fs.readFileSync(svgPath, 'utf8');
+  const shapes = parseSvgShapes(svg);
   const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
-
-  const outerR = 78;
-  const whiteR = 36;
-  const pupilR = 18;
 
   for (let y = 0; y < SIZE; y++) {
     const rowOff = y * (1 + SIZE * 4);
-    buf[rowOff] = 0;
+    buf[rowOff] = 0; // PNG filter byte
     for (let x = 0; x < SIZE; x++) {
-      const px = x + 0.5, py = y + 0.5;
-      const d = dist(px, py, CX, CY);
+      // Map pixel center to logo-space
+      const lx = (x + 0.5) / SCALE;
+      const ly = (y + 0.5) / SCALE;
       const pixOff = rowOff + 1 + x * 4;
 
-      if (d > outerR + 0.8) {
-        setPx(buf, pixOff, 0, 0, 0, 0); // transparent
-      } else if (d > outerR - 0.8) {
-        const a = Math.round(Math.max(0, Math.min(1, (outerR - d + 0.8) / 1.6)) * 255);
-        setPx(buf, pixOff, primary[0], primary[1], primary[2], a);
-      } else if (d <= pupilR) {
-        setPx(buf, pixOff, dark[0], dark[1], dark[2], 255);
-      } else if (d <= pupilR + 0.8) {
-        const [r, g, b] = blend(dark, [255, 255, 255], Math.max(0, Math.min(1, (pupilR - d + 0.8) / 1.6)));
-        setPx(buf, pixOff, r, g, b, 255);
-      } else if (d <= whiteR) {
-        setPx(buf, pixOff, 255, 255, 255, 255);
-      } else if (d <= whiteR + 0.8) {
-        const [r, g, b] = blend([255, 255, 255], primary, Math.max(0, Math.min(1, (whiteR - d + 0.8) / 1.6)));
-        setPx(buf, pixOff, r, g, b, 255);
-      } else {
-        setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
+      // Composite shapes in document order (painter's algorithm)
+      let rr = 0, gg = 0, bb = 0, aa = 0;
+      for (const s of shapes) {
+        const cov = shapeCoverage(s, lx, ly);
+        if (cov <= 0) continue;
+        const sa = cov;
+        const da = aa / 255;
+        const oa = sa + da * (1 - sa);
+        if (oa > 0) {
+          rr = Math.round((s.color[0] * sa + rr * da * (1 - sa)) / oa);
+          gg = Math.round((s.color[1] * sa + gg * da * (1 - sa)) / oa);
+          bb = Math.round((s.color[2] * sa + bb * da * (1 - sa)) / oa);
+          aa = Math.round(oa * 255);
+        }
       }
+      buf[pixOff] = rr;
+      buf[pixOff + 1] = gg;
+      buf[pixOff + 2] = bb;
+      buf[pixOff + 3] = aa;
     }
   }
   return buf;
 }
 
-// --- Nostradamus: Sharp 5-pointed star with center circles (matching logo SVG) ---
-// Logo: polygon star #8b1a1a, inner circle r=4 #f5f0e8, dot r=2 #8b1a1a
-function buildNostradamusData() {
-  const primary = hexToRGB('#8b1a1a');
-  const bg = hexToRGB('#f5f0e8');
-  const white = [255, 255, 255];
+// ============================================================
+// Custom builders (for sites without SVG icon, e.g. PNG logos)
+// ============================================================
+
+function buildKfkData() {
+  const primary = hexToRGB('#007722');
   const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
+  const pad = 16, cornerR = 28, strokeW = 22;
+  const cx = SIZE / 2, cy = SIZE / 2;
 
-  // Build star polygon matching logo: points="14,2 17.5,10 26,10 19.5,15.5 22,24 14,19 6,24 8.5,15.5 2,10 10.5,10"
-  // Scale from logo coords (center 14,14, range ~2-26) to 180x180 (center 90,90)
-  const scale = 180 / 28;
-  const logoPoints = [
-    [14,2], [17.5,10], [26,10], [19.5,15.5], [22,24],
-    [14,19], [6,24], [8.5,15.5], [2,10], [10.5,10]
-  ];
-  const starPoly = logoPoints.map(([lx, ly]) => [lx * scale, ly * scale]);
-
-  const innerCircleR = 4 * scale;   // ~25.7
-  const dotR = 2 * scale;           // ~12.9
-
-  function pointInPolygon(px, py, poly) {
-    let inside = false;
-    for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
-      const [xi, yi] = poly[i], [xj, yj] = poly[j];
-      if ((yi > py) !== (yj > py) && px < (xj - xi) * (py - yi) / (yj - yi) + xi) {
-        inside = !inside;
-      }
+  function inRoundedRect(px, py) {
+    if (px >= pad + cornerR && px <= SIZE - pad - cornerR && py >= pad && py <= SIZE - pad) return true;
+    if (py >= pad + cornerR && py <= SIZE - pad - cornerR && px >= pad && px <= SIZE - pad) return true;
+    for (const [ccx, ccy] of [[pad+cornerR,pad+cornerR],[SIZE-pad-cornerR,pad+cornerR],[pad+cornerR,SIZE-pad-cornerR],[SIZE-pad-cornerR,SIZE-pad-cornerR]]) {
+      if (dist(px, py, ccx, ccy) <= cornerR) return true;
     }
-    return inside;
+    return false;
   }
 
-  // Distance from point to polygon edge (for anti-aliasing)
-  function distToPolygonEdge(px, py, poly) {
-    let minD = Infinity;
-    for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
-      const [x1, y1] = poly[j], [x2, y2] = poly[i];
-      const dx = x2 - x1, dy = y2 - y1;
-      const len2 = dx * dx + dy * dy;
-      let t = len2 > 0 ? ((px - x1) * dx + (py - y1) * dy) / len2 : 0;
-      t = Math.max(0, Math.min(1, t));
-      const cx = x1 + t * dx, cy = y1 + t * dy;
-      const d = Math.sqrt((px - cx) * (px - cx) + (py - cy) * (py - cy));
-      if (d < minD) minD = d;
-    }
-    return minD;
+  function distToSeg(px, py, x1, y1, x2, y2) {
+    const dx = x2-x1, dy = y2-y1, len2 = dx*dx+dy*dy;
+    if (len2 === 0) return dist(px, py, x1, y1);
+    const t = Math.max(0, Math.min(1, ((px-x1)*dx+(py-y1)*dy)/len2));
+    return dist(px, py, x1+t*dx, y1+t*dy);
+  }
+
+  const kLeft = 52, kBarW = strokeW, kMidY = cy;
+  const kJoinX = kLeft + kBarW + 4, kTopRight = 132, kBotRight = 132;
+  const kTopY = pad + 20, kBotY = SIZE - pad - 20;
+
+  function inK(px, py) {
+    if (px >= kLeft && px <= kLeft+kBarW && py >= kTopY && py <= kBotY) return true;
+    if (distToSeg(px, py, kJoinX, kMidY, kTopRight, kTopY) <= strokeW/2) return true;
+    if (distToSeg(px, py, kJoinX, kMidY, kBotRight, kBotY) <= strokeW/2) return true;
+    return false;
   }
 
   for (let y = 0; y < SIZE; y++) {
     const rowOff = y * (1 + SIZE * 4);
     buf[rowOff] = 0;
     for (let x = 0; x < SIZE; x++) {
-      const px = x + 0.5, py = y + 0.5;
-      const pixOff = rowOff + 1 + x * 4;
-      const d = dist(px, py, CX, CY);
-
-      // Center dot (primary)
-      if (d <= dotR) {
-        setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
-      } else if (d <= dotR + 0.8) {
-        const [r, g, b] = blend(primary, bg, Math.max(0, Math.min(1, (dotR - d + 0.8) / 1.6)));
-        setPx(buf, pixOff, r, g, b, 255);
-      }
-      // Inner circle (bg color)
-      else if (d <= innerCircleR) {
-        setPx(buf, pixOff, bg[0], bg[1], bg[2], 255);
-      } else if (d <= innerCircleR + 0.8) {
-        const [r, g, b] = blend(bg, primary, Math.max(0, Math.min(1, (innerCircleR - d + 0.8) / 1.6)));
-        setPx(buf, pixOff, r, g, b, 255);
-      }
-      // Star polygon
-      else {
-        const inStar = pointInPolygon(px, py, starPoly);
-        const edgeDist = distToPolygonEdge(px, py, starPoly);
-        if (inStar) {
-          if (edgeDist < 1.2) {
-            const a = Math.round(Math.max(0, Math.min(1, edgeDist / 1.2)) * 255);
-            setPx(buf, pixOff, primary[0], primary[1], primary[2], a);
-          } else {
-            setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
-          }
-        } else {
-          if (edgeDist < 1.2) {
-            const a = Math.round(Math.max(0, Math.min(1, 1 - edgeDist / 1.2)) * 255);
-            setPx(buf, pixOff, primary[0], primary[1], primary[2], a);
-          } else {
-            setPx(buf, pixOff, 0, 0, 0, 0); // transparent
-          }
-        }
-      }
+      const px = x+0.5, py = y+0.5, pixOff = rowOff+1+x*4;
+      if (!inRoundedRect(px, py)) { buf[pixOff+3] = 0; }
+      else if (inK(px, py)) { buf[pixOff]=255; buf[pixOff+1]=255; buf[pixOff+2]=255; buf[pixOff+3]=255; }
+      else { buf[pixOff]=primary[0]; buf[pixOff+1]=primary[1]; buf[pixOff+2]=primary[2]; buf[pixOff+3]=255; }
     }
   }
   return buf;
 }
 
-// --- Tui Bei Tu: Yin-Yang / Taijitu icon (matching logo SVG) ---
-// Logo: dark=#1a3a5c fills full circle, light=#f0ece4 is the right-side fish via S-curve path,
-// light dot at top (cy=8), dark dot at bottom (cy=20), outer ring stroke
-function buildTuibeituData() {
-  const dark = hexToRGB('#1a3a5c');
-  const light = hexToRGB('#f0ece4');
-  const white = [255, 255, 255];
-  const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
+const customBuilders = { kfk: buildKfkData };
 
-  // Logo: center (14,14), outer r=12, dots at (14,8) r=2.2 and (14,20) r=2.2
-  // Scale: 180/28 ≈ 6.43
-  const R = 78;            // 12 * 6.5
-  const smallR = R / 2;    // half-circle radius for S-curve
-  // Dots: at (14,8) and (14,20) in logo → offset ±6 from center → ±39 in 180px
-  const dotOffY = 39;
-  const dotR = 14;         // 2.2 * 6.43 ≈ 14
+// ============================================================
+// PNG encoding
+// ============================================================
 
-  for (let y = 0; y < SIZE; y++) {
-    const rowOff = y * (1 + SIZE * 4);
-    buf[rowOff] = 0;
-    for (let x = 0; x < SIZE; x++) {
-      const px = x + 0.5, py = y + 0.5;
-      const pixOff = rowOff + 1 + x * 4;
-      const d = dist(px, py, CX, CY);
-      let r, g, b;
-
-      if (d > R + 0.8) {
-        setPx(buf, pixOff, 0, 0, 0, 0); // transparent
-      } else {
-        const dx = px - CX;
-
-        const dTop = dist(px, py, CX, CY - smallR);
-        const dBot = dist(px, py, CX, CY + smallR);
-
-        let isLight;
-        if (dTop <= smallR) {
-          isLight = true;
-        } else if (dBot <= smallR) {
-          isLight = false;
-        } else {
-          isLight = dx >= 0;
-        }
-
-        // Small dots (opposing color)
-        const dotTopD = dist(px, py, CX, CY - dotOffY);
-        const dotBotD = dist(px, py, CX, CY + dotOffY);
-        let r, g, b;
-
-        if (dotTopD <= dotR + 0.8 && dotTopD > dotR - 0.8) {
-          const t = Math.max(0, Math.min(1, (dotR - dotTopD + 0.8) / 1.6));
-          [r, g, b] = blend(light, dark, t);
-        } else if (dotTopD <= dotR) {
-          r = light[0]; g = light[1]; b = light[2];
-        } else if (dotBotD <= dotR + 0.8 && dotBotD > dotR - 0.8) {
-          const t = Math.max(0, Math.min(1, (dotR - dotBotD + 0.8) / 1.6));
-          [r, g, b] = blend(dark, light, t);
-        } else if (dotBotD <= dotR) {
-          r = dark[0]; g = dark[1]; b = dark[2];
-        } else if (isLight) {
-          r = light[0]; g = light[1]; b = light[2];
-        } else {
-          r = dark[0]; g = dark[1]; b = dark[2];
-        }
-
-        // Anti-alias outer edge with alpha
-        if (d > R - 0.8) {
-          const a = Math.round(Math.max(0, Math.min(1, (R - d + 0.8) / 1.6)) * 255);
-          setPx(buf, pixOff, r, g, b, a);
-        } else {
-          setPx(buf, pixOff, r, g, b, 255);
-        }
-      }
-    }
-  }
-  return buf;
-}
-
-// --- PNG encoding (reusable) ---
 const crcTable = new Uint32Array(256);
 for (let n = 0; n < 256; n++) {
   let c = n;
@@ -275,104 +308,35 @@ function encodePNG(imageData) {
   return Buffer.concat([sig, makeChunk('IHDR', ihdr), makeChunk('IDAT', compressed), makeChunk('IEND', Buffer.alloc(0))]);
 }
 
-// --- KFK: Bold "K" letter with time-circle motif (matching green text logo) ---
-// Logo: "KFK 2060" text in #007722 green
-function buildKfkData() {
-  const primary = hexToRGB('#007722');
-  const dark = hexToRGB('#005518');
-  const buf = Buffer.alloc(SIZE * (1 + SIZE * 4));
+// ============================================================
+// Auto-discover sites and generate
+// ============================================================
 
-  // Draw a rounded-square background with the letter "K"
-  const pad = 16;        // padding from edge
-  const cornerR = 28;    // corner radius
-  const strokeW = 22;    // stroke width for the K
-  const cx = CX, cy = CY;
-
-  // Helper: is point inside rounded rect
-  function inRoundedRect(px, py) {
-    if (px >= pad + cornerR && px <= SIZE - pad - cornerR) {
-      if (py >= pad && py <= SIZE - pad) return true;
-    }
-    if (py >= pad + cornerR && py <= SIZE - pad - cornerR) {
-      if (px >= pad && px <= SIZE - pad) return true;
-    }
-    // Corners
-    const corners = [
-      [pad + cornerR, pad + cornerR],
-      [SIZE - pad - cornerR, pad + cornerR],
-      [pad + cornerR, SIZE - pad - cornerR],
-      [SIZE - pad - cornerR, SIZE - pad - cornerR],
-    ];
-    for (const [ccx, ccy] of corners) {
-      if (dist(px, py, ccx, ccy) <= cornerR) return true;
-    }
-    return false;
-  }
-
-  // "K" shape: vertical bar on left, two diagonals meeting at center-left
-  const kLeft = 52;          // left edge of vertical bar
-  const kBarW = strokeW;     // vertical bar width
-  const kMidY = cy;          // where diagonals meet
-  const kJoinX = kLeft + kBarW + 4; // where diagonals join the vertical
-  const kTopRight = 132;     // right end of upper diagonal
-  const kBotRight = 132;     // right end of lower diagonal
-  const kTopY = pad + 20;    // top of K
-  const kBotY = SIZE - pad - 20; // bottom of K
-
-  function distToSegment(px, py, x1, y1, x2, y2) {
-    const dx = x2 - x1, dy = y2 - y1;
-    const len2 = dx * dx + dy * dy;
-    if (len2 === 0) return dist(px, py, x1, y1);
-    let t = ((px - x1) * dx + (py - y1) * dy) / len2;
-    t = Math.max(0, Math.min(1, t));
-    return dist(px, py, x1 + t * dx, y1 + t * dy);
-  }
-
-  function inK(px, py) {
-    // Vertical bar
-    if (px >= kLeft && px <= kLeft + kBarW && py >= kTopY && py <= kBotY) return true;
-    // Upper diagonal: from (kJoinX, kMidY) to (kTopRight, kTopY)
-    const d1 = distToSegment(px, py, kJoinX, kMidY, kTopRight, kTopY);
-    if (d1 <= strokeW / 2) return true;
-    // Lower diagonal: from (kJoinX, kMidY) to (kBotRight, kBotY)
-    const d2 = distToSegment(px, py, kJoinX, kMidY, kBotRight, kBotY);
-    if (d2 <= strokeW / 2) return true;
-    return false;
-  }
-
-  for (let y = 0; y < SIZE; y++) {
-    const rowOff = y * (1 + SIZE * 4);
-    buf[rowOff] = 0;
-    for (let x = 0; x < SIZE; x++) {
-      const px = x + 0.5, py = y + 0.5;
-      const pixOff = rowOff + 1 + x * 4;
-
-      if (!inRoundedRect(px, py)) {
-        setPx(buf, pixOff, 0, 0, 0, 0);
-      } else if (inK(px, py)) {
-        setPx(buf, pixOff, 255, 255, 255, 255);
-      } else {
-        setPx(buf, pixOff, primary[0], primary[1], primary[2], 255);
-      }
-    }
-  }
-  return buf;
-}
-
-// --- Generate ---
 const baseDir = __dirname;
-const sites = [
-  { name: 'kfk', builder: buildKfkData, out: 'db/kfk/img/favicon.png' },
-  { name: 'vanga', builder: buildVangaData, out: 'db/vanga/img/favicon.png' },
-  { name: 'nostradamus', builder: buildNostradamusData, out: 'db/nostradamus/img/favicon.png' },
-  { name: 'tuibeitu', builder: buildTuibeituData, out: 'db/tuibeitu/img/favicon.png' },
-];
+const dbDir = path.join(baseDir, 'db');
+const siteIds = fs.readdirSync(dbDir).filter(d =>
+  fs.statSync(path.join(dbDir, d)).isDirectory() &&
+  fs.existsSync(path.join(dbDir, d, 'config.json'))
+);
 
-for (const site of sites) {
-  const data = site.builder();
+for (const siteId of siteIds) {
+  const svgPath = path.join(dbDir, siteId, 'img', 'logo.svg');
+  const outPath = path.join(dbDir, siteId, 'img', 'favicon.png');
+
+  let data;
+  if (fs.existsSync(svgPath) && !customBuilders[siteId]) {
+    data = buildFromSvg(svgPath);
+    console.log(`${siteId}: parsed logo.svg → ${outPath}`);
+  } else if (customBuilders[siteId]) {
+    data = customBuilders[siteId]();
+    console.log(`${siteId}: custom builder → ${outPath}`);
+  } else {
+    console.warn(`${siteId}: no logo.svg and no custom builder, skipped`);
+    continue;
+  }
+
   const png = encodePNG(data);
-  const outPath = path.join(baseDir, site.out);
   fs.writeFileSync(outPath, png);
-  console.log(`${site.name}: ${outPath} (${png.length} bytes, ${SIZE}x${SIZE})`);
+  console.log(`  ${png.length} bytes, ${SIZE}x${SIZE}`);
 }
 console.log('Done.');

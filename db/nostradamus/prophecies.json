@@ -1,20 +1,4 @@
 {
-  "categories": {
-    "politics": { "zh": "政治", "en": "Politics & Power", "icon": "i-politics" },
-    "war": { "zh": "战争", "en": "War & Conflict", "icon": "i-war" },
-    "tech": { "zh": "科技", "en": "Technology & Discovery", "icon": "i-tech" },
-    "economy": { "zh": "经济", "en": "Economy & Finance", "icon": "i-economy" },
-    "society": { "zh": "社会", "en": "Society & Civilization", "icon": "i-society" },
-    "climate": { "zh": "气候", "en": "Climate & Disasters", "icon": "i-climate" },
-    "spirit": { "zh": "哲学", "en": "Religion & Philosophy", "icon": "i-spirit" },
-    "other": { "zh": "其他", "en": "Other", "icon": "i-other" }
-  },
-  "statusMap": {
-    "verified": { "zh": "已应验", "en": "Verified", "icon": "i-verified", "cls": "verified" },
-    "partial": { "zh": "部分相关", "en": "Partial", "icon": "i-partial", "cls": "partial" },
-    "failed": { "zh": "未应验", "en": "Failed", "icon": "i-failed", "cls": "failed" },
-    "pending": { "zh": "待验证", "en": "Pending", "icon": "i-pending", "cls": "pending" }
-  },
   "prophecies": [
     {
       "id": 1,

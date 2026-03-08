@@ -15,10 +15,11 @@ dakar/
 │   ├── index.html.tpl    # HTML 模板（{{placeholder}} 语法）
 │   ├── css/style.css.tpl # CSS 模板（使用 CSS 变量注入主题色）
 │   └── js/app.js         # 运行时 JS（所有站共用）
+├── db/shared.json        # 全局共用数据（分类、状态、通用文案）
 ├── db/{siteId}/          # 每个站点的数据目录
 │   ├── config.json       # 站点配置（主题、SEO、logo）
-│   ├── i18n.json         # 中英文界面文案
-│   ├── prophecies.json   # 预言数据
+│   ├── i18n.json         # 中英文界面文案（仅站点特有内容）
+│   ├── prophecies.json   # 预言数据（仅预言条目）
 │   └── img/              # logo.svg + favicon.png
 └── docs/{siteId}/        # 构建输出（GitHub Pages 部署目录）
 ```
@@ -27,17 +28,171 @@ dakar/
 
 ---
 
-## 二、创建新站点的步骤
+## 二、设计（5 项设计决策）
 
-### 步骤 1：创建 `db/{siteId}/config.json`
+创建新站时，以下 5 项是唯一需要逐站设计的元素。布局、交互、筛选等由共用模板决定，无需逐站设计。
 
-必需字段：
+### 设计 1：色彩体系
+
+写入 `config.json` → `theme` 对象。每个色值都注入为 CSS 变量，贯穿全站。
+
+```json
+"theme": {
+  "bg": "#f6f6f1",          // 页面背景。暖中性色，#f0-f6 范围
+  "white": "#fff",           // 卡片、弹层背景
+  "text": "#494949",         // 主文字。与 bg 对比度 ≥ 7:1
+  "text2": "#999",           // 次要文字（日期、说明）。与 bg 对比度 ≥ 4.5:1
+  "textLight": "#666",       // 辅助文字（筛选标签）
+  "primary": "#007722",      // 主色调。用于：Tab 激活态、时间线圆点、引用边框、已验证标签
+  "primaryDark": "#005518",  // 深色调。用于：Tab 激活文字、hover 态
+  "primaryBg": "#f0fff0",    // 主色浅底。用于：应验率徽章背景、高亮卡片
+  "link": "#37a",            // 链接色
+  "border": "#e5e5e5",       // 轻边框（卡片、分隔线）
+  "border2": "#ccc",         // 重边框（输入框、按钮）
+  "tagBg": "#f4f4ec"         // 标签背景（分类标签、年份标签）
+}
+```
+
+**选色规则：**
+
+| 约束 | 要求 |
+|------|------|
+| bg | 暖中性色，#f0-f6 范围，不能纯白 |
+| text vs bg | 对比度 ≥ 7:1（WCAG AAA） |
+| text2 vs bg | 对比度 ≥ 4.5:1（WCAG AA） |
+| primary | 呼应预言者文化背景（如中国→靛蓝，欧洲→酒红，东欧→紫色） |
+| primaryDark | primary 的加深版，色相不变，明度降低 |
+| primaryBg | primary 的极浅底，用于大面积背景不刺眼 |
+
+**现有站点色彩参考：**
+
+| 站点 | primary | 文化关联 |
+|------|---------|---------|
+| kfk | #007722 绿 | 未来感、科幻 |
+| vanga | #7b4a9e 紫 | 东欧神秘主义 |
+| nostradamus | #8b1a1a 酒红 | 文艺复兴、炼金术 |
+| tuibeitu | #1a3a5c 靛蓝 | 中国传统、水墨 |
+
+### 设计 2：状态色
+
+写入 `config.json` → `theme` 对象，与色彩体系同级。
+
+```json
+"orange": "#e09015",       // 部分相关 (partial)
+"red": "#e04040",          // 未应验 (failed)
+"blue": "#3377aa"          // 待验证 (pending)
+```
+
+- **已验证 (verified)** 复用 `primary`，无需单独定义
+- 这三个颜色通常不需要逐站调整，除非与 `primary` 冲突（如 primary 本身是橙色）
+- 状态色同样需要与 `bg` 保持足够对比度
+
+### 设计 3：Logo 图标
+
+放置于 `db/{siteId}/img/logo.svg`，左侧 0-28px 区域。
+
+**设计要求：**
+
+- 必须是能代表该预言者身份/文化的**独特符号**（太极、眼睛、五角星等）
+- 不能是通用图形（圆形、方形、书本等无辨识度的图案）
+- 颜色使用 `primary` / `primaryDark`，可用 `bg` 色做留白/反色
+- 在 12×12px 物理尺寸下仍可辨识（favicon 和窄屏场景）
+
+**SVG 结构约束：**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 W 28" height="20">
+  <!-- 图标：圆心 cx=14 cy=14，半径 ≤12，确保在 0-28 区域内 -->
+  <!-- 文字：x=32 起 -->
+</svg>
+```
+
+**现有图标参考：**
+
+| 站点 | 图标 | 实现方式 |
+|------|------|---------|
+| tuibeitu | 太极阴阳 | circle + path + 小圆点 |
+| vanga | 眼睛 | 三层同心圆 (fill/white/dark) |
+| nostradamus | 五角星 | polygon + 内圆 |
+| kfk | — | PNG 文字（无图标分离） |
+
+### 设计 4：Logo 排版
+
+Logo SVG 文字部分，从 x=32 开始。
+
+**排版参数：**
+
+| 参数 | 中文站名 | 英文站名 |
+|------|---------|---------|
+| font-family | `'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif` | `Georgia, 'Times New Roman', serif` |
+| font-size | 18 | 17-18（视字符数调整） |
+| font-weight | bold | bold |
+| letter-spacing | 2（中文字间距大） | 0.5-1（英文字间距小） |
+| fill | primary 或 primaryDark | primary 或 primaryDark |
+
+**viewBox 宽度规则：**
+
+- **必须贴合实际文字渲染宽度**，不留右侧空白
+- 计算公式：`图标区(~26) + 间距(6) + 文字渲染宽度`
+- 文字渲染宽度难以精确计算（取决于系统字体），需**浏览器实测后微调**
+- 宁可稍宽（文字后留 2-4px）也不要截字
+
+**现有 viewBox 参考：**
+
+| 站点 | 文字内容 | font-size | letter-spacing | viewBox 宽 |
+|------|---------|-----------|---------------|-----------|
+| tuibeitu | 推背图（3 字） | 18 | 2 | 92 |
+| vanga | BABA VANGA（10 字符） | 18 | 1 | 172 |
+| nostradamus | NOSTRADAMUS（11 字符） | 17 | 0.5 | 192 |
+| kfk | — | — | — | PNG ~120 |
+
+### 设计 5：Favicon
+
+180×180 RGBA PNG，由 `gen-favicons.js` **自动从 logo.svg 生成**。
+
+**工作原理：**
+
+- 脚本自动解析 `db/{siteId}/img/logo.svg` 中的图形元素（circle、polygon、path）
+- 将图标区域（0-28px）放大渲染为 180×180 PNG，带抗锯齿
+- 支持的 SVG 元素：`<circle>`（fill + stroke）、`<polygon>`、`<path>`（M/A/L/Z 命令）
+- `<text>` 元素自动忽略（只渲染图标，不渲染文字）
+- 对没有 SVG 的站点（如 KFK 用 PNG logo），在 `customBuilders` 中注册自定义函数
+
+**使用方法：**
+
+```bash
+node gen-favicons.js    # 自动发现所有站点并生成
+```
+
+- 新站只需创建好 `logo.svg`（图标在 0-28px 区域），运行脚本即可
+- 无需手写像素绘制代码
+
+**设计约束（仍需人工确保）：**
+
+- Logo 图标符号需独特可辨，不能是通用图形
+- 在 16×16 标签页尺寸下仍可辨识
+
+---
+
+## 三、数据
+
+### 全局共用：`db/shared.json`
+
+所有站点共用的数据，构建时自动加载，无需逐站配置：
+
+- **categories** — 8 个主题分类（politics/war/tech/economy/society/climate/spirit/other），每项含 zh/en 名称和 CSS icon 类名。站点 `prophecies.json` 可定义同名 key 覆盖。
+- **statusMap** — 4 种验证状态（verified/partial/failed/pending），含中英文标签、CSS 类名和 icon。
+- **i18n** — 通用界面文案（搜索、筛选、应验率、结果计数等），所有站点相同。
+
+**⚠️ 通常无需修改此文件。** 新站只需关注下面 3 个站点专属文件。
+
+### 数据 1：`db/{siteId}/config.json`
 
 ```json
 {
   "siteId": "example",
   "answererName": "预言者名字",
-  "publishDate": "1555",        // ⚠️ 必须有，显示在首页和卡片上
+  "publishDate": "1555",
   "baseUrl": "https://pre.hilife.me/example",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
@@ -56,41 +211,21 @@ dakar/
     "en": { /* 同结构英文版 */ }
   },
   "structuredData": [
-    { "@context": "https://schema.org", "@type": "WebSite", ... },
-    { "@context": "https://schema.org", "@type": "FAQPage", ... }
+    { "@context": "https://schema.org", "@type": "WebSite", "..." : "..." },
+    { "@context": "https://schema.org", "@type": "FAQPage", "..." : "..." }
   ],
-  "theme": {
-    "bg": "#f6f6f1",         // 页面背景色
-    "white": "#fff",
-    "text": "#494949",       // 主文字色
-    "text2": "#999",         // 次要文字色
-    "textLight": "#666",
-    "primary": "#007722",    // 主色调（时间线圆点、引用边框、Tab激活等）
-    "primaryDark": "#005518",// 深色调
-    "primaryBg": "#f0fff0",  // 主色背景
-    "link": "#37a",
-    "border": "#e5e5e5",
-    "border2": "#ccc",
-    "orange": "#e09015",     // 部分应验
-    "red": "#e04040",        // 未应验
-    "blue": "#3377aa",       // 待验证
-    "tagBg": "#f4f4ec"       // 标签背景
-  },
+  "theme": { /* 见设计 1 + 设计 2 */ },
   "logo": {
     "type": "image",
-    "file": "logo.svg",      // 放在 db/{siteId}/img/ 下
+    "file": "logo.svg",
     "alt": "站点名称"
-  },
-  "footer": {
-    "sourceUrl": "https://...",
-    "sourceLabel": "来源名称"
   }
 }
 ```
 
-### 步骤 2：创建 `db/{siteId}/i18n.json`
+**⚠️ `publishDate` 必须有**，缺失则首页和卡片不显示发布时间。
 
-**关键规则：**
+### 数据 2：`db/{siteId}/i18n.json`
 
 ```json
 {
@@ -106,58 +241,34 @@ dakar/
     "coreMessage": "核心信息",
     "coreQuote": "「核心引言」",
     "keyPoints": "关键时间节点",
-    "kp2019": "标签 —— 描述",
-    "kp2035": "标签 —— 描述",
-    "kp2038": "标签 —— 描述",
-    "kp2048": "标签 —— 描述",
-    "kp2060": "标签 —— 描述",
-    "allTitle": "预言全集",
-    "allSubtitle": "共 {count} 条问答",
-    "searchPlaceholder": "搜索预言内容...",
-    "filterAll": "全部",
-    "verifyTitle": "预言验证",
-    "verifySubtitle": "...",
-    "statsTotal": "收录总数",
-    "statsVerified": "已应验",
-    "statsPartial": "部分相关",
-    "statsFailed": "未应验",
-    "statsPending": "待验证",
-    "hitRate": "综合命中率",
-    "realityLabel": "现实验证：",
-    "prophecyLabel": "预言原文：",
-    "yearLabel": "年份",
-    "footerNote": "免责声明...",
-    "footerSource": "来源"
+    "keyPointsList": [
+      "标签 —— 描述",
+      "标签 —— 描述"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文来源说明（<a href=\"...\">链接</a>）",
+      "验证评价基于公开新闻报道和统计数据",
+      "编者观点不代表学术定论"
+    ]
   },
   "en": { /* 对应英文版，所有 key 相同 */ }
 }
 ```
 
-**⚠️ 时间线关键点（kp2019-kp2060）格式规则：**
+**时间线 `keyPointsList` 规则：**
 
-- 格式必须是 `"标签 —— 描述"`（使用中文破折号 `——`）
-- `tlItem()` 函数自动按 `——` 分割，左边渲染为粗体标签，右边渲染为描述
-- 标签可以是任意文本（年份、象数、章节号），**不要求是年份**
-- 示例：`"第3象 —— 武则天称帝"`, `"2025年 —— 铁鸟无人驾驶"`, `"百诗集I:46 —— 三月围城"`
-- **⚠️ 错误示范**：在未来预测时间线中标注"已应验"等验证状态
+- 数组格式，数量不限（通常 3-7 个）
+- 每项格式：`"标签 —— 描述"`（中文破折号 `——`）
+- 渲染时按 `——` 分割，左边粗体标签，右边描述
+- 标签可以是任意文本（年份、象数、章节号），不要求是年份
 
-### 步骤 3：创建 `db/{siteId}/prophecies.json`
+### 数据 3：`db/{siteId}/prophecies.json`
+
+分类和验证状态均在 `db/shared.json` 中定义，此文件**只含预言条目**。如需覆盖某个分类，可在此文件中添加 `categories` 对象（同名 key 会覆盖 shared 中的定义）。
 
 ```json
 {
-  "categories": {
-    "catKey": {
-      "zh": "分类中文名",
-      "en": "Category English Name",
-      "icon": "🔬"
-    }
-  },
-  "statusMap": {
-    "verified": { "zh": "已应验", "en": "Verified", "cls": "verified", "icon": "✅" },
-    "partial":  { "zh": "部分相关", "en": "Partial", "cls": "partial", "icon": "🔶" },
-    "failed":   { "zh": "未应验", "en": "Failed", "cls": "failed", "icon": "❌" },
-    "pending":  { "zh": "待验证", "en": "Pending", "cls": "pending", "icon": "🔵" }
-  },
   "prophecies": [
     {
       "id": 1,
@@ -167,6 +278,7 @@ dakar/
       "a": "中文回答/解读",
       "a_en": "English answer",
       "year": 2025,
+      "date": "2019-06-22",
       "status": "verified",
       "verdict_zh": "验证说明...",
       "verdict_en": "Verification note..."
@@ -179,130 +291,137 @@ dakar/
 
 | 字段 | 必需 | 说明 |
 |------|------|------|
-| id | ✅ | 唯一递增整数 |
-| cat | ✅ | 对应 categories 中的 key |
-| q / a | ✅ | 中文问答 |
-| q_en / a_en | ❌ | 英文翻译（无则回退中文） |
-| year | ❌ | 预言指向的年份（显示为"预言:2025"标签） |
-| date | ❌ | 该条单独发布时间（覆盖 config.publishDate） |
+| id | ✅ | 唯一递增整数，连续不跳号 |
+| cat | ✅ | 对应 `shared.json` 中 categories 的 key |
+| a | ✅ | 预言内容（核心字段） |
+| a_en | ✅ | 预言内容英文翻译 |
+| q | ❌ | 问题/白话文翻译/标题/归纳（见内容规范） |
+| q_en | ❌ | q 的英文翻译（有 q 时必须提供） |
+| year | ❌ | 预言指向的目标年份（"预言说哪年会发生"） |
+| date | ❌ | 该条发布时间，覆盖 config.publishDate |
 | status | ❌ | verified / partial / failed / pending |
-| verdict_zh / verdict_en | ❌ | 验证说明（有 status 时应提供） |
+| verdict_zh / verdict_en | ❌ | 验证说明（有 status 时必须提供） |
 
-**⚠️ 分类设计注意事项：**
-- 分类应反映预言的**内容主题**（如科技、政治、经济、气候等）
-- **不要**用验证状态作为分类（如"已验证历史"），状态筛选已有独立功能
-- 建议 5-8 个分类，每个分类至少 3 条预言
+### 内容规范
 
-### 步骤 4：创建 Logo（SVG）
+**分类：**
 
-放置于 `db/{siteId}/img/logo.svg`。
+- 使用 `shared.json` 中的全局分类，按预言的**内容主题**分类
 
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 W 28" height="20">
-  <!-- 图标部分：x=0~28 -->
-  <!-- 文字部分：x=32 起 -->
-</svg>
-```
+**q/a 内容分工：**
 
-**⚠️ Logo 设计规则：**
+- `a` — 预言本身的内容，是每条预言的核心字段
+- `q` — 可选，根据预言形式灵活使用：
+  - 问答形式：放提问者的问题（如 KFK）
+  - 文言文：放白话文翻译（原文放 `a`）
+  - 诗集/章节：放诗集标题或章节编号（如「百诗集I-35」）
+  - 其他：放对预言内容的简要归纳
+  - 如预言非问答形式，可只有 `a` 没有 `q`
+- 编者的历史背景、事件解说放在 `verdict_zh`/`verdict_en` 中，不混入 `a`
+- q/a 中**不包含**发布时间和预言目标时间信息，这些用 `date` 和 `year` 字段表示
 
-1. **viewBox 宽度要紧凑**：只包含实际内容，不留多余空白
-2. **图标在左侧 0-28px 区域**：窄屏时文字可能被裁剪，图标必须在最左侧
-3. **height="20" 固定**：与 CSS `.logo-img { height: 20px }` 配合
-4. **颜色与 theme.primary / theme.primaryDark 一致**
-5. 参考 viewBox 宽度：KFK ≈ 120, 推背图 = 120, Vanga = 160, Nostradamus = 195
+**文言文处理：**
 
-### 步骤 5：生成 Favicon
+- 文言文预言必须同时附带白话文翻译
+- `a` 放文言文原文，`q` 放对应白话文翻译
 
-在 `gen-favicons.js` 中添加新站点的 builder 函数：
+**时间字段：**
 
-1. 创建 `build{Name}Data()` 函数，生成 180×180 RGBA 像素数据
-2. 图案应与 logo 的图标部分**保持一致**（不是简单换色的圆形）
-3. 使用 `hexToRGB()` 从 theme 颜色创建调色板
-4. 在 `sites` 数组中添加条目：`{ name: 'xxx', builder: buildXxxData, out: 'db/xxx/img/favicon.png' }`
-5. 运行 `node gen-favicons.js` 生成 PNG
+- `year` 表示预言指向的目标年份，不是发布年份
+- `date` 和 config.`publishDate` 优先使用具体日期（如 `"2019-06-22"`），无法确定时使用模糊时间（如 `"1555"` `"约公元650年"`）
+- q/a 文本中不重复写时间信息
 
-**⚠️ 常见错误：所有站 favicon 只是颜色不同的同一图案 → 用户在浏览器标签页分不清**
+**验证状态：**
 
-### 步骤 6：构建与验证
+- `year <= 当前年` 的预言必须给出 `status` 和 `verdict`
+- i18n `keyPointsList` 中的时间节点**不需要**标注验证状态
+- 有 `status` 必有 `verdict_zh`/`verdict_en`，无 `status` 则不需 verdict
+
+### 内容可信度
+
+**数据来源：**
+
+- 优先使用正规来源：出版物原文、学术文献、有时间戳的互联网存档
+- 互联网内容优先使用 Archive.org/Wayback Machine 快照链接
+- 来源信息在介绍页的"数据来源"板块（`i18n.json` 的 `sourceTitle`/`sourceList`）集中说明，不在每条预言中重复
+- `sourceList` 中的来源链接支持 HTML `<a>` 标签，必须是可打开的有效链接
+
+**verdict 撰写标准：**
+
+- 必须包含具体事实依据（时间、事件、数据），不能只写"已应验"
+- `partial` 状态须说明哪部分符合、哪部分不符
+- 有争议的验证须承认争议，不做一边倒的判定
+- 引用可查证的公开信息（新闻报道、统计数据、历史记录）
+
+**分类规范：**
+
+- 使用 `shared.json` 中的全局分类
+- 每条预言只归入一个最相关的分类
+- 分类依据是预言的核心主题，而非次要提及的领域
+- 不确定时优先归入更具体的分类，避免滥用 "other"
+
+**链接有效性：**
+
+- `sourceList` 中的来源链接必须是可访问的有效 URL
+- 优先使用稳定的链接（出版物页面、维基百科、学术数据库），避免可能失效的短链接或论坛帖子
+
+---
+
+## 四、构建与验证
 
 ```bash
-# 构建所有站点
-node build.js --all
-
-# 或构建单个站点
-node build.js {siteId}
-
-# 本地预览
-node server.js
-# 访问 http://localhost:3000/{siteId}/
+node gen-favicons.js       # 从 logo.svg 自动生成 favicon（新站必做）
+node build.js --all        # 构建所有站点
+node build.js {siteId}     # 构建单个站点
+node server.js             # 本地预览 http://localhost:3000/{siteId}/
 ```
 
 ---
 
-## 三、已知陷阱与解决方案
+## 五、检查清单
 
-### 陷阱 1：时间线标签不等于 key 名
-**问题**：i18n key 名为 `kp2019`/`kp2035` 等，但这些只是标识符。`tlItem()` 函数从 `——` 左侧解析实际标签内容。
-**规则**：key 名固定不变，实际显示由 i18n 字符串中 `——` 左侧决定。
+**设计：**
 
-### 陷阱 2：publishDate 缺失
-**问题**：缺少 `publishDate` 则首页和卡片不显示发布时间。
-**规则**：config.json 必须包含 `publishDate`。
+- [ ] theme 色彩对比度：text vs bg ≥ 7:1，text2 vs bg ≥ 4.5:1
+- [ ] primary 呼应预言者文化背景，与现有站不重复
+- [ ] Logo 图标在 0-28px 区域，符号独特可辨
+- [ ] Logo viewBox 紧凑无右侧空白（浏览器实测）
+- [ ] `node gen-favicons.js` 生成的 favicon 图案正确且独特
 
-### 陷阱 3：Logo 在窄屏被裁剪
-**当前方案**：
-- `.logo`: `flex-shrink: 1; overflow: hidden; min-width: 28px`（保证图标可见）
-- `.nav-tabs`: `flex-shrink: 1; min-width: 0`（允许 tab 也收缩）
-- 480px 断点：nav-tab padding 缩至 6px，字号 12px
-**规则**：logo SVG viewBox 越窄越好。
+**数据：**
 
-### 陷阱 4：预言状态过期未更新
-**问题**：目标年份已过但 status 仍为 "pending"。
-**规则**：每年初审查 `year <= 当前年 && status === "pending"` 的预言，更新状态并添加 verdict。
+- [ ] `config.json` 包含 `publishDate`，时间尽量具体
+- [ ] `i18n.json` 的 `keyPointsList` 每项使用 `——` 分隔，不标注验证状态
+- [ ] 每条预言有 `a_en`（及 `q_en`，若有 `q`）英文翻译
+- [ ] 文言文预言：`a` 放原文，`q` 放白话文翻译
+- [ ] q/a 中不包含时间信息（用 `year`/`date` 字段表示）
+- [ ] q/a 中不混入编者解说（放 `verdict` 中）
+- [ ] 所有 `year <= 当前年` 的预言有 `status` 和 `verdict`
+- [ ] `sourceList` 中的来源链接可正常打开
+- [ ] verdict 包含具体事实依据，`partial` 说明符合/不符部分
 
-### 陷阱 5：验证状态不应作为分类
-**规则**：category 只表示主题领域。状态筛选是独立功能。
+**构建与预览：**
 
-### 陷阱 6：两个日期字段容易混淆
-**解决**：已加前缀标签 `发布/Pub:` 和 `预言/Pred:`，新站自动生效。
-
-### 陷阱 7：Favicon 尺寸太小
-**规则**：统一 180×180 PNG，`index.html.tpl` 已包含 `apple-touch-icon` 标签。
-
----
-
-## 四、快速检查清单
-
-创建新站点后，逐项检查：
-
-- [ ] `config.json` 包含 `publishDate` 字段
-- [ ] `i18n.json` 的 kp 键使用 `——` 分隔符，标签部分合理
-- [ ] `prophecies.json` 分类是主题分类，不是状态分类
-- [ ] 所有 `year <= 当前年` 的预言有 status 和 verdict
-- [ ] Logo SVG viewBox 紧凑，图标在左侧 0-28px
-- [ ] Favicon 180×180，图案与 logo 图标一致且独特
 - [ ] `node build.js {siteId}` 无报错
-- [ ] 本地预览：首页时间线显示正确
-- [ ] 本地预览：窄屏（375px）logo 不被完全遮挡
-- [ ] 本地预览：预言卡片日期有"发布"/"预言"标签
-- [ ] 本地预览：浏览器标签页 favicon 可辨识
-- [ ] `gen-favicons.js` 中已注册新站点
+- [ ] 首页介绍和时间线显示正确
+- [ ] 窄屏（375px）logo 不被完全遮挡
+- [ ] 预言卡片日期有"发布"/"预言"标签
+- [ ] 浏览器标签页 favicon 可辨识
 
 ---
 
-## 五、现有站点参考
+## 六、现有站点参考
 
-| siteId | 预言者 | 主题色 | Logo图标 | Favicon图案 | 预言数 |
+| siteId | 预言者 | 主题色 | Logo 图标 | Favicon 图案 | 预言数 |
 |--------|--------|--------|----------|-------------|--------|
-| kfk | KFK | 绿 #007722 | PNG文字 | (原始) | 281 |
+| kfk | KFK | 绿 #007722 | PNG 文字 | (原始) | 281 |
 | vanga | Baba Vanga | 紫 #7b4a9e | 眼睛圆圈 | 紫色眼睛 | ~40 |
 | nostradamus | Nostradamus | 酒红 #8b1a1a | 五角星 | 酒红五角星 | ~40 |
 | tuibeitu | 李淳风&袁天罡 | 靛蓝 #1a3a5c | 太极图 | 太极阴阳 | 60 |
 
 ---
 
-## 六、Git 工作流
+## 七、Git 工作流
 
 - 分支: 从 main 创建 feature 分支
 - 构建输出在 `docs/` 目录，需要一起提交

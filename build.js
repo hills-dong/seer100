@@ -8,6 +8,11 @@ const TEMPLATES_DIR = path.join(ROOT, 'templates');
 const DIST_DIR = path.join(ROOT, 'docs');
 
 // ---------------------------------------------------------------------------
+// Shared data (categories, statusMap, common i18n)
+// ---------------------------------------------------------------------------
+const SHARED = JSON.parse(fs.readFileSync(path.join(ROOT, 'db/shared.json'), 'utf8'));
+
+// ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
 function escapeHtml(s) {
@@ -36,6 +41,8 @@ function loadSiteData(siteId) {
   const config = JSON.parse(fs.readFileSync(path.join(dbDir, 'config.json'), 'utf8'));
   const prophecies = JSON.parse(fs.readFileSync(path.join(dbDir, 'prophecies.json'), 'utf8'));
   const i18n = JSON.parse(fs.readFileSync(path.join(dbDir, 'i18n.json'), 'utf8'));
+  // Merge categories: site-specific overrides shared defaults
+  prophecies.categories = { ...SHARED.categories, ...(prophecies.categories || {}) };
   return { config, prophecies, i18n, dbDir };
 }
 
@@ -71,21 +78,20 @@ function generateCSS(theme) {
   return minifyCSS(css);
 }
 
+
 // ---------------------------------------------------------------------------
 // Generate noscript HTML for SEO crawlers
 // ---------------------------------------------------------------------------
 function generateNoscript(siteData, lang) {
   const { config, prophecies } = siteData;
-  const { categories, statusMap, prophecies: items } = prophecies;
+  const { categories, prophecies: items } = prophecies;
+  const statusMap = SHARED.statusMap;
+  const st = SHARED.i18n[lang] || SHARED.i18n.zh;
   const answerer = config.answererName;
   const catKey = lang === 'zh' ? 'zh' : 'en';
   const verdictKey = lang === 'zh' ? 'verdict_zh' : 'verdict_en';
-  const allTitle = lang === 'zh' ? '预言全集' : 'All Prophecies';
-  const allCount = lang === 'zh' ? `共 ${items.length} 条问答` : `${items.length} Q&A entries in total`;
-  const verifyTitle = lang === 'zh' ? '预言验证' : 'Prophecy Verification';
-  const verifySubtitle = lang === 'zh' ? '对已到期的预言时间点进行真实度评估' : 'Evaluating predictions against reality for expired time points';
 
-  let html = `<noscript><h1>${escapeHtml(config.meta[lang]?.siteName || answerer)} ${allTitle}</h1><p>${allCount}</p>\n`;
+  let html = `<noscript><h1>${escapeHtml(config.meta[lang]?.siteName || answerer)} ${st.allTitle}</h1><p>${st.allSubtitle.replace('{count}', items.length)}</p>\n`;
 
   // All prophecies
   const sorted = [...items].sort((a, b) => a.id - b.id);
@@ -101,7 +107,7 @@ function generateNoscript(siteData, lang) {
   });
 
   // Verify list
-  html += `<h2>${verifyTitle}</h2><p>${verifySubtitle}</p>\n`;
+  html += `<h2>${st.verifyTitle}</h2><p>${st.verifySubtitle}</p>\n`;
   const verifiable = items.filter(p => p.status);
   const verSorted = [...verifiable].sort((a, b) => (a.year || 9999) - (b.year || 9999));
   verSorted.forEach(p => {
@@ -110,7 +116,7 @@ function generateNoscript(siteData, lang) {
     const a = lang === 'en' && p.a_en ? p.a_en : p.a;
     const verdict = p[verdictKey] || '';
     html += `<div class="verify-item ${st.cls}">`;
-    html += `<div class="verify-header"><span class="prophecy-id">#${p.id}</span> <span class="status-badge ${st.cls}"><i class="${st.icon}"></i> ${st[catKey]}</span>${p.year ? ` <span class="verify-year">${lang === 'zh' ? '预言时间点' : 'Predicted Year'}: ${p.year}</span>` : ''}</div>`;
+    html += `<div class="verify-header"><span class="prophecy-id">#${p.id}</span> <span class="status-badge ${st.cls}"><i class="${st.icon}"></i> ${st[catKey]}</span>${p.year ? ` <span class="verify-year">${st.predYear}: ${p.year}</span>` : ''}</div>`;
     html += `<div class="verify-body">`;
     html += `<div class="verify-prophecy"><div class="verify-q">${escapeHtml(q)}</div>`;
     html += `<div class="verify-a"><strong>${answerer}:</strong> ${escapeHtml(a)}</div></div>`;
@@ -169,16 +175,48 @@ function generateHTML(siteData, lang) {
   // i18n labels
   const labels = i18n[lang] || i18n[defaultLang];
 
-  // Footer
-  const footerSourceLabel = labels.footerSource || 'Source';
-  const footerSourceUrl = config.footer.sourceUrl || '';
+  // Intro section (server-rendered for SEO)
+  const answerer = config.answererName;
+  const pubDate = config.publishDate || '';
+  const keyPointsHtml = (labels.keyPointsList || []).map(item => {
+    const sep = item.includes('——') ? '——' : '—';
+    const parts = item.split(sep);
+    return `<li><span class="tl-year">${escapeHtml((parts[0] || '').trim())}</span> — ${escapeHtml((parts[1] || '').trim())}</li>`;
+  }).join('\n        ');
+  const sourceListHtml = (labels.sourceList || []).map(item =>
+    `<li>${item}</li>`
+  ).join('\n        ');
+  const introContent = `
+    <div class="topic-header">
+      <h1 class="topic-title">${escapeHtml(labels.homeTitle || '')}</h1>
+      <div class="topic-meta">
+        <span class="author">${escapeHtml(answerer)}</span>
+        ${pubDate ? ` · <span>${escapeHtml(pubDate)}</span>` : ''}
+      </div>
+    </div>
+    <div class="topic-body">
+      <p>${labels.homeIntro1 || ''}</p>
+      <p>${labels.homeIntro2 || ''}</p>
+      <p>${labels.homeIntro3 || ''}</p>
+      <div class="quote-block">
+        <div class="quote-label">${escapeHtml(labels.coreMessage || '')}</div>
+        ${labels.coreQuote || ''}
+      </div>
+      <div class="section-header">${escapeHtml(labels.keyPoints || '')}</div>
+      <ul class="timeline-list">
+        ${keyPointsHtml}
+      </ul>${labels.sourceTitle ? `
+      <div class="section-header">${escapeHtml(labels.sourceTitle)}</div>
+      <ul class="source-list">
+        ${sourceListHtml}
+      </ul>` : ''}
+    </div>`;
 
   // Noscript
   const noscriptContent = generateNoscript(siteData, lang);
 
   // Inline data scripts
-  const dataScript = `const PROPHECIES = ${JSON.stringify(prophecies.prophecies)};\nconst CATEGORIES = ${JSON.stringify(prophecies.categories)};\nconst STATUS_MAP = ${JSON.stringify(prophecies.statusMap)};`;
-  const i18nScript = `const I18N = ${JSON.stringify(i18n)};`;
+  const dataScript = `const PROPHECIES = ${JSON.stringify(prophecies.prophecies)};\nconst CATEGORIES = ${JSON.stringify(prophecies.categories)};\nconst STATUS_MAP = ${JSON.stringify(SHARED.statusMap)};\nconst SHARED_I18N = ${JSON.stringify(SHARED.i18n)};`;
   const siteConfigScript = `var SITE_CONFIG = ${JSON.stringify({ answererName: config.answererName, siteId: config.siteId, publishDate: config.publishDate || '' })};`;
 
   // Replace all placeholders
@@ -200,12 +238,12 @@ function generateHTML(siteData, lang) {
     logoHtml: logoHtml,
     navAll: labels.navAll,
     navHome: labels.navHome,
-    langToggleText: lang === 'zh' ? 'EN' : '中文',
+    langToggleText: SHARED.i18n[lang]?.langToggle || 'EN',
+    introContent: introContent,
     noscriptContent: noscriptContent,
-    footerSourceLabel: footerSourceLabel,
-    footerSourceUrl: footerSourceUrl,
+    disclaimer: SHARED.i18n[lang]?.disclaimer || SHARED.i18n.zh.disclaimer,
     lang: lang,
-    i18nScript: siteConfigScript + '\n' + i18nScript,
+    i18nScript: siteConfigScript,
     dataScript: dataScript,
   };
 

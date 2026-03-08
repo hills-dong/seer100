@@ -150,7 +150,7 @@ a:hover {
 .header-inner {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 12px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -273,27 +273,23 @@ main {
 
 /* Filter section */
 .filter-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 8px;
   background: var(--white);
   border: 1px solid var(--border);
   padding: 12px 20px;
 }
 
 .filter-row {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 6px;
-}
-
-.filter-row:last-child {
-  margin-bottom: 0;
+  display: contents;
 }
 
 .filter-label {
   font-size: 0.75rem;
   color: var(--text2);
   white-space: nowrap;
-  flex-shrink: 0;
+  align-self: baseline;
 }
 
 .list-info {
@@ -434,6 +430,20 @@ main {
 .timeline-list .tl-year {
   color: var(--primary-dark);
   font-weight: bold;
+}
+
+/* Source list within topic */
+.source-list {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin: 16px 0;
+}
+
+.source-list li {
+  margin-bottom: 6px;
+  color: var(--text2);
+  font-size: 0.875rem;
+  line-height: 1.6;
 }
 
 /* Section header within topic */
@@ -774,6 +784,13 @@ footer a {
   color: var(--link);
 }
 
+footer .disclaimer {
+  font-size: 0.6875rem;
+  color: var(--text2);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 /* Scroll to top */
 .scroll-top {
   position: fixed;
@@ -993,6 +1010,16 @@ footer a {
   .lang-toggle {
     min-height: 32px;
     padding: 4px 12px;
+  }
+
+  .search-icon-btn {
+    min-height: 32px;
+    min-width: 32px;
+  }
+
+  .hit-rate-badge {
+    min-height: 32px;
+    line-height: 30px;
   }
 
   .scroll-top {

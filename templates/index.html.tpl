@@ -52,14 +52,13 @@
   <main>
     <div id="page-home" class="page active">
       <div id="section-all"></div>
-      <div id="section-intro" style="display:none"></div>
+      <div id="section-intro" style="display:none">{{introContent}}</div>
     {{noscriptContent}}
     </div>
   </main>
 
   <footer>
-    <div id="footer-text"></div>
-    <p>{{footerSourceLabel}}: <a href="{{footerSourceUrl}}" target="_blank" rel="noopener">{{footerSourceUrl}}</a></p>
+    <p class="disclaimer">{{disclaimer}}</p>
   </footer>
 
   <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">↑</button>
