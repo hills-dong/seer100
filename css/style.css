@@ -394,14 +394,7 @@ main {
 .filter-bar {
   display: flex;
   gap: 3px;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-
-.filter-bar::-webkit-scrollbar {
-  display: none;
+  flex-wrap: wrap;
 }
 
 .filter-btn {
@@ -778,6 +771,17 @@ footer a {
 
   .hit-rate-box {
     padding: 5px 12px;
+  }
+
+  .filter-bar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .filter-bar::-webkit-scrollbar {
+    display: none;
   }
 
   .prophecy-header {
