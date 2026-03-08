@@ -5,7 +5,7 @@ const path = require('path');
 
 const ROOT = __dirname;
 const TEMPLATES_DIR = path.join(ROOT, 'templates');
-const DIST_DIR = path.join(ROOT, 'docs'); // GitHub Pages serves from /docs
+const DIST_DIR = path.join(ROOT, 'dist');
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -240,7 +240,7 @@ function buildSite(siteId) {
     console.log(`  Generated: ${isDefault ? '' : lang + '/'}index.html`);
   }
 
-  console.log(`Done: docs/${siteId}/`);
+  console.log(`Done: dist/${siteId}/`);
 }
 
 // ---------------------------------------------------------------------------
@@ -262,4 +262,4 @@ if (arg === '--all') {
 
 console.log('\nBuild complete!');
 console.log('Run `node server.js` to preview at http://localhost:3000/kfk/');
-console.log('Output in docs/ — configure GitHub Pages to serve from /docs on main branch');
+console.log('Output in dist/');

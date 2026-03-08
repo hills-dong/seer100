@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.argv[2] || 3000;
-const DIST = path.join(__dirname, 'docs');
+const DIST = path.join(__dirname, 'dist');
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',

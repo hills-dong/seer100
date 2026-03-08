@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 28" height="20">
+  <!-- Eye icon -->
+  <circle cx="14" cy="14" r="12" fill="#7b4a9e"/>
+  <circle cx="14" cy="14" r="5.5" fill="#fff"/>
+  <circle cx="14" cy="14" r="2.8" fill="#5c2d82"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#5c2d82" letter-spacing="1">BABA VANGA</text>
+</svg>
