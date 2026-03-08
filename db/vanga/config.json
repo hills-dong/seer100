@@ -1,7 +1,7 @@
 {
   "siteId": "vanga",
   "answererName": "Baba Vanga",
-  "baseUrl": "https://hilife.me/vanga",
+  "baseUrl": "https://pre.hilife.me/vanga",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -34,7 +34,7 @@
       "@type": "WebSite",
       "name": "巴巴·万加预言",
       "alternateName": "Baba Vanga Prophecies",
-      "url": "https://hilife.me/vanga/",
+      "url": "https://pre.hilife.me/vanga/",
       "description": "保加利亚盲眼预言家巴巴·万加留下的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

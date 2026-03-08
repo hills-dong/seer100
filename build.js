@@ -240,6 +240,31 @@ function buildSite(siteId) {
     console.log(`  Generated: ${isDefault ? '' : lang + '/'}index.html`);
   }
 
+  // Generate robots.txt
+  const baseUrl = config.baseUrl.replace(/\/$/, '');
+  const robotsTxt = `User-agent: *\nAllow: /\n\nSitemap: ${baseUrl}/sitemap.xml\n`;
+  fs.writeFileSync(path.join(distDir, 'robots.txt'), robotsTxt, 'utf8');
+  console.log(`  Generated: robots.txt`);
+
+  // Generate sitemap.xml
+  const today = new Date().toISOString().split('T')[0];
+  let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n`;
+  for (const lang of config.languages) {
+    const isDefault = lang === config.defaultLang;
+    const url = isDefault ? baseUrl + '/' : baseUrl + '/' + lang + '/';
+    const priority = isDefault ? '1.0' : '0.9';
+    sitemap += `  <url>\n    <loc>${url}</loc>\n`;
+    for (const l of config.languages) {
+      const href = l === config.defaultLang ? baseUrl + '/' : baseUrl + '/' + l + '/';
+      const hreflang = config.meta[l]?.htmlLang === 'zh-CN' ? 'zh' : l;
+      sitemap += `    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${href}"/>\n`;
+    }
+    sitemap += `    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  }
+  sitemap += `</urlset>\n`;
+  fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemap, 'utf8');
+  console.log(`  Generated: sitemap.xml`);
+
   console.log(`Done: dist/${siteId}/`);
 }
 
