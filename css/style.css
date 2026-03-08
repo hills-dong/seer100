@@ -449,22 +449,26 @@ main {
 
 .prophecy-header {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 4px 8px;
+  gap: 8px;
   margin-bottom: 8px;
 }
 
 .prophecy-header-title {
   font-size: 13px;
   color: var(--text);
-  width: 100%;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .prophecy-header-tags {
   display: flex;
   align-items: center;
   gap: 6px;
+  flex-shrink: 0;
   margin-left: auto;
 }
 
@@ -774,6 +778,16 @@ footer a {
 
   .hit-rate-box {
     padding: 5px 12px;
+  }
+
+  .prophecy-header {
+    flex-wrap: wrap;
+  }
+
+  .prophecy-header-title {
+    width: 100%;
+    white-space: normal;
+    overflow: visible;
   }
 }
 
