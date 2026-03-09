@@ -2,7 +2,7 @@
   "siteId": "yijing",
   "answererName": "周文王、周公、孔子（传）",
   "publishDate": "约公元前1000年",
-  "baseUrl": "https://pre.hilife.me/yijing",
+  "baseUrl": "https://seer100.com/yijing",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "易经预言",
       "alternateName": "I Ching Prophecies",
-      "url": "https://pre.hilife.me/yijing/",
+      "url": "https://seer100.com/yijing/",
       "description": "易经六十四卦中最具预言性质的卦辞与爻辞精选解读",
       "inLanguage": ["zh-CN", "en"]
     },

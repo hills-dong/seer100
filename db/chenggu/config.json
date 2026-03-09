@@ -2,7 +2,7 @@
   "siteId": "chenggu",
   "answererName": "袁天罡",
   "publishDate": "约公元650年",
-  "baseUrl": "https://pre.hilife.me/chenggu",
+  "baseUrl": "https://seer100.com/chenggu",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "称骨算命",
       "alternateName": "Bone Weight Fortune Telling",
-      "url": "https://pre.hilife.me/chenggu/",
+      "url": "https://seer100.com/chenggu/",
       "description": "唐代袁天罡所创称骨算命法，51种骨重命格详解",
       "inLanguage": ["zh-CN", "en"]
     },

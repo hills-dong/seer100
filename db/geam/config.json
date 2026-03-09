@@ -2,7 +2,7 @@
   "siteId": "geam",
   "answererName": "南师古",
   "publishDate": "约1400年",
-  "baseUrl": "https://pre.hilife.me/geam",
+  "baseUrl": "https://seer100.com/geam",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "格庵遗录预言",
       "alternateName": "Gyeogam Yurok Prophecies",
-      "url": "https://pre.hilife.me/geam/",
+      "url": "https://seer100.com/geam/",
       "description": "朝鲜王朝南师古《格庵遗录》预言收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

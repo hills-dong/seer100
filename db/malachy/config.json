@@ -2,7 +2,7 @@
   "siteId": "malachy",
   "answererName": "St. Malachy",
   "publishDate": "1595（声称1139年）",
-  "baseUrl": "https://pre.hilife.me/malachy",
+  "baseUrl": "https://seer100.com/malachy",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "圣马拉基教皇预言",
       "alternateName": "Prophecy of the Popes",
-      "url": "https://pre.hilife.me/malachy/",
+      "url": "https://seer100.com/malachy/",
       "description": "据传为圣马拉基所著的教皇预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

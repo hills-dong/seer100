@@ -2,7 +2,7 @@
   "siteId": "nostradamus",
   "answererName": "Nostradamus",
   "publishDate": "1555",
-  "baseUrl": "https://pre.hilife.me/nostradamus",
+  "baseUrl": "https://seer100.com/nostradamus",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "诺斯特拉达穆斯预言",
       "alternateName": "Nostradamus Prophecies",
-      "url": "https://pre.hilife.me/nostradamus/",
+      "url": "https://seer100.com/nostradamus/",
       "description": "法国先知诺斯特拉达穆斯《百诗集》942首四行诗预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

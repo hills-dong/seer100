@@ -2,7 +2,7 @@
   "siteId": "isaiah",
   "answererName": "Prophet Isaiah",
   "publishDate": "约公元前700年",
-  "baseUrl": "https://pre.hilife.me/isaiah",
+  "baseUrl": "https://seer100.com/isaiah",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "以赛亚预言",
       "alternateName": "Isaiah Prophecies",
-      "url": "https://pre.hilife.me/isaiah/",
+      "url": "https://seer100.com/isaiah/",
       "description": "旧约先知以赛亚的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

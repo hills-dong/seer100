@@ -2,7 +2,7 @@
   "siteId": "orwell",
   "answererName": "George Orwell",
   "publishDate": "1949",
-  "baseUrl": "https://pre.hilife.me/orwell",
+  "baseUrl": "https://seer100.com/orwell",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "奥威尔文学预言",
       "alternateName": "Orwell Literary Prophecies",
-      "url": "https://pre.hilife.me/orwell/",
+      "url": "https://seer100.com/orwell/",
       "description": "英国作家乔治·奥威尔在《1984》和《动物庄园》中的预言性警告与现实验证",
       "inLanguage": ["zh-CN", "en"]
     }

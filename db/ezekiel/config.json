@@ -2,7 +2,7 @@
   "siteId": "ezekiel",
   "answererName": "Ezekiel",
   "publishDate": "约公元前590年",
-  "baseUrl": "https://pre.hilife.me/ezekiel",
+  "baseUrl": "https://seer100.com/ezekiel",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "以西结异象",
       "alternateName": "Ezekiel's Visions",
-      "url": "https://pre.hilife.me/ezekiel/",
+      "url": "https://seer100.com/ezekiel/",
       "description": "旧约先知以西结在巴比伦流亡期间所见异象完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

@@ -2,7 +2,7 @@
   "siteId": "kalki",
   "answererName": "Kalki",
   "publishDate": "约公元前400年",
-  "baseUrl": "https://pre.hilife.me/kalki",
+  "baseUrl": "https://seer100.com/kalki",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "卡尔基预言",
       "alternateName": "Kalki Prophecy",
-      "url": "https://pre.hilife.me/kalki/",
+      "url": "https://seer100.com/kalki/",
       "description": "印度教经典中关于毗湿奴第十化身卡尔基的末世预言完整收录与解读",
       "inLanguage": ["zh-CN", "en"]
     }

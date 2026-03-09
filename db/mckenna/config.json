@@ -2,7 +2,7 @@
   "siteId": "mckenna",
   "answererName": "Terence McKenna",
   "publishDate": "1975-2000",
-  "baseUrl": "https://pre.hilife.me/mckenna",
+  "baseUrl": "https://seer100.com/mckenna",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "特伦斯·麦肯纳预言",
       "alternateName": "Terence McKenna Prophecies",
-      "url": "https://pre.hilife.me/mckenna/",
+      "url": "https://seer100.com/mckenna/",
       "description": "美国民族植物学家麦肯纳关于未来的预言与验证",
       "inLanguage": ["zh-CN", "en"]
     }

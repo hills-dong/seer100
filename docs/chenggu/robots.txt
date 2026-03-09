@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/chenggu/sitemap.xml
+Sitemap: https://seer100.com/chenggu/sitemap.xml

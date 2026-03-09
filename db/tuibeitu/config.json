@@ -2,7 +2,7 @@
   "siteId": "tuibeitu",
   "answererName": "李淳风 & 袁天罡",
   "publishDate": "约公元650年",
-  "baseUrl": "https://pre.hilife.me/tuibeitu",
+  "baseUrl": "https://seer100.com/tuibeitu",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "推背图预言",
       "alternateName": "Tui Bei Tu Prophecies",
-      "url": "https://pre.hilife.me/tuibeitu/",
+      "url": "https://seer100.com/tuibeitu/",
       "description": "唐代李淳风袁天罡合著《推背图》60象预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

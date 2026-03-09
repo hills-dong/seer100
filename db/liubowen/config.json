@@ -2,7 +2,7 @@
   "siteId": "liubowen",
   "answererName": "刘伯温（传）",
   "publishDate": "约1368年",
-  "baseUrl": "https://pre.hilife.me/liubowen",
+  "baseUrl": "https://seer100.com/liubowen",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "刘伯温碑记",
       "alternateName": "Liu Bowen Stone Inscription",
-      "url": "https://pre.hilife.me/liubowen/",
+      "url": "https://seer100.com/liubowen/",
       "description": "据传刘伯温留于陕西太白山的末世预言碑文，全文收录与验证分析",
       "inLanguage": ["zh-CN", "en"]
     },

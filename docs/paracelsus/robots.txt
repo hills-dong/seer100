@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/paracelsus/sitemap.xml
+Sitemap: https://seer100.com/paracelsus/sitemap.xml

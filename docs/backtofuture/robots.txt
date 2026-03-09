@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/backtofuture/sitemap.xml
+Sitemap: https://seer100.com/backtofuture/sitemap.xml

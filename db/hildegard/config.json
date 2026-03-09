@@ -2,7 +2,7 @@
   "siteId": "hildegard",
   "answererName": "Hildegard of Bingen",
   "publishDate": "1141-1179",
-  "baseUrl": "https://pre.hilife.me/hildegard",
+  "baseUrl": "https://seer100.com/hildegard",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "希尔德加德预言",
       "alternateName": "Hildegard of Bingen Prophecies",
-      "url": "https://pre.hilife.me/hildegard/",
+      "url": "https://seer100.com/hildegard/",
       "description": "中世纪德国神秘主义者希尔德加德的预言完整收录与解读",
       "inLanguage": ["zh-CN", "en"]
     }

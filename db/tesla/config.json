@@ -2,7 +2,7 @@
   "siteId": "tesla",
   "answererName": "Nikola Tesla",
   "publishDate": "1893-1943",
-  "baseUrl": "https://pre.hilife.me/tesla",
+  "baseUrl": "https://seer100.com/tesla",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "特斯拉预言",
       "alternateName": "Tesla Prophecies",
-      "url": "https://pre.hilife.me/tesla/",
+      "url": "https://seer100.com/tesla/",
       "description": "尼古拉·特斯拉在采访和文章中留下的科技预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

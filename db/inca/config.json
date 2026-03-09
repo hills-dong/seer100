@@ -2,7 +2,7 @@
   "siteId": "inca",
   "answererName": "印加预言",
   "publishDate": "约1200年",
-  "baseUrl": "https://pre.hilife.me/inca",
+  "baseUrl": "https://seer100.com/inca",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "印加预言",
       "alternateName": "Inca Prophecies",
-      "url": "https://pre.hilife.me/inca/",
+      "url": "https://seer100.com/inca/",
       "description": "印加文明核心预言完整收录与验证分析",
       "inLanguage": ["zh-CN", "en"]
     }

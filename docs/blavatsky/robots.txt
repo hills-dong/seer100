@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/blavatsky/sitemap.xml
+Sitemap: https://seer100.com/blavatsky/sitemap.xml

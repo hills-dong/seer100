@@ -2,7 +2,7 @@
   "siteId": "deadseascrolls",
   "answererName": "Qumran Community",
   "publishDate": "约公元前200年至公元68年",
-  "baseUrl": "https://pre.hilife.me/deadseascrolls",
+  "baseUrl": "https://seer100.com/deadseascrolls",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "死海古卷预言",
       "alternateName": "Dead Sea Scrolls Prophecies",
-      "url": "https://pre.hilife.me/deadseascrolls/",
+      "url": "https://seer100.com/deadseascrolls/",
       "description": "死海古卷中的预言性与末世论文本完整收录与学术解读",
       "inLanguage": ["zh-CN", "en"]
     }

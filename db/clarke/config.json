@@ -2,7 +2,7 @@
   "siteId": "clarke",
   "answererName": "Arthur C. Clarke",
   "publishDate": "1945-2008",
-  "baseUrl": "https://pre.hilife.me/clarke",
+  "baseUrl": "https://seer100.com/clarke",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "克拉克预言",
       "alternateName": "Arthur C. Clarke Predictions",
-      "url": "https://pre.hilife.me/clarke/",
+      "url": "https://seer100.com/clarke/",
       "description": "英国科幻作家阿瑟·C·克拉克的技术预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

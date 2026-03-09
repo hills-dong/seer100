@@ -2,7 +2,7 @@
   "siteId": "wanniange",
   "answererName": "姜子牙（传）/ 邵雍",
   "publishDate": "约公元1000年",
-  "baseUrl": "https://pre.hilife.me/wanniange",
+  "baseUrl": "https://seer100.com/wanniange",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "乾坤万年歌预言",
       "alternateName": "Qiankun Wannian Ge Prophecies",
-      "url": "https://pre.hilife.me/wanniange/",
+      "url": "https://seer100.com/wanniange/",
       "description": "长篇七言预言诗《乾坤万年歌》完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

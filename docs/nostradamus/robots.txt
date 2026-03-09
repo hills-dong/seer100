@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/nostradamus/sitemap.xml
+Sitemap: https://seer100.com/nostradamus/sitemap.xml

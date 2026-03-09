@@ -2,7 +2,7 @@
   "siteId": "ragnarok",
   "answererName": "Norse Eddas",
   "publishDate": "约800年-1220年",
-  "baseUrl": "https://pre.hilife.me/ragnarok",
+  "baseUrl": "https://seer100.com/ragnarok",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "诸神黄昏预言",
       "alternateName": "Ragnarok Prophecies",
-      "url": "https://pre.hilife.me/ragnarok/",
+      "url": "https://seer100.com/ragnarok/",
       "description": "北欧神话末日预言「诸神黄昏」完整收录与叙事分析",
       "inLanguage": ["zh-CN", "en"]
     }

@@ -2,7 +2,7 @@
   "siteId": "enoch",
   "answererName": "Enoch",
   "publishDate": "约公元前300年至公元前1世纪",
-  "baseUrl": "https://pre.hilife.me/enoch",
+  "baseUrl": "https://seer100.com/enoch",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "以诺书预言",
       "alternateName": "Book of Enoch Prophecies",
-      "url": "https://pre.hilife.me/enoch/",
+      "url": "https://seer100.com/enoch/",
       "description": "古代犹太启示文学经典——以诺书预言全集与评注",
       "inLanguage": ["zh-CN", "en"]
     }

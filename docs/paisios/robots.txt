@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/paisios/sitemap.xml
+Sitemap: https://seer100.com/paisios/sitemap.xml

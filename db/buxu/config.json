@@ -2,7 +2,7 @@
   "siteId": "buxu",
   "answererName": "步虚大师",
   "publishDate": "约1900年",
-  "baseUrl": "https://pre.hilife.me/buxu",
+  "baseUrl": "https://seer100.com/buxu",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "步虚大师预言",
       "alternateName": "Master Buxu Prophecies",
-      "url": "https://pre.hilife.me/buxu/",
+      "url": "https://seer100.com/buxu/",
       "description": "步虚大师预言诗十二节完整收录与验证分析",
       "inLanguage": ["zh-CN", "en"]
     },

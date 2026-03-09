@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/steiner/sitemap.xml
+Sitemap: https://seer100.com/steiner/sitemap.xml

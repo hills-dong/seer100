@@ -2,7 +2,7 @@
   "siteId": "harari",
   "answererName": "Yuval Noah Harari",
   "publishDate": "2015-2018",
-  "baseUrl": "https://pre.hilife.me/harari",
+  "baseUrl": "https://seer100.com/harari",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "赫拉利预言",
       "alternateName": "Harari Predictions",
-      "url": "https://pre.hilife.me/harari/",
+      "url": "https://seer100.com/harari/",
       "description": "以色列历史学家赫拉利的未来预测完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

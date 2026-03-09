@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/padrepio/sitemap.xml
+Sitemap: https://seer100.com/padrepio/sitemap.xml

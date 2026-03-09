@@ -2,7 +2,7 @@
   "siteId": "tocqueville",
   "answererName": "Alexis de Tocqueville",
   "publishDate": "1835-1840",
-  "baseUrl": "https://pre.hilife.me/tocqueville",
+  "baseUrl": "https://seer100.com/tocqueville",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "托克维尔预言",
       "alternateName": "Tocqueville Prophecies",
-      "url": "https://pre.hilife.me/tocqueville/",
+      "url": "https://seer100.com/tocqueville/",
       "description": "法国政治思想家托克维尔政治预言的完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

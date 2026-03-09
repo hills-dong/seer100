@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/vanga/sitemap.xml
+Sitemap: https://seer100.com/vanga/sitemap.xml

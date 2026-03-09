@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pre.hilife.me/padrepio/</loc>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://pre.hilife.me/padrepio/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pre.hilife.me/padrepio/en/"/>
+    <loc>https://seer100.com/padrepio/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seer100.com/padrepio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seer100.com/padrepio/en/"/>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pre.hilife.me/padrepio/en/</loc>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://pre.hilife.me/padrepio/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pre.hilife.me/padrepio/en/"/>
+    <loc>https://seer100.com/padrepio/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seer100.com/padrepio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seer100.com/padrepio/en/"/>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

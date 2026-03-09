@@ -2,7 +2,7 @@
   "siteId": "padrepio",
   "answererName": "Padre Pio",
   "publishDate": "1918-1968",
-  "baseUrl": "https://pre.hilife.me/padrepio",
+  "baseUrl": "https://seer100.com/padrepio",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "庇护神父预言",
       "alternateName": "Padre Pio Prophecies",
-      "url": "https://pre.hilife.me/padrepio/",
+      "url": "https://seer100.com/padrepio/",
       "description": "意大利嘉布遣会修士庇护神父的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

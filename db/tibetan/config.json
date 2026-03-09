@@ -2,7 +2,7 @@
   "siteId": "tibetan",
   "answererName": "藏传佛教诸师",
   "publishDate": "约800年",
-  "baseUrl": "https://pre.hilife.me/tibetan",
+  "baseUrl": "https://seer100.com/tibetan",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "藏传佛教末法预言",
       "alternateName": "Tibetan Buddhist Prophecy",
-      "url": "https://pre.hilife.me/tibetan/",
+      "url": "https://seer100.com/tibetan/",
       "description": "藏传佛教末法时代预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

@@ -2,7 +2,7 @@
   "siteId": "verne",
   "answererName": "Jules Verne",
   "publishDate": "1863-1905",
-  "baseUrl": "https://pre.hilife.me/verne",
+  "baseUrl": "https://seer100.com/verne",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "凡尔纳科技预言",
       "alternateName": "Jules Verne Predictions",
-      "url": "https://pre.hilife.me/verne/",
+      "url": "https://seer100.com/verne/",
       "description": "科幻之父儒勒·凡尔纳小说中的科技预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

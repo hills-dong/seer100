@@ -2,7 +2,7 @@
   "siteId": "maqianke",
   "answererName": "诸葛亮",
   "publishDate": "约公元227年",
-  "baseUrl": "https://pre.hilife.me/maqianke",
+  "baseUrl": "https://seer100.com/maqianke",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "马前课预言",
       "alternateName": "Ma Qian Ke Prophecies",
-      "url": "https://pre.hilife.me/maqianke/",
+      "url": "https://seer100.com/maqianke/",
       "description": "三国诸葛亮所作《马前课》14课预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/musk/sitemap.xml
+Sitemap: https://seer100.com/musk/sitemap.xml

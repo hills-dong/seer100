@@ -2,7 +2,7 @@
   "siteId": "blavatsky",
   "answererName": "Helena Blavatsky",
   "publishDate": "1877-1891",
-  "baseUrl": "https://pre.hilife.me/blavatsky",
+  "baseUrl": "https://seer100.com/blavatsky",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "布拉瓦茨基预言",
       "alternateName": "Blavatsky Prophecies",
-      "url": "https://pre.hilife.me/blavatsky/",
+      "url": "https://seer100.com/blavatsky/",
       "description": "神智学创始人海伦娜·布拉瓦茨基的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

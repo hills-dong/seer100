@@ -2,7 +2,7 @@
   "siteId": "jinlingta",
   "answererName": "刘伯温（传）",
   "publishDate": "约1918年",
-  "baseUrl": "https://pre.hilife.me/jinlingta",
+  "baseUrl": "https://seer100.com/jinlingta",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "金陵塔碑文",
       "alternateName": "Jinling Tower Stele",
-      "url": "https://pre.hilife.me/jinlingta/",
+      "url": "https://seer100.com/jinlingta/",
       "description": "据传明代刘伯温所作《金陵塔碑文》完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

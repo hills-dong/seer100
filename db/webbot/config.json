@@ -2,7 +2,7 @@
   "siteId": "webbot",
   "answererName": "Clif High",
   "publishDate": "1997-2024",
-  "baseUrl": "https://pre.hilife.me/webbot",
+  "baseUrl": "https://seer100.com/webbot",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "Web Bot 预言",
       "alternateName": "Web Bot Predictions",
-      "url": "https://pre.hilife.me/webbot/",
+      "url": "https://seer100.com/webbot/",
       "description": "Clif High 的 Web Bot 预测系统预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

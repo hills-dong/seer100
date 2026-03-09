@@ -2,7 +2,7 @@
   "siteId": "moore",
   "answererName": "Gordon Moore",
   "publishDate": "1965-2015",
-  "baseUrl": "https://pre.hilife.me/moore",
+  "baseUrl": "https://seer100.com/moore",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "戈登·摩尔预言",
       "alternateName": "Gordon Moore Prophecies",
-      "url": "https://pre.hilife.me/moore/",
+      "url": "https://seer100.com/moore/",
       "description": "Intel联合创始人戈登·摩尔的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

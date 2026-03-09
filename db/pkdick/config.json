@@ -2,7 +2,7 @@
   "siteId": "pkdick",
   "answererName": "Philip K. Dick",
   "publishDate": "1962-1982",
-  "baseUrl": "https://pre.hilife.me/pkdick",
+  "baseUrl": "https://seer100.com/pkdick",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "菲利普·K·迪克预言",
       "alternateName": "Philip K. Dick Prophecies",
-      "url": "https://pre.hilife.me/pkdick/",
+      "url": "https://seer100.com/pkdick/",
       "description": "科幻大师菲利普·K·迪克通过小说预见的未来科技与社会变革",
       "inLanguage": ["zh-CN", "en"]
     }

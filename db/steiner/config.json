@@ -2,7 +2,7 @@
   "siteId": "steiner",
   "answererName": "Rudolf Steiner",
   "publishDate": "1861-1925",
-  "baseUrl": "https://pre.hilife.me/steiner",
+  "baseUrl": "https://seer100.com/steiner",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "施泰纳预言",
       "alternateName": "Rudolf Steiner Prophecies",
-      "url": "https://pre.hilife.me/steiner/",
+      "url": "https://seer100.com/steiner/",
       "description": "奥地利哲学家、人智学创始人施泰纳关于人类未来的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

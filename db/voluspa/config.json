@@ -2,7 +2,7 @@
   "siteId": "voluspa",
   "answererName": "Anonymous Norse Poet",
   "publishDate": "约950年",
-  "baseUrl": "https://pre.hilife.me/voluspa",
+  "baseUrl": "https://seer100.com/voluspa",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "女巫预言",
       "alternateName": "Völuspá Prophecies",
-      "url": "https://pre.hilife.me/voluspa/",
+      "url": "https://seer100.com/voluspa/",
       "description": "北欧神话预言诗《女巫预言》全文收录与解读",
       "inLanguage": ["zh-CN", "en"]
     }

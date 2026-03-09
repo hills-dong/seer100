@@ -2,7 +2,7 @@
   "siteId": "merlin",
   "answererName": "Merlin (Geoffrey of Monmouth)",
   "publishDate": "1136",
-  "baseUrl": "https://pre.hilife.me/merlin",
+  "baseUrl": "https://seer100.com/merlin",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "梅林预言",
       "alternateName": "Prophecies of Merlin",
-      "url": "https://pre.hilife.me/merlin/",
+      "url": "https://seer100.com/merlin/",
       "description": "杰弗里·蒙茅斯1136年记录的梅林预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }
