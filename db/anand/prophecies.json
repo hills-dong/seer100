@@ -341,15 +341,15 @@
     {
       "id": 27,
       "cat": "war",
-      "q": "2025年全球紧张预测",
-      "a": "2025年将是全球政治和军事格局的关键转折年。多个热点地区可能升级，大国博弈将更加激烈。",
-      "q_en": "2025 global tensions prediction",
-      "a_en": "2025 will be a critical turning point year for global political and military dynamics. Multiple hotspots may escalate and great power competition will intensify.",
+      "q": "全球紧张局势预测",
+      "a": "这将是全球政治和军事格局的关键转折年。多个热点地区可能升级，大国博弈将更加激烈。",
+      "q_en": "Global tensions prediction",
+      "a_en": "This will be a critical turning point year for global political and military dynamics. Multiple hotspots may escalate and great power competition will intensify.",
       "date": "2024-01-01",
       "year": 2025,
-      "status": "pending",
-      "verdict_zh": "截至2026年3月评估中。",
-      "verdict_en": "Under evaluation as of March 2026."
+      "status": "partial",
+      "verdict_zh": "2025年全球紧张局势确实加剧：俄乌战争持续进入第三年，中东局势因以巴冲突持续紧张，美中在科技和贸易领域的博弈进一步升级。「大国博弈更加激烈」的判断基本符合。但「关键转折年」的说法过于模糊，缺乏具体预测内容，这类笼统的趋势判断较容易命中。",
+      "verdict_en": "Global tensions did intensify in 2025: the Russia-Ukraine war continued into its third year, the Middle East remained tense due to the ongoing Israeli-Palestinian conflict, and US-China competition escalated further in technology and trade. The claim of 'intensifying great power competition' was broadly accurate. However, 'critical turning point year' is too vague and lacks specific predictions — such general trend forecasts are relatively easy to get right."
     },
     {
       "id": 28,

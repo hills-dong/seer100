@@ -21,8 +21,8 @@
       "a_en": "\"For forty years the rainbow shall not appear. For forty years it will be seen every day. The dry earth will grow more parched, and great floods when it is seen.\"",
       "year": 2040,
       "status": "pending",
-      "verdict_zh": "被解读为全球气候变化导致的极端干旱和洪水交替出现。",
-      "verdict_en": "Interpreted as extreme droughts and floods alternating due to global climate change."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 3,
@@ -81,8 +81,8 @@
       "a_en": "\"Very near Auch, among three brothers. That which will destroy the great city will come from the sky.\"",
       "year": 2150,
       "status": "pending",
-      "verdict_zh": "预言未来天体事件对地球城市的威胁。",
-      "verdict_en": "Predicts a future celestial threat to earthly cities."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 8,
@@ -93,8 +93,8 @@
       "a_en": "\"Twenty years of the Moon's reign have passed. Seven thousand years another shall hold his monarchy. When the Sun takes up his remaining days. Then is my prophecy accomplished and done.\"",
       "year": 3000,
       "status": "pending",
-      "verdict_zh": "诺斯特拉达穆斯暗示他的预言将延续到公元7000年左右，之后将进入新时代。",
-      "verdict_en": "Nostradamus suggests his prophecies extend to approximately the year 7000, after which a new age begins."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 9,
@@ -105,8 +105,8 @@
       "a_en": "\"Sooner and later you will see great changes made. Extreme horrors and vengeances. For as the Moon is led by its angel, the heavens draw near to the Balance.\"",
       "year": 2500,
       "status": "pending",
-      "verdict_zh": "预言地球将经历一次巨大的地质或天文变化，可能是地轴偏移或极端天气。",
-      "verdict_en": "Predicts Earth undergoing a massive geological or astronomical change, possibly axis shift or extreme weather."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 10,
@@ -129,8 +129,8 @@
       "a_en": "\"The great mountain, seven stadia round. After peace, war, famine, flooding. It will spread far, drowning great countries. Even ancient foundations and their mighty ruins.\"",
       "year": 2100,
       "status": "pending",
-      "verdict_zh": "被解读为一颗巨大的小行星或彗星撞击地球的预言。",
-      "verdict_en": "Interpreted as a massive asteroid or comet impact on Earth."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 12,
@@ -201,8 +201,8 @@
       "a_en": "\"During the appearance of the bearded star, the three great princes will be made enemies. Struck from the sky, peace on earth quakes. Po overflows, a serpent placed on the shore.\"",
       "year": 2030,
       "status": "pending",
-      "verdict_zh": "「大胡须星」指大彗星，此预言与未来重大彗星事件相关。",
-      "verdict_en": "'Bearded star' means a great comet. This prophecy relates to a future major comet event."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 18,
@@ -249,8 +249,8 @@
       "a_en": "\"Mabus will soon die, then will come a horrible destruction of people and animals. Then suddenly vengeance will be seen: hundred hands, thirst, famine, when the comet passes.\"",
       "year": 2040,
       "status": "pending",
-      "verdict_zh": "「马比斯」（Mabus）被一些人解读为第三个敌基督的名字的变体。其死亡将引发全球性灾难。",
-      "verdict_en": "'Mabus' is seen by some as an anagram for the Third Antichrist. His death triggers global catastrophe."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 22,
@@ -273,8 +273,8 @@
       "a_en": "\"The divine word shall descend from heaven. It shall not go further. There will be a great secret revealed at the time of the next offering.\"",
       "year": 2060,
       "status": "pending",
-      "verdict_zh": "「从天而降的神圣之语」被一些人解读为卫星通信或太空中传来的信号——可能是地外文明的信号。",
-      "verdict_en": "'Divine word from heaven' interpreted by some as satellite communication or signals from space — possibly extraterrestrial."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 24,
@@ -285,8 +285,8 @@
       "a_en": "\"When the deficiency of the Moon approaches, they are not far from each other. Cold, drought, danger near the frontiers. Even where the oracle has its origin.\"",
       "year": 2200,
       "status": "pending",
-      "verdict_zh": "预言人类在经历多次战争和灾难后，最终迎来一个和平时代。",
-      "verdict_en": "Predicts humanity eventually reaching an age of peace after enduring many wars and disasters."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 25,
@@ -321,8 +321,8 @@
       "a_en": "\"Barbarian empire usurped by the third. The greater part of his blood he will put to death. By senility, death through his country's hand.\"",
       "year": 2035,
       "status": "pending",
-      "verdict_zh": "被解读为第三次世界大战的预言。第三个敌基督将引发全球性冲突。",
-      "verdict_en": "Interpreted as a Third World War prophecy. The third Antichrist will trigger a global conflict."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 28,
@@ -333,8 +333,8 @@
       "a_en": "\"For more than five hundred years, he shall not be reckoned. He who was the ornament of his time. Then suddenly great clarity shall emerge, making those of that century very content.\"",
       "year": 2055,
       "status": "pending",
-      "verdict_zh": "诺斯特拉达穆斯可能在预言自己——出版《百诗集》500年后（约2055年），他将被重新发现或重新评价。",
-      "verdict_en": "Nostradamus may be predicting himself — 500 years after Les Prophéties (c. 2055), he will be rediscovered or reevaluated."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 29,
@@ -417,8 +417,8 @@
       "a_en": "\"The law of Sun and Venus shall be contended. Appropriating the spirit of prophecy. Neither one nor the other will be heard. The law of the great Messiah retained through the Sun.\"",
       "year": 2050,
       "status": "pending",
-      "verdict_zh": "预言未来宗教的融合与变革，可能出现新的全球性精神运动。",
-      "verdict_en": "Predicts religious fusion and transformation, possibly a new global spiritual movement."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 36,
@@ -441,8 +441,8 @@
       "a_en": "\"After a long period of peace praised, throughout Italy and France, blood, fire, plague, and death.\"",
       "year": 2080,
       "status": "pending",
-      "verdict_zh": "预言未来欧洲在经历长期和平后将再次陷入大规模冲突。",
-      "verdict_en": "Predicts Europe falling into large-scale conflict again after a long period of peace."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 38,
@@ -501,8 +501,8 @@
       "a_en": "\"The Third Antichrist soon to come, far more terrible than the first two. He shall reign twenty-seven years in rivers of blood.\"",
       "year": 2030,
       "status": "pending",
-      "verdict_zh": "诺斯特拉达穆斯据说预言了三位敌基督——拿破仑、希特勒是前两位，第三位尚未出现。",
-      "verdict_en": "Nostradamus allegedly predicted three Antichrists — Napoleon and Hitler are the first two; the third has not yet appeared."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 43,
@@ -549,8 +549,8 @@
       "a_en": "\"The human realm of angelic governance. It will cause peace and unity. War captive halfway through. For a long time peace will be maintained.\"",
       "year": 3500,
       "status": "pending",
-      "verdict_zh": "这是诺斯特拉达穆斯少有的乐观预言，暗示人类最终将实现持久和平，进入「天使般的统治」时代。",
-      "verdict_en": "One of Nostradamus's rare optimistic prophecies, suggesting humanity will ultimately achieve lasting peace and enter an era of 'angelic governance'."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 47,
@@ -573,8 +573,8 @@
       "a_en": "\"The year the great seventh number is accomplished. It will appear at the time of the games of slaughter. Not far from the great millennial age. When the dead will come out of their graves.\"",
       "year": 2242,
       "status": "pending",
-      "verdict_zh": "「第七个大数」被一些人解读为公元7000年或其他计算方式。这是诺斯特拉达穆斯最具末世色彩的预言之一。",
-      "verdict_en": "'Seventh great number' is interpreted by some as the year 7000 or through other calculations. One of Nostradamus's most apocalyptic prophecies."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 49,
@@ -669,8 +669,8 @@
       "a_en": "\"The East will form a new alliance. Two great dragons shall shake hands. The eagle of the West will be uneasy. The old order shall be broken.\"",
       "year": 2026,
       "status": "pending",
-      "verdict_zh": "「两条巨龙」被解读为中国和印度或中俄之间的战略联盟，对西方主导的国际秩序构成挑战。",
-      "verdict_en": "'Two dragons' as China-India or China-Russia strategic alliance challenging the Western-dominated international order."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 57,
@@ -681,8 +681,8 @@
       "a_en": "\"The long-sleeping mountain shall awaken once more. Ash will cover the sky, obscuring the sun. Nearby cities will be abandoned.\"",
       "year": 2026,
       "status": "pending",
-      "verdict_zh": "被解读为2026年可能发生的重大火山喷发事件，可能指意大利维苏威火山或冰岛火山系统。",
-      "verdict_en": "Interpreted as a major volcanic eruption possibly in 2026, potentially referring to Italy's Vesuvius or Iceland's volcanic systems."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 58,
@@ -693,8 +693,8 @@
       "a_en": "\"Old currency will lose its value. A new way of exchange will appear. No need to carry gold or silver. Everything shall be recorded in numbers.\"",
       "year": 2026,
       "status": "pending",
-      "verdict_zh": "被解读为数字货币和央行数字货币（CBDC）取代传统纸币的趋势。",
-      "verdict_en": "Interpreted as digital currencies and CBDCs replacing traditional paper money."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 59,
@@ -705,8 +705,8 @@
       "a_en": "\"The Mediterranean shall become a theater of war. Ships burn in the harbor. Three nations fight over an island.\"",
       "year": 2026,
       "status": "pending",
-      "verdict_zh": "可能指地中海地区地缘政治紧张局势的升级，涉及领土争端。",
-      "verdict_en": "Possibly referring to escalating geopolitical tensions in the Mediterranean involving territorial disputes."
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 60,
@@ -717,8 +717,8 @@
       "a_en": "\"My prophecies shall extend to the year 3797 AD.\" — Nostradamus's statement in the Preface to Les Prophéties.",
       "year": 3797,
       "status": "pending",
-      "verdict_zh": "诺斯特拉达穆斯在致其子凯撒的序言中明确表示，他的预言时间跨度延续到公元3797年，被一些人解读为世界末日之年。",
-      "verdict_en": "In his preface addressed to his son César, Nostradamus explicitly stated that his prophecies span to 3797 AD, interpreted by some as the year of the end of the world."
+      "verdict_zh": "",
+      "verdict_en": ""
     }
   ]
 }

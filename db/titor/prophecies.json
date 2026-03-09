@@ -79,6 +79,7 @@
       "a": "我使用的是通用电气C204型重力畸变时间位移装置。它安装在一辆1967年雪佛兰科尔维特上。装置利用两个微型奇点产生标准的偏转重力场，实现时间位移。它的重量约225公斤，需要一个稳定的电源。",
       "q_en": "What does your time machine look like?",
       "a_en": "I use a General Electric C204 gravity distortion time displacement unit. It's mounted in a 1967 Chevrolet Corvette. The unit uses two micro singularities to generate a standard offset Tipler sinusoid, enabling time displacement. It weighs about 500 pounds and requires a stable power source.",
+      "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
@@ -90,6 +91,7 @@
       "a": "时间旅行基于埃弗雷特-惠勒多世界诠释。每次你做出一个决定，宇宙就分裂出新的时间线。所以我来到的这个2000年可能与我经历过的那个2000年有2%左右的偏差。我无法精确预测你们的未来，因为这不一定是我的过去。",
       "q_en": "What is the basic principle of time travel?",
       "a_en": "Time travel is based on the Everett-Wheeler many-worlds interpretation. Every time you make a decision, the universe splits into new worldlines. So the year 2000 I arrived in may have about a 2% divergence from the 2000 I experienced. I cannot precisely predict your future because it may not be my past.",
+      "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
@@ -269,6 +271,7 @@
       "a": "我已经发布了时间机器的照片和操作手册图片。我的装置产生的重力场畸变可以通过激光笔在设备附近的偏折来验证。",
       "q_en": "Can you show any evidence of time travel?",
       "a_en": "I have posted photos of the time machine and operation manual images. The gravity field distortion produced by my device can be verified by the deflection of a laser pointer near the equipment.",
+      "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
@@ -328,6 +331,7 @@
       "a": "我在1975年完成了IBM 5100的取回任务后，选择在2000年短暂停留。一部分原因是个人性质的——我想见见我还是婴儿时期的自己和家人。另一个原因是我想体验一下这个时代的生活，看看人们在大灾难来临之前是怎么生活的。",
       "q_en": "Why did you stop in our time?",
       "a_en": "After completing my IBM 5100 retrieval mission in 1975, I chose to stop briefly in 2000. Part of the reason is personal — I wanted to see myself as a baby and my family. Another reason is that I wanted to experience life in this era, to see how people live before the great catastrophe.",
+      "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
@@ -339,6 +343,7 @@
       "a": "我发布的照片显示了C204装置安装在汽车后座上的样子。装置有一个可见的奇点壳体和激光制导系统。你们可以检查照片中的重力透镜效应——在装置周围应该能看到轻微的光线弯曲。",
       "q_en": "How can we verify your time machine photos are real?",
       "a_en": "The photos I posted show the C204 unit installed in the backseat of the car. The device has a visible singularity housing and laser guidance system. You can check for gravitational lensing effects in the photos — you should see slight light bending around the device.",
+      "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
@@ -374,6 +379,7 @@
       "a": "学习基本生存技能：种植食物、净化水源、急救知识。不要把所有东西都依赖大型系统——电力、食物供应、金融系统。与你的邻居建立联系，因为在危机到来时，你的社区就是你的生命线。",
       "q_en": "What advice do you have for people of our time?",
       "a_en": "Learn basic survival skills: growing food, purifying water, first aid. Don't depend on large systems for everything — electricity, food supply, financial systems. Build connections with your neighbors, because when crisis comes, your community is your lifeline.",
+      "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
@@ -409,6 +415,7 @@
       "a": "我说过，多世界理论意味着你们的时间线和我的时间线可能存在偏差。我告诉你们这些不会改变我的历史，但可能会让你们的未来有一些不同。如果你们能够从中汲取一些教训，避免一些苦难，那我觉得这是值得的。",
       "q_en": "Why are you telling us all this? Aren't you afraid of changing history?",
       "a_en": "As I've said, the many-worlds theory means your worldline and mine may diverge. Telling you this won't change my history, but it may make your future somewhat different. If you can learn some lessons from this and avoid some suffering, I think it's worth it.",
+      "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
