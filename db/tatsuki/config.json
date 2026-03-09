@@ -1,0 +1,69 @@
+{
+  "siteId": "tatsuki",
+  "answererName": "たつき諒",
+  "publishDate": "1999",
+  "baseUrl": "https://seer100.com/tatsuki",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "龙树谅预言全集 - 预知梦漫画家的15条预言与验证 | たつき諒",
+      "description": "日本漫画家龙树谅（たつき諒）1999年出版《私が見た未来》，封面精准预言2011年3月东日本大地震。2021年出版完全版，补充更多预知梦内容。本站收录15条预言并进行验证分析。",
+      "keywords": "龙树谅,たつき諒,私が見た未来,预知梦,东日本大地震预言,2025年7月预言,漫画预言,日本预言家,富士山喷火,大海啸",
+      "siteName": "龙树谅预言",
+      "ogTitle": "龙树谅预言全集 | たつき諒の予知夢",
+      "ogDescription": "日本漫画家龙树谅的预知梦预言完整收录与验证。1999年漫画封面精准预言2011年3·11大地震。",
+      "locale": "zh_CN",
+      "twitterDescription": "15条龙树谅的预知梦预言，含真实度验证。最著名预言：1999年漫画封面写下「大灾难は2011年3月」，精准预言东日本大地震。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Tatsuki Ryo Prophecies - 15 Prophetic Dreams from the Manga Artist | Full Archive & Verification",
+      "description": "Japanese manga artist Tatsuki Ryo (たつき諒) published 'The Future I Saw' in 1999, with the cover predicting a great disaster in March 2011 — the Tohoku earthquake. This site archives 15 of her prophetic dream predictions with verification.",
+      "keywords": "Tatsuki Ryo,たつき諒,The Future I Saw,prophetic dreams,Tohoku earthquake prediction,2025 July prediction,manga prophecy,Japanese prophet,Mount Fuji eruption,tsunami prediction",
+      "siteName": "Tatsuki Ryo Prophecies",
+      "ogTitle": "Tatsuki Ryo Prophecies - Prophetic Dreams from the Manga Artist",
+      "ogDescription": "15 prophetic dream predictions from Japanese manga artist Tatsuki Ryo. Her 1999 manga cover famously predicted the March 2011 Tohoku earthquake.",
+      "locale": "en_US",
+      "twitterDescription": "15 prophetic dreams from manga artist Tatsuki Ryo. Her 1999 manga cover predicted 'Great disaster March 2011' — the Tohoku earthquake."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "龙树谅预言",
+      "alternateName": "Tatsuki Ryo Prophecies",
+      "url": "https://seer100.com/tatsuki/",
+      "description": "日本漫画家龙树谅的预知梦预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0f4",
+    "white": "#fff",
+    "text": "#28242e",
+    "text2": "#706878",
+    "textLight": "#5c5466",
+    "primary": "#8c5a6a",
+    "primaryDark": "#6a3c4e",
+    "primaryBg": "#f6eef2",
+    "link": "#8c5a6a",
+    "border": "#dedade",
+    "border2": "#c2bcc4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eeeaf0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "龙树谅预言"
+  },
+  "footer": {
+    "sourceUrl": "https://ja.wikipedia.org/wiki/%E7%A7%81%E3%81%8C%E8%A6%8B%E3%81%9F%E6%9C%AA%E6%9D%A5",
+    "sourceLabel": "Wikipedia"
+  }
+}

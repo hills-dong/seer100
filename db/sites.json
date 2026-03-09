@@ -1037,17 +1037,6 @@
     "hitRate": 100
   },
   {
-    "name": "Rasputin Prophecies 拉斯普京预言录",
-    "siteId": "rasputinbook",
-    "status": "pending",
-    "url": null,
-    "category": "psychic",
-    "country": "RU",
-    "startYear": "1916",
-    "name_zh": "拉斯普京预言录",
-    "name_en": "Rasputin Prophecies"
-  },
-  {
     "name": "Zoroastrian Prophecy 琐罗亚斯德预言",
     "siteId": "zoroaster",
     "status": "done",
@@ -1252,17 +1241,6 @@
     "hitRate": null
   },
   {
-    "name": "Prophecy of the Popes 教皇预言",
-    "siteId": "popes",
-    "status": "pending",
-    "url": null,
-    "category": "religion",
-    "country": "IE",
-    "startYear": "1139",
-    "name_zh": "教皇预言",
-    "name_en": "Prophecy of the Popes"
-  },
-  {
     "name": "Joachim of Fiore 菲奥雷的约阿基姆",
     "siteId": "joachim",
     "status": "done",
@@ -1450,17 +1428,6 @@
     "hitRate": 79
   },
   {
-    "name": "Daniel's Seventy Weeks 但以理七十个七",
-    "siteId": "danielweeks",
-    "status": "pending",
-    "url": null,
-    "category": "religion",
-    "country": "IL",
-    "startYear": "-165",
-    "name_zh": "但以理七十个七",
-    "name_en": "Daniel's Seventy Weeks"
-  },
-  {
     "name": "Ezekiel's Visions 以西结异象",
     "siteId": "ezekiel",
     "status": "done",
@@ -1527,17 +1494,6 @@
     "title_zh": "KFK 2075 预言",
     "title_en": "KFK 2075 Prophecies",
     "hitRate": 60
-  },
-  {
-    "name": "Beinsa Douno 贝因萨·杜诺",
-    "siteId": "douno",
-    "status": "pending",
-    "url": null,
-    "category": "religion",
-    "country": "BG",
-    "startYear": "1900",
-    "name_zh": "贝因萨·杜诺",
-    "name_en": "Beinsa Douno"
   },
   {
     "name": "袁天罡称骨算命",
@@ -1674,5 +1630,20 @@
     "title_zh": "戈登·摩尔预言",
     "title_en": "Gordon Moore Prophecies",
     "hitRate": 100
+  },
+  {
+    "name": "Ryo Tatsuki 龙树谅",
+    "siteId": "tatsuki",
+    "status": "done",
+    "url": "https://seer100.com/tatsuki/",
+    "category": "psychic",
+    "country": "JP",
+    "startYear": "1999",
+    "count": 15,
+    "logo": "logo.svg",
+    "title_zh": "龙树谅预言",
+    "title_en": "Tatsuki Ryo Prophecies",
+    "primary": "#8c5a6a",
+    "hitRate": 78
   }
 ]
