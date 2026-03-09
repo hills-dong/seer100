@@ -2,7 +2,7 @@
   "siteId": "cayce",
   "answererName": "Edgar Cayce",
   "publishDate": "1920-1944",
-  "baseUrl": "https://pre.hilife.me/cayce",
+  "baseUrl": "https://seer100.com/cayce",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "埃德加·凯西预言",
       "alternateName": "Edgar Cayce Prophecies",
-      "url": "https://pre.hilife.me/cayce/",
+      "url": "https://seer100.com/cayce/",
       "description": "美国睡眠先知埃德加·凯西的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

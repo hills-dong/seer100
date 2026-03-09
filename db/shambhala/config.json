@@ -2,7 +2,7 @@
   "siteId": "shambhala",
   "answererName": "Kalachakra Tantra",
   "publishDate": "约公元前300年",
-  "baseUrl": "https://pre.hilife.me/shambhala",
+  "baseUrl": "https://seer100.com/shambhala",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "香巴拉预言",
       "alternateName": "Shambhala Prophecy",
-      "url": "https://pre.hilife.me/shambhala/",
+      "url": "https://seer100.com/shambhala/",
       "description": "时轮密续中的香巴拉预言完整收录与解读",
       "inLanguage": ["zh-CN", "en"]
     }

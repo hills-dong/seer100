@@ -2,7 +2,7 @@
   "siteId": "kurzweil",
   "answererName": "Ray Kurzweil",
   "publishDate": "1990-2024",
-  "baseUrl": "https://pre.hilife.me/kurzweil",
+  "baseUrl": "https://seer100.com/kurzweil",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "雷·库兹韦尔预言",
       "alternateName": "Ray Kurzweil Predictions",
-      "url": "https://pre.hilife.me/kurzweil/",
+      "url": "https://seer100.com/kurzweil/",
       "description": "美国未来学家雷·库兹韦尔的科技预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

@@ -2,7 +2,7 @@
   "siteId": "fatima",
   "answererName": "Our Lady of Fatima",
   "publishDate": "1917",
-  "baseUrl": "https://pre.hilife.me/fatima",
+  "baseUrl": "https://seer100.com/fatima",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "法蒂玛预言",
       "alternateName": "Fatima Prophecies",
-      "url": "https://pre.hilife.me/fatima/",
+      "url": "https://seer100.com/fatima/",
       "description": "1917年法蒂玛圣母显灵事件完整记录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

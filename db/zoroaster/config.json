@@ -2,7 +2,7 @@
   "siteId": "zoroaster",
   "answererName": "Zoroaster",
   "publishDate": "约公元前600年",
-  "baseUrl": "https://pre.hilife.me/zoroaster",
+  "baseUrl": "https://seer100.com/zoroaster",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "琐罗亚斯德预言",
       "alternateName": "Zoroaster Prophecies",
-      "url": "https://pre.hilife.me/zoroaster/",
+      "url": "https://seer100.com/zoroaster/",
       "description": "古波斯先知琐罗亚斯德的末世预言完整收录与解读",
       "inLanguage": ["zh-CN", "en"]
     }

@@ -2,7 +2,7 @@
   "siteId": "huangbo",
   "answererName": "黄蘖禅师",
   "publishDate": "约公元850年",
-  "baseUrl": "https://pre.hilife.me/huangbo",
+  "baseUrl": "https://seer100.com/huangbo",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "黄蘖禅师诗",
       "alternateName": "Huangbo Prophecy Poem",
-      "url": "https://pre.hilife.me/huangbo/",
+      "url": "https://seer100.com/huangbo/",
       "description": "托名唐代高僧黄蘖禅师所作的十四首预言诗完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

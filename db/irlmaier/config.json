@@ -2,7 +2,7 @@
   "siteId": "irlmaier",
   "answererName": "Alois Irlmaier",
   "publishDate": "1945-1959",
-  "baseUrl": "https://pre.hilife.me/irlmaier",
+  "baseUrl": "https://seer100.com/irlmaier",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "伊尔迈尔预言",
       "alternateName": "Alois Irlmaier Prophecies",
-      "url": "https://pre.hilife.me/irlmaier/",
+      "url": "https://seer100.com/irlmaier/",
       "description": "巴伐利亚先知阿洛伊斯·伊尔迈尔的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

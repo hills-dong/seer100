@@ -2,7 +2,7 @@
   "siteId": "dreamtime",
   "answererName": "Aboriginal Australian Elders",
   "publishDate": "口传传统，至少10000年历史",
-  "baseUrl": "https://pre.hilife.me/dreamtime",
+  "baseUrl": "https://seer100.com/dreamtime",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "梦幻时代预言",
       "alternateName": "Aboriginal Dreamtime Prophecies",
-      "url": "https://pre.hilife.me/dreamtime/",
+      "url": "https://seer100.com/dreamtime/",
       "description": "澳洲原住民梦幻时代口传传统中的生态智慧与预言性警示",
       "inLanguage": ["zh-CN", "en"]
     }

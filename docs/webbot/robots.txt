@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/webbot/sitemap.xml
+Sitemap: https://seer100.com/webbot/sitemap.xml

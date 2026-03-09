@@ -2,7 +2,7 @@
   "siteId": "musk",
   "answererName": "Elon Musk",
   "publishDate": "2002-2024",
-  "baseUrl": "https://pre.hilife.me/musk",
+  "baseUrl": "https://seer100.com/musk",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "马斯克预言",
       "alternateName": "Elon Musk Predictions",
-      "url": "https://pre.hilife.me/musk/",
+      "url": "https://seer100.com/musk/",
       "description": "埃隆·马斯克关于人类未来的公开预测完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

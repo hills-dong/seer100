@@ -2,7 +2,7 @@
   "siteId": "seraphim",
   "answererName": "Seraphim of Sarov",
   "publishDate": "约1825-1833",
-  "baseUrl": "https://pre.hilife.me/seraphim",
+  "baseUrl": "https://seer100.com/seraphim",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "塞拉芬预言",
       "alternateName": "Seraphim of Sarov Prophecies",
-      "url": "https://pre.hilife.me/seraphim/",
+      "url": "https://seer100.com/seraphim/",
       "description": "俄罗斯东正教圣人萨罗夫的塞拉芬预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

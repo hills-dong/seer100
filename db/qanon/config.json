@@ -2,7 +2,7 @@
   "siteId": "qanon",
   "answererName": "Q (anonymous)",
   "publishDate": "2017-2021",
-  "baseUrl": "https://pre.hilife.me/qanon",
+  "baseUrl": "https://seer100.com/qanon",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "QAnon预言",
       "alternateName": "QAnon Predictions Archive",
-      "url": "https://pre.hilife.me/qanon/",
+      "url": "https://seer100.com/qanon/",
       "description": "匿名者Q（QAnon）的核心预测与事实验证",
       "inLanguage": ["zh-CN", "en"]
     }

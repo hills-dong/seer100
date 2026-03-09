@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/dixon/sitemap.xml
+Sitemap: https://seer100.com/dixon/sitemap.xml

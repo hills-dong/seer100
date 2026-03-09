@@ -2,7 +2,7 @@
   "siteId": "revelation",
   "answererName": "John of Patmos",
   "publishDate": "约95年",
-  "baseUrl": "https://pre.hilife.me/revelation",
+  "baseUrl": "https://seer100.com/revelation",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "启示录预言",
       "alternateName": "Book of Revelation Prophecies",
-      "url": "https://pre.hilife.me/revelation/",
+      "url": "https://seer100.com/revelation/",
       "description": "《启示录》末世异象完整收录与验证分析",
       "inLanguage": ["zh-CN", "en"]
     }

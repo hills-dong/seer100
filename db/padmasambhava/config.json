@@ -2,7 +2,7 @@
   "siteId": "padmasambhava",
   "answererName": "莲花生大师",
   "publishDate": "约760年",
-  "baseUrl": "https://pre.hilife.me/padmasambhava",
+  "baseUrl": "https://seer100.com/padmasambhava",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "莲师预言",
       "alternateName": "Padmasambhava Prophecies",
-      "url": "https://pre.hilife.me/padmasambhava/",
+      "url": "https://seer100.com/padmasambhava/",
       "description": "莲花生大师伏藏预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

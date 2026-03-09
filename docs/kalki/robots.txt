@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/kalki/sitemap.xml
+Sitemap: https://seer100.com/kalki/sitemap.xml

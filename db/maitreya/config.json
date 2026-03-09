@@ -2,7 +2,7 @@
   "siteId": "maitreya",
   "answererName": "弥勒佛",
   "publishDate": "约公元前200年",
-  "baseUrl": "https://pre.hilife.me/maitreya",
+  "baseUrl": "https://seer100.com/maitreya",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "弥勒佛预言",
       "alternateName": "Maitreya Prophecies",
-      "url": "https://pre.hilife.me/maitreya/",
+      "url": "https://seer100.com/maitreya/",
       "description": "佛教经典中关于弥勒菩萨降世的预言完整收录与解读",
       "inLanguage": ["zh-CN", "en"]
     }

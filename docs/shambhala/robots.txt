@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/shambhala/sitemap.xml
+Sitemap: https://seer100.com/shambhala/sitemap.xml

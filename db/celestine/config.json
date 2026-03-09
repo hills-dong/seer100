@@ -2,7 +2,7 @@
   "siteId": "celestine",
   "answererName": "James Redfield",
   "publishDate": "1993",
-  "baseUrl": "https://pre.hilife.me/celestine",
+  "baseUrl": "https://seer100.com/celestine",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "塞莱斯廷预言",
       "alternateName": "The Celestine Prophecy",
-      "url": "https://pre.hilife.me/celestine/",
+      "url": "https://seer100.com/celestine/",
       "description": "詹姆斯·雷德菲尔德灵性冒险小说中的九大觉悟与灵性进化预言",
       "inLanguage": ["zh-CN", "en"]
     }

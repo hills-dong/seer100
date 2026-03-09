@@ -2,7 +2,7 @@
   "siteId": "tiebanshensu",
   "answererName": "邵雍（传）",
   "publishDate": "约1700年",
-  "baseUrl": "https://pre.hilife.me/tiebanshensu",
+  "baseUrl": "https://seer100.com/tiebanshensu",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "铁板神数",
       "alternateName": "Iron Plate Divination",
-      "url": "https://pre.hilife.me/tiebanshensu/",
+      "url": "https://seer100.com/tiebanshensu/",
       "description": "铁板神数代表性条文精选与解读分析",
       "inLanguage": ["zh-CN", "en"]
     },

@@ -2,7 +2,7 @@
   "siteId": "sibylline",
   "answererName": "Sibyls",
   "publishDate": "约公元前500年至公元7世纪",
-  "baseUrl": "https://pre.hilife.me/sibylline",
+  "baseUrl": "https://seer100.com/sibylline",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "西比林预言书",
       "alternateName": "Sibylline Oracles",
-      "url": "https://pre.hilife.me/sibylline/",
+      "url": "https://seer100.com/sibylline/",
       "description": "古希腊罗马女先知西比尔的神谕合集，完整收录与历史验证",
       "inLanguage": ["zh-CN", "en"]
     }

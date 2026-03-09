@@ -2,7 +2,7 @@
   "siteId": "boriska",
   "answererName": "Boriska",
   "publishDate": "2004",
-  "baseUrl": "https://pre.hilife.me/boriska",
+  "baseUrl": "https://seer100.com/boriska",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "火星男孩预言",
       "alternateName": "Boriska Prophecies",
-      "url": "https://pre.hilife.me/boriska/",
+      "url": "https://seer100.com/boriska/",
       "description": "俄罗斯火星男孩波力斯卡关于火星文明与地球未来的预言收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

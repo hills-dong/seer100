@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/revelation/sitemap.xml
+Sitemap: https://seer100.com/revelation/sitemap.xml

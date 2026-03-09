@@ -2,7 +2,7 @@
   "siteId": "aztec",
   "answererName": "阿兹特克文明",
   "publishDate": "约公元前1000年",
-  "baseUrl": "https://pre.hilife.me/aztec",
+  "baseUrl": "https://seer100.com/aztec",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "阿兹特克第五太阳预言",
       "alternateName": "Aztec Fifth Sun Prophecy",
-      "url": "https://pre.hilife.me/aztec/",
+      "url": "https://seer100.com/aztec/",
       "description": "阿兹特克文明五个太阳纪创世神话完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

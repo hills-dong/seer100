@@ -2,7 +2,7 @@
   "siteId": "joachim",
   "answererName": "Joachim of Fiore",
   "publishDate": "约1190年",
-  "baseUrl": "https://pre.hilife.me/joachim",
+  "baseUrl": "https://seer100.com/joachim",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "约阿基姆预言",
       "alternateName": "Joachim of Fiore Prophecies",
-      "url": "https://pre.hilife.me/joachim/",
+      "url": "https://seer100.com/joachim/",
       "description": "意大利西多会修道院长菲奥雷的约阿基姆的历史神学预言完整收录与分析",
       "inLanguage": ["zh-CN", "en"]
     }

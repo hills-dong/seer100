@@ -224,7 +224,7 @@ node gen-favicons.js    # 自动发现所有站点并生成
   "siteId": "example",
   "answererName": "预言者名字",
   "publishDate": "1555",
-  "baseUrl": "https://pre.hilife.me/example",
+  "baseUrl": "https://seer100.com/example",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -465,7 +465,7 @@ node server.js             # 本地预览 http://localhost:3000/{siteId}/
 - 分支: 从 main 创建 feature 分支
 - 构建输出在 `docs/` 目录，需要一起提交
 - GitHub Pages 从 main 分支的 `/docs` 目录部署
-- CNAME 文件在 `docs/CNAME`，内容为 `pre.hilife.me`
+- CNAME 文件在 `docs/CNAME`，内容为 `seer100.com`
 - PR 合并时用 `--delete-branch=false`（避免 worktree 冲突）
 
 ---

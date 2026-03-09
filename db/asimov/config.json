@@ -2,7 +2,7 @@
   "siteId": "asimov",
   "answererName": "Isaac Asimov",
   "publishDate": "1950-1992",
-  "baseUrl": "https://pre.hilife.me/asimov",
+  "baseUrl": "https://seer100.com/asimov",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "阿西莫夫预言",
       "alternateName": "Asimov Predictions",
-      "url": "https://pre.hilife.me/asimov/",
+      "url": "https://seer100.com/asimov/",
       "description": "科幻大师阿西莫夫对未来世界的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

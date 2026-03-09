@@ -2,7 +2,7 @@
   "siteId": "billgates",
   "answererName": "Bill Gates",
   "publishDate": "1995-2024",
-  "baseUrl": "https://pre.hilife.me/billgates",
+  "baseUrl": "https://seer100.com/billgates",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "比尔·盖茨预言",
       "alternateName": "Bill Gates Predictions",
-      "url": "https://pre.hilife.me/billgates/",
+      "url": "https://seer100.com/billgates/",
       "description": "微软联合创始人比尔·盖茨的重要预测完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

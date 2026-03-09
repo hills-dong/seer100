@@ -2,7 +2,7 @@
   "siteId": "deunov",
   "answererName": "Peter Deunov",
   "publishDate": "1900-1944",
-  "baseUrl": "https://pre.hilife.me/deunov",
+  "baseUrl": "https://seer100.com/deunov",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "杜诺夫预言",
       "alternateName": "Peter Deunov Prophecies",
-      "url": "https://pre.hilife.me/deunov/",
+      "url": "https://seer100.com/deunov/",
       "description": "保加利亚灵性导师彼得·杜诺夫的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

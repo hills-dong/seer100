@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/maya/sitemap.xml
+Sitemap: https://seer100.com/maya/sitemap.xml

@@ -2,7 +2,7 @@
   "siteId": "bradbury",
   "answererName": "Ray Bradbury",
   "publishDate": "1953",
-  "baseUrl": "https://pre.hilife.me/bradbury",
+  "baseUrl": "https://seer100.com/bradbury",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "雷·布拉德伯里预言",
       "alternateName": "Ray Bradbury Prophecies",
-      "url": "https://pre.hilife.me/bradbury/",
+      "url": "https://seer100.com/bradbury/",
       "description": "美国科幻大师雷·布拉德伯里通过小说作品留下的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

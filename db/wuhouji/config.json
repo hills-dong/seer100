@@ -2,7 +2,7 @@
   "siteId": "wuhouji",
   "answererName": "诸葛亮（托名）",
   "publishDate": "约1900年",
-  "baseUrl": "https://pre.hilife.me/wuhouji",
+  "baseUrl": "https://seer100.com/wuhouji",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "武侯百年乩",
       "alternateName": "Wuhou Bainian Ji",
-      "url": "https://pre.hilife.me/wuhouji/",
+      "url": "https://seer100.com/wuhouji/",
       "description": "1933年扶乩所得预言诗，托名诸葛武侯，预言百年中国大事",
       "inLanguage": ["zh-CN", "en"]
     },

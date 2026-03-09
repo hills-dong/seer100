@@ -2,7 +2,7 @@
   "siteId": "cyberpunk",
   "answererName": "William Gibson et al.",
   "publishDate": "1984",
-  "baseUrl": "https://pre.hilife.me/cyberpunk",
+  "baseUrl": "https://seer100.com/cyberpunk",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "赛博朋克预言",
       "alternateName": "Cyberpunk Prophecies",
-      "url": "https://pre.hilife.me/cyberpunk/",
+      "url": "https://seer100.com/cyberpunk/",
       "description": "赛博朋克文学流派对数字时代的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

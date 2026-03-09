@@ -2,7 +2,7 @@
   "siteId": "shipton",
   "answererName": "Mother Shipton",
   "publishDate": "约1530年",
-  "baseUrl": "https://pre.hilife.me/shipton",
+  "baseUrl": "https://seer100.com/shipton",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "希普顿修女预言",
       "alternateName": "Mother Shipton Prophecies",
-      "url": "https://pre.hilife.me/shipton/",
+      "url": "https://seer100.com/shipton/",
       "description": "英格兰女预言家希普顿修女的预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     }

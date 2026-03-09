@@ -2,7 +2,7 @@
   "siteId": "kfk",
   "answererName": "KFK",
   "publishDate": "2019-06-22",
-  "baseUrl": "https://pre.hilife.me/kfk/",
+  "baseUrl": "https://seer100.com/kfk/",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
@@ -35,7 +35,7 @@
       "@type": "WebSite",
       "name": "KFK 2060 预言",
       "alternateName": "KFK 2060 Prophecies",
-      "url": "https://pre.hilife.me/kfk/",
+      "url": "https://seer100.com/kfk/",
       "description": "来自2060年的时间旅行者KFK在2019年豆瓣留下的281条预言完整收录与验证",
       "inLanguage": ["zh-CN", "en"]
     },

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pre.hilife.me/asimov/sitemap.xml
+Sitemap: https://seer100.com/asimov/sitemap.xml

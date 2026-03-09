@@ -378,7 +378,7 @@ function buildIndex() {
     const cfgPath = path.join(dbRoot, site.siteId, 'config.json');
     if (fs.existsSync(cfgPath)) {
       site.status = 'done';
-      site.url = site.url || `https://pre.hilife.me/${site.siteId}/`;
+      site.url = site.url || `https://seer100.com/${site.siteId}/`;
     }
   }
 
