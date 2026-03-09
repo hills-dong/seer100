@@ -544,14 +544,60 @@ function buildIndex() {
 
   // Year groups are shown flat (no tabs)
 
+  const totalDone = sites.filter(s => s.status === 'done').length;
+  const totalProphecies = sites.filter(s => s.status === 'done').reduce((sum, s) => sum + (s.count || 0), 0);
+  const seoTitle = `预言档案馆 - ${totalDone}个预言系列完整收录与验证 | Seer100 Prophecy Archive`;
+  const seoDescZh = `收录${totalDone}个预言系列、${totalProphecies}条预言的完整档案与验证分析。涵盖诺斯特拉达穆斯、推背图、巴巴万加、霍金、马斯克等古今中外预言家，科幻作家与未来学家的预测。`;
+  const seoDescEn = `Complete archive of ${totalDone} prophecy series with ${totalProphecies} predictions verified against reality. Covering Nostradamus, Tui Bei Tu, Baba Vanga, Hawking, Musk, and prophets across cultures and eras.`;
+  const seoDesc = seoDescZh + ' ' + seoDescEn;
+  const seoKeywords = '预言,prophecy,诺斯特拉达穆斯,Nostradamus,推背图,Tui Bei Tu,巴巴万加,Baba Vanga,预言验证,prophecy verification,预言档案,Seer100,KFK,霍金,Hawking,推背图预言,未来预言';
+  const siteUrl = 'https://seer100.com';
+
   const html = `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>预言档案馆 | Prophecy Archive</title>
-<meta name="description" content="收录100个预言系列的完整档案与验证分析。A collection of 100 prophecy archives with verification analysis.">
+<title>${seoTitle}</title>
+<meta name="description" content="${escapeHtml(seoDesc)}">
+<meta name="keywords" content="${seoKeywords}">
+<link rel="canonical" href="${siteUrl}/">
+<link rel="alternate" hreflang="zh" href="${siteUrl}/">
+<link rel="alternate" hreflang="en" href="${siteUrl}/">
+<link rel="alternate" hreflang="x-default" href="${siteUrl}/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="${siteUrl}/">
+<meta property="og:title" content="${seoTitle}">
+<meta property="og:description" content="${escapeHtml(seoDescZh)}">
+<meta property="og:site_name" content="Seer100 预言档案馆">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="${seoTitle}">
+<meta name="twitter:description" content="${escapeHtml(seoDescEn)}">
 <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<script type="application/ld+json">
+${JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "预言档案馆",
+  "alternateName": "Seer100 Prophecy Archive",
+  "url": siteUrl + "/",
+  "description": seoDescZh,
+  "inLanguage": ["zh-CN", "en"]
+}, null, 2)}
+</script>
+<script type="application/ld+json">
+${JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "预言档案馆",
+  "description": seoDescEn,
+  "url": siteUrl + "/",
+  "numberOfItems": totalDone,
+  "provider": { "@type": "Organization", "name": "Seer100", "url": siteUrl + "/" }
+}, null, 2)}
+</script>
 <style>
 :root {
   --bg: #f5f5f0;
