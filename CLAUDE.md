@@ -15,6 +15,7 @@ dakar/
 │   ├── index.html.tpl    # HTML 模板（{{placeholder}} 语法）
 │   ├── css/style.css.tpl # CSS 模板（使用 CSS 变量注入主题色）
 │   └── js/app.js         # 运行时 JS（所有站共用）
+├── db/sites.json          # 100个预言系列注册表（首页数据源）
 ├── db/shared.json        # 全局共用数据（分类、状态、通用文案）
 ├── db/{siteId}/          # 每个站点的数据目录
 │   ├── config.json       # 站点配置（主题、SEO、logo）
@@ -176,6 +177,35 @@ node gen-favicons.js    # 自动发现所有站点并生成
 ---
 
 ## 三、数据
+
+### 首页数据源：`db/sites.json`
+
+100 个预言系列的注册表，首页的数据源。每条包含手动维护的静态字段和构建时自动回写的动态字段。
+
+**静态字段（手动维护）：**
+
+| 字段 | 说明 |
+|------|------|
+| name | 预言者名称（中英双语） |
+| siteId | 站点 ID，与 `db/{siteId}/` 目录名一致 |
+| status | `done` 或 `pending` |
+| url | 站点 URL（pending 为 null） |
+| category | 分类 key（对应 CATEGORY_LABELS） |
+| country | ISO 国家代码 |
+| startYear | 起始年份（字符串，支持负数表示公元前） |
+| name_zh | 中文显示名（done 站点从 title_zh 去"预言"后缀生成，pending 站点从 name 按中英分割生成） |
+| name_en | 英文显示名（done 站点从 title_en 去"Prophecies"后缀生成，pending 站点从 name 按中英分割生成） |
+
+**动态字段（`buildIndex()` 自动回写，仅 done 站点）：**
+
+| 字段 | 说明 |
+|------|------|
+| count | 预言总条数 |
+| logo | logo 文件名（如 `logo.svg`） |
+| title_zh | 中文站点标题 |
+| title_en | 英文站点标题 |
+| primary | 主题色（来自 config.json） |
+| hitRate | 应验率百分比整数，计算公式：`round((verified + partial×0.5) / judged × 100)`，无已判定预言时为 null |
 
 ### 全局共用：`db/shared.json`
 

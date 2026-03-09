@@ -217,7 +217,15 @@ function generateHTML(siteData, lang) {
 
   // Inline data scripts
   const dataScript = `const PROPHECIES = ${JSON.stringify(prophecies.prophecies)};\nconst CATEGORIES = ${JSON.stringify(prophecies.categories)};\nconst STATUS_MAP = ${JSON.stringify(SHARED.statusMap)};\nconst SHARED_I18N = ${JSON.stringify(SHARED.i18n)};`;
-  const siteConfigScript = `var SITE_CONFIG = ${JSON.stringify({ answererName: config.answererName, siteId: config.siteId, publishDate: config.publishDate || '' })};`;
+  // Calculate hit rate at build time
+  let _v = 0, _pa = 0, _judged = 0;
+  for (const p of prophecies.prophecies) {
+    if (p.status === 'verified') { _v++; _judged++; }
+    else if (p.status === 'partial') { _pa++; _judged++; }
+    else if (p.status === 'failed') { _judged++; }
+  }
+  const _hitRate = _judged > 0 ? Math.round((_v + _pa * 0.5) / _judged * 100) : 0;
+  const siteConfigScript = `var SITE_CONFIG = ${JSON.stringify({ answererName: config.answererName, siteId: config.siteId, publishDate: config.publishDate || '', hitRate: _hitRate, verifiedCount: _v, partialCount: _pa, judgedCount: _judged })};`;
 
   // Replace all placeholders
   const replacements = {
@@ -327,45 +335,204 @@ function buildSite(siteId) {
 }
 
 // ---------------------------------------------------------------------------
-// Build index page listing all sites
+// Build index page listing all sites + upcoming prophecies
 // ---------------------------------------------------------------------------
+const CATEGORY_LABELS = {
+  'time-traveler': { zh: '时间旅行者', en: 'Time Traveler' },
+  'psychic': { zh: '灵媒/预言家', en: 'Psychic' },
+  'ancient-text': { zh: '古代典籍', en: 'Ancient Text' },
+  'religion': { zh: '宗教预言', en: 'Religion' },
+  'sci-fi': { zh: '科幻预言', en: 'Sci-Fi' },
+  'futurist': { zh: '未来学家', en: 'Futurist' },
+  'indigenous': { zh: '原住民预言', en: 'Indigenous' },
+  'pop-culture': { zh: '流行文化', en: 'Pop Culture' },
+  'internet': { zh: '互联网预言', en: 'Internet' },
+  'folk': { zh: '民间传说', en: 'Folk' },
+};
+
+const COUNTRY_LABELS = {
+  'CN': { zh: '中国', en: 'China' }, 'US': { zh: '美国', en: 'USA' },
+  'GB': { zh: '英国', en: 'UK' }, 'FR': { zh: '法国', en: 'France' },
+  'BG': { zh: '保加利亚', en: 'Bulgaria' }, 'IN': { zh: '印度', en: 'India' },
+  'JP': { zh: '日本', en: 'Japan' }, 'DE': { zh: '德国', en: 'Germany' },
+  'IT': { zh: '意大利', en: 'Italy' }, 'RU': { zh: '俄罗斯', en: 'Russia' },
+  'GR': { zh: '希腊', en: 'Greece' }, 'IL': { zh: '以色列', en: 'Israel' },
+  'IR': { zh: '伊朗', en: 'Iran' }, 'IE': { zh: '爱尔兰', en: 'Ireland' },
+  'PT': { zh: '葡萄牙', en: 'Portugal' }, 'BA': { zh: '波黑', en: 'Bosnia' },
+  'MX': { zh: '墨西哥', en: 'Mexico' }, 'PE': { zh: '秘鲁', en: 'Peru' },
+  'AU': { zh: '澳大利亚', en: 'Australia' }, 'IS': { zh: '冰岛', en: 'Iceland' },
+  'CH': { zh: '瑞士', en: 'Switzerland' }, 'AT': { zh: '奥地利', en: 'Austria' },
+  'RS': { zh: '塞尔维亚', en: 'Serbia' }, 'SA': { zh: '沙特', en: 'Saudi Arabia' },
+  'KR': { zh: '韩国', en: 'South Korea' },
+};
+
 function buildIndex() {
   console.log('\nBuilding index page...');
   const dbRoot = path.join(ROOT, 'db');
-  const sites = [];
+  const sitesJsonPath = path.join(dbRoot, 'sites.json');
+  const sites = JSON.parse(fs.readFileSync(sitesJsonPath, 'utf8'));
 
-  for (const entry of fs.readdirSync(dbRoot, { withFileTypes: true })) {
-    if (!entry.isDirectory()) continue;
-    const cfgPath = path.join(dbRoot, entry.name, 'config.json');
+  // Enrich done sites with data from their db directories
+  for (const site of sites) {
+    if (site.status !== 'done') continue;
+    const cfgPath = path.join(dbRoot, site.siteId, 'config.json');
     if (!fs.existsSync(cfgPath)) continue;
 
     const config = JSON.parse(fs.readFileSync(cfgPath, 'utf8'));
-    const i18n = JSON.parse(fs.readFileSync(path.join(dbRoot, entry.name, 'i18n.json'), 'utf8'));
-    const prophecies = JSON.parse(fs.readFileSync(path.join(dbRoot, entry.name, 'prophecies.json'), 'utf8'));
+    const i18n = JSON.parse(fs.readFileSync(path.join(dbRoot, site.siteId, 'i18n.json'), 'utf8'));
+    const prophecies = JSON.parse(fs.readFileSync(path.join(dbRoot, site.siteId, 'prophecies.json'), 'utf8'));
 
-    sites.push({
-      id: config.siteId,
-      answerer: config.answererName,
-      publishDate: config.publishDate || '',
-      primary: config.theme.primary,
-      primaryDark: config.theme.primaryDark,
-      primaryBg: config.theme.primaryBg,
-      logoFile: config.logo.file,
-      logoType: config.logo.type,
-      logoAlt: config.logo.alt,
-      count: prophecies.prophecies.length,
-      zh: {
-        title: i18n.zh.siteTitle,
-        subtitle: i18n.zh.siteSubtitle,
-        desc: config.meta.zh.description,
-      },
-      en: {
-        title: i18n.en.siteTitle,
-        subtitle: i18n.en.siteSubtitle,
-        desc: config.meta.en.description,
-      },
-    });
+    site.count = prophecies.prophecies.length;
+    site.logo = config.logo.file;
+    site.title_zh = i18n.zh.siteTitle;
+    site.title_en = i18n.en.siteTitle;
+    site.primary = config.theme.primary;
+
+    // Calculate verification rate (hitRate)
+    let verified = 0, partial = 0, judged = 0;
+    for (const p of prophecies.prophecies) {
+      if (p.status === 'verified') { verified++; judged++; }
+      else if (p.status === 'partial') { partial++; judged++; }
+      else if (p.status === 'failed') { judged++; }
+    }
+    site.hitRate = judged > 0 ? Math.round((verified + partial * 0.5) / judged * 100) : null;
+    // Clean up legacy fields
+    delete site.verified; delete site.partial; delete site.failed; delete site.judged;
   }
+
+  // Write back enriched sites.json
+  fs.writeFileSync(sitesJsonPath, JSON.stringify(sites, null, 2) + '\n', 'utf8');
+  console.log('  Updated: db/sites.json');
+
+  // Collect upcoming prophecies (current year to +4)
+  const currentYear = new Date().getFullYear();
+  const maxYear = currentYear + 4;
+  const upcoming = [];
+
+  for (const site of sites) {
+    if (site.status !== 'done') continue;
+    const propPath = path.join(dbRoot, site.siteId, 'prophecies.json');
+    if (!fs.existsSync(propPath)) continue;
+    const prophecies = JSON.parse(fs.readFileSync(propPath, 'utf8'));
+    for (const p of prophecies.prophecies) {
+      if (p.year && p.year >= currentYear && p.year <= maxYear) {
+        upcoming.push({
+          year: p.year,
+          q: p.q || '',
+          q_en: p.q_en || '',
+          a: p.a,
+          a_en: p.a_en,
+          status: p.status || 'pending',
+          verdict_zh: p.verdict_zh || '',
+          verdict_en: p.verdict_en || '',
+          siteNameZh: site.name_zh || site.name,
+          siteNameEn: site.name_en || site.name,
+          siteId: site.siteId,
+          siteUrl: site.url,
+          siteUrlEn: site.url ? site.url.replace(/\/$/, '') + '/en/' : '',
+          primary: site.primary || '#494949',
+          hitRate: site.hitRate,
+        });
+      }
+    }
+  }
+  // Sort upcoming by year
+  upcoming.sort((a, b) => a.year - b.year);
+
+  // Count and sort categories/countries by frequency (descending)
+  const catCounts = {};
+  const countryCounts = {};
+  for (const s of sites) {
+    catCounts[s.category] = (catCounts[s.category] || 0) + 1;
+    countryCounts[s.country] = (countryCounts[s.country] || 0) + 1;
+  }
+  const usedCategories = Object.keys(catCounts).sort((a, b) => catCounts[b] - catCounts[a]);
+  const usedCountries = Object.keys(countryCounts).sort((a, b) => countryCounts[b] - countryCounts[a]);
+
+  // Sort sites by startYear descending (parse as number)
+  const sortedSites = [...sites].sort((a, b) => {
+    const ya = parseInt(a.startYear, 10) || 0;
+    const yb = parseInt(b.startYear, 10) || 0;
+    return yb - ya;
+  });
+
+  // Upcoming years for tabs
+  const upcomingYears = [...new Set(upcoming.map(u => u.year))].sort();
+
+  // Generate table rows
+  const tableRows = sortedSites.map(s => {
+    const catLabel = CATEGORY_LABELS[s.category] || { zh: s.category, en: s.category };
+    const countryLabel = COUNTRY_LABELS[s.country] || { zh: s.country, en: s.country };
+    const isDone = s.status === 'done';
+    const nameZh = s.name_zh || s.name;
+    const nameEn = s.name_en || s.name;
+    const urlZh = s.url || '';
+    const urlEn = isDone && s.url ? s.url.replace(/\/$/, '') + '/en/' : '';
+    const yearDisplay = parseInt(s.startYear, 10) < 0
+      ? `<span data-lang="zh">公元前${Math.abs(parseInt(s.startYear, 10))}年</span><span data-lang="en">${Math.abs(parseInt(s.startYear, 10))} BC</span>`
+      : s.startYear;
+    const logoCell = isDone && s.logo
+      ? `<img src="${s.siteId}/img/${escapeHtml(s.logo)}" alt="" class="tbl-logo">`
+      : '';
+    const nameCell = isDone
+      ? `<a href="${escapeHtml(urlZh)}" target="_blank" rel="noopener" class="site-link" data-lang="zh">${logoCell}<span>${escapeHtml(nameZh)}</span></a><a href="${escapeHtml(urlEn)}" target="_blank" rel="noopener" class="site-link" data-lang="en">${logoCell}<span>${escapeHtml(nameEn)}</span></a>`
+      : `<span data-lang="zh" class="site-pending">${escapeHtml(nameZh)}</span><span data-lang="en" class="site-pending">${escapeHtml(nameEn)}</span>`;
+    const countCell = isDone && s.count ? s.count : '';
+    const rateCell = isDone && s.hitRate !== null
+      ? `<span class="hit-rate">${s.hitRate}%</span>`
+      : '';
+    const statusCell = isDone
+      ? `<a href="${escapeHtml(urlZh)}" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="${escapeHtml(urlEn)}" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a>`
+      : `<span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span>`;
+
+    return `<tr data-cat="${s.category}" data-country="${s.country}" class="${isDone ? '' : 'row-pending'}">
+      <td class="col-name">${nameCell}</td>
+      <td class="col-cat"><span data-lang="zh">${escapeHtml(catLabel.zh)}</span><span data-lang="en">${escapeHtml(catLabel.en)}</span></td>
+      <td class="col-country"><span data-lang="zh">${escapeHtml(countryLabel.zh)}</span><span data-lang="en">${escapeHtml(countryLabel.en)}</span></td>
+      <td class="col-year">${yearDisplay}</td>
+      <td class="col-count">${countCell}</td>
+      <td class="col-rate">${rateCell}</td>
+      <td class="col-status">${statusCell}</td>
+    </tr>`;
+  }).join('\n');
+
+  // Generate category filter buttons
+  const catButtons = usedCategories.map(cat => {
+    const label = CATEGORY_LABELS[cat] || { zh: cat, en: cat };
+    return `<button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="${cat}"><span data-lang="zh">${escapeHtml(label.zh)}</span><span data-lang="en">${escapeHtml(label.en)}</span> <span class="filter-count">${catCounts[cat]}</span></button>`;
+  }).join('\n      ');
+
+  // Generate country filter buttons
+  const countryButtons = usedCountries.map(c => {
+    const label = COUNTRY_LABELS[c] || { zh: c, en: c };
+    return `<button type="button" class="filter-btn" aria-pressed="false" data-filter-country="${c}"><span data-lang="zh">${escapeHtml(label.zh)}</span><span data-lang="en">${escapeHtml(label.en)}</span> <span class="filter-count">${countryCounts[c]}</span></button>`;
+  }).join('\n      ');
+
+  // Generate upcoming prophecies HTML
+  const upcomingHtml = upcomingYears.map(year => {
+    const items = upcoming.filter(u => u.year === year);
+    const itemsHtml = items.map(u => {
+      const statusCls = u.status === 'verified' ? 'st-verified' : u.status === 'partial' ? 'st-partial' : u.status === 'failed' ? 'st-failed' : 'st-pending';
+      return `<div class="upcoming-item ${statusCls}">
+        <div class="upcoming-source">
+          <a href="${escapeHtml(u.siteUrl)}" target="_blank" rel="noopener" style="color:${u.primary}" data-lang="zh">${escapeHtml(u.siteNameZh)}</a><a href="${escapeHtml(u.siteUrlEn)}" target="_blank" rel="noopener" style="color:${u.primary}" data-lang="en">${escapeHtml(u.siteNameEn)}</a>${u.hitRate !== null ? ` <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> ${u.hitRate}%</span>` : ''}
+        </div>
+        ${u.q ? `<div class="upcoming-q"><span data-lang="zh">${escapeHtml(u.q)}</span><span data-lang="en">${escapeHtml(u.q_en)}</span></div>` : ''}
+        <div class="upcoming-a">
+          <span data-lang="zh">${escapeHtml(u.a)}</span>
+          <span data-lang="en">${escapeHtml(u.a_en)}</span>
+        </div>
+        ${u.verdict_zh ? `<div class="upcoming-verdict"><span data-lang="zh">${escapeHtml(u.verdict_zh)}</span><span data-lang="en">${escapeHtml(u.verdict_en)}</span></div>` : ''}
+      </div>`;
+    }).join('\n    ');
+
+    return `<div class="year-group" data-year="${year}">
+    <h3 class="year-heading">${year}</h3>
+    ${itemsHtml}
+  </div>`;
+  }).join('\n  ');
+
+  // Year groups are shown flat (no tabs)
 
   const html = `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -373,7 +540,7 @@ function buildIndex() {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>预言档案馆 | Prophecy Archive</title>
-<meta name="description" content="收录多位预言者的预言全集与验证分析。A collection of prophecy archives with verification analysis.">
+<meta name="description" content="收录100个预言系列的完整档案与验证分析。A collection of 100 prophecy archives with verification analysis.">
 <link rel="icon" type="image/svg+xml" href="img/logo.svg">
 <style>
 :root {
@@ -383,8 +550,10 @@ function buildIndex() {
   --text2: #767676;
   --text-light: #666;
   --heading: #333;
-  --border: #f0f0f0;
+  --border: #e5e5e5;
   --border2: #ccc;
+  --primary: #494949;
+  --tag-bg: #f4f4ec;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { font-kerning: normal; }
@@ -396,206 +565,308 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 :focus-visible { outline: 2px solid var(--text2); outline-offset: 2px; }
 :focus:not(:focus-visible) { outline: none; }
 ::selection { background: rgba(73,73,73,.15); }
+
+/* Skip nav */
+.skip-link {
+  position: absolute; left: -9999px; top: 0; padding: 8px 16px;
+  background: var(--heading); color: var(--white); font-size: 14px; z-index: 100;
+  text-decoration: none; border-radius: 0 0 4px 0;
+}
+.skip-link:focus { left: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+/* Header — compact single line */
 .header {
-  text-align: center;
-  padding: 48px 20px 32px;
+  display: flex; align-items: center; gap: 12px;
+  padding: 24px 20px 16px; max-width: 960px; margin: 0 auto;
 }
-.header-logo {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 16px;
-}
-.header h1 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--heading);
-  margin-bottom: 8px;
-}
-.header p {
-  color: var(--text2);
-  font-size: 15px;
-}
+.header-logo { width: 28px; height: 28px; flex-shrink: 0; }
+.header h1 { font-size: 20px; font-weight: 700; color: var(--heading); }
+.header p { color: var(--text2); font-size: 13px; }
+.header .sep { color: var(--border2); font-size: 14px; }
 .lang-switch {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 4px 16px;
-  border: 1px solid var(--border2);
-  border-radius: 14px;
-  cursor: pointer;
-  font-size: 13px;
-  color: var(--text-light);
-  background: var(--white);
-  transition: border-color .2s ease-out, color .2s ease-out;
+  margin-left: auto; padding: 3px 12px;
+  border: 1px solid var(--border2); border-radius: 12px; cursor: pointer;
+  font-size: 12px; color: var(--text-light); background: var(--white);
+  transition: border-color .2s, color .2s;
 }
 .lang-switch:hover { border-color: var(--text2); color: var(--heading); }
-.grid {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 0 20px 60px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+
+/* Main tabs */
+.main-tabs {
+  display: flex; gap: 0; margin: 0 auto 24px;
+  max-width: 960px; padding: 0 20px; border-bottom: 1px solid var(--border);
 }
+.main-tab {
+  padding: 10px 24px; font-size: 15px; font-weight: 500; cursor: pointer;
+  background: none; border: none; border-bottom: 2px solid transparent;
+  color: var(--text2); transition: color .2s, border-color .2s;
+}
+.main-tab:hover { color: var(--text); }
+.main-tab.active { color: var(--heading); border-bottom-color: var(--heading); }
+
+/* Content */
+.content { max-width: 960px; margin: 0 auto; padding: 0 20px 60px; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Filters */
+.filters { margin-bottom: 20px; }
+.filter-group {
+  margin-bottom: 10px; display: flex; align-items: center;
+}
+.filter-label { font-size: 13px; color: var(--text2); white-space: nowrap; flex-shrink: 0; margin-right: 6px; }
+.filter-scroll {
+  display: flex; flex-wrap: nowrap; gap: 6px; align-items: center;
+  overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  padding-bottom: 4px; min-width: 0;
+}
+.filter-scroll::-webkit-scrollbar { display: none; }
+.filter-btn {
+  padding: 4px 12px; font-size: 12px; border: 1px solid var(--border);
+  border-radius: 12px; background: var(--white); color: var(--text-light);
+  cursor: pointer; transition: border-color .15s, color .15s, background .15s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.filter-btn:hover { border-color: var(--text2); color: var(--text); }
+.filter-btn.active { background: var(--heading); color: var(--white); border-color: var(--heading); }
+.filter-btn.active .filter-count { color: rgba(255,255,255,.7); }
+.filter-count { font-size: 11px; color: var(--text2); margin-left: 1px; }
+
+/* Table */
+.sites-table {
+  width: 100%; border-collapse: collapse; font-size: 13px;
+}
+.sites-table th {
+  text-align: left; padding: 8px 10px; font-weight: 600; font-size: 12px;
+  color: var(--text2); border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+.sites-table td {
+  padding: 10px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+.sites-table tr:hover { background: rgba(0,0,0,.02); }
+.row-pending td { color: var(--text2); }
+.row-pending:hover td { color: var(--text2); }
+.col-name { min-width: 160px; }
+.col-cat, .col-country { white-space: nowrap; }
+.col-year, .col-count, .col-rate { text-align: center; white-space: nowrap; }
+.col-status { text-align: right; white-space: nowrap; }
+.tbl-logo { height: 16px; width: auto; margin-right: 6px; vertical-align: middle; }
+.site-link {
+  text-decoration: none; color: var(--text); font-weight: 500;
+  display: inline-flex; align-items: center;
+}
+.site-link:hover { color: var(--heading); }
+.site-pending { color: var(--text2); }
+.country-code { font-size: 11px; color: var(--text2); }
+.status-done {
+  font-size: 12px; font-weight: 500; text-decoration: none;
+  color: var(--heading); white-space: nowrap;
+}
+.status-done:hover { opacity: .7; }
+.status-coming { font-size: 12px; color: var(--border2); }
+.hit-rate { font-weight: 600; color: var(--heading); }
+.upcoming-rate { font-size: 12px; color: var(--text2); margin-left: auto; }
+
+/* Upcoming prophecies */
+.year-group { margin-bottom: 32px; }
+.year-heading { font-size: 16px; font-weight: 700; color: var(--heading); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.upcoming-item {
+  background: var(--white); border-radius: 8px; padding: 16px 20px;
+  margin-bottom: 12px; border-left: 3px solid var(--border);
+}
+.upcoming-item.st-verified { border-left-color: #007722; }
+.upcoming-item.st-partial { border-left-color: #e09015; }
+.upcoming-item.st-failed { border-left-color: #e04040; }
+.upcoming-item.st-pending { border-left-color: #3377aa; }
+.upcoming-source { margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+.upcoming-source a { font-size: 13px; font-weight: 600; text-decoration: none; }
+.upcoming-source a:hover { opacity: .7; }
+.upcoming-q {
+  font-size: 14px; color: var(--text-light); margin-bottom: 6px;
+  padding: 8px 12px; background: var(--tag-bg); border-radius: 4px;
+}
+.upcoming-a { font-size: 14px; line-height: 1.7; }
+.upcoming-verdict {
+  margin-top: 8px; font-size: 13px; color: var(--text2);
+  padding-top: 8px; border-top: 1px solid var(--border);
+}
+.empty-hint { text-align: center; padding: 40px 20px; color: var(--text2); font-size: 14px; }
+.site-count { font-size: 13px; color: var(--text2); margin-bottom: 16px; }
+
+/* Footer */
+.footer-note { text-align: center; padding: 20px; color: var(--text2); font-size: 12px; }
+
+/* Responsive */
 @media (max-width: 640px) {
-  .grid { grid-template-columns: 1fr; gap: 16px; padding: 0 16px 48px; }
-  .header { padding: 36px 16px 24px; }
-  .header h1 { font-size: 22px; }
-  .header-logo { width: 40px; height: 40px; margin-bottom: 12px; }
-  .card-body { padding: 20px; }
-  .card-footer { padding: 12px 20px; }
+  .header { padding: 20px 12px 12px; }
+  .header h1 { font-size: 18px; }
+  .header-logo { width: 24px; height: 24px; }
+  .content { padding: 0 12px 48px; }
+  .main-tab { padding: 8px 16px; font-size: 14px; }
+  .col-cat, .col-country, .col-count, .col-rate { display: none; }
+  .col-name { min-width: 120px; }
+  .sites-table th:nth-child(2), .sites-table th:nth-child(3), .sites-table th:nth-child(5), .sites-table th:nth-child(6) { display: none; }
+  .upcoming-item { padding: 12px 14px; }
 }
 @media (max-width: 375px) {
-  .grid { padding: 0 12px 40px; }
-  .header { padding: 28px 12px 20px; }
-  .card-body { padding: 16px; }
-  .card-footer { padding: 10px 16px; }
-  .card-desc { font-size: 12px; }
+  .content { padding: 0 8px 40px; }
+  .header { padding: 16px 8px 10px; }
 }
 @media (pointer: coarse) {
   .lang-switch { min-height: 36px; padding: 6px 16px; }
-  .card-enter { min-height: 36px; padding: 6px 16px; display: inline-flex; align-items: center; }
-}
-.card {
-  background: var(--white);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,.06);
-  transition: box-shadow .2s ease-out, transform .15s ease-out;
-  display: flex;
-  flex-direction: column;
-}
-.card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,.1);
-  transform: translateY(-2px);
-}
-.card-accent {
-  height: 4px;
-}
-.card-body {
-  padding: 24px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-.card-logo {
-  height: 22px;
-  margin-bottom: 12px;
-  object-fit: contain;
-  object-position: left;
-  max-width: 160px;
-}
-.card-title {
-  font-size: 17px;
-  font-weight: 600;
-  margin-bottom: 4px;
-  color: var(--heading);
-}
-.card-subtitle {
-  font-size: 13px;
-  color: var(--text2);
-  margin-bottom: 12px;
-}
-.card-desc {
-  font-size: 13px;
-  color: var(--text-light);
-  line-height: 1.5;
-  flex: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14px 24px;
-  border-top: 1px solid var(--border);
-  font-size: 12px;
-  color: var(--text2);
-}
-.card-stats span { margin-right: 12px; }
-.card-enter {
-  font-size: 13px;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 4px 14px;
-  border-radius: 14px;
-  transition: opacity .2s ease-out;
-}
-.card-enter:hover { opacity: .85; }
-.footer-note {
-  text-align: center;
-  padding: 20px;
-  color: #949494;
-  font-size: 12px;
+  .filter-btn { min-height: 36px; padding: 8px 12px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 [data-lang="en"] { display: none; }
 body.en [data-lang="zh"] { display: none; }
 body.en [data-lang="en"] { display: initial; }
+body.en a.site-link[data-lang="en"],
+body.en a.status-done[data-lang="en"] { display: inline-flex; }
 </style>
 </head>
 <body>
-<div class="header">
+<a href="#panel-list" class="skip-link">Skip to content</a>
+<header class="header">
   <img class="header-logo" src="img/logo.svg" alt="预言档案馆">
-  <h1>
-    <span data-lang="zh">预言档案馆</span>
-    <span data-lang="en">Prophecy Archive</span>
-  </h1>
-  <p>
-    <span data-lang="zh">收录多位预言者的预言全集与验证分析</span>
-    <span data-lang="en">A collection of prophecy archives with verification</span>
-  </p>
-  <button type="button" class="lang-switch" onclick="document.body.classList.toggle('en');this.textContent=document.body.classList.contains('en')?'中文':'EN'">EN</button>
-</div>
-<div class="grid">
-${sites.map(s => `  <div class="card">
-    <div class="card-accent" style="background:${s.primary}"></div>
-    <div class="card-body">
-      <img class="card-logo" src="${s.id}/img/${s.logoFile}" alt="${escapeHtml(s.logoAlt)}">
-      <div class="card-title">
-        <span data-lang="zh">${escapeHtml(s.zh.title)}</span>
-        <span data-lang="en">${escapeHtml(s.en.title)}</span>
+  <h1><span data-lang="zh">预言档案馆</span><span data-lang="en">Prophecy Archive</span></h1>
+  <span class="sep">·</span>
+  <p><span data-lang="zh">收录 ${sites.length} 个预言系列</span><span data-lang="en">${sites.length} prophecy series</span></p>
+  <button type="button" class="lang-switch" aria-label="Switch language" onclick="document.body.classList.toggle('en');this.textContent=document.body.classList.contains('en')?'中文':'EN'">EN</button>
+</header>
+
+<nav class="main-tabs" role="tablist" aria-label="Content sections">
+  <button type="button" class="main-tab active" role="tab" aria-selected="true" aria-controls="panel-list" data-tab="list">
+    <span data-lang="zh">预言列表</span>
+    <span data-lang="en">Prophecy List</span>
+  </button>
+  <button type="button" class="main-tab" role="tab" aria-selected="false" aria-controls="panel-upcoming" data-tab="upcoming">
+    <span data-lang="zh">近期预言 (${currentYear}–${maxYear})</span>
+    <span data-lang="en">Upcoming (${currentYear}–${maxYear})</span>
+  </button>
+</nav>
+
+<main class="content">
+  <!-- Tab 1: Prophecy List -->
+  <div class="tab-panel active" id="panel-list" role="tabpanel" aria-labelledby="tab-list">
+    <div class="filters">
+      <div class="filter-group">
+        <span class="filter-label"><span data-lang="zh">分类：</span><span data-lang="en">Category:</span></span>
+        <div class="filter-scroll">
+          <button type="button" class="filter-btn active" aria-pressed="true" data-filter-cat="all"><span data-lang="zh">全部</span><span data-lang="en">All</span></button>
+          ${catButtons}
+        </div>
       </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">${escapeHtml(s.zh.subtitle)}</span>
-        <span data-lang="en">${escapeHtml(s.en.subtitle)}</span>
-      </div>
-      <div class="card-desc">
-        <span data-lang="zh">${escapeHtml(s.zh.desc)}</span>
-        <span data-lang="en">${escapeHtml(s.en.desc)}</span>
+      <div class="filter-group">
+        <span class="filter-label"><span data-lang="zh">国家：</span><span data-lang="en">Country:</span></span>
+        <div class="filter-scroll">
+          <button type="button" class="filter-btn active" aria-pressed="true" data-filter-country="all"><span data-lang="zh">全部</span><span data-lang="en">All</span></button>
+          ${countryButtons}
+        </div>
       </div>
     </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">${s.count} 条预言</span>
-        <span data-lang="en">${s.count} prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: ${s.publishDate}</span>
-        <span data-lang="en">Pub: ${s.publishDate}</span>
-      </div>
-      <a class="card-enter" href="${s.id}/" style="color:${s.primary};border:1px solid ${s.primary}">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
+    <div class="site-count">
+      <span data-lang="zh">共 <strong id="visible-count">${sites.length}</strong> 个预言系列</span>
+      <span data-lang="en"><strong id="visible-count-en">${sites.length}</strong> prophecy series</span>
     </div>
-  </div>`).join('\n')}
-</div>
-<div class="footer-note">
+    <table class="sites-table">
+      <thead>
+        <tr>
+          <th><span data-lang="zh">名称</span><span data-lang="en">Name</span></th>
+          <th><span data-lang="zh">分类</span><span data-lang="en">Category</span></th>
+          <th><span data-lang="zh">国家</span><span data-lang="en">Country</span></th>
+          <th><span data-lang="zh">起始年</span><span data-lang="en">Start</span></th>
+          <th><span data-lang="zh">预言数</span><span data-lang="en">Count</span></th>
+          <th><span data-lang="zh">历史应验率</span><span data-lang="en">Historical Hit Rate</span></th>
+          <th><span class="sr-only">Action</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        ${tableRows}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Tab 2: Upcoming Prophecies -->
+  <div class="tab-panel" id="panel-upcoming" role="tabpanel" aria-labelledby="tab-upcoming">
+    ${upcomingYears.length > 0 ? upcomingHtml : `<div class="empty-hint">
+      <span data-lang="zh">暂无 ${currentYear}–${maxYear} 年的预言数据</span>
+      <span data-lang="en">No prophecies for ${currentYear}–${maxYear} yet</span>
+    </div>`}
+  </div>
+</main>
+
+<footer class="footer-note">
   <span data-lang="zh">预言档案馆 — 记录与验证</span>
   <span data-lang="en">Prophecy Archive — Record & Verify</span>
-</div>
+</footer>
+
+<script>
+(function() {
+  // Main tab switching
+  document.querySelectorAll('.main-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.main-tab').forEach(function(t) { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      document.querySelectorAll('.tab-panel').forEach(function(p) { p.classList.remove('active'); });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Filter state
+  var activeCat = 'all';
+  var activeCountry = 'all';
+
+  function applyFilters() {
+    var rows = document.querySelectorAll('.sites-table tbody tr');
+    var count = 0;
+    rows.forEach(function(row) {
+      var catMatch = activeCat === 'all' || row.dataset.cat === activeCat;
+      var countryMatch = activeCountry === 'all' || row.dataset.country === activeCountry;
+      var show = catMatch && countryMatch;
+      row.style.display = show ? '' : 'none';
+      if (show) count++;
+    });
+    var el = document.getElementById('visible-count');
+    var el2 = document.getElementById('visible-count-en');
+    if (el) el.textContent = count;
+    if (el2) el2.textContent = count;
+  }
+
+  // Category filter
+  document.querySelectorAll('[data-filter-cat]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('[data-filter-cat]').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+      activeCat = btn.dataset.filterCat;
+      applyFilters();
+    });
+  });
+
+  // Country filter
+  document.querySelectorAll('[data-filter-country]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('[data-filter-country]').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+      activeCountry = btn.dataset.filterCountry;
+      applyFilters();
+    });
+  });
+
+  // Year groups are shown flat, no tab switching needed
+})();
+</script>
 </body>
 </html>`;
 

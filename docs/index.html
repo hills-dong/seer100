@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>预言档案馆 | Prophecy Archive</title>
-<meta name="description" content="收录多位预言者的预言全集与验证分析。A collection of prophecy archives with verification analysis.">
+<meta name="description" content="收录100个预言系列的完整档案与验证分析。A collection of 100 prophecy archives with verification analysis.">
 <link rel="icon" type="image/svg+xml" href="img/logo.svg">
 <style>
 :root {
@@ -14,8 +14,10 @@
   --text2: #767676;
   --text-light: #666;
   --heading: #333;
-  --border: #f0f0f0;
+  --border: #e5e5e5;
   --border2: #ccc;
+  --primary: #494949;
+  --tag-bg: #f4f4ec;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { font-kerning: normal; }
@@ -27,391 +29,1398 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 :focus-visible { outline: 2px solid var(--text2); outline-offset: 2px; }
 :focus:not(:focus-visible) { outline: none; }
 ::selection { background: rgba(73,73,73,.15); }
+
+/* Skip nav */
+.skip-link {
+  position: absolute; left: -9999px; top: 0; padding: 8px 16px;
+  background: var(--heading); color: var(--white); font-size: 14px; z-index: 100;
+  text-decoration: none; border-radius: 0 0 4px 0;
+}
+.skip-link:focus { left: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+/* Header — compact single line */
 .header {
-  text-align: center;
-  padding: 48px 20px 32px;
+  display: flex; align-items: center; gap: 12px;
+  padding: 24px 20px 16px; max-width: 960px; margin: 0 auto;
 }
-.header-logo {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 16px;
-}
-.header h1 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--heading);
-  margin-bottom: 8px;
-}
-.header p {
-  color: var(--text2);
-  font-size: 15px;
-}
+.header-logo { width: 28px; height: 28px; flex-shrink: 0; }
+.header h1 { font-size: 20px; font-weight: 700; color: var(--heading); }
+.header p { color: var(--text2); font-size: 13px; }
+.header .sep { color: var(--border2); font-size: 14px; }
 .lang-switch {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 4px 16px;
-  border: 1px solid var(--border2);
-  border-radius: 14px;
-  cursor: pointer;
-  font-size: 13px;
-  color: var(--text-light);
-  background: var(--white);
-  transition: border-color .2s ease-out, color .2s ease-out;
+  margin-left: auto; padding: 3px 12px;
+  border: 1px solid var(--border2); border-radius: 12px; cursor: pointer;
+  font-size: 12px; color: var(--text-light); background: var(--white);
+  transition: border-color .2s, color .2s;
 }
 .lang-switch:hover { border-color: var(--text2); color: var(--heading); }
-.grid {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 0 20px 60px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+
+/* Main tabs */
+.main-tabs {
+  display: flex; gap: 0; margin: 0 auto 24px;
+  max-width: 960px; padding: 0 20px; border-bottom: 1px solid var(--border);
 }
+.main-tab {
+  padding: 10px 24px; font-size: 15px; font-weight: 500; cursor: pointer;
+  background: none; border: none; border-bottom: 2px solid transparent;
+  color: var(--text2); transition: color .2s, border-color .2s;
+}
+.main-tab:hover { color: var(--text); }
+.main-tab.active { color: var(--heading); border-bottom-color: var(--heading); }
+
+/* Content */
+.content { max-width: 960px; margin: 0 auto; padding: 0 20px 60px; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Filters */
+.filters { margin-bottom: 20px; }
+.filter-group {
+  margin-bottom: 10px; display: flex; align-items: center;
+}
+.filter-label { font-size: 13px; color: var(--text2); white-space: nowrap; flex-shrink: 0; margin-right: 6px; }
+.filter-scroll {
+  display: flex; flex-wrap: nowrap; gap: 6px; align-items: center;
+  overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  padding-bottom: 4px; min-width: 0;
+}
+.filter-scroll::-webkit-scrollbar { display: none; }
+.filter-btn {
+  padding: 4px 12px; font-size: 12px; border: 1px solid var(--border);
+  border-radius: 12px; background: var(--white); color: var(--text-light);
+  cursor: pointer; transition: border-color .15s, color .15s, background .15s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.filter-btn:hover { border-color: var(--text2); color: var(--text); }
+.filter-btn.active { background: var(--heading); color: var(--white); border-color: var(--heading); }
+.filter-btn.active .filter-count { color: rgba(255,255,255,.7); }
+.filter-count { font-size: 11px; color: var(--text2); margin-left: 1px; }
+
+/* Table */
+.sites-table {
+  width: 100%; border-collapse: collapse; font-size: 13px;
+}
+.sites-table th {
+  text-align: left; padding: 8px 10px; font-weight: 600; font-size: 12px;
+  color: var(--text2); border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+.sites-table td {
+  padding: 10px 10px; border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+.sites-table tr:hover { background: rgba(0,0,0,.02); }
+.row-pending td { color: var(--text2); }
+.row-pending:hover td { color: var(--text2); }
+.col-name { min-width: 160px; }
+.col-cat, .col-country { white-space: nowrap; }
+.col-year, .col-count, .col-rate { text-align: center; white-space: nowrap; }
+.col-status { text-align: right; white-space: nowrap; }
+.tbl-logo { height: 16px; width: auto; margin-right: 6px; vertical-align: middle; }
+.site-link {
+  text-decoration: none; color: var(--text); font-weight: 500;
+  display: inline-flex; align-items: center;
+}
+.site-link:hover { color: var(--heading); }
+.site-pending { color: var(--text2); }
+.country-code { font-size: 11px; color: var(--text2); }
+.status-done {
+  font-size: 12px; font-weight: 500; text-decoration: none;
+  color: var(--heading); white-space: nowrap;
+}
+.status-done:hover { opacity: .7; }
+.status-coming { font-size: 12px; color: var(--border2); }
+.hit-rate { font-weight: 600; color: var(--heading); }
+.upcoming-rate { font-size: 12px; color: var(--text2); margin-left: auto; }
+
+/* Upcoming prophecies */
+.year-group { margin-bottom: 32px; }
+.year-heading { font-size: 16px; font-weight: 700; color: var(--heading); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.upcoming-item {
+  background: var(--white); border-radius: 8px; padding: 16px 20px;
+  margin-bottom: 12px; border-left: 3px solid var(--border);
+}
+.upcoming-item.st-verified { border-left-color: #007722; }
+.upcoming-item.st-partial { border-left-color: #e09015; }
+.upcoming-item.st-failed { border-left-color: #e04040; }
+.upcoming-item.st-pending { border-left-color: #3377aa; }
+.upcoming-source { margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+.upcoming-source a { font-size: 13px; font-weight: 600; text-decoration: none; }
+.upcoming-source a:hover { opacity: .7; }
+.upcoming-q {
+  font-size: 14px; color: var(--text-light); margin-bottom: 6px;
+  padding: 8px 12px; background: var(--tag-bg); border-radius: 4px;
+}
+.upcoming-a { font-size: 14px; line-height: 1.7; }
+.upcoming-verdict {
+  margin-top: 8px; font-size: 13px; color: var(--text2);
+  padding-top: 8px; border-top: 1px solid var(--border);
+}
+.empty-hint { text-align: center; padding: 40px 20px; color: var(--text2); font-size: 14px; }
+.site-count { font-size: 13px; color: var(--text2); margin-bottom: 16px; }
+
+/* Footer */
+.footer-note { text-align: center; padding: 20px; color: var(--text2); font-size: 12px; }
+
+/* Responsive */
 @media (max-width: 640px) {
-  .grid { grid-template-columns: 1fr; gap: 16px; padding: 0 16px 48px; }
-  .header { padding: 36px 16px 24px; }
-  .header h1 { font-size: 22px; }
-  .header-logo { width: 40px; height: 40px; margin-bottom: 12px; }
-  .card-body { padding: 20px; }
-  .card-footer { padding: 12px 20px; }
+  .header { padding: 20px 12px 12px; }
+  .header h1 { font-size: 18px; }
+  .header-logo { width: 24px; height: 24px; }
+  .content { padding: 0 12px 48px; }
+  .main-tab { padding: 8px 16px; font-size: 14px; }
+  .col-cat, .col-country, .col-count, .col-rate { display: none; }
+  .col-name { min-width: 120px; }
+  .sites-table th:nth-child(2), .sites-table th:nth-child(3), .sites-table th:nth-child(5), .sites-table th:nth-child(6) { display: none; }
+  .upcoming-item { padding: 12px 14px; }
 }
 @media (max-width: 375px) {
-  .grid { padding: 0 12px 40px; }
-  .header { padding: 28px 12px 20px; }
-  .card-body { padding: 16px; }
-  .card-footer { padding: 10px 16px; }
-  .card-desc { font-size: 12px; }
+  .content { padding: 0 8px 40px; }
+  .header { padding: 16px 8px 10px; }
 }
 @media (pointer: coarse) {
   .lang-switch { min-height: 36px; padding: 6px 16px; }
-  .card-enter { min-height: 36px; padding: 6px 16px; display: inline-flex; align-items: center; }
-}
-.card {
-  background: var(--white);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 1px 4px rgba(0,0,0,.06);
-  transition: box-shadow .2s ease-out, transform .15s ease-out;
-  display: flex;
-  flex-direction: column;
-}
-.card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,.1);
-  transform: translateY(-2px);
-}
-.card-accent {
-  height: 4px;
-}
-.card-body {
-  padding: 24px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-.card-logo {
-  height: 22px;
-  margin-bottom: 12px;
-  object-fit: contain;
-  object-position: left;
-  max-width: 160px;
-}
-.card-title {
-  font-size: 17px;
-  font-weight: 600;
-  margin-bottom: 4px;
-  color: var(--heading);
-}
-.card-subtitle {
-  font-size: 13px;
-  color: var(--text2);
-  margin-bottom: 12px;
-}
-.card-desc {
-  font-size: 13px;
-  color: var(--text-light);
-  line-height: 1.5;
-  flex: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14px 24px;
-  border-top: 1px solid var(--border);
-  font-size: 12px;
-  color: var(--text2);
-}
-.card-stats span { margin-right: 12px; }
-.card-enter {
-  font-size: 13px;
-  font-weight: 500;
-  text-decoration: none;
-  padding: 4px 14px;
-  border-radius: 14px;
-  transition: opacity .2s ease-out;
-}
-.card-enter:hover { opacity: .85; }
-.footer-note {
-  text-align: center;
-  padding: 20px;
-  color: #949494;
-  font-size: 12px;
+  .filter-btn { min-height: 36px; padding: 8px 12px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 [data-lang="en"] { display: none; }
 body.en [data-lang="zh"] { display: none; }
 body.en [data-lang="en"] { display: initial; }
+body.en a.site-link[data-lang="en"],
+body.en a.status-done[data-lang="en"] { display: inline-flex; }
 </style>
 </head>
 <body>
-<div class="header">
+<a href="#panel-list" class="skip-link">Skip to content</a>
+<header class="header">
   <img class="header-logo" src="img/logo.svg" alt="预言档案馆">
-  <h1>
-    <span data-lang="zh">预言档案馆</span>
-    <span data-lang="en">Prophecy Archive</span>
-  </h1>
-  <p>
-    <span data-lang="zh">收录多位预言者的预言全集与验证分析</span>
-    <span data-lang="en">A collection of prophecy archives with verification</span>
-  </p>
-  <button type="button" class="lang-switch" onclick="document.body.classList.toggle('en');this.textContent=document.body.classList.contains('en')?'中文':'EN'">EN</button>
-</div>
-<div class="grid">
-  <div class="card">
-    <div class="card-accent" style="background:#c46210"></div>
-    <div class="card-body">
-      <img class="card-logo" src="anand/img/logo.svg" alt="阿南德预言">
-      <div class="card-title">
-        <span data-lang="zh">阿南德预言</span>
-        <span data-lang="en">Abhigya Anand Predictions</span>
+  <h1><span data-lang="zh">预言档案馆</span><span data-lang="en">Prophecy Archive</span></h1>
+  <span class="sep">·</span>
+  <p><span data-lang="zh">收录 100 个预言系列</span><span data-lang="en">100 prophecy series</span></p>
+  <button type="button" class="lang-switch" aria-label="Switch language" onclick="document.body.classList.toggle('en');this.textContent=document.body.classList.contains('en')?'中文':'EN'">EN</button>
+</header>
+
+<nav class="main-tabs" role="tablist" aria-label="Content sections">
+  <button type="button" class="main-tab active" role="tab" aria-selected="true" aria-controls="panel-list" data-tab="list">
+    <span data-lang="zh">预言列表</span>
+    <span data-lang="en">Prophecy List</span>
+  </button>
+  <button type="button" class="main-tab" role="tab" aria-selected="false" aria-controls="panel-upcoming" data-tab="upcoming">
+    <span data-lang="zh">近期预言 (2026–2030)</span>
+    <span data-lang="en">Upcoming (2026–2030)</span>
+  </button>
+</nav>
+
+<main class="content">
+  <!-- Tab 1: Prophecy List -->
+  <div class="tab-panel active" id="panel-list" role="tabpanel" aria-labelledby="tab-list">
+    <div class="filters">
+      <div class="filter-group">
+        <span class="filter-label"><span data-lang="zh">分类：</span><span data-lang="en">Category:</span></span>
+        <div class="filter-scroll">
+          <button type="button" class="filter-btn active" aria-pressed="true" data-filter-cat="all"><span data-lang="zh">全部</span><span data-lang="en">All</span></button>
+          <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="religion"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span> <span class="filter-count">28</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="ancient-text"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span> <span class="filter-count">21</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="psychic"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span> <span class="filter-count">16</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="futurist"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span> <span class="filter-count">11</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="sci-fi"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span> <span class="filter-count">9</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="indigenous"><span data-lang="zh">原住民预言</span><span data-lang="en">Indigenous</span> <span class="filter-count">5</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="time-traveler"><span data-lang="zh">时间旅行者</span><span data-lang="en">Time Traveler</span> <span class="filter-count">4</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="pop-culture"><span data-lang="zh">流行文化</span><span data-lang="en">Pop Culture</span> <span class="filter-count">3</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="internet"><span data-lang="zh">互联网预言</span><span data-lang="en">Internet</span> <span class="filter-count">2</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-cat="folk"><span data-lang="zh">民间传说</span><span data-lang="en">Folk</span> <span class="filter-count">1</span></button>
+        </div>
       </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">印度少年吠陀占星师（2006-）</span>
-        <span data-lang="en">Indian Teen Vedic Astrologer (2006-)</span>
-      </div>
-      <div class="card-desc">
-        <span data-lang="zh">印度少年占星师阿南德（Abhigya Anand）基于吠陀占星术做出的30条预言完整收录与验证。因2019年8月预测全球疫情而走红，被称为「印度神童」。涵盖疫情、经济、战争、天灾等领域。</span>
-        <span data-lang="en">Indian teen Vedic astrologer Abhigya Anand gained fame for predicting the COVID-19 pandemic in August 2019. Complete archive of 30 predictions covering pandemics, economy, conflicts, and natural disasters, with real-world verification.</span>
+      <div class="filter-group">
+        <span class="filter-label"><span data-lang="zh">国家：</span><span data-lang="en">Country:</span></span>
+        <div class="filter-scroll">
+          <button type="button" class="filter-btn active" aria-pressed="true" data-filter-country="all"><span data-lang="zh">全部</span><span data-lang="en">All</span></button>
+          <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="US"><span data-lang="zh">美国</span><span data-lang="en">USA</span> <span class="filter-count">23</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="CN"><span data-lang="zh">中国</span><span data-lang="en">China</span> <span class="filter-count">20</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="GB"><span data-lang="zh">英国</span><span data-lang="en">UK</span> <span class="filter-count">9</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="IL"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span> <span class="filter-count">7</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="RU"><span data-lang="zh">俄罗斯</span><span data-lang="en">Russia</span> <span class="filter-count">5</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="IN"><span data-lang="zh">印度</span><span data-lang="en">India</span> <span class="filter-count">4</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="GR"><span data-lang="zh">希腊</span><span data-lang="en">Greece</span> <span class="filter-count">4</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="BG"><span data-lang="zh">保加利亚</span><span data-lang="en">Bulgaria</span> <span class="filter-count">3</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="FR"><span data-lang="zh">法国</span><span data-lang="en">France</span> <span class="filter-count">3</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="IT"><span data-lang="zh">意大利</span><span data-lang="en">Italy</span> <span class="filter-count">3</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="MX"><span data-lang="zh">墨西哥</span><span data-lang="en">Mexico</span> <span class="filter-count">2</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="IE"><span data-lang="zh">爱尔兰</span><span data-lang="en">Ireland</span> <span class="filter-count">2</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="DE"><span data-lang="zh">德国</span><span data-lang="en">Germany</span> <span class="filter-count">2</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="IS"><span data-lang="zh">冰岛</span><span data-lang="en">Iceland</span> <span class="filter-count">2</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="JP"><span data-lang="zh">日本</span><span data-lang="en">Japan</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="PT"><span data-lang="zh">葡萄牙</span><span data-lang="en">Portugal</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="BA"><span data-lang="zh">波黑</span><span data-lang="en">Bosnia</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="RS"><span data-lang="zh">塞尔维亚</span><span data-lang="en">Serbia</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="IR"><span data-lang="zh">伊朗</span><span data-lang="en">Iran</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="SA"><span data-lang="zh">沙特</span><span data-lang="en">Saudi Arabia</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="PE"><span data-lang="zh">秘鲁</span><span data-lang="en">Peru</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="AU"><span data-lang="zh">澳大利亚</span><span data-lang="en">Australia</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="CH"><span data-lang="zh">瑞士</span><span data-lang="en">Switzerland</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="AT"><span data-lang="zh">奥地利</span><span data-lang="en">Austria</span> <span class="filter-count">1</span></button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter-country="KR"><span data-lang="zh">韩国</span><span data-lang="en">South Korea</span> <span class="filter-count">1</span></button>
+        </div>
       </div>
     </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">30 条预言</span>
-        <span data-lang="en">30 prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: 2019-08-22</span>
-        <span data-lang="en">Pub: 2019-08-22</span>
-      </div>
-      <a class="card-enter" href="anand/" style="color:#c46210;border:1px solid #c46210">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
+    <div class="site-count">
+      <span data-lang="zh">共 <strong id="visible-count">100</strong> 个预言系列</span>
+      <span data-lang="en"><strong id="visible-count-en">100</strong> prophecy series</span>
     </div>
+    <table class="sites-table">
+      <thead>
+        <tr>
+          <th><span data-lang="zh">名称</span><span data-lang="en">Name</span></th>
+          <th><span data-lang="zh">分类</span><span data-lang="en">Category</span></th>
+          <th><span data-lang="zh">国家</span><span data-lang="en">Country</span></th>
+          <th><span data-lang="zh">起始年</span><span data-lang="en">Start</span></th>
+          <th><span data-lang="zh">预言数</span><span data-lang="en">Count</span></th>
+          <th><span data-lang="zh">历史应验率</span><span data-lang="en">Historical Hit Rate</span></th>
+          <th><span class="sr-only">Action</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-cat="time-traveler" data-country="CN" class="">
+      <td class="col-name"><a href="https://pre.hilife.me/kfk/" target="_blank" rel="noopener" class="site-link" data-lang="zh"><img src="kfk/img/logo.svg" alt="" class="tbl-logo"><span>KFK 2060</span></a><a href="https://pre.hilife.me/kfk/en/" target="_blank" rel="noopener" class="site-link" data-lang="en"><img src="kfk/img/logo.svg" alt="" class="tbl-logo"><span>KFK 2060</span></a></td>
+      <td class="col-cat"><span data-lang="zh">时间旅行者</span><span data-lang="en">Time Traveler</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">2019</td>
+      <td class="col-count">281</td>
+      <td class="col-rate"><span class="hit-rate">87%</span></td>
+      <td class="col-status"><a href="https://pre.hilife.me/kfk/" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="https://pre.hilife.me/kfk/en/" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a></td>
+    </tr>
+<tr data-cat="psychic" data-country="IN" class="">
+      <td class="col-name"><a href="https://pre.hilife.me/anand/" target="_blank" rel="noopener" class="site-link" data-lang="zh"><img src="anand/img/logo.svg" alt="" class="tbl-logo"><span>阿南德</span></a><a href="https://pre.hilife.me/anand/en/" target="_blank" rel="noopener" class="site-link" data-lang="en"><img src="anand/img/logo.svg" alt="" class="tbl-logo"><span>Abhigya Anand</span></a></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">印度</span><span data-lang="en">India</span></td>
+      <td class="col-year">2019</td>
+      <td class="col-count">30</td>
+      <td class="col-rate"><span class="hit-rate">77%</span></td>
+      <td class="col-status"><a href="https://pre.hilife.me/anand/" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="https://pre.hilife.me/anand/en/" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a></td>
+    </tr>
+<tr data-cat="time-traveler" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">未来人2075</span><span data-lang="en" class="site-pending">KFK 2075</span></td>
+      <td class="col-cat"><span data-lang="zh">时间旅行者</span><span data-lang="en">Time Traveler</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">2019</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="internet" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">QAnon Q Drops</span><span data-lang="en" class="site-pending">QAnon Q Drops</span></td>
+      <td class="col-cat"><span data-lang="zh">互联网预言</span><span data-lang="en">Internet</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">2017</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="IL" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">Yuval Harari《未来简史》</span><span data-lang="en" class="site-pending">Yuval Harari《未来简史》</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span></td>
+      <td class="col-year">2015</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">疫情预言</span><span data-lang="en" class="site-pending">Bill Gates TED Talk 2015</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">2015</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="time-traveler" data-country="JP" class="">
+      <td class="col-name"><a href="https://pre.hilife.me/mirai2062/" target="_blank" rel="noopener" class="site-link" data-lang="zh"><img src="mirai2062/img/logo.svg" alt="" class="tbl-logo"><span>2062未来人</span></a><a href="https://pre.hilife.me/mirai2062/en/" target="_blank" rel="noopener" class="site-link" data-lang="en"><img src="mirai2062/img/logo.svg" alt="" class="tbl-logo"><span>2062 Future Man</span></a></td>
+      <td class="col-cat"><span data-lang="zh">时间旅行者</span><span data-lang="en">Time Traveler</span></td>
+      <td class="col-country"><span data-lang="zh">日本</span><span data-lang="en">Japan</span></td>
+      <td class="col-year">2010</td>
+      <td class="col-count">30</td>
+      <td class="col-rate"><span class="hit-rate">50%</span></td>
+      <td class="col-status"><a href="https://pre.hilife.me/mirai2062/" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="https://pre.hilife.me/mirai2062/en/" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a></td>
+    </tr>
+<tr data-cat="futurist" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">马斯克预言</span><span data-lang="en" class="site-pending">Elon Musk</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">2010</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">金·克莱门特</span><span data-lang="en" class="site-pending">Kim Clement</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">2006</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">雷·库兹韦尔</span><span data-lang="en" class="site-pending">Ray Kurzweil</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">2005</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="RU" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">火星男孩</span><span data-lang="en" class="site-pending">Boriska</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">俄罗斯</span><span data-lang="en">Russia</span></td>
+      <td class="col-year">2004</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">霍金预言</span><span data-lang="en" class="site-pending">Stephen Hawking</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">2001</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="time-traveler" data-country="US" class="">
+      <td class="col-name"><a href="https://pre.hilife.me/titor/" target="_blank" rel="noopener" class="site-link" data-lang="zh"><img src="titor/img/logo.svg" alt="" class="tbl-logo"><span>约翰·提托</span></a><a href="https://pre.hilife.me/titor/en/" target="_blank" rel="noopener" class="site-link" data-lang="en"><img src="titor/img/logo.svg" alt="" class="tbl-logo"><span>John Titor</span></a></td>
+      <td class="col-cat"><span data-lang="zh">时间旅行者</span><span data-lang="en">Time Traveler</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">2000</td>
+      <td class="col-count">35</td>
+      <td class="col-rate"><span class="hit-rate">29%</span></td>
+      <td class="col-status"><a href="https://pre.hilife.me/titor/" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="https://pre.hilife.me/titor/en/" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a></td>
+    </tr>
+<tr data-cat="internet" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">网络机器人预言</span><span data-lang="en" class="site-pending">Web Bot Project</span></td>
+      <td class="col-cat"><span data-lang="zh">互联网预言</span><span data-lang="en">Internet</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1997</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="pop-culture" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">塞莱斯廷预言</span><span data-lang="en" class="site-pending">Celestine Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">流行文化</span><span data-lang="en">Pop Culture</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1993</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">Terrence McKenna Timewave Zero</span><span data-lang="en" class="site-pending">Terrence McKenna Timewave Zero</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1993</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="pop-culture" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">辛普森一家</span><span data-lang="en" class="site-pending">The Simpsons</span></td>
+      <td class="col-cat"><span data-lang="zh">流行文化</span><span data-lang="en">Pop Culture</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1989</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="pop-culture" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">回到未来预言</span><span data-lang="en" class="site-pending">Back to the Future</span></td>
+      <td class="col-cat"><span data-lang="zh">流行文化</span><span data-lang="en">Pop Culture</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1985</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">赛博朋克预言（Gibson/Dick）</span><span data-lang="en" class="site-pending">Cyberpunk</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1984</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="BA" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">默主哥耶预言</span><span data-lang="en" class="site-pending">Medjugorje</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">波黑</span><span data-lang="en">Bosnia</span></td>
+      <td class="col-year">1981</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">西尔维娅·布朗</span><span data-lang="en" class="site-pending">Sylvia Browne</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1975</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="GR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">帕伊西奥斯长老</span><span data-lang="en" class="site-pending">Elder Paisios</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">希腊</span><span data-lang="en">Greece</span></td>
+      <td class="col-year">1970</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">Alvin Toffler《未来的冲击》</span><span data-lang="en" class="site-pending">Alvin Toffler《未来的冲击》</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1970</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">阿瑟·克拉克</span><span data-lang="en" class="site-pending">Arthur C. Clarke</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1968</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">摩尔定律</span><span data-lang="en" class="site-pending">Gordon Moore</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1965</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">菲利普·迪克</span><span data-lang="en" class="site-pending">Philip K. Dick</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1962</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">珍妮·狄克逊</span><span data-lang="en" class="site-pending">Jeane Dixon</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1956</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">Ray Bradbury《华氏451度》</span><span data-lang="en" class="site-pending">Ray Bradbury《华氏451度》</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1953</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="BG" class="">
+      <td class="col-name"><a href="https://pre.hilife.me/vanga/" target="_blank" rel="noopener" class="site-link" data-lang="zh"><img src="vanga/img/logo.svg" alt="" class="tbl-logo"><span>巴巴·万加</span></a><a href="https://pre.hilife.me/vanga/en/" target="_blank" rel="noopener" class="site-link" data-lang="en"><img src="vanga/img/logo.svg" alt="" class="tbl-logo"><span>Baba Vanga</span></a></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">保加利亚</span><span data-lang="en">Bulgaria</span></td>
+      <td class="col-year">1950</td>
+      <td class="col-count">71</td>
+      <td class="col-rate"><span class="hit-rate">58%</span></td>
+      <td class="col-status"><a href="https://pre.hilife.me/vanga/" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="https://pre.hilife.me/vanga/en/" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">艾萨克·阿西莫夫</span><span data-lang="en" class="site-pending">Isaac Asimov</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1950</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">George Orwell《1984》</span><span data-lang="en" class="site-pending">George Orwell《1984》</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1948</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="DE" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">阿洛伊斯·伊尔迈尔</span><span data-lang="en" class="site-pending">Alois Irlmaier</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">德国</span><span data-lang="en">Germany</span></td>
+      <td class="col-year">1945</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="BG" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">彼得·杜诺夫</span><span data-lang="en" class="site-pending">Peter Deunov</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">保加利亚</span><span data-lang="en">Bulgaria</span></td>
+      <td class="col-year">1944</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">Aldous Huxley《美丽新世界》</span><span data-lang="en" class="site-pending">Aldous Huxley《美丽新世界》</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1932</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">埃德加·凯西</span><span data-lang="en" class="site-pending">Edgar Cayce</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1920</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IT" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">庇护神父</span><span data-lang="en" class="site-pending">Padre Pio</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">意大利</span><span data-lang="en">Italy</span></td>
+      <td class="col-year">1918</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="PT" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">法蒂玛预言</span><span data-lang="en" class="site-pending">Fatima</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">葡萄牙</span><span data-lang="en">Portugal</span></td>
+      <td class="col-year">1917</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="RU" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">拉斯普京预言录</span><span data-lang="en" class="site-pending">Rasputin Prophecies</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">俄罗斯</span><span data-lang="en">Russia</span></td>
+      <td class="col-year">1916</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="RU" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">拉斯普京</span><span data-lang="en" class="site-pending">Grigori Rasputin</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">俄罗斯</span><span data-lang="en">Russia</span></td>
+      <td class="col-year">1910</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="RS" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">尼古拉·特斯拉</span><span data-lang="en" class="site-pending">Nikola Tesla</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">塞尔维亚</span><span data-lang="en">Serbia</span></td>
+      <td class="col-year">1909</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="AT" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">鲁道夫·施泰纳</span><span data-lang="en" class="site-pending">Rudolf Steiner</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">奥地利</span><span data-lang="en">Austria</span></td>
+      <td class="col-year">1904</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">阿莱斯特·克劳利</span><span data-lang="en" class="site-pending">Aleister Crowley</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1904</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">步虚大师预言</span><span data-lang="en" class="site-pending">步虚大师预言</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1900</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">武侯百年乩</span><span data-lang="en" class="site-pending">武侯百年乩</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1900</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="GR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">阿陀斯山长老预言</span><span data-lang="en" class="site-pending">Athonite Elders</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">希腊</span><span data-lang="en">Greece</span></td>
+      <td class="col-year">1900</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="BG" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">贝因萨·杜诺</span><span data-lang="en" class="site-pending">Beinsa Douno</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">保加利亚</span><span data-lang="en">Bulgaria</span></td>
+      <td class="col-year">1900</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">马克·吐温</span><span data-lang="en" class="site-pending">Mark Twain</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1898</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">赫伯特·乔治·威尔斯</span><span data-lang="en" class="site-pending">H.G. Wells</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1895</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="RU" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">布拉瓦茨基夫人</span><span data-lang="en" class="site-pending">Helena Blavatsky</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">俄罗斯</span><span data-lang="en">Russia</span></td>
+      <td class="col-year">1875</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="sci-fi" data-country="FR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">儒勒·凡尔纳</span><span data-lang="en" class="site-pending">Jules Verne</span></td>
+      <td class="col-cat"><span data-lang="zh">科幻预言</span><span data-lang="en">Sci-Fi</span></td>
+      <td class="col-country"><span data-lang="zh">法国</span><span data-lang="en">France</span></td>
+      <td class="col-year">1865</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="futurist" data-country="FR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">托克维尔</span><span data-lang="en" class="site-pending">Alexis de Tocqueville</span></td>
+      <td class="col-cat"><span data-lang="zh">未来学家</span><span data-lang="en">Futurist</span></td>
+      <td class="col-country"><span data-lang="zh">法国</span><span data-lang="en">France</span></td>
+      <td class="col-year">1835</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">威廉·米勒</span><span data-lang="en" class="site-pending">William Miller</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year">1831</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="RU" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">萨罗夫的塞拉芬</span><span data-lang="en" class="site-pending">Seraphim of Sarov</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">俄罗斯</span><span data-lang="en">Russia</span></td>
+      <td class="col-year">1825</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">铁板神数</span><span data-lang="en" class="site-pending">铁板神数</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1700</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">约翰·迪伊</span><span data-lang="en" class="site-pending">John Dee</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1580</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="FR" class="">
+      <td class="col-name"><a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" class="site-link" data-lang="zh"><img src="nostradamus/img/logo.svg" alt="" class="tbl-logo"><span>诺斯特拉达穆斯</span></a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" class="site-link" data-lang="en"><img src="nostradamus/img/logo.svg" alt="" class="tbl-logo"><span>Nostradamus</span></a></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">法国</span><span data-lang="en">France</span></td>
+      <td class="col-year">1555</td>
+      <td class="col-count">60</td>
+      <td class="col-rate"><span class="hit-rate">51%</span></td>
+      <td class="col-status"><a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a></td>
+    </tr>
+<tr data-cat="psychic" data-country="CH" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">帕拉塞尔苏斯</span><span data-lang="en" class="site-pending">Paracelsus</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">瑞士</span><span data-lang="en">Switzerland</span></td>
+      <td class="col-year">1530</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="psychic" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">希普顿修女</span><span data-lang="en" class="site-pending">Mother Shipton</span></td>
+      <td class="col-cat"><span data-lang="zh">灵媒/预言家</span><span data-lang="en">Psychic</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1488</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="KR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">格庵遗录（韩国预言）</span><span data-lang="en" class="site-pending">格庵遗录（韩国预言）</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">韩国</span><span data-lang="en">South Korea</span></td>
+      <td class="col-year">1400</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">烧饼歌</span><span data-lang="en" class="site-pending">烧饼歌</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1368</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">金陵塔碑文</span><span data-lang="en" class="site-pending">金陵塔碑文</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1368</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">刘伯温碑记</span><span data-lang="en" class="site-pending">刘伯温碑记</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1368</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="indigenous" data-country="PE" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">印加预言</span><span data-lang="en" class="site-pending">Inca Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">原住民预言</span><span data-lang="en">Indigenous</span></td>
+      <td class="col-country"><span data-lang="zh">秘鲁</span><span data-lang="en">Peru</span></td>
+      <td class="col-year">1200</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IT" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">菲奥雷的约阿基姆</span><span data-lang="en" class="site-pending">Joachim of Fiore</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">意大利</span><span data-lang="en">Italy</span></td>
+      <td class="col-year">1190</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="DE" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">宾根的希尔德加德</span><span data-lang="en" class="site-pending">Hildegard of Bingen</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">德国</span><span data-lang="en">Germany</span></td>
+      <td class="col-year">1141</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IE" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">圣马拉基预言</span><span data-lang="en" class="site-pending">St. Malachy Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">爱尔兰</span><span data-lang="en">Ireland</span></td>
+      <td class="col-year">1139</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IE" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">教皇预言</span><span data-lang="en" class="site-pending">Prophecy of the Popes</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">爱尔兰</span><span data-lang="en">Ireland</span></td>
+      <td class="col-year">1139</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="GB" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">梅林预言</span><span data-lang="en" class="site-pending">Merlin Prophecies</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">英国</span><span data-lang="en">UK</span></td>
+      <td class="col-year">1136</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">梅花诗</span><span data-lang="en" class="site-pending">梅花诗</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1060</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">乾坤万年歌</span><span data-lang="en" class="site-pending">乾坤万年歌</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1000</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="folk" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">赊刀人</span><span data-lang="en" class="site-pending">赊刀人</span></td>
+      <td class="col-cat"><span data-lang="zh">民间传说</span><span data-lang="en">Folk</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">1000</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="IS" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">女巫预言</span><span data-lang="en" class="site-pending">Völuspá</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">冰岛</span><span data-lang="en">Iceland</span></td>
+      <td class="col-year">950</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">黄蘖禅师诗</span><span data-lang="en" class="site-pending">黄蘖禅师诗</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">850</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">藏传佛教末法预言</span><span data-lang="en" class="site-pending">Tibetan Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">800</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="IS" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">诸神黄昏</span><span data-lang="en" class="site-pending">Ragnarök</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">冰岛</span><span data-lang="en">Iceland</span></td>
+      <td class="col-year">800</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">莲花生大师预言</span><span data-lang="en" class="site-pending">Padmasambhava</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">760</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="SA" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">伊斯兰末世预言</span><span data-lang="en" class="site-pending">Islamic Eschatology</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">沙特</span><span data-lang="en">Saudi Arabia</span></td>
+      <td class="col-year">700</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="">
+      <td class="col-name"><a href="https://pre.hilife.me/tuibeitu/" target="_blank" rel="noopener" class="site-link" data-lang="zh"><img src="tuibeitu/img/logo.svg" alt="" class="tbl-logo"><span>推背图</span></a><a href="https://pre.hilife.me/tuibeitu/en/" target="_blank" rel="noopener" class="site-link" data-lang="en"><img src="tuibeitu/img/logo.svg" alt="" class="tbl-logo"><span>Tui Bei Tu</span></a></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">650</td>
+      <td class="col-count">60</td>
+      <td class="col-rate"><span class="hit-rate">97%</span></td>
+      <td class="col-status"><a href="https://pre.hilife.me/tuibeitu/" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="https://pre.hilife.me/tuibeitu/en/" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">藏头诗</span><span data-lang="en" class="site-pending">藏头诗</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">650</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">袁天罡称骨算命</span><span data-lang="en" class="site-pending">袁天罡称骨算命</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">650</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">马前课</span><span data-lang="en" class="site-pending">马前课</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year">200</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="GR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">启示录</span><span data-lang="en" class="site-pending">Book of Revelation</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">希腊</span><span data-lang="en">Greece</span></td>
+      <td class="col-year">95</td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IL" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">但以理书</span><span data-lang="en" class="site-pending">Book of Daniel</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span></td>
+      <td class="col-year"><span data-lang="zh">公元前165年</span><span data-lang="en">165 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IL" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">但以理七十个七</span><span data-lang="en" class="site-pending">Daniel's Seventy Weeks</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span></td>
+      <td class="col-year"><span data-lang="zh">公元前165年</span><span data-lang="en">165 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IL" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">死海古卷预言</span><span data-lang="en" class="site-pending">Dead Sea Scrolls Prophecies</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span></td>
+      <td class="col-year"><span data-lang="zh">公元前200年</span><span data-lang="en">200 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">弥勒佛预言</span><span data-lang="en" class="site-pending">Buddhist Maitreya</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">印度</span><span data-lang="en">India</span></td>
+      <td class="col-year"><span data-lang="zh">公元前200年</span><span data-lang="en">200 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">香巴拉预言</span><span data-lang="en" class="site-pending">Shambhala Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">印度</span><span data-lang="en">India</span></td>
+      <td class="col-year"><span data-lang="zh">公元前300年</span><span data-lang="en">300 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IL" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">以诺书</span><span data-lang="en" class="site-pending">Enoch Book of Watchers</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span></td>
+      <td class="col-year"><span data-lang="zh">公元前300年</span><span data-lang="en">300 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">卡尔基预言</span><span data-lang="en" class="site-pending">Hindu Kalki Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">印度</span><span data-lang="en">India</span></td>
+      <td class="col-year"><span data-lang="zh">公元前400年</span><span data-lang="en">400 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="IT" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">西比林预言书</span><span data-lang="en" class="site-pending">Sibylline Books</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">意大利</span><span data-lang="en">Italy</span></td>
+      <td class="col-year"><span data-lang="zh">公元前500年</span><span data-lang="en">500 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IL" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">以西结异象</span><span data-lang="en" class="site-pending">Ezekiel's Visions</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span></td>
+      <td class="col-year"><span data-lang="zh">公元前590年</span><span data-lang="en">590 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="indigenous" data-country="MX" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">玛雅历法预言</span><span data-lang="en" class="site-pending">Mayan Calendar</span></td>
+      <td class="col-cat"><span data-lang="zh">原住民预言</span><span data-lang="en">Indigenous</span></td>
+      <td class="col-country"><span data-lang="zh">墨西哥</span><span data-lang="en">Mexico</span></td>
+      <td class="col-year"><span data-lang="zh">公元前600年</span><span data-lang="en">600 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">琐罗亚斯德预言</span><span data-lang="en" class="site-pending">Zoroastrian Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">伊朗</span><span data-lang="en">Iran</span></td>
+      <td class="col-year"><span data-lang="zh">公元前600年</span><span data-lang="en">600 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="GR" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">德尔菲神谕</span><span data-lang="en" class="site-pending">Oracle of Delphi</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">希腊</span><span data-lang="en">Greece</span></td>
+      <td class="col-year"><span data-lang="zh">公元前700年</span><span data-lang="en">700 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="religion" data-country="IL" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">以赛亚预言</span><span data-lang="en" class="site-pending">Isaiah Prophecies</span></td>
+      <td class="col-cat"><span data-lang="zh">宗教预言</span><span data-lang="en">Religion</span></td>
+      <td class="col-country"><span data-lang="zh">以色列</span><span data-lang="en">Israel</span></td>
+      <td class="col-year"><span data-lang="zh">公元前700年</span><span data-lang="en">700 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="indigenous" data-country="US" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">霍比预言</span><span data-lang="en" class="site-pending">Hopi Prophecy</span></td>
+      <td class="col-cat"><span data-lang="zh">原住民预言</span><span data-lang="en">Indigenous</span></td>
+      <td class="col-country"><span data-lang="zh">美国</span><span data-lang="en">USA</span></td>
+      <td class="col-year"><span data-lang="zh">公元前1000年</span><span data-lang="en">1000 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">易经</span><span data-lang="en" class="site-pending">I Ching</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year"><span data-lang="zh">公元前1000年</span><span data-lang="en">1000 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="indigenous" data-country="MX" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">阿兹特克第五太阳预言</span><span data-lang="en" class="site-pending">Aztec Fifth Sun</span></td>
+      <td class="col-cat"><span data-lang="zh">原住民预言</span><span data-lang="en">Indigenous</span></td>
+      <td class="col-country"><span data-lang="zh">墨西哥</span><span data-lang="en">Mexico</span></td>
+      <td class="col-year"><span data-lang="zh">公元前1000年</span><span data-lang="en">1000 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="ancient-text" data-country="CN" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">姜子牙《六韬》预言</span><span data-lang="en" class="site-pending">姜子牙《六韬》预言</span></td>
+      <td class="col-cat"><span data-lang="zh">古代典籍</span><span data-lang="en">Ancient Text</span></td>
+      <td class="col-country"><span data-lang="zh">中国</span><span data-lang="en">China</span></td>
+      <td class="col-year"><span data-lang="zh">公元前1000年</span><span data-lang="en">1000 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+<tr data-cat="indigenous" data-country="AU" class="row-pending">
+      <td class="col-name"><span data-lang="zh" class="site-pending">澳洲原住民梦幻时代</span><span data-lang="en" class="site-pending">Aboriginal Dreamtime</span></td>
+      <td class="col-cat"><span data-lang="zh">原住民预言</span><span data-lang="en">Indigenous</span></td>
+      <td class="col-country"><span data-lang="zh">澳大利亚</span><span data-lang="en">Australia</span></td>
+      <td class="col-year"><span data-lang="zh">公元前10000年</span><span data-lang="en">10000 BC</span></td>
+      <td class="col-count"></td>
+      <td class="col-rate"></td>
+      <td class="col-status"><span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span></td>
+    </tr>
+      </tbody>
+    </table>
   </div>
-  <div class="card">
-    <div class="card-accent" style="background:#007722"></div>
-    <div class="card-body">
-      <img class="card-logo" src="kfk/img/logo.svg" alt="KFK 2060">
-      <div class="card-title">
-        <span data-lang="zh">KFK 2060 预言</span>
-        <span data-lang="en">KFK 2060 Prophecies</span>
+
+  <!-- Tab 2: Upcoming Prophecies -->
+  <div class="tab-panel" id="panel-upcoming" role="tabpanel" aria-labelledby="tab-upcoming">
+    <div class="year-group" data-year="2026">
+    <h3 class="year-heading">2026</h3>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/vanga/" target="_blank" rel="noopener" style="color:#7b4a9e" data-lang="zh">巴巴·万加</a><a href="https://pre.hilife.me/vanga/en/" target="_blank" rel="noopener" style="color:#7b4a9e" data-lang="en">Baba Vanga</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 58%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">大型飞船抵达地球</span><span data-lang="en">Large spacecraft arrives</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「2026年11月，一艘大型宇宙飞船将抵达地球，代表地球人与外星人的首次正式接触。」</span>
+          <span data-lang="en">&quot;In November 2026, a large spacecraft will arrive on Earth, representing the first official contact between Earthlings and aliens.&quot;</span>
+        </div>
+        
       </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">来自2060年的时间旅行者</span>
-        <span data-lang="en">A Time Traveler from 2060</span>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/vanga/" target="_blank" rel="noopener" style="color:#7b4a9e" data-lang="zh">巴巴·万加</a><a href="https://pre.hilife.me/vanga/en/" target="_blank" rel="noopener" style="color:#7b4a9e" data-lang="en">Baba Vanga</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 58%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">大规模地震和火山喷发</span><span data-lang="en">Massive earthquakes and volcanic eruptions</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「大规模地震、剧烈火山喷发和极端天气将影响地球7%-8%的陆地面积。」</span>
+          <span data-lang="en">&quot;Massive earthquakes, violent volcanic eruptions and extreme weather will affect 7-8% of the planet's land area.&quot;</span>
+        </div>
+        
       </div>
-      <div class="card-desc">
-        <span data-lang="zh">2019年豆瓣网友KFK自称来自2060年，留下281条预言涵盖战争、科技、经济、气候等领域。本站完整收录所有预言原文，并对已到期预言进行真实度验证与评估。KFK 2060 time traveler prophecies with full verification.</span>
-        <span data-lang="en">In 2019, an anonymous user 'KFK' on Douban claimed to be from 2060, leaving 281 prophecies covering war, technology, economy, climate &amp; more. Full archive with accuracy verification.</span>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="zh">诺斯特拉达穆斯</a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="en">Nostradamus</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 51%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">百诗集2026-1：东方的新联盟</span><span data-lang="en">Quatrain 2026-1: New Alliance of the East</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「东方将形成新的联盟。两条巨龙将握手言和。西方的鹰将感到不安。旧的秩序将被打破。」</span>
+          <span data-lang="en">&quot;The East will form a new alliance. Two great dragons shall shake hands. The eagle of the West will be uneasy. The old order shall be broken.&quot;</span>
+        </div>
+        <div class="upcoming-verdict"><span data-lang="zh">「两条巨龙」被解读为中国和印度或中俄之间的战略联盟，对西方主导的国际秩序构成挑战。</span><span data-lang="en">'Two dragons' as China-India or China-Russia strategic alliance challenging the Western-dominated international order.</span></div>
       </div>
-    </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">281 条预言</span>
-        <span data-lang="en">281 prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: 2019-06-22</span>
-        <span data-lang="en">Pub: 2019-06-22</span>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="zh">诺斯特拉达穆斯</a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="en">Nostradamus</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 51%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">百诗集2026-2：火山之怒</span><span data-lang="en">Quatrain 2026-2: Wrath of the Volcano</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「沉睡已久的山将再次醒来。灰烬将覆盖天空，遮蔽太阳。附近的城市将被遗弃。」</span>
+          <span data-lang="en">&quot;The long-sleeping mountain shall awaken once more. Ash will cover the sky, obscuring the sun. Nearby cities will be abandoned.&quot;</span>
+        </div>
+        <div class="upcoming-verdict"><span data-lang="zh">被解读为2026年可能发生的重大火山喷发事件，可能指意大利维苏威火山或冰岛火山系统。</span><span data-lang="en">Interpreted as a major volcanic eruption possibly in 2026, potentially referring to Italy's Vesuvius or Iceland's volcanic systems.</span></div>
       </div>
-      <a class="card-enter" href="kfk/" style="color:#007722;border:1px solid #007722">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
-    </div>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="zh">诺斯特拉达穆斯</a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="en">Nostradamus</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 51%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">百诗集2026-3：货币的终结</span><span data-lang="en">Quatrain 2026-3: End of Currency</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「旧的货币将失去价值。新的交易方式将出现。不再需要携带金银。一切都将被数字所记录。」</span>
+          <span data-lang="en">&quot;Old currency will lose its value. A new way of exchange will appear. No need to carry gold or silver. Everything shall be recorded in numbers.&quot;</span>
+        </div>
+        <div class="upcoming-verdict"><span data-lang="zh">被解读为数字货币和央行数字货币（CBDC）取代传统纸币的趋势。</span><span data-lang="en">Interpreted as digital currencies and CBDCs replacing traditional paper money.</span></div>
+      </div>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="zh">诺斯特拉达穆斯</a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="en">Nostradamus</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 51%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">百诗集2026-4：地中海的冲突</span><span data-lang="en">Quatrain 2026-4: Mediterranean Conflict</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「地中海将成为战争的舞台。船只在港口中燃烧。三个国家争夺一座岛屿。」</span>
+          <span data-lang="en">&quot;The Mediterranean shall become a theater of war. Ships burn in the harbor. Three nations fight over an island.&quot;</span>
+        </div>
+        <div class="upcoming-verdict"><span data-lang="zh">可能指地中海地区地缘政治紧张局势的升级，涉及领土争端。</span><span data-lang="en">Possibly referring to escalating geopolitical tensions in the Mediterranean involving territorial disputes.</span></div>
+      </div>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/anand/" target="_blank" rel="noopener" style="color:#c46210" data-lang="zh">阿南德</a><a href="https://pre.hilife.me/anand/en/" target="_blank" rel="noopener" style="color:#c46210" data-lang="en">Abhigya Anand</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 77%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">2026年展望</span><span data-lang="en">2026 outlook</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">2026年将是充满变数的一年。木星和土星的位置变化将带来新的挑战和机遇。保持警惕，同时保持希望。</span>
+          <span data-lang="en">2026 will be a year full of uncertainty. Changes in Jupiter and Saturn positions will bring new challenges and opportunities. Stay vigilant and maintain hope.</span>
+        </div>
+        
+      </div>
   </div>
-  <div class="card">
-    <div class="card-accent" style="background:#2563a0"></div>
-    <div class="card-body">
-      <img class="card-logo" src="mirai2062/img/logo.svg" alt="2062未来人预言">
-      <div class="card-title">
-        <span data-lang="zh">2062未来人预言</span>
-        <span data-lang="en">2062 Future Man</span>
+  <div class="year-group" data-year="2028">
+    <h3 class="year-heading">2028</h3>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/vanga/" target="_blank" rel="noopener" style="color:#7b4a9e" data-lang="zh">巴巴·万加</a><a href="https://pre.hilife.me/vanga/en/" target="_blank" rel="noopener" style="color:#7b4a9e" data-lang="en">Baba Vanga</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 58%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">新能源与太空探索</span><span data-lang="en">New energy and space exploration</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「一种新的能源被创造出来，世界饥荒被消除，人类到达金星。」</span>
+          <span data-lang="en">&quot;A new power source is created, world hunger is eliminated, and humans reach Venus.&quot;</span>
+        </div>
+        
       </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">日本2ch论坛穿越者（2010-2012）</span>
-        <span data-lang="en">Time Traveler from Japan's 2ch Forum (2010-2012)</span>
-      </div>
-      <div class="card-desc">
-        <span data-lang="zh">2062未来人于2010年在日本2ch论坛自称来自2062年，留下了关于日本大地震、国际局势、科技发展等30条预言的完整收录与验证分析。曾在311大地震前两天再次现身。</span>
-        <span data-lang="en">The '2062 Future Man' appeared on Japan's 2ch forum in 2010 claiming to be from 2062. Complete archive of 30 predictions covering earthquakes, geopolitics, and technology, with real-world verification. Notably reappeared 2 days before the 2011 Tohoku earthquake.</span>
-      </div>
-    </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">30 条预言</span>
-        <span data-lang="en">30 prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: 2010-11-14</span>
-        <span data-lang="en">Pub: 2010-11-14</span>
-      </div>
-      <a class="card-enter" href="mirai2062/" style="color:#2563a0;border:1px solid #2563a0">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
-    </div>
   </div>
-  <div class="card">
-    <div class="card-accent" style="background:#8b1a1a"></div>
-    <div class="card-body">
-      <img class="card-logo" src="nostradamus/img/logo.svg" alt="Nostradamus Prophecies">
-      <div class="card-title">
-        <span data-lang="zh">诺斯特拉达穆斯预言</span>
-        <span data-lang="en">Nostradamus Prophecies</span>
+  <div class="year-group" data-year="2030">
+    <h3 class="year-heading">2030</h3>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/kfk/" target="_blank" rel="noopener" style="color:#007722" data-lang="zh">KFK 2060</a><a href="https://pre.hilife.me/kfk/en/" target="_blank" rel="noopener" style="color:#007722" data-lang="en">KFK 2060</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 87%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">以后最新兴的行业是什么？</span><span data-lang="en">What will be the most emerging industries?</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">2030年以后，会是人工智能与跨行业者的结合，就是精通人工智能开发与编程的各个行业。另外游戏业从2035年进入了另外一个阶段。</span>
+          <span data-lang="en">After 2030, the combination of AI and cross-industry professionals — those proficient in AI development and programming across various industries. Also, the gaming industry enters a new phase from 2035.</span>
+        </div>
+        
       </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">法国先知（1503-1566）</span>
-        <span data-lang="en">French Seer (1503-1566)</span>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/kfk/" target="_blank" rel="noopener" style="color:#007722" data-lang="zh">KFK 2060</a><a href="https://pre.hilife.me/kfk/en/" target="_blank" rel="noopener" style="color:#007722" data-lang="en">KFK 2060</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 87%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">在未来哪些省份比较宜居？</span><span data-lang="en">Which provinces are most livable in the future?</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">2030年以后的云南，2048年以后的贵州。</span>
+          <span data-lang="en">Yunnan after 2030, Guizhou after 2048.</span>
+        </div>
+        
       </div>
-      <div class="card-desc">
-        <span data-lang="zh">法国先知诺斯特拉达穆斯（1503-1566）所著《百诗集》收录942首四行诗预言，涵盖战争、天灾、王权、科技、宗教等领域。本站完整收录代表性预言原文，并对已到期预言进行真实度验证与评估。</span>
-        <span data-lang="en">French seer Nostradamus (1503-1566) published Les Prophéties containing 942 quatrains covering war, disaster, royalty, technology, and religion. Full archive with accuracy verification of expired predictions.</span>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/kfk/" target="_blank" rel="noopener" style="color:#007722" data-lang="zh">KFK 2060</a><a href="https://pre.hilife.me/kfk/en/" target="_blank" rel="noopener" style="color:#007722" data-lang="en">KFK 2060</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 87%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">深圳到时候适合生存吗？</span><span data-lang="en">Will Shenzhen be suitable for living?</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">2030年以后越来越不适合。</span>
+          <span data-lang="en">Increasingly unsuitable after 2030.</span>
+        </div>
+        
       </div>
-    </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">60 条预言</span>
-        <span data-lang="en">60 prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: 1555</span>
-        <span data-lang="en">Pub: 1555</span>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/kfk/" target="_blank" rel="noopener" style="color:#007722" data-lang="zh">KFK 2060</a><a href="https://pre.hilife.me/kfk/en/" target="_blank" rel="noopener" style="color:#007722" data-lang="en">KFK 2060</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 87%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">2020-2030年会过的很艰苦吗？</span><span data-lang="en">Will 2020-2030 be very difficult?</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">有的国家是。</span>
+          <span data-lang="en">For some countries, yes.</span>
+        </div>
+        
       </div>
-      <a class="card-enter" href="nostradamus/" style="color:#8b1a1a;border:1px solid #8b1a1a">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
-    </div>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="zh">诺斯特拉达穆斯</a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="en">Nostradamus</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 51%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">百诗集II-43：大彗星的来临</span><span data-lang="en">Century II-43: The Great Comet</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「在大胡须星出现之际，三位伟大的王子将成为敌人。天空中的和平被从高处击碎。波河泛滥，弯曲的海岸上，蛇被安置。」</span>
+          <span data-lang="en">&quot;During the appearance of the bearded star, the three great princes will be made enemies. Struck from the sky, peace on earth quakes. Po overflows, a serpent placed on the shore.&quot;</span>
+        </div>
+        <div class="upcoming-verdict"><span data-lang="zh">「大胡须星」指大彗星，此预言与未来重大彗星事件相关。</span><span data-lang="en">'Bearded star' means a great comet. This prophecy relates to a future major comet event.</span></div>
+      </div>
+    <div class="upcoming-item st-pending">
+        <div class="upcoming-source">
+          <a href="https://pre.hilife.me/nostradamus/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="zh">诺斯特拉达穆斯</a><a href="https://pre.hilife.me/nostradamus/en/" target="_blank" rel="noopener" style="color:#8b1a1a" data-lang="en">Nostradamus</a> <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> 51%</span>
+        </div>
+        <div class="upcoming-q"><span data-lang="zh">百诗集VIII-77：第三个敌基督</span><span data-lang="en">Century VIII-77: The Third Antichrist</span></div>
+        <div class="upcoming-a">
+          <span data-lang="zh">「第三个敌基督即将来临，将比前两个更为可怕。他将在大血河中统治二十七年。」</span>
+          <span data-lang="en">&quot;The Third Antichrist soon to come, far more terrible than the first two. He shall reign twenty-seven years in rivers of blood.&quot;</span>
+        </div>
+        <div class="upcoming-verdict"><span data-lang="zh">诺斯特拉达穆斯据说预言了三位敌基督——拿破仑、希特勒是前两位，第三位尚未出现。</span><span data-lang="en">Nostradamus allegedly predicted three Antichrists — Napoleon and Hitler are the first two; the third has not yet appeared.</span></div>
+      </div>
   </div>
-  <div class="card">
-    <div class="card-accent" style="background:#4a6741"></div>
-    <div class="card-body">
-      <img class="card-logo" src="titor/img/logo.svg" alt="John Titor Predictions">
-      <div class="card-title">
-        <span data-lang="zh">约翰·提托预言</span>
-        <span data-lang="en">John Titor Predictions</span>
-      </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">来自2036年的时间旅行者（2000-2001）</span>
-        <span data-lang="en">Time Traveler from 2036 (2000-2001)</span>
-      </div>
-      <div class="card-desc">
-        <span data-lang="zh">约翰·提托（John Titor）于2000-2001年在美国论坛自称来自2036年的时间旅行者，留下了关于美国内战、核战争、时间机器等35条预言的完整收录与验证分析。</span>
-        <span data-lang="en">John Titor posted on internet forums from 2000-2001 claiming to be a time traveler from 2036. Complete archive of 35 predictions covering civil war, nuclear conflict, technology, and social change, with real-world verification.</span>
-      </div>
-    </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">35 条预言</span>
-        <span data-lang="en">35 prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: 2000-11-02</span>
-        <span data-lang="en">Pub: 2000-11-02</span>
-      </div>
-      <a class="card-enter" href="titor/" style="color:#4a6741;border:1px solid #4a6741">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
-    </div>
   </div>
-  <div class="card">
-    <div class="card-accent" style="background:#1a3a5c"></div>
-    <div class="card-body">
-      <img class="card-logo" src="tuibeitu/img/logo.svg" alt="推背图 Tui Bei Tu">
-      <div class="card-title">
-        <span data-lang="zh">推背图预言</span>
-        <span data-lang="en">Tui Bei Tu Prophecies</span>
-      </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">唐代·李淳风 &amp; 袁天罡</span>
-        <span data-lang="en">Tang Dynasty · Li Chunfeng &amp; Yuan Tiangang</span>
-      </div>
-      <div class="card-desc">
-        <span data-lang="zh">推背图是唐朝贞观年间由太史令李淳风与术士袁天罡合著的预言奇书，全书共60象，每象以卦象、图画、谶语、颂诗四部分构成，据信预言了从唐朝至未来的中国历史大事。本站完整收录60象原文并进行验证分析。</span>
-        <span data-lang="en">Tui Bei Tu (推背图) is a Tang dynasty Chinese prophecy text attributed to Li Chunfeng and Yuan Tiangang, containing 60 prophetic images with hexagrams, illustrations, and verses predicting China's future from the 7th century onward. Full archive with accuracy verification.</span>
-      </div>
-    </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">60 条预言</span>
-        <span data-lang="en">60 prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: 约公元650年</span>
-        <span data-lang="en">Pub: 约公元650年</span>
-      </div>
-      <a class="card-enter" href="tuibeitu/" style="color:#1a3a5c;border:1px solid #1a3a5c">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-accent" style="background:#7b4a9e"></div>
-    <div class="card-body">
-      <img class="card-logo" src="vanga/img/logo.svg" alt="Baba Vanga Prophecies">
-      <div class="card-title">
-        <span data-lang="zh">巴巴·万加预言</span>
-        <span data-lang="en">Baba Vanga Prophecies</span>
-      </div>
-      <div class="card-subtitle">
-        <span data-lang="zh">保加利亚盲眼预言家（1911-1996）</span>
-        <span data-lang="en">Bulgarian Blind Mystic (1911-1996)</span>
-      </div>
-      <div class="card-desc">
-        <span data-lang="zh">保加利亚盲眼预言家巴巴·万加（1911-1996）留下的71条预言完整收录，涵盖自然灾害、战争、科技、宇宙探索等领域，从2025年延伸至5079年世界末日。已应验预言包括911事件、库尔斯克号沉没、奥巴马当选等。</span>
-        <span data-lang="en">Bulgarian blind mystic Baba Vanga (1911-1996) left 71 prophecies spanning from 2025 to 5079, covering natural disasters, wars, technology, and cosmic events. Verified predictions include 9/11, Kursk submarine, Obama presidency, and more.</span>
-      </div>
-    </div>
-    <div class="card-footer">
-      <div class="card-stats">
-        <span data-lang="zh">71 条预言</span>
-        <span data-lang="en">71 prophecies</span>
-        <span>·</span>
-        <span data-lang="zh">发布: 1911-1996</span>
-        <span data-lang="en">Pub: 1911-1996</span>
-      </div>
-      <a class="card-enter" href="vanga/" style="color:#7b4a9e;border:1px solid #7b4a9e">
-        <span data-lang="zh">进入 →</span>
-        <span data-lang="en">Enter →</span>
-      </a>
-    </div>
-  </div>
-</div>
-<div class="footer-note">
+</main>
+
+<footer class="footer-note">
   <span data-lang="zh">预言档案馆 — 记录与验证</span>
   <span data-lang="en">Prophecy Archive — Record & Verify</span>
-</div>
+</footer>
+
+<script>
+(function() {
+  // Main tab switching
+  document.querySelectorAll('.main-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.main-tab').forEach(function(t) { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      document.querySelectorAll('.tab-panel').forEach(function(p) { p.classList.remove('active'); });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Filter state
+  var activeCat = 'all';
+  var activeCountry = 'all';
+
+  function applyFilters() {
+    var rows = document.querySelectorAll('.sites-table tbody tr');
+    var count = 0;
+    rows.forEach(function(row) {
+      var catMatch = activeCat === 'all' || row.dataset.cat === activeCat;
+      var countryMatch = activeCountry === 'all' || row.dataset.country === activeCountry;
+      var show = catMatch && countryMatch;
+      row.style.display = show ? '' : 'none';
+      if (show) count++;
+    });
+    var el = document.getElementById('visible-count');
+    var el2 = document.getElementById('visible-count-en');
+    if (el) el.textContent = count;
+    if (el2) el2.textContent = count;
+  }
+
+  // Category filter
+  document.querySelectorAll('[data-filter-cat]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('[data-filter-cat]').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+      activeCat = btn.dataset.filterCat;
+      applyFilters();
+    });
+  });
+
+  // Country filter
+  document.querySelectorAll('[data-filter-country]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('[data-filter-country]').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+      activeCountry = btn.dataset.filterCountry;
+      applyFilters();
+    });
+  });
+
+  // Year groups are shown flat, no tab switching needed
+})();
+</script>
 </body>
 </html>

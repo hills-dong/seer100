@@ -123,15 +123,15 @@ function renderList(searchOnly) {
     return `<button class="filter-btn ${currentStatus === f.key ? 'active' : ''}" onclick="setStatus('${f.key}')">${iconHtml}${f.label} (${f.count})</button>`;
   }).join('');
 
-  // Stats
-  const decidable = verified.length + partial.length + failed.length;
-  const hitRate = decidable > 0 ? Math.round((verified.length + partial.length * 0.5) / decidable * 100) : 0;
+  // Stats (pre-calculated at build time)
+  const hitRate = SITE_CONFIG.hitRate;
+  const _vc = SITE_CONFIG.verifiedCount, _pc = SITE_CONFIG.partialCount, _jc = SITE_CONFIG.judgedCount;
 
   // Populate header tools (search + hit rate)
   document.getElementById('header-tools').innerHTML = `
     <input type="text" class="search-box" id="search-input" placeholder="${s('searchPlaceholder')}" aria-label="${s('searchPlaceholder')}" oninput="renderList(true)">
     <button class="search-icon-btn" onclick="openSearchOverlay()" aria-label="${s('searchLabel')}"><i class="i-search"></i></button>
-    <span class="hit-rate-badge">${s('hitRate')} ${hitRate}%<span class="hit-rate-info"><i class="i-info"></i><span class="hit-rate-tooltip">${lang === 'zh' ? `已应验 ${verified.length} + 部分相关 ${partial.length}×0.5，共 ${decidable} 条可判定` : `Verified ${verified.length} + Partial ${partial.length}×0.5, ${decidable} decidable`}<br>${s('formula')}: (${verified.length}+${partial.length}×0.5)÷${decidable} = ${hitRate}%</span></span></span>
+    <span class="hit-rate-badge">${s('hitRate')} ${hitRate}%<span class="hit-rate-info"><i class="i-info"></i><span class="hit-rate-tooltip">${lang === 'zh' ? `已应验 ${_vc} + 部分相关 ${_pc}×0.5，共 ${_jc} 条可判定` : `Verified ${_vc} + Partial ${_pc}×0.5, ${_jc} decidable`}<br>${s('formula')}: (${_vc}+${_pc}×0.5)÷${_jc} = ${hitRate}%</span></span></span>
   `;
 
   document.getElementById('section-all').innerHTML = `
