@@ -1,0 +1,136 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "香巴拉的存在",
+      "a": "在北方雪山环绕之中，有一片净土名为香巴拉。此国以莲花形八瓣排列，中央为王都噶拉巴（Kalapa），宫殿由水晶、黄金与宝石筑成，光辉照耀四方。",
+      "q_en": "The Existence of Shambhala",
+      "a_en": "In the north, surrounded by snow mountains, there is a pure land called Shambhala. The kingdom is arranged in eight petal-shaped regions like a lotus, with the capital Kalapa at its center, its palaces built of crystal, gold, and jewels, radiating light in all directions."
+    },
+    {
+      "id": 2,
+      "cat": "spirit",
+      "q": "时轮密续的传授",
+      "a": "释迦牟尼佛在印度南方吉祥米聚塔（Dhanyakataka）应香巴拉国王月贤王之请，传授时轮密续。此法为一切密法之王，包含宇宙、身体与修行的三重时轮。",
+      "q_en": "Transmission of the Kalachakra Tantra",
+      "a_en": "Shakyamuni Buddha, at the great stupa of Dhanyakataka in southern India, taught the Kalachakra Tantra at the request of King Suchandra of Shambhala. This teaching is the king of all tantras, encompassing the three wheels of time: outer (cosmic), inner (bodily), and alternative (spiritual practice)."
+    },
+    {
+      "id": 3,
+      "cat": "politics",
+      "q": "月贤王建立时轮法统",
+      "a": "月贤王将时轮密续带回香巴拉，在国中广弘此法，将时轮历法制定为国历，立法护教，开创了香巴拉七位法王传承的第一代。",
+      "q_en": "King Suchandra Establishes the Kalachakra Tradition",
+      "a_en": "King Suchandra brought the Kalachakra Tantra back to Shambhala, widely propagated the teaching throughout the kingdom, adopted the Kalachakra calendar as the state calendar, and established laws to protect the Dharma, founding the first of Shambhala's seven Dharmaraja lineage."
+    },
+    {
+      "id": 4,
+      "cat": "politics",
+      "q": "七代法王的统治",
+      "a": "月贤王之后，六位法王相继统治香巴拉，合共七代法王（Dharmaraja）。他们持守正法，教化臣民修持时轮密续，使香巴拉成为世间最殊胜的佛法净土。",
+      "q_en": "The Reign of the Seven Dharmarajas",
+      "a_en": "After Suchandra, six more Dharma Kings ruled Shambhala in succession, making seven Dharmarajas in total. They upheld the true Dharma, taught their subjects to practice the Kalachakra, and made Shambhala the most sublime Buddhist pure land in the world."
+    },
+    {
+      "id": 5,
+      "cat": "politics",
+      "q": "转轮王传承的开始",
+      "a": "第七代法王之后，文殊耶舍（Manjushrikirti）成为第一位转轮王（Kalki），他将香巴拉全体臣民统一纳入金刚乘修行体系，宣布所有人不论种姓皆可入坛受灌顶。自此开启二十五位转轮王的传承。",
+      "q_en": "Beginning of the Kalki Lineage",
+      "a_en": "After the seventh Dharmaraja, Manjushrikirti became the first Kalki (Kulika) king. He unified all subjects of Shambhala into the Vajrayana practice system and declared that all people, regardless of caste, could receive tantric initiation. Thus began the lineage of twenty-five Kalki kings."
+    },
+    {
+      "id": 6,
+      "cat": "spirit",
+      "q": "香巴拉的修行成就",
+      "a": "在香巴拉的历代转轮王统治下，臣民皆修持时轮密续，寿命绵长，无有饥荒疾病。国中修行者证悟者无数，乃人间唯一的金刚乘净土。",
+      "q_en": "Spiritual Accomplishments of Shambhala",
+      "a_en": "Under the successive Kalki kings, all subjects of Shambhala practiced the Kalachakra Tantra, enjoyed long lives, and were free from famine and disease. Countless practitioners attained realization, making it the only Vajrayana pure land on earth."
+    },
+    {
+      "id": 7,
+      "cat": "war",
+      "q": "蛮族势力的崛起",
+      "a": "在末法时代，外部世界的蛮族势力（lalo）将日益壮大，他们否定因果、残害生灵、以暴力征服四方。蛮族之王将统一诸部落，建立庞大帝国，企图消灭世间一切佛法。",
+      "q_en": "Rise of the Barbarian Forces",
+      "a_en": "In the age of decline, the barbarian forces (lalo) of the outside world will grow ever more powerful. They deny karma, slaughter living beings, and conquer all lands by violence. The barbarian king will unite the tribes, build a vast empire, and seek to destroy all Buddhist teachings in the world."
+    },
+    {
+      "id": 8,
+      "cat": "war",
+      "q": "蛮族入侵的威胁",
+      "a": "蛮族将以巨大的军事力量征服大地，统治整个已知世界。佛法将在外部世界几近灭绝，众生深陷苦海。当蛮族得知香巴拉的存在，他们将集结大军向北方雪山进发，企图攻灭这最后的佛法净土。",
+      "q_en": "Threat of the Barbarian Invasion",
+      "a_en": "The barbarians will conquer the earth with overwhelming military force, ruling the entire known world. Buddhism will be nearly extinguished in the outside world, and all beings will be immersed in suffering. When the barbarians learn of Shambhala's existence, they will mass their armies and march toward the northern snow mountains to destroy this last refuge of the Dharma."
+    },
+    {
+      "id": 9,
+      "cat": "war",
+      "q": "如意轮王降世",
+      "a": "当蛮族大军逼近之际，第二十五代转轮王如意轮（Rudra Cakrin，意为「愤怒之轮」）将从香巴拉升起。他身具三十二相，智慧武勇无双，率领香巴拉的金刚乘大军出发迎战。",
+      "q_en": "The Emergence of Rudra Cakrin",
+      "a_en": "When the barbarian armies approach, the 25th Kalki king Rudra Cakrin (meaning 'Wrathful Wheel' or 'Wheel Turner of Wrath') will arise from Shambhala. Bearing the thirty-two marks of a great being, unmatched in wisdom and martial valor, he will lead Shambhala's Vajrayana armies forth to meet the enemy."
+    },
+    {
+      "id": 10,
+      "cat": "war",
+      "q": "终极圣战",
+      "a": "如意轮王率领的大军拥有无量神力，骑乘石马、驾驶风轮战车，以密法之力与蛮族展开终极决战。这场大战将彻底击败蛮族势力，蛮族之王被诛灭，邪恶从世间根除。",
+      "q_en": "The Final Battle",
+      "a_en": "The armies led by Rudra Cakrin possess immeasurable supernatural powers, riding stone horses and driving wind-wheel chariots. Using the power of tantric practices, they engage the barbarians in the ultimate decisive battle. This great war will utterly defeat the barbarian forces, slay the barbarian king, and uproot evil from the world."
+    },
+    {
+      "id": 11,
+      "cat": "society",
+      "q": "黄金时代的降临",
+      "a": "圣战胜利之后，如意轮王将佛法重新弘扬至全世界。人类进入长达一千八百年的黄金时代——战争消失、疾病绝迹、众生安乐、六道轮回中的苦难大大减轻。",
+      "q_en": "The Dawn of the Golden Age",
+      "a_en": "After the victory in the great battle, Rudra Cakrin will spread the Dharma throughout the entire world. Humanity will enter a golden age lasting 1,800 years — wars will cease, diseases will vanish, all beings will live in bliss, and the suffering of the six realms of rebirth will be greatly diminished."
+    },
+    {
+      "id": 12,
+      "cat": "spirit",
+      "q": "黄金时代的修行",
+      "a": "在黄金时代中，时轮密续将成为世间一切众生的修行法门。人寿增长至数百岁，智慧与悲心遍满大地。无数众生将在此殊胜时代证得觉悟，直至弥勒佛降世。",
+      "q_en": "Spiritual Practice in the Golden Age",
+      "a_en": "During the golden age, the Kalachakra Tantra will become the universal path of practice for all beings. Human lifespans will extend to hundreds of years, wisdom and compassion will pervade the earth. Countless beings will attain enlightenment in this sublime era, lasting until the coming of Maitreya Buddha."
+    },
+    {
+      "id": 13,
+      "cat": "society",
+      "q": "铁鸟与铁马的预言",
+      "a": "当铁鸟在空中飞翔、铁马在大地奔驰之时，藏人将如蚂蚁般流散世界各地，佛法将传入红人之国（西方）。此为末法时代来临的征兆之一。",
+      "q_en": "Prophecy of the Iron Bird and Iron Horse",
+      "a_en": "When the iron bird flies in the sky and the iron horse runs on the ground, the Tibetan people will be scattered like ants across the world, and the Dharma will come to the land of the red man (the West). This is one of the signs of the coming age of decline.",
+      "year": 1959,
+      "status": "verified",
+      "verdict_zh": "1959年中国对西藏的军事行动后，达赖喇嘛及大量藏人流亡印度和世界各地。20世纪下半叶，藏传佛教在欧美广泛传播。「铁鸟」对应飞机，「铁马」对应火车/汽车。",
+      "verdict_en": "After the 1959 Chinese military campaign in Tibet, the Dalai Lama and large numbers of Tibetans fled to India and across the world. In the latter half of the 20th century, Tibetan Buddhism spread widely in Europe and North America. 'Iron bird' corresponds to airplanes; 'iron horse' to trains/automobiles."
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "时轮密续西传的预言",
+      "a": "当佛法在雪域面临劫难之时，时轮密续的教法将由雪山之外的弟子们继承延续。大德高僧将在远方国度建立道场，传授灌顶，使时轮法脉不断。",
+      "q_en": "Prophecy of the Kalachakra Spreading Westward",
+      "a_en": "When the Dharma faces catastrophe in the Land of Snows, the teachings of the Kalachakra Tantra will be continued by disciples beyond the snow mountains. Great masters will establish centers in distant lands, bestow initiations, and ensure the Kalachakra lineage remains unbroken.",
+      "year": 1970,
+      "status": "verified",
+      "verdict_zh": "1970年代起，达赖喇嘛及多位藏传佛教大德在全球范围内举行时轮金刚灌顶法会。截至2025年，达赖喇嘛已主持超过30次时轮金刚灌顶，遍布印度、美国、欧洲和澳大利亚等地。",
+      "verdict_en": "From the 1970s onward, the Dalai Lama and other prominent Tibetan Buddhist masters have conducted Kalachakra initiation ceremonies worldwide. As of 2025, the Dalai Lama has presided over more than 30 Kalachakra initiations across India, the United States, Europe, and Australia."
+    },
+    {
+      "id": 15,
+      "cat": "war",
+      "q": "末法时代的征兆",
+      "a": "在如意轮王降世之前，世间将出现诸多征兆：人心败坏、道德沦丧、假法横行、战争频发、瘟疫蔓延、众生互相残杀。这些都是蛮族势力即将征服世界的先兆。",
+      "q_en": "Signs of the Age of Decline",
+      "a_en": "Before the emergence of Rudra Cakrin, many signs will appear in the world: human hearts will be corrupted, morality will collapse, false teachings will proliferate, wars will rage, plagues will spread, and beings will slaughter one another. These are all portents that the barbarian forces are about to conquer the world.",
+      "year": "未确定",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    }
+  ]
+}

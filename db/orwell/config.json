@@ -1,0 +1,69 @@
+{
+  "siteId": "orwell",
+  "answererName": "George Orwell",
+  "publishDate": "1949",
+  "baseUrl": "https://pre.hilife.me/orwell",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "乔治·奥威尔文学预言全集 - 《1984》与《动物庄园》中的16条预言与验证 | Orwell Prophecies",
+      "description": "英国作家乔治·奥威尔（1903-1950）在《1984》和《动物庄园》等作品中对极权主义、大规模监控、语言操控、历史篡改等社会问题的预言性警告。这些文学预言在数十年后惊人地成为现实。",
+      "keywords": "乔治奥威尔,1984,动物庄园,奥威尔预言,老大哥,电幕,新话,双重思想,极权主义,监控社会,思想控制,George Orwell",
+      "siteName": "奥威尔文学预言",
+      "ogTitle": "乔治·奥威尔文学预言全集 | Orwell Literary Prophecies",
+      "ogDescription": "英国作家乔治·奥威尔在《1984》和《动物庄园》中的预言性警告——大规模监控、语言操控、历史篡改、极权主义——如何在数十年后成为现实。",
+      "locale": "zh_CN",
+      "twitterDescription": "奥威尔《1984》中的16条文学预言与现实验证：电幕与监控摄像头、新话与政治正确、老大哥与NSA棱镜计划。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "George Orwell Literary Prophecies - 16 Predictions from 1984 & Animal Farm | Full Archive & Verification",
+      "description": "George Orwell (1903-1950) foresaw mass surveillance, thought control, language manipulation, and historical revisionism in his dystopian novels '1984' and 'Animal Farm'. These literary prophecies have become remarkably prescient decades later.",
+      "keywords": "George Orwell,1984,Animal Farm,Orwell predictions,Big Brother,telescreen,Newspeak,doublethink,totalitarianism,surveillance state,thought control,dystopia",
+      "siteName": "Orwell Literary Prophecies",
+      "ogTitle": "George Orwell Literary Prophecies - Predictions from 1984 & Animal Farm",
+      "ogDescription": "16 prophetic warnings from George Orwell's dystopian works — mass surveillance, Newspeak, historical revisionism, perpetual war — verified against real-world events from NSA to social media.",
+      "locale": "en_US",
+      "twitterDescription": "16 literary prophecies from Orwell's 1984 & Animal Farm. Telescreens became CCTV & smartphones. Newspeak became political language. Big Brother became the NSA."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "奥威尔文学预言",
+      "alternateName": "Orwell Literary Prophecies",
+      "url": "https://pre.hilife.me/orwell/",
+      "description": "英国作家乔治·奥威尔在《1984》和《动物庄园》中的预言性警告与现实验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0ee",
+    "white": "#fff",
+    "text": "#2a2a2e",
+    "text2": "#707078",
+    "textLight": "#5e5e66",
+    "primary": "#4a5a6b",
+    "primaryDark": "#2e3e50",
+    "primaryBg": "#e8ecf2",
+    "link": "#4a5a6b",
+    "border": "#dcdce0",
+    "border2": "#bec0c6",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eaeae8"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Orwell Literary Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/George_Orwell",
+    "sourceLabel": "Wikipedia"
+  }
+}

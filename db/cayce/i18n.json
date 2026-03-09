@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "埃德加·凯西预言",
+    "siteSubtitle": "美国睡眠先知（1877-1945）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "埃德加·凯西是谁？",
+    "homeIntro1": "埃德加·凯西（Edgar Cayce，1877年3月18日—1945年1月3日），美国著名灵媒与预言家，被称为「睡眠先知」。他能在自我催眠的恍惚状态下进行「解读」（readings），对医学诊断、前世轮回、未来事件等做出详细描述。一生中留下超过14000份记录在案的解读。",
+    "homeIntro2": "凯西的预言涵盖地球变动（加州沉没、纽约被毁）、亚特兰蒂斯文明的记忆、地极转移、二战走向、中国成为基督教摇篮、俄罗斯的灵性角色等。他创立的启蒙研究协会（A.R.E.）至今仍在运作，保存着所有原始解读记录。",
+    "homeIntro3": "凯西的部分预言已被现实印证，如1929年股市崩盘、二战爆发及结束时间、以色列建国等。但也有许多预言（如加州沉没、亚特兰蒂斯重现）至今未应验。本站整理了他最重要的预言条目，并对已到期的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「未来不是固定的。它取决于人类在当下所做的选择。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1877年 —— 出生于美国肯塔基州霍普金斯维尔",
+      "1901年 —— 首次进入催眠状态进行解读",
+      "1923年 —— 开始做「生命解读」，涉及前世与预言",
+      "1931年 —— 创立启蒙研究协会（A.R.E.）",
+      "1944年 —— 健康恶化，停止解读",
+      "1945年 —— 逝世于弗吉尼亚海滩"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自 A.R.E. 存档的凯西解读原文（<a href=\"https://www.edgarcayce.org/\" target=\"_blank\" rel=\"noopener\">Edgar Cayce's A.R.E.</a>）",
+      "参考 Thomas Sugrue 所著传记《There Is a River》（<a href=\"https://en.wikipedia.org/wiki/There_Is_a_River\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开新闻报道和历史记录",
+      "编者观点不代表学术定论",
+      "站点图标采用闭眼符号——凯西以「睡眠先知」闻名，闭目催眠状态下做出解读是他最具标志性的形象"
+    ]
+  },
+  "en": {
+    "siteTitle": "Edgar Cayce Prophecies",
+    "siteSubtitle": "The Sleeping Prophet (1877-1945)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Edgar Cayce?",
+    "homeIntro1": "Edgar Cayce (March 18, 1877 – January 3, 1945) was an American clairvoyant and psychic known as the 'Sleeping Prophet'. He could enter a self-induced trance state and deliver 'readings' covering medical diagnoses, past-life memories, and future events. He left over 14,000 documented readings in his lifetime.",
+    "homeIntro2": "Cayce's prophecies encompass earth changes (California sinking, New York destroyed), memories of Atlantean civilization, pole shifts, the course of WWII, China becoming the cradle of Christianity, Russia's spiritual role, and more. The Association for Research and Enlightenment (A.R.E.), which he founded, still operates today and preserves all original reading records.",
+    "homeIntro3": "Some of Cayce's predictions have been confirmed by events, such as the 1929 stock market crash, the outbreak and end of WWII, and the founding of Israel. However, many predictions (such as California sinking and Atlantis resurfacing) remain unfulfilled. This site compiles his most significant prophecies and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The future is not fixed. It depends on the choices humanity makes in the present.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1877 —— Born in Hopkinsville, Kentucky, USA",
+      "1901 —— First entered trance state to deliver a reading",
+      "1923 —— Began 'life readings' involving past lives and prophecy",
+      "1931 —— Founded the Association for Research and Enlightenment (A.R.E.)",
+      "1944 —— Health deteriorated, stopped giving readings",
+      "1945 —— Died in Virginia Beach"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled from Cayce's original readings archived at A.R.E. (<a href=\"https://www.edgarcayce.org/\" target=\"_blank\" rel=\"noopener\">Edgar Cayce's A.R.E.</a>)",
+      "Reference: biography <em>There Is a River</em> by Thomas Sugrue (<a href=\"https://en.wikipedia.org/wiki/There_Is_a_River\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public news reports and historical records",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: closed eye symbol — Cayce was known as the 'Sleeping Prophet', delivering readings with his eyes closed in a trance state, his most iconic image"
+    ]
+  }
+}

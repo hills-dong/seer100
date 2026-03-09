@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "以诺书预言",
+    "siteSubtitle": "古犹太启示文学（约公元前300年—前1世纪）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "以诺书是什么？",
+    "homeIntro1": "《以诺书》（1 Enoch），又称《埃塞俄比亚以诺书》，是古代犹太伪典文献中最重要的启示录作品之一。该书以《创世记》中被提升到天上的族长以诺为名，约成书于公元前300年至公元前1世纪，由多位匿名作者分阶段编纂而成。",
+    "homeIntro2": "全书包含五个主要部分：《守望者之书》讲述堕天使与人类女子结合及其审判；《比喻之书》描绘「人子」弥赛亚降临与末世审判；《天文之书》记录太阳历法与天体运行；《梦幻异象》以动物寓言重述以色列历史与末世；《以诺书信》警示义人与罪人的终极命运。",
+    "homeIntro3": "以诺书虽未被大多数犹太教和基督教教派列为正典，但对早期基督教神学、死海古卷社团的末世观，以及后世犹太神秘主义均产生深远影响。埃塞俄比亚正教会至今仍将其纳入圣经正典。本站整理了书中主要的预言性段落，附以现代学术视角的评注。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「看哪，他带着千万圣者降临，要对一切人执行审判，要定一切不敬虔之人的罪。」",
+    "keyPoints": "关键章节",
+    "keyPointsList": [
+      "守望者之书（1-36章） —— 堕天使教导人类禁忌知识，遭上帝审判囚禁于地底深渊",
+      "比喻之书（37-71章） —— 「人子」弥赛亚在末日审判中审判列国，义人复活",
+      "天文之书（72-82章） —— 太阳历法364天体系，末世天体失序的征兆",
+      "梦幻异象（83-90章） —— 动物启示录以寓言形式预述从创世到弥赛亚时代的历史",
+      "以诺书信（91-108章） —— 十周启示录预言人类历史十个时代与最终审判"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文基于 R.H. Charles 经典英译本（1917年）及 E. Isaac 译本（<a href=\"https://en.wikipedia.org/wiki/Book_of_Enoch\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "死海古卷中发现的以诺书残卷证实文本年代（<a href=\"https://www.deadseascrolls.org.il/\" target=\"_blank\" rel=\"noopener\">Dead Sea Scrolls Digital Library</a>）",
+      "学术评注参考 George W.E. Nickelsburg 的《1 Enoch: A Commentary》（Hermeneia 系列）",
+      "验证评价基于历史事件对照与学术共识，编者观点不代表宗教定论",
+      "站点图标采用六翼星形——象征以诺在天界之旅中见到的天使与天体秩序"
+    ]
+  },
+  "en": {
+    "siteTitle": "Book of Enoch",
+    "siteSubtitle": "Ancient Jewish Apocalyptic Literature (c. 300 BCE – 1st c. BCE)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is the Book of Enoch?",
+    "homeIntro1": "The Book of Enoch (1 Enoch), also known as Ethiopic Enoch, is one of the most important apocalyptic works in ancient Jewish pseudepigrapha. Attributed to the biblical patriarch Enoch who was 'taken up' to heaven (Genesis 5:24), the text was composed between approximately 300 BCE and the 1st century BCE by multiple anonymous authors.",
+    "homeIntro2": "The work comprises five major sections: the Book of Watchers describes fallen angels mating with human women and their judgment; the Parables of Enoch depict the 'Son of Man' Messiah and the final judgment; the Astronomical Book records a 364-day solar calendar; the Dream Visions retell Israel's history through animal allegory; and the Epistle of Enoch warns of the ultimate fates of the righteous and sinners.",
+    "homeIntro3": "Though excluded from most Jewish and Christian canons, 1 Enoch profoundly influenced early Christian theology, the Dead Sea Scrolls community's eschatology, and later Jewish mysticism. The Ethiopian Orthodox Church still includes it in its biblical canon. This site compiles the major prophetic passages with commentary from a modern scholarly perspective.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Behold, He comes with ten thousands of His holy ones, to execute judgment upon all, and to convict all the ungodly.\"",
+    "keyPoints": "Key Sections",
+    "keyPointsList": [
+      "Book of Watchers (Ch. 1-36) —— Fallen angels teach forbidden knowledge; God judges and imprisons them in the abyss",
+      "Parables of Enoch (Ch. 37-71) —— The 'Son of Man' Messiah judges the nations; the righteous are resurrected",
+      "Astronomical Book (Ch. 72-82) —— A 364-day solar calendar system; celestial disorder as an end-times sign",
+      "Dream Visions (Ch. 83-90) —— The Animal Apocalypse allegorically foretells history from creation to the Messianic age",
+      "Epistle of Enoch (Ch. 91-108) —— The Apocalypse of Weeks prophesies ten ages of human history and the final judgment"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy texts based on R.H. Charles' classic English translation (1917) and E. Isaac's translation (<a href=\"https://en.wikipedia.org/wiki/Book_of_Enoch\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Dead Sea Scrolls fragments of 1 Enoch confirm the text's dating (<a href=\"https://www.deadseascrolls.org.il/\" target=\"_blank\" rel=\"noopener\">Dead Sea Scrolls Digital Library</a>)",
+      "Scholarly commentary references George W.E. Nickelsburg's '1 Enoch: A Commentary' (Hermeneia series)",
+      "Verification based on historical event correlation and scholarly consensus; editorial opinions do not represent religious doctrine",
+      "Site icon: six-pointed star motif — symbolizing the angels and celestial order Enoch witnessed during his heavenly journey"
+    ]
+  }
+}

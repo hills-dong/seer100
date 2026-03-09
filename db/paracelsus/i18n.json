@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "帕拉塞尔苏斯预言",
+    "siteSubtitle": "瑞士-德意志炼金术士与医师（1493-1541）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "帕拉塞尔苏斯是谁？",
+    "homeIntro1": "帕拉塞尔苏斯（Paracelsus，1493年11月11日—1541年9月24日），全名特奥弗拉斯图斯·冯·霍恩海姆（Theophrastus von Hohenheim），是瑞士-德意志医师、炼金术士、占星家和神秘学家。他被誉为「毒理学之父」，开创了以化学方法治疗疾病的先河。",
+    "homeIntro2": "帕拉塞尔苏斯一生著述丰富，涉及医学、炼金术、哲学和预言。他的《预言书》（Prognostications）写于1530年代，包含对未来数百年欧洲和人类文明的预测，涵盖宗教改革、医学进步、社会变革和自然灾害等领域。",
+    "homeIntro3": "他的许多预言具有浓厚的炼金术象征和神秘主义色彩，需要结合当时的文化语境解读。本站整理了他的主要预言，并对已到期的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「万物皆有毒，无物不含毒；唯有剂量决定它是否为毒。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1493年 —— 出生于瑞士施维茨州艾因西德伦",
+      "1516年 —— 获得费拉拉大学医学博士学位",
+      "1527年 —— 受聘巴塞尔市医官，公开焚烧阿维森纳和盖伦的著作",
+      "1531-1538年 —— 撰写《预言书》等预言性著作",
+      "1541年 —— 在萨尔茨堡去世，享年47岁"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容主要整理自帕拉塞尔苏斯的《预言书》（Prognostications）及其他预言性著作（<a href=\"https://en.wikipedia.org/wiki/Paracelsus\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "部分预言参考了Andrew Weeks所著《Paracelsus: Speculative Theory and the Crisis of the Early Reformation》（<a href=\"https://www.sunypress.edu/p-2981-paracelsus.aspx\" target=\"_blank\" rel=\"noopener\">SUNY Press</a>）",
+      "验证评价基于公开历史记录、学术文献和新闻报道",
+      "编者观点不代表学术定论",
+      "站点图标采用炼金术蒸馏瓶符号——帕拉塞尔苏斯以炼金术和化学医学闻名于世，蒸馏瓶是炼金术最具代表性的视觉标志"
+    ]
+  },
+  "en": {
+    "siteTitle": "Paracelsus Prophecies",
+    "siteSubtitle": "Swiss-German Alchemist & Physician (1493-1541)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Paracelsus?",
+    "homeIntro1": "Paracelsus (November 11, 1493 – September 24, 1541), born Theophrastus von Hohenheim, was a Swiss-German physician, alchemist, astrologer, and occultist. He is regarded as the 'Father of Toxicology' and pioneered the use of chemicals and minerals in medicine.",
+    "homeIntro2": "Paracelsus was a prolific writer whose works spanned medicine, alchemy, philosophy, and prophecy. His Prognostications, written in the 1530s, contain predictions about the future of Europe and human civilization over the coming centuries, covering religious reformation, medical advances, social upheaval, and natural disasters.",
+    "homeIntro3": "Many of his prophecies are steeped in alchemical symbolism and mysticism, requiring interpretation within their cultural context. This site compiles his major prophecies and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"All things are poison, and nothing is without poison; the dosage alone makes it so a thing is not a poison.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1493 —— Born in Einsiedeln, Canton of Schwyz, Switzerland",
+      "1516 —— Received medical doctorate from University of Ferrara",
+      "1527 —— Appointed city physician in Basel; publicly burned works of Avicenna and Galen",
+      "1531-1538 —— Wrote Prognostications and other prophetic works",
+      "1541 —— Died in Salzburg at the age of 47"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled primarily from Paracelsus's Prognostications and other prophetic writings (<a href=\"https://en.wikipedia.org/wiki/Paracelsus\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Some prophecies reference Andrew Weeks' <em>Paracelsus: Speculative Theory and the Crisis of the Early Reformation</em> (<a href=\"https://www.sunypress.edu/p-2981-paracelsus.aspx\" target=\"_blank\" rel=\"noopener\">SUNY Press</a>)",
+      "Verification based on public historical records, academic literature, and news reports",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: alchemical retort — Paracelsus is renowned for alchemy and chemical medicine, and the retort is the most iconic visual symbol of alchemy"
+    ]
+  }
+}

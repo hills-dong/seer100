@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "铁板神数",
+    "siteSubtitle": "清代·邵雍（传）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "铁板神数是什么？",
+    "homeIntro1": "铁板神数是中国古代最精密的命理推算体系之一。其名取「铁板钉钉」之意——推算结果铁定不移，不可更改。该体系以人的八字（出生年月日时的天干地支）为基础，通过一套复杂的数学运算公式得出数值，再查对应的条文，据称可精确推算人一生的吉凶祸福。",
+    "homeIntro2": "铁板神数传为北宋理学家、易学大家邵雍（1011—1077）所创。邵雍精研《易经》，创立了「先天象数学」，以数理推演宇宙万物变化。但现存铁板神数的版本、算法和条文体系，实际上经过了元、明、清三代众多术数家的整理、增补与改编，成书于清代康熙至乾隆年间。全书条文多达12000余条，涵盖六亲（父母兄弟妻子）、功名仕途、婚姻子嗣、寿元归期等人生各个方面。",
+    "homeIntro3": "铁板神数在民间被誉为「天下第一神数」，与「紫微斗数」「子平八字」并称中国三大命理体系。然而学术界对其有效性争议极大：支持者举出推算精确到六亲人数和属相的案例；质疑者则认为12000余条条文覆盖面极广，通过模糊匹配和话术引导容易产生「命中」的错觉。本站精选最具代表性的条文进行解读，供读者了解这一独特的数术传统。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「先天数定，铁板不移。」——铁板神数卷首语",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "邵雍（1011—1077） —— 被尊为铁板神数的创始人，实为先天象数学奠基者",
+      "元明时期 —— 术数家开始整理和扩充条文体系",
+      "清康熙至乾隆间 —— 铁板神数成书并广泛流传，版本众多",
+      "清代铁笔道人 —— 整理出较为通行的版本，条文编号体系定型",
+      "当代 —— 命理学者尝试用现代统计方法检验其准确性，争议持续"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "条文来源于清代通行本《铁板神数》，不同版本条文和编号可能有差异（<a href=\"https://zh.wikipedia.org/wiki/铁板神数\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "邵雍生平及先天象数学参见《宋史·邵雍传》（<a href=\"https://zh.wikipedia.org/wiki/邵雍\" target=\"_blank\" rel=\"noopener\">维基百科·邵雍</a>）",
+      "条文解读基于传统命理学文献和公开资料，编者观点不代表学术定论",
+      "站点图标采用算盘——铁板神数以数学运算查条文，算盘是中国古代计算的标志性工具"
+    ]
+  },
+  "en": {
+    "siteTitle": "Iron Plate Divination",
+    "siteSubtitle": "Qing Dynasty · Attributed to Shao Yong",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Iron Plate Divination?",
+    "homeIntro1": "Iron Plate Divination (铁板神数, Tie Ban Shen Shu) is one of the most sophisticated numerological fate-calculation systems in Chinese tradition. Its name means 'iron plate divine numbers' — implying that its predictions are as immutable as iron. The system takes a person's 'Eight Characters' (四柱八字, the Heavenly Stems and Earthly Branches of one's birth year, month, day, and hour) as input, applies complex mathematical formulas, and cross-references the resulting numbers with condition-texts to predict one's entire life.",
+    "homeIntro2": "The system is traditionally attributed to Shao Yong (1011–1077), a Northern Song dynasty Neo-Confucian philosopher and master of I Ching studies. Shao Yong developed 'Pre-Heaven Image-Number Studies' (先天象数学), a framework for mathematically modeling cosmic and human change. However, the actual Iron Plate Divination texts, algorithms, and condition libraries were compiled and expanded by numerous practitioners across the Yuan, Ming, and Qing dynasties, reaching their current form during the Kangxi–Qianlong era. The complete system contains over 12,000 condition-texts covering kinship (parents, siblings, spouse), career and officialdom, marriage and offspring, and lifespan.",
+    "homeIntro3": "Iron Plate Divination is popularly hailed as 'the greatest divine number system under heaven,' alongside Purple Star Astrology (紫微斗数) and Four Pillars of Destiny (子平八字) as the three great Chinese fate-calculation systems. Yet its validity is fiercely debated: proponents cite cases where it accurately predicted the exact number and zodiac signs of one's siblings; skeptics argue that with 12,000+ condition-texts, vague matching and cold-reading techniques easily create the illusion of accuracy. This site presents a curated selection of the most representative entries for readers to explore this unique numerological tradition.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Pre-heaven numbers are fixed; the iron plate does not move.\" — Opening line of Iron Plate Divination",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Shao Yong (1011–1077) —— Revered as the founder; actually the pioneer of Pre-Heaven Image-Number Studies",
+      "Yuan–Ming period —— Numerologists began compiling and expanding the condition-text system",
+      "Kangxi–Qianlong era (Qing) —— Iron Plate Divination reached its final form and circulated widely",
+      "Qing-era 'Iron Brush Daoist' —— Compiled the most widely used edition, standardizing the numbering system",
+      "Modern era —— Scholars attempt statistical validation of its accuracy; debate continues"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Condition-texts sourced from Qing dynasty standard editions of Iron Plate Divination; text and numbering may vary between versions (<a href=\"https://zh.wikipedia.org/wiki/铁板神数\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "For Shao Yong's life and Pre-Heaven studies, see History of Song, Biography of Shao Yong (<a href=\"https://zh.wikipedia.org/wiki/邵雍\" target=\"_blank\" rel=\"noopener\">Wikipedia: Shao Yong</a>)",
+      "Interpretations based on traditional Chinese numerological literature and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: abacus — Iron Plate Divination uses mathematical calculations to look up condition-texts, and the abacus is the iconic computing tool of ancient China"
+    ]
+  }
+}

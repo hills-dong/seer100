@@ -1,0 +1,69 @@
+{
+  "siteId": "steiner",
+  "answererName": "Rudolf Steiner",
+  "publishDate": "1861-1925",
+  "baseUrl": "https://pre.hilife.me/steiner",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "鲁道夫·施泰纳预言全集 - 人智学创始人对人类未来的预言与验证 | Rudolf Steiner Prophecies",
+      "description": "奥地利哲学家、人智学创始人鲁道夫·施泰纳（1861-1925）关于人类未来的预言完整收录，涵盖战争、唯物主义后果、疫苗与医学、灵性进化、科技对灵魂的影响、阿里曼化身等领域。",
+      "keywords": "施泰纳,鲁道夫施泰纳,Rudolf Steiner,人智学,Anthroposophy,预言,灵性科学,阿里曼,未来预言,华德福",
+      "siteName": "施泰纳预言",
+      "ogTitle": "鲁道夫·施泰纳预言全集 | Rudolf Steiner Prophecies",
+      "ogDescription": "奥地利哲学家、人智学创始人施泰纳关于人类未来的预言完整收录与验证分析。涵盖战争、唯物主义、灵性进化、科技与灵魂等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "人智学创始人施泰纳的预言收录与验证。涵盖两次世界大战、唯物主义后果、阿里曼化身、灵性进化等主题。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Rudolf Steiner Prophecies - Predictions from the Founder of Anthroposophy (1861-1925) | Full Archive & Verification",
+      "description": "Austrian philosopher and founder of Anthroposophy Rudolf Steiner (1861-1925) left profound predictions about humanity's future, covering wars, materialism's consequences, vaccines and medicine, spiritual evolution, technology's effects on the soul, and the incarnation of Ahriman.",
+      "keywords": "Rudolf Steiner,Steiner predictions,Anthroposophy,spiritual science,Ahriman,prophecy,Waldorf,Goetheanum,future predictions,esoteric",
+      "siteName": "Rudolf Steiner Prophecies",
+      "ogTitle": "Rudolf Steiner Prophecies - Complete Predictions from the Founder of Anthroposophy",
+      "ogDescription": "Predictions from Austrian philosopher Rudolf Steiner (1861-1925), founder of Anthroposophy. Full archive with verification covering wars, materialism, spiritual evolution, and technology.",
+      "locale": "en_US",
+      "twitterDescription": "Predictions from Rudolf Steiner, founder of Anthroposophy. Covering world wars, materialism, Ahriman's incarnation, spiritual evolution, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "施泰纳预言",
+      "alternateName": "Rudolf Steiner Prophecies",
+      "url": "https://pre.hilife.me/steiner/",
+      "description": "奥地利哲学家、人智学创始人施泰纳关于人类未来的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0e6",
+    "white": "#fff",
+    "text": "#2c2820",
+    "text2": "#78705e",
+    "textLight": "#645c4c",
+    "primary": "#5a6a3a",
+    "primaryDark": "#3e4e24",
+    "primaryBg": "#eef2e6",
+    "link": "#5a6a3a",
+    "border": "#dedad0",
+    "border2": "#c2beb0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eeeae0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Rudolf Steiner Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rudolf_Steiner",
+    "sourceLabel": "Wikipedia"
+  }
+}

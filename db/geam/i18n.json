@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "格庵遗录预言",
+    "siteSubtitle": "朝鲜王朝·南师古",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "格庵遗录是什么？",
+    "homeIntro1": "《格庵遗录》相传为朝鲜王朝学者南师古（1509—1571）所著。南师古号格庵，又号敬庵，精通易学、风水、天文、占卜与相术，晚年官任观象监天文学教授。据说他少年时于金刚山遇一神人，神人传授秘诀，南师古遂将其记录成书，这便是《格庵遗录》的由来。",
+    "homeIntro2": "全书以汉文（韩国称为「汉字」）写成，共六十篇，以隐晦的谶纬体裁，据信预言了朝鲜半岛从壬辰倭乱到未来的重大历史事件。内容涵盖王朝兴亡、外族入侵、民族分裂与统一等主题，与韩国另一部著名预言书《郑鉴录》多有呼应。",
+    "homeIntro3": "然而学术界对《格庵遗录》的真伪争议颇大。现存最广泛流传的版本由李道殷于1977年公开，被多位学者指为伪作——书中出现了「哲学」「共产」「原子」等近现代词汇，在南师古生活的16世纪并不存在。尽管如此，《格庵遗录》在韩国民间仍具有广泛影响力，被多个宗教团体引用与解读。本站整理部分篇章内容并进行验证分析，供读者参考。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「送旧迎新好时节，万物苦待新天运。」——格庵遗录",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "南师古秘诀 —— 全书纲领，金刚山神人传授之秘诀总论",
+      "十胜歌 —— 十处避难胜地（十胜地），风水地理之精要",
+      "末运论 —— 末世时运之推演，全书最重要篇章之一",
+      "隐秘歌 —— 以隐语预言朝鲜半岛重大历史变局",
+      "甲乙歌 —— 全书终篇，预言新世界之开端"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言文本整理自《格庵遗录》流传版本，其真伪及成书年代学术界尚有争议（<a href=\"https://en.wikipedia.org/wiki/Gyeogam_Yurok\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "南师古生平参考韩国维基百科条目（<a href=\"https://en.wikipedia.org/wiki/Nam_Sago\" target=\"_blank\" rel=\"noopener\">Nam Sago - Wikipedia</a>）",
+      "1977年李道殷公开的版本被学界主流认为是事后编写的伪作",
+      "验证评价基于历史文献和公开资料，编者观点不代表学术定论",
+      "站点图标采用三太极纹样——三太极（삼태극）是韩国传统纹样，象征天地人三才，广泛应用于韩国传统建筑与文化符号中"
+    ]
+  },
+  "en": {
+    "siteTitle": "Gyeogam Yurok Prophecies",
+    "siteSubtitle": "Joseon Dynasty · Nam Sa-go",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Gyeogam Yurok?",
+    "homeIntro1": "Gyeogam Yurok (격암유록, 格庵遗录, \"Records Left by Gyeogam\") is attributed to Nam Sa-go (1509–1571), a Joseon-era Korean scholar who styled himself \"Gyeogam.\" He was renowned for his mastery of the I Ching, geomancy (feng shui), astronomy, divination, and physiognomy, and served as Professor of Astronomy at the Gwansanggam (Royal Observatory) in his later years. Legend has it that as a young man, he encountered a divine being on Mount Geumgang who imparted secret prophecies, which Nam Sa-go then recorded — thus creating the Gyeogam Yurok.",
+    "homeIntro2": "Written entirely in classical Chinese (Hanja), the text comprises 60 chapters in a cryptic prophetic style. It is believed to foretell major events on the Korean Peninsula from the Imjin War (1592) to the distant future, covering themes of dynastic rise and fall, foreign invasion, national division, and eventual reunification. The text shares thematic connections with another famous Korean prophecy, the Jeonggamnok (鄭鑑錄).",
+    "homeIntro3": "However, the authenticity of Gyeogam Yurok is highly disputed among scholars. The most widely circulated version was released by Lee Do-eun in 1977 and has been identified by multiple scholars as a forgery — the text contains modern Chinese coinages such as 'philosophy' (哲學), 'communism' (共産), and 'atom' (原子) that did not exist in Nam Sa-go's 16th-century era. Despite this, the text retains significant influence in Korean folk culture and has been cited and interpreted by various religious groups. This site presents selected chapters with verification analysis for reference.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"A fine season to bid the old farewell and welcome the new — all things await the new heavenly destiny.\" — Gyeogam Yurok",
+    "keyPoints": "Key Chapters",
+    "keyPointsList": [
+      "Nam Sa-go's Secret (南師古秘訣) —— Opening chapter summarizing the divine secrets from Mount Geumgang",
+      "Song of Ten Refuges (十勝歌) —— Ten auspicious sites for safe haven, essence of geomantic wisdom",
+      "Discourse on the Final Age (末運論) —— Prophecy of end-times destiny, one of the most important chapters",
+      "Song of Hidden Secrets (隱秘歌) —— Cryptic prophecies of major upheavals on the Korean Peninsula",
+      "Song of Gap-Eul (甲乙歌) —— Final chapter, prophecy of a new world's beginning"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy text compiled from circulating editions of Gyeogam Yurok; authenticity and date of composition remain debated (<a href=\"https://en.wikipedia.org/wiki/Gyeogam_Yurok\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Nam Sa-go biography referenced from Wikipedia (<a href=\"https://en.wikipedia.org/wiki/Nam_Sago\" target=\"_blank\" rel=\"noopener\">Nam Sago - Wikipedia</a>)",
+      "The 1977 version released by Lee Do-eun is widely considered by scholars to be a post-hoc forgery",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: Samtaegeuk (삼태극, triple taegeuk) — a traditional Korean motif symbolizing heaven, earth, and humanity, widely used in Korean architecture and cultural symbols"
+    ]
+  }
+}

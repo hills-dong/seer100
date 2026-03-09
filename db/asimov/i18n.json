@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "阿西莫夫预言",
+    "siteSubtitle": "俄裔美国科幻大师（1920-1992）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "阿西莫夫是谁？",
+    "homeIntro1": "艾萨克·阿西莫夫（Isaac Asimov，1920年1月2日—1992年4月6日），俄裔美国作家、波士顿大学生物化学教授，被公认为二十世纪最伟大的科幻小说家之一。他一生著述近500部作品，涵盖科幻、科普、历史等多个领域。",
+    "homeIntro2": "阿西莫夫以「基地」系列、「机器人」系列和「银河帝国」系列闻名于世，他提出的「机器人三定律」深刻影响了后世对人工智能伦理的思考。1964年，他为《纽约时报》撰写了著名的世博会预言文章《Visit to the World's Fair of 2014》，对50年后的世界做出了惊人准确的预测。",
+    "homeIntro3": "阿西莫夫的预测并非神秘主义的占卜，而是基于科学素养和逻辑推演的理性展望。他对自动驾驶、视频通话、在线教育、太空站等领域的预测已被现实印证。本站整理了他最具代表性的16条预言，并对已到期的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「预测未来最好的方式，就是创造未来。我相信科学和理性将引导人类走向更好的明天。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1950年 —— 出版《我，机器人》，提出机器人三定律",
+      "1951年 —— 出版《基地》，构想心理史学预测文明走向",
+      "1964年 —— 为《纽约时报》撰写2014年世博会预言文章",
+      "1983年 —— 出版《基地边缘》，探讨人类与AI的共存",
+      "1988年 —— 在演讲中预测互联网将改变教育模式",
+      "1992年 —— 去世，留下近500部著作"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "1964年世博会预言文章原文（<a href=\"https://archive.org/details/nytvisittoworldsfairof2014\" target=\"_blank\" rel=\"noopener\">Archive.org</a>；<a href=\"https://www.nytimes.com/books/97/03/23/lifetimes/asi-v-fair.html\" target=\"_blank\" rel=\"noopener\">NYT 存档</a>）",
+      "阿西莫夫科幻作品：《我，机器人》《基地》系列、《钢穴》等（<a href=\"https://en.wikipedia.org/wiki/Isaac_Asimov_bibliography\" target=\"_blank\" rel=\"noopener\">作品全集</a>）",
+      "验证评价基于公开新闻报道和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用机器人头像符号——阿西莫夫以机器人三定律和「我，机器人」闻名于世，机器人是其最广为流传的文化标志"
+    ]
+  },
+  "en": {
+    "siteTitle": "Asimov Predictions",
+    "siteSubtitle": "Russian-American Sci-Fi Master (1920-1992)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Isaac Asimov?",
+    "homeIntro1": "Isaac Asimov (January 2, 1920 – April 6, 1992) was a Russian-American author and professor of biochemistry at Boston University, widely regarded as one of the greatest science fiction writers of the 20th century. He authored nearly 500 books spanning science fiction, popular science, and history.",
+    "homeIntro2": "Asimov is best known for his Foundation series, Robot series, and Galactic Empire series. His Three Laws of Robotics profoundly influenced modern thinking about AI ethics. In 1964, he wrote a famous essay for The New York Times, 'Visit to the World's Fair of 2014', making remarkably accurate predictions about the world 50 years later.",
+    "homeIntro3": "Asimov's predictions were not mystical prophecies but rational foresight grounded in scientific literacy and logical reasoning. His predictions about self-driving cars, video calling, online education, and space stations have been confirmed by reality. This site compiles 16 of his most representative predictions and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1950 —— Published 'I, Robot', introducing the Three Laws of Robotics",
+      "1951 —— Published 'Foundation', envisioning psychohistory to predict civilization",
+      "1964 —— Wrote the famous 2014 World's Fair prediction essay for The New York Times",
+      "1983 —— Published 'Foundation's Edge', exploring human-AI coexistence",
+      "1988 —— Predicted in lectures that the internet would transform education",
+      "1992 —— Passed away, leaving nearly 500 published works"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "1964 World's Fair prediction essay (<a href=\"https://archive.org/details/nytvisittoworldsfairof2014\" target=\"_blank\" rel=\"noopener\">Archive.org</a>; <a href=\"https://www.nytimes.com/books/97/03/23/lifetimes/asi-v-fair.html\" target=\"_blank\" rel=\"noopener\">NYT Archive</a>)",
+      "Asimov's science fiction works: I, Robot; Foundation series; The Caves of Steel, etc. (<a href=\"https://en.wikipedia.org/wiki/Isaac_Asimov_bibliography\" target=\"_blank\" rel=\"noopener\">Complete bibliography</a>)",
+      "Verification based on public news reports and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: robot head symbol — Asimov is known worldwide for his Three Laws of Robotics and 'I, Robot', making the robot his most iconic cultural symbol"
+    ]
+  }
+}

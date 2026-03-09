@@ -1,0 +1,69 @@
+{
+  "siteId": "mckenna",
+  "answererName": "Terence McKenna",
+  "publishDate": "1975-2000",
+  "baseUrl": "https://pre.hilife.me/mckenna",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "特伦斯·麦肯纳预言全集 - 时间波零点理论与未来预言 | Terence McKenna Prophecies",
+      "description": "美国民族植物学家、哲学家特伦斯·麦肯纳（1946-2000）关于2012奇点、虚拟现实、人工智能、迷幻复兴、语言进化等领域的14条预言与验证分析。基于时间波零点理论和新奇理论。",
+      "keywords": "特伦斯麦肯纳,McKenna,时间波零点,Timewave Zero,新奇理论,2012预言,迷幻复兴,DMT,虚拟现实预言,意识进化",
+      "siteName": "特伦斯·麦肯纳预言",
+      "ogTitle": "特伦斯·麦肯纳预言全集 | Terence McKenna Prophecies",
+      "ogDescription": "美国民族植物学家麦肯纳关于时间波零点、虚拟现实、AI、迷幻复兴等领域的预言与验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条特伦斯·麦肯纳的预言，涵盖2012奇点、虚拟现实、AI、迷幻复兴、意识进化等领域。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Terence McKenna Prophecies - Timewave Zero, Novelty Theory & Future Predictions | Full Archive & Verification",
+      "description": "American ethnobotanist and philosopher Terence McKenna (1946-2000) made predictions about the 2012 singularity, virtual reality, artificial intelligence, psychedelic renaissance, language evolution, and consciousness. 14 prophecies with real-world verification.",
+      "keywords": "Terence McKenna,McKenna predictions,Timewave Zero,Novelty Theory,2012 prophecy,psychedelic renaissance,DMT entities,virtual reality prediction,consciousness evolution,information acceleration",
+      "siteName": "Terence McKenna Prophecies",
+      "ogTitle": "Terence McKenna Prophecies - Timewave Zero & Novelty Theory Predictions",
+      "ogDescription": "14 prophecies from Terence McKenna on the 2012 singularity, VR, AI, psychedelic renaissance, and consciousness evolution. Full archive with verification.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from Terence McKenna covering Timewave Zero, virtual reality, AI, psychedelic renaissance, and consciousness evolution."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "特伦斯·麦肯纳预言",
+      "alternateName": "Terence McKenna Prophecies",
+      "url": "https://pre.hilife.me/mckenna/",
+      "description": "美国民族植物学家麦肯纳关于未来的预言与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f4f0",
+    "white": "#fff",
+    "text": "#242e24",
+    "text2": "#687468",
+    "textLight": "#566256",
+    "primary": "#506a3a",
+    "primaryDark": "#384e22",
+    "primaryBg": "#e8f2e6",
+    "link": "#506a3a",
+    "border": "#d8e0d6",
+    "border2": "#bcc6ba",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#e6ece4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Terence McKenna Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Terence_McKenna",
+    "sourceLabel": "Wikipedia"
+  }
+}

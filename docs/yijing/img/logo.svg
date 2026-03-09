@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 28" height="20">
+  <!-- Hexagram: 6 horizontal lines (alternating solid/broken from bottom to top) -->
+  <!-- Represents Qian/Kun duality - the foundation of I Ching -->
+  <!-- Line 1 (bottom) - solid yang line -->
+  <line x1="5" y1="25" x2="23" y2="25" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Line 2 - broken yin line -->
+  <line x1="5" y1="21.4" x2="12" y2="21.4" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="16" y1="21.4" x2="23" y2="21.4" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Line 3 - solid yang line -->
+  <line x1="5" y1="17.8" x2="23" y2="17.8" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Line 4 - broken yin line -->
+  <line x1="5" y1="14.2" x2="12" y2="14.2" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="16" y1="14.2" x2="23" y2="14.2" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Line 5 - solid yang line -->
+  <line x1="5" y1="10.6" x2="23" y2="10.6" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Line 6 (top) - broken yin line -->
+  <line x1="5" y1="7" x2="12" y2="7" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="16" y1="7" x2="23" y2="7" stroke="#3a3a2e" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Text: 易经 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#22221a" letter-spacing="2">易经</text>
+</svg>

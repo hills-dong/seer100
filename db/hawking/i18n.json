@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "霍金预言",
+    "siteSubtitle": "英国理论物理学家（1942-2018）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "斯蒂芬·霍金是谁？",
+    "homeIntro1": "斯蒂芬·威廉·霍金（Stephen William Hawking，1942年1月8日—2018年3月14日），英国理论物理学家、宇宙学家，剑桥大学卢卡斯数学教授。他在黑洞物理学和宇宙学领域做出了开创性贡献，提出了著名的霍金辐射理论，证明黑洞并非完全「黑」的。",
+    "homeIntro2": "尽管21岁时被诊断出肌萎缩侧索硬化症（ALS），霍金依然成为20世纪最具影响力的物理学家之一。他的《时间简史》销量超过2500万册，使宇宙学走入大众视野。晚年的霍金频繁就人类面临的重大威胁发出警告。",
+    "homeIntro3": "霍金的预言并非神秘主义式的预言，而是基于物理学和逻辑推演的科学性警告。他反复强调人工智能的潜在威胁、气候变化的不可逆后果、以及人类必须成为多星球物种才能长期生存。本站收录了他在著作、讲座和采访中做出的15条重要预言与警告。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「我认为人类面临的最大威胁是人工智能。一旦它全面发展，可能意味着人类的终结。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1974年 —— 提出霍金辐射理论，颠覆黑洞研究",
+      "1988年 —— 《时间简史》出版，全球销量超2500万册",
+      "2010年 —— 在《大设计》中警告不要主动联系外星人",
+      "2014年 —— 接受BBC采访，首次公开警告AI可能毁灭人类",
+      "2017年 —— 警告人类必须在100年内离开地球",
+      "2018年3月14日 —— 霍金逝世，遗作《十问》总结毕生思考"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自霍金公开著作、BBC/ITV采访、学术讲座和遗作《Brief Answers to the Big Questions》（<a href=\"https://en.wikipedia.org/wiki/Brief_Answers_to_the_Big_Questions\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "关键采访来源包括BBC 2014年专访（<a href=\"https://www.bbc.com/news/technology-30290540\" target=\"_blank\" rel=\"noopener\">BBC News</a>）和2017年北京GMIC大会演讲",
+      "验证评价基于公开新闻报道、科学文献和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用黑洞符号——霍金辐射理论是霍金最具标志性的科学贡献，黑洞是其学术生涯的核心意象"
+    ]
+  },
+  "en": {
+    "siteTitle": "Hawking Predictions",
+    "siteSubtitle": "British Theoretical Physicist (1942-2018)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Stephen Hawking?",
+    "homeIntro1": "Stephen William Hawking (January 8, 1942 – March 14, 2018) was a British theoretical physicist and cosmologist, Lucasian Professor of Mathematics at the University of Cambridge. He made groundbreaking contributions to black hole physics and cosmology, proposing the famous Hawking radiation theory which showed that black holes are not entirely 'black'.",
+    "homeIntro2": "Despite being diagnosed with amyotrophic lateral sclerosis (ALS) at age 21, Hawking became one of the most influential physicists of the 20th century. His book 'A Brief History of Time' sold over 25 million copies, bringing cosmology to public attention. In his later years, Hawking frequently warned about major threats facing humanity.",
+    "homeIntro3": "Hawking's predictions are not mystical prophecies but science-based warnings grounded in physics and logical reasoning. He repeatedly emphasized the potential threats of artificial intelligence, the irreversible consequences of climate change, and humanity's need to become a multi-planetary species for long-term survival. This site compiles 15 of his major predictions and warnings from his books, lectures, and interviews.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"I think the development of full artificial intelligence could spell the end of the human race. It would take off on its own, and re-design itself at an ever-increasing rate.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1974 —— Proposed Hawking radiation theory, revolutionizing black hole research",
+      "1988 —— Published 'A Brief History of Time', selling over 25 million copies worldwide",
+      "2010 —— Warned against contacting aliens in 'The Grand Design'",
+      "2014 —— Publicly warned AI could end humanity in BBC interview",
+      "2017 —— Warned humanity must leave Earth within 100 years",
+      "March 14, 2018 —— Hawking passed away; posthumous book 'Brief Answers' summarizes his lifelong thinking"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions compiled from Hawking's published works, BBC/ITV interviews, academic lectures, and posthumous book 'Brief Answers to the Big Questions' (<a href=\"https://en.wikipedia.org/wiki/Brief_Answers_to_the_Big_Questions\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Key interview sources include BBC 2014 interview (<a href=\"https://www.bbc.com/news/technology-30290540\" target=\"_blank\" rel=\"noopener\">BBC News</a>) and 2017 GMIC Beijing speech",
+      "Verification based on public news reports, scientific literature, and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: black hole symbol — Hawking radiation theory is Hawking's most iconic scientific contribution, and the black hole is the central motif of his academic career"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "琐罗亚斯德预言",
+    "siteSubtitle": "古波斯先知（约公元前600年）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "琐罗亚斯德是谁？",
+    "homeIntro1": "琐罗亚斯德（Zoroaster/Zarathustra，约公元前628年—前551年），古波斯先知，琐罗亚斯德教（又称拜火教、祆教）的创始人。他生活在古代伊朗东部地区，是人类历史上最早提出善恶二元论的宗教思想家之一。",
+    "homeIntro2": "琐罗亚斯德的教义记载于《阿维斯塔》经典中，核心思想是宇宙由善神阿胡拉·马兹达与恶神安格拉·曼纽的永恒斗争所主导。他预言这场斗争将在末世迎来终结，善将最终战胜恶，世界将经历彻底的更新与净化。",
+    "homeIntro3": "琐罗亚斯德教的末世思想深刻影响了后来的犹太教、基督教和伊斯兰教。救世主（萨奥什扬特）、末日审判、死者复活、天堂与地狱等概念都可追溯到琐罗亚斯德教义。本站整理了其核心末世预言，并结合现代学术研究进行解读。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「善思、善言、善行。」——琐罗亚斯德教三大信条，贯穿其全部教义与末世预言",
+    "keyPoints": "关键预言主题",
+    "keyPointsList": [
+      "宇宙二元论 —— 善神阿胡拉·马兹达与恶神安格拉·曼纽的永恒对抗",
+      "三位救世主 —— 三千年间隔降世的三位萨奥什扬特",
+      "弗拉绍凯尔提 —— 世界最终更新与净化",
+      "熔金审判 —— 熔化的金属流遍大地，分辨善恶",
+      "死者复活 —— 所有亡灵重获肉身，善恶同受审判"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容主要来源于《阿维斯塔》经典及巴列维文献（<a href=\"https://en.wikipedia.org/wiki/Avesta\" target=\"_blank\" rel=\"noopener\">Avesta - Wikipedia</a>）",
+      "末世思想参考《本达希申》《扎德·斯帕拉姆选集》等中古波斯文献（<a href=\"https://en.wikipedia.org/wiki/Bundahishn\" target=\"_blank\" rel=\"noopener\">Bundahishn - Wikipedia</a>）",
+      "解读参考 Mary Boyce《Zoroastrians: Their Religious Beliefs and Practices》等学术著作（<a href=\"https://en.wikipedia.org/wiki/Mary_Boyce\" target=\"_blank\" rel=\"noopener\">Mary Boyce - Wikipedia</a>）",
+      "编者观点不代表学术定论",
+      "站点图标采用法拉瓦哈（Faravahar）——琐罗亚斯德教最具标志性的带翼圆盘符号，代表灵魂的神圣守护"
+    ]
+  },
+  "en": {
+    "siteTitle": "Zoroaster Prophecies",
+    "siteSubtitle": "Ancient Persian Prophet (c. 600 BCE)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Zoroaster?",
+    "homeIntro1": "Zoroaster (also known as Zarathustra, c. 628–551 BCE) was an ancient Persian prophet and the founder of Zoroastrianism. He lived in eastern ancient Iran and was one of the earliest religious thinkers to propose a dualistic cosmology of good versus evil.",
+    "homeIntro2": "Zoroaster's teachings are recorded in the Avesta, the Zoroastrian scriptures. The core doctrine holds that the universe is governed by an eternal struggle between Ahura Mazda (the Wise Lord) and Angra Mainyu (the Destructive Spirit). He prophesied that this cosmic battle would culminate in the final renovation and purification of the world.",
+    "homeIntro3": "Zoroastrian eschatology profoundly influenced later Judaism, Christianity, and Islam. Concepts such as the savior (Saoshyant), final judgment, resurrection of the dead, heaven, and hell can all be traced back to Zoroastrian teachings. This site compiles the core eschatological prophecies and provides interpretations informed by modern scholarship.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Good thoughts, good words, good deeds.\" — The three pillars of Zoroastrian faith, underlying all its teachings and eschatological prophecies.",
+    "keyPoints": "Key Prophetic Themes",
+    "keyPointsList": [
+      "Cosmic Dualism —— The eternal struggle between Ahura Mazda and Angra Mainyu",
+      "Three Saviors —— Three Saoshyants born at 3,000-year intervals",
+      "Frashokereti —— The final renovation and purification of the world",
+      "Molten Metal Ordeal —— Rivers of molten metal flow across the earth to judge the righteous and wicked",
+      "Resurrection —— All the dead are restored to bodily life for final judgment"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies primarily sourced from the Avesta and Pahlavi literature (<a href=\"https://en.wikipedia.org/wiki/Avesta\" target=\"_blank\" rel=\"noopener\">Avesta - Wikipedia</a>)",
+      "Eschatological concepts reference the Bundahishn, Selections of Zad Sparam, and other Middle Persian texts (<a href=\"https://en.wikipedia.org/wiki/Bundahishn\" target=\"_blank\" rel=\"noopener\">Bundahishn - Wikipedia</a>)",
+      "Interpretations informed by Mary Boyce's 'Zoroastrians: Their Religious Beliefs and Practices' and other academic works (<a href=\"https://en.wikipedia.org/wiki/Mary_Boyce\" target=\"_blank\" rel=\"noopener\">Mary Boyce - Wikipedia</a>)",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: Faravahar — the most iconic symbol of Zoroastrianism, a winged disc representing the divine guardian of the soul"
+    ]
+  }
+}

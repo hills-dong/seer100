@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 28" height="20">
+  <!-- Ouroboros (snake eating its tail) -->
+  <circle cx="14" cy="14" r="11.5" fill="none" stroke="#6a4a8c" stroke-width="2.5"/>
+  <!-- Snake head detail (small filled circle at top) -->
+  <circle cx="14" cy="2.5" r="1.8" fill="#6a4a8c"/>
+  <!-- Interlocked triangles (Star of David / hexagram) -->
+  <polygon points="14,5.5 20.5,16 7.5,16" fill="none" stroke="#4e3068" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="14,22.5 7.5,12 20.5,12" fill="none" stroke="#4e3068" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Center dot -->
+  <circle cx="14" cy="14" r="1.5" fill="#4e3068"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#4e3068" letter-spacing="0.5">BLAVATSKY</text>
+</svg>

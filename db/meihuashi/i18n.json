@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "梅花诗预言",
+    "siteSubtitle": "北宋·邵雍（邵康节）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "梅花诗是什么？",
+    "homeIntro1": "梅花诗相传为北宋大儒邵雍（1011-1077）所作。邵雍字尧夫，谥号康节，是北宋五子之一，与周敦颐、张载、程颢、程颐并称为宋代理学的奠基人。他一生隐居洛阳，潜心研究《易经》，创立了「先天易学」（又称梅花易数）体系，开辟了象数易学的新境界。",
+    "homeIntro2": "梅花诗共十首七言律诗，每首八句，以梅花清雅孤傲的意象贯穿全篇。每首诗预言一个朝代或重大历史时期，从北宋末年（靖康之变）一直预言到未来的天下大同。诗中隐语精妙，借典故、谐音、拆字等手法暗含历史大事，与《推背图》《烧饼歌》并称为中国古代三大预言奇书。",
+    "homeIntro3": "邵雍的预言体系根植于《易经》的象数哲学，以天地之数推演万物变化。他认为宇宙万物皆可用数来表达，历史的兴衰更替亦有其数理规律。梅花诗正是这一思想的集中体现。然而，学术界对梅花诗的真伪和成书年代存在争议，部分学者认为现存版本可能经过后人增补。本站整理十首原文并进行验证分析，供读者参考。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「数点梅花天地春，欲将剥复问前因。」——梅花诗·第一首",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "第一首 —— 北宋灭亡与靖康之变",
+      "第二首 —— 南宋偏安与蒙元入主",
+      "第三首 —— 元朝兴衰",
+      "第五首 —— 明朝灭亡与清朝入关",
+      "第八首 —— 抗日战争与中华复兴"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文来源于传世版本《梅花诗》，作者归属及成书年代学术界尚有争议（<a href=\"https://zh.wikipedia.org/wiki/邵雍\" target=\"_blank\" rel=\"noopener\">维基百科·邵雍</a>）",
+      "邵雍的易学著作《皇极经世》是其学术体系的核心文献（<a href=\"https://zh.wikipedia.org/wiki/皇極經世\" target=\"_blank\" rel=\"noopener\">维基百科·皇极经世</a>）",
+      "部分「已验」之诗可能为后人增补修改",
+      "验证评价基于历史文献和公开资料，编者观点不代表学术定论",
+      "站点图标采用梅花五瓣——梅花是邵雍易学的象征符号，梅花诗因此得名"
+    ]
+  },
+  "en": {
+    "siteTitle": "Plum Blossom Poems",
+    "siteSubtitle": "Northern Song · Shao Yong (Shao Kangjie)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What are the Plum Blossom Poems?",
+    "homeIntro1": "The Plum Blossom Poems (梅花诗, Meihua Shi) are attributed to Shao Yong (1011-1077), one of the greatest Neo-Confucian scholars of the Northern Song dynasty. Known by his courtesy name Yaofu and posthumous title Kangjie, Shao Yong was one of the \"Five Masters of Northern Song,\" alongside Zhou Dunyi, Zhang Zai, Cheng Hao, and Cheng Yi — the founders of Song-dynasty Neo-Confucianism. He spent most of his life as a recluse in Luoyang, dedicating himself to the study of the I Ching and developing the \"Pre-Heaven I Ching\" (Xiantian Yixue) system, also known as Plum Blossom Numerology.",
+    "homeIntro2": "The collection comprises ten seven-character regulated poems (lüshi), each containing eight lines. Unified by the elegant, solitary imagery of the plum blossom, each poem prophesies a dynasty or major historical period — from the fall of the Northern Song (Jingkang Incident) all the way to a future era of universal harmony. The poems employ ingenious cryptic language, using literary allusions, homophones, and character decomposition to encode major historical events. They are ranked alongside the Tui Bei Tu and Shaobing Song as one of China's three great prophetic texts.",
+    "homeIntro3": "Shao Yong's prophetic system is rooted in the numerological philosophy of the I Ching, using the numbers of heaven and earth to deduce the transformations of all things. He believed that everything in the universe could be expressed through numbers, and that the rise and fall of history followed mathematical patterns. The Plum Blossom Poems are the concentrated expression of this philosophy. However, scholars debate the poems' authenticity and date of composition — some believe the surviving versions may have been supplemented by later writers. This site presents all ten original poems with verification analysis for reference.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"A few plum blossoms herald spring between heaven and earth; let us ask the causes behind the cycles of decline and renewal.\" — Plum Blossom Poems, Poem 1",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Poem 1 —— Fall of Northern Song / Jingkang Incident",
+      "Poem 2 —— Southern Song and Mongol conquest",
+      "Poem 3 —— Rise and fall of the Yuan dynasty",
+      "Poem 5 —— Fall of Ming and Manchu conquest",
+      "Poem 8 —— War of Resistance and China's revival"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original text sourced from the transmitted edition of the Plum Blossom Poems; authorship and date of composition remain debated (<a href=\"https://zh.wikipedia.org/wiki/邵雍\" target=\"_blank\" rel=\"noopener\">Wikipedia: Shao Yong</a>)",
+      "Shao Yong's I Ching treatise Huangji Jingshi is the core text of his scholarly system (<a href=\"https://zh.wikipedia.org/wiki/皇極經世\" target=\"_blank\" rel=\"noopener\">Wikipedia: Huangji Jingshi</a>)",
+      "Some 'verified' poems may have been added or modified retroactively",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: Five-petal plum blossom — the plum blossom is the symbolic motif of Shao Yong's numerology, and gives the poems their name"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "易经预言",
+    "siteSubtitle": "西周·周文王、周公、孔子（传）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "易经是什么？",
+    "homeIntro1": "《易经》又称《周易》，是中国最古老、最重要的经典之一，被尊为「群经之首，大道之源」。相传周文王姬昌在被殷纣王囚禁于羑里时，将上古伏羲氏的八卦推演为六十四卦并作卦辞；其子周公旦作爻辞；至春秋时期，孔子及其弟子撰写《十翼》（即《易传》），为卦爻辞提供哲学诠释。",
+    "homeIntro2": "全书以阴（⚋）阳（⚊）两爻为基本符号，组成八卦（乾、坤、震、巽、坎、离、艮、兑），八卦两两相重为六十四卦。每卦包含卦辞（整体判断）和六条爻辞（各爻变化之象），共四百五十条爻辞。卦辞和爻辞文辞古奥，蕴含丰富的预测性意象，被历代用于占筮吉凶、推演国运。",
+    "homeIntro3": "易经虽非预言书，但其卦辞、爻辞中的预测性描述在中国文化中被广泛用于占卜。本站从六十四卦中精选最具预言性质和占卜意义的卦辞，附白话文翻译与英文对照，展示这部三千年古籍中的预测智慧。需要说明的是，易经的卦辞具有高度的抽象性和多义性，不同时代的解读者赋予了不同的诠释。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「一阴一阳之谓道，继之者善也，成之者性也。」——《易传·系辞上》",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "伏羲 —— 传说始画八卦，开创易学之源",
+      "周文王 —— 推演六十四卦并作卦辞",
+      "周公 —— 作三百八十四爻辞",
+      "孔子 —— 作《易传》（十翼），哲学化诠释",
+      "汉代 —— 易学分为象数派与义理派两大流派",
+      "宋代 —— 邵雍创梅花易数，朱熹著《周易本义》"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "卦辞和爻辞原文来源于通行本《周易》，参考高亨《周易古经今注》和黄寿祺《周易译注》（<a href=\"https://zh.wikipedia.org/wiki/易经\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "白话文翻译综合多家注疏，力求忠实原文",
+      "易经是占卜哲学体系，卦辞具有高度抽象性，本站解读不代表学术定论",
+      "站点图标采用六爻卦形——六条横线（实线与断线交替）是易经最核心的视觉符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "I Ching Prophecies",
+    "siteSubtitle": "Western Zhou · King Wen, Duke of Zhou, Confucius (trad.)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is the I Ching?",
+    "homeIntro1": "The I Ching (易经), also known as the Book of Changes (周易), is one of China's oldest and most important classics, revered as \"the foremost of all classics, the source of the great Way.\" Tradition holds that King Wen of Zhou developed the 64 hexagrams from the ancient eight trigrams of Fuxi while imprisoned by the tyrant King Zhou of Shang, composing the hexagram judgments. His son, the Duke of Zhou, wrote the line texts. In the Spring and Autumn period, Confucius and his disciples composed the Ten Wings (易传), providing philosophical commentary.",
+    "homeIntro2": "The system is built on two fundamental symbols: yin (⚋) and yang (⚊) lines, which combine into eight trigrams (Qian, Kun, Zhen, Xun, Kan, Li, Gen, Dui). Pairing these trigrams yields 64 hexagrams, each containing a hexagram judgment and six line texts — 450 line texts in total. These ancient, cryptic texts are rich in predictive imagery and have been used for millennia to divine fortunes and forecast the fate of nations.",
+    "homeIntro3": "While the I Ching is not strictly a book of prophecy, its hexagram and line texts have been widely used for divination throughout Chinese history. This site presents the most prophetically significant hexagrams from the 64, with vernacular Chinese translations and English renderings, showcasing the predictive wisdom of this 3,000-year-old classic. It should be noted that I Ching texts are highly abstract and polysemous, with different eras producing very different interpretations.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The alternation of yin and yang is called the Way; what continues it is goodness; what completes it is nature.\" — Commentary on the Appended Phrases (Xici)",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Fuxi —— Legendary creator of the eight trigrams, origin of I Ching studies",
+      "King Wen of Zhou —— Developed the 64 hexagrams and composed the judgments",
+      "Duke of Zhou —— Composed the 384 line texts",
+      "Confucius —— Authored the Ten Wings (Yizhuan), philosophical commentary",
+      "Han Dynasty —— I Ching studies split into image-number and meaning-principle schools",
+      "Song Dynasty —— Shao Yong created Meihua Yishu; Zhu Xi wrote Commentary on the Book of Changes"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original hexagram and line texts from the received edition of the Zhouyi, referencing Gao Heng's <i>Modern Annotation of the Ancient I Ching</i> and Huang Shouqi's <i>Annotated Translation of the Zhouyi</i> (<a href=\"https://en.wikipedia.org/wiki/I_Ching\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Vernacular translations synthesized from multiple commentaries, aiming for fidelity to the original",
+      "The I Ching is a divinatory-philosophical system; hexagram texts are highly abstract — interpretations here do not represent academic consensus",
+      "Site icon: six-line hexagram — alternating solid and broken lines are the most fundamental visual symbol of the I Ching"
+    ]
+  }
+}

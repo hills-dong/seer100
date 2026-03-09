@@ -1,0 +1,69 @@
+{
+  "siteId": "fatima",
+  "answererName": "Our Lady of Fatima",
+  "publishDate": "1917",
+  "baseUrl": "https://pre.hilife.me/fatima",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "法蒂玛预言全集 - 圣母玛利亚的三个秘密与太阳奇迹 | Fatima Prophecies",
+      "description": "1917年葡萄牙法蒂玛圣母显灵事件完整记录。三位牧童目睹圣母六次显现，传达三个秘密：地狱异象、二战预言与俄罗斯奉献、教会迫害预言。太阳奇迹有约7万人见证。",
+      "keywords": "法蒂玛预言,法蒂玛圣母,三个秘密,太阳奇迹,露西亚,弗朗西斯科,雅辛塔,圣母显灵,Fatima prophecy,Our Lady of Fatima",
+      "siteName": "法蒂玛预言",
+      "ogTitle": "法蒂玛预言全集 | Fatima Prophecies",
+      "ogDescription": "1917年法蒂玛圣母显灵的三个秘密完整记录与验证分析。太阳奇迹、二战预言、教会迫害预言。",
+      "locale": "zh_CN",
+      "twitterDescription": "法蒂玛圣母的三个秘密与太阳奇迹。1917年葡萄牙三牧童见证圣母显灵，预言二战、冷战与教会迫害。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Fatima Prophecies - The Three Secrets of Our Lady of Fatima (1917) | Full Archive & Verification",
+      "description": "Complete record of the 1917 Marian apparitions at Fatima, Portugal. Three shepherd children witnessed six apparitions of the Virgin Mary, who revealed three secrets: a vision of hell, WWII prediction and Russia's consecration, and the persecution of the Church. The Miracle of the Sun was witnessed by ~70,000 people.",
+      "keywords": "Fatima prophecy,Our Lady of Fatima,Three Secrets,Miracle of the Sun,Lucia,Francisco,Jacinta,Marian apparitions,Fatima Portugal,Catholic prophecy",
+      "siteName": "Fatima Prophecies",
+      "ogTitle": "Fatima Prophecies - The Three Secrets of Our Lady of Fatima",
+      "ogDescription": "Complete archive of the 1917 Fatima apparitions and the Three Secrets revealed to three shepherd children in Portugal. Includes verification against historical events.",
+      "locale": "en_US",
+      "twitterDescription": "The Three Secrets of Fatima and the Miracle of the Sun. In 1917, three Portuguese children witnessed Marian apparitions predicting WWII, the Cold War, and persecution of the Church."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "法蒂玛预言",
+      "alternateName": "Fatima Prophecies",
+      "url": "https://pre.hilife.me/fatima/",
+      "description": "1917年法蒂玛圣母显灵事件完整记录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0f4",
+    "white": "#fff",
+    "text": "#1e1e28",
+    "text2": "#606078",
+    "textLight": "#4c4c64",
+    "primary": "#3a5a8c",
+    "primaryDark": "#1e3e6a",
+    "primaryBg": "#e8eef8",
+    "link": "#3a5a8c",
+    "border": "#ccd0e0",
+    "border2": "#aab0c4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e2e6f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Fatima Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Our_Lady_of_F%C3%A1tima",
+    "sourceLabel": "Wikipedia"
+  }
+}

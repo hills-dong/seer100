@@ -1,0 +1,69 @@
+{
+  "siteId": "enoch",
+  "answererName": "Enoch",
+  "publishDate": "约公元前300年至公元前1世纪",
+  "baseUrl": "https://pre.hilife.me/enoch",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "以诺书预言全集 - 古犹太末日启示录：堕天使、弥赛亚与最终审判 | Book of Enoch",
+      "description": "以诺书（1 Enoch）是古代犹太伪典文献，约成书于公元前300年至公元前1世纪。包含守望者之书、比喻之书、天文之书、梦幻异象和以诺书信五部分，预言堕天使的审判、弥赛亚降临与末世景象。",
+      "keywords": "以诺书,Book of Enoch,堕天使,守望者,弥赛亚,末日审判,犹太伪典,启示文学,动物启示录,人子",
+      "siteName": "以诺书预言",
+      "ogTitle": "以诺书预言全集 | Book of Enoch Prophecies",
+      "ogDescription": "古代犹太启示文学经典——以诺书预言全集，涵盖堕天使审判、弥赛亚降临、末世异象等内容，附现代学术评注。",
+      "locale": "zh_CN",
+      "twitterDescription": "以诺书预言全集：堕天使、弥赛亚与最终审判。古犹太启示文学中最重要的伪典文献。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Book of Enoch Prophecies - Ancient Jewish Apocalypse: Fallen Angels, Messiah & Final Judgment",
+      "description": "1 Enoch (Ethiopic Enoch) is an ancient Jewish pseudepigraphal text composed circa 300 BCE to 1st century BCE. Contains the Book of Watchers, Parables of Enoch, Astronomical Book, Animal Apocalypse, and Epistle of Enoch — prophecies of fallen angels, the Messiah, and the final judgment.",
+      "keywords": "Book of Enoch,1 Enoch,fallen angels,Watchers,Messiah,final judgment,Jewish pseudepigrapha,apocalyptic literature,Animal Apocalypse,Son of Man",
+      "siteName": "Book of Enoch Prophecies",
+      "ogTitle": "Book of Enoch Prophecies - Ancient Jewish Apocalyptic Visions",
+      "ogDescription": "Complete collection of prophecies from 1 Enoch, the ancient Jewish pseudepigraphal text. Fallen angels, the Messiah, and visions of the end times with scholarly commentary.",
+      "locale": "en_US",
+      "twitterDescription": "Book of Enoch prophecies: fallen angels, the Messiah, and final judgment. The most important Jewish pseudepigraphal apocalyptic text."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "以诺书预言",
+      "alternateName": "Book of Enoch Prophecies",
+      "url": "https://pre.hilife.me/enoch/",
+      "description": "古代犹太启示文学经典——以诺书预言全集与评注",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0ee",
+    "white": "#fff",
+    "text": "#1e241e",
+    "text2": "#607860",
+    "textLight": "#4e644e",
+    "primary": "#3a6a4a",
+    "primaryDark": "#244e30",
+    "primaryBg": "#e8f4ec",
+    "link": "#3a6a4a",
+    "border": "#c8d8cc",
+    "border2": "#a8bca8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e2ede4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Book of Enoch Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Book_of_Enoch",
+    "sourceLabel": "Wikipedia"
+  }
+}

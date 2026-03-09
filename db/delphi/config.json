@@ -1,0 +1,69 @@
+{
+  "siteId": "delphi",
+  "answererName": "Pythia",
+  "publishDate": "约公元前800年至公元393年",
+  "baseUrl": "https://pre.hilife.me/delphi",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "德尔菲神谕全集 - 古希腊最重要神谕所的预言与历史验证 | Oracle of Delphi",
+      "description": "德尔菲神谕是古希腊最重要的神谕所，运作时间从约公元前800年至公元393年。皮提亚女祭司在阿波罗神庙传达神谕，影响了克罗伊斯、薛西斯、亚历山大大帝等历史进程。本站收录著名神谕并进行历史考证。",
+      "keywords": "德尔菲神谕,皮提亚,古希腊预言,阿波罗神庙,Oracle of Delphi,Pythia,克罗伊斯,薛西斯,亚历山大大帝,希罗多德",
+      "siteName": "德尔菲神谕",
+      "ogTitle": "德尔菲神谕全集 | Oracle of Delphi",
+      "ogDescription": "古希腊最重要神谕所的著名预言收录与历史验证。涵盖克罗伊斯、薛西斯入侵、亚历山大大帝、苏格拉底等重大历史事件。",
+      "locale": "zh_CN",
+      "twitterDescription": "德尔菲神谕：古希腊阿波罗神庙皮提亚女祭司的著名预言与历史验证，涵盖克罗伊斯、薛西斯、亚历山大等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Oracle of Delphi - Famous Prophecies from Ancient Greece's Most Sacred Oracle | Full Archive & Verification",
+      "description": "The Oracle at Delphi was ancient Greece's most important oracle, operating from ~800 BC to 393 AD. The Pythia priestess delivered Apollo's prophecies that shaped the fates of Croesus, Xerxes, Alexander the Great, and Socrates. Full archive with historical verification.",
+      "keywords": "Oracle of Delphi,Pythia,ancient Greek prophecy,Apollo temple,Delphi prophecies,Croesus,Xerxes,Alexander the Great,Herodotus,Plutarch",
+      "siteName": "Oracle of Delphi",
+      "ogTitle": "Oracle of Delphi - Ancient Greece's Most Sacred Prophecies",
+      "ogDescription": "Famous prophecies from the Oracle at Delphi, delivered by the Pythia priestess of Apollo. Full archive with historical verification covering Croesus, Xerxes, Alexander, Socrates, and more.",
+      "locale": "en_US",
+      "twitterDescription": "The Oracle of Delphi: famous prophecies from ancient Greece's Pythia priestess, with historical verification. Croesus, Xerxes, Alexander, Socrates, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "德尔菲神谕",
+      "alternateName": "Oracle of Delphi",
+      "url": "https://pre.hilife.me/delphi/",
+      "description": "古希腊德尔菲神谕所著名预言的完整收录与历史验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0e4",
+    "white": "#fff",
+    "text": "#2a2818",
+    "text2": "#7a7458",
+    "textLight": "#646040",
+    "primary": "#b89a30",
+    "primaryDark": "#8c7420",
+    "primaryBg": "#faf6e4",
+    "link": "#8c7420",
+    "border": "#dcd8c0",
+    "border2": "#c0ba9c",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eeeadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Oracle of Delphi"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pythia",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 28" height="20">
+  <!-- Monas Hieroglyphica icon -->
+  <!-- Cross base -->
+  <line x1="14" y1="16" x2="14" y2="26" stroke="#2e5a6a" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="9" y1="22" x2="19" y2="22" stroke="#2e5a6a" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Circle (Sun) -->
+  <circle cx="14" cy="12" r="4.5" fill="none" stroke="#2e5a6a" stroke-width="1.8"/>
+  <!-- Crescent (Moon) on top -->
+  <path d="M 9.5 6.5 A 4 4 0 0 1 18.5 6.5 A 5.5 5.5 0 0 0 9.5 6.5" fill="#1a3e4e"/>
+  <!-- Aries horns at very top -->
+  <path d="M 10 3 Q 8 1, 7 3" fill="none" stroke="#1a3e4e" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 18 3 Q 20 1, 21 3" fill="none" stroke="#1a3e4e" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Two dots (points) -->
+  <circle cx="8" cy="18" r="1" fill="#2e5a6a"/>
+  <circle cx="20" cy="18" r="1" fill="#2e5a6a"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#1a3e4e" letter-spacing="0.5">JOHN DEE</text>
+</svg>

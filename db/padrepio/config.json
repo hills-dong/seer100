@@ -1,0 +1,69 @@
+{
+  "siteId": "padrepio",
+  "answererName": "Padre Pio",
+  "publishDate": "1918-1968",
+  "baseUrl": "https://pre.hilife.me/padrepio",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "庇护神父预言全集 - 圣庇护五伤修士的14条预言与验证 | Padre Pio Prophecies",
+      "description": "意大利嘉布遣会修士庇护神父（1887-1968），因圣伤、双重定位和预言能力闻名于世。2002年封圣。本站收录其书信和对话中记载的14条预言性陈述，涵盖三日黑暗、教宗预言、二战预测等。",
+      "keywords": "庇护神父,Padre Pio,圣庇护,圣伤,预言,三日黑暗,嘉布遣会,天主教圣人,预言家,意大利神秘主义",
+      "siteName": "庇护神父预言",
+      "ogTitle": "庇护神父预言全集 | Padre Pio Prophecies",
+      "ogDescription": "意大利嘉布遣会修士庇护神父的14条预言完整收录与验证分析。涵盖三日黑暗、教宗预言、二战预测、道德警示等。",
+      "locale": "zh_CN",
+      "twitterDescription": "圣庇护神父的14条预言收录与验证。涵盖三日黑暗预言、二战预测、教宗预言等。2002年封圣的意大利圣伤修士。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Padre Pio Prophecies - 14 Predictions from the Stigmatist Friar (1887-1968) | Full Archive & Verification",
+      "description": "Italian Capuchin friar Padre Pio (1887-1968), canonized in 2002, was famous for stigmata, bilocation, and prophetic visions. This archive compiles 14 prophetic statements from his letters and recorded conversations, including the Three Days of Darkness, papal prophecies, and WWII predictions.",
+      "keywords": "Padre Pio,Saint Pio,Padre Pio prophecies,stigmata,Three Days of Darkness,Capuchin friar,Catholic saint,Italian mystic,prophecy,bilocation",
+      "siteName": "Padre Pio Prophecies",
+      "ogTitle": "Padre Pio Prophecies - The Stigmatist Friar's Complete Predictions",
+      "ogDescription": "14 prophetic statements from Padre Pio (1887-1968), the Italian Capuchin friar canonized in 2002. Archive with verification covering the Three Days of Darkness, papal prophecies, and moral warnings.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from Padre Pio, the stigmatist saint. Includes Three Days of Darkness, WWII predictions, papal prophecies, and warnings about modernism."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "庇护神父预言",
+      "alternateName": "Padre Pio Prophecies",
+      "url": "https://pre.hilife.me/padrepio/",
+      "description": "意大利嘉布遣会修士庇护神父的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f2ee",
+    "white": "#fff",
+    "text": "#28241e",
+    "text2": "#78705e",
+    "textLight": "#645c48",
+    "primary": "#7a6a40",
+    "primaryDark": "#5c4e28",
+    "primaryBg": "#f8f4ea",
+    "link": "#7a6a40",
+    "border": "#dcd4c4",
+    "border2": "#c0b6a2",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e8da"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Padre Pio Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Padre_Pio",
+    "sourceLabel": "Wikipedia"
+  }
+}

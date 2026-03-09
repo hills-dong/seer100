@@ -1,0 +1,69 @@
+{
+  "siteId": "tibetan",
+  "answererName": "藏传佛教诸师",
+  "publishDate": "约800年",
+  "baseUrl": "https://pre.hilife.me/tibetan",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "藏传佛教末法预言 - 时轮金刚、伏藏与诸仁波切的14条预言与验证 | Tibetan Buddhist Prophecy",
+      "description": "藏传佛教末法时代预言完整收录，来源包括《时轮金刚密续》、莲花生大士伏藏、敦珠仁波切等藏传大师的预言。涵盖正法衰退、香巴拉勇士、末法战争等主题。",
+      "keywords": "藏传佛教预言,末法时代,时轮金刚,香巴拉,伏藏,莲花生大士,敦珠仁波切,末法预言,藏密预言,Kalachakra",
+      "siteName": "藏传佛教末法预言",
+      "ogTitle": "藏传佛教末法预言 | Tibetan Buddhist Prophecy",
+      "ogDescription": "藏传佛教末法时代预言完整收录，来源包括时轮金刚密续、伏藏文献与藏传大师预言。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条藏传佛教末法时代预言，含时轮金刚、莲花生伏藏、敦珠仁波切等大师预言与验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Tibetan Buddhist Prophecy - 14 Predictions from Kalachakra, Terma & Rinpoches | Full Archive",
+      "description": "Complete collection of Tibetan Buddhist end-of-Dharma prophecies from the Kalachakra Tantra, Padmasambhava's terma texts, Dudjom Rinpoche, and other Tibetan masters. Themes include decline of Dharma, Shambhala warriors, and the final battle.",
+      "keywords": "Tibetan Buddhist prophecy,Kalachakra,Shambhala,terma,Padmasambhava,Dudjom Rinpoche,end of Dharma,Buddhist prophecy,Tibetan predictions",
+      "siteName": "Tibetan Buddhist Prophecy",
+      "ogTitle": "Tibetan Buddhist Prophecy - Kalachakra, Terma & Rinpoche Predictions",
+      "ogDescription": "Complete collection of Tibetan Buddhist end-of-Dharma prophecies from the Kalachakra Tantra, terma texts, and various Tibetan masters.",
+      "locale": "en_US",
+      "twitterDescription": "14 Tibetan Buddhist prophecies from Kalachakra Tantra, Padmasambhava terma, Dudjom Rinpoche. Archive with verification."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "藏传佛教末法预言",
+      "alternateName": "Tibetan Buddhist Prophecy",
+      "url": "https://pre.hilife.me/tibetan/",
+      "description": "藏传佛教末法时代预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2eee8",
+    "white": "#fff",
+    "text": "#2a2418",
+    "text2": "#746a58",
+    "textLight": "#605640",
+    "primary": "#8c3a30",
+    "primaryDark": "#6a2218",
+    "primaryBg": "#f8ecea",
+    "link": "#8c3a30",
+    "border": "#d8d0c4",
+    "border2": "#bab0a0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eee6dc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "藏传佛教末法预言"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kalachakra",
+    "sourceLabel": "Wikipedia"
+  }
+}

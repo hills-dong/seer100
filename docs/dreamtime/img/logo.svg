@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" height="20">
+  <!-- Concentric circles - Aboriginal dot painting motif -->
+  <circle cx="14" cy="14" r="12" fill="#a04a20"/>
+  <circle cx="14" cy="14" r="8.5" fill="#f4eee4"/>
+  <circle cx="14" cy="14" r="6" fill="#7a3010"/>
+  <circle cx="14" cy="14" r="3" fill="#f4eee4"/>
+  <circle cx="14" cy="14" r="1.2" fill="#a04a20"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#7a3010" letter-spacing="0.5">DREAMTIME</text>
+</svg>

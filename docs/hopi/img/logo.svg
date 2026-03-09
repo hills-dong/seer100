@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28" height="20">
+  <!-- Hopi spiral/migration petroglyph symbol -->
+  <path d="M14 14 A1.5 1.5 0 0 1 15.5 12.5 A3.5 3.5 0 0 1 17.5 15.5 A5.5 5.5 0 0 1 11 18 A7.5 7.5 0 0 1 8 9 A9.5 9.5 0 0 1 20 6.5 A11.5 11.5 0 0 1 24 17" fill="none" stroke="#b06830" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#8a4c18" letter-spacing="0.5">HOPI</text>
+</svg>

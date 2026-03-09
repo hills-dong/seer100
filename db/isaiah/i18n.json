@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "以赛亚预言",
+    "siteSubtitle": "旧约先知（约公元前740-700年）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "先知以赛亚是谁？",
+    "homeIntro1": "以赛亚（Isaiah）是旧约圣经中最重要的先知之一，活跃于犹大王国乌西雅王至希西家王在位期间（约公元前740-700年）。以赛亚书是旧约先知书中篇幅最长的一卷，共66章，涵盖审判、救赎与末世异象。",
+    "homeIntro2": "以赛亚的预言以弥赛亚预言最为著名，包括「以马内利」的预言（7:14）、「奇妙策士、全能的神」（9:6）、「耶西的根」（11:1）以及「受苦仆人」诗篇（52-53章）。这些预言在基督教传统中被视为对耶稣基督的预指。",
+    "homeIntro3": "除弥赛亚预言外，以赛亚还预言了巴比伦的覆灭、亚述的入侵、列国的审判以及「新天新地」的末世异象。学者通常将以赛亚书分为「第一以赛亚」（1-39章）和「第二以赛亚」（40-66章）两部分。本站整理了以赛亚书中的重要预言，并附历史验证分析。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「因有一婴孩为我们而生，有一子赐给我们，政权必担在他的肩头上。他名称为奇妙策士、全能的神、永在的父、和平的君。」——以赛亚书 9:6",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约前740年 —— 以赛亚蒙召，在圣殿中见异象（第6章）",
+      "约前735年 —— 以马内利预言，亚兰-以法莲危机期间（第7章）",
+      "前722年 —— 北国以色列被亚述灭亡，应验审判预言",
+      "前701年 —— 亚述围困耶路撒冷，希西家祈祷获救（第36-37章）",
+      "前539年 —— 巴比伦被波斯攻陷，应验以赛亚对巴比伦的审判预言"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文依据和合本及 NRSV 英译本，参考死海古卷以赛亚书全卷（<a href=\"https://www.deadseascrolls.org.il/explore-the-archive/image/B-278441\" target=\"_blank\" rel=\"noopener\">Dead Sea Scrolls Digital Library</a>）",
+      "历史验证基于考古学发现和古代近东文献（<a href=\"https://en.wikipedia.org/wiki/Book_of_Isaiah\" target=\"_blank\" rel=\"noopener\">Wikipedia: Book of Isaiah</a>）",
+      "学术分析参考《以赛亚书》注释文献，编者观点不代表学术定论",
+      "站点图标采用燃烧的火炭符号——取自以赛亚蒙召异象，撒拉弗以火炭洁净先知之口（以赛亚书6:6-7）"
+    ]
+  },
+  "en": {
+    "siteTitle": "Isaiah Prophecies",
+    "siteSubtitle": "Old Testament Prophet (~740-700 BC)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Prophet Isaiah?",
+    "homeIntro1": "Isaiah is one of the most important prophets in the Hebrew Bible, active during the reigns of Kings Uzziah through Hezekiah of Judah (~740-700 BC). The Book of Isaiah is the longest prophetic book in the Old Testament, spanning 66 chapters of judgment, redemption, and eschatological visions.",
+    "homeIntro2": "Isaiah is best known for his messianic prophecies, including the Immanuel prophecy (7:14), 'Wonderful Counselor, Mighty God' (9:6), the Branch of Jesse (11:1), and the Suffering Servant poems (chapters 52-53). In Christian tradition, these are understood as pointing to Jesus Christ.",
+    "homeIntro3": "Beyond messianic prophecies, Isaiah foretold the fall of Babylon, the Assyrian invasion, judgment upon nations, and the eschatological vision of 'new heavens and a new earth.' Scholars typically divide the book into First Isaiah (chapters 1-39) and Deutero-Isaiah (chapters 40-66). This site compiles key prophecies from the Book of Isaiah with historical verification.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"For to us a child is born, to us a son is given, and the government will be on his shoulders. And he will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.\" — Isaiah 9:6",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "~740 BC —— Isaiah's calling, temple vision (Chapter 6)",
+      "~735 BC —— Immanuel prophecy during Syro-Ephraimite Crisis (Chapter 7)",
+      "722 BC —— Northern Kingdom of Israel falls to Assyria, fulfilling judgment prophecy",
+      "701 BC —— Assyria besieges Jerusalem, Hezekiah's prayer answered (Chapters 36-37)",
+      "539 BC —— Babylon falls to Persia, fulfilling Isaiah's judgment on Babylon"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy texts based on CUV and NRSV translations, referencing the Great Isaiah Scroll from the Dead Sea Scrolls (<a href=\"https://www.deadseascrolls.org.il/explore-the-archive/image/B-278441\" target=\"_blank\" rel=\"noopener\">Dead Sea Scrolls Digital Library</a>)",
+      "Historical verification based on archaeological findings and ancient Near Eastern records (<a href=\"https://en.wikipedia.org/wiki/Book_of_Isaiah\" target=\"_blank\" rel=\"noopener\">Wikipedia: Book of Isaiah</a>)",
+      "Scholarly analysis references Isaiah commentary literature; editorial opinions do not represent academic consensus",
+      "Site icon: burning coal symbol — from Isaiah's calling vision, where a seraph purified the prophet's lips with a burning coal (Isaiah 6:6-7)"
+    ]
+  }
+}

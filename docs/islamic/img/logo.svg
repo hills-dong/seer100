@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 28" height="20">
+  <!-- Crescent and Star -->
+  <circle cx="14" cy="14" r="11" fill="#2e7a4a"/>
+  <circle cx="18" cy="12" r="8.5" fill="#eef2ee"/>
+  <polygon points="10,9 11.2,12.5 8,10.5 12,10.5 8.8,12.5" fill="#2e7a4a"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#185c30" letter-spacing="0.5">ISLAMIC</text>
+</svg>

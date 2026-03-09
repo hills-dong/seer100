@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 28" height="20">
+  <!-- Crystal ball icon -->
+  <circle cx="14" cy="13" r="10" fill="#7a5080"/>
+  <circle cx="14" cy="13" r="7" fill="#5c3460"/>
+  <circle cx="11" cy="10" r="2" fill="#8a6890"/>
+  <path d="M6 24 L22 24 L20 22 Q14 21 8 22 Z" fill="#7a5080"/>
+  <path d="M8 22 Q14 20 20 22" fill="none" stroke="#f2f0f4" stroke-width="0.8"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#5c3460" letter-spacing="0.5">J. DIXON</text>
+</svg>

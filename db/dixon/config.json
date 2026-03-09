@@ -1,0 +1,69 @@
+{
+  "siteId": "dixon",
+  "answererName": "Jeane Dixon",
+  "publishDate": "1956-1997",
+  "baseUrl": "https://pre.hilife.me/dixon",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "珍妮·狄克逊预言全集 - 美国最著名的通灵预言家预言与验证 | Jeane Dixon Prophecies",
+      "description": "美国最著名的通灵预言家珍妮·狄克逊（1904-1997）的预言完整收录与验证。她因成功预言肯尼迪遇刺而闻名，同时也因大量错误预言催生了著名的「狄克逊效应」。",
+      "keywords": "珍妮狄克逊,狄克逊预言,Jeane Dixon,肯尼迪遇刺预言,狄克逊效应,美国预言家,水晶球预言,通灵预言",
+      "siteName": "珍妮·狄克逊预言",
+      "ogTitle": "珍妮·狄克逊预言全集 | Jeane Dixon Prophecies",
+      "ogDescription": "美国通灵预言家珍妮·狄克逊的预言完整收录与验证分析。成功预言肯尼迪遇刺，但也催生了著名的「狄克逊效应」。",
+      "locale": "zh_CN",
+      "twitterDescription": "珍妮·狄克逊预言全集：成功预言肯尼迪遇刺，但大量错误预言催生了「狄克逊效应」——人们只记住命中的预言，忽略错误的。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Jeane Dixon Prophecies - America's Most Famous Psychic (1904-1997) | Full Archive & Verification",
+      "description": "Complete archive and verification of prophecies by Jeane Dixon (1904-1997), America's most famous psychic. Known for allegedly predicting JFK's assassination, her many wrong predictions gave rise to the 'Jeane Dixon effect'.",
+      "keywords": "Jeane Dixon,Dixon predictions,JFK assassination prediction,Jeane Dixon effect,American psychic,crystal ball,prophecy verification",
+      "siteName": "Jeane Dixon Prophecies",
+      "ogTitle": "Jeane Dixon Prophecies - America's Most Famous Psychic",
+      "ogDescription": "Complete archive and verification of Jeane Dixon's predictions. Famous for the JFK assassination prediction, her legacy also includes the 'Jeane Dixon effect' cognitive bias.",
+      "locale": "en_US",
+      "twitterDescription": "Jeane Dixon predictions with verification. Famous for allegedly predicting JFK's assassination, her many misses gave rise to the 'Jeane Dixon effect'."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "珍妮·狄克逊预言",
+      "alternateName": "Jeane Dixon Prophecies",
+      "url": "https://pre.hilife.me/dixon/",
+      "description": "美国通灵预言家珍妮·狄克逊的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0f4",
+    "white": "#fff",
+    "text": "#222028",
+    "text2": "#686070",
+    "textLight": "#544c5e",
+    "primary": "#7a5080",
+    "primaryDark": "#5c3460",
+    "primaryBg": "#f4eef6",
+    "link": "#7a5080",
+    "border": "#d6d0dc",
+    "border2": "#b8b0c0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#ece4f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Jeane Dixon Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jeane_Dixon",
+    "sourceLabel": "Wikipedia"
+  }
+}

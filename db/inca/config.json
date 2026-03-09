@@ -1,0 +1,69 @@
+{
+  "siteId": "inca",
+  "answererName": "印加预言",
+  "publishDate": "约1200年",
+  "baseUrl": "https://pre.hilife.me/inca",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "印加预言全集 - 帕查库提大变革、五个太阳纪与盖洛长老预言 | Inca Prophecies",
+      "description": "印加文明核心预言完整收录，涵盖帕查库提（Pachacuti）大变革预言、五个太阳纪宇宙观、鹰与秃鹰预言、塔里帕伊帕查（重逢时代）等Q'ero长老传承的古老智慧。",
+      "keywords": "印加预言,帕查库提,Pachacuti,五个太阳纪,鹰与秃鹰预言,Q'ero长老,塔里帕伊帕查,印加文明,安第斯预言,印加宇宙观",
+      "siteName": "印加预言",
+      "ogTitle": "印加预言全集 | Inca Prophecies",
+      "ogDescription": "印加文明核心预言完整收录与验证分析。帕查库提大变革、五个太阳纪、鹰与秃鹰预言、Q'ero长老传承。",
+      "locale": "zh_CN",
+      "twitterDescription": "印加文明预言全集：帕查库提大变革、五个太阳纪宇宙观、鹰与秃鹰预言、Q'ero长老传承的安第斯古老智慧。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Inca Prophecies - Pachacuti, Five Suns, Eagle & Condor, Q'ero Elder Traditions | Full Archive",
+      "description": "Complete archive of Inca prophecies including the Pachacuti transformation, Five Suns cosmology, Eagle and Condor prophecy, and Q'ero elder traditions about the Taripay Pacha — the Age of Meeting Ourselves Again.",
+      "keywords": "Inca prophecy,Pachacuti,Five Suns,Eagle and Condor prophecy,Q'ero elders,Taripay Pacha,Inca civilization,Andean prophecy,Inca cosmology",
+      "siteName": "Inca Prophecies",
+      "ogTitle": "Inca Prophecies - Complete Archive of Andean Prophetic Traditions",
+      "ogDescription": "Complete archive of Inca prophecies: Pachacuti transformation, Five Suns cosmology, Eagle and Condor prophecy, Q'ero elder traditions.",
+      "locale": "en_US",
+      "twitterDescription": "Inca prophecies: Pachacuti cosmic reversal, Five Suns ages, Eagle & Condor reunion, Q'ero elder traditions about the coming transformation."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "印加预言",
+      "alternateName": "Inca Prophecies",
+      "url": "https://pre.hilife.me/inca/",
+      "description": "印加文明核心预言完整收录与验证分析",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2eee4",
+    "white": "#fff",
+    "text": "#2a2618",
+    "text2": "#766e54",
+    "textLight": "#605838",
+    "primary": "#8c6a20",
+    "primaryDark": "#6a4e10",
+    "primaryBg": "#f8f2e4",
+    "link": "#8c6a20",
+    "border": "#dcd2ba",
+    "border2": "#c0b498",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eee6d4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Inca Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Inca_mythology",
+    "sourceLabel": "Wikipedia"
+  }
+}

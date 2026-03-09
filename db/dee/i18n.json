@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "约翰·迪预言",
+    "siteSubtitle": "伊丽莎白时代宫廷占星师（1527-1608）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "约翰·迪是谁？",
+    "homeIntro1": "约翰·迪（John Dee，1527年7月13日—1608年或1609年），英国数学家、天文学家、占星师、神秘学家，伊丽莎白一世女王的宫廷顾问。他是当时欧洲最博学的人之一，藏书量超过欧洲大多数大学图书馆，同时也是第一个将「大英帝国」概念引入英国政治话语的人。",
+    "homeIntro2": "迪的后半生转向超自然研究，与灵媒爱德华·凯利合作进行「天使对话」——通过水晶球与天使沟通，记录天使传授的语言和预言。他由此创建了以诺魔法（Enochian magic）体系，包括一套完整的天使语言字母表。这些对话记录后被整理为《神秘日记》和《真实而忠诚的叙述》。",
+    "homeIntro3": "迪的预言大多来自天使对话记录，涉及欧洲政治格局、宗教改革、英国国运、炼金术与灵性转变等领域。虽然许多预言以隐喻和象征语言表达，但部分预言与后来的历史事件存在值得注意的对应。本站整理了他的15条核心预言，并对可验证的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「万物皆数，宇宙之奥秘铭刻于数学的语言之中。唯有通过天使的引导，凡人方能窥见造物主的设计。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1564年 —— 出版《单子象形文字》，提出万物统一的神秘符号体系",
+      "1581年 —— 开始与灵媒巴纳巴斯·索尔进行天使对话实验",
+      "1582年 —— 爱德华·凯利加入，天使对话进入核心阶段",
+      "1583-1589年 —— 与凯利游历欧洲大陆，在波兰和波西米亚继续天使对话",
+      "1588年 —— 西班牙无敌舰队败亡，迪此前曾为伊丽莎白提供占星建议",
+      "1607年 —— 最后的天使对话记录"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自迪的天使对话日记和《真实而忠诚的叙述》（<a href=\"https://en.wikipedia.org/wiki/John_Dee\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "主要参考文献：Meric Casaubon 编辑的《A True & Faithful Relation of What Passed for Many Years Between Dr. John Dee and Some Spirits》（1659年出版）",
+      "验证评价基于公开历史文献和学术研究",
+      "编者观点不代表学术定论",
+      "站点图标采用单子象形符号（Monas Hieroglyphica）——迪于1564年出版的同名著作中提出的核心符号，代表万物统一，是他最广为人知的标志"
+    ]
+  },
+  "en": {
+    "siteTitle": "John Dee Prophecies",
+    "siteSubtitle": "Elizabethan Court Astrologer (1527-1608)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is John Dee?",
+    "homeIntro1": "John Dee (July 13, 1527 – 1608 or 1609) was an English mathematician, astronomer, astrologer, occultist, and advisor to Queen Elizabeth I. He was one of the most learned men in Europe, with a library larger than most university collections, and was the first to introduce the concept of a 'British Empire' into English political discourse.",
+    "homeIntro2": "In his later years, Dee turned to supernatural research, collaborating with scryer Edward Kelley to conduct 'angelic conversations' — communicating with angels through a crystal ball and recording the language and prophecies they imparted. This led to the creation of the Enochian magic system, including a complete angelic alphabet. These session records were later compiled into his 'Spiritual Diaries' and 'A True & Faithful Relation'.",
+    "homeIntro3": "Dee's prophecies largely derive from his angelic conversation records, covering European politics, religious reformation, England's destiny, alchemy, and spiritual transformation. While many predictions are expressed in metaphorical and symbolic language, some show noteworthy correspondences with subsequent historical events. This site compiles 15 of his core prophecies and evaluates those that can be verified.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"All things are number, and the mysteries of the universe are inscribed in the language of mathematics. Only through angelic guidance may mortals glimpse the Creator's design.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1564 —— Published Monas Hieroglyphica, proposing a unified mystical symbol system",
+      "1581 —— Began angelic conversation experiments with scryer Barnabas Saul",
+      "1582 —— Edward Kelley joined, angelic conversations entered their core phase",
+      "1583-1589 —— Traveled continental Europe with Kelley, continuing angelic conversations in Poland and Bohemia",
+      "1588 —— Spanish Armada defeated; Dee had previously provided astrological counsel to Elizabeth",
+      "1607 —— Final recorded angelic conversation"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled from Dee's angelic conversation diaries and 'A True & Faithful Relation' (<a href=\"https://en.wikipedia.org/wiki/John_Dee\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Primary reference: Meric Casaubon's edition of 'A True & Faithful Relation of What Passed for Many Years Between Dr. John Dee and Some Spirits' (published 1659)",
+      "Verification based on public historical records and academic research",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: Monas Hieroglyphica symbol — the central glyph from Dee's 1564 work of the same name, representing the unity of all things and his most widely recognized emblem"
+    ]
+  }
+}

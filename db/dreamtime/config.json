@@ -1,0 +1,69 @@
+{
+  "siteId": "dreamtime",
+  "answererName": "Aboriginal Australian Elders",
+  "publishDate": "口传传统，至少10000年历史",
+  "baseUrl": "https://pre.hilife.me/dreamtime",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "梦幻时代预言全集 - 澳洲原住民万年智慧中的生态警示与未来启示 | Aboriginal Dreamtime",
+      "description": "澳洲原住民梦幻时代（Tjukurpa/Jukurrpa）口传传统中的14条生态智慧与预言性警示，涵盖彩虹蛇传说、火焰管理、水循环、大地照护、歌之路等主题。万年智慧对当代环境危机的深刻启示。",
+      "keywords": "梦幻时代,澳洲原住民,Dreamtime,Tjukurpa,彩虹蛇,原住民预言,生态智慧,歌之路,大地照护,Aboriginal prophecy",
+      "siteName": "梦幻时代预言",
+      "ogTitle": "梦幻时代预言全集 | Aboriginal Dreamtime Prophecies",
+      "ogDescription": "澳洲原住民梦幻时代口传传统中的生态智慧与预言性警示。万年智慧对现代文明的深刻启示。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条澳洲原住民梦幻时代生态智慧与预言性警示，涵盖彩虹蛇、火焰管理、歌之路等万年口传传统。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Aboriginal Dreamtime Prophecies - 10,000+ Years of Indigenous Ecological Wisdom & Warnings | Full Archive",
+      "description": "14 prophetic teachings from Australian Aboriginal Dreamtime (Tjukurpa/Jukurrpa) oral traditions, covering Rainbow Serpent warnings, fire management, water cycles, care for Country, and songlines. Ancient wisdom with profound relevance to modern environmental crisis.",
+      "keywords": "Dreamtime,Aboriginal prophecy,Tjukurpa,Jukurrpa,Rainbow Serpent,indigenous wisdom,ecological prophecy,songlines,care for Country,Australian Aboriginal",
+      "siteName": "Dreamtime Prophecies",
+      "ogTitle": "Aboriginal Dreamtime Prophecies - Ancient Ecological Wisdom",
+      "ogDescription": "Prophetic teachings from 10,000+ years of Australian Aboriginal oral tradition. Rainbow Serpent warnings, fire management wisdom, and ecological teachings with modern relevance.",
+      "locale": "en_US",
+      "twitterDescription": "14 prophetic teachings from Aboriginal Dreamtime oral traditions spanning 10,000+ years. Ancient ecological wisdom with startling modern relevance."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "梦幻时代预言",
+      "alternateName": "Aboriginal Dreamtime Prophecies",
+      "url": "https://pre.hilife.me/dreamtime/",
+      "description": "澳洲原住民梦幻时代口传传统中的生态智慧与预言性警示",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4eee4",
+    "white": "#fff",
+    "text": "#2e2418",
+    "text2": "#7a6a4e",
+    "textLight": "#645434",
+    "primary": "#a04a20",
+    "primaryDark": "#7a3010",
+    "primaryBg": "#faf0e4",
+    "link": "#a04a20",
+    "border": "#ddd0ba",
+    "border2": "#c0b098",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e4d4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Dreamtime Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dreamtime",
+    "sourceLabel": "Wikipedia"
+  }
+}

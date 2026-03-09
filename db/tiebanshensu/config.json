@@ -1,0 +1,99 @@
+{
+  "siteId": "tiebanshensu",
+  "answererName": "邵雍（传）",
+  "publishDate": "约1700年",
+  "baseUrl": "https://pre.hilife.me/tiebanshensu",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "铁板神数 - 古代命理推算体系条文精选与解读 | Iron Plate Divination",
+      "description": "铁板神数是中国古代最精密的命理推算体系之一，传为宋代邵雍所创，以八字为基础通过数学公式查条文，据称能精确推算人的一生。本站精选代表性条文并进行解读分析。",
+      "keywords": "铁板神数,邵雍,命理,八字,数术,Iron Plate Divination,Shao Yong",
+      "siteName": "铁板神数",
+      "ogTitle": "铁板神数 - 古代命理推算体系条文精选 | Iron Plate Divination",
+      "ogDescription": "铁板神数代表性条文精选与解读。涵盖六亲、功名、婚姻、寿元等人生命运推算。",
+      "locale": "zh_CN",
+      "twitterDescription": "铁板神数：中国古代最精密的命理体系，12000余条条文推算人生。精选代表性条文解读。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Iron Plate Divination (Tie Ban Shen Shu) - Ancient Chinese Numerological System | Full Archive",
+      "description": "Iron Plate Divination (铁板神数) is one of the most sophisticated numerological systems in Chinese history, attributed to Shao Yong of the Song dynasty. It uses birth data and mathematical formulas to look up condition-texts predicting one's entire life. Selected representative entries with analysis.",
+      "keywords": "Iron Plate Divination,Tie Ban Shen Shu,Shao Yong,Chinese numerology,destiny calculation",
+      "siteName": "Iron Plate Divination",
+      "ogTitle": "Iron Plate Divination - Ancient Chinese Numerological Fate System",
+      "ogDescription": "Selected representative condition-texts from the Iron Plate Divination system, covering kinship, career, marriage, and longevity predictions with analysis.",
+      "locale": "en_US",
+      "twitterDescription": "Iron Plate Divination: China's most precise fate-calculation system with 12,000+ condition-texts. Selected entries analyzed and explained."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "铁板神数",
+      "alternateName": "Iron Plate Divination",
+      "url": "https://pre.hilife.me/tiebanshensu/",
+      "description": "铁板神数代表性条文精选与解读分析",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "铁板神数是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "铁板神数是中国古代一套精密的命理推算体系，传为北宋邵雍所创，实际可能由后世多人整理编纂，成书于清代。以人的八字（出生年月日时）为基础，通过一系列数学公式运算得出数值，再查对应条文，据称能精确推算六亲、功名、婚姻、寿元等。'铁板'意为铁定不移，暗示推算结果精准无误。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "铁板神数准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "铁板神数在民间传说中被誉为'天下第一神数'，但学术界对其有效性存在极大争议。支持者认为其推算可以精确到六亲人数、生肖等细节；质疑者指出其条文数量庞大（12000余条），通过模糊匹配和冷读术（cold reading）容易产生'命中'的错觉。此外，不同版本的条文和算法差异较大。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Iron Plate Divination (Tie Ban Shen Shu)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Iron Plate Divination (铁板神数, Tie Ban Shen Shu) is one of the most elaborate numerological divination systems in Chinese tradition. Attributed to Shao Yong, a Song dynasty philosopher, it was likely compiled by multiple practitioners over centuries, reaching its current form in the Qing dynasty. The system uses one's birth data (year, month, day, hour) to compute numerical values through mathematical formulas, then cross-references these with a vast library of over 12,000 condition-texts to predict life events including family, career, marriage, and lifespan."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0e8",
+    "white": "#fff",
+    "text": "#2a2a1e",
+    "text2": "#6e6e50",
+    "textLight": "#5a5a40",
+    "primary": "#6b6b3a",
+    "primaryDark": "#4e4e24",
+    "primaryBg": "#f4f4e8",
+    "link": "#6b6b3a",
+    "border": "#d5d5c0",
+    "border2": "#b8b8a0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eaeadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "铁板神数 Iron Plate Divination"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/铁板神数",
+    "sourceLabel": "维基百科"
+  }
+}

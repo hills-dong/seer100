@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 28" height="20">
+  <!-- Fishing hook (直钩) - 姜太公钓鱼，愿者上钩 -->
+  <!-- Rod/line - vertical -->
+  <line x1="14" y1="2" x2="14" y2="16" stroke="#4a6830" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Hook curve - straight hook (直钩) distinctive feature -->
+  <path d="M14,16 Q14,24 8,24" stroke="#4a6830" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- Straight hook tip pointing down (直钩 = straight, no barb) -->
+  <line x1="8" y1="24" x2="8" y2="20" stroke="#4a6830" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Small circle at top - rod eye/ring -->
+  <circle cx="14" cy="3" r="2.5" fill="none" stroke="#6b8c4a" stroke-width="1.5"/>
+  <!-- Water ripple -->
+  <path d="M4,18 Q7,16 10,18 Q13,20 16,18 Q19,16 22,18" stroke="#6b8c4a" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <!-- Text: 六韬 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#4a6830" letter-spacing="2">六韬</text>
+</svg>

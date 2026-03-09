@@ -1,0 +1,69 @@
+{
+  "siteId": "shambhala",
+  "answererName": "Kalachakra Tantra",
+  "publishDate": "约公元前300年",
+  "baseUrl": "https://pre.hilife.me/shambhala",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "香巴拉预言全集 - 时轮密续中的隐秘王国与末世圣战 | Shambhala Prophecy",
+      "description": "时轮密续（Kalachakra Tantra）中记载的香巴拉预言完整收录。描述隐秘王国香巴拉、25位转轮王传承、末世蛮族入侵与第25代转轮王如意轮率军降世的终极圣战，以及战后黄金时代的到来。",
+      "keywords": "香巴拉,香巴拉预言,时轮密续,Kalachakra,转轮王,如意轮,Rudra Cakrin,隐秘王国,藏传佛教,末世预言,黄金时代",
+      "siteName": "香巴拉预言",
+      "ogTitle": "香巴拉预言全集 | Shambhala Prophecy",
+      "ogDescription": "时轮密续中的香巴拉预言完整收录：隐秘王国、转轮王传承、末世圣战与黄金时代。",
+      "locale": "zh_CN",
+      "twitterDescription": "时轮密续中的香巴拉预言：隐秘王国、25位转轮王、末世蛮族入侵与黄金时代的完整预言与解读。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Shambhala Prophecy - The Hidden Kingdom & Final Battle from the Kalachakra Tantra | Full Archive",
+      "description": "Complete collection of the Shambhala prophecy from the Kalachakra Tantra. The hidden Himalayan kingdom, lineage of 25 Kalki kings, barbarian invasion, the final battle led by Rudra Cakrin, and the dawning of a golden age.",
+      "keywords": "Shambhala,Shambhala prophecy,Kalachakra Tantra,Kalki king,Rudra Cakrin,hidden kingdom,Tibetan Buddhism,apocalypse prophecy,golden age,sacred war",
+      "siteName": "Shambhala Prophecy",
+      "ogTitle": "Shambhala Prophecy - The Hidden Kingdom from the Kalachakra Tantra",
+      "ogDescription": "Complete archive of the Shambhala prophecy: the hidden kingdom, 25 Kalki kings, barbarian invasion, final battle, and golden age.",
+      "locale": "en_US",
+      "twitterDescription": "The Shambhala prophecy from the Kalachakra Tantra: hidden kingdom, 25 Kalki kings, barbarian invasion, and the golden age to come."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "香巴拉预言",
+      "alternateName": "Shambhala Prophecy",
+      "url": "https://pre.hilife.me/shambhala/",
+      "description": "时轮密续中的香巴拉预言完整收录与解读",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0f2",
+    "white": "#fff",
+    "text": "#1a2024",
+    "text2": "#586878",
+    "textLight": "#445464",
+    "primary": "#3a6080",
+    "primaryDark": "#224460",
+    "primaryBg": "#e6eef6",
+    "link": "#3a6080",
+    "border": "#c8d4e0",
+    "border2": "#a8b8c8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#dee8f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Shambhala Prophecy"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shambhala",
+    "sourceLabel": "Wikipedia"
+  }
+}

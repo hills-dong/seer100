@@ -1,0 +1,99 @@
+{
+  "siteId": "meihuashi",
+  "answererName": "邵雍",
+  "publishDate": "约1060年",
+  "baseUrl": "https://pre.hilife.me/meihuashi",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "梅花诗全集 - 北宋邵雍十首预言诗详解与验证 | Plum Blossom Poems",
+      "description": "梅花诗是北宋大儒邵雍所作的十首七言律诗，每首预言一个朝代或重大历史时期，从北宋直至未来。本站完整收录十首原文并进行验证分析。",
+      "keywords": "梅花诗,邵雍,邵康节,梅花诗预言,北宋预言,易学,Plum Blossom Poems",
+      "siteName": "梅花诗预言",
+      "ogTitle": "梅花诗全集 - 北宋邵雍十首预言诗详解 | Plum Blossom Poems",
+      "ogDescription": "北宋邵雍所作《梅花诗》十首预言诗完整收录与验证分析。涵盖从北宋到未来的中国历史大事。",
+      "locale": "zh_CN",
+      "twitterDescription": "梅花诗预言验证：靖康之变、蒙元入主、明朝兴亡、清朝覆灭、民国建立等。十首预言诗逐一解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Plum Blossom Poems - Shao Yong's 10 Prophetic Poems from Song Dynasty China | Full Archive & Verification",
+      "description": "The Plum Blossom Poems (梅花诗) are ten prophetic seven-character regulated verses by Shao Yong, a great Neo-Confucian scholar and I Ching master of the Northern Song dynasty, predicting Chinese history from the Song dynasty to the future. Full archive with verification.",
+      "keywords": "Plum Blossom Poems,Shao Yong,Meihua Shi,Chinese prophecy,Song dynasty prophecy,I Ching",
+      "siteName": "Plum Blossom Poems Prophecies",
+      "ogTitle": "Plum Blossom Poems - Shao Yong's 10 Prophetic Poems from Song Dynasty China",
+      "ogDescription": "Ten prophetic poems by Northern Song scholar Shao Yong. Full archive with real-world verification covering dynastic changes, wars, and historical turning points in Chinese history.",
+      "locale": "en_US",
+      "twitterDescription": "Plum Blossom Poems verified: fall of Northern Song, Mongol conquest, Ming dynasty rise and fall, Qing collapse, Republic founding and more. 10 poems analyzed."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "梅花诗预言",
+      "alternateName": "Plum Blossom Poems Prophecies",
+      "url": "https://pre.hilife.me/meihuashi/",
+      "description": "北宋邵雍所作《梅花诗》十首预言诗完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "梅花诗是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "梅花诗相传为北宋大儒邵雍（邵康节，1011-1077）所作的十首七言律诗。每首诗预言一个朝代或重大历史时期，从北宋直至未来。邵雍是易学大师，创立了「先天易学」体系，梅花诗被认为是其易学造诣的体现。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "梅花诗的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "前八首被认为与历史事件高度吻合，包括靖康之变、蒙元入主、明朝建立、清朝覆灭、民国建立等。但学界对梅花诗的成书年代和真伪存在争议，部分学者认为可能经过后人增补修改。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the Plum Blossom Poems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Plum Blossom Poems (梅花诗, Meihua Shi) are ten prophetic seven-character regulated verses attributed to Shao Yong (1011-1077), a great Neo-Confucian scholar and I Ching master of the Northern Song dynasty. Each poem is believed to prophesy a dynasty or major historical period in Chinese history, from the Song dynasty into the future."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f4eff0",
+    "white": "#fff",
+    "text": "#2e2028",
+    "text2": "#7a6870",
+    "textLight": "#665460",
+    "primary": "#a04060",
+    "primaryDark": "#7a2848",
+    "primaryBg": "#faeff2",
+    "link": "#a04060",
+    "border": "#ddd0d5",
+    "border2": "#c2b0b8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e6ea"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "梅花诗 Plum Blossom Poems"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/邵雍",
+    "sourceLabel": "维基百科"
+  }
+}

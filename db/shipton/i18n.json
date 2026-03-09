@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "希普顿修女预言",
+    "siteSubtitle": "英格兰约克郡女预言家（约1488-1561）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "希普顿修女是谁？",
+    "homeIntro1": "希普顿修女（Mother Shipton，约1488-1561），本名乌苏拉·索泰尔（Ursula Southeil），出生于英格兰约克郡纳尔斯伯勒（Knaresborough）的一个洞穴中。她是都铎时代最著名的英格兰女预言家，据传在世时便以预言能力闻名乡里。",
+    "homeIntro2": "归于她名下的预言涵盖范围极广：从伦敦大火、西班牙无敌舰队的覆灭，到铁船、无马马车、海底通信等现代科技的出现。这些预言在数百年间通过口耳相传和小册子出版广泛流传。",
+    "homeIntro3": "然而需要特别注意的是，许多广为流传的「希普顿修女预言」实为后人伪造。1862年，出版商查尔斯·辛德利（Charles Hindley）承认自己编造了大量所谓的希普顿预言诗句，包括最著名的「世界末日」诗。本站对每条预言标注了来源可信度，以区分早期文献记载与已知伪作。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「马车无马亦可行，灾祸遍布世间生。思绪环球瞬息间，万事转瞬如云烟。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约1530年 —— 希普顿修女开始口述预言，在约克郡当地流传",
+      "1641年 —— 首次出版物《希普顿修女预言集》面世",
+      "1666年 —— 伦敦大火应验，令其声名大噪",
+      "1862年 —— 辛德利承认伪造大量预言诗句，引发可信度危机",
+      "至今 —— 纳尔斯伯勒洞穴作为旅游景点持续运营"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "早期预言出自1641年版《希普顿修女预言集》及后续版本，部分内容参考纳尔斯伯勒洞穴官方资料（<a href=\"https://en.wikipedia.org/wiki/Mother_Shipton\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "1862年伪造事件见查尔斯·辛德利公开声明（<a href=\"https://www.mothershipton.co.uk\" target=\"_blank\" rel=\"noopener\">Mother Shipton's Cave</a>）",
+      "验证评价基于公开历史记录和学术研究",
+      "编者观点不代表学术定论",
+      "站点图标采用洞穴开口造型——希普顿修女出生于纳尔斯伯勒河畔的石灰岩洞穴，这是她传奇故事中最具标志性的地点"
+    ]
+  },
+  "en": {
+    "siteTitle": "Mother Shipton Prophecies",
+    "siteSubtitle": "Yorkshire's Prophetess (c.1488-1561)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Mother Shipton?",
+    "homeIntro1": "Mother Shipton (c.1488-1561), born Ursula Southeil, came into the world in a cave beside the River Nidd in Knaresborough, Yorkshire, England. She was the most famous English prophetess of the Tudor era, reportedly renowned in her local community for her prophetic abilities during her lifetime.",
+    "homeIntro2": "Prophecies attributed to her cover an extraordinarily wide range: from the Great Fire of London and the defeat of the Spanish Armada, to the advent of modern technologies such as iron ships, horseless carriages, and submarine communications. These predictions circulated widely over centuries through oral tradition and published pamphlets.",
+    "homeIntro3": "However, it is crucial to note that many widely circulated 'Mother Shipton prophecies' are later fabrications. In 1862, publisher Charles Hindley admitted to forging numerous supposed Shipton prophecy verses, including the most famous 'end of the world' poem. This site marks each prophecy with source reliability notes to distinguish early documented predictions from known forgeries.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Carriages without horses shall go, / And accidents fill the world with woe. / Around the world thoughts shall fly, / In the twinkling of an eye.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "c.1530 —— Mother Shipton begins making oral prophecies, circulating locally in Yorkshire",
+      "1641 —— First published collection of Mother Shipton's prophecies appears in print",
+      "1666 —— Great Fire of London fulfills her prediction, bringing widespread fame",
+      "1862 —— Hindley admits forging many prophecy verses, triggering a credibility crisis",
+      "Present —— Knaresborough Cave continues operating as a tourist attraction"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Early prophecies from the 1641 edition of Mother Shipton's prophecies and subsequent reprints, with some material from Knaresborough Cave official sources (<a href=\"https://en.wikipedia.org/wiki/Mother_Shipton\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "1862 forgery documented in Charles Hindley's public admission (<a href=\"https://www.mothershipton.co.uk\" target=\"_blank\" rel=\"noopener\">Mother Shipton's Cave</a>)",
+      "Verification based on public historical records and academic research",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: cave opening motif — Mother Shipton was born in a limestone cave beside the River Nidd, the most iconic location in her legendary story"
+    ]
+  }
+}

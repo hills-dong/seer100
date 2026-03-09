@@ -1,0 +1,99 @@
+{
+  "siteId": "wanniange",
+  "answererName": "姜子牙（传）/ 邵雍",
+  "publishDate": "约公元1000年",
+  "baseUrl": "https://pre.hilife.me/wanniange",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "乾坤万年歌全文 - 姜子牙/邵雍七言预言诗详解与验证 | Qiankun Wannian Ge",
+      "description": "乾坤万年歌是一首长篇七言预言诗，传为周朝姜子牙所作，亦有说为宋代邵雍所著，以诗歌形式预言从周朝至未来的中国历代兴亡更替。本站完整收录原文并进行逐段验证分析。",
+      "keywords": "乾坤万年歌,万年歌,姜子牙,邵雍,预言诗,中国预言,Qiankun Wannian Ge",
+      "siteName": "乾坤万年歌预言",
+      "ogTitle": "乾坤万年歌全文 - 七言预言诗详解 | Qiankun Wannian Ge",
+      "ogDescription": "长篇七言预言诗《乾坤万年歌》完整收录与验证分析。从周朝预言至未来，涵盖历代王朝兴亡更替。",
+      "locale": "zh_CN",
+      "twitterDescription": "乾坤万年歌预言验证：秦统一、汉兴亡、三国鼎立、唐宋元明清更替。逐段解析验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Qiankun Wannian Ge - Complete Prophecy Poem Predicting Chinese Dynasties | Full Archive & Verification",
+      "description": "Qiankun Wannian Ge (乾坤万年歌, 'Song of Ten Thousand Years') is a long prophetic poem in seven-character verse, attributed to Jiang Ziya of the Zhou dynasty or Song dynasty scholar Shao Yong. It predicts the rise and fall of Chinese dynasties from Zhou to the future. Full archive with verification.",
+      "keywords": "Qiankun Wannian Ge,Song of Ten Thousand Years,Jiang Ziya,Shao Yong,Chinese prophecy poem",
+      "siteName": "Qiankun Wannian Ge Prophecies",
+      "ogTitle": "Qiankun Wannian Ge - The Complete Prophecy Poem of Chinese Dynasties",
+      "ogDescription": "A long prophetic poem predicting the rise and fall of Chinese dynasties. Full archive with real-world verification from Zhou dynasty to the future.",
+      "locale": "en_US",
+      "twitterDescription": "Qiankun Wannian Ge prophecies verified: Qin unification, Han dynasty, Three Kingdoms, Tang-Song-Yuan-Ming-Qing transitions. Segment-by-segment analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "乾坤万年歌预言",
+      "alternateName": "Qiankun Wannian Ge Prophecies",
+      "url": "https://pre.hilife.me/wanniange/",
+      "description": "长篇七言预言诗《乾坤万年歌》完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "乾坤万年歌是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "乾坤万年歌是一首长篇七言预言诗，相传为周朝开国功臣姜子牙所作，但学术界多认为实际作者可能是宋代理学家邵雍或后人托名。全诗以七言韵文形式，从周朝开始，依次预言秦、汉、三国、晋、南北朝、隋、唐、宋、元、明、清等朝代的兴亡更替，直至未来天下太平。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "乾坤万年歌的作者是谁？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "乾坤万年歌传统上托名为周朝姜子牙（姜太公）所作，但学术界普遍认为此说法缺乏文献支撑。较为可信的说法是宋代理学家、易学大师邵雍（1011-1077）所著，也有学者认为是明清时期后人假托古人之名编纂。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Qiankun Wannian Ge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Qiankun Wannian Ge (乾坤万年歌, 'Song of Ten Thousand Years of Heaven and Earth') is a long prophetic poem in seven-character verse. Traditionally attributed to Jiang Ziya, the legendary strategist of the Zhou dynasty, though scholars generally believe it was more likely composed by the Song dynasty Neo-Confucian scholar Shao Yong (1011-1077) or by later authors writing under an ancient pseudonym. The poem predicts the rise and fall of Chinese dynasties from Zhou through the future."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f2ee",
+    "white": "#fff",
+    "text": "#1e2a24",
+    "text2": "#6a7a70",
+    "textLight": "#566860",
+    "primary": "#2a6b5c",
+    "primaryDark": "#1a4e40",
+    "primaryBg": "#e8f5f0",
+    "link": "#2a6b5c",
+    "border": "#d0dcd6",
+    "border2": "#b0c0b8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e8ede6"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "万年歌 Wannian Ge"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/乾坤万年歌",
+    "sourceLabel": "维基百科"
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 28" height="20">
+  <!-- Dowsing rod (Y-shape) icon -->
+  <line x1="6" y1="4" x2="14" y2="18" stroke="#3e4e3e" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="22" y1="4" x2="14" y2="18" stroke="#3e4e3e" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="14" y1="18" x2="14" y2="27" stroke="#3e4e3e" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="14" cy="14" r="12" fill="none" stroke="#5a6a5a" stroke-width="1.5"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#3e4e3e" letter-spacing="0.5">IRLMAIER</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 28" height="20">
+  <!-- Pentagram in circle -->
+  <circle cx="14" cy="14" r="12" fill="#4a7a50"/>
+  <polygon points="14,3 16.6,10.8 24.7,10.8 18,15.7 20.1,23.5 14,19 7.9,23.5 10,15.7 3.3,10.8 11.4,10.8" fill="#f0f2f0"/>
+  <circle cx="14" cy="14" r="4" fill="#305c36"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#305c36" letter-spacing="0.5">DEUNOV</text>
+</svg>

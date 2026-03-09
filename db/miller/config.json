@@ -1,0 +1,69 @@
+{
+  "siteId": "miller",
+  "answererName": "William Miller",
+  "publishDate": "1831-1844",
+  "baseUrl": "https://pre.hilife.me/miller",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "威廉·米勒预言全集 - 大失望运动与基督复临预言 | William Miller Prophecies",
+      "description": "美国浸信会牧师威廉·米勒（1782-1849）基于但以理书8:14「2300日」的末日计算，预言基督将于1843-1844年复临。预言落空后引发「大失望」事件，催生基督复临安息日会。",
+      "keywords": "威廉米勒,米勒运动,大失望,基督复临,但以理书,2300日预言,安息日会,末日预言,1844年预言",
+      "siteName": "威廉·米勒预言",
+      "ogTitle": "威廉·米勒预言全集 | William Miller Prophecies",
+      "ogDescription": "美国浸信会牧师威廉·米勒基于但以理书的末日计算，预言基督复临时间及「大失望」事件始末。",
+      "locale": "zh_CN",
+      "twitterDescription": "威廉·米勒基于但以理书2300日计算预言基督1843-1844年复临，预言落空引发「大失望」，催生安息日会。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "William Miller Prophecies - The Great Disappointment & Second Advent Predictions | Full Archive",
+      "description": "American Baptist preacher William Miller (1782-1849) predicted Christ's return in 1843-1844 based on Daniel 8:14's '2300 days' calculation. The failed prophecy triggered 'The Great Disappointment' and gave birth to the Seventh-day Adventist Church.",
+      "keywords": "William Miller,Millerism,Great Disappointment,Second Advent,Daniel 8:14,2300 day prophecy,Seventh-day Adventist,end times,1844 prophecy",
+      "siteName": "William Miller Prophecies",
+      "ogTitle": "William Miller Prophecies - The Great Disappointment & Advent Predictions",
+      "ogDescription": "American Baptist preacher William Miller's end-times calculations based on Daniel 8:14, the failed 1844 prediction, and the birth of Adventism.",
+      "locale": "en_US",
+      "twitterDescription": "William Miller predicted Christ's return in 1843-1844 based on Daniel 8:14. The 'Great Disappointment' shaped American religious history."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "威廉·米勒预言",
+      "alternateName": "William Miller Prophecies",
+      "url": "https://pre.hilife.me/miller/",
+      "description": "美国浸信会牧师威廉·米勒基于但以理书的基督复临预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0ee",
+    "white": "#fff",
+    "text": "#242220",
+    "text2": "#706a64",
+    "textLight": "#5c5650",
+    "primary": "#6a5a50",
+    "primaryDark": "#4e3e34",
+    "primaryBg": "#f4f0ee",
+    "link": "#6a5a50",
+    "border": "#d8d2cc",
+    "border2": "#bcb4ac",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#ece6e0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "William Miller Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/William_Miller_(preacher)",
+    "sourceLabel": "Wikipedia"
+  }
+}

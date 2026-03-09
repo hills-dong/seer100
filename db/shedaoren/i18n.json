@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "赊刀人预言",
+    "siteSubtitle": "中国民间·神秘赊刀者",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "赊刀人是谁？",
+    "homeIntro1": "赊刀人是中国民间传说中一类神秘的行商。他们背着菜刀、剪刀走街串巷，以低于市价的价格赊卖刀具，分文不收。奇特的是，他们不留姓名地址，只留下一句预言作为「收款条件」——比如「等大米涨到X元一斤的时候，我来收钱」。这些预言在当时往往显得荒诞不经，没人相信会成真。",
+    "homeIntro2": "赊刀人的记录最早可追溯至1990年代的中国农村地区，此后在多个省份持续有目击报告。他们留下的预言主要涉及粮食价格、猪肉价格、房价、气候变化等与百姓生活密切相关的话题。部分预言在若干年后确实与现实吻合，令人惊叹；也有一些至今未应验或已被证伪。",
+    "homeIntro3": "赊刀人现象是中国当代最独特的民间预言传统之一。然而需要指出的是，这些故事绝大多数通过口耳相传和网络转述流传，缺乏原始文献记录，难以独立考证其真实性。本站整理了网络上广泛流传的赊刀人预言故事，进行验证分析，供读者参考。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「等到大米卖到X元一斤的时候，我再来收钱。」——赊刀人的经典开场白",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1990年代 —— 最早的赊刀人活动报告出现在中国农村地区",
+      "2000年代 —— 多省陆续有赊刀人目击记录，预言多涉及粮价",
+      "2010年代 —— 赊刀人故事在社交媒体上广泛传播，引发关注",
+      "2015-2020 —— 部分早期预言的时间节点到来，开始有验证讨论",
+      "2020年代 —— 新冠疫情后物价波动，赊刀人预言再度引发热议"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "赊刀人预言为中国民间口头流传的故事，缺乏可考证的原始文献，本站内容整理自网络广泛流传的版本（<a href=\"https://zh.wikipedia.org/wiki/赊刀人\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "预言文本在传播过程中可能经过多次改编和加工，不同来源的版本细节存在差异",
+      "验证评价基于公开新闻报道和统计数据，编者观点不代表学术定论",
+      "站点图标采用菜刀造型——赊刀人以赊卖菜刀闻名，菜刀是这一民间传说最具辨识度的符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Credit Knife Sellers",
+    "siteSubtitle": "Chinese Folk · Mysterious Peddlers",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who Are the Credit Knife Sellers?",
+    "homeIntro1": "She Dao Ren (赊刀人, literally \"Credit Knife People\") are mysterious traveling merchants in Chinese folklore. They wander through villages and towns carrying kitchen knives and scissors, selling them on credit at below-market prices without collecting any payment. Remarkably, they leave no name or address — only a prophecy as their \"collection condition,\" such as: \"When rice reaches X yuan per jin, I will come back to collect.\" These predictions typically seem absurd and impossible at the time.",
+    "homeIntro2": "The earliest documented reports of Credit Knife Sellers date to rural China in the 1990s, with sightings continuing across multiple provinces. Their predictions primarily concern grain prices, pork prices, housing costs, climate changes, and other matters closely tied to ordinary people's livelihoods. Some predictions have remarkably matched reality years later; others remain unfulfilled or have been disproven.",
+    "homeIntro3": "The Credit Knife Seller phenomenon is one of contemporary China's most distinctive folk prophecy traditions. However, it must be noted that the vast majority of these stories are transmitted through word of mouth and internet retellings, lacking original documentation and independent verification. This site compiles widely circulated Credit Knife Seller prophecy stories from the internet with verification analysis for reference.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"When rice reaches X yuan per jin, I will come back to collect the money.\" — The classic opening line of Credit Knife Sellers",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1990s —— Earliest reports of Credit Knife Sellers emerge in rural China",
+      "2000s —— Sightings reported across multiple provinces; predictions mostly about grain prices",
+      "2010s —— Stories spread widely on Chinese social media, drawing public attention",
+      "2015-2020 —— Time horizons for some early predictions arrive; verification discussions begin",
+      "2020s —— Post-pandemic price fluctuations reignite interest in Credit Knife Seller prophecies"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Credit Knife Seller prophecies are orally transmitted Chinese folk stories lacking verifiable original documentation; content compiled from widely circulated internet versions (<a href=\"https://zh.wikipedia.org/wiki/赊刀人\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Prophecy texts may have been adapted and embellished through retelling; details vary across sources",
+      "Verification based on public news reports and statistical data; editorial opinions do not represent academic consensus",
+      "Site icon: kitchen cleaver — Credit Knife Sellers are known for selling knives on credit, making the cleaver the most recognizable symbol of this folk tradition"
+    ]
+  }
+}

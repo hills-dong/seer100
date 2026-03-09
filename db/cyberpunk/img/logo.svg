@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 28" height="20">
+  <!-- Circuit board eye icon -->
+  <!-- Outer eye shape -->
+  <path d="M2 14 A12 10 0 0 1 26 14 A12 10 0 0 1 2 14 Z" fill="#5a4030"/>
+  <!-- Inner white of eye -->
+  <circle cx="14" cy="14" r="5.5" fill="#fff"/>
+  <!-- Pupil -->
+  <circle cx="14" cy="14" r="2.8" fill="#3e2818"/>
+  <!-- Circuit traces -->
+  <line x1="2" y1="14" x2="0" y2="14" stroke="#5a4030" stroke-width="1.2"/>
+  <line x1="26" y1="14" x2="28" y2="14" stroke="#5a4030" stroke-width="1.2"/>
+  <line x1="14" y1="2" x2="14" y2="5" stroke="#5a4030" stroke-width="1.2"/>
+  <line x1="14" y1="23" x2="14" y2="26" stroke="#5a4030" stroke-width="1.2"/>
+  <line x1="5" y1="5" x2="7" y2="7.5" stroke="#5a4030" stroke-width="1"/>
+  <line x1="23" y1="5" x2="21" y2="7.5" stroke="#5a4030" stroke-width="1"/>
+  <line x1="5" y1="23" x2="7" y2="20.5" stroke="#5a4030" stroke-width="1"/>
+  <line x1="23" y1="23" x2="21" y2="20.5" stroke="#5a4030" stroke-width="1"/>
+  <!-- Circuit dots at endpoints -->
+  <circle cx="0" cy="14" r="1.2" fill="#5a4030"/>
+  <circle cx="28" cy="14" r="1.2" fill="#5a4030"/>
+  <circle cx="14" cy="2" r="1.2" fill="#5a4030"/>
+  <circle cx="14" cy="26" r="1.2" fill="#5a4030"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#3e2818" letter-spacing="0.5">CYBERPUNK</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 28" height="20">
+  <!-- Bagua (Eight Trigrams) symbol -->
+  <!-- Outer circle -->
+  <circle cx="14" cy="14" r="12" fill="none" stroke="#8b6914" stroke-width="1.2"/>
+  <!-- Trigram lines - top (Qian/Heaven: three solid lines) -->
+  <line x1="8" y1="5" x2="20" y2="5" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="8" y1="8.5" x2="20" y2="8.5" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Middle yin line (broken) -->
+  <line x1="8" y1="12" x2="12.5" y2="12" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="15.5" y1="12" x2="20" y2="12" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="14" cy="14" r="1.5" fill="#8b6914"/>
+  <!-- Bottom yin line (broken) -->
+  <line x1="8" y1="16" x2="12.5" y2="16" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="15.5" y1="16" x2="20" y2="16" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Bottom solid lines -->
+  <line x1="8" y1="19.5" x2="20" y2="19.5" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="8" y1="23" x2="20" y2="23" stroke="#6a4e0e" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Text: 马前课 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#6a4e0e" letter-spacing="2">马前课</text>
+</svg>

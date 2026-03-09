@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 28" height="20">
+  <!-- Q icon: bold letter Q with distinctive tail -->
+  <circle cx="14" cy="13" r="10" fill="none" stroke="#8c4040" stroke-width="4"/>
+  <line x1="20" y1="19" x2="26" y2="26" stroke="#6a2828" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#6a2828" letter-spacing="0.5">QANON</text>
+</svg>

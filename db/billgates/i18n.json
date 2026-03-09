@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "比尔·盖茨预言",
+    "siteSubtitle": "科技远见者与慈善家（1955-）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "比尔·盖茨是谁？",
+    "homeIntro1": "比尔·盖茨（Bill Gates，1955年10月28日—），美国企业家、软件工程师和慈善家，微软公司联合创始人。他曾连续多年蝉联全球首富，是现代信息技术革命的核心推动者之一。",
+    "homeIntro2": "盖茨不仅是一位成功的商业领袖，更是一位具有远见的未来预测者。从1995年出版的《未来之路》到2015年关于大流行病的TED演讲，再到每年的盖茨年度公开信，他对技术发展和全球挑战的预测多次被现实验证。",
+    "homeIntro3": "退出微软日常运营后，盖茨通过比尔及梅琳达·盖茨基金会致力于全球健康、教育和气候变化等议题。他对AI革命、清洁能源和全球卫生的观察和预测持续受到广泛关注。本站整理了他的15条重要预测，并对已到期的预言进行了验证评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「如果说20世纪的标志性技术是原子弹，那么21世纪的标志性威胁就是生物恐怖主义或传染病大流行。我们没有为下一次疫情做好准备。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1995年 —— 出版《未来之路》，预测互联网将改变商业、教育和社交方式",
+      "1999年 —— 出版《未来时速》，预测智能手机、在线广告和社交媒体",
+      "2015年 —— TED演讲「下一次疫情，我们还没准备好」，预警大流行病",
+      "2019年 —— 盖茨年度公开信讨论AI与全球卫生的交叉领域",
+      "2023年 —— 宣称「AI时代已经到来」，预测AI将重塑教育和医疗"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预测内容整理自盖茨的公开著作、TED演讲和盖茨笔记博客（<a href=\"https://www.gatesnotes.com/\" target=\"_blank\" rel=\"noopener\">GatesNotes</a>）",
+      "1995年预测来自《未来之路》（The Road Ahead），1999年预测来自《未来时速》（Business @ the Speed of Thought）",
+      "2015年大流行病预警来自TED演讲（<a href=\"https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready\" target=\"_blank\" rel=\"noopener\">TED Talk</a>）",
+      "验证评价基于公开新闻报道和行业数据",
+      "编者观点不代表学术定论",
+      "站点图标采用四格窗口符号——致敬盖茨创办的微软Windows，已成为其最广为人知的视觉标志"
+    ]
+  },
+  "en": {
+    "siteTitle": "Bill Gates Predictions",
+    "siteSubtitle": "Tech Visionary & Philanthropist (1955-)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Bill Gates?",
+    "homeIntro1": "Bill Gates (born October 28, 1955) is an American entrepreneur, software engineer, and philanthropist. As co-founder of Microsoft, he was one of the central figures of the personal computer revolution and held the title of world's richest person for many years.",
+    "homeIntro2": "Beyond his business success, Gates has proven to be a remarkably prescient forecaster. From his 1995 book 'The Road Ahead' to his 2015 TED talk warning about pandemics, to his annual letters, his predictions about technology and global challenges have been validated by reality time and again.",
+    "homeIntro3": "After stepping back from Microsoft's daily operations, Gates has focused on global health, education, and climate change through the Bill & Melinda Gates Foundation. His observations on the AI revolution, clean energy, and global health continue to attract widespread attention. This site compiles 15 of his major predictions and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"If anything kills over 10 million people in the next few decades, it's most likely to be a highly infectious virus rather than a war. Not missiles, but microbes. We are not ready for the next epidemic.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1995 —— Published 'The Road Ahead', predicting internet would transform commerce, education, and social interaction",
+      "1999 —— Published 'Business @ the Speed of Thought', predicting smartphones, online ads, and social media",
+      "2015 —— TED talk 'The next outbreak? We're not ready', warning of a pandemic",
+      "2019 —— Annual letter discussed intersection of AI and global health",
+      "2023 —— Declared 'The Age of AI has begun', predicting AI will reshape education and healthcare"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions compiled from Gates's published books, TED talks, and GatesNotes blog (<a href=\"https://www.gatesnotes.com/\" target=\"_blank\" rel=\"noopener\">GatesNotes</a>)",
+      "1995 predictions from 'The Road Ahead'; 1999 predictions from 'Business @ the Speed of Thought'",
+      "2015 pandemic warning from TED talk (<a href=\"https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready\" target=\"_blank\" rel=\"noopener\">TED Talk</a>)",
+      "Verification based on public news reports and industry data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: four-pane window symbol — a nod to Gates's Microsoft Windows, his most recognizable visual legacy"
+    ]
+  }
+}

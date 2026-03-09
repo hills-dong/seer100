@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 28" height="20">
+  <!-- Closed eye icon: sleeping/trance motif -->
+  <circle cx="14" cy="14" r="12" fill="#406080"/>
+  <!-- Closed eyelid curve (white) -->
+  <path d="M5 14 Q14 8 23 14" fill="#fff" stroke="none"/>
+  <!-- Lower lid / lash line -->
+  <path d="M5 14 Q14 20 23 14" fill="#284460" stroke="none"/>
+  <!-- Eyelashes radiating downward -->
+  <line x1="9" y1="16.5" x2="7.5" y2="20" stroke="#284460" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="14" y1="17.5" x2="14" y2="21.5" stroke="#284460" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="19" y1="16.5" x2="20.5" y2="20" stroke="#284460" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#284460" letter-spacing="0.5">E. CAYCE</text>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "托克维尔预言",
+    "siteSubtitle": "法国政治思想家（1805-1859）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "托克维尔是谁？",
+    "homeIntro1": "亚历克西斯·德·托克维尔（Alexis de Tocqueville，1805年7月29日—1859年4月16日），法国政治思想家、历史学家、社会学家。出身诺曼底贵族家庭，曾任法国外交部长。他于1831年赴美考察九个月，随后写成政治学经典《论美国的民主》（上卷1835年，下卷1840年）。",
+    "homeIntro2": "托克维尔以惊人的洞察力分析了民主社会的运作机制与内在张力。他不是神秘预言家，而是一位凭借严密政治逻辑做出预判的学者。他的许多论断在近两百年后的今天被视为政治预言——预见了美俄对抗、多数人暴政、民主社会的物质主义、个人主义的孤立化、政府权力的集中化等。",
+    "homeIntro3": "托克维尔的另一部代表作《旧制度与大革命》（1856年）分析了法国大革命的深层原因，揭示了中央集权与革命之间的悖论关系。本站整理了他最具前瞻性的15条政治预见，并逐条对照历史进行验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「在统治人类社会的法则中，有一条最明确清晰的法则：如果人们想保持文明或变得文明，那么他们必须提高并改善处理相互关系的艺术，而这种改善要与提高地位平等的程度成正比。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1831年 —— 赴美考察九个月，走访美国各地",
+      "1835年 —— 出版《论美国的民主》上卷，一举成名",
+      "1840年 —— 出版《论美国的民主》下卷，更深入分析民主社会的内在危机",
+      "1849年 —— 出任法国外交部长",
+      "1856年 —— 出版《旧制度与大革命》，分析中央集权与革命的关系"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容摘录自《论美国的民主》（De la démocratie en Amérique, 1835/1840）原文，引文参照英译本（<a href=\"https://www.gutenberg.org/ebooks/815\" target=\"_blank\" rel=\"noopener\">Project Gutenberg</a>）",
+      "《旧制度与大革命》（L'Ancien Régime et la Révolution, 1856）相关论述参照英译本（<a href=\"https://www.gutenberg.org/ebooks/10545\" target=\"_blank\" rel=\"noopener\">Project Gutenberg</a>）",
+      "生平资料参考维基百科（<a href=\"https://en.wikipedia.org/wiki/Alexis_de_Tocqueville\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开历史记录和学术研究",
+      "站点图标采用天平符号——天平代表民主、平等与正义的平衡，是托克维尔核心思想的视觉隐喻"
+    ]
+  },
+  "en": {
+    "siteTitle": "Tocqueville Prophecies",
+    "siteSubtitle": "French Political Thinker (1805-1859)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Tocqueville?",
+    "homeIntro1": "Alexis de Tocqueville (July 29, 1805 – April 16, 1859) was a French political thinker, historian, and sociologist. Born into a Norman aristocratic family, he later served as France's Foreign Minister. In 1831, he traveled to America for a nine-month study tour, which resulted in the political classic Democracy in America (Volume I, 1835; Volume II, 1840).",
+    "homeIntro2": "Tocqueville analyzed the mechanisms and internal tensions of democratic society with remarkable prescience. He was not a mystic prophet but a scholar who made predictions through rigorous political logic. Many of his observations are now regarded as political prophecies — foreseeing the US-Russia rivalry, tyranny of the majority, democratic materialism, the isolation of individualism, and the centralization of government power.",
+    "homeIntro3": "His other major work, The Old Regime and the Revolution (1856), analyzed the deep causes of the French Revolution and revealed the paradoxical relationship between centralization and revolution. This site compiles his 15 most prescient political observations and verifies each against historical record.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Among the laws that rule human societies, there is one which seems to be more precise and clear than all others. If men are to remain civilized or to become so, the art of associating together must grow and improve in the same ratio in which the equality of conditions is increased.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1831 —— Nine-month study tour across America",
+      "1835 —— Published Democracy in America, Volume I, to instant acclaim",
+      "1840 —— Published Democracy in America, Volume II, deeper analysis of democratic society's internal crises",
+      "1849 —— Served as France's Foreign Minister",
+      "1856 —— Published The Old Regime and the Revolution, analyzing centralization and revolution"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy content excerpted from Democracy in America (De la démocratie en Amérique, 1835/1840), referencing the English translation (<a href=\"https://www.gutenberg.org/ebooks/815\" target=\"_blank\" rel=\"noopener\">Project Gutenberg</a>)",
+      "The Old Regime and the Revolution (L'Ancien Régime et la Révolution, 1856) content references the English translation (<a href=\"https://www.gutenberg.org/ebooks/10545\" target=\"_blank\" rel=\"noopener\">Project Gutenberg</a>)",
+      "Biographical information from Wikipedia (<a href=\"https://en.wikipedia.org/wiki/Alexis_de_Tocqueville\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public historical records and academic research",
+      "Site icon: balance scale symbol — representing the balance of democracy, equality, and justice, a visual metaphor for Tocqueville's central themes"
+    ]
+  }
+}

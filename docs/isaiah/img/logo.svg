@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" height="20">
+  <!-- Burning coal / seraph motif: flame shape from Isaiah's calling vision -->
+  <!-- Coal base circle -->
+  <circle cx="14" cy="21" r="6" fill="#3e3060"/>
+  <!-- Inner glow on coal -->
+  <circle cx="14" cy="20" r="3.5" fill="#5a4a7a"/>
+  <!-- Outer flame - polygon shape -->
+  <polygon points="14,2 18,10 20,8 19,14 17,18 14,21 11,18 9,14 8,8 10,10" fill="#5a4a7a"/>
+  <!-- Inner flame highlight (pre-composited with bg) -->
+  <polygon points="14,6 16,12 15,16 14,18 13,16 12,12" fill="#eeeaf6"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#3e3060" letter-spacing="0.5">ISAIAH</text>
+</svg>

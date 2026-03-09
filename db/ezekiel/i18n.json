@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "以西结异象",
+    "siteSubtitle": "旧约流亡先知（约公元前622-570年）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "以西结是谁？",
+    "homeIntro1": "以西结（Ezekiel，约公元前622-570年）是旧约圣经中的四大先知之一，出身祭司家庭。公元前597年，他随犹大国第一批被掳者被流放至巴比伦，在迦巴鲁河畔的犹太流亡社区中生活和传道。",
+    "homeIntro2": "在流亡期间，以西结经历了一系列惊人的异象，并将其记录为《以西结书》共48章。他的异象以宏大、奇异和象征性著称——从四活物与轮中之轮的宝座战车（Merkabah），到枯骨复生的山谷，再到新圣殿的精确蓝图。这些异象涵盖了耶路撒冷的毁灭、列国的审判、以色列的复兴等主题。",
+    "homeIntro3": "以西结书中的许多预言已在历史中得到印证，如耶路撒冷和推罗的陷落；也有一些仍被视为末世预言，如歌革与玛各之战和新圣殿的建造。本站整理了以西结书中的核心异象与预言，并对可验证的部分进行了历史评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「我必将我的灵放在你们里面，你们就要活了。我将你们安置在本地，你们就知道我耶和华如此说，也如此成就了。」——以西结书37:14",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "公元前597年 —— 以西结随第一批被掳者流放至巴比伦",
+      "公元前593年 —— 在迦巴鲁河畔领受宝座战车异象（蒙召）",
+      "公元前588-586年 —— 预言耶路撒冷围城与陷落，随后应验",
+      "公元前573年 —— 领受新圣殿异象（以西结书40-48章）",
+      "公元前332年 —— 亚历山大大帝攻陷推罗岛城，应验推罗预言"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文引自《以西结书》（和合本/NIV），参考学术注释本（<a href=\"https://en.wikipedia.org/wiki/Book_of_Ezekiel\" target=\"_blank\" rel=\"noopener\">Wikipedia: Book of Ezekiel</a>）",
+      "历史验证基于考古发现与学术文献（<a href=\"https://www.britannica.com/biography/Ezekiel-Hebrew-prophet\" target=\"_blank\" rel=\"noopener\">Britannica: Ezekiel</a>）",
+      "编者观点不代表任何宗教教派的官方立场",
+      "站点图标采用轮中之轮——以西结宝座战车异象中最著名的符号，代表神圣力量的运行"
+    ]
+  },
+  "en": {
+    "siteTitle": "Ezekiel's Visions",
+    "siteSubtitle": "Old Testament Exilic Prophet (~622-570 BC)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Ezekiel?",
+    "homeIntro1": "Ezekiel (~622-570 BC) was one of the four major prophets of the Old Testament, born into a priestly family. In 597 BC, he was deported to Babylon with the first group of Judean exiles, living and prophesying in the Jewish exile community along the Chebar canal.",
+    "homeIntro2": "During his exile, Ezekiel experienced a series of extraordinary visions, recorded in the 48 chapters of the Book of Ezekiel. His visions are renowned for their grandeur, strangeness, and rich symbolism — from the throne-chariot (Merkabah) with its four living creatures and wheels within wheels, to the valley of dry bones, to the precise blueprint of a new Temple. These visions encompass the destruction of Jerusalem, judgment on nations, and the restoration of Israel.",
+    "homeIntro3": "Many of Ezekiel's prophecies have been historically verified, such as the fall of Jerusalem and Tyre; others are still regarded as eschatological prophecies, such as the war of Gog and Magog and the building of the new Temple. This site compiles the core visions and prophecies from the Book of Ezekiel, with historical evaluation where verification is possible.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"I will put my Spirit in you and you will live, and I will settle you in your own land. Then you will know that I the LORD have spoken, and I have done it.\" — Ezekiel 37:14",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "597 BC —— Ezekiel deported to Babylon with the first exile",
+      "593 BC —— Receives the throne-chariot vision by the Chebar canal (calling)",
+      "588-586 BC —— Prophesies the siege and fall of Jerusalem, later fulfilled",
+      "573 BC —— Receives the new Temple vision (Ezekiel 40-48)",
+      "332 BC —— Alexander the Great conquers island-city of Tyre, fulfilling the Tyre prophecy"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy texts from the Book of Ezekiel (CUV/NIV), with reference to scholarly commentaries (<a href=\"https://en.wikipedia.org/wiki/Book_of_Ezekiel\" target=\"_blank\" rel=\"noopener\">Wikipedia: Book of Ezekiel</a>)",
+      "Historical verification based on archaeological findings and academic literature (<a href=\"https://www.britannica.com/biography/Ezekiel-Hebrew-prophet\" target=\"_blank\" rel=\"noopener\">Britannica: Ezekiel</a>)",
+      "Editorial opinions do not represent the official position of any religious denomination",
+      "Site icon: wheel within a wheel — the most famous symbol from Ezekiel's throne-chariot vision, representing the movement of divine power"
+    ]
+  }
+}

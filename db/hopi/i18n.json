@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "霍比预言",
+    "siteSubtitle": "美洲原住民霍比族长老口传预言",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "霍比预言是什么？",
+    "homeIntro1": "霍比族（Hopi）是美国亚利桑那州东北部的美洲原住民部族，自称「和平之民」。霍比人拥有一套古老的口传预言传统，据信可追溯到数千年前，由族中长老代代相传。这些预言描述了人类文明的兴衰循环，以及即将到来的「大净化」时代。",
+    "homeIntro2": "霍比预言中最知名的是「九大征兆」——在世界终结与重生之前将会出现的九个标志。此外还有蓝星卡奇纳（Blue Star Kachina）的回归、预言石刻上人类面临的两条道路等重要预言。这些预言由美国作家 Frank Waters 在1963年出版的《霍比之书》中首次系统记录。",
+    "homeIntro3": "1992年12月10日，霍比族长老 Thomas Banyacya 受邀在联合国大会上发言，向全世界传达了霍比人对地球生态和人类命运的警示。许多九大征兆被认为已在20世纪得到应验，包括铁路、电话线、高速公路、石油泄漏等。本站整理了霍比预言的核心内容并进行了验证分析。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「当蓝星卡奇纳在广场上跳起舞来，摘下面具的时候，第五世界就将到来。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约公元前1000年 —— 霍比口传预言传统开始形成",
+      "1963年 —— Frank Waters 出版《霍比之书》，首次系统记录霍比预言",
+      "1992年 —— Thomas Banyacya 在联合国大会发言，传达霍比预言警示",
+      "20世纪 —— 九大征兆中的前八个被认为已经应验",
+      "未来 —— 第九征兆（太空站坠落）与大净化尚待验证"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容主要整理自 Frank Waters 所著《Book of the Hopi》(1963)（<a href=\"https://en.wikipedia.org/wiki/Book_of_the_Hopi\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "Thomas Banyacya 1992年联合国演讲记录及相关报道（<a href=\"https://en.wikipedia.org/wiki/Thomas_Banyacya\" target=\"_blank\" rel=\"noopener\">Wikipedia: Thomas Banyacya</a>）",
+      "霍比预言石刻及口传传统的学术研究（<a href=\"https://en.wikipedia.org/wiki/Hopi_prophecy\" target=\"_blank\" rel=\"noopener\">Wikipedia: Hopi prophecy</a>）",
+      "验证评价基于公开新闻报道和历史记录",
+      "编者观点不代表学术定论，也不代表霍比族官方立场",
+      "站点图标采用螺旋迁徙符号——霍比岩画中最具代表性的图腾，象征霍比人的迁徙之旅与生命循环"
+    ]
+  },
+  "en": {
+    "siteTitle": "Hopi Prophecy",
+    "siteSubtitle": "Oral Prophecies of the Hopi Elders",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Hopi Prophecy?",
+    "homeIntro1": "The Hopi people of northeastern Arizona are a Native American tribe whose name means 'Peaceful People.' They possess an ancient oral prophetic tradition believed to date back thousands of years, passed down through generations by tribal elders. These prophecies describe the cyclical rise and fall of human civilizations and the coming era of 'Great Purification.'",
+    "homeIntro2": "The most well-known Hopi prophecies include the 'Nine Signs' — markers that will appear before the world's destruction and rebirth. Other key prophecies involve the return of the Blue Star Kachina, and the Prophecy Rock petroglyph showing two paths humanity may take. These prophecies were first systematically documented by American author Frank Waters in 'Book of the Hopi' (1963).",
+    "homeIntro3": "On December 10, 1992, Hopi elder Thomas Banyacya addressed the United Nations General Assembly, delivering the Hopi warnings about Earth's ecology and humanity's fate. Many of the Nine Signs are considered to have been fulfilled during the 20th century, including railroads, telephone lines, highways, and oil spills. This site compiles the core Hopi prophecies with verification analysis.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"When the Blue Star Kachina dances in the plaza and removes its mask, the Fifth World will begin.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "c. 1000 BCE —— Hopi oral prophetic tradition begins to form",
+      "1963 —— Frank Waters publishes 'Book of the Hopi', first systematic documentation",
+      "1992 —— Thomas Banyacya addresses the UN General Assembly with Hopi warnings",
+      "20th century —— First eight of the Nine Signs considered fulfilled",
+      "Future —— Ninth Sign (space station falling) and Great Purification yet to be verified"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled primarily from Frank Waters' 'Book of the Hopi' (1963) (<a href=\"https://en.wikipedia.org/wiki/Book_of_the_Hopi\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Thomas Banyacya's 1992 UN speech records and related news coverage (<a href=\"https://en.wikipedia.org/wiki/Hopi_prophecy\" target=\"_blank\" rel=\"noopener\">Wikipedia: Hopi prophecy</a>)",
+      "Academic research on Hopi Prophecy Rock and oral traditions",
+      "Verification based on public news reports and historical records",
+      "Editorial opinions do not represent academic consensus or official Hopi positions",
+      "Site icon: spiral migration symbol — the most representative motif in Hopi petroglyphs, symbolizing the Hopi migration journey and the cycle of life"
+    ]
+  }
+}

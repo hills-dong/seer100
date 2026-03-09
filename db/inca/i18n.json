@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "印加预言",
+    "siteSubtitle": "安第斯高原的古老智慧（约1200年起）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "印加预言是什么？",
+    "homeIntro1": "印加预言源自南美安第斯高原的印加文明及其继承者Q'ero族长老的口传传统。印加帝国（约1200年—1533年）是前哥伦布时期美洲最大的帝国，其宇宙观以循环时间、自然崇拜和宇宙平衡（Ayni）为核心。",
+    "homeIntro2": "印加预言体系中最核心的概念是「帕查库提」（Pachacuti），意为「世界的翻转」或「时空的逆转」，指宇宙秩序的大规模重组。印加人相信宇宙运行以五个太阳纪为周期，每个纪元终结时都伴随巨大的变革与重生。",
+    "homeIntro3": "1949年，秘鲁安第斯山区的Q'ero族长老在一次学术考察中被重新发现，他们自称是印加祭司的直系后裔，保存了帕查库提预言和塔里帕伊帕查（重逢时代）等古老传统。本站整理了印加预言体系中的核心预言与传统，并对可验证的部分进行了评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「当鹰与秃鹰在天空中重逢飞翔，世界将恢复平衡。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约1200年 —— 印加文明兴起，宇宙观与预言传统形成",
+      "1533年 —— 西班牙征服者摧毁印加帝国，Q'ero族隐入高山保存传统",
+      "1949年 —— Q'ero长老被人类学家重新发现于安第斯高山",
+      "1990年代 —— Q'ero长老宣布帕查库提时代已经开始",
+      "2012年 —— 第五太阳纪的关键转折点"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "Q'ero长老预言主要来自人类学家Juan Núñez del Prado及其学生的田野记录（<a href=\"https://en.wikipedia.org/wiki/Q%27ero\" target=\"_blank\" rel=\"noopener\">Wikipedia: Q'ero</a>）",
+      "印加宇宙观与太阳纪参考学术文献及印加神话体系（<a href=\"https://en.wikipedia.org/wiki/Inca_mythology\" target=\"_blank\" rel=\"noopener\">Wikipedia: Inca Mythology</a>）",
+      "鹰与秃鹰预言广泛流传于南美原住民口传传统（<a href=\"https://en.wikipedia.org/wiki/Prophecy_of_the_Eagle_and_the_Condor\" target=\"_blank\" rel=\"noopener\">Wikipedia: Eagle and Condor</a>）",
+      "验证评价基于公开历史记录和学术研究",
+      "编者观点不代表学术定论",
+      "站点图标采用印提太阳面——印提（Inti）是印加太阳神，太阳面是印加文明最广为流传的符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Inca Prophecies",
+    "siteSubtitle": "Ancient Wisdom from the Andean Highlands (c. 1200 CE)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What are the Inca Prophecies?",
+    "homeIntro1": "Inca prophecies originate from the oral traditions of the Inca civilization and their descendants, the Q'ero elders of the Andean highlands. The Inca Empire (c. 1200–1533 CE) was the largest empire in pre-Columbian Americas, with a cosmology centered on cyclical time, nature worship, and cosmic balance (Ayni).",
+    "homeIntro2": "The most central concept in Inca prophetic tradition is 'Pachacuti' — meaning 'the overturning of the world' or 'reversal of space-time,' referring to a massive reorganization of cosmic order. The Inca believed the universe operates in cycles of five suns (ages), with each era ending in great transformation and rebirth.",
+    "homeIntro3": "In 1949, Q'ero elders were rediscovered by anthropologists in the high Andes of Peru. They claimed direct descent from Inca priests and had preserved ancient traditions including the Pachacuti prophecy and the Taripay Pacha (Age of Meeting Ourselves Again). This site compiles core Inca prophecies and evaluates verifiable aspects.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"When the eagle and condor fly together again in the sky, the world will come back into balance.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "c. 1200 CE —— Rise of Inca civilization, cosmology and prophetic traditions formed",
+      "1533 —— Spanish conquistadors destroy Inca Empire; Q'ero retreat to high mountains to preserve traditions",
+      "1949 —— Q'ero elders rediscovered by anthropologists in the high Andes",
+      "1990s —— Q'ero elders announce the Pachacuti era has begun",
+      "2012 —— Key turning point of the Fifth Sun"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Q'ero elder prophecies primarily from field records by anthropologist Juan Núñez del Prado and his students (<a href=\"https://en.wikipedia.org/wiki/Q%27ero\" target=\"_blank\" rel=\"noopener\">Wikipedia: Q'ero</a>)",
+      "Inca cosmology and Sun Ages from academic literature and Inca mythology (<a href=\"https://en.wikipedia.org/wiki/Inca_mythology\" target=\"_blank\" rel=\"noopener\">Wikipedia: Inca Mythology</a>)",
+      "Eagle and Condor prophecy from widespread South American indigenous oral traditions (<a href=\"https://en.wikipedia.org/wiki/Prophecy_of_the_Eagle_and_the_Condor\" target=\"_blank\" rel=\"noopener\">Wikipedia: Eagle and Condor</a>)",
+      "Verification based on public historical records and academic research",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: Inti sun face — Inti is the Inca sun god, and the sun face is the most widely recognized symbol of Inca civilization"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "politics",
+      "q": "其一·明亡清兴",
+      "a": "日月落时江海闭，青猿相遇判兴亡。八牛运向滇黔尽，二九丹成金谷藏。\n\n白话文翻译：日月合为「明」字，明朝衰落之时海疆闭锁。甲申年（猿属申）决定了兴亡命运。「八牛」合为「朱」字，朱明王朝的气运向滇黔方向走到尽头。二九一十八，暗指清朝将取而代之。",
+      "q_en": "Verse 1 · Fall of Ming, Rise of Qing",
+      "a_en": "When sun and moon set, rivers and seas are sealed; the green monkey's encounter decides rise and fall. The eight-ox fate runs toward Yunnan and Guizhou to its end; twice nine, the elixir is complete, gold stored in the granary.\n\nVernacular: 'Sun and moon' combine to form the character 'Ming' (明, the Ming dynasty). When the Ming falls, the seas are sealed. The 'green monkey' refers to the jiashen year (1644), when the dynasty's fate was sealed. 'Eight-ox' combines to form 'Zhu' (朱, the Ming royal surname); the Zhu dynasty's fate runs to its end in Yunnan and Guizhou (where the last Ming emperor fled). 'Twice nine' alludes to the Qing succession.",
+      "year": 1644,
+      "status": "verified",
+      "verdict_zh": "「日月」合为「明」，指明朝。1644年（甲申年，猿属申）李自成攻入北京，崇祯帝自缢，明朝灭亡。「八牛」合为「朱」字，南明永历帝朱由榔辗转逃至滇黔，1662年被吴三桂绞杀于云南昆明，朱明王朝彻底终结。",
+      "verdict_en": "'Sun and moon' form the character 'Ming' (明). In 1644 (jiashen year, Year of the Monkey), Li Zicheng captured Beijing and the Chongzhen Emperor hanged himself, ending the Ming dynasty. 'Eight-ox' forms the character 'Zhu' (朱, the Ming surname). The last Southern Ming emperor Yongli fled to Yunnan and Guizhou and was executed by Wu Sangui in Kunming in 1662."
+    },
+    {
+      "id": 2,
+      "cat": "politics",
+      "q": "其二·康熙盛世",
+      "a": "黑虎当头运际康，四方戡定静垂裳。唐虞以後无斯盛，五五还兼六六长。\n\n白话文翻译：壬寅虎年开头，国运正当康泰之时。四方平定，天下太平如垂衣而治。唐尧虞舜之后再无如此盛世，五五二十五加六六三十六，共计六十一年之久。",
+      "q_en": "Verse 2 · The Kangxi Prosperity",
+      "a_en": "The black tiger leads as fortune meets Kang; the four quarters are pacified, ruling in peaceful repose. Since the times of Yao and Shun, there has been no such prosperity; five-fives combined with six-sixes make a long reign.\n\nVernacular: The 'black tiger' refers to the renyin year (1662, Year of the Tiger), when Kangxi's reign began. The four directions are pacified — the empire is at peace. Since the legendary sage-kings Yao and Shun, no era has been so prosperous. 'Five-fives' (25) plus 'six-sixes' (36) equals 61 — Kangxi's reign lasted 61 years.",
+      "year": 1662,
+      "status": "verified",
+      "verdict_zh": "1662年为壬寅虎年，康熙帝即位，年号含「康」字，与诗中「运际康」吻合。康熙在位61年（1661-1722），为中国历史上在位最长的皇帝之一。五五（25）加六六（36）恰好等于61。康熙平定三藩、收复台湾、驱逐沙俄，史称「康熙盛世」。",
+      "verdict_en": "1662 was a renyin (Water Tiger) year, when the Kangxi Emperor ascended the throne — his reign title contains the character 'Kang' (康), matching the poem. Kangxi reigned for 61 years (1661–1722), one of the longest reigns in Chinese history. Five-fives (25) plus six-sixes (36) equals exactly 61. He suppressed the Three Feudatories, recovered Taiwan, and repelled Russian incursions — an era known as the 'Kangxi Prosperity.'"
+    },
+    {
+      "id": 3,
+      "cat": "politics",
+      "q": "其三·雍正即位",
+      "a": "有一真人出雍州，鹪鹩原上使人愁。须知深刻非常法，白虎嗟逢岁一周。\n\n白话文翻译：有一位真命天子出自雍州（暗指雍正），鹪鹩虽小却能占据高枝，令人忧愁。须知其手段深刻非同寻常，白虎年叹息刚逢一个周期。",
+      "q_en": "Verse 3 · Yongzheng's Accession",
+      "a_en": "A true one emerges from Yongzhou; on the wren's plain, people grieve. Know that the deep and sharp ways are no ordinary method; the white tiger sighs as it completes one cycle.\n\nVernacular: 'A true one from Yongzhou' alludes to the Yongzheng Emperor (his reign title contains 'Yong' 雍). The wren, though small, occupies a high branch — causing unease. His methods were famously harsh and unconventional. 'White tiger completes one cycle' — Yongzheng reigned for 13 years (1722–1735).",
+      "year": 1722,
+      "status": "verified",
+      "verdict_zh": "「雍州」谐音暗指雍正帝。雍正即位过程争议极大，传说有「九子夺嫡」之变。雍正推行摊丁入亩、火耗归公等改革，手段深刻严厉，与「深刻非常法」吻合。雍正在位13年（1722-1735），1722年为壬寅年而非虎年，但「白虎」一说指庚寅年（1710），距雍正去世1735年恰好相隔约一个周期。",
+      "verdict_en": "'Yongzhou' phonetically alludes to the Yongzheng Emperor. His accession was highly controversial, amid the famous 'Nine Princes' Succession Struggle.' Yongzheng implemented sweeping reforms — merging the head tax into the land tax, recovering administrative surcharges — with notably harsh methods, matching 'deep and sharp ways are no ordinary method.' He reigned for 13 years (1722–1735)."
+    },
+    {
+      "id": 4,
+      "cat": "politics",
+      "q": "其四·乾隆盛世",
+      "a": "乾坤占来景运隆，一般六甲祖孙同。外攘初度筹边策，内禅无惭太古风。\n\n白话文翻译：推演天地之卦象，景象繁荣昌隆。祖孙两人同样经历了一个六甲（六十年）。对外筹划边防驱逐外敌，对内禅让帝位不逊于上古之风。",
+      "q_en": "Verse 4 · The Qianlong Prosperity",
+      "a_en": "Divining heaven and earth, the scene is prosperous and grand; grandfather and grandson alike share one cycle of sixty. Outwardly, border strategies first repel invaders; inwardly, abdication rivals the ways of high antiquity.\n\nVernacular: 'Prosperous and grand' (景运隆) contains the character 'Long' (隆), alluding to Qianlong. Grandfather (Kangxi, 61 years) and grandson (Qianlong, 60 years) both reigned for approximately one sixty-year cycle. Qianlong mounted campaigns on the frontier and eventually abdicated in favor of his son — echoing the ancient sage-kings' tradition of voluntary abdication.",
+      "year": 1735,
+      "status": "verified",
+      "verdict_zh": "「景运隆」含「隆」字，暗指乾隆帝。「六甲祖孙同」指康熙在位61年、乾隆在位60年，祖孙皆在位约一甲子。乾隆十全武功平定准噶尔、大小金川等边疆，对应「外攘初度筹边策」。1795年乾隆禅位于嘉庆帝，为中国历史上少有的主动禅让，对应「内禅无惭太古风」。",
+      "verdict_en": "'Prosperous and grand' (景运隆) contains the character 'Long' (隆), alluding to Qianlong. Kangxi reigned 61 years, Qianlong 60 years — grandfather and grandson both served approximately one sixty-year cycle. Qianlong's 'Ten Great Campaigns' pacified Dzungar, Jinchuan and other frontiers, matching 'border strategies first repel invaders.' In 1795, Qianlong voluntarily abdicated to the Jiaqing Emperor, matching 'abdication rivals the ways of high antiquity.'"
+    },
+    {
+      "id": 5,
+      "cat": "politics",
+      "q": "其五·咸丰与慈禧",
+      "a": "赤龙受宠事堪嘉，那怕莲池开白花。二十五弦弹亦尽，龙来龙去又逢蛇。\n\n白话文翻译：红龙得到宠爱之事值得嘉许，哪怕莲池中开出白花（暗喻白莲教之乱或不祥之兆）。二十五弦的瑟弹奏完毕（暗指某段历史终结），龙来龙去之间又遇到了蛇年。",
+      "q_en": "Verse 5 · Xianfeng and Cixi",
+      "a_en": "The red dragon is favored — a worthy affair; fear not the white flowers blooming in the lotus pool. Twenty-five strings are played to their end; dragons come and go, then meet the snake again.\n\nVernacular: The 'red dragon' alludes to imperial favor. 'White flowers in the lotus pool' may reference the White Lotus sect rebellions or ill omens. 'Twenty-five strings played to their end' suggests a period concluding. 'Dragons come and go, meeting the snake' points to the transition between dragon-year and snake-year emperors.",
+      "year": 1861,
+      "status": "partial",
+      "verdict_zh": "此首解读众说纷纭。主流解读认为「赤龙受宠」指咸丰帝宠幸叶赫那拉氏（后来的慈禧太后）。「莲池开白花」或暗指第二次鸦片战争后英法联军火烧圆明园等国难。「二十五弦」指嘉庆至咸丰约五十年间的衰落。「龙来龙去又逢蛇」可能指咸丰帝（辛亥年属蛇说存疑）或辛酉政变（1861年为辛酉年）。整体与咸丰至慈禧时期的动荡格局部分吻合，但具体字句对应尚有争议。",
+      "verdict_en": "Interpretations vary widely. The mainstream view holds that 'the red dragon is favored' refers to Emperor Xianfeng's favor toward Empress Dowager Cixi. 'White flowers in the lotus pool' may allude to the burning of the Old Summer Palace by Anglo-French forces. 'Twenty-five strings played to their end' suggests the decline from Jiaqing to Xianfeng. 'Dragons come and go, meeting the snake' may refer to the Xinyou Coup of 1861. The verse partially matches the turbulent Xianfeng-Cixi era, but specific correspondences remain debated."
+    },
+    {
+      "id": 6,
+      "cat": "politics",
+      "q": "其六·同治中兴与海患",
+      "a": "白蛇当道漫腾光，宵旰勤劳一世忙。不幸英雄来海上，望洋从此叹茫茫。\n\n白话文翻译：白蛇当道妄自腾光（辛巳年或暗指某位执政者），日夜勤政操劳一辈子忙碌。不幸的是英雄从海上前来，从此望洋兴叹前途茫茫。",
+      "q_en": "Verse 6 · Tongzhi Restoration and Maritime Threats",
+      "a_en": "The white snake rules the road, spreading light in vain; toiling from dawn to dusk, busy for a lifetime. Unfortunately, heroes come from the sea; henceforth, gazing at the ocean, one can only sigh at its vastness.\n\nVernacular: 'White snake rules the road' may allude to a specific year or ruler. 'Toiling from dawn to dusk' describes tireless governance. 'Heroes come from the sea' refers to Western powers arriving by sea. 'Gazing at the ocean and sighing' captures China's helplessness before maritime threats.",
+      "year": 1860,
+      "status": "verified",
+      "verdict_zh": "「宵旰勤劳一世忙」被认为指慈禧太后垂帘听政、实际主政近半个世纪。「英雄来海上」指鸦片战争后列强从海上入侵中国。第一次鸦片战争（1840）、第二次鸦片战争（1856-1860）、甲午海战（1894）等一系列海上军事失败，使中国「望洋从此叹茫茫」，丧失大量主权和领土。",
+      "verdict_en": "'Toiling from dawn to dusk, busy for a lifetime' is interpreted as referring to Empress Dowager Cixi, who effectively ruled for nearly half a century. 'Heroes come from the sea' refers to Western powers invading China by sea. The First Opium War (1840), Second Opium War (1856–1860), and Sino-Japanese War (1894) — a series of naval defeats — left China 'gazing at the ocean and sighing,' losing sovereignty and territory."
+    },
+    {
+      "id": 7,
+      "cat": "war",
+      "q": "其七·太平天国与回民起义",
+      "a": "亥豕无讹二卦开，三三两两总堪哀。东南万里红巾扰，西北千群白帽来。\n\n白话文翻译：亥年属猪不会有误，两个卦象展开。三三两两凑在一起总是令人悲哀。东南万里之地红巾军搅扰不休，西北千群白帽（回民军队）接踵而来。",
+      "q_en": "Verse 7 · Taiping Rebellion and Muslim Uprisings",
+      "a_en": "The hai-pig is not mistaken, two hexagrams unfold; threes and twos together — all cause for sorrow. Across ten thousand li in the southeast, red turbans cause chaos; in the northwest, a thousand groups of white caps arrive.\n\nVernacular: 'Hai-pig is not mistaken' confirms a pig year. 'Threes and twos together' suggests fragmentation and sorrow. 'Red turbans in the southeast' refers to the Taiping Heavenly Kingdom's forces. 'White caps in the northwest' refers to the Muslim uprisings in northwest China.",
+      "year": 1851,
+      "status": "verified",
+      "verdict_zh": "1851年为辛亥猪年，洪秀全发动金田起义，建立太平天国，席卷东南各省长达十四年。「红巾」指太平军（太平军以红巾裹头）。同时期西北爆发大规模回民起义（1862-1877），回民戴白帽，与「西北千群白帽来」完全吻合。太平天国运动和回民起义共造成数千万人死亡，「三三两两总堪哀」形容其惨烈。",
+      "verdict_en": "1851 was a xinhai (pig) year when Hong Xiuquan launched the Jintian Uprising and established the Taiping Heavenly Kingdom, sweeping through southeastern provinces for 14 years. 'Red turbans' refers to the Taiping forces (who wore red headbands). Simultaneously, massive Muslim uprisings erupted in the northwest (1862–1877) — Muslims wore white caps, perfectly matching 'a thousand groups of white caps in the northwest.' Together, these conflicts caused tens of millions of deaths."
+    },
+    {
+      "id": 8,
+      "cat": "politics",
+      "q": "其八·同治中兴",
+      "a": "同心佐治运中兴，南北烽烟一扫平。一纪刚周阳一复，寒冰空自惕兢兢。\n\n白话文翻译：众人同心辅佐治理，迎来中兴之运。南北各地的烽烟战火一扫而平。一纪（十二年）刚好走完阳气初复，寒冰之中白白地战战兢兢。",
+      "q_en": "Verse 8 · The Tongzhi Restoration",
+      "a_en": "United hearts assist in governance, fortune brings restoration; northern and southern smoke of war is swept away. One cycle just completes as yang returns; amid the cold ice, one trembles in vain.\n\nVernacular: 'United hearts assist in governance' (同心佐治) contains the characters for 'Tongzhi' (同治), the emperor's reign title. War is pacified north and south. 'One cycle' (twelve years) completes — Tongzhi reigned for 13 years. 'Cold ice' and trembling suggest the restoration was fragile and short-lived.",
+      "year": 1862,
+      "status": "verified",
+      "verdict_zh": "「同心佐治」暗含「同治」二字，指清穆宗同治帝（1862-1874在位）。同治年间，曾国藩、李鸿章等平定太平天国和捻军，南北烽烟渐息，史称「同治中兴」。「一纪刚周」指同治帝在位约十三年。「寒冰空自惕兢兢」暗示中兴局面短暂脆弱，同治帝年仅19岁驾崩，随后清朝继续衰落。",
+      "verdict_en": "'United hearts assist in governance' (同心佐治) contains the characters of the Tongzhi reign title. During the Tongzhi era (1862–1874), Zeng Guofan, Li Hongzhang and others suppressed the Taiping and Nian rebellions, pacifying north and south — the 'Tongzhi Restoration.' 'One cycle just completes' refers to Tongzhi's approximately 13-year reign. 'Trembling amid cold ice' foreshadows the restoration's fragility — Tongzhi died at just 19, and the Qing continued to decline."
+    },
+    {
+      "id": 9,
+      "cat": "politics",
+      "q": "其九·光绪与戊戌",
+      "a": "光芒闪闪见灾星，统绪旁延信有凭。秦晋一家仍鼎足，黄猿运兀力难胜。\n\n白话文翻译：光芒闪烁中出现了灾星，皇统旁系延续确实有所凭据。秦晋联姻本应一家却仍然鼎足而立，黄猿之年运势不稳力不能胜。",
+      "q_en": "Verse 9 · Guangxu and the Hundred Days' Reform",
+      "a_en": "Flashing light reveals a star of disaster; the succession extends to a collateral line — with cause to believe. Qin and Jin, though one family, still stand as a tripod; in the year of the yellow monkey, fortune falters and strength cannot prevail.\n\nVernacular: 'Flashing light' (光芒) alludes to the Guangxu Emperor. 'Succession extends to a collateral line' refers to Guangxu being chosen from a collateral branch. 'Qin and Jin as one family yet a tripod' suggests internal power struggles. 'Yellow monkey year, fortune falters' points to a critical year of failed reform.",
+      "year": 1898,
+      "status": "verified",
+      "verdict_zh": "「光芒」暗指光绪帝。光绪帝并非前帝之子，而是旁支入继大统（「统绪旁延」）。「秦晋一家仍鼎足」指慈禧与光绪名为一家实则权力对立。1898年戊戌变法失败，光绪帝被囚禁于瀛台，维新派遭到镇压。「黄猿运兀力难胜」可指1908年戊申猴年光绪帝驾崩（后经考证为砒霜中毒），一生改革抱负终未实现。",
+      "verdict_en": "'Flashing light' alludes to the Guangxu Emperor. Guangxu was not the previous emperor's son but was selected from a collateral branch ('succession extends to a collateral line'). 'Qin and Jin as one family yet a tripod' refers to the power struggle between Cixi and Guangxu. The 1898 Hundred Days' Reform failed and Guangxu was imprisoned. 'Yellow monkey, fortune falters' may refer to 1908 (wushen, Monkey year) when Guangxu died (later confirmed to be arsenic poisoning), his reform ambitions unfulfilled."
+    },
+    {
+      "id": 10,
+      "cat": "war",
+      "q": "其十·辛亥革命与军阀混战",
+      "a": "用武时当白虎年，四方各自起烽烟。九州又见三分定，七载仍留一线延。\n\n白话文翻译：动用武力之时恰逢白虎年，四面八方各自燃起战火。九州大地又见三分天下的格局，七年之中仍然保留着一线延续。",
+      "q_en": "Verse 10 · Xinhai Revolution and Warlord Era",
+      "a_en": "The time for arms comes in a white tiger year; the four quarters each raise their smoke of war. The Nine Provinces again see a three-way partition; for seven years, a single thread still holds.\n\nVernacular: 'White tiger year' refers to a gengyin year. The four quarters each raise banners of war — widespread conflict. 'Nine Provinces see a three-way partition' suggests China is divided into three spheres. 'Seven years, a single thread holds' implies a brief period of tenuous survival.",
+      "year": 1914,
+      "status": "partial",
+      "verdict_zh": "「白虎年」指庚寅年，1914年为甲寅年（虎年），第一次世界大战爆发，「四方各自起烽烟」与世界大战格局吻合。「九州又见三分定」被解读为中国在民国时期陷入军阀割据，北洋政府、南方革命政府、各地军阀三分天下。「七载」解读不一，一说指1914-1921年间的混战期。整体与民国初年乱局部分吻合，但具体年份和「三分」的对应存在多种说法。",
+      "verdict_en": "'White tiger year' refers to a gengyin (Tiger) year. 1914 was a jiayin (Tiger) year when WWI broke out, matching 'four quarters raise smoke of war.' 'Nine Provinces see a three-way partition' is interpreted as China's fragmentation during the warlord era — Northern warlords, Southern revolutionaries, and regional powers. 'Seven years' has multiple interpretations. The verse partially matches the early Republican chaos, but specific correspondences remain debated."
+    },
+    {
+      "id": 11,
+      "cat": "war",
+      "q": "其十一·抗战胜利与国共内战",
+      "a": "红鸡啼後鬼生愁，宝位纷争半壁休。幸有金鳌能载主，旗分八面下秦州。\n\n白话文翻译：红鸡啼叫之后鬼魅忧愁，皇位宝座纷争不休丢失了半壁江山。幸好有金鳌能够承载主人，旗帜分向八面攻下秦州。",
+      "q_en": "Verse 11 · Victory over Japan and the Civil War",
+      "a_en": "After the red rooster crows, ghosts grow worried; the throne is contested and half the realm is lost. Fortunately, the golden turtle can carry its master; banners split eight ways and descend upon Qinzhou.\n\nVernacular: 'Red rooster crows' refers to a fire-rooster year (1945, when Japan surrendered). 'Ghosts grow worried' — the Japanese (sometimes called 'ghosts') are defeated. 'Throne contested, half the realm lost' refers to the Chinese Civil War. 'Golden turtle carries its master' alludes to Taiwan providing refuge. 'Banners split eight ways' describes the nationwide advance.",
+      "year": 1945,
+      "status": "verified",
+      "verdict_zh": "「红鸡啼後」指1945年乙酉鸡年，日本宣布无条件投降。「鬼生愁」中「鬼」指日本（中文俗称「鬼子」）。「宝位纷争半壁休」指抗战胜利后国共内战爆发，国民党丢失大陆半壁江山。「金鳌能载主」指台湾（形似金鳌）成为国民党政府的最后根据地。「旗分八面下秦州」指解放军从八个方向进军全国。",
+      "verdict_en": "'Red rooster crows' refers to 1945 (yiyou, Rooster year) when Japan surrendered unconditionally. 'Ghosts' refers to the Japanese (colloquially called 'guizi/devils' in Chinese). 'Throne contested, half the realm lost' refers to the Chinese Civil War that followed. 'Golden turtle carries its master' — Taiwan (shaped like a turtle) became the Nationalist government's final refuge. 'Banners split eight ways, descend upon Qinzhou' describes the PLA's nationwide advance."
+    },
+    {
+      "id": 12,
+      "cat": "politics",
+      "q": "其十二·偏安与冷战",
+      "a": "中兴事业付麟儿，豕後牛前耀德仪。继统偏安三十六，坐看境外血如泥。\n\n白话文翻译：中兴的事业交付给麒麟之子，猪年之后牛年之前彰显德行与仪容。继承正统偏安一隅三十六年，坐看境外（大陆）血流如泥。",
+      "q_en": "Verse 12 · Partial Rule and the Cold War",
+      "a_en": "The cause of restoration is entrusted to the qilin child; after the pig and before the ox, virtue and bearing shine. Continuing the line in partial peace for thirty-six years; sitting and watching as blood flows like mud beyond the border.\n\nVernacular: 'Qilin child' may refer to a successor (Chiang Ching-kuo). 'After the pig, before the ox' indicates a specific time period. 'Partial peace for thirty-six years' suggests decades of separation. 'Watching blood flow like mud beyond the border' describes observing turmoil on the mainland from afar.",
+      "year": 1949,
+      "status": "partial",
+      "verdict_zh": "「中兴事业付麟儿」被解读为蒋介石将复国希望寄托于蒋经国（「麟儿」指优秀子嗣）。「继统偏安三十六」指国民党在台湾偏安，从1949年至1980年代约三十六年。「坐看境外血如泥」指台湾隔海观望大陆的政治运动。但「豕後牛前」的具体指向、「三十六」的精确起止年份均有多种解读，整体部分吻合。",
+      "verdict_en": "'Qilin child' is interpreted as Chiang Kai-shek entrusting his legacy to Chiang Ching-kuo. 'Partial peace for thirty-six years' refers to the KMT's rule in Taiwan, approximately 36 years from 1949 to the mid-1980s. 'Watching blood flow like mud beyond the border' alludes to Taiwan observing political upheavals on the mainland. However, specific correspondences for 'after the pig, before the ox' and the exact 36-year period remain debated."
+    },
+    {
+      "id": 13,
+      "cat": "politics",
+      "q": "其十三·世运变迁",
+      "a": "赤鼠时同运不同，中原好景不为功。西方再见南军至，刚到金蛇运已终。\n\n白话文翻译：赤鼠之年时代相同但运势不同，中原的好景象并未发挥作用。西方再次出现南方军队到来，刚到金蛇之年运势便已终结。",
+      "q_en": "Verse 13 · Shifting Fortunes",
+      "a_en": "In the time of the red rat, the era is the same but fortune differs; the fine scene of the Central Plain counts for nothing. In the west, southern armies are seen arriving again; just as the golden snake comes, the cycle ends.\n\nVernacular: 'Red rat' refers to a specific rat year. 'The Central Plain's fine scene counts for nothing' suggests prosperity that is hollow. 'Southern armies seen in the west' and 'golden snake ends the cycle' point to future military and political shifts whose specifics remain unclear.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "其十四·收束全篇",
+      "a": "日月推迁似转轮，嗟予出世更无因。老僧从此休饶舌，後事还须问後人。\n\n白话文翻译：日月推移如车轮转动，感叹我出世再无因缘。老僧从此不再多嘴饶舌，后面的事情还需要留给后人去探问。",
+      "q_en": "Verse 14 · Closing the Poem",
+      "a_en": "Sun and moon shift like a turning wheel; alas, there is no more cause for my appearance in this world. The old monk shall hold his tongue from here; what comes next must be asked of those who follow.\n\nVernacular: The sun and moon move on like a turning wheel — time flows ceaselessly. The monk laments that his worldly mission is complete. From here on, the old monk will say no more; future affairs must be left to future generations to inquire.",
+      "status": "verified",
+      "verdict_zh": "此为全诗收束之作，非具体预言。以「日月推迁似转轮」呼应佛教轮回观和历史循环主题，与推背图末象「万万千千说不尽，不如推背去归休」有异曲同工之妙。「老僧从此休饶舌」表明预言到此为止。",
+      "verdict_en": "This is the closing verse, not a specific prophecy. 'Sun and moon shift like a turning wheel' echoes Buddhist cyclical cosmology and the theme of historical repetition, similar to the final image of Tui Bei Tu: 'Endless things could be said — better to push the back and retire.' 'The old monk shall hold his tongue' declares that the prophecies end here."
+    }
+  ]
+}

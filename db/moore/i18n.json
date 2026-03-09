@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "戈登·摩尔预言",
+    "siteSubtitle": "Intel联合创始人、摩尔定律之父（1929-2023）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "戈登·摩尔是谁？",
+    "homeIntro1": "戈登·厄尔·摩尔（Gordon Earle Moore，1929年1月3日—2023年3月24日），美国化学家、企业家，Intel公司联合创始人。他于1965年在《电子学》杂志发表论文，提出了后来被称为「摩尔定律」的观察：集成电路上的晶体管数量大约每两年翻一倍，而成本减半。",
+    "homeIntro2": "摩尔定律并非物理定律，而是一条经验性的产业预测，但它以惊人的准确性指导了半导体行业长达60年。从个人电脑到智能手机，从互联网到人工智能，摩尔定律所预示的计算能力指数级增长，深刻改变了人类文明的进程。",
+    "homeIntro3": "除了核心的晶体管密度预测外，摩尔还对家用电脑、手持设备、自动驾驶汽车等领域做出了前瞻性判断。本站整理了他的14条关键预言，并对已到期的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「集成电路上的元件数量大约每隔两年就会翻一倍，同时成本降低一半。这种趋势至少还能持续十年。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1965年 —— 在《电子学》杂志发表论文，首次提出晶体管密度翻倍规律",
+      "1968年 —— 与罗伯特·诺伊斯共同创立Intel公司",
+      "1975年 —— 将翻倍周期从一年修正为两年",
+      "1995年 —— 预测互联网将根本性改变商业和通信方式",
+      "2005年 —— 承认摩尔定律将在10至20年内遇到物理极限",
+      "2015年 —— Intel宣布芯片制程节奏放缓，摩尔定律减速成为共识"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "摩尔定律原始论文：Moore, G.E. \"Cramming more components onto integrated circuits\", Electronics, 1965（<a href=\"https://newsroom.intel.com/wp-content/uploads/sites/11/2018/05/moores-law-electronics.pdf\" target=\"_blank\" rel=\"noopener\">Intel Archive PDF</a>）",
+      "Gordon Moore 访谈与演讲记录（<a href=\"https://en.wikipedia.org/wiki/Gordon_Moore\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于半导体行业公开数据、Intel产品路线图和学术文献",
+      "编者观点不代表学术定论",
+      "站点图标采用集成电路/芯片符号——摩尔因预测芯片晶体管密度翻倍规律而闻名于世，芯片是其最具标志性的视觉符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Gordon Moore Prophecies",
+    "siteSubtitle": "Intel Co-founder, Father of Moore's Law (1929-2023)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Gordon Moore?",
+    "homeIntro1": "Gordon Earle Moore (January 3, 1929 – March 24, 2023) was an American chemist, businessman, and co-founder of Intel Corporation. In 1965, he published a paper in Electronics magazine observing that the number of transistors on an integrated circuit doubles approximately every two years while costs halve — a prediction that became known as 'Moore's Law'.",
+    "homeIntro2": "Moore's Law is not a physical law but an empirical industry prediction, yet it guided the semiconductor industry with remarkable accuracy for 60 years. From personal computers to smartphones, from the internet to artificial intelligence, the exponential growth in computing power predicted by Moore's Law has profoundly transformed human civilization.",
+    "homeIntro3": "Beyond his core transistor density prediction, Moore made forward-looking statements about home computers, handheld devices, self-driving cars, and more. This site compiles 14 of his key predictions and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The number of components on an integrated circuit will double roughly every two years, while costs are cut in half. This trend should continue for at least ten years.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1965 —— Published paper in Electronics magazine, first proposing transistor doubling rule",
+      "1968 —— Co-founded Intel Corporation with Robert Noyce",
+      "1975 —— Revised doubling period from one year to two years",
+      "1995 —— Predicted the internet would fundamentally change business and communication",
+      "2005 —— Acknowledged Moore's Law would hit physical limits within 10-20 years",
+      "2015 —— Intel slowed chip cadence; Moore's Law deceleration became industry consensus"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original Moore's Law paper: Moore, G.E. \"Cramming more components onto integrated circuits\", Electronics, 1965 (<a href=\"https://newsroom.intel.com/wp-content/uploads/sites/11/2018/05/moores-law-electronics.pdf\" target=\"_blank\" rel=\"noopener\">Intel Archive PDF</a>)",
+      "Gordon Moore interviews and public speeches (<a href=\"https://en.wikipedia.org/wiki/Gordon_Moore\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public semiconductor industry data, Intel product roadmaps, and academic literature",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: integrated circuit/chip symbol — Moore is known worldwide for predicting the doubling of transistor density on chips, making the chip his most iconic visual motif"
+    ]
+  }
+}

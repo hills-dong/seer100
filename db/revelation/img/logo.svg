@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 28" height="20">
+  <!-- Alpha-Omega symbol -->
+  <circle cx="14" cy="14" r="12" fill="#a03030"/>
+  <text x="6" y="20.5" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" fill="#f4eeee" letter-spacing="-1">AO</text>
+  <!-- Site name -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#7a1818" letter-spacing="0.5">REVELATION</text>
+</svg>

@@ -1,0 +1,99 @@
+{
+  "siteId": "yijing",
+  "answererName": "周文王、周公、孔子（传）",
+  "publishDate": "约公元前1000年",
+  "baseUrl": "https://pre.hilife.me/yijing",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "易经预言精选 - 六十四卦中最具预言性质的卦辞与爻辞解读 | I Ching Prophecies",
+      "description": "易经是中国最古老的经典之一，六十四卦体系蕴含深刻的预言智慧。本站精选最具预言性质的卦辞与爻辞，附白话文翻译与英文对照，解读其预测意涵。",
+      "keywords": "易经,周易,六十四卦,卦辞,爻辞,I Ching,Book of Changes,占卜,预言",
+      "siteName": "易经预言",
+      "ogTitle": "易经预言精选 - 六十四卦预言性卦辞解读 | I Ching",
+      "ogDescription": "精选易经六十四卦中最具预言性质的卦辞与爻辞，附白话文翻译、英文对照与预测意涵解读。",
+      "locale": "zh_CN",
+      "twitterDescription": "易经六十四卦预言精选：乾坤之道、否泰转换、革故鼎新、既济未济。古老智慧中的预测密码。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "I Ching Prophecies - Prophetic Hexagrams from the Book of Changes | Full Archive",
+      "description": "The I Ching (Book of Changes) is one of China's oldest classics. This site presents the most prophetically significant hexagrams with their judgments and line texts, accompanied by vernacular translations and interpretive analysis.",
+      "keywords": "I Ching,Book of Changes,Yi Jing,hexagrams,divination,Chinese prophecy,64 hexagrams",
+      "siteName": "I Ching Prophecies",
+      "ogTitle": "I Ching Prophecies - The Most Prophetic Hexagrams from the Book of Changes",
+      "ogDescription": "Selected hexagrams from the I Ching with the strongest prophetic and divinatory content. Original texts with vernacular Chinese and English translations.",
+      "locale": "en_US",
+      "twitterDescription": "Prophetic hexagrams from the I Ching: Heaven & Earth, Obstruction & Progress, Revolution & Renewal, Completion & Before Completion."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "易经预言",
+      "alternateName": "I Ching Prophecies",
+      "url": "https://pre.hilife.me/yijing/",
+      "description": "易经六十四卦中最具预言性质的卦辞与爻辞精选解读",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "易经是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "易经又称《周易》，是中国最古老的经典之一，相传由周文王在被囚羑里时演绎六十四卦，周公作爻辞，孔子作《十翼》（即《易传》）。全书以阴阳八卦为基础，建立了六十四卦体系，每卦包含卦辞和六条爻辞，用于占筮吉凶、阐述哲理。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "易经可以用来预言吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "易经本身是占卜和哲学体系，而非预言书。但其卦辞、爻辞蕴含丰富的预测性意象，被历代用于推演国运、个人吉凶。本站选取最具预言性质的卦辞和爻辞，展示其预测智慧。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the I Ching?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The I Ching (易经), also known as the Book of Changes, is one of China's oldest classics. Traditionally attributed to King Wen of Zhou, Duke of Zhou, and Confucius, it establishes a system of 64 hexagrams based on yin-yang and the eight trigrams. Each hexagram contains a judgment text and six line texts, used for divination and philosophical reflection."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#eee8e0",
+    "white": "#fff",
+    "text": "#1e1810",
+    "text2": "#6e6458",
+    "textLight": "#5a5044",
+    "primary": "#3a3a2e",
+    "primaryDark": "#22221a",
+    "primaryBg": "#f0ece6",
+    "link": "#5a5040",
+    "border": "#d4ccc0",
+    "border2": "#b4aa9c",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e6e0d6"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "易经 I Ching"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/易经",
+    "sourceLabel": "维基百科"
+  }
+}

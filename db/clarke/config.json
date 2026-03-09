@@ -1,0 +1,69 @@
+{
+  "siteId": "clarke",
+  "answererName": "Arthur C. Clarke",
+  "publishDate": "1945-2008",
+  "baseUrl": "https://pre.hilife.me/clarke",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "阿瑟·C·克拉克预言全集 - 科幻巨匠对人类未来的17条预言与验证 | Arthur C. Clarke Predictions",
+      "description": "英国科幻作家、未来学家阿瑟·C·克拉克（1917-2008）留下的17条技术预言完整收录，涵盖通信卫星、互联网、平板电脑、太空旅行、人工智能等领域。已应验预言包括地球同步通信卫星、全球信息网络、视频通话等。",
+      "keywords": "阿瑟克拉克,克拉克预言,科幻预言,Arthur C Clarke,通信卫星,太空电梯,科幻作家,未来预言,技术预测,2001太空漫游",
+      "siteName": "克拉克预言",
+      "ogTitle": "阿瑟·C·克拉克预言全集 | Arthur C. Clarke Predictions",
+      "ogDescription": "英国科幻作家阿瑟·C·克拉克留下的17条技术预言完整收录与验证分析。涵盖通信卫星、互联网、人工智能、太空探索等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "17条科幻巨匠克拉克的技术预言，含真实度验证。已应验：地球同步卫星、互联网、视频通话、平板电脑等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Arthur C. Clarke Predictions - 17 Technology Forecasts from the Sci-Fi Visionary (1917-2008) | Full Archive & Verification",
+      "description": "British science fiction author and futurist Arthur C. Clarke (1917-2008) made 17 remarkable technology predictions covering communication satellites, the internet, tablet computers, space travel, AI, and more. Verified predictions include geostationary satellites, global networks, and video calling.",
+      "keywords": "Arthur C Clarke,Clarke predictions,sci-fi prophecy,communication satellite,space elevator,futurist,technology forecast,2001 Space Odyssey,geostationary orbit",
+      "siteName": "Clarke Predictions",
+      "ogTitle": "Arthur C. Clarke Predictions - The Sci-Fi Visionary's Technology Forecasts",
+      "ogDescription": "17 technology predictions from Arthur C. Clarke (1917-2008). Full archive with real-world verification covering satellites, internet, AI, and space exploration.",
+      "locale": "en_US",
+      "twitterDescription": "17 predictions from Arthur C. Clarke. Verified: geostationary satellites, internet, video calls, tablet computers. A sci-fi visionary's remarkable foresight."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "克拉克预言",
+      "alternateName": "Arthur C. Clarke Predictions",
+      "url": "https://pre.hilife.me/clarke/",
+      "description": "英国科幻作家阿瑟·C·克拉克的技术预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0f4",
+    "white": "#fff",
+    "text": "#24282e",
+    "text2": "#686e78",
+    "textLight": "#565c66",
+    "primary": "#3a6080",
+    "primaryDark": "#224460",
+    "primaryBg": "#e4ecf4",
+    "link": "#3a6080",
+    "border": "#d8dce2",
+    "border2": "#bcc2ca",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#e8eaee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Clarke Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke",
+    "sourceLabel": "Wikipedia"
+  }
+}

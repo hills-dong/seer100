@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 28" height="20">
+  <!-- Tripod icon (War of the Worlds) -->
+  <!-- Main dome/head -->
+  <path d="M14 5 A9 9 0 0 1 23 14 L14 14 L5 14 A9 9 0 0 1 14 5Z" fill="#6a5a50"/>
+  <!-- Three legs -->
+  <line x1="8" y1="14" x2="3" y2="26" stroke="#4e3e34" stroke-width="2" stroke-linecap="round"/>
+  <line x1="14" y1="14" x2="14" y2="27" stroke="#4e3e34" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="14" x2="25" y2="26" stroke="#4e3e34" stroke-width="2" stroke-linecap="round"/>
+  <!-- Eye/lens on dome -->
+  <circle cx="14" cy="10" r="2.5" fill="#f2f0ec"/>
+  <circle cx="14" cy="10" r="1.2" fill="#4e3e34"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#4e3e34" letter-spacing="0.5">H.G. WELLS</text>
+</svg>

@@ -1,0 +1,193 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "南师古秘诀·总论",
+      "a": "天道运行有常理，吉凶祸福皆前定。格庵受秘金刚山，六十篇中藏天命。\n\n白话文翻译：天道的运行有其固定规律，吉凶祸福皆是上天早已注定。南师古在金刚山领受神人秘诀，六十篇预言中蕴藏着天命的安排。",
+      "q_en": "Nam Sa-go's Secret — General Discourse",
+      "a_en": "The Way of Heaven operates by constant principles; fortune and misfortune are all predetermined. Gyeogam received the secret on Mount Geumgang; within sixty chapters, heaven's mandate is concealed.\n\nVernacular: The workings of heaven follow fixed laws — fortune and calamity are predetermined. Nam Sa-go received divine secrets at Mount Geumgang, and within his sixty chapters lies the arrangement of heaven's mandate.",
+      "status": "verified",
+      "verdict_zh": "此为全书开篇纲领，属总论性质，以金刚山授秘的传说引出全书架构。",
+      "verdict_en": "This is the opening outline of the entire text, serving as a general preface that introduces the work's framework through the legend of divine transmission at Mount Geumgang."
+    },
+    {
+      "id": 2,
+      "cat": "war",
+      "q": "隐秘歌·壬辰倭乱",
+      "a": "龙蛇之年起烽烟，南来倭寇犯江山。八道生灵遭涂炭，七年兵火满人间。\n\n白话文翻译：龙年和蛇年之际烽烟四起，从南方来的倭寇侵犯江山社稷。朝鲜八道百姓惨遭涂炭之苦，七年兵火弥漫人间。",
+      "q_en": "Song of Hidden Secrets — Imjin War",
+      "a_en": "In the years of Dragon and Snake, beacon fires arise; from the south, Japanese pirates invade the realm. The people of all eight provinces suffer devastation; seven years of war engulf the mortal world.\n\nVernacular: In the Dragon and Snake years, war breaks out. Japanese invaders from the south assault the kingdom. The people across all eight provinces of Joseon suffer terribly, and seven years of warfare engulf the land.",
+      "year": 1592,
+      "status": "verified",
+      "verdict_zh": "壬辰倭乱（1592-1598）发生于壬辰年（龙年），丰臣秀吉率军从南方入侵朝鲜。战争持续约七年，朝鲜八道均遭战火波及，与预言描述高度吻合。但学者指出，现存版本可能系后人据已知历史事后编写。",
+      "verdict_en": "The Imjin War (1592–1598) began in the year of Imjin (Dragon year). Toyotomi Hideyoshi's forces invaded Korea from the south. The war lasted approximately seven years and devastated all eight provinces of Joseon, closely matching the prophecy. However, scholars note the surviving text may have been composed after these events."
+    },
+    {
+      "id": 3,
+      "cat": "war",
+      "q": "隐秘歌·丙子胡乱",
+      "a": "胡骑南来势如潮，汉阳城破王出逃。南汉山城困数月，称臣纳贡受煎熬。\n\n白话文翻译：北方胡骑如潮水般南下，汉阳城被攻破国王出逃。在南汉山城被围困数月，最终被迫称臣纳贡受尽屈辱。",
+      "q_en": "Song of Hidden Secrets — Manchu Invasion",
+      "a_en": "Barbarian cavalry sweep south like a tide; Hanyang falls and the king flees. Besieged for months at Namhansanseong, forced to submit as vassal and pay tribute in agony.\n\nVernacular: Manchu cavalry surge southward like a tide, breaching Hanyang and forcing the king to flee. After months of siege at Namhansanseong fortress, the king is compelled to submit and pay tribute — a humiliation endured in anguish.",
+      "year": 1636,
+      "status": "verified",
+      "verdict_zh": "丙子胡乱（1636-1637）中，清军南下攻破汉阳（今首尔），仁祖避至南汉山城被围困45天后投降，向清朝称臣纳贡。预言描述与史实基本吻合，但学者认为现存文本可能系后人据史事编写。",
+      "verdict_en": "During the Manchu invasion of 1636–1637 (Byeongja Horan), Qing forces swept south and took Hanyang (modern Seoul). King Injo fled to Namhansanseong fortress, was besieged for 45 days, and surrendered, becoming a vassal of the Qing dynasty. The prophecy matches historical events closely, though scholars suspect the text was composed post-hoc."
+    },
+    {
+      "id": 4,
+      "cat": "politics",
+      "q": "末运论·王朝更替",
+      "a": "五百年基业将倾覆，李氏江山入暮途。外患频仍国力竭，旧制崩摧新运图。\n\n白话文翻译：五百年的基业即将倾覆，李氏朝鲜的江山步入末途。外患频繁导致国力耗竭，旧制度崩塌之际新的命运正在酝酿。",
+      "q_en": "Discourse on the Final Age — Dynastic Change",
+      "a_en": "Five hundred years of dynastic foundation shall collapse; the Yi family's domain enters its twilight. Besieged by relentless foreign threats, the nation's strength is exhausted; as the old order crumbles, a new destiny takes shape.\n\nVernacular: The five-hundred-year-old dynastic foundation is about to crumble. The Joseon kingdom of the Yi (Lee) family enters its twilight years. Constant foreign threats drain the nation's strength, and as the old system collapses, a new fate is being forged.",
+      "year": 1897,
+      "status": "verified",
+      "verdict_zh": "朝鲜王朝（1392-1897）延续约505年后，因列强入侵国力衰竭，1897年改称大韩帝国，1910年被日本吞并。「五百年基业」与朝鲜王朝的实际国祚高度吻合。",
+      "verdict_en": "The Joseon dynasty (1392–1897) lasted approximately 505 years before collapsing under pressure from foreign powers. It was reorganized as the Korean Empire in 1897 and annexed by Japan in 1910. The 'five hundred years of foundation' closely matches Joseon's actual duration."
+    },
+    {
+      "id": 5,
+      "cat": "politics",
+      "q": "末运论·外族统治",
+      "a": "日出东方侵我疆，三十六年暗无光。铁蹄践踏山河碎，苍生苦难诉穹苍。\n\n白话文翻译：太阳从东方升起之国侵占我们的疆土，三十六年间暗无天日。铁蹄践踏之下山河破碎，苍生的苦难只能向苍天倾诉。",
+      "q_en": "Discourse on the Final Age — Foreign Rule",
+      "a_en": "The sun rises in the east and invades our territory; for thirty-six years, darkness reigns. Iron hooves trample and shatter the mountains and rivers; the people's suffering cries out to heaven.\n\nVernacular: The nation of the rising sun from the east invades our land. For thirty-six years there is no light. Under the trampling of iron hooves, the mountains and rivers are shattered, and the people can only cry out their suffering to the heavens.",
+      "year": 1910,
+      "status": "partial",
+      "verdict_zh": "日本殖民统治朝鲜半岛从1910年至1945年，实际为35年。预言中「三十六年」与实际相差一年（若从1909年《己巳条约》算起则恰好36年）。「日出东方」明确指向日本，殖民统治的苦难描述与史实吻合，但年数略有出入。",
+      "verdict_en": "Japanese colonial rule over Korea lasted from 1910 to 1945, actually 35 years. The prophecy states 'thirty-six years,' off by one year (though counting from the 1909 Gisa Treaty yields exactly 36 years). 'Sun rises in the east' clearly refers to Japan. The description of suffering under colonial rule matches history, but the year count is slightly off."
+    },
+    {
+      "id": 6,
+      "cat": "politics",
+      "q": "末运论·光复独立",
+      "a": "鸡鸣三声天将晓，光复旧物在今朝。万岁声中驱暗夜，太极旗下庆逍遥。\n\n白话文翻译：雄鸡三声啼叫天即将破晓，光复旧有国土就在今朝。万岁欢呼声中驱散了漫长暗夜，太极旗下举国欢庆重获自由。",
+      "q_en": "Discourse on the Final Age — Liberation",
+      "a_en": "The rooster crows thrice and dawn approaches; the old land is restored this very day. Amid cries of 'Manse,' the long night is banished; beneath the Taegukgi, all celebrate freedom.\n\nVernacular: The rooster crows three times as dawn approaches — liberation and the recovery of our homeland is at hand. Amid shouts of 'Manse' (ten thousand years), the long darkness is driven away, and under the Taegeuk flag, the nation celebrates its newfound freedom.",
+      "year": 1945,
+      "status": "verified",
+      "verdict_zh": "1945年8月15日，日本宣布无条件投降，朝鲜半岛光复。「太极旗」是朝鲜/韩国的国旗。「万岁」呼应了韩国独立运动中的「大韩独立万岁」口号（源自1919年三一运动）。光复的描述与史实完全吻合。",
+      "verdict_en": "On August 15, 1945, Japan announced unconditional surrender and the Korean Peninsula was liberated. The 'Taegukgi' (Taegeuk flag) is the Korean national flag. 'Manse' (ten thousand years) echoes the rallying cry of the Korean independence movement (originating from the March 1st Movement of 1919). The description of liberation matches history precisely."
+    },
+    {
+      "id": 7,
+      "cat": "politics",
+      "q": "甲乙歌·南北分裂",
+      "a": "一国忽分南与北，同族相隔如参商。三八线上铁幕垂，骨肉离散泪千行。\n\n白话文翻译：一个国家忽然分裂为南方与北方，同一民族却像参星与商星一样永不相见。三八线上铁幕垂落，骨肉同胞离散，泪水流淌千行。",
+      "q_en": "Song of Gap-Eul — North-South Division",
+      "a_en": "One nation is suddenly split into south and north; kinfolk are separated like stars that never meet. An iron curtain descends upon the 38th parallel; flesh and blood are scattered, tears flow in a thousand streams.\n\nVernacular: A single nation is suddenly divided into south and north. The same people are kept apart like the stars Shen and Shang — destined never to meet. An iron curtain falls along the 38th parallel, and families are torn apart, their tears flowing endlessly.",
+      "year": 1945,
+      "status": "verified",
+      "verdict_zh": "1945年光复后，朝鲜半岛沿北纬38度线被美苏分别占领，1948年分别建立大韩民国和朝鲜民主主义人民共和国。「三八线」的明确提及、南北分裂和骨肉离散的描述均与史实吻合。但「三八线」这一概念在16世纪不可能存在，是学者质疑文本真伪的重要证据之一。",
+      "verdict_en": "After liberation in 1945, the Korean Peninsula was divided along the 38th parallel by US and Soviet occupation. In 1948, the Republic of Korea (South) and the DPRK (North) were established separately. The explicit mention of the '38th parallel,' national division, and family separation all match history. However, the concept of the '38th parallel' could not have existed in the 16th century — this is key evidence scholars cite questioning the text's authenticity."
+    },
+    {
+      "id": 8,
+      "cat": "war",
+      "q": "甲乙歌·朝鲜战争",
+      "a": "庚寅之年兵戈起，同室操戈何太急。南北交锋血成河，山河破碎民流离。\n\n白话文翻译：庚寅年战火骤起，同一屋檐下的兄弟操戈相向何其急迫。南北交战鲜血汇成河流，山河破碎百姓流离失所。",
+      "q_en": "Song of Gap-Eul — Korean War",
+      "a_en": "In the year of Geng-Yin, war erupts; brothers under one roof turn weapons on each other — how urgent! North and south clash as blood runs like rivers; mountains and rivers are shattered, the people displaced.\n\nVernacular: In the Geng-Yin year, war breaks out suddenly. Brothers of the same household take up arms against one another with terrible urgency. North and south clash as blood flows like rivers, the land is shattered, and the people are displaced.",
+      "year": 1950,
+      "status": "verified",
+      "verdict_zh": "1950年6月25日，朝鲜战争爆发。1950年为庚寅年，与预言中的干支纪年完全吻合。战争造成数百万人伤亡，朝鲜半岛几乎全境遭受战火。「同室操戈」准确描述了同一民族之间的内战性质。但学者指出「庚寅」纪年可能系1977年版本中后人添加。",
+      "verdict_en": "The Korean War broke out on June 25, 1950. The year 1950 is indeed Geng-Yin in the sexagenary cycle, matching the prophecy exactly. The war caused millions of casualties and devastated nearly the entire peninsula. 'Brothers turning weapons on each other' accurately describes the civil war nature of the conflict. Scholars note the Geng-Yin dating may have been added in the 1977 edition."
+    },
+    {
+      "id": 9,
+      "cat": "politics",
+      "q": "末运论·经济崛起",
+      "a": "汉江之水日夜流，南国奋起创奇谋。贫弱一朝成富国，万邦瞩目汉城楼。\n\n白话文翻译：汉江之水日夜不停地流淌，南方的国家奋发崛起创造奇迹。贫弱的国家在一朝之间变为富裕强国，万国都瞩目汉城的高楼大厦。",
+      "q_en": "Discourse on the Final Age — Economic Rise",
+      "a_en": "The Han River flows day and night; the southern nation rises with ingenious resolve. From poverty and weakness, overnight a rich nation emerges; all nations gaze upon the towers of Hanseong.\n\nVernacular: The waters of the Han River flow ceaselessly day and night. The southern nation rises with determination and ingenuity. A once impoverished and weak nation transforms overnight into a prosperous power, and the world turns its gaze to the towers of Seoul.",
+      "year": 1988,
+      "status": "verified",
+      "verdict_zh": "韩国自1960年代起实现「汉江奇迹」，从世界最贫穷的国家之一跃升为发达经济体。1988年汉城（今首尔）奥运会标志着韩国跻身国际舞台。「汉江之水」和「汉城」的提及与韩国经济奇迹的地理中心高度吻合。GDP从1960年的人均79美元增长至1990年代的数千美元。",
+      "verdict_en": "South Korea achieved the 'Miracle on the Han River' from the 1960s onward, rising from one of the world's poorest nations to a developed economy. The 1988 Seoul Olympics marked Korea's arrival on the world stage. The mentions of 'Han River' and 'Hanseong' (Seoul) closely correspond to the geographic center of Korea's economic miracle. Per capita GDP rose from $79 in 1960 to thousands of dollars by the 1990s."
+    },
+    {
+      "id": 10,
+      "cat": "society",
+      "q": "末运论·民主化",
+      "a": "军威虽盛终有尽，民声如潮不可挡。烛火万千照长夜，自由之花遍地芳。\n\n白话文翻译：军事威权虽然强盛但终有尽头，民众的呼声如潮水不可阻挡。万千烛火照亮漫长的黑夜，自由的花朵遍地绽放芬芳。",
+      "q_en": "Discourse on the Final Age — Democratization",
+      "a_en": "Though military might prevails, it too shall end; the people's voice rises like an unstoppable tide. Ten thousand candles illuminate the long night; the flower of freedom blooms across the land.\n\nVernacular: Though military authoritarianism is powerful, it will eventually end. The voice of the people surges like an unstoppable tide. Tens of thousands of candles light up the long dark night, and the flower of freedom blooms everywhere across the land.",
+      "year": 1987,
+      "status": "verified",
+      "verdict_zh": "韩国在1987年六月民主抗争后实现民主化转型，结束了数十年的军事威权统治。「烛火万千」与韩国独特的烛光示威传统（2016-2017年烛光集会促成总统弹劾）形成呼应。从1980年光州事件到1987年民主化，韩国人民的抗争历程与「民声如潮不可挡」的描述吻合。",
+      "verdict_en": "South Korea achieved democratic transition after the June Democratic Struggle of 1987, ending decades of military authoritarian rule. 'Ten thousand candles' resonates with Korea's distinctive candlelight protest tradition (the 2016–2017 candlelight rallies led to presidential impeachment). From the 1980 Gwangju Uprising to the 1987 democratization, the Korean people's struggle matches the description of 'the people's voice rising like an unstoppable tide.'"
+    },
+    {
+      "id": 11,
+      "cat": "tech",
+      "q": "末运论·信息时代",
+      "a": "方寸之间通万里，无线音声遍四方。天下知识入掌中，千古未有此景象。\n\n白话文翻译：方寸之间便能沟通万里之遥，无线传输的声音遍及四面八方。天下所有知识尽入手掌之中，千古以来从未有过如此景象。",
+      "q_en": "Discourse on the Final Age — Information Age",
+      "a_en": "Within an inch, one communicates across ten thousand li; wireless sounds spread in all directions. All knowledge under heaven fits in the palm of one's hand — a sight never seen in a thousand ages.\n\nVernacular: Within the span of an inch, one can communicate across ten thousand li. Wireless sound transmissions reach in all directions. All the world's knowledge fits within one's palm — a spectacle never witnessed in all of recorded history.",
+      "year": 2007,
+      "status": "verified",
+      "verdict_zh": "「方寸之间通万里」和「天下知识入掌中」可被解读为智能手机和移动互联网的描述。韩国是全球互联网和智能手机普及率最高的国家之一。2007年iPhone问世标志着智能手机时代到来。但此类描述较为泛泛，且「无线」一词在16世纪不存在，是学者质疑文本真伪的证据之一。",
+      "verdict_en": "The descriptions of 'communicating across ten thousand li within an inch' and 'all knowledge fits in the palm' can be interpreted as smartphones and mobile internet. South Korea has among the world's highest internet and smartphone adoption rates. The iPhone's 2007 debut marked the smartphone era. However, such descriptions are rather general, and the concept of 'wireless' did not exist in the 16th century — another piece of evidence scholars cite questioning the text's authenticity."
+    },
+    {
+      "id": 12,
+      "cat": "climate",
+      "q": "末运论·天灾异象",
+      "a": "四时失序乾坤变，暑寒颠倒民不安。洪水旱灾交替至，大地呻吟天色暗。\n\n白话文翻译：四季失去秩序天地发生巨变，寒暑颠倒使百姓不安。洪水与旱灾交替降临，大地发出呻吟天色变得昏暗。",
+      "q_en": "Discourse on the Final Age — Natural Calamities",
+      "a_en": "The four seasons lose their order and heaven and earth are transformed; heat and cold are reversed, and the people are uneasy. Floods and droughts alternate in succession; the earth groans and the skies darken.\n\nVernacular: The four seasons fall out of order as heaven and earth undergo great change. Heat and cold are reversed, causing unrest among the people. Floods and droughts arrive in alternation, the earth groans in agony, and the sky grows dark.",
+      "year": 2020,
+      "status": "partial",
+      "verdict_zh": "全球气候变化导致极端天气频发，韩国近年来经历异常高温、暴雨洪灾（2022年首尔暴雨、2023年多地洪灾）与干旱交替。「四时失序」的描述与气候异常的现实趋势部分吻合。但此类笼统的灾异描述在古代预言书中极为常见，缺乏具体的可验证细节。",
+      "verdict_en": "Global climate change has led to increasingly frequent extreme weather. South Korea has experienced abnormal heat waves, devastating floods (2022 Seoul floods, 2023 flooding in multiple regions), and alternating droughts. 'Seasons losing their order' partially matches the reality of climate anomalies. However, such general descriptions of natural disasters are extremely common in ancient prophecy texts and lack specific verifiable details."
+    },
+    {
+      "id": 13,
+      "cat": "war",
+      "q": "末运论·核武威胁",
+      "a": "原子之火可灭国，半岛危机在须臾。北方穷兵黩武日，万民祈天求庇护。\n\n白话文翻译：原子之火足以灭亡一个国家，半岛的危机就在转瞬之间。北方穷兵黩武之日，万民祈求上天庇护。",
+      "q_en": "Discourse on the Final Age — Nuclear Threat",
+      "a_en": "Atomic fire can destroy a nation; crisis on the peninsula hangs by a thread. When the north exhausts itself in militarism, ten thousand people pray to heaven for protection.\n\nVernacular: Atomic fire is powerful enough to destroy an entire nation. The crisis on the peninsula could erupt at any moment. When the north pursues militarism to exhaustion, the people pray to heaven for shelter and protection.",
+      "year": 2006,
+      "status": "verified",
+      "verdict_zh": "朝鲜于2006年首次进行核试验，此后多次试验，成为东北亚重大安全威胁。「原子之火」直接提及核武器，「北方穷兵黩武」描述朝鲜的军事优先政策。朝鲜半岛核危机至今持续。但「原子」一词在16世纪不存在，是学者判定文本为伪作的关键证据之一。",
+      "verdict_en": "North Korea conducted its first nuclear test in 2006 and has since performed multiple tests, becoming a major security threat in Northeast Asia. 'Atomic fire' directly references nuclear weapons, and 'the north pursues militarism' describes North Korea's military-first policy. The Korean Peninsula nuclear crisis continues to this day. However, the word 'atom' did not exist in the 16th century — this is a key piece of evidence scholars cite in concluding the text is a forgery."
+    },
+    {
+      "id": 14,
+      "cat": "society",
+      "q": "末运论·文化传播",
+      "a": "东方歌舞传四海，韩风吹拂异域开。青年男女竞模仿，文化输出新时代。\n\n白话文翻译：东方的歌舞传播到四海各处，韩国之风吹拂到异国他乡。各国青年男女争相模仿，文化输出开启了新时代。",
+      "q_en": "Discourse on the Final Age — Cultural Spread",
+      "a_en": "Songs and dances of the East spread across the four seas; the Korean wind blows and blossoms in foreign lands. Young men and women everywhere compete to imitate; cultural export ushers in a new era.\n\nVernacular: Songs and dances from the East spread to all corners of the world. The Korean cultural wave blows across foreign shores and blossoms. Young people everywhere compete to emulate Korean culture, and cultural export ushers in a new era.",
+      "year": 2012,
+      "status": "verified",
+      "verdict_zh": "韩流（Korean Wave/Hallyu）自2000年代起席卷全球。K-pop（BTS、BLACKPINK等）、韩剧、韩国电影（《寄生虫》2020年获奥斯卡最佳影片）在全球范围内产生巨大影响力。2012年PSY的《江南Style》成为首个YouTube播放量破10亿的视频。「韩风吹拂异域」的描述与韩流现象吻合，但措辞较为笼统。",
+      "verdict_en": "The Korean Wave (Hallyu) has swept the globe since the 2000s. K-pop (BTS, BLACKPINK, etc.), Korean dramas, and Korean films (Parasite won Best Picture at the 2020 Oscars) have had enormous global impact. In 2012, PSY's 'Gangnam Style' became the first YouTube video to surpass 1 billion views. 'Korean wind blossoms in foreign lands' matches the Hallyu phenomenon, though the wording is rather general."
+    },
+    {
+      "id": 15,
+      "cat": "politics",
+      "q": "甲乙歌·统一展望",
+      "a": "分裂虽久终必合，天运循环有定期。南北一统新纪元，太平盛世万民怡。\n\n白话文翻译：分裂虽然持续已久但终究必将统一，天运循环自有其注定的时期。南北统一将开启新纪元，太平盛世万民安乐。",
+      "q_en": "Song of Gap-Eul — Unification Prospect",
+      "a_en": "Though division has lasted long, unity must eventually come; the cycle of heaven has its appointed time. North-south unification will herald a new era; a great peace in which all people rejoice.\n\nVernacular: Though the division has persisted for many years, reunification must eventually come — heaven's cycle has its predetermined time. The unification of North and South will open a new era, a great age of peace in which all people live in contentment.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 16,
+      "cat": "spirit",
+      "q": "甲乙歌·新天新地",
+      "a": "送旧迎新好时节，万物苦待新天运。劫后余生重建日，人间始有太平春。\n\n白话文翻译：辞旧迎新正是好时节，万物都在苦苦等待新的天运降临。劫难过后余生重建之日，人间才真正迎来太平的春天。",
+      "q_en": "Song of Gap-Eul — New Heaven and New Earth",
+      "a_en": "A fine season to bid the old farewell and welcome the new — all things await the new heavenly destiny. On the day of rebuilding after calamity, the mortal world shall at last know a spring of peace.\n\nVernacular: It is a fine season to see out the old and welcome the new — all things have been waiting in hope for a new heavenly destiny to arrive. On the day of rebuilding after the great calamity, the human world will at last truly welcome a spring of peace.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    }
+  ]
+}

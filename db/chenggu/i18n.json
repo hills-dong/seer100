@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "称骨算命",
+    "siteSubtitle": "唐代·袁天罡",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "称骨算命是什么？",
+    "homeIntro1": "称骨算命相传为唐代著名相师袁天罡所创。袁天罡精通天文、历法、相术，与李淳风合著《推背图》，是中国古代最负盛名的预言家之一。称骨算命法是他流传最广的命理推算体系，因其简单直观、无需专业命理知识即可使用，千年来在民间广为流传。",
+    "homeIntro2": "此法将一个人出生的年、月、日、时各对应一个「骨重」数值（以「两」和「钱」为单位），四者相加得出总骨重。骨重从最轻的二两一钱到最重的七两二钱，共有51种等级。每种骨重对应一首四句判词诗，用隐喻性的语言描述该命格一生的运势走向——从少年境遇、中年际遇到晚年归宿。",
+    "homeIntro3": "与精密的八字命理不同，称骨算命将所有人归入51种命格，粒度较粗，更像是一种民间智慧的概括。其科学性无法验证，但作为中国传统命理文化的经典体系，它承载了古人对命运的思考方式。本站选取了代表性的骨重等级，从最轻到最重逐一展示判词原文与白话解读。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「称骨不称人，论命先论斤。」——民间谚语",
+    "keyPoints": "骨重等级概览",
+    "keyPointsList": [
+      "二两一钱～二两九钱 —— 命薄之人，一生劳碌艰辛",
+      "三两～三两九钱 —— 中下之命，先苦后甜渐有转机",
+      "四两～四两九钱 —— 中等之命，衣食无忧有小成",
+      "五两～五两九钱 —— 中上之命，功名有望福禄丰",
+      "六两以上 —— 上等之命，富贵荣华权势显"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "称骨算命法相传为唐代袁天罡所创，原始文献已不可考，现存版本多为后世民间流传整理本（<a href=\"https://zh.wikipedia.org/wiki/袁天罡\" target=\"_blank\" rel=\"noopener\">袁天罡 - 维基百科</a>）",
+      "判词文本参考多种民间流传版本综合整理，不同版本之间存在细微差异",
+      "白话翻译为编者根据原文意译，仅供参考",
+      "称骨算命属于民间命理文化，其科学性无法验证，本站仅作文化资料展示",
+      "站点图标采用天平秤——象征称骨算命中「称量」命运轻重的核心概念"
+    ]
+  },
+  "en": {
+    "siteTitle": "Bone Weight Fortune",
+    "siteSubtitle": "Tang Dynasty · Yuan Tiangang",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Bone Weight Fortune Telling?",
+    "homeIntro1": "Bone Weight Fortune Telling (称骨算命) is attributed to Yuan Tiangang, one of the most renowned diviners of the Tang dynasty (circa 7th century). Yuan was an expert in astronomy, calendrical science, and physiognomy, and co-authored the famous Tui Bei Tu (推背图) prophecy text with Li Chunfeng. The Bone Weight system is his most widely practiced legacy — its simplicity requires no specialized knowledge, making it accessible to anyone.",
+    "homeIntro2": "The method assigns a weight value (measured in 'liang' and 'qian', traditional Chinese weight units) to each component of one's birth date: year, month, day, and hour. The four values are summed to produce a total bone weight. Ranging from the lightest at 2 liang 1 qian to the heaviest at 7 liang 2 qian, there are 51 distinct weight levels. Each level corresponds to a four-line destiny poem that metaphorically describes the trajectory of that fate — from youth through middle age to old age.",
+    "homeIntro3": "Unlike the more granular Eight Characters (Ba Zi) system, Bone Weight Fortune Telling groups all people into just 51 categories, making it a broader folk wisdom rather than precision divination. While its scientific validity cannot be verified, it remains a classic system of traditional Chinese fate philosophy, embodying how ancient people conceptualized destiny. This site presents representative weight levels with original poems and vernacular interpretations.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Weigh the bones, not the person; judge fate first by the weight.\" — Chinese folk proverb",
+    "keyPoints": "Weight Level Overview",
+    "keyPointsList": [
+      "2.1–2.9 liang —— Lightest fate: a life of hardship and toil",
+      "3.0–3.9 liang —— Below average: bitter beginnings, gradual improvement",
+      "4.0–4.9 liang —— Average fate: comfortable life with modest success",
+      "5.0–5.9 liang —— Above average: fame and fortune within reach",
+      "6.0+ liang —— Finest fate: wealth, honor, and power"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Bone Weight Fortune Telling is attributed to Tang dynasty diviner Yuan Tiangang; original manuscripts are lost, surviving versions are folk compilations (<a href=\"https://zh.wikipedia.org/wiki/袁天罡\" target=\"_blank\" rel=\"noopener\">Yuan Tiangang - Wikipedia</a>)",
+      "Poem texts compiled from multiple folk versions; minor variations exist between editions",
+      "Vernacular translations are editorial interpretations for reference only",
+      "Bone Weight Fortune Telling is a folk divination tradition whose scientific validity cannot be verified; this site presents it as cultural material only",
+      "Site icon: balance scale — symbolizing the core concept of 'weighing' one's destiny"
+    ]
+  }
+}

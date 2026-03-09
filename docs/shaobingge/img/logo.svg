@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 28" height="20">
+  <!-- Shaobing (sesame flatbread) symbol - circle with bite taken out and sesame dots -->
+  <circle cx="14" cy="14" r="11" fill="#9c4a2e"/>
+  <!-- Bite mark (crescent cut from upper right) -->
+  <circle cx="20" cy="8" r="6" fill="#f5f0ea"/>
+  <!-- Sesame seeds on the flatbread -->
+  <circle cx="10" cy="11" r="1.2" fill="#f5f0ea"/>
+  <circle cx="14" cy="17" r="1.2" fill="#f5f0ea"/>
+  <circle cx="8" cy="17" r="1" fill="#f5f0ea"/>
+  <circle cx="16" cy="12" r="1" fill="#f5f0ea"/>
+  <circle cx="11" cy="20" r="1.1" fill="#f5f0ea"/>
+  <!-- Outer ring -->
+  <circle cx="14" cy="14" r="11" fill="none" stroke="#7a3520" stroke-width="0.8"/>
+  <!-- Text: 烧饼歌 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#7a3520" letter-spacing="2">烧饼歌</text>
+</svg>

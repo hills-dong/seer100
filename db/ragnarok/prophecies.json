@@ -1,0 +1,157 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "society",
+      "q": "《沃尔娃的预言》第44-45节：斧之时代",
+      "a": "兄弟将相互厮杀，亲族之间将有血债。世间变得严酷，淫乱遍地——斧之时代，剑之时代，盾牌被劈裂；风之时代，狼之时代，直到世界覆灭。没有人会怜悯他人。",
+      "q_en": "Voluspa stanzas 44-45: The Age of Axes",
+      "a_en": "Brothers shall fight and slay each other, kin shall stain themselves with blood. It is harsh in the world, whoredom rife — an axe age, a sword age, shields are riven; a wind age, a wolf age, before the world goes headlong. No man will spare another.",
+      "date": "约800年-1220年"
+    },
+    {
+      "id": 2,
+      "cat": "climate",
+      "q": "《散文埃达》：芬布尔之冬",
+      "a": "首先降临的是名为芬布尔之冬的凛冬。雪从四面八方飘落，严寒凛冽，北风呼啸。太阳失去了温暖。这样的冬天接连三个，中间没有夏天。",
+      "q_en": "Prose Edda: Fimbulwinter",
+      "a_en": "First of all comes the winter called Fimbulwinter. Snow drives from all quarters, the cold is severe and the winds are sharp. The sun has no warmth. Three such winters follow each other with no summer in between.",
+      "date": "约1220年"
+    },
+    {
+      "id": 3,
+      "cat": "other",
+      "q": "《沃尔娃的预言》第40节：加尔姆嚎叫",
+      "a": "加尔姆在格尼帕洞穴前狂吠，锁链将要断裂，群狼将要奔逃。\n地狱猎犬加尔姆的嚎叫是诸神黄昏降临的第一个信号——它守卫冥界入口，其吠声宣告末日开始。",
+      "q_en": "Voluspa stanza 40: Garm Howls",
+      "a_en": "Garm howls loud before Gnipahellir, the fetters will burst and the wolf run free.\nThe hellhound Garm's howling is the first signal of Ragnarok's arrival — it guards the entrance to the underworld, and its baying announces the beginning of the end.",
+      "date": "约800年-1220年"
+    },
+    {
+      "id": 4,
+      "cat": "climate",
+      "q": "《诗体埃达》：天狼吞日",
+      "a": "追逐太阳的巨狼斯库尔终于将太阳吞噬。另一头狼哈提则吞下了月亮。星辰从天穹坠落，大地陷入黑暗。",
+      "q_en": "Poetic Edda: The Wolves Devour Sun and Moon",
+      "a_en": "The great wolf Skoll at last catches and devours the sun. Another wolf, Hati, swallows the moon. The stars vanish from the sky, and the earth is plunged into darkness.",
+      "date": "约800年-1220年"
+    },
+    {
+      "id": 5,
+      "cat": "climate",
+      "q": "《沃尔娃的预言》第47-48节：大地震颤",
+      "a": "大地震颤颤抖，世界树尤格德拉希尔从根部发出呻吟。老树摇晃，巨人挣脱。万物在天上人间都充满恐惧。",
+      "q_en": "Voluspa stanzas 47-48: The Earth Trembles",
+      "a_en": "The earth trembles and shakes, the World Tree Yggdrasil groans from its roots. The ancient tree sways, and the giant breaks free. All things in heaven and earth are filled with dread.",
+      "date": "约800年-1220年"
+    },
+    {
+      "id": 6,
+      "cat": "war",
+      "q": "《散文埃达》：芬里尔挣脱锁链",
+      "a": "巨狼芬里尔挣脱了诸神用矮人锻造的魔锁格莱普尼尔。它张开巨口，下颚抵地，上颚触天，烈焰从它的双目和鼻孔中喷涌而出。",
+      "q_en": "Prose Edda: Fenrir Breaks Free",
+      "a_en": "The great wolf Fenrir breaks free from Gleipnir, the magical bond forged by the dwarves. It opens its monstrous jaws so wide that the lower jaw touches the earth and the upper jaw reaches the sky, and flames blaze from its eyes and nostrils.",
+      "date": "约1220年"
+    },
+    {
+      "id": 7,
+      "cat": "war",
+      "q": "《沃尔娃的预言》第50节：洛基挣脱束缚",
+      "a": "洛基挣脱了束缚他的锁链。他的妻子西格恩不再需要接住滴落在他脸上的毒液。洛基自由了，带着怨恨加入了巨人的队伍，率领死者之船纳吉尔法从冥界启航。",
+      "q_en": "Voluspa stanza 50: Loki Breaks Free",
+      "a_en": "Loki breaks free from his chains. His wife Sigyn no longer needs to catch the venom dripping onto his face. Loki is free, and full of spite, he joins the forces of the giants, steering the ship of the dead, Naglfar, from the realm of Hel.",
+      "date": "约800年-1220年"
+    },
+    {
+      "id": 8,
+      "cat": "war",
+      "q": "《散文埃达》：耶梦加得浮出海面",
+      "a": "世界之蛇耶梦加得在深海中翻腾，掀起巨浪涌向陆地。这条环绕中庭世界的巨蛇终于松开了自己的尾巴，从海中升起，向着陆地爬行，喷吐毒液污染了天空和海洋。",
+      "q_en": "Prose Edda: Jormungandr Rises",
+      "a_en": "The World Serpent Jormungandr thrashes in the deep sea, sending great waves crashing upon the land. The great serpent that encircles Midgard finally releases its own tail, rising from the sea and crawling toward land, spewing venom that poisons both sky and ocean.",
+      "date": "约1220年"
+    },
+    {
+      "id": 9,
+      "cat": "war",
+      "q": "《散文埃达》：苏尔特率军进攻",
+      "a": "火巨人苏尔特从南方穆斯贝尔海姆率领火焰军团进攻。他手持烈焰之剑，比太阳还要耀眼。当他们骑过彩虹桥比弗罗斯特时，桥在他们身后崩塌断裂。",
+      "q_en": "Prose Edda: Surtr Marches from the South",
+      "a_en": "The fire giant Surtr leads his legions from Muspelheim in the south. He wields a flaming sword brighter than the sun. As they ride across the rainbow bridge Bifrost, it breaks and crumbles behind them.",
+      "date": "约1220年"
+    },
+    {
+      "id": 10,
+      "cat": "war",
+      "q": "《散文埃达》：海姆达尔吹响号角",
+      "a": "守卫彩虹桥的神祇海姆达尔吹响了加拉尔号角，其声响彻九大世界。诸神听到号角声从沉睡中醒来，聚集在一起，骑向维格利德原野——那片方圆百里的最终战场。",
+      "q_en": "Prose Edda: Heimdall Blows the Gjallarhorn",
+      "a_en": "Heimdall, guardian of the rainbow bridge, blows the Gjallarhorn, its sound echoing through all Nine Worlds. The gods awaken and gather together, riding to Vigrid plain — the battlefield a hundred leagues in every direction.",
+      "date": "约1220年"
+    },
+    {
+      "id": 11,
+      "cat": "war",
+      "q": "《散文埃达》：奥丁之死",
+      "a": "众神之父奥丁手持长枪冈格尼尔，率领英灵殿的勇士冲向巨狼芬里尔。但芬里尔张开巨口将奥丁整个吞噬。奥丁之子维达尔随即踏上芬里尔的下颚，用手撕开了巨狼的嘴，将剑刺入它的心脏，为父报仇。",
+      "q_en": "Prose Edda: The Death of Odin",
+      "a_en": "Odin, the Allfather, charges at the wolf Fenrir wielding his spear Gungnir, leading the warriors of Valhalla. But Fenrir opens its enormous jaws and swallows Odin whole. Odin's son Vidar then steps on Fenrir's lower jaw, tears the beast's mouth apart with his hands, and thrusts his sword into its heart, avenging his father.",
+      "date": "约1220年"
+    },
+    {
+      "id": 12,
+      "cat": "war",
+      "q": "《散文埃达》：托尔与世界之蛇同归于尽",
+      "a": "雷神托尔与世界之蛇耶梦加得展开殊死搏斗。托尔用神锤妙尔尼尔击碎了巨蛇的头颅，但巨蛇在死前向托尔喷出了致命毒液。托尔向后退了九步，便倒地而亡。",
+      "q_en": "Prose Edda: Thor and Jormungandr Slay Each Other",
+      "a_en": "Thor engages in mortal combat with the World Serpent Jormungandr. Thor smashes the serpent's skull with his hammer Mjolnir, but the dying serpent sprays its lethal venom upon him. Thor staggers back nine steps and falls dead.",
+      "date": "约1220年"
+    },
+    {
+      "id": 13,
+      "cat": "war",
+      "q": "《散文埃达》：弗雷之死",
+      "a": "丰饶之神弗雷与火巨人苏尔特激战。弗雷因当年为求巨人之女格尔德的爱情而献出了自己的神剑，如今手中没有趁手的武器，最终被苏尔特击杀。",
+      "q_en": "Prose Edda: The Death of Freyr",
+      "a_en": "The god of fertility Freyr battles the fire giant Surtr. Freyr had given away his magical sword long ago to win the love of the giantess Gerd, and now, lacking a proper weapon, he is slain by Surtr.",
+      "date": "约1220年"
+    },
+    {
+      "id": 14,
+      "cat": "war",
+      "q": "《散文埃达》：洛基与海姆达尔互杀",
+      "a": "诡计之神洛基与守卫神海姆达尔在战场上相遇。两位宿敌展开最后的厮杀，最终双方同时倒下，互相给予了致命一击。",
+      "q_en": "Prose Edda: Loki and Heimdall Kill Each Other",
+      "a_en": "The trickster god Loki and the watchman god Heimdall meet on the battlefield. The two ancient enemies engage in their final fight, and both fall, each dealing the other a fatal blow.",
+      "date": "约1220年"
+    },
+    {
+      "id": 15,
+      "cat": "climate",
+      "q": "《沃尔娃的预言》第57节：世界在火焰中沉没",
+      "a": "太阳变黑，大地沉入海中，繁星从天穹坠落。蒸汽与火焰猛烈交织，高高的热浪舔舐苍穹。\n苏尔特将烈焰之剑挥向大地，火焰吞噬了整个世界，九大世界尽数化为灰烬。",
+      "q_en": "Voluspa stanza 57: The World Sinks in Flame",
+      "a_en": "The sun turns black, earth sinks in the sea, the bright stars vanish from the sky. Steam rises and the life-feeding flame, till fire leaps high about heaven itself.\nSurtr casts fire across the earth, flames engulf the entire world, and all Nine Worlds are reduced to ashes.",
+      "date": "约800年-1220年"
+    },
+    {
+      "id": 16,
+      "cat": "spirit",
+      "q": "《沃尔娃的预言》第59-60节：大地重生",
+      "a": "她看见大地再次从海中升起，苍翠葱郁。瀑布飞流直下，雄鹰在其上翱翔，在山间捕猎鱼群。\n未经播种，庄稼自行生长。一切伤痛都将痊愈。巴德尔和霍德尔从冥界归来，在新的天地中和平共处。",
+      "q_en": "Voluspa stanzas 59-60: The Earth Reborn",
+      "a_en": "She sees the earth rise again from the sea, green and fair. Waterfalls cascade down, and an eagle soars above, hunting fish in the mountains.\nUnsown fields bear fruit. All wounds are healed. Baldr and Hodr return from Hel, dwelling together in peace in the renewed world.",
+      "date": "约800年-1220年"
+    },
+    {
+      "id": 17,
+      "cat": "spirit",
+      "q": "《沃尔娃的预言》第61-62节：新的人类与新的秩序",
+      "a": "名为利弗和利弗斯拉希尔的一对男女藏身于世界树霍达密密尔之森中，以晨露为食，躲过了苏尔特的大火。他们走出来，成为新世界人类的始祖。\n幸存的神祇在伊达原野重聚，在草丛中找到了往日的金色棋子。一位强大而光荣的统治者从天而降，治理万物。",
+      "q_en": "Voluspa stanzas 61-62: New Humanity and New Order",
+      "a_en": "A man and woman named Lif and Lifthrasir hide in the forest of Hoddmimir within Yggdrasil, sustaining themselves on morning dew, surviving Surtr's fire. They emerge to become the ancestors of a new humanity.\nThe surviving gods reunite on the Ida plain, finding the golden game pieces of old in the grass. A mighty and glorious ruler descends from above to govern all things.",
+      "date": "约800年-1220年"
+    }
+  ]
+}

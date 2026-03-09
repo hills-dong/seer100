@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 28" height="20">
+  <!-- Spider/web crawler icon -->
+  <!-- Web: concentric circles with radial lines -->
+  <circle cx="14" cy="14" r="12" fill="#4a8060" stroke="none"/>
+  <!-- Web rings (negative space) -->
+  <circle cx="14" cy="14" r="8.5" fill="none" stroke="#f0f2f2" stroke-width="1"/>
+  <circle cx="14" cy="14" r="5" fill="none" stroke="#f0f2f2" stroke-width="1"/>
+  <!-- Radial lines -->
+  <line x1="14" y1="2" x2="14" y2="26" stroke="#f0f2f2" stroke-width="0.8"/>
+  <line x1="2" y1="14" x2="26" y2="14" stroke="#f0f2f2" stroke-width="0.8"/>
+  <line x1="5.5" y1="5.5" x2="22.5" y2="22.5" stroke="#f0f2f2" stroke-width="0.8"/>
+  <line x1="22.5" y1="5.5" x2="5.5" y2="22.5" stroke="#f0f2f2" stroke-width="0.8"/>
+  <!-- Spider body (small dark dot in center) -->
+  <circle cx="14" cy="14" r="2" fill="#306044"/>
+  <!-- Spider legs (4 pairs, extending from body) -->
+  <line x1="12.5" y1="13" x2="9" y2="9.5" stroke="#306044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="15.5" y1="13" x2="19" y2="9.5" stroke="#306044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="12.5" y1="15" x2="9" y2="18.5" stroke="#306044" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="15.5" y1="15" x2="19" y2="18.5" stroke="#306044" stroke-width="0.9" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#306044" letter-spacing="0.5">WEB BOT</text>
+</svg>

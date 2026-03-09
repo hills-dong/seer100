@@ -1,0 +1,69 @@
+{
+  "siteId": "isaiah",
+  "answererName": "Prophet Isaiah",
+  "publishDate": "约公元前700年",
+  "baseUrl": "https://pre.hilife.me/isaiah",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "以赛亚预言全集 - 旧约先知书预言与验证 | Isaiah Prophecies",
+      "description": "旧约先知以赛亚（约公元前740-700年活跃）的预言完整收录，涵盖弥赛亚预言（以马内利、受苦仆人）、列国审判、新天新地等异象。含历史验证与学术分析。",
+      "keywords": "以赛亚,以赛亚书,旧约预言,弥赛亚预言,以马内利,受苦仆人,先知以赛亚,圣经预言,以赛亚预言验证",
+      "siteName": "以赛亚预言",
+      "ogTitle": "以赛亚预言全集 | Isaiah Prophecies",
+      "ogDescription": "旧约先知以赛亚的预言完整收录与验证分析。涵盖弥赛亚预言、列国审判、末世异象等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "旧约先知以赛亚的预言全集，含弥赛亚预言、列国审判与验证分析。以马内利、受苦仆人、新天新地等经典预言。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Isaiah Prophecies - Old Testament Prophetic Book: Messianic Visions & Verification",
+      "description": "Complete archive of Prophet Isaiah's prophecies (~740-700 BC), including messianic predictions (Immanuel, Suffering Servant), judgment on nations, and visions of new heavens and earth. With historical verification and scholarly analysis.",
+      "keywords": "Isaiah,Book of Isaiah,Old Testament prophecy,messianic prophecy,Immanuel,Suffering Servant,Prophet Isaiah,Bible prophecy,Isaiah verification",
+      "siteName": "Isaiah Prophecies",
+      "ogTitle": "Isaiah Prophecies - Complete Old Testament Prophetic Archive",
+      "ogDescription": "Complete archive of Prophet Isaiah's prophecies with historical verification. Messianic visions, judgment on nations, and eschatological prophecies.",
+      "locale": "en_US",
+      "twitterDescription": "Prophet Isaiah's prophecies: Immanuel, Suffering Servant, fall of Babylon, new heavens and earth. Historical verification and scholarly analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "以赛亚预言",
+      "alternateName": "Isaiah Prophecies",
+      "url": "https://pre.hilife.me/isaiah/",
+      "description": "旧约先知以赛亚的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eef2",
+    "white": "#fff",
+    "text": "#20202e",
+    "text2": "#646078",
+    "textLight": "#504c64",
+    "primary": "#5a4a7a",
+    "primaryDark": "#3e3060",
+    "primaryBg": "#eeeaf6",
+    "link": "#5a4a7a",
+    "border": "#d4d0e0",
+    "border2": "#b8b2c8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e8e4f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Isaiah Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Book_of_Isaiah",
+    "sourceLabel": "Wikipedia"
+  }
+}

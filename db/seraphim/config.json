@@ -1,0 +1,69 @@
+{
+  "siteId": "seraphim",
+  "answererName": "Seraphim of Sarov",
+  "publishDate": "约1825-1833",
+  "baseUrl": "https://pre.hilife.me/seraphim",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "萨罗夫的塞拉芬预言全集 - 俄罗斯东正教圣人的末世预言与验证 | Seraphim of Sarov Prophecies",
+      "description": "俄罗斯东正教最受尊崇的圣人之一萨罗夫的塞拉芬（1754/1759-1833）关于俄罗斯未来命运、革命苦难、敌基督降临、俄罗斯复兴的预言完整收录与验证。",
+      "keywords": "塞拉芬,萨罗夫的塞拉芬,俄罗斯预言,东正教圣人,末世预言,俄罗斯命运,Seraphim of Sarov,Russian prophecy",
+      "siteName": "塞拉芬预言",
+      "ogTitle": "萨罗夫的塞拉芬预言全集 | Seraphim of Sarov Prophecies",
+      "ogDescription": "俄罗斯东正教圣人萨罗夫的塞拉芬关于俄罗斯未来、末世与信仰复兴的预言完整收录与验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "俄罗斯东正教圣人塞拉芬的预言全集：革命苦难、信仰复兴、末世启示。含历史验证分析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Seraphim of Sarov Prophecies - Russian Orthodox Saint's Visions of Russia's Destiny | Full Archive & Verification",
+      "description": "Complete collection of prophecies by Seraphim of Sarov (1754/1759-1833), one of the most venerated saints in Russian Orthodoxy. Predictions about Russia's suffering, revolution, the Antichrist, and spiritual resurrection.",
+      "keywords": "Seraphim of Sarov,Russian prophecy,Orthodox saint,Russia destiny,Antichrist,end times,Holy Spirit,Sarov monastery,Russian Orthodox prophecy",
+      "siteName": "Seraphim of Sarov Prophecies",
+      "ogTitle": "Seraphim of Sarov Prophecies - Complete Predictions & Verification",
+      "ogDescription": "Prophecies from Russian Orthodox Saint Seraphim of Sarov on Russia's future, revolution, spiritual destiny, and end times. Full archive with historical verification.",
+      "locale": "en_US",
+      "twitterDescription": "Prophecies of Seraphim of Sarov: Russia's suffering, revolution, faith restoration, end times. With historical verification."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "塞拉芬预言",
+      "alternateName": "Seraphim of Sarov Prophecies",
+      "url": "https://pre.hilife.me/seraphim/",
+      "description": "俄罗斯东正教圣人萨罗夫的塞拉芬预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0e6",
+    "white": "#fff",
+    "text": "#26241a",
+    "text2": "#747060",
+    "textLight": "#5e5a48",
+    "primary": "#8c8040",
+    "primaryDark": "#6a6028",
+    "primaryBg": "#f6f4e6",
+    "link": "#8c8040",
+    "border": "#d8d4c0",
+    "border2": "#bab49c",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eeeadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Seraphim of Sarov Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Seraphim_of_Sarov",
+    "sourceLabel": "Wikipedia"
+  }
+}

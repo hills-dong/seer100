@@ -1,0 +1,69 @@
+{
+  "siteId": "clement",
+  "answererName": "Kim Clement",
+  "publishDate": "2006-2016",
+  "baseUrl": "https://pre.hilife.me/clement",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "金·克莱门特预言全集 - 南非裔美国基督教先知的14条预言与验证 | Kim Clement Prophecies",
+      "description": "金·克莱门特（Kim Clement，1956-2016）是南非裔美国灵恩派先知与音乐人。以电视节目《预言警报》闻名，预言涵盖特朗普总统任期、科学突破、中东局势、经济走向等领域。",
+      "keywords": "金克莱门特,Kim Clement,基督教预言,先知,特朗普预言,预言警报,灵恩派,预言验证",
+      "siteName": "金·克莱门特预言",
+      "ogTitle": "金·克莱门特预言全集 | Kim Clement Prophecies",
+      "ogDescription": "南非裔美国基督教先知金·克莱门特的预言完整收录与验证分析。涵盖政治、科技、经济、中东局势等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条金·克莱门特预言完整收录与验证。已应验：特朗普当选总统、两任总统预言等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Kim Clement Prophecies - 14 Predictions from the Singing Prophet (1956-2016) | Full Archive & Verification",
+      "description": "South African-American Christian prophet Kim Clement (1956-2016) made numerous prophecies on his TV show 'Prophetic Alert'. Known for predicting Trump's presidency, scientific breakthroughs, and Middle East events. Full archive with verification.",
+      "keywords": "Kim Clement,Kim Clement prophecy,singing prophet,prophetic alert,Trump prophecy,Christian prophet,charismatic prophecy,prophecy verification",
+      "siteName": "Kim Clement Prophecies",
+      "ogTitle": "Kim Clement Prophecies - The Singing Prophet's Complete Predictions",
+      "ogDescription": "14 prophecies from Kim Clement (1956-2016), the singing prophet. Full archive with real-world verification covering politics, technology, economy, and Middle East.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from Kim Clement, the singing prophet. Verified: Trump presidency, two presidents prophecy, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "金·克莱门特预言",
+      "alternateName": "Kim Clement Prophecies",
+      "url": "https://pre.hilife.me/clement/",
+      "description": "南非裔美国基督教先知金·克莱门特的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f0f0",
+    "white": "#fff",
+    "text": "#282020",
+    "text2": "#786464",
+    "textLight": "#644e4e",
+    "primary": "#8c4040",
+    "primaryDark": "#6a2828",
+    "primaryBg": "#f8eeee",
+    "link": "#8c4040",
+    "border": "#dcd0d0",
+    "border2": "#c0b0b0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e4e4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Kim Clement Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kim_Clement",
+    "sourceLabel": "Wikipedia"
+  }
+}

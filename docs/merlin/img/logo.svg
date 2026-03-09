@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" height="20">
+  <!-- Dragon icon: stylized Welsh/Merlin dragon in circle -->
+  <circle cx="14" cy="14" r="12" fill="#3a6b3a"/>
+  <!-- Dragon silhouette: head, wings, tail -->
+  <path d="M8,18 L10,12 L9,10 L11,8 L14,9 L16,7 L18,9 L20,8 L19,11 L21,14 L19,13 L20,16 L18,15 L17,18 L14,16 L11,18 Z" fill="#eef2ee"/>
+  <!-- Dragon eye -->
+  <circle cx="13" cy="11" r="1" fill="#244e24"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#244e24" letter-spacing="0.5">MERLIN</text>
+</svg>

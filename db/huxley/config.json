@@ -1,0 +1,69 @@
+{
+  "siteId": "huxley",
+  "answererName": "Aldous Huxley",
+  "publishDate": "1932",
+  "baseUrl": "https://pre.hilife.me/huxley",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "赫胥黎预言全集 - 《美丽新世界》对人类未来的16条预言与验证 | Huxley Prophecies",
+      "description": "英国作家奥尔德斯·赫胥黎（1894-1963）在《美丽新世界》(1932)和《重返美丽新世界》(1958)中对基因工程、情绪药物、消费主义控制、试管婴儿、娱乐至死等议题的预言性描写，及其与现实世界的对照验证。",
+      "keywords": "赫胥黎,美丽新世界,Brave New World,反乌托邦,预言,基因工程,试管婴儿,消费主义,娱乐至死,索玛,soma,赫胥黎预言",
+      "siteName": "赫胥黎预言",
+      "ogTitle": "赫胥黎预言全集 | Huxley Prophecies",
+      "ogDescription": "《美丽新世界》对基因工程、情绪药物、消费主义控制、试管婴儿等议题的预言性描写与现实验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "赫胥黎《美丽新世界》中的16条预言与现实对照：基因工程、抗抑郁药、试管婴儿、消费主义控制、娱乐至死。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Huxley Prophecies - 16 Predictions from Brave New World (1932) | Full Archive & Verification",
+      "description": "Aldous Huxley's Brave New World (1932) and Brave New World Revisited (1958) anticipated genetic engineering, mood-altering drugs, consumerism as control, test-tube babies, and entertainment replacing thought. Full archive with real-world verification.",
+      "keywords": "Aldous Huxley,Brave New World,dystopia,predictions,genetic engineering,test-tube babies,consumerism,soma,antidepressants,Huxley prophecy",
+      "siteName": "Huxley Prophecies",
+      "ogTitle": "Huxley Prophecies - Brave New World's Predictions vs Reality",
+      "ogDescription": "16 predictions from Aldous Huxley's Brave New World (1932) verified against the real world: genetic engineering, mood drugs, consumerism, IVF, and more.",
+      "locale": "en_US",
+      "twitterDescription": "16 predictions from Brave New World verified against reality: genetic engineering, antidepressants, IVF, consumerism as control, entertainment replacing thought."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "赫胥黎预言",
+      "alternateName": "Huxley Prophecies",
+      "url": "https://pre.hilife.me/huxley/",
+      "description": "奥尔德斯·赫胥黎《美丽新世界》中的预言性描写与现实验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f2ee",
+    "white": "#fff",
+    "text": "#282e24",
+    "text2": "#6e7868",
+    "textLight": "#5a645a",
+    "primary": "#406080",
+    "primaryDark": "#2a4460",
+    "primaryBg": "#e6eef4",
+    "link": "#406080",
+    "border": "#daded8",
+    "border2": "#bcc4ba",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eaece6"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Huxley Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brave_New_World",
+    "sourceLabel": "Wikipedia"
+  }
+}

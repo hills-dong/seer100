@@ -1,0 +1,69 @@
+{
+  "siteId": "moore",
+  "answererName": "Gordon Moore",
+  "publishDate": "1965-2015",
+  "baseUrl": "https://pre.hilife.me/moore",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "戈登·摩尔预言全集 - 摩尔定律与半导体革命的14条预言与验证 | Gordon Moore Prophecies",
+      "description": "Intel联合创始人戈登·摩尔（1929-2023）提出的摩尔定律及其对计算、微电子和数字革命的14条预言完整收录与验证。从1965年的集成电路预言到半导体产业的未来走向。",
+      "keywords": "摩尔定律,戈登摩尔,Gordon Moore,Intel,半导体预言,晶体管,集成电路,计算机革命,芯片预言,摩尔定律终结",
+      "siteName": "戈登·摩尔预言",
+      "ogTitle": "戈登·摩尔预言全集 | Gordon Moore Prophecies",
+      "ogDescription": "Intel联合创始人戈登·摩尔的14条预言完整收录与验证。从摩尔定律到半导体产业未来。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条摩尔定律之父戈登·摩尔的预言与验证。集成电路密度翻倍、家用电脑普及、智能手机、AI算力等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Gordon Moore Prophecies - 14 Predictions from the Father of Moore's Law (1929-2023) | Full Archive & Verification",
+      "description": "Intel co-founder Gordon Moore (1929-2023) and his predictions on transistor scaling, computing revolution, home computers, smartphones, AI, and the future of semiconductors. Full archive with real-world verification.",
+      "keywords": "Moore's Law,Gordon Moore,Intel,semiconductor predictions,transistor density,integrated circuits,computing revolution,chip prophecy,end of Moore's Law",
+      "siteName": "Gordon Moore Prophecies",
+      "ogTitle": "Gordon Moore Prophecies - The Father of Moore's Law",
+      "ogDescription": "14 predictions from Intel co-founder Gordon Moore (1929-2023). Full archive with real-world verification covering semiconductors, computing, and the digital revolution.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from Gordon Moore, father of Moore's Law. Transistor doubling, home computers, smartphones, AI computing power, and the end of scaling."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "戈登·摩尔预言",
+      "alternateName": "Gordon Moore Prophecies",
+      "url": "https://pre.hilife.me/moore/",
+      "description": "Intel联合创始人戈登·摩尔的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f2f4",
+    "white": "#fff",
+    "text": "#222830",
+    "text2": "#687078",
+    "textLight": "#565e68",
+    "primary": "#8c8040",
+    "primaryDark": "#6a6028",
+    "primaryBg": "#f6f4e6",
+    "link": "#8c8040",
+    "border": "#d8dee4",
+    "border2": "#bcc4cc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eceee6"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Gordon Moore Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gordon_Moore",
+    "sourceLabel": "Wikipedia"
+  }
+}

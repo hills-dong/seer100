@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 28" height="20">
+  <!-- Three interlocking circles — Joachim's Trinitarian diagram -->
+  <circle cx="10" cy="14" r="8" fill="none" stroke="#6a6a30" stroke-width="2.2"/>
+  <circle cx="18" cy="14" r="8" fill="none" stroke="#6a6a30" stroke-width="2.2"/>
+  <circle cx="14" cy="7" r="8" fill="none" stroke="#4e4e18" stroke-width="2.2"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#4e4e18" letter-spacing="0.5">JOACHIM</text>
+</svg>

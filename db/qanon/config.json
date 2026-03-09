@@ -1,0 +1,69 @@
+{
+  "siteId": "qanon",
+  "answererName": "Q (anonymous)",
+  "publishDate": "2017-2021",
+  "baseUrl": "https://pre.hilife.me/qanon",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "QAnon预言全集 - 匿名者Q的17条预测与验证 | QAnon Predictions",
+      "description": "QAnon（匿名者Q）是2017年起源于美国匿名论坛的政治阴谋论运动。Q自称政府高层内部人士，发布了数千条帖子（Q drops），包含大量具体预测。本站整理其中17条可验证的核心预言，并进行事实核查。",
+      "keywords": "QAnon,匿名者Q,Q drops,阴谋论,预言验证,The Storm,大觉醒,深层政府,4chan,8kun",
+      "siteName": "QAnon预言",
+      "ogTitle": "QAnon预言全集 | QAnon Predictions Archive",
+      "ogDescription": "匿名者Q（QAnon）的17条核心预测与事实验证。来自4chan/8chan的匿名帖子，绝大多数预测未能应验。",
+      "locale": "zh_CN",
+      "twitterDescription": "17条QAnon核心预测与事实核查。匿名者Q自2017年起在4chan/8chan发布的预言，绝大多数未能应验。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "QAnon Predictions Archive - 17 Claims from Q Drops Fact-Checked | Full Verification",
+      "description": "QAnon originated from anonymous posts on 4chan/8chan by 'Q' starting October 2017. Q claimed to be a high-ranking government insider. This archive compiles 17 verifiable core predictions from Q drops and fact-checks them against reality. The vast majority failed.",
+      "keywords": "QAnon,Q drops,Q predictions,conspiracy theory,The Storm,Great Awakening,deep state,4chan,8kun,fact check",
+      "siteName": "QAnon Predictions",
+      "ogTitle": "QAnon Predictions Archive - Fact-Checked Q Drops",
+      "ogDescription": "17 verifiable predictions from QAnon's Q drops (2017-2021), fact-checked against reality. The vast majority of specific claims did not materialize.",
+      "locale": "en_US",
+      "twitterDescription": "17 QAnon predictions fact-checked. Anonymous posts from 4chan/8chan claiming insider knowledge — most predictions failed to materialize."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "QAnon预言",
+      "alternateName": "QAnon Predictions Archive",
+      "url": "https://pre.hilife.me/qanon/",
+      "description": "匿名者Q（QAnon）的核心预测与事实验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0f0",
+    "white": "#fff",
+    "text": "#2a2628",
+    "text2": "#767072",
+    "textLight": "#625c5e",
+    "primary": "#8c4040",
+    "primaryDark": "#6a2828",
+    "primaryBg": "#f8ecea",
+    "link": "#8c4040",
+    "border": "#e0dada",
+    "border2": "#c4bcbc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eceae8"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "QAnon Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/QAnon",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "回到未来预言",
+    "siteSubtitle": "1989年电影对2015年的科技预测",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "《回到未来》是什么？",
+    "homeIntro1": "《回到未来》（Back to the Future）是由罗伯特·泽米吉斯执导、鲍勃·盖尔编剧的科幻电影三部曲（1985、1989、1990）。影片讲述了少年马蒂·麦克弗莱乘坐布朗博士发明的时光机（改装自DeLorean跑车）穿越时空的冒险故事。",
+    "homeIntro2": "其中第二部（1989年上映）将故事带到了2015年10月21日的「未来世界」。编剧在1980年代末期想象了26年后的日常生活，涉及通信、交通、娱乐、支付、穿戴设备等多个领域。这些场景在当年只是科幻想象，但如今许多已成为现实。",
+    "homeIntro3": "本站收录了《回到未来II》中对2015年的16条科技预测，逐一与现实对照验证。从已实现的视频通话和平板电视，到仍属幻想的飞行汽车，再到令人惊叹的「小熊队夺冠」预言——这部35年前的电影对未来的想象力令人叹服。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「Roads? Where we're going, we don't need roads.（路？我们要去的地方不需要路。）」—— 布朗博士",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1985年 —— 第一部上映，建立时光旅行世界观",
+      "1989年 —— 第二部上映，描绘2015年未来世界",
+      "1990年 —— 第三部上映，三部曲完结",
+      "2015年10月21日 —— 电影中马蒂抵达「未来」的日期，全球庆祝「回到未来日」",
+      "2016年 —— 芝加哥小熊队时隔108年夺得世界大赛冠军，与电影预言惊人吻合"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容来自电影《回到未来II》（1989）的场景画面和对白（<a href=\"https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开新闻报道、产品发布记录和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用闪电时钟符号——DeLorean时光机需要1.21吉瓦的闪电能量来穿越时空，时钟代表时间旅行的核心主题"
+    ]
+  },
+  "en": {
+    "siteTitle": "Back to the Future Predictions",
+    "siteSubtitle": "1989 Film's Tech Predictions for 2015",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "What is Back to the Future?",
+    "homeIntro1": "Back to the Future is a sci-fi film trilogy (1985, 1989, 1990) directed by Robert Zemeckis and written by Bob Gale. The films follow teenager Marty McFly as he travels through time in a DeLorean time machine invented by Dr. Emmett \"Doc\" Brown.",
+    "homeIntro2": "Part II (released 1989) takes the story to October 21, 2015 — a \"future world\" imagined from the perspective of the late 1980s. The filmmakers envisioned everyday life 26 years ahead, spanning communications, transportation, entertainment, payments, and wearable technology. What was pure sci-fi fantasy then has, in many cases, become reality.",
+    "homeIntro3": "This site archives 16 technology predictions from Back to the Future Part II's depiction of 2015, verified against real-world outcomes. From video calling and flat-screen TVs that came true, to flying cars that remain fantasy, to the astonishing Cubs World Series prediction — the film's 35-year-old vision of the future remains remarkably impressive.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Roads? Where we're going, we don't need roads.\" — Doc Brown",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1985 —— First film released, establishing the time travel universe",
+      "1989 —— Part II released, depicting life in 2015",
+      "1990 —— Part III released, completing the trilogy",
+      "October 21, 2015 —— The date Marty arrives in the 'future'; celebrated worldwide as Back to the Future Day",
+      "2016 —— Chicago Cubs win World Series after 108 years, eerily matching the film's prediction"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions sourced from scenes and dialogue in Back to the Future Part II (1989) (<a href=\"https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public news reports, product launches, and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: lightning clock symbol — the DeLorean time machine requires 1.21 gigawatts of lightning to travel through time, and the clock represents the core theme of time travel"
+    ]
+  }
+}

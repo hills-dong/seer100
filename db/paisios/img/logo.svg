@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 28" height="20">
+  <!-- Halo/Nimbus icon -->
+  <circle cx="14" cy="14" r="12" fill="none" stroke="#506a3a" stroke-width="2.5"/>
+  <circle cx="14" cy="14" r="9" fill="none" stroke="#364e22" stroke-width="1.5"/>
+  <line x1="14" y1="2" x2="14" y2="5" stroke="#506a3a" stroke-width="1.5"/>
+  <line x1="14" y1="23" x2="14" y2="26" stroke="#506a3a" stroke-width="1.5"/>
+  <line x1="2" y1="14" x2="5" y2="14" stroke="#506a3a" stroke-width="1.5"/>
+  <line x1="23" y1="14" x2="26" y2="14" stroke="#506a3a" stroke-width="1.5"/>
+  <circle cx="14" cy="14" r="5" fill="#506a3a"/>
+  <circle cx="14" cy="14" r="3" fill="#eef0ea"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#364e22" letter-spacing="0.5">PAISIOS</text>
+</svg>

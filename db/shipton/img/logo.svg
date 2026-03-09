@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 28" height="20">
+  <!-- Cave opening icon -->
+  <path d="M14 2 C6 2 2 10 2 18 C2 22 4 26 8 26 L20 26 C24 26 26 22 26 18 C26 10 22 2 14 2 Z" fill="#6a6040"/>
+  <path d="M14 8 C10 8 7 13 7 18 C7 21 8 24 10 24 L18 24 C20 24 21 21 21 18 C21 13 18 8 14 8 Z" fill="#f0eee8"/>
+  <circle cx="14" cy="17" r="1.5" fill="#4e4628"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#4e4628" letter-spacing="0.5">SHIPTON</text>
+</svg>

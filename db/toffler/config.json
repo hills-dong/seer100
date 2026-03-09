@@ -1,0 +1,69 @@
+{
+  "siteId": "toffler",
+  "answererName": "Alvin Toffler",
+  "publishDate": "1970-1990",
+  "baseUrl": "https://pre.hilife.me/toffler",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "阿尔文·托夫勒预言全集 - 未来学家对信息时代的15条预言与验证 | Alvin Toffler Prophecies",
+      "description": "美国未来学家阿尔文·托夫勒（1928-2016）在《未来的冲击》《第三次浪潮》《权力的转移》三部曲中留下的15条预言完整收录，涵盖信息过载、远程办公、知识经济、大规模定制等领域。",
+      "keywords": "阿尔文·托夫勒,托夫勒预言,未来的冲击,第三次浪潮,权力的转移,信息过载,远程办公,知识经济,产消者,未来学家",
+      "siteName": "托夫勒预言",
+      "ogTitle": "阿尔文·托夫勒预言全集 | Alvin Toffler Prophecies",
+      "ogDescription": "美国未来学家阿尔文·托夫勒在三部未来学经典中对信息时代的15条预言与验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "15条未来学家阿尔文·托夫勒的预言，含真实度验证。已应验：信息过载、远程办公、知识经济、核心家庭衰落等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Alvin Toffler Prophecies - 15 Predictions from the Futurist (1928-2016) | Full Archive & Verification",
+      "description": "American futurist Alvin Toffler (1928-2016) left 15 prophecies in Future Shock, The Third Wave, and Powershift, covering information overload, telecommuting, knowledge economy, prosumerism, and more.",
+      "keywords": "Alvin Toffler,Toffler predictions,Future Shock,Third Wave,Powershift,information overload,telecommuting,knowledge economy,prosumer,futurist",
+      "siteName": "Alvin Toffler Prophecies",
+      "ogTitle": "Alvin Toffler Prophecies - The Futurist's Complete Predictions",
+      "ogDescription": "15 prophecies from American futurist Alvin Toffler (1928-2016). Full archive with real-world verification covering technology, economy, society, and media.",
+      "locale": "en_US",
+      "twitterDescription": "15 predictions from futurist Alvin Toffler. Verified: information overload, telecommuting, knowledge economy, nuclear family decline, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "托夫勒预言",
+      "alternateName": "Alvin Toffler Prophecies",
+      "url": "https://pre.hilife.me/toffler/",
+      "description": "美国未来学家阿尔文·托夫勒的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f2f0",
+    "white": "#fff",
+    "text": "#282a28",
+    "text2": "#747470",
+    "textLight": "#60625e",
+    "primary": "#6a7a2e",
+    "primaryDark": "#4e5c18",
+    "primaryBg": "#f0f4e4",
+    "link": "#6a7a2e",
+    "border": "#dcdeda",
+    "border2": "#c0c2bc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eaece6"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Alvin Toffler Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "siteId": "cayce",
+  "answererName": "Edgar Cayce",
+  "publishDate": "1920-1944",
+  "baseUrl": "https://pre.hilife.me/cayce",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "埃德加·凯西预言全集 - 睡眠先知的18条预言与验证 | Edgar Cayce Prophecies",
+      "description": "美国「睡眠先知」埃德加·凯西（1877-1945）的预言完整收录，涵盖亚特兰蒂斯、地极转移、地球变动、二战、中国崛起、俄罗斯的灵性角色等领域。基于超过14000份催眠解读。",
+      "keywords": "埃德加凯西,凯西预言,睡眠先知,Edgar Cayce,催眠解读,亚特兰蒂斯,地极转移,凯西预言验证,ARE,灵性预言",
+      "siteName": "埃德加·凯西预言",
+      "ogTitle": "埃德加·凯西预言全集 | Edgar Cayce Prophecies",
+      "ogDescription": "美国「睡眠先知」埃德加·凯西的预言完整收录与验证分析。涵盖亚特兰蒂斯、地球变动、二战、中国与俄罗斯等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "睡眠先知埃德加·凯西的预言全集，含真实度验证。涵盖亚特兰蒂斯、地极转移、二战预言等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Edgar Cayce Prophecies - 18 Predictions from the Sleeping Prophet (1877-1945) | Full Archive & Verification",
+      "description": "American 'Sleeping Prophet' Edgar Cayce (1877-1945) left thousands of psychic readings containing prophecies about Atlantis, pole shifts, earth changes, WWII, China, Russia, and more. Full archive with real-world verification.",
+      "keywords": "Edgar Cayce,Sleeping Prophet,Cayce readings,Cayce prophecies,Atlantis,pole shift,earth changes,ARE,psychic readings,Cayce predictions",
+      "siteName": "Edgar Cayce Prophecies",
+      "ogTitle": "Edgar Cayce Prophecies - The Sleeping Prophet's Complete Predictions",
+      "ogDescription": "Prophecies from American psychic Edgar Cayce (1877-1945). Full archive with verification covering Atlantis, earth changes, WWII, and geopolitical predictions.",
+      "locale": "en_US",
+      "twitterDescription": "18 predictions from Edgar Cayce, the Sleeping Prophet. Verified against history: WWII, stock crash, earth changes, Atlantis, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "埃德加·凯西预言",
+      "alternateName": "Edgar Cayce Prophecies",
+      "url": "https://pre.hilife.me/cayce/",
+      "description": "美国睡眠先知埃德加·凯西的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0f2",
+    "white": "#fff",
+    "text": "#1e2024",
+    "text2": "#606870",
+    "textLight": "#4c545c",
+    "primary": "#406080",
+    "primaryDark": "#284460",
+    "primaryBg": "#e6eef6",
+    "link": "#406080",
+    "border": "#c8d0dc",
+    "border2": "#a8b4c0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#dee6ee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Edgar Cayce Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Edgar_Cayce",
+    "sourceLabel": "Wikipedia"
+  }
+}

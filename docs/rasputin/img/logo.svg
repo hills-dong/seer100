@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142 28" height="20">
+  <!-- Hypnotic eye with Orthodox cross -->
+  <!-- Outer eye shape (almond) -->
+  <path d="M2 14 Q14 2 26 14 Q14 26 2 14 Z" fill="#5a4030"/>
+  <!-- Inner white -->
+  <path d="M5 14 Q14 5 23 14 Q14 23 5 14 Z" fill="#fff"/>
+  <!-- Iris -->
+  <circle cx="14" cy="14" r="5" fill="#3e2818"/>
+  <!-- Pupil -->
+  <circle cx="14" cy="14" r="2.2" fill="#f0eee8"/>
+  <!-- Cross in pupil -->
+  <line x1="14" y1="11.2" x2="14" y2="16.8" stroke="#3e2818" stroke-width="0.8"/>
+  <line x1="11.5" y1="14" x2="16.5" y2="14" stroke="#3e2818" stroke-width="0.8"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#3e2818" letter-spacing="0.5">RASPUTIN</text>
+</svg>

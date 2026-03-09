@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 28" height="20">
+  <!-- Balance scale icon -->
+  <!-- Central pillar -->
+  <line x1="14" y1="6" x2="14" y2="24" stroke="#3e4e6a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Base -->
+  <line x1="9" y1="24" x2="19" y2="24" stroke="#3e4e6a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Beam -->
+  <line x1="3" y1="8" x2="25" y2="8" stroke="#5a6b8c" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Fulcrum triangle -->
+  <polygon points="14,5 12,8 16,8" fill="#3e4e6a"/>
+  <!-- Left pan -->
+  <path d="M3,8 L1,16 A5,2 0 0,0 11,16 L9,8" fill="none" stroke="#5a6b8c" stroke-width="1.2" stroke-linejoin="round"/>
+  <ellipse cx="6" cy="16" rx="5" ry="1.5" fill="#5a6b8c"/>
+  <!-- Right pan -->
+  <path d="M19,8 L17,16 A5,2 0 0,0 27,16 L25,8" fill="none" stroke="#5a6b8c" stroke-width="1.2" stroke-linejoin="round"/>
+  <ellipse cx="22" cy="16" rx="5" ry="1.5" fill="#5a6b8c"/>
+  <!-- Text: 称骨算命 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#3e4e6a" letter-spacing="2">称骨算命</text>
+</svg>

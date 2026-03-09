@@ -1,0 +1,69 @@
+{
+  "siteId": "islamic",
+  "answererName": "Prophet Muhammad & Hadith",
+  "publishDate": "约700年",
+  "baseUrl": "https://pre.hilife.me/islamic",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "伊斯兰末世预言全集 - 古兰经与圣训中的末日征兆与验证 | Islamic Eschatology",
+      "description": "伊斯兰教经典中记载的末世预言完整收录，包括末日小征兆（道德沦丧、社会乱象）与大征兆（达贾勒、马赫迪、尔萨降临、歌革与玛各、太阳西升、地兽、号角吹响），来源于古兰经与可靠圣训集。",
+      "keywords": "伊斯兰末世预言,末日征兆,达贾勒,马赫迪,尔萨降临,古兰经预言,圣训预言,歌革玛各,审判日,Islamic eschatology",
+      "siteName": "伊斯兰末世预言",
+      "ogTitle": "伊斯兰末世预言全集 | Islamic Eschatology",
+      "ogDescription": "古兰经与圣训中记载的末世预言完整收录，涵盖末日小征兆与大征兆，附现实验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "伊斯兰末世预言全集：达贾勒、马赫迪、尔萨降临、太阳西升等末日征兆，源自古兰经与可靠圣训。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Islamic Eschatology - Signs of the Hour from Quran & Hadith | Full Archive & Verification",
+      "description": "Complete collection of Islamic eschatological prophecies from the Quran and authentic Hadith collections, covering minor signs (moral decline, social upheaval) and major signs (Dajjal, Mahdi, return of Isa, Gog and Magog, sun rising from the west, Beast of the Earth, trumpet blasts).",
+      "keywords": "Islamic eschatology,signs of the hour,Dajjal,Mahdi,return of Jesus,Gog Magog,Day of Judgment,Quran prophecy,Hadith predictions,end times Islam",
+      "siteName": "Islamic Eschatology",
+      "ogTitle": "Islamic Eschatology - Signs of the Hour from Quran & Hadith",
+      "ogDescription": "Complete collection of Islamic eschatological prophecies covering minor and major signs of the Hour, with real-world verification analysis.",
+      "locale": "en_US",
+      "twitterDescription": "Islamic end-times prophecies: Dajjal, Mahdi, return of Isa, sun from the west, and more — sourced from Quran and authentic Hadith."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "伊斯兰末世预言",
+      "alternateName": "Islamic Eschatology",
+      "url": "https://pre.hilife.me/islamic/",
+      "description": "古兰经与圣训中记载的末世预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef2ee",
+    "white": "#fff",
+    "text": "#1a241a",
+    "text2": "#587858",
+    "textLight": "#446244",
+    "primary": "#2e7a4a",
+    "primaryDark": "#185c30",
+    "primaryBg": "#e4f4ea",
+    "link": "#2e7a4a",
+    "border": "#c4d8ca",
+    "border2": "#a0bca8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#dcecde"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Islamic Eschatology"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Islamic_eschatology",
+    "sourceLabel": "Wikipedia"
+  }
+}

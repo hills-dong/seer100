@@ -1,0 +1,69 @@
+{
+  "siteId": "hildegard",
+  "answererName": "Hildegard of Bingen",
+  "publishDate": "1141-1179",
+  "baseUrl": "https://pre.hilife.me/hildegard",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "希尔德加德预言全集 - 宾根的希尔德加德神视与末世预言 | Hildegard of Bingen Prophecies",
+      "description": "中世纪德国本笃会女修院院长希尔德加德（1098-1179）的预言完整收录，出自《认识主道》(Scivias)、《神圣工程之书》等著作。涵盖教会腐败、末世审判、敌基督、宇宙秩序等主题。2012年被教宗本笃十六世封为教会圣师。",
+      "keywords": "希尔德加德,宾根的希尔德加德,Hildegard of Bingen,Scivias,中世纪预言,教会预言,末世预言,敌基督,教会圣师,神视",
+      "siteName": "希尔德加德预言",
+      "ogTitle": "希尔德加德预言全集 | Hildegard of Bingen Prophecies",
+      "ogDescription": "中世纪德国神秘主义者希尔德加德的预言完整收录与解读。涵盖教会腐败、末世审判、宇宙秩序等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "宾根的希尔德加德预言全集：中世纪最著名的女性神秘主义者，教会圣师，其神视涵盖教会改革、末世与宇宙秩序。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Hildegard of Bingen Prophecies - Visions from Scivias & Liber Divinorum Operum | Full Archive",
+      "description": "Complete collection of prophecies by Hildegard of Bingen (1098-1179), German Benedictine abbess and Doctor of the Church. Visions from Scivias and other works covering Church corruption, end-times, the Antichrist, and cosmic order.",
+      "keywords": "Hildegard of Bingen,Scivias,medieval prophecy,Church prophecy,end times,Antichrist,Doctor of the Church,mystic visions,Liber Divinorum Operum",
+      "siteName": "Hildegard of Bingen Prophecies",
+      "ogTitle": "Hildegard of Bingen Prophecies - Complete Visionary Archive",
+      "ogDescription": "Complete prophecies of Hildegard of Bingen (1098-1179), Benedictine abbess and Doctor of the Church. Visions on Church corruption, end-times, and cosmic order.",
+      "locale": "en_US",
+      "twitterDescription": "Prophecies of Hildegard of Bingen — medieval mystic, composer, Doctor of the Church. Visions on Church reform, the Antichrist, and the end of days."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "希尔德加德预言",
+      "alternateName": "Hildegard of Bingen Prophecies",
+      "url": "https://pre.hilife.me/hildegard/",
+      "description": "中世纪德国神秘主义者希尔德加德的预言完整收录与解读",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2eef2",
+    "white": "#fff",
+    "text": "#282028",
+    "text2": "#706070",
+    "textLight": "#5c4e5c",
+    "primary": "#7a5a7a",
+    "primaryDark": "#5c3e5c",
+    "primaryBg": "#f4eef4",
+    "link": "#7a5a7a",
+    "border": "#d8d0d8",
+    "border2": "#bcb0bc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#ece4ec"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Hildegard of Bingen Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hildegard_of_Bingen",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 28" height="20">
+  <!-- Ollin (Movement/Earthquake) symbol - simplified from Aztec Sun Stone center -->
+  <!-- Outer circle -->
+  <circle cx="14" cy="14" r="12" fill="#a05a20"/>
+  <!-- Inner cross representing the four previous suns / four directions -->
+  <rect x="11" y="3" width="6" height="22" fill="#f4eee6"/>
+  <rect x="3" y="11" width="22" height="6" fill="#f4eee6"/>
+  <!-- Center circle - the Fifth Sun -->
+  <circle cx="14" cy="14" r="4.5" fill="#7a4010"/>
+  <!-- Four corner dots representing the four destroyed suns -->
+  <circle cx="6" cy="6" r="2" fill="#7a4010"/>
+  <circle cx="22" cy="6" r="2" fill="#7a4010"/>
+  <circle cx="6" cy="22" r="2" fill="#7a4010"/>
+  <circle cx="22" cy="22" r="2" fill="#7a4010"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#7a4010" letter-spacing="0.5">AZTEC</text>
+</svg>

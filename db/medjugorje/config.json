@@ -1,0 +1,69 @@
+{
+  "siteId": "medjugorje",
+  "answererName": "Our Lady of Medjugorje",
+  "publishDate": "1981至今",
+  "baseUrl": "https://pre.hilife.me/medjugorje",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "默主哥耶预言全集 - 圣母玛利亚给六位神视者的十大秘密与讯息 | Medjugorje Prophecies",
+      "description": "波斯尼亚默主哥耶圣母显现（1981年至今），六位神视者声称接受圣母玛利亚的讯息与十大秘密。涵盖和平、祈祷、斋戒、皈依等核心主题。2024年梵蒂冈批准相关灵修活动。",
+      "keywords": "默主哥耶,圣母显现,十大秘密,Medjugorje,预言,和平女王,圣母玛利亚,神视者,梵蒂冈批准",
+      "siteName": "默主哥耶预言",
+      "ogTitle": "默主哥耶预言全集 | Medjugorje Prophecies",
+      "ogDescription": "波斯尼亚默主哥耶圣母显现的十大秘密与核心讯息完整收录，六位神视者的预言与验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "默主哥耶圣母显现：六位神视者接受的十大秘密与和平讯息，含验证分析。2024年梵蒂冈批准灵修活动。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Medjugorje Prophecies - The 10 Secrets & Messages from Our Lady (1981-present) | Full Archive",
+      "description": "The Marian apparitions at Medjugorje, Bosnia (since 1981). Six visionaries report messages and 10 secrets from the Virgin Mary. Core themes: peace, prayer, fasting, conversion, faith. Vatican nihil obstat granted in 2024.",
+      "keywords": "Medjugorje,Medjugorje secrets,Our Lady of Medjugorje,Queen of Peace,Marian apparitions,visionaries,prophecy,Vatican approval,Bosnia",
+      "siteName": "Medjugorje Prophecies",
+      "ogTitle": "Medjugorje Prophecies - The 10 Secrets & Messages from Our Lady",
+      "ogDescription": "Complete archive of the Medjugorje apparitions: 10 secrets, monthly messages, and core teachings from the Queen of Peace, with verification analysis.",
+      "locale": "en_US",
+      "twitterDescription": "Medjugorje: 10 secrets and messages from Our Lady to six visionaries since 1981. Vatican approved devotion in 2024."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "默主哥耶预言",
+      "alternateName": "Medjugorje Prophecies",
+      "url": "https://pre.hilife.me/medjugorje/",
+      "description": "波斯尼亚默主哥耶圣母显现的十大秘密与核心讯息完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef2f4",
+    "white": "#fff",
+    "text": "#1e2428",
+    "text2": "#606c78",
+    "textLight": "#4c5864",
+    "primary": "#2e6a7a",
+    "primaryDark": "#184e5c",
+    "primaryBg": "#e4f0f4",
+    "link": "#2e6a7a",
+    "border": "#c8d4dc",
+    "border2": "#a8b8c4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#deeaee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Medjugorje Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Our_Lady_of_Medjugorje",
+    "sourceLabel": "Wikipedia"
+  }
+}

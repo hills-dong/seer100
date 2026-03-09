@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28" height="20">
+  <!-- Inti sun face icon -->
+  <circle cx="14" cy="14" r="7" fill="#8c6a20"/>
+  <!-- Sun rays (8 triangular rays) -->
+  <polygon points="14,0 12,5 16,5" fill="#6a4e10"/>
+  <polygon points="14,28 12,23 16,23" fill="#6a4e10"/>
+  <polygon points="0,14 5,12 5,16" fill="#6a4e10"/>
+  <polygon points="28,14 23,12 23,16" fill="#6a4e10"/>
+  <polygon points="4.1,4.1 7.6,8 9.4,6.2" fill="#6a4e10"/>
+  <polygon points="23.9,23.9 20.4,20 18.6,21.8" fill="#6a4e10"/>
+  <polygon points="23.9,4.1 20.4,8 18.6,6.2" fill="#6a4e10"/>
+  <polygon points="4.1,23.9 7.6,20 9.4,21.8" fill="#6a4e10"/>
+  <!-- Face features -->
+  <circle cx="11" cy="12.5" r="1.2" fill="#f2eee4"/>
+  <circle cx="17" cy="12.5" r="1.2" fill="#f2eee4"/>
+  <path d="M11,17 Q14,19.5 17,17" stroke="#f2eee4" stroke-width="1" fill="none"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#6a4e10" letter-spacing="0.5">INCA</text>
+</svg>

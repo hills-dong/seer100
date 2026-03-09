@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" height="20">
+  <!-- Snow peak / mountain icon -->
+  <polygon points="14,2 25,24 3,24" fill="#3a6080"/>
+  <polygon points="14,2 18,10 10,10" fill="#e6eef6"/>
+  <polygon points="8,14 3,24 14,24" fill="#224460"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#224460" letter-spacing="0.5">SHAMBHALA</text>
+</svg>

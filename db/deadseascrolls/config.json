@@ -1,0 +1,69 @@
+{
+  "siteId": "deadseascrolls",
+  "answererName": "Qumran Community",
+  "publishDate": "约公元前200年至公元68年",
+  "baseUrl": "https://pre.hilife.me/deadseascrolls",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "死海古卷预言全集 - 库姆兰社区末世预言与解读 | Dead Sea Scrolls Prophecies",
+      "description": "死海古卷（约公元前200年-公元68年）中的预言性与末世论文本完整收录，包括战争卷轴、哈巴谷注释、圣殿卷轴、弥赛亚文本等。1947年在库姆兰洞穴发现，是20世纪最重大的考古发现之一。",
+      "keywords": "死海古卷,死海古卷预言,库姆兰,战争卷轴,哈巴谷注释,圣殿卷轴,弥赛亚,末世论,犹太教,考古发现",
+      "siteName": "死海古卷预言",
+      "ogTitle": "死海古卷预言全集 | Dead Sea Scrolls Prophecies",
+      "ogDescription": "死海古卷中的预言性与末世论文本完整收录与学术解读。涵盖战争卷轴、哈巴谷注释、弥赛亚文本等。",
+      "locale": "zh_CN",
+      "twitterDescription": "死海古卷中的末世预言文本完整收录，包含战争卷轴、哈巴谷注释、弥赛亚文本等，1947年库姆兰洞穴出土。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Dead Sea Scrolls Prophecies - Eschatological Texts from Qumran (~200 BC - 68 AD) | Full Archive",
+      "description": "Prophetic and apocalyptic texts from the Dead Sea Scrolls (~200 BC - 68 AD), discovered in 1947 in the Qumran caves. Includes the War Scroll, Pesher Habakkuk, Temple Scroll, Messianic texts, and Community Rule prophecies.",
+      "keywords": "Dead Sea Scrolls,Qumran,War Scroll,Pesher Habakkuk,Temple Scroll,Messiah,eschatology,apocalyptic,Judaism,archaeology",
+      "siteName": "Dead Sea Scrolls Prophecies",
+      "ogTitle": "Dead Sea Scrolls Prophecies - Eschatological Texts from Qumran",
+      "ogDescription": "Prophetic and apocalyptic texts from the Dead Sea Scrolls, discovered in 1947. Includes War Scroll, Pesharim, Temple Scroll, and Messianic prophecies.",
+      "locale": "en_US",
+      "twitterDescription": "Prophetic texts from the Dead Sea Scrolls: War Scroll, Pesher Habakkuk, Messianic prophecies. Discovered 1947 in Qumran caves."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "死海古卷预言",
+      "alternateName": "Dead Sea Scrolls Prophecies",
+      "url": "https://pre.hilife.me/deadseascrolls/",
+      "description": "死海古卷中的预言性与末世论文本完整收录与学术解读",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0ea",
+    "white": "#fff",
+    "text": "#28261e",
+    "text2": "#7a7860",
+    "textLight": "#646248",
+    "primary": "#7a7a5a",
+    "primaryDark": "#5a5a3a",
+    "primaryBg": "#f4f4ea",
+    "link": "#6a6a4a",
+    "border": "#d8d6c4",
+    "border2": "#bab8a4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eceadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Dead Sea Scrolls Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
+    "sourceLabel": "Wikipedia"
+  }
+}

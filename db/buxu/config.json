@@ -1,0 +1,99 @@
+{
+  "siteId": "buxu",
+  "answererName": "步虚大师",
+  "publishDate": "约1900年",
+  "baseUrl": "https://pre.hilife.me/buxu",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "步虚大师预言诗全集 - 清末民初十二节预言详解与验证 | Master Buxu Prophecy",
+      "description": "步虚大师预言诗据称为光绪三十年（1904年）于北京碧云寺扶乩降示，托名隋代高僧步虚大师，共十二节七言诗，预言清末至未来百年中国国运。本站完整收录原文并进行验证分析。",
+      "keywords": "步虚大师预言,步虚大师预言诗,步虚大师,清末预言,中国预言,Master Buxu",
+      "siteName": "步虚大师预言",
+      "ogTitle": "步虚大师预言诗全集 - 十二节预言详解 | Master Buxu",
+      "ogDescription": "步虚大师预言诗十二节完整收录与验证分析。涵盖清朝覆灭、民国建立、抗日战争、新中国成立等百年历史。",
+      "locale": "zh_CN",
+      "twitterDescription": "步虚大师预言诗验证：清朝灭亡、辛亥革命、袁世凯称帝、抗日战争、解放战争等。十二节预言逐一解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Master Buxu Prophecy Poems - Complete 12 Sections with Verification | Chinese Prophecy Archive",
+      "description": "The Master Buxu Prophecy Poems are a set of twelve seven-character verses allegedly channeled in 1904 at Beijing's Biyun Temple, attributed to the Sui dynasty monk Buxu. They predict China's fate from the late Qing dynasty through the next century. Full archive with verification.",
+      "keywords": "Master Buxu,Buxu prophecy,Chinese prophecy,Qing dynasty prophecy,spirit writing prophecy",
+      "siteName": "Master Buxu Prophecies",
+      "ogTitle": "Master Buxu Prophecy Poems - Complete 12-Section Chinese Prophecy",
+      "ogDescription": "Twelve prophetic verses attributed to Master Buxu, covering the fall of the Qing dynasty, founding of the Republic, Japanese invasion, and modern China. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Master Buxu prophecies verified: fall of Qing, founding of Republic of China, warlord era, WWII, and beyond. 12 sections analyzed."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "步虚大师预言",
+      "alternateName": "Master Buxu Prophecies",
+      "url": "https://pre.hilife.me/buxu/",
+      "description": "步虚大师预言诗十二节完整收录与验证分析",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "步虚大师预言是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "步虚大师预言诗据称于光绪三十年（1904年）在北京西山碧云寺通过扶乩降示，托名隋代高僧步虚大师。全诗由序诗和十二节七言诗组成，预言清末至未来百年的中国历史大事。实际作者可能为清末居士高静涵（号清虚道人）。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "步虚大师预言的准确性如何？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "前十节被认为与20世纪中国历史高度吻合，涵盖清朝覆灭、民国建立、军阀混战、抗日战争、新中国成立等重大事件。但学界对其成书年代和真伪存在争议，部分学者认为某些节段可能经过后人增补修改。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Master Buxu Prophecy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Master Buxu Prophecy Poems were allegedly channeled through spirit writing (fuji) in 1904 at the Biyun Temple in Beijing's Western Hills, attributed to the Sui dynasty Buddhist monk Buxu. The work consists of an opening verse and twelve sections of seven-character poetry predicting major events in Chinese history from the late Qing dynasty onward. The actual author is believed to be Gao Jinghan, a late-Qing lay Buddhist."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f2eef0",
+    "white": "#fff",
+    "text": "#2a2028",
+    "text2": "#786070",
+    "textLight": "#644e5c",
+    "primary": "#6b3a5a",
+    "primaryDark": "#4e2440",
+    "primaryBg": "#f6eff4",
+    "link": "#6b3a5a",
+    "border": "#dcd0d8",
+    "border2": "#c0b0bc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eee6ec"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "步虚诗 Master Buxu"
+  },
+  "footer": {
+    "sourceUrl": "https://baike.baidu.com/item/%E6%AD%A5%E8%99%9A%E5%A4%A7%E5%B8%88%E9%A2%84%E8%A8%80/1342999",
+    "sourceLabel": "百度百科"
+  }
+}

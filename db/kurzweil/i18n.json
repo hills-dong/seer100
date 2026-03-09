@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "雷·库兹韦尔预言",
+    "siteSubtitle": "美国未来学家与发明家（1948-）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "雷·库兹韦尔是谁？",
+    "homeIntro1": "雷·库兹韦尔（Ray Kurzweil，1948年2月12日—），美国发明家、作家、计算机科学家和未来学家。他是光学字符识别（OCR）、文字转语音合成、语音识别等领域的先驱，曾获美国国家技术与创新奖章。2012年起担任谷歌工程总监。",
+    "homeIntro2": "库兹韦尔以其「加速回报定律」闻名——他认为技术进步呈指数级增长，而非线性增长。基于这一理论，他在一系列著作中做出了大量具体的科技预测：《智能机器时代》（1990）、《心灵机器时代》（1999）、《奇点临近》（2005）和《奇点更近了》（2024）。",
+    "homeIntro3": "他的许多预测已被现实印证，包括便携式计算机的普及、电脑在国际象棋中击败人类冠军、语音识别技术的成熟、智能手机的全球普及等。本站整理了他最具代表性的17条预言，并对已到期的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「到2029年，计算机将达到人类水平的智能。到2045年，我们将把人类的有效智能乘以十亿倍——那就是奇点。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1990年 —— 出版《智能机器时代》，预言电脑将在1998年击败国际象棋冠军",
+      "1999年 —— 出版《心灵机器时代》，提出2009年和2019年的技术预测",
+      "2005年 —— 出版《奇点临近》，系统阐述技术奇点理论与2045年时间表",
+      "2012年 —— 加入谷歌，担任工程总监，专注自然语言理解",
+      "2024年 —— 出版《奇点更近了》，更新并细化此前的预言"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容来源于库兹韦尔的出版著作：《智能机器时代》（1990）、《心灵机器时代》（1999）、《奇点临近》（2005）、《奇点更近了》（2024）（<a href=\"https://en.wikipedia.org/wiki/Predictions_made_by_Ray_Kurzweil\" target=\"_blank\" rel=\"noopener\">Wikipedia: Predictions made by Ray Kurzweil</a>）",
+      "验证评价基于公开新闻报道、行业数据和技术发展记录（<a href=\"https://www.kurzweilai.net/\" target=\"_blank\" rel=\"noopener\">KurzweilAI.net</a>）",
+      "编者观点不代表学术定论",
+      "站点图标采用指数曲线符号——代表库兹韦尔最核心的「加速回报定律」，技术进步呈指数级增长直至奇点"
+    ]
+  },
+  "en": {
+    "siteTitle": "Ray Kurzweil Predictions",
+    "siteSubtitle": "American Futurist & Inventor (1948-present)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Ray Kurzweil?",
+    "homeIntro1": "Ray Kurzweil (born February 12, 1948) is an American inventor, author, computer scientist, and futurist. He is a pioneer in optical character recognition (OCR), text-to-speech synthesis, and speech recognition, and received the National Medal of Technology and Innovation. Since 2012, he has served as Director of Engineering at Google.",
+    "homeIntro2": "Kurzweil is best known for his 'Law of Accelerating Returns' — the idea that technological progress grows exponentially, not linearly. Based on this theory, he has made numerous specific technology predictions in a series of books: The Age of Intelligent Machines (1990), The Age of Spiritual Machines (1999), The Singularity Is Near (2005), and The Singularity Is Nearer (2024).",
+    "homeIntro3": "Many of his predictions have been confirmed by reality, including the ubiquity of portable computers, computers defeating human chess champions, mature speech recognition technology, and global smartphone adoption. This site compiles 17 of his most representative predictions and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"By 2029, computers will have human-level intelligence. By 2045, we will have multiplied our effective intelligence a billionfold — that is the Singularity.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1990 —— Published The Age of Intelligent Machines, predicting computers would defeat chess champions by 1998",
+      "1999 —— Published The Age of Spiritual Machines, with predictions for 2009 and 2019",
+      "2005 —— Published The Singularity Is Near, systematically presenting the technological singularity theory and 2045 timeline",
+      "2012 —— Joined Google as Director of Engineering, focusing on natural language understanding",
+      "2024 —— Published The Singularity Is Nearer, updating and refining earlier predictions"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions sourced from Kurzweil's published works: The Age of Intelligent Machines (1990), The Age of Spiritual Machines (1999), The Singularity Is Near (2005), The Singularity Is Nearer (2024) (<a href=\"https://en.wikipedia.org/wiki/Predictions_made_by_Ray_Kurzweil\" target=\"_blank\" rel=\"noopener\">Wikipedia: Predictions made by Ray Kurzweil</a>)",
+      "Verification based on public news, industry data, and technology development records (<a href=\"https://www.kurzweilai.net/\" target=\"_blank\" rel=\"noopener\">KurzweilAI.net</a>)",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: exponential curve symbol — representing Kurzweil's core 'Law of Accelerating Returns', where technological progress accelerates exponentially toward the Singularity"
+    ]
+  }
+}

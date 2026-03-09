@@ -1,0 +1,99 @@
+{
+  "siteId": "shaobingge",
+  "answererName": "刘伯温",
+  "publishDate": "约1368年",
+  "baseUrl": "https://pre.hilife.me/shaobingge",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "烧饼歌全集 - 明代刘伯温预言详解与验证 | Shaobing Song Prophecies",
+      "description": "烧饼歌是明朝开国功臣刘伯温（刘基）与明太祖朱元璋的对话体预言，以诗歌形式预言明朝之后数百年的中国历史。本站完整收录原文并进行验证分析。",
+      "keywords": "烧饼歌,刘伯温,刘基,朱元璋,烧饼歌预言,明朝预言,Shaobing Song",
+      "siteName": "烧饼歌预言",
+      "ogTitle": "烧饼歌全集 - 明代刘伯温预言详解 | Shaobing Song",
+      "ogDescription": "明代刘伯温与朱元璋的对话体预言《烧饼歌》完整收录与验证分析。涵盖朝代更替、战争兴衰、历史转折等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "烧饼歌预言验证：靖难之役、土木堡之变、李自成起义、清朝入关等。刘伯温预言逐一解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Shaobing Song - Liu Bowen's Prophecies from Ming Dynasty China | Full Archive & Verification",
+      "description": "Shaobing Song (烧饼歌, Sesame Flatbread Song) is a Ming dynasty Chinese prophecy text in dialogue form between Liu Bowen and Emperor Zhu Yuanzhang, predicting China's future from the 14th century onward. Full archive with accuracy verification.",
+      "keywords": "Shaobing Song,Liu Bowen,Liu Ji,Zhu Yuanzhang,Chinese prophecy,Ming dynasty prophecy",
+      "siteName": "Shaobing Song Prophecies",
+      "ogTitle": "Shaobing Song - Liu Bowen's Prophetic Dialogue from Ming Dynasty China",
+      "ogDescription": "Liu Bowen's dialogue-form prophecy with Emperor Zhu Yuanzhang. Full archive with real-world verification covering dynastic changes, wars, and historical turning points.",
+      "locale": "en_US",
+      "twitterDescription": "Shaobing Song prophecies verified: Jingnan Campaign, Tumu Crisis, Li Zicheng's rebellion, Manchu conquest, and more. Liu Bowen's predictions analyzed."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "烧饼歌预言",
+      "alternateName": "Shaobing Song Prophecies",
+      "url": "https://pre.hilife.me/shaobingge/",
+      "description": "明代刘伯温与朱元璋对话体预言《烧饼歌》完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "烧饼歌是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "烧饼歌相传为明朝开国功臣刘伯温（刘基，1311-1375）所作的预言诗歌。据传明太祖朱元璋某日正在吃烧饼时，召见刘伯温，以烧饼为引子展开对话，刘伯温遂以诗歌形式预言了明朝之后数百年的中国历史大事。全文采用君臣问答体裁，语言隐晦深奥。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "烧饼歌的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "烧饼歌中关于明朝中后期及清朝的预言被认为与历史事件有较高吻合度，如靖难之役、土木堡之变、李自成起义、清兵入关等。但学术界对其成书年代和真伪存在争议，部分学者认为现存版本可能经过后人增补修改。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Shaobing Song?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Shaobing Song (烧饼歌, 'Sesame Flatbread Song') is a Chinese prophetic text traditionally attributed to Liu Bowen (Liu Ji, 1311-1375), a founding minister of the Ming dynasty. According to legend, Emperor Zhu Yuanzhang was eating a sesame flatbread (shaobing) when he summoned Liu Bowen for an audience, leading to a dialogue in which Liu prophesied major events in Chinese history for centuries to come. The text takes the form of a question-and-answer exchange between emperor and minister."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f5f0ea",
+    "white": "#fff",
+    "text": "#302820",
+    "text2": "#7a6e60",
+    "textLight": "#665a4c",
+    "primary": "#9c4a2e",
+    "primaryDark": "#7a3520",
+    "primaryBg": "#faf0ea",
+    "link": "#9c4a2e",
+    "border": "#ddd6cc",
+    "border2": "#c2baae",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0eae0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "烧饼歌 Shaobing Song"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/烧饼歌",
+    "sourceLabel": "维基百科"
+  }
+}

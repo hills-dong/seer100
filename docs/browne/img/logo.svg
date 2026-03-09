@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 28" height="20">
+  <!-- Third Eye icon -->
+  <!-- Outer eye shape (almond) -->
+  <path d="M2 14 Q14 2, 26 14 Q14 26, 2 14 Z" fill="#8c5070"/>
+  <!-- Inner white circle -->
+  <circle cx="14" cy="14" r="5.5" fill="#fff"/>
+  <!-- Pupil / iris -->
+  <circle cx="14" cy="14" r="2.8" fill="#6a3450"/>
+  <!-- Eyelash lines (third eye mystical rays) -->
+  <path d="M14 2 L14 0" stroke="#8c5070" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M8 3.5 L6.5 1.5" stroke="#8c5070" stroke-width="1" stroke-linecap="round"/>
+  <path d="M20 3.5 L21.5 1.5" stroke="#8c5070" stroke-width="1" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#6a3450" letter-spacing="0.5">S. BROWNE</text>
+</svg>

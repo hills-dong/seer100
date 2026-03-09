@@ -1,0 +1,69 @@
+{
+  "siteId": "deunov",
+  "answererName": "Peter Deunov",
+  "publishDate": "1900-1944",
+  "baseUrl": "https://pre.hilife.me/deunov",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "彼得·杜诺夫预言全集 - 保加利亚灵性导师关于第六种族与新纪元的预言 | Peter Deunov Prophecies",
+      "description": "保加利亚灵性导师彼得·杜诺夫（贝因萨·杜诺，1864-1944）的预言完整收录，包括1944年临终预言、第六种族、地球转变、爱的文明等核心主题，附真实度验证。",
+      "keywords": "彼得杜诺夫,贝因萨杜诺,Peter Deunov,Beinsa Douno,第六种族,白色兄弟会,临终预言,保加利亚预言家,新纪元预言,灵性导师",
+      "siteName": "杜诺夫预言",
+      "ogTitle": "彼得·杜诺夫预言全集 | Peter Deunov Prophecies",
+      "ogDescription": "保加利亚灵性导师彼得·杜诺夫（1864-1944）关于第六种族、新纪元与人类转变的预言完整收录与验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "保加利亚灵性导师杜诺夫的预言收录——第六种族、爱的文明、地球轴移、二战预测等，含真实度验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Peter Deunov Prophecies - Bulgarian Spiritual Master's Predictions on the Sixth Race & New Era | Full Archive",
+      "description": "Complete archive of prophecies by Peter Deunov (Beinsa Douno, 1864-1944), Bulgarian spiritual teacher and founder of the Universal White Brotherhood. Includes his famous 1944 deathbed prophecy, predictions about the Sixth Race, Earth's transformation, and civilization of love.",
+      "keywords": "Peter Deunov,Beinsa Douno,Sixth Race,Universal White Brotherhood,deathbed prophecy,Bulgarian prophet,new era prophecy,spiritual master,Earth transformation",
+      "siteName": "Peter Deunov Prophecies",
+      "ogTitle": "Peter Deunov Prophecies - The Sixth Race & New Era",
+      "ogDescription": "Complete archive of prophecies by Peter Deunov (Beinsa Douno, 1864-1944), including his famous deathbed prophecy about the Sixth Race and humanity's transformation.",
+      "locale": "en_US",
+      "twitterDescription": "Prophecies of Peter Deunov (Beinsa Douno): the Sixth Race, civilization of love, Earth axis shift, WWII predictions. With verification analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "杜诺夫预言",
+      "alternateName": "Peter Deunov Prophecies",
+      "url": "https://pre.hilife.me/deunov/",
+      "description": "保加利亚灵性导师彼得·杜诺夫的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f2f0",
+    "white": "#fff",
+    "text": "#1e241e",
+    "text2": "#607860",
+    "textLight": "#4c6248",
+    "primary": "#4a7a50",
+    "primaryDark": "#305c36",
+    "primaryBg": "#e8f4ea",
+    "link": "#4a7a50",
+    "border": "#c8d8ca",
+    "border2": "#a8bca8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e0ece2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Peter Deunov Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Peter_Deunov",
+    "sourceLabel": "Wikipedia"
+  }
+}

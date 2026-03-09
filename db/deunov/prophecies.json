@@ -1,0 +1,175 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "war",
+      "q": "杜诺夫对一战的预言",
+      "a": "「一场可怕的战争即将到来，它将摧毁欧洲，改变世界的版图。」",
+      "q_en": "Deunov's prediction of World War I",
+      "a_en": "\"A terrible war is coming that will devastate Europe and redraw the map of the world.\"",
+      "year": 1914,
+      "date": "约1910年",
+      "status": "verified",
+      "verdict_zh": "1914年第一次世界大战爆发，欧洲遭受巨大破坏，奥匈帝国、奥斯曼帝国、俄罗斯帝国等相继解体，世界版图被彻底重塑。",
+      "verdict_en": "World War I broke out in 1914, devastating Europe. The Austro-Hungarian, Ottoman, and Russian empires collapsed, and the map of the world was fundamentally redrawn."
+    },
+    {
+      "id": 2,
+      "cat": "war",
+      "q": "杜诺夫对保加利亚参战的警告",
+      "a": "「保加利亚不应参战。如果加入战争，将遭受巨大的灾难和损失。」",
+      "q_en": "Deunov's warning to Bulgaria about entering the war",
+      "a_en": "\"Bulgaria should not enter the war. If it joins, it will suffer tremendous calamity and loss.\"",
+      "year": 1915,
+      "date": "1914",
+      "status": "verified",
+      "verdict_zh": "保加利亚于1915年加入同盟国参战，最终在1918年战败投降。根据《纳伊条约》，保加利亚丧失大片领土，经济遭受重创，数十万人伤亡。",
+      "verdict_en": "Bulgaria joined the Central Powers in 1915 and ultimately surrendered in 1918. Under the Treaty of Neuilly, Bulgaria lost significant territory, suffered severe economic damage, and hundreds of thousands of casualties."
+    },
+    {
+      "id": 3,
+      "cat": "war",
+      "q": "杜诺夫对第二次世界大战的预言",
+      "a": "「二十年后将有更大的战争来临，比第一次更为可怕，将覆盖全球。」",
+      "q_en": "Deunov's prediction of World War II",
+      "a_en": "\"In twenty years an even greater war will come, more terrible than the first, and it will engulf the entire world.\"",
+      "year": 1939,
+      "date": "约1920年",
+      "status": "verified",
+      "verdict_zh": "第二次世界大战于1939年爆发，规模远超一战，波及全球六大洲，造成超过7000万人死亡。距一战结束约20年，时间预测基本吻合。",
+      "verdict_en": "World War II broke out in 1939, far exceeding WWI in scale, affecting six continents and causing over 70 million deaths. It came approximately 20 years after WWI ended, largely matching the time prediction."
+    },
+    {
+      "id": 4,
+      "cat": "spirit",
+      "q": "1944年临终预言：地球净化",
+      "a": "「地球将很快经受住一场快速但强烈的火的洗礼。恐怖的事件将被清扫，地球将被净化。上帝是爱。而这股从宇宙深处涌来的火焰将改变一切。」",
+      "q_en": "1944 deathbed prophecy: Earth's purification",
+      "a_en": "\"The Earth will soon be swept by a rapid and intense wave of cosmic fire. Terrible events will be swept away, and the Earth will be purified. God is love. And this fire, surging from the depths of the cosmos, will transform everything.\"",
+      "year": "未确定",
+      "date": "1944-12"
+    },
+    {
+      "id": 5,
+      "cat": "spirit",
+      "q": "1944年临终预言：第六种族",
+      "a": "「第六种族将在爱的原则上建立自己的文明。那将是一个全新的种族——心灵之人。他们将居住在一个新的大陆上，那片大陆将为他们从太平洋中升起。」",
+      "q_en": "1944 deathbed prophecy: the Sixth Race",
+      "a_en": "\"The Sixth Race will build its civilization on the principle of love. It will be a new race — people of the heart. They will live on a new continent that will rise for them from the Pacific Ocean.\"",
+      "year": "未确定",
+      "date": "1944-12"
+    },
+    {
+      "id": 6,
+      "cat": "climate",
+      "q": "1944年临终预言：地球轴移与气候巨变",
+      "a": "「地球的轴线将发生偏移，现有的大陆地形将改变。许多地方的气候将发生变化。在你们周围即将融化的冰块中，新地球的种子正在沉睡。」",
+      "q_en": "1944 deathbed prophecy: Earth axis shift and climate transformation",
+      "a_en": "\"The axis of the Earth will shift, and the existing continental formations will change. The climate in many places will be altered. In the ice that is about to melt around you, the seeds of the new Earth are sleeping.\"",
+      "year": "未确定",
+      "date": "1944-12",
+      "status": "partial",
+      "verdict_zh": "虽然地球轴线未发生显著偏移，但全球气候变化已成为公认事实。北极和南极冰盖持续融化，海平面上升，极端天气频发。「冰块融化」的描述与当代气候变暖现象存在一定对应。",
+      "verdict_en": "While no significant Earth axis shift has occurred, global climate change is an established reality. Arctic and Antarctic ice caps continue melting, sea levels are rising, and extreme weather events are increasing. The description of 'melting ice' has some correspondence with contemporary global warming."
+    },
+    {
+      "id": 7,
+      "cat": "society",
+      "q": "1944年临终预言：旧秩序的崩塌",
+      "a": "「目前地球上没有任何力量可以阻止已经释放的洪流。现有的一切都将被摧毁和瓦解，一切都将改变。旧的生活模式已经结束了。」",
+      "q_en": "1944 deathbed prophecy: collapse of the old order",
+      "a_en": "\"There is no force on Earth at present that can stop the torrent that has been unleashed. Everything that exists will be destroyed and collapse, everything will change. The old way of life is over.\"",
+      "year": 1945,
+      "date": "1944-12",
+      "status": "verified",
+      "verdict_zh": "1945年二战结束后，殖民体系瓦解，联合国成立，冷战格局形成。欧洲和亚洲的旧帝国体制彻底崩塌，世界秩序发生根本性转变，与「旧的生活模式已经结束」的描述高度一致。",
+      "verdict_en": "After WWII ended in 1945, the colonial system collapsed, the United Nations was established, and the Cold War order emerged. The old imperial systems in Europe and Asia completely disintegrated, and the world order fundamentally transformed — highly consistent with 'the old way of life is over.'"
+    },
+    {
+      "id": 8,
+      "cat": "spirit",
+      "q": "1944年临终预言：爱的文明",
+      "a": "「一个新的文化将会出现，它建立在三个基础之上：灵魂的提升、自由和爱。光明、善良和正义将胜利，这只是时间问题。所有宗教将被净化，每一种宗教和教义都将融合为一体。」",
+      "q_en": "1944 deathbed prophecy: civilization of love",
+      "a_en": "\"A new culture will appear, based on three foundations: the elevation of the soul, freedom, and love. Light, goodness, and justice will triumph — it is only a matter of time. All religions will be purified, and every religion and doctrine will merge into one.\"",
+      "year": "未确定",
+      "date": "1944-12"
+    },
+    {
+      "id": 9,
+      "cat": "politics",
+      "q": "斯拉夫民族的使命",
+      "a": "「斯拉夫民族将在未来扮演重要角色。新的文明将从斯拉夫民族中兴起，因为在斯拉夫人的灵魂深处蕴藏着尚未开发的巨大潜力。」",
+      "q_en": "The mission of the Slavic peoples",
+      "a_en": "\"The Slavic peoples will play an important role in the future. A new civilization will rise from the Slavic nations, for in the depth of the Slavic soul lies enormous untapped potential.\"",
+      "year": "未确定",
+      "date": "1900-1944"
+    },
+    {
+      "id": 10,
+      "cat": "spirit",
+      "q": "1944年临终预言：道德转化是必经之路",
+      "a": "「人类的灵性进化是不可避免的。每个人都将被迫发展出更高的意识。那些拒绝这种转变的人将被自然淘汰。新人类将理解，宇宙万物之间存在着深刻的联系。」",
+      "q_en": "1944 deathbed prophecy: moral transformation is inevitable",
+      "a_en": "\"Humanity's spiritual evolution is inevitable. Everyone will be compelled to develop a higher consciousness. Those who refuse this transformation will be eliminated by nature. The new humanity will understand that there is a profound connection among all things in the universe.\"",
+      "year": "未确定",
+      "date": "1944-12"
+    },
+    {
+      "id": 11,
+      "cat": "society",
+      "q": "女性地位的提升",
+      "a": "「在未来的新纪元，女性将恢复她的尊严。女性的天赋——爱、温柔和直觉——将被重新认识和尊重。女性将承担起精神教育的使命。」",
+      "q_en": "The elevation of women's status",
+      "a_en": "\"In the coming new era, women will reclaim their dignity. Women's gifts — love, tenderness, and intuition — will be recognized and respected anew. Women will take on the mission of spiritual education.\"",
+      "year": "未确定",
+      "date": "1900-1944",
+      "status": "partial",
+      "verdict_zh": "20世纪下半叶至今，全球女性权利运动取得了显著进展：女性获得投票权、受教育权和就业平等权在大多数国家成为现实。但「精神教育使命」等灵性层面的预测尚无法验证。",
+      "verdict_en": "From the late 20th century onward, the global women's rights movement has made significant progress: women's suffrage, education rights, and employment equality have become reality in most countries. However, the spiritual dimension of 'mission of spiritual education' cannot yet be verified."
+    },
+    {
+      "id": 12,
+      "cat": "tech",
+      "q": "科学与灵性的融合",
+      "a": "「未来的科学将承认存在一种更高级的能量，一种智慧的能量，它渗透在一切事物之中。科学家们将认识到，宇宙并非由死的物质组成，而是由活的、有意识的力量组成。」",
+      "q_en": "Convergence of science and spirituality",
+      "a_en": "\"Future science will recognize the existence of a higher energy, an intelligent energy, permeating all things. Scientists will realize that the universe is not made of dead matter, but of living, conscious forces.\"",
+      "year": "未确定",
+      "date": "1900-1944"
+    },
+    {
+      "id": 13,
+      "cat": "society",
+      "q": "素食与人类饮食的转变",
+      "a": "「人类将走向素食。肉食是一种旧时代的遗留，它降低人的振动频率。在未来的文明中，人们将以植物、水果和谷物为食，身体将变得更加纯净和健康。」",
+      "q_en": "Vegetarianism and the transformation of human diet",
+      "a_en": "\"Humanity will move toward vegetarianism. Meat-eating is a relic of the old era that lowers one's vibrational frequency. In the future civilization, people will live on plants, fruits, and grains, and their bodies will become purer and healthier.\"",
+      "year": "未确定",
+      "date": "1900-1944",
+      "status": "partial",
+      "verdict_zh": "全球素食和纯素食运动近年来显著增长。根据市场研究，植物性食品市场在2020年代持续扩大，越来越多的人出于健康和环保原因减少肉食。但人类整体并未转向素食，肉类消费总量仍在增长。",
+      "verdict_en": "The global vegetarian and vegan movement has grown significantly in recent years. Plant-based food markets have expanded continuously in the 2020s, with more people reducing meat consumption for health and environmental reasons. However, humanity has not shifted to vegetarianism overall, and total meat consumption continues to rise."
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "1944年临终预言：宇宙之火即将到来",
+      "a": "「宇宙之火将涤荡一切。数百万人将死去，但人类的意识会因此觉醒。地球将获得新的生命力。只有善良和纯洁的人才能在新的条件下生存。善良本身就是最好的保护。」",
+      "q_en": "1944 deathbed prophecy: the coming cosmic fire",
+      "a_en": "\"The cosmic fire will cleanse everything. Millions will perish, but human consciousness will awaken. The Earth will gain new vitality. Only those who are good and pure will survive under the new conditions. Goodness itself is the best protection.\"",
+      "year": "未确定",
+      "date": "1944-12"
+    },
+    {
+      "id": 15,
+      "cat": "spirit",
+      "q": "1944年临终预言：新纪元的时间",
+      "a": "「新的时代是第六种族的时代。你要做好准备，因为我告诉你们，从现在起经过一段不确定的苦难岁月后，一个光明的新世界将要来临。但在此之前，人类还要经历许多磨难。」",
+      "q_en": "1944 deathbed prophecy: timing of the new era",
+      "a_en": "\"The new age is the age of the Sixth Race. Prepare yourselves, for I tell you that after an uncertain period of suffering from now on, a bright new world will come. But before that, humanity must endure many tribulations.\"",
+      "year": "未确定",
+      "date": "1944-12"
+    }
+  ]
+}

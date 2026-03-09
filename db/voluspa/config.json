@@ -1,0 +1,69 @@
+{
+  "siteId": "voluspa",
+  "answererName": "Anonymous Norse Poet",
+  "publishDate": "约950年",
+  "baseUrl": "https://pre.hilife.me/voluspa",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "女巫预言全集 - 北欧神话末日预言诗《沃尔乌斯帕》原文与解读 | Völuspá",
+      "description": "北欧神话最重要的预言诗《女巫预言》（Völuspá）全文收录，约66节诗歌描述世界创生、黄金时代、诸神黄昏与世界重生。古诺尔斯语原文配白话翻译与历史考据。",
+      "keywords": "女巫预言,沃尔乌斯帕,Völuspá,北欧神话,诸神黄昏,拉格纳洛克,埃达诗集,Poetic Edda,北欧预言,世界树",
+      "siteName": "女巫预言",
+      "ogTitle": "女巫预言全集 | Völuspá - 北欧预言诗",
+      "ogDescription": "北欧神话最重要的预言诗《女巫预言》全文收录，描述从世界创生到诸神黄昏的完整预言。",
+      "locale": "zh_CN",
+      "twitterDescription": "北欧神话预言诗《女巫预言》全文，涵盖世界创生、黄金时代、诸神黄昏与重生。古诺尔斯语原文配白话翻译。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Völuspá - The Prophecy of the Seeress | Complete Norse Prophecy Poem with Analysis",
+      "description": "The complete Völuspá ('Prophecy of the Seeress'), the most important poem in the Poetic Edda. ~66 stanzas covering creation, the golden age, Ragnarök, and world renewal. Old Norse text with modern translation and analysis.",
+      "keywords": "Völuspá,Voluspa,Norse mythology,Ragnarök,Poetic Edda,seeress prophecy,Norse prophecy,Yggdrasil,Norse cosmology,völva",
+      "siteName": "Völuspá Prophecies",
+      "ogTitle": "Völuspá - The Prophecy of the Seeress | Complete Norse Poem",
+      "ogDescription": "The complete Völuspá from the Poetic Edda — Norse mythology's greatest prophecy poem, from creation to Ragnarök and world renewal.",
+      "locale": "en_US",
+      "twitterDescription": "Völuspá: the Norse seeress's prophecy from creation to Ragnarök. Complete poem with translation and analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "女巫预言",
+      "alternateName": "Völuspá Prophecies",
+      "url": "https://pre.hilife.me/voluspa/",
+      "description": "北欧神话预言诗《女巫预言》全文收录与解读",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eef0",
+    "white": "#fff",
+    "text": "#222028",
+    "text2": "#6a6470",
+    "textLight": "#565060",
+    "primary": "#4a5a6b",
+    "primaryDark": "#303e4e",
+    "primaryBg": "#eaecf2",
+    "link": "#4a5a6b",
+    "border": "#d0ccd6",
+    "border2": "#b4b0bc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e6e2ea"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Völuspá Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/V%C3%B6lusp%C3%A1",
+    "sourceLabel": "Wikipedia"
+  }
+}

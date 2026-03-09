@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "步虚大师预言",
+    "siteSubtitle": "清末民初·托名隋代高僧",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "步虚大师预言是什么？",
+    "homeIntro1": "步虚大师预言诗据称于光绪三十年（1904年）正月初七，在北京西山碧云寺通过扶乩（一种占卜方式）降示，托名隋代高僧步虚大师。实际记录者为清末居士高静涵（号清虚道人）。全诗由一首序诗和十二节预言诗组成，以七言为主，预言清末至未来百年的中国历史大事。",
+    "homeIntro2": "诗中以隐喻手法描述了清朝覆灭、民国建立、袁世凯称帝、军阀割据、日本侵华、国共内战、新中国成立等重大历史事件。前十节与20世纪中国历史高度吻合，语言虽然隐晦但指向明确，在中国民间预言文学中占有重要地位。",
+    "homeIntro3": "学术界对步虚大师预言的真伪和成书年代存在争议。「步虚」之名取自道教仪式「步虚词」，而非实有其人。部分学者认为该文本可能成于清末民初，经过后人不断增补修改，早期已验之节或为后人所加。本站整理了序诗与十二节原文并进行验证分析，供读者参考。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「茫茫天数本难知，惟在苍生感太虚；老僧不敢多饶舌，泄露天机恐被诛。」——步虚大师预言·结尾",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "第一节 —— 清朝覆灭、宣统退位",
+      "第二节 —— 辛亥革命、民国建立",
+      "第五节 —— 日本侵华、抗日战争",
+      "第七节 —— 日本投降、国共内战",
+      "第八节 —— 新中国成立"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文来源于清末扶乩记录，托名隋代步虚大师，实际成文时间及作者存疑（<a href=\"https://baike.baidu.com/item/%E6%AD%A5%E8%99%9A%E5%A4%A7%E5%B8%88%E9%A2%84%E8%A8%80/1342999\" target=\"_blank\" rel=\"noopener\">百度百科</a>）",
+      "部分已验之节可能经后人增补修改，文本版本间存在差异",
+      "验证评价基于公开历史资料和新闻报道，编者观点不代表学术定论",
+      "站点图标采用祥云纹样——「步虚」意为步行于虚空云端，是道教仪式中常见的意象"
+    ]
+  },
+  "en": {
+    "siteTitle": "Master Buxu Prophecies",
+    "siteSubtitle": "Late Qing · Attributed to Sui Dynasty Monk",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is the Master Buxu Prophecy?",
+    "homeIntro1": "The Master Buxu Prophecy Poems were allegedly channeled through spirit writing (fuji, a form of divination) on the seventh day of the first lunar month, 1904, at the Biyun Temple in Beijing's Western Hills. They are attributed to the Sui dynasty Buddhist monk \"Buxu\" (Step Void). The actual recorder was Gao Jinghan, a late-Qing lay Buddhist using the pen name \"Qingxu Daoren.\" The work consists of an opening verse and twelve prophetic sections, primarily in seven-character verse, predicting major Chinese events over the following century.",
+    "homeIntro2": "Through veiled metaphors, the poems describe the fall of the Qing dynasty, the founding of the Republic, Yuan Shikai's ill-fated imperial restoration, the warlord era, the Japanese invasion, the Chinese Civil War, and the founding of the People's Republic. The first ten sections correspond remarkably well to 20th-century Chinese history, earning the text an important place in Chinese folk prophetic literature.",
+    "homeIntro3": "Scholars debate the authenticity and dating of the Master Buxu Prophecy. The name \"Buxu\" (Step Void) derives from Daoist ritual chanting, rather than an actual historical person. Some scholars believe the text was composed in the late Qing or early Republican period and subsequently revised, with earlier \"fulfilled\" sections possibly added retroactively. This site presents the full original text of the opening verse and all twelve sections with verification analysis for reference.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The vast celestial numbers are truly hard to know — they lie only in the people's communion with the Great Void. This old monk dares not speak too freely, for leaking heaven's secrets invites punishment.\" — Master Buxu Prophecy, Closing",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Section 1 —— Fall of the Qing dynasty and Xuantong abdication",
+      "Section 2 —— Xinhai Revolution and founding of the Republic",
+      "Section 5 —— Japanese invasion of China",
+      "Section 7 —— Japan's surrender and Chinese Civil War",
+      "Section 8 —— Founding of the People's Republic of China"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original text from late-Qing spirit writing records, attributed to the Sui dynasty Master Buxu; actual date and authorship remain uncertain (<a href=\"https://baike.baidu.com/item/%E6%AD%A5%E8%99%9A%E5%A4%A7%E5%B8%88%E9%A2%84%E8%A8%80/1342999\" target=\"_blank\" rel=\"noopener\">Baidu Baike</a>)",
+      "Some fulfilled sections may have been added or modified retroactively; variations exist between text versions",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: auspicious cloud motif — 'Buxu' means walking upon the void/clouds, a common image in Daoist ritual"
+    ]
+  }
+}

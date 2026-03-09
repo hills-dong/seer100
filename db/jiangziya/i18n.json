@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "六韬预言",
+    "siteSubtitle": "周朝·姜子牙（姜太公）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "姜子牙与《六韬》",
+    "homeIntro1": "姜子牙，又称姜太公、太公望、吕尚，是中国历史上最负盛名的军事家和政治家之一。相传他年过七旬仍在渭水之滨垂钓，以直钩钓鱼——「愿者上钩」，终被周文王发现并拜为国师。他辅佐周文王、周武王，策划了灭商兴周的大业，被封于齐国，是齐国的开国之君。",
+    "homeIntro2": "《六韬》全书分为文韬、武韬、龙韬、虎韬、豹韬、犬韬六卷，以周文王、武王与姜太公的问答形式，系统论述治国之道、用兵之法、选将练兵等方面。虽然学术界普遍认为此书实际成书于战国至汉初，但其所托名的姜太公形象和治国用兵思想，代表了中国最古老的战略智慧传统。",
+    "homeIntro3": "《六韬》并非传统的预言书，但其中对国家兴亡规律的洞察具有深刻的预言性质。姜太公关于仁政与暴政、用人与失人、居安思危等警示，在两千多年的中国历史中反复应验。本站从六韬中精选最具预言价值的篇章，以历史事实进行验证分析，展现这部古典兵书超越时代的洞察力。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「天下非一人之天下，乃天下之天下也。同天下之利者则得天下，擅天下之利者则失天下。」——《六韬·文韬·文师》",
+    "keyPoints": "关键篇章",
+    "keyPointsList": [
+      "文韬·文师 —— 天下非一人之天下，论得民心者得天下",
+      "文韬·盈虚 —— 论国家盛衰兴亡的规律与征兆",
+      "武韬·发启 —— 伐无道、诛暴君的正义战争论",
+      "龙韬·论将 —— 将帅的选拔标准与国家存亡的关系",
+      "虎韬·军用 —— 军事装备与后勤决定战争胜负"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文来源于《六韬》传世本，版本及成书年代学术界尚有争议。1972年山东临沂银雀山汉墓出土竹简本证实此书至迟在西汉初年已流传（<a href=\"https://zh.wikipedia.org/wiki/六韬\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "《六韬》英文译本参考 Ralph D. Sawyer 译注 <em>The Seven Military Classics of Ancient China</em>（<a href=\"https://www.amazon.com/Seven-Military-Classics-Ancient-China/dp/0465003044\" target=\"_blank\" rel=\"noopener\">Amazon</a>）",
+      "验证评价基于历史文献和公开资料，编者观点不代表学术定论",
+      "站点图标采用直钩鱼钩——源自「姜太公钓鱼，愿者上钩」的典故，是姜子牙最广为人知的文化符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Six Secret Teachings",
+    "siteSubtitle": "Zhou Dynasty · Jiang Ziya (Taigong Wang)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Jiang Ziya and the Six Secret Teachings",
+    "homeIntro1": "Jiang Ziya, also known as Taigong Wang or Lu Shang, is one of the most celebrated military strategists and statesmen in Chinese history. Legend holds that in his seventies he fished at the Wei River with a straight hook — 'only the willing bite' — until King Wen of Zhou discovered him and appointed him chief advisor. He helped Kings Wen and Wu of Zhou overthrow the Shang dynasty and was enfeoffed as the founding lord of the state of Qi.",
+    "homeIntro2": "The Six Secret Teachings (六韬, Liù Tāo) is divided into six scrolls — Civil, Martial, Dragon, Tiger, Leopard, and Dog — presented as dialogues between Jiang Ziya and Kings Wen and Wu of Zhou, systematically addressing statecraft, military strategy, officer selection, and troop training. While scholars generally date the text's actual composition to the Warring States period or early Han dynasty, the strategic wisdom attributed to Taigong Wang represents China's oldest tradition of military and political thought.",
+    "homeIntro3": "The Six Secret Teachings is not a prophecy book in the traditional sense, but its insights into the patterns of national rise and fall carry a deeply prophetic quality. Taigong's warnings about benevolent versus tyrannical rule, the use and loss of talent, and the need for vigilance in times of peace have been validated repeatedly across two millennia of Chinese history. This site selects the most prophetically relevant passages and verifies them against historical events, revealing the timeless foresight of this ancient classic.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The realm does not belong to one person — it belongs to all under heaven. Those who share the benefits of the realm gain it; those who monopolize them lose it.\" — Civil Teachings, The Civil Master",
+    "keyPoints": "Key Chapters",
+    "keyPointsList": [
+      "Civil Teachings: The Civil Master —— The realm belongs to all; winning hearts wins the world",
+      "Civil Teachings: Fullness and Emptiness —— Patterns and omens of national rise and fall",
+      "Martial Teachings: Initiating Action —— Just war against tyranny and misrule",
+      "Dragon Teachings: Selecting Generals —— How officer quality determines national survival",
+      "Tiger Teachings: Military Equipment —— Logistics and materiel determine victory"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original text from transmitted editions of the Six Secret Teachings; authorship and dating remain debated. Bamboo-strip fragments excavated from Yinqueshan Han tombs in 1972 confirm the text circulated by the early Western Han at the latest (<a href=\"https://en.wikipedia.org/wiki/Six_Secret_Teachings\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "English translations reference Ralph D. Sawyer's <em>The Seven Military Classics of Ancient China</em> (<a href=\"https://www.amazon.com/Seven-Military-Classics-Ancient-China/dp/0465003044\" target=\"_blank\" rel=\"noopener\">Amazon</a>)",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: a straight fishing hook — from the famous tale 'Taigong fishes, the willing bite,' the most widely recognized symbol of Jiang Ziya"
+    ]
+  }
+}

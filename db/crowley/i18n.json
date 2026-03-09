@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "克劳利预言",
+    "siteSubtitle": "英国神秘学家·泰勒玛创始人（1875-1947）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "阿莱斯特·克劳利是谁？",
+    "homeIntro1": "阿莱斯特·克劳利（Aleister Crowley，1875年10月12日—1947年12月1日），英国神秘学家、仪式魔法师、诗人、画家、登山家，被称为「世上最邪恶的人」。他创立了泰勒玛（Thelema）宗教体系，其核心教义为「汝之所愿即为全法」（Do what thou wilt shall be the whole of the Law）。",
+    "homeIntro2": "1904年4月，克劳利在埃及开罗声称接收到来自超自然实体艾华斯（Aiwass）的口述，写下了《律法之书》（Liber AL vel Legis）。该书宣告旧纪元（奥西里斯纪元）的终结与新纪元（荷鲁斯纪元）的开启——一个强调个人意志、自由与自我实现的时代。",
+    "homeIntro3": "克劳利的著作中散布着大量关于人类社会走向的预言性描述，涵盖旧宗教的衰落、性解放、战争与毁灭、个人主义的兴起等主题。本站整理了他最具代表性的预言性文本，并对已到期的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「汝之所愿即为全法。爱即律法，意志之下的爱。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1904年 —— 在开罗接收《律法之书》，宣告荷鲁斯纪元开始",
+      "1907年 —— 创立银星会（A∴A∴），系统化泰勒玛魔法教学",
+      "1920年 —— 在西西里建立泰勒玛修道院",
+      "1925年 —— 《律法之书》预言的「恐惧之纪元」开端",
+      "1947年 —— 克劳利逝世，泰勒玛运动继续传播"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容主要来自《律法之书》（Liber AL vel Legis, 1904）及克劳利其他著作（<a href=\"https://en.wikipedia.org/wiki/The_Book_of_the_Law\" target=\"_blank\" rel=\"noopener\">Wikipedia - The Book of the Law</a>）",
+      "部分预言来自克劳利日记与泰勒玛教团文献（<a href=\"https://hermetic.com/crowley/\" target=\"_blank\" rel=\"noopener\">Hermetic.com Crowley Archive</a>）",
+      "验证评价基于公开历史记录和学术研究",
+      "编者观点不代表学术定论",
+      "站点图标采用独角六芒星（Unicursal Hexagram）——克劳利及泰勒玛最广为人知的标志符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Crowley Prophecies",
+    "siteSubtitle": "English Occultist & Thelema Founder (1875-1947)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Aleister Crowley?",
+    "homeIntro1": "Aleister Crowley (October 12, 1875 – December 1, 1947) was an English occultist, ceremonial magician, poet, painter, and mountaineer, dubbed 'the wickedest man in the world'. He founded the religion of Thelema, whose central tenet is 'Do what thou wilt shall be the whole of the Law'.",
+    "homeIntro2": "In April 1904 in Cairo, Egypt, Crowley claimed to receive dictation from a supernatural entity called Aiwass, producing The Book of the Law (Liber AL vel Legis). The book proclaimed the end of the old aeon (Aeon of Osiris) and the dawn of a new aeon (Aeon of Horus) — an age emphasizing individual will, freedom, and self-realization.",
+    "homeIntro3": "Crowley's writings contain numerous prophetic descriptions of humanity's trajectory, covering the decline of old religions, sexual liberation, war and destruction, and the rise of individualism. This site compiles his most representative prophetic texts and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Do what thou wilt shall be the whole of the Law. Love is the law, love under will.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1904 —— Received The Book of the Law in Cairo, declaring the Aeon of Horus",
+      "1907 —— Founded A∴A∴ (Argenteum Astrum), systematizing Thelemic magical training",
+      "1920 —— Established the Abbey of Thelema in Sicily",
+      "1925 —— Beginning of the 'age of force and fire' prophesied in The Book of the Law",
+      "1947 —— Crowley passed away; Thelemic movement continued to spread"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies primarily from The Book of the Law (Liber AL vel Legis, 1904) and other Crowley writings (<a href=\"https://en.wikipedia.org/wiki/The_Book_of_the_Law\" target=\"_blank\" rel=\"noopener\">Wikipedia - The Book of the Law</a>)",
+      "Some prophecies from Crowley's diaries and Thelemic order documents (<a href=\"https://hermetic.com/crowley/\" target=\"_blank\" rel=\"noopener\">Hermetic.com Crowley Archive</a>)",
+      "Verification based on public historical records and academic research",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: Unicursal Hexagram — Crowley's and Thelema's most widely recognized symbol"
+    ]
+  }
+}

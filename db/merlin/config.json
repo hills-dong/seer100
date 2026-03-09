@@ -1,0 +1,69 @@
+{
+  "siteId": "merlin",
+  "answererName": "Merlin (Geoffrey of Monmouth)",
+  "publishDate": "1136",
+  "baseUrl": "https://pre.hilife.me/merlin",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "梅林预言全集 - 不列颠国王史中的神秘预言与历史验证 | Prophecies of Merlin",
+      "description": "杰弗里·蒙茅斯于1136年在《不列颠国王史》第七卷记录的梅林预言（Prophetiae Merlini），以动物寓言和隐喻象征预言不列颠历史。涵盖政治更替、战争冲突与王朝兴衰。",
+      "keywords": "梅林预言,Merlin,Prophetiae Merlini,杰弗里蒙茅斯,不列颠国王史,亚瑟王,预言,中世纪预言,红龙白龙,不列颠历史",
+      "siteName": "梅林预言",
+      "ogTitle": "梅林预言全集 | Prophecies of Merlin",
+      "ogDescription": "杰弗里·蒙茅斯1136年记录的梅林预言完整收录与验证。以动物寓言象征不列颠历史兴衰。",
+      "locale": "zh_CN",
+      "twitterDescription": "梅林预言全集：不列颠国王史中的神秘预言，红龙与白龙之战、诺曼征服、王朝更替，含历史验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Prophecies of Merlin - Geoffrey of Monmouth's Prophetic Visions from Historia Regum Britanniae (1136)",
+      "description": "The Prophetiae Merlini from Book VII of Geoffrey of Monmouth's Historia Regum Britanniae (1136). Cryptic allegorical prophecies using animal symbolism to predict British history, from the Red and White Dragons to the Norman Conquest and beyond.",
+      "keywords": "Merlin prophecies,Prophetiae Merlini,Geoffrey of Monmouth,Historia Regum Britanniae,King Arthur,medieval prophecy,Red Dragon White Dragon,British history,Arthurian legend",
+      "siteName": "Prophecies of Merlin",
+      "ogTitle": "Prophecies of Merlin - Complete Archive from Geoffrey of Monmouth",
+      "ogDescription": "Geoffrey of Monmouth's 1136 Prophetiae Merlini: allegorical prophecies of British history using animal symbolism. Full archive with historical verification.",
+      "locale": "en_US",
+      "twitterDescription": "Merlin's prophecies from Geoffrey of Monmouth's Historia Regum Britanniae (1136). Animal allegories predicting British history, with historical verification."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "梅林预言",
+      "alternateName": "Prophecies of Merlin",
+      "url": "https://pre.hilife.me/merlin/",
+      "description": "杰弗里·蒙茅斯1136年记录的梅林预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef2ee",
+    "white": "#fff",
+    "text": "#1e2a1e",
+    "text2": "#607a60",
+    "textLight": "#4e664e",
+    "primary": "#3a6b3a",
+    "primaryDark": "#244e24",
+    "primaryBg": "#e8f5e8",
+    "link": "#3a6b3a",
+    "border": "#c8dcc8",
+    "border2": "#a8c0a8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e2ede2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Prophecies of Merlin"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Prophetiae_Merlini",
+    "sourceLabel": "Wikipedia"
+  }
+}

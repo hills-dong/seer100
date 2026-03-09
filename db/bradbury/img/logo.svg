@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 28" height="20">
+  <!-- Flame icon: outer flame -->
+  <path d="M14 3 L9 14 A6 6 0 0 0 14 25 A6 6 0 0 0 19 14 Z" fill="#b06830"/>
+  <!-- Inner flame -->
+  <path d="M14 9 L11 16 A4 4 0 0 0 14 23 A4 4 0 0 0 17 16 Z" fill="#8a4c18"/>
+  <!-- Core glow -->
+  <path d="M14 14 L12.5 18 A2 2 0 0 0 14 21 A2 2 0 0 0 15.5 18 Z" fill="#f4f0ee"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#8a4c18" letter-spacing="0.5">BRADBURY</text>
+</svg>

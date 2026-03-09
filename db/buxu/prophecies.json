@@ -1,0 +1,158 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "序诗",
+      "a": "昔因隋乱采菩提，误入天台石宝西。朝饮流霞且止渴，夜餐玉露略充饥。面壁九年垂大道，指弹十代换新仪。欲我辟途途误我，天机难泄泄禅机。\n\n白话文翻译：昔日因隋末战乱而出家修行菩提，误入天台山石桥以西。白天饮用流霞聊以止渴，夜晚餐食玉露勉强充饥。面壁修行九年领悟大道，弹指之间十个朝代更换了新面貌。想要为世人指明道路，道路反而迷惑了我，天机本难泄露，姑且以禅机示之。",
+      "q_en": "Opening Verse",
+      "a_en": "In times of Sui dynasty turmoil I sought the Bodhi, and wandered west to Tiantai's stone bridge. By day I drank flowing clouds to quench my thirst, by night I supped on jade dew to ease my hunger. Nine years facing the wall I received the Great Way, a finger-snap and ten dynasties changed their garb. I wished to open the path but the path confounded me — heaven's secrets are hard to reveal, so I speak in Zen riddles.\n\nVernacular: Once, fleeing the Sui dynasty's chaos, I took up the Buddhist path and strayed to the west of Tiantai Mountain's Stone Bridge. During the day I drank flowing clouds to slake my thirst; at night I dined on jade dew to stave off hunger. After nine years of wall-gazing meditation I grasped the Great Way; in the snap of a finger, ten dynasties changed their appearance. I wished to blaze a trail for the world, but the path itself confounded me — heaven's secrets are hard to divulge, so I hint at them through Zen.",
+      "status": "verified",
+      "verdict_zh": "序诗为全篇引言，以步虚大师自述口吻交代修行背景和预言缘起。「面壁九年」典出达摩祖师，「指弹十代换新仪」点明预言将涵盖多个朝代更替。",
+      "verdict_en": "The opening verse serves as a prologue in the voice of Master Buxu, establishing his background of spiritual cultivation and the origin of his prophecies. 'Nine years facing the wall' alludes to Bodhidharma; 'a finger-snap and ten dynasties changed' signals the prophecy will cover multiple dynastic transitions."
+    },
+    {
+      "id": 2,
+      "cat": "politics",
+      "q": "第一节",
+      "a": "云暗暗，雾愁愁，龙归泥土塑猕猴。三岁孩童三载福，月下无主水空流，万里烟波一旦收。\n\n白话文翻译：天空乌云密布，大雾弥漫令人忧愁。真龙（清朝皇帝）归于泥土，取而代之的是猕猴（暗指民国）。三岁的孩童只享了三年福分（宣统帝溥仪三岁登基，在位仅三年）。「月下无主」（「月」下无「主」为「青」字即清朝）清朝如水空流而逝，万里河山的动荡一朝平息。",
+      "q_en": "Section 1",
+      "a_en": "Clouds darken, mists brood — the dragon returns to mud and a monkey is sculpted. A three-year-old child enjoys three years of fortune; beneath the moon no master remains, water flows in vain, and ten thousand miles of misty waves are gathered in a single day.\n\nVernacular: Dark clouds gather and sorrowful mist spreads. The true dragon (the Qing emperor) returns to the earth, replaced by a monkey (alluding to the Republic). A three-year-old child enjoyed only three years of blessings (Emperor Xuantong/Puyi ascended the throne at age three and reigned just three years). 'Beneath the moon no master' — removing 'master' from beneath 'moon' forms the character 'Qing' (清), meaning the Qing dynasty fades away like flowing water, and the turmoil across ten thousand miles is settled in one day.",
+      "year": 1912,
+      "status": "verified",
+      "verdict_zh": "「龙归泥土」指清朝灭亡。「三岁孩童三载福」精确描述宣统帝溥仪——1908年三岁登基，1912年退位，在位恰好三年。「猕猴」暗指民国（猴与「侯」谐音，亦有解读为孙中山属猴）。辛亥革命于1911年爆发，1912年清帝退位，中华民国成立。",
+      "verdict_en": "'Dragon returns to mud' refers to the fall of the Qing dynasty. 'Three-year-old child with three years of fortune' precisely describes Emperor Xuantong (Puyi) — enthroned at age 3 in 1908, abdicated in 1912, reigning exactly three years. 'Monkey' alludes to the Republic (some interpret it as Sun Yat-sen, who was born in a Year of the Monkey). The Xinhai Revolution erupted in 1911; the Qing emperor abdicated in 1912 and the Republic of China was established."
+    },
+    {
+      "id": 3,
+      "cat": "politics",
+      "q": "第二节",
+      "a": "君做祖，质彬彬，万里长虹破浪征。黄鹤楼中吹玉笛，八方齐唱凯歌吟，旌旗五色换新新。\n\n白话文翻译：他以君王之尊成为开国之祖，气质文雅彬彬有礼。如万里长虹般破浪前行征战四方。黄鹤楼中吹响了玉笛（武昌起义在武汉爆发），八方齐唱凯歌，五色旗帜焕然一新（中华民国国旗为五色旗）。",
+      "q_en": "Section 2",
+      "a_en": "He becomes ruler and ancestor, refined and cultured, charging across ten thousand miles like a rainbow breaking through waves. In the Yellow Crane Tower a jade flute is played; from all directions victory songs resound, and five-colored banners are raised anew.\n\nVernacular: He assumes the throne as the founding ancestor, cultured and elegant. Like a great rainbow he charges forward across ten thousand miles. A jade flute sounds in the Yellow Crane Tower (the Wuchang Uprising erupted in Wuhan); victory songs ring out from every direction, and five-colored flags mark a new beginning (the Republic of China's flag was the Five-Colored Flag).",
+      "year": 1912,
+      "status": "verified",
+      "verdict_zh": "「黄鹤楼中吹玉笛」暗指1911年武昌起义，黄鹤楼位于武汉，起义正是在武昌打响。「旌旗五色换新新」指中华民国成立后采用五色旗（红黄蓝白黑，代表五族共和）。「君做祖」指孙中山被尊为国父。",
+      "verdict_en": "'Jade flute in Yellow Crane Tower' alludes to the 1911 Wuchang Uprising — Yellow Crane Tower is in Wuhan, where the uprising was launched. 'Five-colored banners raised anew' refers to the Republic of China's Five-Colored Flag (red, yellow, blue, white, black, representing the unity of five peoples). 'He becomes ruler and ancestor' refers to Sun Yat-sen, honored as the Father of the Nation."
+    },
+    {
+      "id": 4,
+      "cat": "war",
+      "q": "第三节",
+      "a": "吉士怀柔，三十年变，岂凡人哉？昙花一现。南北东西，龙争虎战，七八数定，山川粗奠。\n\n白话文翻译：有位吉士以怀柔手段行事，三十年间天翻地覆。此人岂是凡人？不过昙花一现罢了。南北东西各方势力龙争虎斗，七八之数（约十五六年）既定，山川格局才粗略奠定。",
+      "q_en": "Section 3",
+      "a_en": "A worthy man employs appeasement; thirty years of upheaval — is he an ordinary man? A mere flash in the pan. North, south, east, west — dragons contend and tigers battle. When the count of seven-eight is settled, mountains and rivers are roughly established.\n\nVernacular: A gentleman uses conciliation; across thirty years everything is overturned. Is this man merely mortal? He blooms and fades like the udumbara flower. Powers in every direction fight like dragons and tigers. When the seven-eight count is fixed (roughly fifteen or sixteen years), the lay of the mountains and rivers is roughly determined.",
+      "year": 1928,
+      "status": "verified",
+      "verdict_zh": "「吉士怀柔」暗指袁世凯，「吉」与「袁」字形相近。「昙花一现」指袁世凯1916年称帝仅83天即失败病死。「南北东西龙争虎战」指此后的军阀混战时期。「七八数定」可解为七加八等于十五年（1912-1927），北伐战争于1928年基本统一中国，「山川粗奠」。",
+      "verdict_en": "'Worthy man with appeasement' alludes to Yuan Shikai. 'Flash in the pan' refers to his 1916 imperial restoration lasting only 83 days before his death. 'Dragons and tigers battling in all directions' describes the subsequent warlord era. 'Seven-eight count settled' may mean 7+8=15 years (1912-1927); the Northern Expedition roughly unified China by 1928, 'establishing the mountains and rivers.'"
+    },
+    {
+      "id": 5,
+      "cat": "war",
+      "q": "第四节",
+      "a": "干戈起，逐鹿忙，草莽英雄将出山。多少枕戈豪杰士，风云聚会到江南，金陵日月又重光。\n\n白话文翻译：战争兴起，各方势力忙于逐鹿天下，草莽中的英雄人物即将出山。多少枕戈待旦的豪杰志士，风云际会齐聚江南，金陵（南京）的日月重新焕发光彩。",
+      "q_en": "Section 4",
+      "a_en": "Weapons rise, the chase for the deer grows busy — heroes from the wilds are about to emerge. So many warriors sleep with spears at the ready; wind and cloud gather at the south of the river, and Jinling's sun and moon shine once more.\n\nVernacular: War breaks out and rival factions scramble for power. Heroes from humble origins are about to step onto the stage. Countless warriors sleep with weapons at hand; they converge upon the Jiangnan region, and Nanjing (Jinling) regains its former glory.",
+      "year": 1927,
+      "status": "verified",
+      "verdict_zh": "「草莽英雄将出山」暗指蒋介石崛起。「金陵日月又重光」指1927年蒋介石定都南京，建立国民政府。「逐鹿忙」描述北伐战争期间各方势力角逐的局面。金陵即南京古称。",
+      "verdict_en": "'Heroes from the wilds emerge' alludes to Chiang Kai-shek's rise. 'Jinling's sun and moon shine again' refers to Chiang establishing the Nationalist government in Nanjing (ancient name: Jinling) in 1927. 'Chase for the deer' describes the rival factions competing for power during the Northern Expedition."
+    },
+    {
+      "id": 6,
+      "cat": "war",
+      "q": "第五节",
+      "a": "瀛洲虎，渡海狼，满天红日更昏黄。茫茫神州伤破碎，苍生处处哭爷娘，春雷乍响见晴阳。\n\n白话文翻译：来自瀛洲（日本古称）的猛虎、渡海而来的恶狼，满天的红日（日本国旗）使天色更加昏暗。茫茫神州大地伤痕累累、支离破碎，百姓处处哭喊着爹娘。直到春雷骤然炸响，才重见晴朗的太阳。",
+      "q_en": "Section 5",
+      "a_en": "The tiger of Yingzhou, the wolf crossing the sea — the sky full of red suns grows even darker. Vast China is wounded and shattered; the people everywhere weep for their parents. When spring thunder suddenly roars, the clear sun appears again.\n\nVernacular: From Yingzhou (ancient name for Japan) comes a fierce tiger, a wolf crossing the sea. The sky filled with red suns (the Japanese flag) darkens further. The vast land of China is scarred and fragmented; common people everywhere cry for their parents. Only when spring thunder suddenly cracks does the clear sun return.",
+      "year": 1937,
+      "status": "verified",
+      "verdict_zh": "「瀛洲虎渡海狼」明确指日本侵华。「满天红日更昏黄」以红日暗喻日本国旗太阳旗。1937年日本全面侵华，中国大地遭受空前浩劫。「春雷乍响见晴阳」指1945年抗战胜利。此节是全诗中指向最明确的段落之一。",
+      "verdict_en": "'Tiger of Yingzhou, wolf crossing the sea' clearly refers to the Japanese invasion of China. 'Sky full of red suns growing dark' uses the red sun as a metaphor for Japan's Rising Sun flag. Japan launched a full-scale invasion in 1937, devastating China. 'Spring thunder roars, clear sun appears' refers to victory in 1945. This is one of the most unambiguous sections of the entire poem."
+    },
+    {
+      "id": 7,
+      "cat": "politics",
+      "q": "第六节",
+      "a": "细柳营中，群雄豪饮，月掩中秋，酣睡未醒。双狮搏球，一坠其井，红粉佳人，面靥樱景。\n\n白话文翻译：在细柳营中（典出汉代周亚夫治军严明），群雄聚集豪饮。中秋之月被遮蔽，众人酣睡未醒。两只狮子争抢一球，其中一只坠入井中。有一位红粉佳人，面上樱花般美丽。",
+      "q_en": "Section 6",
+      "a_en": "In the Camp of Slender Willows, heroes drink boldly. The moon is veiled on Mid-Autumn; deep in sleep, none have awakened. Two lions wrestle for a ball — one falls into the well. A beauty in rouge, her face like cherry blossoms.\n\nVernacular: In the disciplined camp (alluding to General Zhou Yafu's camp), heroes gather to drink. The Mid-Autumn moon is obscured; they are deep in drunken sleep, unawakened. Two lions fight over a ball — one plunges into the well. There is a beauty with powdered face, her visage like cherry blossoms.",
+      "year": 1936,
+      "status": "verified",
+      "verdict_zh": "此节被解读为1936年西安事变。「细柳营」指军营，「群雄豪饮」暗指张学良、杨虎城等将领。「双狮搏球一坠其井」暗指蒋介石被扣押（一说指两方争斗，蒋介石落入困境）。「红粉佳人面靥樱景」暗指宋美龄赴西安斡旋。事变发生于1936年12月12日。",
+      "verdict_en": "This section is interpreted as the 1936 Xi'an Incident. 'Camp of Slender Willows' refers to a military camp; 'heroes drinking boldly' alludes to Zhang Xueliang, Yang Hucheng, and other generals. 'Two lions wrestling, one falls into the well' suggests Chiang Kai-shek's detention. 'Beauty with cherry-blossom face' alludes to Soong Mei-ling traveling to Xi'an to negotiate. The incident occurred on December 12, 1936."
+    },
+    {
+      "id": 8,
+      "cat": "war",
+      "q": "第七节",
+      "a": "春雷炸，竖白旗，千万活鬼哭啼啼。石头城中飞符到，再看重整汉宫仪，东山又有火光照。\n\n白话文翻译：春雷炸响，敌人竖起白旗投降，千万犹如活鬼般的士兵哭泣啼号。石头城（南京古称）中飞来命令文书，再看重新整顿的国家典仪。然而东面的山头上又有火光燃起。",
+      "q_en": "Section 7",
+      "a_en": "Spring thunder explodes, white flags are raised — millions of living ghosts weep and wail. Into the Stone City a flying decree arrives; see the imperial rites of the Han palace restored — but fire blazes again from the eastern hills.\n\nVernacular: Spring thunder explodes and the enemy raises white flags in surrender; millions of soldiers, like living ghosts, weep and wail. A decree flies into the Stone City (ancient name for Nanjing); the nation's ceremonies are restored once more. Yet from the eastern mountains, fire flares up again.",
+      "year": 1945,
+      "status": "verified",
+      "verdict_zh": "「春雷炸竖白旗」指1945年日本投降。「千万活鬼哭啼啼」描述战后日军的惨状。「石头城中飞符到」指日本在南京（石头城）签署投降书。「再看重整汉宫仪」指国民政府还都南京。「东山又有火光照」暗指随后爆发的国共内战。",
+      "verdict_en": "'Spring thunder explodes, white flags raised' refers to Japan's surrender in 1945. 'Millions of living ghosts weeping' describes the Japanese army's state after defeat. 'Flying decree into Stone City' refers to the surrender ceremony in Nanjing (ancient name: Stone City). 'Han palace rites restored' refers to the Nationalist government returning to Nanjing. 'Fire from the eastern hills' foreshadows the ensuing Chinese Civil War."
+    },
+    {
+      "id": 9,
+      "cat": "politics",
+      "q": "第八节",
+      "a": "日月蚀，五星稀，二七交加挂彩衣。野人举足迫金虎，遍地红花遍地饥，富贵贫贱无高低。\n\n白话文翻译：日月被蚀（国民党青天白日旗失势），五星升起（五星红旗）。二七交加（暗指1949年，一说「二七」为十四，指中共建党到建国的二十八年）身披彩衣。来自田野的人崛起逼迫金虎（国民党），遍地开满红花但也遍地饥荒，无论富贵贫贱一律平等。",
+      "q_en": "Section 8",
+      "a_en": "Sun and moon are eclipsed, five stars grow rare — two-seven intertwined, draped in colored garments. The wild man raises his foot to press the golden tiger; red flowers everywhere, famine everywhere — rich and poor, noble and base, all leveled.\n\nVernacular: The sun and moon are eclipsed (the Nationalist sun-and-moon flag loses power); five stars rise (the Five-Star Red Flag). Two-seven intertwined (alluding to 1949, or the 28 years from the CCP's founding to national power), draped in festive garb. A man from the fields rises to drive out the golden tiger (the Nationalists); red flowers blanket the land yet famine also spreads everywhere — rich and poor are made equal.",
+      "year": 1949,
+      "status": "verified",
+      "verdict_zh": "「日月蚀」指国民党青天白日旗失势。「五星稀」暗指五星红旗升起。「野人举足迫金虎」指毛泽东（出身农村）领导的共产党击败国民党。「遍地红花遍地饥」既指革命胜利（红花）也暗示随后的大饥荒。「富贵贫贱无高低」描述社会主义改造消灭阶级差别。1949年10月1日中华人民共和国成立。",
+      "verdict_en": "'Sun and moon eclipsed' refers to the Nationalist flag's demise. 'Five stars' alludes to the Five-Star Red Flag. 'Wild man presses the golden tiger' refers to Mao Zedong (of rural origin) leading the CCP to defeat the Nationalists. 'Red flowers everywhere, famine everywhere' references both revolutionary triumph and subsequent famines. 'Rich and poor leveled' describes socialist class elimination. The PRC was founded October 1, 1949."
+    },
+    {
+      "id": 10,
+      "cat": "war",
+      "q": "第九节",
+      "a": "二七纵横，一牛双尾，无复人形，日行恒轨。海上金鳖，玄服律吕，铁鸟凌空，东南尽毁。\n\n白话文翻译：二七纵横（多方势力交错），一牛双尾（暗指分裂对峙的局面）。不再有人形（战争的残酷），日复一日按恒定轨道运行。海上的金鳖（台湾，形似海龟），穿着玄色衣服律令严明。铁鸟在天空中飞翔轰鸣，东南方向遭到严重毁坏。",
+      "q_en": "Section 9",
+      "a_en": "Two-seven crisscross; one ox with two tails — no human form remains, the sun travels its constant track. A golden turtle in the sea, clad in dark robes with strict regulations; iron birds fill the sky, the southeast is utterly destroyed.\n\nVernacular: Two-seven forces interweave; one ox with two tails (alluding to a divided standoff). Human form is lost (the brutality of war); day after day the sun follows its unchanging course. A golden turtle in the sea (Taiwan, shaped like a sea turtle), governed by strict codes in dark robes. Iron birds soar overhead; the southeast suffers devastating destruction.",
+      "year": 1958,
+      "status": "verified",
+      "verdict_zh": "「一牛双尾」被解读为海峡两岸分裂对峙。「海上金鳖」指台湾岛（形似海龟）。「铁鸟凌空东南尽毁」指1958年金门炮战（八二三炮战），解放军向金门大规模炮击。「玄服律吕」暗指台湾实行军事管制（戒严）。此节描述了两岸军事对峙的紧张局势。",
+      "verdict_en": "'One ox two tails' is interpreted as the cross-strait division between mainland China and Taiwan. 'Golden turtle in the sea' refers to Taiwan (shaped like a turtle). 'Iron birds in sky, southeast destroyed' refers to the 1958 Taiwan Strait Crisis (the August 23 Artillery Bombardment of Kinmen). 'Dark robes with strict regulations' alludes to martial law in Taiwan. This section describes the tense cross-strait military standoff."
+    },
+    {
+      "id": 11,
+      "cat": "society",
+      "q": "第十节",
+      "a": "红霞蔚，白云蒸，落花流水两无情。四海水中皆赤色，白骨如丘满岗陵，相将玉兔渐东升。\n\n白话文翻译：红霞漫天绚烂，白云蒸腾翻涌，落花与流水彼此无情。四海之中的水都呈赤色（红色浪潮席卷），白骨堆积如丘布满山岗丘陵。渐渐地玉兔（月亮/和平）从东方升起。",
+      "q_en": "Section 10",
+      "a_en": "Red clouds blaze, white clouds steam — fallen flowers and flowing water show no mercy to each other. The waters of the four seas all turn red; white bones pile like hills across every ridge. Gradually the jade rabbit rises in the east.\n\nVernacular: Red clouds fill the sky in splendor, white clouds billow and steam — fallen petals and flowing water are both merciless. The waters across all four seas turn crimson (a red tide sweeps the land); white bones are heaped like hills across every ridge and mound. Gradually the jade rabbit (the moon/peace) rises from the east.",
+      "year": 1976,
+      "status": "verified",
+      "verdict_zh": "「四海水中皆赤色」被广泛解读为1966-1976年的政治运动，红色浪潮席卷全国。「白骨如丘满岗陵」描述运动造成的大量非正常死亡。「相将玉兔渐东升」暗指1976年后拨乱反正，中国逐渐走向和平与恢复。「落花流水两无情」描述运动中人与人之间的无情斗争。",
+      "verdict_en": "'Waters of four seas all red' is widely interpreted as the political campaigns of 1966-1976, with red ideology sweeping the nation. 'White bones piled like hills' describes the massive casualties. 'Jade rabbit gradually rises in the east' suggests the restoration of order after 1976, with China moving toward peace and recovery. 'Fallen flowers and flowing water show no mercy' describes the ruthless struggles between people during the campaigns."
+    },
+    {
+      "id": 12,
+      "cat": "economy",
+      "q": "第十一节",
+      "a": "盖棺定，功罪分，茫茫海宇见承平。百年大事浑如梦，南朝金粉太平春，万里山河处处青。\n\n白话文翻译：棺盖合上后功过才有定论，茫茫天下终于迎来太平。百年间的大事恍如一场梦，南方地区繁华富丽如同太平盛世的春天，万里山河处处生机盎然、郁郁葱葱。",
+      "q_en": "Section 11",
+      "a_en": "With the coffin sealed, merits and faults are settled — across the vast seas, peace is finally seen. A century of great events seems like a dream; the golden splendor of the southern court blooms in a spring of peace, and ten thousand miles of mountains and rivers are green everywhere.\n\nVernacular: Only when the coffin is closed can merits and faults be judged; across the boundless world, peace arrives at last. The great events of a hundred years feel like a dream. The south shines with golden splendor in a peaceful spring; across ten thousand miles of mountains and rivers, everything is verdant and thriving.",
+      "year": 1978,
+      "status": "verified",
+      "verdict_zh": "「盖棺定功罪分」指1976年毛泽东去世后对其历史功过的评价。「南朝金粉太平春」暗指1978年后改革开放从南方（深圳等经济特区）率先启动，南方经济繁荣。「万里山河处处青」描述改革开放后中国经济腾飞、社会恢复生机。「百年大事浑如梦」感叹从清末到改革开放的百年沧桑。",
+      "verdict_en": "'Coffin sealed, merits and faults settled' refers to the historical assessment of Mao Zedong after his death in 1976. 'Golden splendor of the southern court in spring' alludes to the Reform and Opening-Up launched from the south (Shenzhen and other Special Economic Zones) after 1978, and the resulting southern economic boom. 'Mountains and rivers green everywhere' describes China's economic takeoff and social revival. 'A century of great events like a dream' reflects on the turbulent century from the late Qing to Reform and Opening-Up."
+    },
+    {
+      "id": 13,
+      "cat": "spirit",
+      "q": "第十二节",
+      "a": "世宇三分，有圣人出，玄色其冠，龙张其服。天地复明，处治万物，四海讴歌，荫受其福。\n\n茫茫天数本难知，惟在苍生感太虚。老僧不敢多饶舌，泄露天机恐被诛。\n\n白话文翻译：天下分为三大势力，有圣人出世，头戴玄色冠冕，身着龙纹衣袍。天地重新恢复光明，治理万物井然有序，四海之内齐声歌颂，万民受其恩泽庇荫。\n\n茫茫天数本来就难以知晓，一切只在于苍生对太虚的感悟。老僧不敢多说废话，唯恐泄露天机遭到天谴。",
+      "q_en": "Section 12",
+      "a_en": "The world divides into three; a sage emerges, with a dark-colored crown and dragon-patterned robes. Heaven and earth are bright once more; all things are governed well. The four seas sing in praise, sheltered by his blessings.\n\nThe vast celestial numbers are truly hard to know — they lie only in the people's communion with the Great Void. This old monk dares not speak too freely, for leaking heaven's secrets invites punishment.\n\nVernacular: The world is divided into three great powers; a sage appears, wearing a dark crown and robes adorned with dragons. Heaven and earth regain their brightness; all things are governed in good order. People across the four seas sing his praises, sheltered under his blessings. The vast numbers of heaven are inherently unknowable — all depends on the people's attunement to the Great Void. This old monk dare not say more, lest revealing heaven's secrets bring divine retribution.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "siteId": "crowley",
+  "answererName": "Aleister Crowley",
+  "publishDate": "1904-1947",
+  "baseUrl": "https://pre.hilife.me/crowley",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "阿莱斯特·克劳利预言全集 - 泰勒玛创始人的神秘预言与验证 | Aleister Crowley Prophecies",
+      "description": "英国神秘学家阿莱斯特·克劳利（1875-1947）在《律法之书》及泰勒玛著作中留下的预言完整收录，涵盖荷鲁斯纪元、社会解放、宗教衰落、战争与个人主义崛起等领域，含真实度验证分析。",
+      "keywords": "克劳利,阿莱斯特·克劳利,Aleister Crowley,泰勒玛,律法之书,Liber AL,荷鲁斯纪元,神秘学,预言,Thelema",
+      "siteName": "克劳利预言",
+      "ogTitle": "阿莱斯特·克劳利预言全集 | Aleister Crowley Prophecies",
+      "ogDescription": "英国神秘学家克劳利在《律法之书》及泰勒玛著作中留下的预言完整收录与验证分析。涵盖荷鲁斯纪元、社会解放、宗教衰落等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "克劳利预言全集：泰勒玛创始人关于荷鲁斯纪元、社会解放、旧宗教衰落的神秘预言与真实度验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Aleister Crowley Prophecies - Thelema Founder's Mystical Predictions & Verification | Full Archive",
+      "description": "English occultist Aleister Crowley (1875-1947) left prophecies in The Book of the Law (Liber AL vel Legis) and Thelemic writings covering the Aeon of Horus, social liberation, collapse of old religions, wars, and individualism. Full archive with verification.",
+      "keywords": "Aleister Crowley,Crowley prophecies,Thelema,Book of the Law,Liber AL,Aeon of Horus,occultist,magick,predictions,Great Beast",
+      "siteName": "Crowley Prophecies",
+      "ogTitle": "Aleister Crowley Prophecies - The Great Beast's Predictions",
+      "ogDescription": "Prophecies from Aleister Crowley's Book of the Law and Thelemic writings. Full archive with real-world verification covering the Aeon of Horus, social liberation, and collapse of old religions.",
+      "locale": "en_US",
+      "twitterDescription": "Aleister Crowley's prophecies from The Book of the Law and Thelemic writings. Verified predictions on social liberation, religious decline, and the Aeon of Horus."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "克劳利预言",
+      "alternateName": "Crowley Prophecies",
+      "url": "https://pre.hilife.me/crowley/",
+      "description": "英国神秘学家阿莱斯特·克劳利留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eee8",
+    "white": "#fff",
+    "text": "#2a2420",
+    "text2": "#787068",
+    "textLight": "#645c54",
+    "primary": "#8c3a30",
+    "primaryDark": "#6a2018",
+    "primaryBg": "#f8ecea",
+    "link": "#8c3a30",
+    "border": "#e0dcd6",
+    "border2": "#c4beb6",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#ece8e2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Crowley Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Aleister_Crowley",
+    "sourceLabel": "Wikipedia"
+  }
+}

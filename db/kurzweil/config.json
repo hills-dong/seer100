@@ -1,0 +1,69 @@
+{
+  "siteId": "kurzweil",
+  "answererName": "Ray Kurzweil",
+  "publishDate": "1990-2024",
+  "baseUrl": "https://pre.hilife.me/kurzweil",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "雷·库兹韦尔预言全集 - 未来学家对科技奇点的17条预言与验证 | Ray Kurzweil Predictions",
+      "description": "美国未来学家雷·库兹韦尔（1948-）的17条科技预言完整收录，涵盖人工智能、虚拟现实、纳米技术、太阳能、奇点等领域。已应验预言包括智能手机普及、语音识别、电脑击败国际象棋冠军等。",
+      "keywords": "雷库兹韦尔,库兹韦尔预言,奇点临近,技术奇点,AI预言,未来学家,加速回报定律,Ray Kurzweil,Singularity",
+      "siteName": "雷·库兹韦尔预言",
+      "ogTitle": "雷·库兹韦尔预言全集 | Ray Kurzweil Predictions",
+      "ogDescription": "美国未来学家雷·库兹韦尔的17条科技预言完整收录与验证分析。涵盖AI、VR、纳米技术、太阳能、技术奇点等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "17条未来学家库兹韦尔的科技预言，含真实度验证。已应验：智能手机普及、语音识别、电脑击败国际象棋冠军等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Ray Kurzweil Predictions - 17 Technology Forecasts from the Futurist (1948-present) | Full Archive & Verification",
+      "description": "American futurist Ray Kurzweil's 17 technology predictions covering AI, virtual reality, nanotechnology, solar energy, and the Singularity. Verified predictions include smartphone ubiquity, speech recognition, computer chess victory, and more.",
+      "keywords": "Ray Kurzweil,Kurzweil predictions,Singularity,technology predictions,AI forecast,futurist,Law of Accelerating Returns,Age of Spiritual Machines",
+      "siteName": "Ray Kurzweil Predictions",
+      "ogTitle": "Ray Kurzweil Predictions - The Futurist's Complete Technology Forecasts",
+      "ogDescription": "17 technology predictions from futurist Ray Kurzweil. Full archive with real-world verification covering AI, VR, nanotech, solar energy, and the Singularity.",
+      "locale": "en_US",
+      "twitterDescription": "17 predictions from futurist Ray Kurzweil. Verified: smartphone ubiquity, speech recognition, computer chess. Predictions extend to 2045 Singularity."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "雷·库兹韦尔预言",
+      "alternateName": "Ray Kurzweil Predictions",
+      "url": "https://pre.hilife.me/kurzweil/",
+      "description": "美国未来学家雷·库兹韦尔的科技预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f2f4",
+    "white": "#fff",
+    "text": "#222830",
+    "text2": "#687078",
+    "textLight": "#565e68",
+    "primary": "#2e7a4a",
+    "primaryDark": "#1a5c32",
+    "primaryBg": "#e4f4ec",
+    "link": "#2e7a4a",
+    "border": "#d8dee4",
+    "border2": "#bcc4cc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#e8ecee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Ray Kurzweil Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ray_Kurzweil",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "siteId": "athos",
+  "answererName": "Mount Athos Elders",
+  "publishDate": "约1900年至今",
+  "baseUrl": "https://pre.hilife.me/athos",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "阿陀斯山长老预言全集 - 东正教圣山修士的末世预言与验证 | Athonite Elders Prophecies",
+      "description": "希腊阿陀斯圣山（Mount Athos）东正教长老们留下的预言完整收录，涵盖帕伊西奥斯长老、约瑟夫长老、波菲里奥斯长老等多位圣山修士关于土耳其与君士坦丁堡、俄土战争、敌基督、第三次世界大战等预言及验证。",
+      "keywords": "阿陀斯山,圣山预言,帕伊西奥斯长老,东正教预言,君士坦丁堡,末世预言,希腊预言,Mount Athos,Elder Paisios,Orthodox prophecy",
+      "siteName": "阿陀斯山长老预言",
+      "ogTitle": "阿陀斯山长老预言全集 | Athonite Elders Prophecies",
+      "ogDescription": "希腊阿陀斯圣山东正教长老们的预言完整收录与验证分析。涵盖政治、战争、宗教与末世等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "阿陀斯圣山东正教长老预言全集，涵盖帕伊西奥斯、约瑟夫、波菲里奥斯等长老关于君士坦丁堡、俄土战争、末世的预言与验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Athonite Elders Prophecies - Orthodox Prophecies from Mount Athos | Full Archive & Verification",
+      "description": "Prophecies from Orthodox Christian elders of Mount Athos, the autonomous monastic republic in Greece. Featuring Elder Paisios, Joseph the Hesychast, Elder Porphyrios, and others on Turkey, Constantinople, Russia, the Antichrist, and end times.",
+      "keywords": "Mount Athos,Athonite prophecy,Elder Paisios,Orthodox prophecy,Constantinople,end times,Greek prophecy,Joseph Hesychast,Elder Porphyrios,Holy Mountain",
+      "siteName": "Athonite Elders Prophecies",
+      "ogTitle": "Athonite Elders Prophecies - Orthodox Predictions from the Holy Mountain",
+      "ogDescription": "Prophecies from Orthodox Christian elders of Mount Athos. Full archive with verification covering wars, Turkey, Constantinople, and eschatological visions.",
+      "locale": "en_US",
+      "twitterDescription": "Prophecies from Mount Athos elders including Paisios, Joseph the Hesychast, and Porphyrios on Constantinople, Russia-Turkey conflict, and end times."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "阿陀斯山长老预言",
+      "alternateName": "Athonite Elders Prophecies",
+      "url": "https://pre.hilife.me/athos/",
+      "description": "希腊阿陀斯圣山东正教长老们留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eee8",
+    "white": "#fff",
+    "text": "#24221a",
+    "text2": "#747060",
+    "textLight": "#605c4a",
+    "primary": "#7a7040",
+    "primaryDark": "#5c5228",
+    "primaryBg": "#f6f4ea",
+    "link": "#7a7040",
+    "border": "#d8d4c4",
+    "border2": "#bab4a0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eee8da"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Athonite Elders Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Athos",
+    "sourceLabel": "Wikipedia"
+  }
+}

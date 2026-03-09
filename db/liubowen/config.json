@@ -1,0 +1,99 @@
+{
+  "siteId": "liubowen",
+  "answererName": "刘伯温（传）",
+  "publishDate": "约1368年",
+  "baseUrl": "https://pre.hilife.me/liubowen",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "刘伯温碑记全文 - 陕西太白山碑记预言详解与验证 | Liu Bowen Stone Inscription",
+      "description": "刘伯温碑记（又称救劫碑文）据传为明代刘伯温留于陕西太白山的石碑预言，预言末世灾劫、瘟疫与救世。全文收录并逐段解析验证，与烧饼歌为不同预言文本。",
+      "keywords": "刘伯温碑记,救劫碑文,太白山碑记,刘伯温预言,碑记原文,猪鼠年,瘟疫预言,Liu Bowen",
+      "siteName": "刘伯温碑记",
+      "ogTitle": "刘伯温碑记 - 太白山碑文预言全文详解",
+      "ogDescription": "据传刘伯温留于陕西太白山的末世预言碑文，预言瘟疫灾劫与救赎。全文逐段解析与验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "刘伯温碑记预言解析：十愁难过猪鼠年、瘟疫预言、末世灾劫。全文逐段验证分析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Liu Bowen Stone Inscription - Apocalyptic Prophecy from Ming Dynasty China | Full Archive & Verification",
+      "description": "The Liu Bowen Stone Inscription (刘伯温碑记), also known as the Salvation Tablet, is a prophetic text attributed to Ming dynasty strategist Liu Bowen, foretelling plagues, calamities, and salvation. Full text with verification analysis.",
+      "keywords": "Liu Bowen inscription,Liu Bowen prophecy,Taibai Mountain tablet,Chinese apocalyptic prophecy,plague prophecy",
+      "siteName": "Liu Bowen Stone Inscription",
+      "ogTitle": "Liu Bowen Stone Inscription - Ming Dynasty Apocalyptic Prophecy",
+      "ogDescription": "Prophetic stone tablet attributed to Liu Bowen, foretelling plagues, calamities, and salvation. Full text with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Liu Bowen's Stone Inscription: apocalyptic prophecy from Ming dynasty China. Plague predictions, ten calamities, and the promise of salvation. Full analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "刘伯温碑记",
+      "alternateName": "Liu Bowen Stone Inscription",
+      "url": "https://pre.hilife.me/liubowen/",
+      "description": "据传刘伯温留于陕西太白山的末世预言碑文，全文收录与验证分析",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "刘伯温碑记是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "刘伯温碑记（又称救劫碑文、太白山碑记）据传为明朝开国军师刘伯温（刘基，1311-1375）留于陕西太白山的石碑预言。碑文以韵文体写成，主要预言末世灾劫——瘟疫、饥荒、战乱——以及劫后的太平盛世。与同样托名刘伯温的《烧饼歌》内容不同：烧饼歌侧重朝代更替，碑记侧重末世灾劫。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "刘伯温碑记和烧饼歌有什么区别？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "两者均托名刘伯温，但内容和主题截然不同。烧饼歌以朱元璋与刘伯温的问答形式，预言从明朝到未来的朝代更替和政治大事。碑记则以石碑铭文体裁，集中预言末世瘟疫、天灾人祸等劫难，带有强烈的宗教末世论色彩和劝善思想。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Liu Bowen Stone Inscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Liu Bowen Stone Inscription (刘伯温碑记), also known as the Salvation Tablet (救劫碑文), is a prophetic text attributed to Liu Bowen (Liu Ji, 1311-1375), the celebrated Ming dynasty military strategist. Allegedly carved on a stone tablet found at Taibai Mountain in Shaanxi province, the inscription predicts apocalyptic calamities — plagues, famines, and wars — followed by an era of peace. It is distinct from the Shaobing Song, another prophecy attributed to Liu Bowen that focuses on dynastic transitions."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f2eef0",
+    "white": "#fff",
+    "text": "#2e2028",
+    "text2": "#7a6070",
+    "textLight": "#664e5e",
+    "primary": "#8c4a6b",
+    "primaryDark": "#6a304e",
+    "primaryBg": "#f8eff4",
+    "link": "#8c4a6b",
+    "border": "#ddd0d8",
+    "border2": "#c0b0bc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e6ec"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "刘伯温碑记"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/刘伯温",
+    "sourceLabel": "维基百科"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "siteId": "browne",
+  "answererName": "Sylvia Browne",
+  "publishDate": "1975-2013",
+  "baseUrl": "https://pre.hilife.me/browne",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "西尔维娅·布朗预言全集 - 美国著名灵媒14条预言与验证 | Sylvia Browne Prophecies",
+      "description": "美国著名灵媒西尔维娅·布朗（1936-2013）的14条预言完整收录与验证。她在2008年著作《End of Days》中预言2020年前后将出现类肺炎疫情，引发全球关注。同时记录其多次争议性错误预言。",
+      "keywords": "西尔维娅布朗,Sylvia Browne,End of Days,预言,灵媒,蒙特尔威廉斯,2020疫情预言,美国灵媒,预言验证",
+      "siteName": "西尔维娅·布朗预言",
+      "ogTitle": "西尔维娅·布朗预言全集 | Sylvia Browne Prophecies",
+      "ogDescription": "美国著名灵媒西尔维娅·布朗的14条预言完整收录与验证分析。涵盖疫情预言、失踪人口案件、社会与科技预测等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条美国灵媒西尔维娅·布朗的预言与验证。2008年著作预言2020年类肺炎疫情，但多次失踪人口预测出错。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Sylvia Browne Prophecies - 14 Predictions from the American Psychic (1936-2013) | Full Archive & Verification",
+      "description": "American psychic Sylvia Browne (1936-2013) made 14 notable predictions across her career. Her 2008 book 'End of Days' predicted a pneumonia-like illness around 2020. Also includes her controversial wrong predictions in missing persons cases.",
+      "keywords": "Sylvia Browne,Sylvia Browne predictions,End of Days,psychic,Montel Williams,2020 pandemic prediction,American psychic,prophecy verification",
+      "siteName": "Sylvia Browne Prophecies",
+      "ogTitle": "Sylvia Browne Prophecies - The American Psychic's Complete Predictions",
+      "ogDescription": "14 notable predictions from American psychic Sylvia Browne (1936-2013). Full archive with real-world verification covering pandemic predictions, missing persons cases, and more.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from psychic Sylvia Browne. Her 2008 book predicted a 2020 pandemic, but she made multiple wrong calls on missing persons cases."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "西尔维娅·布朗预言",
+      "alternateName": "Sylvia Browne Prophecies",
+      "url": "https://pre.hilife.me/browne/",
+      "description": "美国著名灵媒西尔维娅·布朗的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f0f2",
+    "white": "#fff",
+    "text": "#282024",
+    "text2": "#786470",
+    "textLight": "#644e5c",
+    "primary": "#8c5070",
+    "primaryDark": "#6a3450",
+    "primaryBg": "#f8eef2",
+    "link": "#8c5070",
+    "border": "#dcd2d8",
+    "border2": "#c0b2bc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e4ec"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Sylvia Browne Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sylvia_Browne",
+    "sourceLabel": "Wikipedia"
+  }
+}

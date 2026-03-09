@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 28" height="20">
+  <!-- Exponential curve / singularity icon -->
+  <circle cx="14" cy="14" r="12" fill="#2e7a4a"/>
+  <path d="M 6 22 Q 10 21 14 18 Q 18 14 20 6" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <circle cx="20" cy="6" r="1.8" fill="#fff"/>
+  <!-- Dashed baseline -->
+  <line x1="6" y1="22" x2="22" y2="22" stroke="#b5d9c4" stroke-width="1" stroke-dasharray="1.5 1.5"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#1a5c32" letter-spacing="0.5">KURZWEIL</text>
+</svg>

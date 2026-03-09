@@ -1,0 +1,191 @@
+{
+  "categories": {
+    "spirit": { "zh": "命理", "en": "Destiny", "icon": "i-spirit" }
+  },
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "二两一钱",
+      "q_en": "2 liang 1 qian",
+      "a": "短命非业谓大凶，平生灾难事重重。\n凶神暗处来相助，纵有吉星不顶用。\n\n白话：此命极为不吉，一生多灾多难，即使有贵人相助也难以改变困境，寿数不长。",
+      "a_en": "A short life beset by misfortune, gravely ill-starred,\nCalamities and hardships pile upon one another through the years.\nMalevolent spirits lurk in shadows lending their dark aid,\nThough blessed stars may shine, their light avails one naught.\n\nPlain meaning: This is an extremely inauspicious fate — a life plagued by disasters and misfortune. Even with benefactors offering help, the difficulties cannot be overcome, and longevity is not favored."
+    },
+    {
+      "id": 2,
+      "cat": "spirit",
+      "q": "二两二钱",
+      "q_en": "2 liang 2 qian",
+      "a": "身寒骨冷苦伶仃，此命推来行乞人。\n劳劳碌碌无度日，终年打拱过平生。\n\n白话：此命孤苦无依，生活困顿如行乞之人，终日劳碌奔波却难以改善境遇。",
+      "a_en": "Cold of body, chilled to the bone, wretched and alone,\nThis fate foretells the life of one who begs upon the road.\nToiling ceaselessly with no end to weary days,\nBowing and scraping through the years, a lifetime so bestowed.\n\nPlain meaning: This fate is one of solitude and destitution, living as though a beggar — laboring and toiling each day yet unable to improve one's circumstances."
+    },
+    {
+      "id": 3,
+      "cat": "spirit",
+      "q": "二两三钱",
+      "q_en": "2 liang 3 qian",
+      "a": "此命推来骨肉轻，求谋做事事难成。\n妻儿兄弟实难靠，外出他乡做散人。\n\n白话：此命亲缘淡薄，做事多不顺遂，难以依靠亲人，常需漂泊他乡谋生。",
+      "a_en": "This fate decrees that bonds of kin shall weigh but light,\nIn every scheme and venture, success proves hard to find.\nOn wife and children, brothers too, one cannot lean,\nSo forth to distant lands one goes, a drifter left behind.\n\nPlain meaning: This fate carries thin family bonds and frequent setbacks in endeavors. One cannot rely on relatives and must often wander to distant places to make a living."
+    },
+    {
+      "id": 4,
+      "cat": "spirit",
+      "q": "二两五钱",
+      "q_en": "2 liang 5 qian",
+      "a": "此命推来祖业微，门庭营度似稀奇。\n六亲骨肉如冰炭，一世勤劳自把持。\n\n白话：祖上家业微薄，亲族关系冷淡如冰炭不容，需靠自己一生勤劳打拼。",
+      "a_en": "This fate reveals an ancestry of meager estate,\nThe household's fortunes seem peculiar and thin.\nKin and blood relations stand like ice beside hot coals,\nA lifetime's diligence alone must see one through from origin.\n\nPlain meaning: The ancestral family fortune is slim, and relations among kin are cold and incompatible — like ice and burning charcoal. One must rely on a lifetime of hard work and self-reliance to get by."
+    },
+    {
+      "id": 5,
+      "cat": "spirit",
+      "q": "二两七钱",
+      "q_en": "2 liang 7 qian",
+      "a": "一生做事少商量，难靠祖宗作主张。\n独马单枪空作去，早年晚岁总无长。\n\n白话：此命凡事需独自决断，无法依靠祖业，孤军奋战却难有长久积蓄，一生平淡。",
+      "a_en": "Through life one acts with few to counsel or consult,\nNo ancestral fortune lends its guiding hand.\nA lone rider with a single lance sets forth in vain,\nIn youth and age alike, no lasting gains are planned.\n\nPlain meaning: This fate requires making every decision alone, with no ancestral legacy to depend upon. Fighting single-handedly yet finding it hard to accumulate lasting wealth — a plain and unremarkable life."
+    },
+    {
+      "id": 6,
+      "cat": "spirit",
+      "q": "三两",
+      "q_en": "3 liang",
+      "a": "劳劳碌碌苦中求，东走西奔何日休。\n若使终身勤与俭，老来稍可免忧愁。\n\n白话：一生劳碌奔波，若能坚持勤俭持家，到老年尚可略得安宁。",
+      "a_en": "Toiling and laboring, seeking amid bitterness and pain,\nRushing east and west — when shall such wandering cease?\nIf one holds fast to thrift and diligence for life,\nIn old age one may at last find a measure of peace.\n\nPlain meaning: A life of endless toil and running about. Yet if one can persist in frugality and hard work throughout, some tranquility may be found in old age."
+    },
+    {
+      "id": 7,
+      "cat": "spirit",
+      "q": "三两二钱",
+      "q_en": "3 liang 2 qian",
+      "a": "初年运限事难谋，渐有财源如水流。\n到得中年衣食旺，那时名利一齐收。\n\n白话：早年运势不佳难成事业，但渐渐财源广进，中年后衣食丰足，名利双收。",
+      "a_en": "In early years the fortunes falter, plans go astray,\nYet gradually wealth arrives and flows like water's stream.\nBy middle age, provisions flourish, food and clothing abound,\nAnd then both fame and fortune join in one fulfilling dream.\n\nPlain meaning: The early years bring poor luck and difficulty in establishing oneself, but wealth gradually increases. After middle age, one enjoys abundance in food and clothing, reaping both fame and fortune together."
+    },
+    {
+      "id": 8,
+      "cat": "spirit",
+      "q": "三两五钱",
+      "q_en": "3 liang 5 qian",
+      "a": "生平福量不周全，祖业根基觉少传。\n营事生涯宜守旧，时来衣食胜从前。\n\n白话：福分不算丰厚，祖业传承少，做事宜稳守本分，时运到来后生活会比从前好。",
+      "a_en": "The blessings granted in this life are less than full,\nAncestral foundations passed along are scant and few.\nIn one's affairs and livelihood, best hold to steady ways,\nWhen fortune's time arrives, provisions shall surpass what once one knew.\n\nPlain meaning: Blessings are not especially generous, and little is inherited from ancestors. It is best to be steady and conservative in one's dealings. When good fortune finally comes, life will be better than before."
+    },
+    {
+      "id": 9,
+      "cat": "spirit",
+      "q": "三两八钱",
+      "q_en": "3 liang 8 qian",
+      "a": "一身骨肉最清高，早入黉门姓名标。\n待看年将三十六，蓝衣脱去换红袍。\n\n白话：天资聪颖品行高洁，年少便能读书成名，三十六岁左右将脱去布衣换上官服，功成名就。",
+      "a_en": "Of noble bearing and refined in flesh and bone,\nEarly through the scholar's gate, one's name inscribed in fame.\nWait until the year of thirty-six draws near,\nThe blue commoner's robe is shed — a crimson mantle one shall claim.\n\nPlain meaning: Gifted with intelligence and upright character, one gains scholarly recognition while young. Around the age of thirty-six, the commoner's garments are exchanged for official robes — a sign of great success and achievement."
+    },
+    {
+      "id": 10,
+      "cat": "spirit",
+      "q": "四两",
+      "q_en": "4 liang",
+      "a": "平生衣禄是绑然，名利双全世间稀。\n若教背后无靠倚，倒也能安稳过余生。\n\n白话：一生衣食无忧，名利尚可。即使没有强大的靠山，也能安稳度日。",
+      "a_en": "Through life, provisions and fortune are amply secured,\nBoth fame and profit together — a rarity in the world.\nEven should there be no patron standing at one's back,\nOne may still pass the remaining years in steady peace unfurled.\n\nPlain meaning: A life free from want in food and clothing, with respectable fame and fortune. Even without a powerful patron or backer, one can live out one's days in stable comfort."
+    },
+    {
+      "id": 11,
+      "cat": "spirit",
+      "q": "四两二钱",
+      "q_en": "4 liang 2 qian",
+      "a": "得宽怀处且宽怀，何用双眉总不开。\n若使中年命运济，那时名利一齐来。\n\n白话：心态宜放宽，不必终日忧虑。中年时运势好转，名利自然一齐到来。",
+      "a_en": "Where ease of heart is found, let the heart be at ease,\nWhy keep both brows forever knit in worried care?\nIf in the middle years one's fortune turns to favor,\nThen fame and profit both arrive and make a handsome pair.\n\nPlain meaning: One should adopt a broad and open mindset rather than worrying day and night. When fortune improves in middle age, fame and wealth will naturally come together."
+    },
+    {
+      "id": 12,
+      "cat": "spirit",
+      "q": "四两五钱",
+      "q_en": "4 liang 5 qian",
+      "a": "名利推来竟若何，前番辛苦后奔波。\n命中难养男和女，骨肉扶持也不多。\n\n白话：名利来之不易，前半生辛苦后半生奔波。子女缘分较浅，亲族帮衬也少。",
+      "a_en": "What does the pursuit of fame and fortune truly bring?\nThe first half spent in hardship, the latter running still.\nFate decrees that sons and daughters are hard to raise,\nAnd little aid from kith and kin shall come to fill.\n\nPlain meaning: Fame and fortune do not come easily — the first half of life is marked by hardship, the second by restless striving. The bond with children is shallow, and support from relatives is scarce."
+    },
+    {
+      "id": 13,
+      "cat": "spirit",
+      "q": "四两八钱",
+      "q_en": "4 liang 8 qian",
+      "a": "初年运道未曾亨，若是蹉跎再不兴。\n兄弟六亲皆无靠，一身事业晚年成。\n\n白话：早年运势不通达，若虚度光阴更难起色。亲族难以依靠，事业要到晚年才有成就。",
+      "a_en": "In early years the path of fortune has not opened wide,\nIf time is squandered idly, revival grows more dim.\nBrothers and kin of every degree offer no support,\nOne's life work finds achievement only at the evening's rim.\n\nPlain meaning: Fortune does not smile in the early years, and if time is wasted, recovery becomes even harder. Relatives cannot be counted on for help, and career success comes only in the later years of life."
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "五两",
+      "q_en": "5 liang",
+      "a": "为利为名终日劳，中年福禄也多遭。\n老来自有称心日，恰是悠闲衣食饶。\n\n白话：前半生为名利奔忙，中年也历经波折。到了老年终能称心如意，生活悠闲富足。",
+      "a_en": "For profit and for fame one labors all the day,\nIn middle years, even blessings come with trials entwined.\nIn old age there shall arise a time of heart's content,\nWith leisure, ample food and clothing — peace of mind.\n\nPlain meaning: The first half of life is spent chasing fame and fortune, and even the middle years are marked by setbacks. In old age, however, contentment finally arrives — a life of leisure and plenty."
+    },
+    {
+      "id": 15,
+      "cat": "spirit",
+      "q": "五两二钱",
+      "q_en": "5 liang 2 qian",
+      "a": "一世荣华事事通，不须劳碌自享丰。\n兄弟叔侄皆如意，家业成时福禄宏。\n\n白话：一生荣华富贵事事顺遂，不需过度操劳便能享受丰裕。亲族和睦，家业兴旺福禄深厚。",
+      "a_en": "A lifetime of glory — in all things the way is clear,\nNo need for weary toil, for abundance comes of its own.\nBrothers, uncles, nephews all find matters to their liking,\nWhen the family estate is built, vast blessings shall be sown.\n\nPlain meaning: A life of splendor and prosperity where everything goes smoothly, with no need for excessive labor to enjoy abundance. The extended family is harmonious, and when the family fortune is established, blessings and good fortune run deep."
+    },
+    {
+      "id": 16,
+      "cat": "spirit",
+      "q": "五两五钱",
+      "q_en": "5 liang 5 qian",
+      "a": "走马扬鞭争利名，少年做事废功程。\n一朝福禄源源至，富贵荣华显六亲。\n\n白话：年轻时急于争名逐利反而事倍功半。一旦时运来临，福禄源源不断，富贵荣华惠及亲族。",
+      "a_en": "On galloping horse with whip held high, chasing fame and gain,\nIn youth, the efforts spent on ventures yield but half their worth.\nOnce blessings and good fortune come pouring without end,\nWealth and glory honor all one's kin across the earth.\n\nPlain meaning: In youth, the eager pursuit of fame and fortune produces meager results. Yet once the tide of fortune turns, blessings flow ceaselessly, and wealth and glory extend to benefit the entire family."
+    },
+    {
+      "id": 17,
+      "cat": "spirit",
+      "q": "五两八钱",
+      "q_en": "5 liang 8 qian",
+      "a": "平生福禄自然来，名利兼全福寿偕。\n雁塔题名为贵客，紫袍金带走金阶。\n\n白话：一生福禄天成，名利双全且长寿。如同科举登第的贵人，身着紫袍金带步入朝堂，地位显赫。",
+      "a_en": "Through life, fortune and blessings arrive of their own accord,\nFame and profit both complete, with longevity beside.\nOne's name inscribed upon the Wild Goose Pagoda as an honored guest,\nIn purple robe and golden sash, ascending golden stairs in stride.\n\nPlain meaning: A life where fortune comes naturally, with both fame and wealth attained alongside longevity. Like a scholar whose name is inscribed at the imperial examination hall, donning purple robes and a golden sash to enter the court — a position of great eminence."
+    },
+    {
+      "id": 18,
+      "cat": "spirit",
+      "q": "六两",
+      "q_en": "6 liang",
+      "a": "一朝金榜快题名，显祖荣宗立大功。\n衣食定然原裕足，田园财帛更丰盈。\n\n白话：金榜题名光宗耀祖，建立大功。衣食本就充裕，田产财富更加丰盈，是大富大贵之命。",
+      "a_en": "One day upon the golden roll one's name is swiftly placed,\nBringing glory to ancestors and merit of the highest kind.\nFood and clothing were already ample from the start,\nLands and riches grow more bountiful — great fortune intertwined.\n\nPlain meaning: To have one's name on the imperial examination rolls brings glory to one's ancestors and establishes great merit. Provisions were already sufficient, but lands and wealth grow ever more abundant — a fate of tremendous prosperity and high status."
+    },
+    {
+      "id": 19,
+      "cat": "spirit",
+      "q": "六两二钱",
+      "q_en": "6 liang 2 qian",
+      "a": "此命生来福不穷，读书必定显亲宗。\n紫衣金带为卿相，富贵荣华孰与同。\n\n白话：此命福泽深厚无穷，读书必能光耀门楣。身着紫衣金带位列卿相，富贵荣华无人能比。",
+      "a_en": "This fate is born with blessings that shall never be exhausted,\nThrough scholarship, one's clan shall surely bask in honored light.\nIn purple robes and golden sash, a minister of state,\nSuch wealth and glory — who in all the world could match this height?\n\nPlain meaning: This fate carries inexhaustible blessings. Through learning and study, one is certain to bring honor to the family name. Clad in purple robes with a golden sash as a high minister, the wealth and glory are unrivaled by anyone."
+    },
+    {
+      "id": 20,
+      "cat": "spirit",
+      "q": "六两六钱",
+      "q_en": "6 liang 6 qian",
+      "a": "此格人间一福人，堆金积玉满堂春。\n从来富贵由天定，正笏垂绅谒圣君。\n\n白话：人间有福之人，金玉满堂春意盎然。富贵由天注定，手持笏板身着朝服面见圣上，是极贵之命。",
+      "a_en": "This station marks a truly blessed soul upon the earth,\nGold heaped and jade amassed, the hall is bright with spring.\nWealth and honor have always been decreed by Heaven's hand,\nHolding court tablet, robes cascading, one goes to greet the king.\n\nPlain meaning: A person of exceptional fortune in the mortal world, with gold and jade filling the halls in an atmosphere of perpetual spring. Wealth and nobility are ordained by Heaven — holding the ceremonial tablet and wearing court robes to have audience with the emperor, this is a fate of supreme nobility."
+    },
+    {
+      "id": 21,
+      "cat": "spirit",
+      "q": "六两九钱",
+      "q_en": "6 liang 9 qian",
+      "a": "君是人间衣禄星，一生富贵万事成。\n不须劳碌自然享，读书聪明做大臣。\n\n白话：天生便是人间的福禄之星，一生富贵万事亨通。无需劳碌便能自然享受，聪明绝顶可做朝中大臣。",
+      "a_en": "You are the star of fortune and provision among mortals born,\nA life of wealth and honor, in all endeavors blessed.\nNo need for toil — enjoyment comes as naturally as dawn,\nBrilliant in study, destined to serve as minister of the crest.\n\nPlain meaning: Born as the very star of earthly fortune and provision, enjoying a life of wealth and success in all things. Without any need for laborious effort, blessings come naturally. Extraordinarily intelligent, one is destined to serve as a great minister at court."
+    },
+    {
+      "id": 22,
+      "cat": "spirit",
+      "q": "七两一钱",
+      "q_en": "7 liang 1 qian",
+      "a": "此命生来大不同，公侯卿相在其中。\n一生自有逍遥福，富贵荣华极品隆。\n\n白话：此命天生与众不同，公侯卿相的命格。一生逍遥自在享福，富贵荣华至极品之位。",
+      "a_en": "This fate from birth is vastly different from the rest,\nWithin it dwell the ranks of duke, marquis, and minister.\nA life endowed with carefree blessings, free and unconfined,\nWealth and glory at their zenith — the most exalted register.\n\nPlain meaning: This fate is extraordinary from the moment of birth, carrying the destiny of dukes, marquises, and high ministers. One enjoys a lifetime of carefree blessings, with wealth and glory reaching the very pinnacle of distinction."
+    },
+    {
+      "id": 23,
+      "cat": "spirit",
+      "q": "七两二钱",
+      "q_en": "7 liang 2 qian",
+      "a": "此命推来福禄宏，万金家计做苍龙。\n出入朝堂多宠幸，万年留得显威名。\n\n白话：此命福禄最为宏大，万贯家财如龙腾飞。出入朝堂备受恩宠，千秋万载留下显赫威名。这是称骨算命中最重最贵的命格。",
+      "a_en": "This fate foretells the grandest fortune, blessings vast and wide,\nA household worth ten thousand gold, ascending like a dragon bold.\nEntering and leaving court with utmost royal favor blessed,\nFor ten thousand years a name of power and fame shall be extolled.\n\nPlain meaning: This fate carries the most magnificent fortune and blessings of all. With a family fortune worth ten thousand gold, one soars like a dragon. Moving freely in and out of the imperial court with great favor, a renowned and mighty name endures through the ages. This is the heaviest and most noble destiny in the bone-weighing divination system."
+    }
+  ]
+}

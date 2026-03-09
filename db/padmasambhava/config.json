@@ -1,0 +1,69 @@
+{
+  "siteId": "padmasambhava",
+  "answererName": "莲花生大师",
+  "publishDate": "约760年",
+  "baseUrl": "https://pre.hilife.me/padmasambhava",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "莲花生大师预言全集 - 藏传佛教伏藏预言与验证 | Padmasambhava Prophecies",
+      "description": "莲花生大师（Padmasambhava/Guru Rinpoche），8世纪印度佛教大师，将佛法传入西藏。其预言以伏藏（terma）形式埋藏，经后世掘藏师发现。涵盖铁鸟飞天、佛法西传、末法时代等著名预言。",
+      "keywords": "莲花生大师,莲师预言,Padmasambhava,Guru Rinpoche,伏藏,terma,藏传佛教预言,铁鸟预言,末法时代,佛法西传",
+      "siteName": "莲师预言",
+      "ogTitle": "莲花生大师预言全集 | Padmasambhava Prophecies",
+      "ogDescription": "8世纪莲花生大师留下的伏藏预言完整收录与验证分析。涵盖铁鸟飞天、佛法西传、末法时代等著名预言。",
+      "locale": "zh_CN",
+      "twitterDescription": "莲花生大师伏藏预言全集，含验证分析。铁鸟飞天、佛法西传、末法时代等著名预言收录。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Padmasambhava Prophecies - Terma Predictions from Guru Rinpoche (8th Century) | Full Archive & Verification",
+      "description": "Padmasambhava (Guru Rinpoche), the 8th-century Indian Buddhist master who brought Buddhism to Tibet. His prophecies, hidden as terma (treasure texts), cover the iron bird prophecy, Dharma spreading to the West, the decline of Tibet, and the age of degeneration.",
+      "keywords": "Padmasambhava,Guru Rinpoche,terma prophecy,Tibetan Buddhism predictions,iron bird prophecy,Dharma West,hidden treasure texts,lotus-born master",
+      "siteName": "Padmasambhava Prophecies",
+      "ogTitle": "Padmasambhava Prophecies - Terma Predictions from the Lotus-Born Master",
+      "ogDescription": "Prophecies from the 8th-century Buddhist master Padmasambhava, preserved as terma treasure texts. Full archive with verification covering the iron bird prophecy, Dharma spreading West, and the age of degeneration.",
+      "locale": "en_US",
+      "twitterDescription": "Terma prophecies from Padmasambhava (Guru Rinpoche). Iron bird flies, Dharma spreads West, age of degeneration — predictions from the 8th century."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "莲师预言",
+      "alternateName": "Padmasambhava Prophecies",
+      "url": "https://pre.hilife.me/padmasambhava/",
+      "description": "莲花生大师伏藏预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eef2",
+    "white": "#fff",
+    "text": "#201e28",
+    "text2": "#68607a",
+    "textLight": "#544c66",
+    "primary": "#6a4a8c",
+    "primaryDark": "#4e306a",
+    "primaryBg": "#f0eaf6",
+    "link": "#6a4a8c",
+    "border": "#d4cce0",
+    "border2": "#b8aec4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e8e2f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "莲师预言"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Padmasambhava",
+    "sourceLabel": "Wikipedia"
+  }
+}

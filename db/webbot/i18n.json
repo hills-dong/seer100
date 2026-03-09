@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "Web Bot 预言",
+    "siteSubtitle": "互联网语言分析预测系统（1997年至今）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "Web Bot 是什么？",
+    "homeIntro1": "Web Bot Project 由美国程序员 Clif High 于1997年创建，最初设计用于预测股票市场走势。该系统通过网络爬虫抓取互联网上的大量文本数据，利用语言学分析（\"预测语言学\"）技术，试图从人们在网上使用的词汇和语气的变化中，捕捉到对未来事件的集体无意识预感。",
+    "homeIntro2": "Web Bot 的核心理论基础是：互联网上数十亿人的语言模式会在重大事件发生前出现微妙的系统性变化，这些变化可以被算法捕捉和解读。Clif High 将此称为\"预测语言学\"（Predictive Linguistics），认为人类的集体潜意识会通过语言泄露未来的信息。",
+    "homeIntro3": "Web Bot 声称预测了2001年911事件、2004年印度洋海啸、2008年金融危机等重大事件，但这些说法存在很大争议。批评者指出，许多预测是事后追溯性解读，措辞模糊到几乎可以匹配任何事件，且大量末日预言（如2012年灾难）完全落空。本站收录了14条代表性预测，并进行客观验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「互联网是人类集体无意识的镜子。当足够多的人以特定方式改变他们的语言模式时，未来的事件就已经投射出了它的影子。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1997年 —— Clif High 创建 Web Bot Project，最初用于股票市场预测",
+      "2001年 —— 声称在911事件前检测到\"大规模破坏性事件\"的语言信号",
+      "2008年 —— 因声称预测金融危机而获得广泛关注，开始收费发布ALTA报告",
+      "2012年 —— 预测的末日灾难未发生，公信力受到严重质疑",
+      "2017年 —— 转向加密货币预测领域，声称预测比特币价格走势"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自 Clif High 公开发布的 ALTA (Asymmetric Language Trend Analysis) 报告及其公开访谈（<a href=\"https://en.wikipedia.org/wiki/Web_Bot\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开新闻报道和统计数据",
+      "Web Bot 的预测方法论存在广泛学术争议，缺乏同行评审的科学验证（<a href=\"https://web.archive.org/web/2012*/halfpasthuman.com\" target=\"_blank\" rel=\"noopener\">Wayback Machine: halfpasthuman.com</a>）",
+      "编者观点不代表学术定论",
+      "站点图标采用蜘蛛/网络图案——Web Bot 的核心技术是网络爬虫（web crawler / spider），蜘蛛是网络爬虫最广为人知的视觉符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Web Bot Predictions",
+    "siteSubtitle": "Internet Linguistic Analysis System (1997-present)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "What is Web Bot?",
+    "homeIntro1": "The Web Bot Project was created by American programmer Clif High in 1997, originally designed to predict stock market trends. The system uses web crawlers to scrape large amounts of text data from the internet, employing linguistic analysis ('Predictive Linguistics') to detect subtle shifts in the words and tone people use online, claiming these shifts reflect collective unconscious premonitions of future events.",
+    "homeIntro2": "The core theory behind Web Bot is that the language patterns of billions of internet users undergo systematic changes before major events occur, and these changes can be captured and interpreted by algorithms. Clif High calls this 'Predictive Linguistics,' arguing that humanity's collective subconscious leaks information about the future through language.",
+    "homeIntro3": "Web Bot has claimed to predict the 9/11 attacks in 2001, the 2004 Indian Ocean tsunami, the 2008 financial crisis, and other major events, though these claims are highly controversial. Critics point out that many predictions are retroactively interpreted, worded vaguely enough to match almost any event, and that numerous doomsday predictions (such as the 2012 catastrophe) completely failed. This site compiles 14 representative predictions with objective verification.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The internet is a mirror of humanity's collective unconscious. When enough people change their language patterns in specific ways, future events have already cast their shadows.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1997 —— Clif High creates the Web Bot Project, initially for stock market prediction",
+      "2001 —— Claims to detect linguistic signals of 'mass destructive event' before 9/11",
+      "2008 —— Gains widespread attention for claiming to predict the financial crisis; begins charging for ALTA reports",
+      "2012 —— Predicted doomsday catastrophe fails to materialize; credibility severely questioned",
+      "2017 —— Pivots to cryptocurrency predictions, claims to forecast Bitcoin price movements"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions compiled from Clif High's publicly released ALTA (Asymmetric Language Trend Analysis) reports and public interviews (<a href=\"https://en.wikipedia.org/wiki/Web_Bot\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public news reports and statistical data",
+      "Web Bot's predictive methodology is widely disputed in academic circles and lacks peer-reviewed scientific validation (<a href=\"https://web.archive.org/web/2012*/halfpasthuman.com\" target=\"_blank\" rel=\"noopener\">Wayback Machine: halfpasthuman.com</a>)",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: spider/web pattern — Web Bot's core technology is a web crawler (spider), and the spider is the most widely recognized visual symbol for web crawling"
+    ]
+  }
+}

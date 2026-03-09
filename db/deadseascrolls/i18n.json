@@ -1,0 +1,62 @@
+{
+  "zh": {
+    "siteTitle": "死海古卷预言",
+    "siteSubtitle": "库姆兰社区末世文本（约前200年-公元68年）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "死海古卷是什么？",
+    "homeIntro1": "死海古卷是1947年至1956年间在约旦河西岸库姆兰附近的洞穴中发现的约900份手稿的总称，是20世纪最重大的考古发现之一。这些文本由一个被称为「艾赛尼派」的犹太教苦修社区在约公元前200年至公元68年间抄写保存。",
+    "homeIntro2": "古卷中包含大量预言性和末世论文本，其中最著名的包括《战争卷轴》（描述末日之战「光明之子与黑暗之子」的终极对决）、《哈巴谷注释》（将古代预言重新诠释为当代事件）、以及多部弥赛亚预言文本。这些文本反映了库姆兰社区强烈的末世期待。",
+    "homeIntro3": "死海古卷对理解第二圣殿时期犹太教和早期基督教的起源具有无可替代的学术价值。古卷目前主要收藏于耶路撒冷的以色列博物馆「圣书之龛」。本站整理了古卷中最具预言性的文本片段，并附学术背景说明。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「光明之子必将与黑暗之子展开最后的战争。这是一场公义与邪恶之间的永恒之战，直到上帝的终审判决降临。」——《战争卷轴》(1QM)",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约前200年 —— 库姆兰社区开始形成，最早的古卷文本被抄写",
+      "约前165年 —— 马加比起义后，社区将历史事件融入末世预言框架",
+      "约前100年 —— 《战争卷轴》《圣殿卷轴》等核心末世文本成文",
+      "公元68年 —— 罗马军团摧毁库姆兰，社区成员将古卷藏入洞穴",
+      "1947年 —— 贝都因牧羊人在库姆兰洞穴发现第一批古卷",
+      "1991年 —— 古卷全部文本向学术界公开，掀起研究热潮"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "古卷原文译本主要参考 Geza Vermes《The Complete Dead Sea Scrolls in English》及 Florentino García Martínez《The Dead Sea Scrolls Translated》（<a href=\"https://archive.org/details/completedeadseas0000unse\" target=\"_blank\" rel=\"noopener\">Archive.org</a>）",
+      "以色列古物管理局死海古卷数字图书馆提供原始影像（<a href=\"https://www.deadseascrolls.org.il/\" target=\"_blank\" rel=\"noopener\">Leon Levy Dead Sea Scrolls Digital Library</a>）",
+      "学术背景参考《Encyclopedia of the Dead Sea Scrolls》（Oxford University Press）及相关同行评审论文",
+      "验证评价基于现代考古学和历史学研究共识",
+      "编者观点不代表学术定论",
+      "站点图标采用陶罐符号——库姆兰陶罐是死海古卷最具标志性的视觉符号，古卷正是在这些密封陶罐中保存了两千年"
+    ]
+  },
+  "en": {
+    "siteTitle": "Dead Sea Scrolls Prophecies",
+    "siteSubtitle": "Eschatological Texts from Qumran (~200 BC - 68 AD)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What are the Dead Sea Scrolls?",
+    "homeIntro1": "The Dead Sea Scrolls are a collection of approximately 900 manuscripts discovered between 1947 and 1956 in caves near Qumran on the western shore of the Dead Sea — one of the greatest archaeological discoveries of the 20th century. These texts were copied and preserved by a Jewish ascetic community known as the Essenes, dating from roughly 200 BC to 68 AD.",
+    "homeIntro2": "The scrolls contain extensive prophetic and apocalyptic texts. The most notable include the War Scroll (describing the final battle between the 'Sons of Light' and 'Sons of Darkness'), Pesher Habakkuk (reinterpreting ancient prophecies as contemporary events), and several Messianic prophecy texts. These writings reflect the Qumran community's intense eschatological expectations.",
+    "homeIntro3": "The Dead Sea Scrolls are of irreplaceable scholarly value for understanding Second Temple Judaism and the origins of early Christianity. The scrolls are primarily housed in the Shrine of the Book at the Israel Museum in Jerusalem. This site compiles the most prophetic textual fragments from the scrolls with scholarly context.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The Sons of Light shall wage the final war against the Sons of Darkness. This is the eternal battle between righteousness and wickedness, until God's final judgment descends.\" — War Scroll (1QM)",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "~200 BC —— Qumran community begins to form; earliest scroll texts are copied",
+      "~165 BC —— After Maccabean Revolt, community integrates historical events into eschatological framework",
+      "~100 BC —— Core apocalyptic texts composed: War Scroll, Temple Scroll",
+      "68 AD —— Roman legions destroy Qumran; community members hide scrolls in caves",
+      "1947 —— Bedouin shepherds discover the first scrolls in Qumran caves",
+      "1991 —— All scroll texts released to scholars, sparking a research boom"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Scroll translations primarily based on Geza Vermes' <em>The Complete Dead Sea Scrolls in English</em> and Florentino García Martínez' <em>The Dead Sea Scrolls Translated</em> (<a href=\"https://archive.org/details/completedeadseas0000unse\" target=\"_blank\" rel=\"noopener\">Archive.org</a>)",
+      "Original manuscript images from the Israel Antiquities Authority (<a href=\"https://www.deadseascrolls.org.il/\" target=\"_blank\" rel=\"noopener\">Leon Levy Dead Sea Scrolls Digital Library</a>)",
+      "Scholarly context from <em>Encyclopedia of the Dead Sea Scrolls</em> (Oxford University Press) and peer-reviewed publications",
+      "Verification based on modern archaeological and historical research consensus",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: pottery jar symbol — the Qumran jars are the most iconic visual symbol of the Dead Sea Scrolls, as the manuscripts were preserved inside these sealed jars for two millennia"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "条文第一〇〇〇数·论父",
+      "a": "「先天定数，父命属鼠，庚子年生人。」\n白话：根据先天定数推算，父亲生肖属鼠，出生于庚子年。",
+      "q_en": "Entry No. 1000 — On Father",
+      "a_en": "\"By pre-heaven fixed numbers, the father's destiny belongs to the Rat; he is born in a Geng-Zi year.\"\nVernacular: According to the pre-heaven calculation, the father's zodiac is the Rat, born in a Geng-Zi year."
+    },
+    {
+      "id": 2,
+      "cat": "spirit",
+      "q": "条文第一〇五〇数·论母",
+      "a": "「母命属马，生于丙午之年，性刚而心善。」\n白话：母亲生肖属马，出生于丙午年，性格刚强但心地善良。",
+      "q_en": "Entry No. 1050 — On Mother",
+      "a_en": "\"The mother's destiny belongs to the Horse, born in a Bing-Wu year; firm in character yet kind at heart.\"\nVernacular: The mother's zodiac is the Horse, born in a Bing-Wu year, strong-willed but kindhearted."
+    },
+    {
+      "id": 3,
+      "cat": "spirit",
+      "q": "条文第二〇〇〇数·论兄弟",
+      "a": "「兄弟三人，排行居二，长兄属虎，弟属龙。」\n白话：命中注定有三兄弟，此人排行老二，大哥属虎，弟弟属龙。",
+      "q_en": "Entry No. 2000 — On Siblings",
+      "a_en": "\"Three brothers in total, ranked second; the elder brother belongs to the Tiger, the younger to the Dragon.\"\nVernacular: Destined to have three brothers, this person is the second; the eldest is a Tiger, the youngest a Dragon."
+    },
+    {
+      "id": 4,
+      "cat": "spirit",
+      "q": "条文第二五〇〇数·论姊妹",
+      "a": "「姊妹二人，各适异方，花开两朵，各表一枝。」\n白话：命中有两姊妹，各自嫁往不同地方，如同两朵花各开一枝。",
+      "q_en": "Entry No. 2500 — On Sisters",
+      "a_en": "\"Two sisters, each married to a different land; two flowers bloom, each on its own branch.\"\nVernacular: Destined to have two sisters, each marrying into different regions — like two flowers, each blooming on its own stem."
+    },
+    {
+      "id": 5,
+      "cat": "spirit",
+      "q": "条文第三〇〇〇数·论妻",
+      "a": "「妻宫属兔，卯年之女，贤淑持家，白头偕老。」\n白话：妻子生肖属兔，为卯年出生之女子，贤良淑德善持家务，夫妻可白头偕老。",
+      "q_en": "Entry No. 3000 — On Wife",
+      "a_en": "\"The wife's palace belongs to the Rabbit, a woman of a Mao year; virtuous and skilled in household management, they shall grow old together.\"\nVernacular: The wife's zodiac is the Rabbit, born in a Mao year; she is virtuous and capable, and the couple will remain together until old age."
+    },
+    {
+      "id": 6,
+      "cat": "spirit",
+      "q": "条文第三五〇〇数·论再娶",
+      "a": "「弦断再续，中年丧偶，后娶之妻属蛇。」\n白话：如琴弦断裂后再续接，中年时丧偶，续娶之妻属蛇。",
+      "q_en": "Entry No. 3500 — On Remarriage",
+      "a_en": "\"The string breaks and is restrung; widowed in middle age, the second wife belongs to the Snake.\"\nVernacular: Like a broken lute string mended anew — widowed in middle age, the remarried wife's zodiac is the Snake."
+    },
+    {
+      "id": 7,
+      "cat": "spirit",
+      "q": "条文第四〇〇〇数·论子嗣",
+      "a": "「命中有子二人，长子属牛，次子属羊，晚年得力于次子。」\n白话：命中注定有两个儿子，长子属牛，次子属羊，到晚年主要依靠次子照顾。",
+      "q_en": "Entry No. 4000 — On Sons",
+      "a_en": "\"Destined to have two sons; the elder belongs to the Ox, the younger to the Goat. In old age, the younger son provides the most support.\"\nVernacular: Fated to have two sons — eldest a year of the Ox, youngest a year of the Goat; the younger proves more dependable in later years."
+    },
+    {
+      "id": 8,
+      "cat": "spirit",
+      "q": "条文第四五〇〇数·论女",
+      "a": "「命带一女，属猴，聪慧过人，远嫁他乡。」\n白话：命中有一个女儿，属猴，聪明超过常人，将远嫁到他乡。",
+      "q_en": "Entry No. 4500 — On Daughter",
+      "a_en": "\"Destined to have one daughter, belonging to the Monkey; exceptionally intelligent, she will marry far away.\"\nVernacular: Fated to have one daughter of the Monkey zodiac; brilliantly clever, she will marry into a distant land."
+    },
+    {
+      "id": 9,
+      "cat": "spirit",
+      "q": "条文第五〇〇〇数·论功名",
+      "a": "「少年登科，二十有三中举，仕途顺遂，官至五品。」\n白话：年纪轻轻便考中科举，二十三岁中举人，仕途一路顺畅，最终官至五品。",
+      "q_en": "Entry No. 5000 — On Career and Rank",
+      "a_en": "\"Success in imperial exams at a young age; passing the provincial exam at twenty-three, a smooth official career, rising to the fifth rank.\"\nVernacular: Achieves scholarly success early, passing the provincial exam at age 23; an unimpeded career in officialdom, ultimately reaching the fifth rank."
+    },
+    {
+      "id": 10,
+      "cat": "spirit",
+      "q": "条文第五五〇〇数·论困厄",
+      "a": "「功名蹭蹬，半生蹉跎，四十以后方有转机。」\n白话：功名之路坎坷不顺，大半生蹉跎岁月，四十岁以后才出现转机。",
+      "q_en": "Entry No. 5500 — On Hardship",
+      "a_en": "\"The path to success is full of stumbles; half a life wasted, but a turning point comes after forty.\"\nVernacular: The road to achievement is rocky — most of life passes fruitlessly, but fortune finally turns after the age of forty."
+    },
+    {
+      "id": 11,
+      "cat": "economy",
+      "q": "条文第六〇〇〇数·论财禄",
+      "a": "「中年发迹，田产丰厚，然不可贪多务得，恐有破败。」\n白话：中年开始发达，拥有丰厚的田产家业，但切勿贪心不足，否则恐遭破败。",
+      "q_en": "Entry No. 6000 — On Wealth",
+      "a_en": "\"Prosperity begins in middle age, with abundant land and property; yet one must not be greedy, lest ruin follows.\"\nVernacular: Fortune rises in middle age, bringing ample estates — but beware of greed, for overreaching invites downfall."
+    },
+    {
+      "id": 12,
+      "cat": "spirit",
+      "q": "条文第七〇〇〇数·论寿元",
+      "a": "「寿登七十有三，秋风起处归西天。」\n白话：寿命到七十三岁，于秋天去世。",
+      "q_en": "Entry No. 7000 — On Lifespan",
+      "a_en": "\"Life reaches seventy-three; when the autumn wind rises, one departs for the western heaven.\"\nVernacular: The lifespan extends to seventy-three years; death comes in the autumn season."
+    },
+    {
+      "id": 13,
+      "cat": "spirit",
+      "q": "条文第八〇〇〇数·论大运",
+      "a": "「一生大运：少年多病，青年立志，中年亨通，晚年安乐。四柱之中，火土为用，忌金水。」\n白话：一生运势走向：少年时期多有疾病，青年时期树立志向，中年事事亨通顺利，晚年安逸快乐。八字用神为火和土，忌神为金和水。",
+      "q_en": "Entry No. 8000 — On Life Cycles",
+      "a_en": "\"The great cycle of life: illness in youth, ambition in young adulthood, prosperity in middle age, peace in old age. Among the Four Pillars, Fire and Earth are beneficial; Metal and Water are unfavorable.\"\nVernacular: Life's trajectory — sickly in childhood, purposeful in youth, thriving in midlife, serene in later years. The favorable elements are Fire and Earth; Metal and Water should be avoided."
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "条文第九〇〇〇数·论灾厄",
+      "a": "「三十六岁有水厄之灾，宜慎舟车，过此则安。」\n白话：三十六岁时有与水相关的灾祸，应当在乘船坐车时格外谨慎，平安度过此劫后便可无忧。",
+      "q_en": "Entry No. 9000 — On Calamity",
+      "a_en": "\"At age thirty-six, there is a calamity of water; one should be cautious with boats and carriages. Once past this, all is well.\"\nVernacular: A water-related disaster at age 36 — exercise extreme care when traveling by boat or carriage. Surviving this trial, the rest of life is smooth."
+    },
+    {
+      "id": 15,
+      "cat": "spirit",
+      "q": "条文第一〇〇〇〇数·论归宿",
+      "a": "「修善积德，可增寿数。数虽前定，心能转境。」\n白话：多行善事积累功德，可以增加寿数。命运虽然是先天注定的，但人心可以转变境遇。",
+      "q_en": "Entry No. 10000 — On Final Destiny",
+      "a_en": "\"Cultivate virtue and accumulate merit to extend one's years. Though numbers are pre-determined, the heart can transform one's circumstances.\"\nVernacular: Good deeds and accumulated merit can add years to one's life. Although fate is pre-ordained by numbers, the human heart has the power to change one's fortune."
+    },
+    {
+      "id": 16,
+      "cat": "society",
+      "q": "条文第一一〇〇〇数·论世运",
+      "a": "「天下大势，分合有数。合久必分，分久必合，皆在先天数中。」\n白话：天下大势分分合合自有定数。统一久了必然分裂，分裂久了必然统一，这一切都在先天定数之中。",
+      "q_en": "Entry No. 11000 — On the Fate of Nations",
+      "a_en": "\"The great trends of the world — division and unity — are all numbered. Long united, it must divide; long divided, it must unite. All is within the pre-heaven numbers.\"\nVernacular: The world's grand cycles of unification and fragmentation follow predetermined patterns. Prolonged unity leads to division; prolonged division leads to unity — all encoded in the pre-heaven numbers."
+    },
+    {
+      "id": 17,
+      "cat": "spirit",
+      "q": "条文第一一五〇〇数·论阴德",
+      "a": "「祖上积德深厚，荫及三代，子孙昌盛。」\n白话：祖先积累了深厚的阴德，恩泽惠及三代后人，子孙兴旺昌盛。",
+      "q_en": "Entry No. 11500 — On Ancestral Merit",
+      "a_en": "\"The ancestors accumulated deep virtue, blessing three generations; descendants shall prosper.\"\nVernacular: Forebears built up profound hidden merit, its grace extending to three generations — descendants will flourish."
+    },
+    {
+      "id": 18,
+      "cat": "spirit",
+      "q": "条文第一二〇〇〇数·总论",
+      "a": "「万法归宗，数理无穷。知命者不怨天，乐天者不忧命。此铁板之数，虽曰前定，亦劝人为善也。」\n白话：万事万物归于一个根本，数理的奥妙无穷无尽。知道命运的人不会怨天尤人，乐观豁达的人不会忧虑命运。这铁板神数虽说一切是前定的，其实也是在劝人行善。",
+      "q_en": "Entry No. 12000 — General Conclusion",
+      "a_en": "\"All methods return to one origin; the principles of numbers are infinite. Those who know fate do not blame heaven; those who embrace heaven do not worry about fate. Though this Iron Plate system speaks of predetermination, it ultimately exhorts people to do good.\"\nVernacular: All things trace back to a single source, and the mysteries of numerology are boundless. The wise accept their fate without resentment; the optimistic live without anxiety over destiny. Though Iron Plate Divination speaks of predetermined fates, its deeper purpose is to encourage virtue."
+    }
+  ]
+}

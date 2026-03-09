@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "梅林预言",
+    "siteSubtitle": "杰弗里·蒙茅斯《不列颠国王史》（1136年）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "梅林预言是什么？",
+    "homeIntro1": "梅林预言（Prophetiae Merlini）出自杰弗里·蒙茅斯（Geoffrey of Monmouth）约1136年完成的拉丁文著作《不列颠国王史》（Historia Regum Britanniae）第七卷。梅林是亚瑟王传说中最著名的巫师与先知，其形象可追溯至威尔士传统中的 Myrddin Wyllt。",
+    "homeIntro2": "这些预言以晦涩的动物寓言为主要表现形式：红龙代表不列颠人（威尔士人），白龙代表撒克逊人，各种动物象征历史上的国王与事件。预言涵盖从撒克逊入侵到诺曼征服，乃至更遥远未来的不列颠命运。",
+    "homeIntro3": "梅林预言在中世纪欧洲影响深远，被广泛引用于政治宣传和历史解读中。尽管现代学者普遍认为这些预言是杰弗里根据已发生的历史事件反向编写，其中一些模糊的象征确实被后人解读为对后世事件的预言。本站整理了代表性预言条目，并对照不列颠历史进行验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「红龙的不幸已到尽头，白龙的苦难即将来临。灭亡之穴将被填平，溪流将回归正常水道。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约5世纪 —— 红龙与白龙之战：撒克逊人入侵不列颠",
+      "1066年 —— 诺曼征服：杰弗里写作前已发生的关键事件",
+      "1136年 —— 杰弗里完成《不列颠国王史》，梅林预言面世",
+      "12-15世纪 —— 预言在英格兰政治中被反复引用与重新解读",
+      "1485年 —— 亨利七世登基，威尔士都铎王朝以红龙为徽"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文出自杰弗里·蒙茅斯《不列颠国王史》拉丁文原著第七卷（<a href=\"https://en.wikipedia.org/wiki/Prophetiae_Merlini\" target=\"_blank\" rel=\"noopener\">Wikipedia: Prophetiae Merlini</a>）",
+      "历史背景参考 J.S.P. Tatlock《The Legendary History of Britain》及现代中世纪学术研究",
+      "验证评价基于不列颠历史文献记录（<a href=\"https://en.wikipedia.org/wiki/Historia_Regum_Britanniae\" target=\"_blank\" rel=\"noopener\">Wikipedia: Historia Regum Britanniae</a>）",
+      "编者观点不代表学术定论，部分预言解读存在争议",
+      "站点图标采用龙的符号——红龙与白龙之战是梅林预言最核心、最广为流传的意象"
+    ]
+  },
+  "en": {
+    "siteTitle": "Prophecies of Merlin",
+    "siteSubtitle": "Geoffrey of Monmouth's Historia Regum Britanniae (1136)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What are the Prophecies of Merlin?",
+    "homeIntro1": "The Prophetiae Merlini (Prophecies of Merlin) are found in Book VII of Geoffrey of Monmouth's Latin work Historia Regum Britanniae (History of the Kings of Britain), completed around 1136. Merlin is the most famous wizard and seer in Arthurian legend, with roots tracing back to the Welsh tradition of Myrddin Wyllt.",
+    "homeIntro2": "These prophecies are expressed primarily through cryptic animal allegories: the Red Dragon represents the Britons (Welsh), the White Dragon represents the Saxons, and various animals symbolize historical kings and events. The prophecies span from the Saxon invasion to the Norman Conquest and far into Britain's future.",
+    "homeIntro3": "The Prophecies of Merlin had enormous influence in medieval Europe, widely cited in political propaganda and historical interpretation. While modern scholars generally view them as retrospective compositions based on events already known to Geoffrey, some of the vaguer symbols have been interpreted as predictions of later events. This site compiles representative prophecies and verifies them against British history.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The Red Dragon's misfortunes shall come to an end, and the White Dragon's suffering shall be near. The dens of destruction shall be filled, and the streams shall return to their proper channels.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "c. 5th century —— Battle of Red and White Dragons: Saxon invasion of Britain",
+      "1066 —— Norman Conquest: key event that preceded Geoffrey's writing",
+      "1136 —— Geoffrey completes Historia Regum Britanniae, Merlin's prophecies published",
+      "12th-15th century —— Prophecies repeatedly cited and reinterpreted in English politics",
+      "1485 —— Henry VII ascends the throne, Welsh Tudor dynasty adopts the Red Dragon"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy text from Book VII of Geoffrey of Monmouth's Historia Regum Britanniae in Latin (<a href=\"https://en.wikipedia.org/wiki/Prophetiae_Merlini\" target=\"_blank\" rel=\"noopener\">Wikipedia: Prophetiae Merlini</a>)",
+      "Historical context from J.S.P. Tatlock's 'The Legendary History of Britain' and modern medieval scholarship",
+      "Verification based on British historical records (<a href=\"https://en.wikipedia.org/wiki/Historia_Regum_Britanniae\" target=\"_blank\" rel=\"noopener\">Wikipedia: Historia Regum Britanniae</a>)",
+      "Editorial opinions do not represent academic consensus; some interpretations remain debated",
+      "Site icon: dragon symbol — the battle of the Red and White Dragons is the most iconic and widely known image from Merlin's prophecies"
+    ]
+  }
+}

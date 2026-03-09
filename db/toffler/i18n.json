@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "托夫勒预言",
+    "siteSubtitle": "美国未来学家（1928-2016）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "阿尔文·托夫勒是谁？",
+    "homeIntro1": "阿尔文·托夫勒（Alvin Toffler，1928年10月4日—2016年6月27日），美国作家、未来学家、商人。他以「未来三部曲」闻名于世：《未来的冲击》（1970）、《第三次浪潮》（1980）和《权力的转移》（1990），全球累计销量数千万册，被翻译成数十种语言。",
+    "homeIntro2": "与传统预言家不同，托夫勒的预测基于对社会趋势的系统性分析。他最早提出了「信息过载」「产消者」「电子家庭」等概念，准确预见了远程办公、大规模定制、知识经济的崛起，以及核心家庭结构的瓦解。他的许多观点在提出时被视为异想天开，却在数十年后逐一成为现实。",
+    "homeIntro3": "托夫勒被《金融时报》评为「世界上最著名的未来学家」，曾为多国政府和企业担任顾问。本站整理了他三部著作中最具前瞻性的15条预言，并对其进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「21世纪的文盲不是那些不会读写的人，而是那些不会学习、不会忘却、不会重新学习的人。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1970年 —— 出版《未来的冲击》，首次提出「信息过载」「一次性社会」等概念",
+      "1980年 —— 出版《第三次浪潮》，预言信息革命将取代工业革命",
+      "1990年 —— 出版《权力的转移》，预言知识将成为最重要的权力来源",
+      "2006年 —— 与妻子海蒂合著《财富的革命》，探讨「产消者」经济",
+      "2016年 —— 于洛杉矶家中去世，享年87岁"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容摘录自托夫勒三部曲原著：<a href=\"https://en.wikipedia.org/wiki/Future_Shock\" target=\"_blank\" rel=\"noopener\">《未来的冲击》</a>（1970）、<a href=\"https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book)\" target=\"_blank\" rel=\"noopener\">《第三次浪潮》</a>（1980）、<a href=\"https://en.wikipedia.org/wiki/Powershift:_Knowledge,_Wealth,_and_Power_at_the_Edge_of_the_21st_Century\" target=\"_blank\" rel=\"noopener\">《权力的转移》</a>（1990）",
+      "验证评价基于公开新闻报道、学术研究和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用波浪符号——代表托夫勒最具影响力的著作《第三次浪潮》"
+    ]
+  },
+  "en": {
+    "siteTitle": "Toffler Prophecies",
+    "siteSubtitle": "American Futurist (1928-2016)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Alvin Toffler?",
+    "homeIntro1": "Alvin Toffler (October 4, 1928 – June 27, 2016) was an American writer, futurist, and businessman. He is best known for his 'Future Trilogy': Future Shock (1970), The Third Wave (1980), and Powershift (1990), which sold tens of millions of copies worldwide and were translated into dozens of languages.",
+    "homeIntro2": "Unlike traditional prophets, Toffler's predictions were based on systematic analysis of social trends. He coined concepts like 'information overload', 'prosumer', and 'electronic cottage', accurately foreseeing telecommuting, mass customization, the rise of the knowledge economy, and the decline of the nuclear family. Many of his ideas were dismissed as fantasy when first proposed, only to become reality decades later.",
+    "homeIntro3": "Toffler was called 'the world's most famous futurist' by the Financial Times and served as a consultant to governments and corporations worldwide. This site compiles 15 of his most prescient predictions from the three books and evaluates their accuracy.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1970 —— Published Future Shock, coining 'information overload' and 'disposable society'",
+      "1980 —— Published The Third Wave, predicting the information revolution would replace industrialism",
+      "1990 —— Published Powershift, predicting knowledge as the supreme source of power",
+      "2006 —— Co-authored Revolutionary Wealth with wife Heidi, exploring the 'prosumer' economy",
+      "2016 —— Died at home in Los Angeles at age 87"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions excerpted from Toffler's trilogy: <a href=\"https://en.wikipedia.org/wiki/Future_Shock\" target=\"_blank\" rel=\"noopener\">Future Shock</a> (1970), <a href=\"https://en.wikipedia.org/wiki/The_Third_Wave_(Toffler_book)\" target=\"_blank\" rel=\"noopener\">The Third Wave</a> (1980), <a href=\"https://en.wikipedia.org/wiki/Powershift:_Knowledge,_Wealth,_and_Power_at_the_Edge_of_the_21st_Century\" target=\"_blank\" rel=\"noopener\">Powershift</a> (1990)",
+      "Verification based on public news reports, academic research, and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: wave symbol — representing Toffler's most influential work, The Third Wave"
+    ]
+  }
+}

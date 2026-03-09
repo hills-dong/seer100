@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "H.G.威尔斯预言",
+    "siteSubtitle": "英国科幻之父（1866-1946）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "H.G.威尔斯是谁？",
+    "homeIntro1": "赫伯特·乔治·威尔斯（H.G. Wells，1866年9月21日—1946年8月13日），英国作家、历史学家、社会评论家，与儒勒·凡尔纳并称「科幻小说之父」。他的作品不仅是文学经典，更是对未来世界的惊人预见。",
+    "homeIntro2": "威尔斯在1895年至1945年间的小说和论文中，预言了原子弹、坦克、空中战争、太空旅行、基因工程、激光武器、世界大战、电视、全球通讯网络等。其中许多预言在他去世后数十年内逐一成为现实。",
+    "homeIntro3": "与神秘主义预言家不同，威尔斯的预言建立在对科学技术趋势的深刻洞察之上。他1914年的小说《获得自由的世界》准确描绘了原子弹的概念，比广岛原子弹爆炸早了31年。本站整理了他最著名的16条预言，并对每一条进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「如果我们不结束战争，战争就会结束我们。」——《未来世界》（1936）",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1895年 —— 出版《时间机器》，开创科幻文学新纪元",
+      "1898年 —— 出版《世界大战》，首次描绘外星入侵和热射线武器",
+      "1903年 —— 发表《陆地铁甲舰》，预言坦克出现",
+      "1914年 —— 出版《获得自由的世界》，预言原子弹和核战争",
+      "1933年 —— 出版《未来事物的面貌》，预言第二次世界大战",
+      "1945年 —— 去世前一年，见证广岛原子弹爆炸印证其31年前的预言"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容提取自威尔斯公开出版的小说和论文原文（<a href=\"https://www.gutenberg.org/ebooks/author/30\" target=\"_blank\" rel=\"noopener\">Project Gutenberg</a>）",
+      "验证评价基于公开历史记录、新闻报道和科技发展史料（<a href=\"https://en.wikipedia.org/wiki/H._G._Wells\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "编者观点不代表学术定论",
+      "站点图标采用三脚架符号——威尔斯笔下火星人的三足战斗机器是科幻史上最具辨识度的意象之一"
+    ]
+  },
+  "en": {
+    "siteTitle": "H.G. Wells Prophecies",
+    "siteSubtitle": "Father of Science Fiction (1866-1946)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is H.G. Wells?",
+    "homeIntro1": "Herbert George Wells (September 21, 1866 – August 13, 1946) was an English writer, historian, and social commentator, often called the 'Father of Science Fiction' alongside Jules Verne. His works are not only literary classics but also astonishing visions of the future.",
+    "homeIntro2": "In novels and essays written between 1895 and 1945, Wells predicted atomic bombs, tanks, aerial warfare, space travel, genetic engineering, laser weapons, world wars, television, and global communication networks. Many of these predictions came true within decades of his death.",
+    "homeIntro3": "Unlike mystical prophets, Wells's predictions were grounded in deep insight into scientific and technological trends. His 1914 novel The World Set Free accurately depicted the concept of atomic bombs, 31 years before Hiroshima. This site compiles his 16 most famous predictions with real-world verification.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"If we don't end war, war will end us.\" — Things to Come (1936)",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1895 —— Published The Time Machine, pioneering modern science fiction",
+      "1898 —— Published The War of the Worlds, first depicting alien invasion and heat-ray weapons",
+      "1903 —— Published The Land Ironclads, predicting tanks",
+      "1914 —— Published The World Set Free, predicting atomic bombs and nuclear war",
+      "1933 —— Published The Shape of Things to Come, predicting World War II",
+      "1945 —— One year before death, witnessed Hiroshima confirming his 31-year-old prediction"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies extracted from Wells's published novels and essays (<a href=\"https://www.gutenberg.org/ebooks/author/30\" target=\"_blank\" rel=\"noopener\">Project Gutenberg</a>)",
+      "Verification based on public historical records, news reports, and technology history (<a href=\"https://en.wikipedia.org/wiki/H._G._Wells\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: tripod symbol — the Martian tripod fighting machine from Wells's War of the Worlds is one of the most iconic images in science fiction history"
+    ]
+  }
+}

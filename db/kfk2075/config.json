@@ -1,0 +1,69 @@
+{
+  "siteId": "kfk2075",
+  "answererName": "KFK2075",
+  "publishDate": "2018-2020",
+  "baseUrl": "https://pre.hilife.me/kfk2075",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "KFK 2075 未来人预言全集 - 来自2075年YJ的预言与验证 | KFK2075 Prophecies",
+      "description": "自称来自2075年的未来人YJ于2018年在Twitter发布预言，涵盖第三次世界大战、AI技术、日本首都迁移、无现金社会等话题。KFK曾承认2075年未来人为合法穿越者。本站完整收录其预言并进行验证。",
+      "keywords": "KFK2075,2075未来人,YJ未来人,YJ943636,时间旅行者,未来人预言,KFK,2075预言,第三次世界大战,AI预言,日本首都岡山",
+      "siteName": "KFK 2075 预言",
+      "ogTitle": "KFK 2075 未来人预言全集 | KFK2075 Prophecies",
+      "ogDescription": "自称来自2075年的未来人YJ在推特留下的预言完整收录与验证分析。涵盖战争、科技、社会变革等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "来自2075年未来人YJ的预言，含真实度验证。涵盖第三次世界大战、AI发展、日本首都迁移、无现金社会等预言。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "KFK 2075 Prophecies - Predictions from a Time Traveler from 2075 | Full Archive & Verification",
+      "description": "YJ, a self-claimed time traveler from 2075, posted predictions on Twitter starting in 2018, covering WWIII, AI technology, Japan's capital relocation, cashless society, and more. Full archive with verification.",
+      "keywords": "KFK2075,YJ future person,YJ943636,time traveler 2075,future predictions,KFK,2075 prophecy,World War 3,AI predictions,Japan capital Okayama",
+      "siteName": "KFK 2075 Prophecies",
+      "ogTitle": "KFK 2075 Prophecies - Predictions from 2075",
+      "ogDescription": "Predictions from YJ, a self-claimed time traveler from 2075. Full archive with real-world verification covering war, technology, and society.",
+      "locale": "en_US",
+      "twitterDescription": "Predictions from a claimed 2075 time traveler. Covers WWIII, AI development, Japan capital relocation, cashless society, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "KFK 2075 预言",
+      "alternateName": "KFK 2075 Prophecies",
+      "url": "https://pre.hilife.me/kfk2075/",
+      "description": "自称来自2075年的未来人YJ在推特留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0f4",
+    "white": "#fff",
+    "text": "#222230",
+    "text2": "#6c6c7a",
+    "textLight": "#585868",
+    "primary": "#5a5a8c",
+    "primaryDark": "#3e3e6a",
+    "primaryBg": "#ececf6",
+    "link": "#5a5a8c",
+    "border": "#dcdce4",
+    "border2": "#bec0ca",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eaeaf0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "KFK 2075"
+  },
+  "footer": {
+    "sourceUrl": "https://x.com/yj943636",
+    "sourceLabel": "Twitter @YJ943636"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 28" height="20">
+  <!-- Black hole icon: concentric rings with bright event horizon -->
+  <circle cx="14" cy="14" r="12" fill="#1a4e5c"/>
+  <circle cx="14" cy="14" r="8.5" fill="#2e6a7a"/>
+  <circle cx="14" cy="14" r="6" fill="#eff0f4"/>
+  <circle cx="14" cy="14" r="4" fill="#1a4e5c"/>
+  <circle cx="14" cy="14" r="2" fill="#0d2a34"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#1a4e5c" letter-spacing="0.5">HAWKING</text>
+</svg>

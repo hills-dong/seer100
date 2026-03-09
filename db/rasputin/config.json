@@ -1,0 +1,69 @@
+{
+  "siteId": "rasputin",
+  "answererName": "Grigori Rasputin",
+  "publishDate": "1910-1916",
+  "baseUrl": "https://pre.hilife.me/rasputin",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "拉斯普京预言全集 - 沙俄宫廷神秘主义者的预言与验证 | Rasputin Prophecies",
+      "description": "格里高利·拉斯普京（1869-1916），沙俄末代宫廷神秘顾问，留下了关于自身死亡、罗曼诺夫王朝覆灭、俄国革命、两次世界大战等预言。本站整理其书信、谈话记录及遗作中的预言，并逐条验证。",
+      "keywords": "拉斯普京,拉斯普京预言,Rasputin,格里高利拉斯普京,沙俄预言,罗曼诺夫王朝,俄国革命,预言书,妖僧",
+      "siteName": "拉斯普京预言",
+      "ogTitle": "拉斯普京预言全集 | Rasputin Prophecies",
+      "ogDescription": "沙俄宫廷神秘主义者拉斯普京留下的预言完整收录与验证分析。涵盖罗曼诺夫王朝命运、俄国革命、世界大战等。",
+      "locale": "zh_CN",
+      "twitterDescription": "沙俄妖僧拉斯普京的预言全集，含真实度验证。预言自身之死、罗曼诺夫王朝覆灭、俄国革命等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Rasputin Prophecies - Predictions of the Mad Monk of Imperial Russia | Full Archive & Verification",
+      "description": "Grigori Rasputin (1869-1916), the mystic advisor to Tsar Nicholas II, left prophecies about his own death, the fall of the Romanovs, the Russian Revolution, and world wars. Full archive with verification.",
+      "keywords": "Rasputin,Rasputin prophecies,Grigori Rasputin,Mad Monk,Romanov dynasty,Russian Revolution,Rasputin predictions,Tsar Nicholas II",
+      "siteName": "Rasputin Prophecies",
+      "ogTitle": "Rasputin Prophecies - The Mad Monk's Complete Predictions",
+      "ogDescription": "Prophecies from Grigori Rasputin (1869-1916), mystic advisor to the last Tsar. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Predictions from Rasputin, the Mad Monk of Imperial Russia. His own death, the Romanov downfall, Russian Revolution, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "拉斯普京预言",
+      "alternateName": "Rasputin Prophecies",
+      "url": "https://pre.hilife.me/rasputin/",
+      "description": "沙俄宫廷神秘主义者拉斯普京留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eee8",
+    "white": "#fff",
+    "text": "#241e18",
+    "text2": "#706458",
+    "textLight": "#5c5040",
+    "primary": "#5a4030",
+    "primaryDark": "#3e2818",
+    "primaryBg": "#f4f0ea",
+    "link": "#5a4030",
+    "border": "#d6cec2",
+    "border2": "#b8b0a0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#ece4d8"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Rasputin Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Grigori_Rasputin",
+    "sourceLabel": "Wikipedia"
+  }
+}

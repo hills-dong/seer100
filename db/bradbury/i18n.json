@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "雷·布拉德伯里预言",
+    "siteSubtitle": "美国科幻大师（1920-2012）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "雷·布拉德伯里是谁？",
+    "homeIntro1": "雷·布拉德伯里（Ray Bradbury，1920年8月22日—2012年6月5日），美国著名科幻作家、编剧。他最广为人知的作品是反乌托邦小说《华氏451度》（1953年），以及短篇小说集《火星编年史》和《图案人》。",
+    "homeIntro2": "布拉德伯里的作品不仅是文学经典，更是对未来科技与社会的惊人预见。在1953年出版的《华氏451度》中，他描绘了「海螺」入耳式收音机（今天的无线耳机）、覆盖整面墙壁的互动电视、人们沉迷于屏幕而不再阅读的社会——这些场景在半个多世纪后几乎逐一成为现实。",
+    "homeIntro3": "他的预言涵盖消费科技、大众传媒、社会隔离、书籍审查、无人机战争等领域。布拉德伯里曾说：「我不是在预测未来，我是在试图阻止它。」本站整理了他作品中14条最具前瞻性的预言，并对照现实进行了验证评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「你不必焚书来摧毁一种文化，你只需让人们停止阅读就行了。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1950年 —— 《火星编年史》出版，预见人类殖民外星的渴望与文明冲突",
+      "1951年 —— 《草原》（The Veldt）发表，描绘智能家居中虚拟现实对儿童的危害",
+      "1953年 —— 《华氏451度》出版，预言入耳式耳机、墙面电视、书籍审查与社交隔离",
+      "1969年 —— 《我歌唱电子躯体》发表，探讨人与技术的融合",
+      "2012年 —— 布拉德伯里逝世，享年91岁"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容提取自布拉德伯里已出版的文学作品原文（<a href=\"https://en.wikipedia.org/wiki/Fahrenheit_451\" target=\"_blank\" rel=\"noopener\">《华氏451度》</a>、<a href=\"https://en.wikipedia.org/wiki/The_Martian_Chronicles\" target=\"_blank\" rel=\"noopener\">《火星编年史》</a>、<a href=\"https://en.wikipedia.org/wiki/The_Veldt_(short_story)\" target=\"_blank\" rel=\"noopener\">《草原》</a>等）",
+      "验证评价基于公开新闻报道、科技产品发布记录和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用火焰符号——《华氏451度》中焚书的火焰是布拉德伯里最具标志性的文学意象"
+    ]
+  },
+  "en": {
+    "siteTitle": "Ray Bradbury Prophecies",
+    "siteSubtitle": "American Sci-Fi Visionary (1920-2012)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Ray Bradbury?",
+    "homeIntro1": "Ray Bradbury (August 22, 1920 – June 5, 2012) was an American author and screenwriter. Best known for his dystopian novel Fahrenheit 451 (1953), as well as the short story collections The Martian Chronicles and The Illustrated Man.",
+    "homeIntro2": "Bradbury's works are not just literary classics but astonishing glimpses into the future of technology and society. In Fahrenheit 451 (1953), he described 'seashell' in-ear radios (today's wireless earbuds), wall-sized interactive televisions, and a society where people are addicted to screens and have stopped reading — scenes that became reality more than half a century later.",
+    "homeIntro3": "His predictions span consumer technology, mass media, social isolation, book censorship, drone warfare, and more. Bradbury once said: 'I wasn't trying to predict the future — I was trying to prevent it.' This site compiles 14 of his most prescient predictions and evaluates them against reality.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"You don't have to burn books to destroy a culture. You just have to get people to stop reading them.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1950 —— The Martian Chronicles published, foreseeing humanity's desire to colonize and its civilizational conflicts",
+      "1951 —— The Veldt published, depicting virtual reality's dangers to children in smart homes",
+      "1953 —— Fahrenheit 451 published, predicting in-ear headphones, wall TVs, book censorship, and social isolation",
+      "1969 —— I Sing the Body Electric! published, exploring human-technology fusion",
+      "2012 —— Ray Bradbury passes away at age 91"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions extracted from Bradbury's published literary works (<a href=\"https://en.wikipedia.org/wiki/Fahrenheit_451\" target=\"_blank\" rel=\"noopener\">Fahrenheit 451</a>, <a href=\"https://en.wikipedia.org/wiki/The_Martian_Chronicles\" target=\"_blank\" rel=\"noopener\">The Martian Chronicles</a>, <a href=\"https://en.wikipedia.org/wiki/The_Veldt_(short_story)\" target=\"_blank\" rel=\"noopener\">The Veldt</a>, etc.)",
+      "Verification based on public news reports, tech product launch records, and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: flame symbol — the book-burning flame from Fahrenheit 451 is Bradbury's most iconic literary image"
+    ]
+  }
+}

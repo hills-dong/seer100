@@ -1,0 +1,99 @@
+{
+  "siteId": "jinlingta",
+  "answererName": "刘伯温（传）",
+  "publishDate": "约1918年",
+  "baseUrl": "https://pre.hilife.me/jinlingta",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "金陵塔碑文 - 刘伯温预言碑文全集与验证 | Jinling Tower Stele",
+      "description": "金陵塔碑文据传为明代刘伯温所作，1918年南京金陵塔拆迁时发现。碑文以韵文形式预言民国至未来的中国大事，涵盖战争、政权更迭、社会变革等领域。本站完整收录碑文原文并进行验证分析。",
+      "keywords": "金陵塔碑文,刘伯温,刘基,金陵塔,预言碑文,Jinling Tower Stele",
+      "siteName": "金陵塔碑文",
+      "ogTitle": "金陵塔碑文 - 刘伯温预言碑文详解 | Jinling Tower Stele",
+      "ogDescription": "据传明代刘伯温所作《金陵塔碑文》完整收录与验证分析。以韵文预言民国至未来中国大事。",
+      "locale": "zh_CN",
+      "twitterDescription": "金陵塔碑文预言验证：北伐战争、抗日战争、国共内战等。逐段原文解析与验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Jinling Tower Stele - Liu Bowen's Prophetic Inscription | Full Archive & Verification",
+      "description": "The Jinling Tower Stele (金陵塔碑文) is a prophetic inscription attributed to Ming dynasty strategist Liu Bowen, allegedly discovered during the demolition of a tower in Nanjing in 1918. Written in rhyming verse, it prophesies major Chinese events from the Republic era onward. Full archive with verification.",
+      "keywords": "Jinling Tower Stele,Liu Bowen,Liu Ji,Chinese prophecy,Ming dynasty prophecy",
+      "siteName": "Jinling Tower Stele",
+      "ogTitle": "Jinling Tower Stele - Liu Bowen's Prophetic Inscription",
+      "ogDescription": "Prophetic inscription attributed to Ming dynasty's Liu Bowen, discovered in Nanjing in 1918. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Jinling Tower Stele prophecies verified: Northern Expedition, Second Sino-Japanese War, Chinese Civil War and more. Full text with analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "金陵塔碑文",
+      "alternateName": "Jinling Tower Stele",
+      "url": "https://pre.hilife.me/jinlingta/",
+      "description": "据传明代刘伯温所作《金陵塔碑文》完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "金陵塔碑文是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "金陵塔碑文据传为明代开国功臣刘伯温（刘基）所作的预言碑文，于1918年南京金陵塔拆迁时被发现。碑文以韵文形式预言从民国时期至未来的中国重大事件。其真伪在学术界存在较大争议。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "金陵塔碑文的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "碑文中关于民国时期和抗日战争的部分被认为与历史事件有较高吻合度，但学界对碑文的成文年代和真伪存在争议。部分学者认为碑文可能是民国时期的伪托之作，而非明代原作。后半部分的解读分歧较大。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Jinling Tower Stele?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Jinling Tower Stele (金陵塔碑文) is a prophetic inscription attributed to Liu Bowen (Liu Ji), a Ming dynasty founding strategist and scholar. It was allegedly discovered in 1918 during the demolition of a tower in Nanjing. Written in rhyming verse, it claims to prophesy major events in Chinese history from the Republican era onward. Its authenticity remains highly debated among scholars."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#eef2ee",
+    "white": "#fff",
+    "text": "#1e2a20",
+    "text2": "#607a62",
+    "textLight": "#4e6650",
+    "primary": "#3a7a5a",
+    "primaryDark": "#245840",
+    "primaryBg": "#e8f5ee",
+    "link": "#3a7a5a",
+    "border": "#c8dccb",
+    "border2": "#a8c0ac",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e4ede5"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "金陵塔 Jinling Tower Stele"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/金陵塔碑文",
+    "sourceLabel": "维基百科"
+  }
+}

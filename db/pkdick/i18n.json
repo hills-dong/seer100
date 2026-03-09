@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "菲利普·K·迪克预言",
+    "siteSubtitle": "美国科幻大师（1928-1982）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "菲利普·K·迪克是谁？",
+    "homeIntro1": "菲利普·金德里德·迪克（Philip Kindred Dick，1928年12月16日—1982年3月2日），美国科幻小说家，被公认为20世纪最具远见的文学想象力之一。他一生创作了44部长篇小说和超过120篇短篇小说，探讨身份、现实、人工智能和权力等核心主题。",
+    "homeIntro2": "迪克的作品在他生前并未获得主流文学界的广泛认可，但在他去世后，多部小说被改编为经典影片：《银翼杀手》（Do Androids Dream of Electric Sheep?）、《全面回忆》（We Can Remember It for You Wholesale）、《少数派报告》（The Minority Report）、《高堡奇人》（The Man in the High Castle）、《暗黑扫描仪》（A Scanner Darkly）等。",
+    "homeIntro3": "迪克虽非传统意义上的预言家，但他通过小说构建的未来世界图景，惊人地预见了21世纪的许多技术与社会现实：人工智能的伦理困境、虚拟现实技术、无人机监控、深度伪造、个性化广告、预测性执法等。本站整理了他作品中16条具有预言性质的主题，并逐一与现实世界进行验证比对。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「现实就是，当你不再相信它的时候，它也不会消失的那个东西。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1962年 —— 《高堡奇人》出版，探讨平行历史与现实的本质",
+      "1966年 —— 《帕尔默·艾尔德里奇的三处圣痕》出版，预见虚拟现实与药物控制",
+      "1968年 —— 《仿生人会梦见电子羊吗？》出版，追问AI意识边界",
+      "1974年 —— 迪克经历「2-3-74」神秘体验，认为现实是多层模拟",
+      "1977年 —— 《暗黑扫描仪》出版，描绘全面监控社会",
+      "1982年 —— 《银翼杀手》上映前数月迪克去世，此后影响力持续扩大"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容提取自菲利普·K·迪克公开出版的小说与短篇合集（<a href=\"https://en.wikipedia.org/wiki/Philip_K._Dick_bibliography\" target=\"_blank\" rel=\"noopener\">完整书目</a>）",
+      "验证评价基于公开新闻报道、学术研究和行业数据",
+      "编者观点不代表学术定论",
+      "站点图标采用半人半机械面孔——呼应迪克最著名的追问「仿生人会梦见电子羊吗？」，人机分界线是他作品的核心符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "P.K. Dick Prophecies",
+    "siteSubtitle": "American Sci-Fi Visionary (1928-1982)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Philip K. Dick?",
+    "homeIntro1": "Philip Kindred Dick (December 16, 1928 – March 2, 1982) was an American science fiction novelist widely regarded as one of the most visionary literary imaginations of the 20th century. He wrote 44 novels and over 120 short stories exploring themes of identity, reality, artificial intelligence, and power.",
+    "homeIntro2": "Dick's works received limited mainstream recognition during his lifetime, but after his death, numerous novels were adapted into landmark films: Blade Runner (Do Androids Dream of Electric Sheep?), Total Recall (We Can Remember It for You Wholesale), Minority Report, The Man in the High Castle, and A Scanner Darkly, among others.",
+    "homeIntro3": "Though not a prophet in the traditional sense, Dick's fictional worlds presciently anticipated many 21st-century realities: the ethics of artificial intelligence, virtual reality technology, drone surveillance, deepfakes, personalized advertising, and predictive policing. This site compiles 16 prophetic themes from his works and verifies them against real-world developments.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Reality is that which, when you stop believing in it, doesn't go away.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1962 —— The Man in the High Castle published, exploring alternate history and the nature of reality",
+      "1966 —— The Three Stigmata of Palmer Eldritch published, foreseeing VR and pharmaceutical control",
+      "1968 —— Do Androids Dream of Electric Sheep? published, questioning AI consciousness",
+      "1974 —— Dick's '2-3-74' mystical experience, concluding reality is a multi-layered simulation",
+      "1977 —— A Scanner Darkly published, depicting a total surveillance society",
+      "1982 —— Dick dies months before Blade Runner's release; his influence grows posthumously"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies extracted from Philip K. Dick's published novels and short story collections (<a href=\"https://en.wikipedia.org/wiki/Philip_K._Dick_bibliography\" target=\"_blank\" rel=\"noopener\">Full bibliography</a>)",
+      "Verification based on public news reports, academic research, and industry data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: half-human, half-mechanical face — reflecting Dick's most famous question 'Do Androids Dream of Electric Sheep?', the human-machine boundary as his works' central motif"
+    ]
+  }
+}

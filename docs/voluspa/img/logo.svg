@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 28" height="20">
+  <!-- Algiz rune (ᛉ) icon -->
+  <circle cx="14" cy="14" r="12" fill="#4a5a6b"/>
+  <path d="M14 3.5 L14 24.5 M14 8 L6.5 3.5 M14 8 L21.5 3.5" stroke="#f0eef0" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#303e4e" letter-spacing="0.5">VÖLUSPÁ</text>
+</svg>

@@ -1,0 +1,69 @@
+{
+  "siteId": "daniel",
+  "answererName": "Daniel",
+  "publishDate": "约公元前165年",
+  "baseUrl": "https://pre.hilife.me/daniel",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "但以理书预言全集 - 旧约启示录式异象与七十个七预言解读 | Book of Daniel Prophecies",
+      "description": "《但以理书》预言完整收录与验证，涵盖尼布甲尼撒金像之梦、火窑试炼、墙上文字、狮子坑、四兽异象、公绵羊与山羊、七十个七预言、南北王争战、末世复活等。旧约最重要的启示录文学。",
+      "keywords": "但以理书,但以理预言,七十个七,尼布甲尼撒之梦,四兽异象,圣经预言,旧约预言,启示录,Book of Daniel,Daniel prophecy",
+      "siteName": "但以理书预言",
+      "ogTitle": "但以理书预言全集 | Book of Daniel Prophecies",
+      "ogDescription": "旧约《但以理书》预言完整收录与验证分析。涵盖四大帝国异象、七十个七预言、末世异象等启示录式预言。",
+      "locale": "zh_CN",
+      "twitterDescription": "《但以理书》预言全集，含历史验证。四大帝国金像之梦、七十个七预言、四兽异象、末世复活等完整解读。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Book of Daniel Prophecies - Apocalyptic Visions, Seventy Weeks & Historical Verification | Full Archive",
+      "description": "Complete archive of prophecies from the Book of Daniel, including Nebuchadnezzar's statue dream, the fiery furnace, writing on the wall, lions' den, four beasts vision, seventy weeks prophecy, kings of north and south, and the final resurrection. The Old Testament's most important apocalyptic literature.",
+      "keywords": "Book of Daniel,Daniel prophecy,seventy weeks,Nebuchadnezzar dream,four beasts,Bible prophecy,Old Testament,apocalyptic,Daniel visions,prophecy verification",
+      "siteName": "Book of Daniel Prophecies",
+      "ogTitle": "Book of Daniel Prophecies - Complete Archive & Verification",
+      "ogDescription": "Complete archive of prophecies from the Book of Daniel. Covers the four kingdoms vision, seventy weeks prophecy, apocalyptic visions, and historical verification.",
+      "locale": "en_US",
+      "twitterDescription": "Book of Daniel prophecies with historical verification. Four kingdoms dream, seventy weeks, four beasts vision, and end-times prophecies."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "但以理书预言",
+      "alternateName": "Book of Daniel Prophecies",
+      "url": "https://pre.hilife.me/daniel/",
+      "description": "旧约《但以理书》预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eeeef4",
+    "white": "#fff",
+    "text": "#1e1e2e",
+    "text2": "#60607a",
+    "textLight": "#4e4e66",
+    "primary": "#4a3a6a",
+    "primaryDark": "#302450",
+    "primaryBg": "#ece8f6",
+    "link": "#4a3a6a",
+    "border": "#d0cce0",
+    "border2": "#b4aec4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e6e2f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "但以理书预言"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Book_of_Daniel",
+    "sourceLabel": "Wikipedia"
+  }
+}

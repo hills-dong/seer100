@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" height="20">
+  <!-- Telescreen / All-seeing eye icon -->
+  <!-- Outer screen frame -->
+  <rect x="3" y="4" width="22" height="20" rx="3" ry="3" fill="#4a5a6b"/>
+  <!-- Inner screen -->
+  <rect x="6" y="7" width="16" height="14" rx="1.5" ry="1.5" fill="#f0f0ee"/>
+  <!-- Eye in screen - outer -->
+  <ellipse cx="14" cy="14" rx="6" ry="4" fill="#2e3e50"/>
+  <!-- Eye - white -->
+  <ellipse cx="14" cy="14" rx="3.5" ry="2.5" fill="#f0f0ee"/>
+  <!-- Eye - pupil -->
+  <circle cx="14" cy="14" r="1.5" fill="#2e3e50"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#2e3e50" letter-spacing="0.5">ORWELL</text>
+</svg>

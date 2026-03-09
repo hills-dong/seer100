@@ -1,0 +1,69 @@
+{
+  "siteId": "bradbury",
+  "answererName": "Ray Bradbury",
+  "publishDate": "1953",
+  "baseUrl": "https://pre.hilife.me/bradbury",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "雷·布拉德伯里预言全集 - 科幻大师对未来科技与社会的14条预言与验证 | Ray Bradbury Prophecies",
+      "description": "美国科幻大师雷·布拉德伯里（1920-2012）通过《华氏451度》《火星编年史》等作品留下的14条预言完整收录，涵盖耳塞式耳机、平板电视、社交隔离、书籍审查、无人机战争等领域。多项预言已被现代科技印证。",
+      "keywords": "雷布拉德伯里,华氏451度,科幻预言,Ray Bradbury,Fahrenheit 451,海螺耳机,平板电视预言,科幻作家预言,书籍审查,社交隔离",
+      "siteName": "雷·布拉德伯里预言",
+      "ogTitle": "雷·布拉德伯里预言全集 | Ray Bradbury Prophecies",
+      "ogDescription": "美国科幻大师雷·布拉德伯里通过小说作品留下的14条预言完整收录与验证分析。涵盖耳机、电视、审查、无人机等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条科幻大师雷·布拉德伯里的预言，含真实度验证。已应验：海螺耳机（AirPods）、墙面电视、ATM机、真人秀节目等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Ray Bradbury Prophecies - 14 Predictions from the Sci-Fi Visionary (1920-2012) | Full Archive & Verification",
+      "description": "American sci-fi master Ray Bradbury (1920-2012) predicted earbuds, flat-screen TVs, social isolation, book censorship, drone warfare, and more through works like Fahrenheit 451 and The Martian Chronicles. Full archive with real-world verification.",
+      "keywords": "Ray Bradbury,Fahrenheit 451,sci-fi predictions,Bradbury prophecy,seashell earbuds,wall TV,book banning,social isolation,drone warfare,Martian Chronicles",
+      "siteName": "Ray Bradbury Prophecies",
+      "ogTitle": "Ray Bradbury Prophecies - The Sci-Fi Visionary's Complete Predictions",
+      "ogDescription": "14 predictions from Ray Bradbury (1920-2012). Full archive with real-world verification covering earbuds, flat-screen TVs, censorship, social isolation, and more.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from Ray Bradbury. Verified: seashell earbuds (AirPods), wall-screen TVs, ATMs, reality TV, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "雷·布拉德伯里预言",
+      "alternateName": "Ray Bradbury Prophecies",
+      "url": "https://pre.hilife.me/bradbury/",
+      "description": "美国科幻大师雷·布拉德伯里通过小说作品留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f0ee",
+    "white": "#fff",
+    "text": "#2e2420",
+    "text2": "#7a6e66",
+    "textLight": "#665a52",
+    "primary": "#b06830",
+    "primaryDark": "#8a4c18",
+    "primaryBg": "#faf2ea",
+    "link": "#b06830",
+    "border": "#e2dcd6",
+    "border2": "#c8c0b8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#f0ece6"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Ray Bradbury Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ray_Bradbury",
+    "sourceLabel": "Wikipedia"
+  }
+}

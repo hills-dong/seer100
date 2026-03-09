@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 28" height="20">
+  <!-- Scroll with hidden character motif -->
+  <!-- Scroll body -->
+  <rect x="6" y="4" width="16" height="20" rx="1.5" fill="#f0eef4" stroke="#5c4a8c" stroke-width="1.2"/>
+  <!-- Scroll rollers (top and bottom) -->
+  <rect x="4" y="3" width="20" height="3" rx="1.5" fill="#5c4a8c"/>
+  <rect x="4" y="22" width="20" height="3" rx="1.5" fill="#5c4a8c"/>
+  <!-- Hidden text lines on scroll -->
+  <line x1="9" y1="9" x2="19" y2="9" stroke="#3e2e6a" stroke-width="0.8"/>
+  <line x1="9" y1="12.5" x2="19" y2="12.5" stroke="#3e2e6a" stroke-width="0.8"/>
+  <line x1="9" y1="16" x2="19" y2="16" stroke="#3e2e6a" stroke-width="0.8"/>
+  <line x1="9" y1="19.5" x2="15" y2="19.5" stroke="#3e2e6a" stroke-width="0.8"/>
+  <!-- Small seal/stamp mark (representing hidden prophecy) -->
+  <rect x="16" y="17" width="4" height="4" rx="0.5" fill="#5c4a8c"/>
+  <line x1="17" y1="18.2" x2="19" y2="18.2" stroke="#f0eef4" stroke-width="0.5"/>
+  <line x1="17" y1="19.8" x2="19" y2="19.8" stroke="#f0eef4" stroke-width="0.5"/>
+  <!-- Text: 藏头诗 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#5c4a8c" letter-spacing="2">藏头诗</text>
+</svg>

@@ -1,0 +1,99 @@
+{
+  "siteId": "maqianke",
+  "answererName": "诸葛亮",
+  "publishDate": "约公元227年",
+  "baseUrl": "https://pre.hilife.me/maqianke",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "马前课全集 - 三国诸葛亮14课预言详解与验证 | Ma Qian Ke Prophecies",
+      "description": "马前课相传为三国时期蜀汉丞相诸葛亮所作，全书共14课，每课以四句七言诗预言从三国至未来的中国历史朝代更替。本站完整收录14课原文并进行验证分析。",
+      "keywords": "马前课,诸葛亮,马前课预言,马前课14课,三国预言,Ma Qian Ke",
+      "siteName": "马前课预言",
+      "ogTitle": "马前课全集 - 诸葛亮14课预言详解 | Ma Qian Ke",
+      "ogDescription": "三国诸葛亮所作《马前课》14课预言完整收录与验证分析。涵盖朝代更替、历史兴衰等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "马前课预言验证：三国归晋、南北朝、隋唐盛世、宋元明清更替等。14课预言逐一解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Ma Qian Ke - Zhuge Liang's 14 Prophecies from Three Kingdoms Era | Full Archive & Verification",
+      "description": "Ma Qian Ke (马前课) is a Chinese prophecy text attributed to Zhuge Liang, the legendary strategist of the Three Kingdoms period, containing 14 prophetic verses predicting China's future from the 3rd century onward. Full archive with accuracy verification.",
+      "keywords": "Ma Qian Ke,Zhuge Liang,Chinese prophecy,Three Kingdoms prophecy,马前课",
+      "siteName": "Ma Qian Ke Prophecies",
+      "ogTitle": "Ma Qian Ke - Zhuge Liang's 14 Prophecies from the Three Kingdoms Era",
+      "ogDescription": "14 prophetic verses attributed to Zhuge Liang, the legendary strategist. Full archive with real-world verification covering dynastic changes and historical turning points in Chinese history.",
+      "locale": "en_US",
+      "twitterDescription": "Ma Qian Ke prophecies verified: Jin unification, Sui-Tang dynasties, Song-Yuan-Ming-Qing transitions and more. 14 verses analyzed."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "马前课预言",
+      "alternateName": "Ma Qian Ke Prophecies",
+      "url": "https://pre.hilife.me/maqianke/",
+      "description": "三国诸葛亮所作《马前课》14课预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "马前课是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "马前课相传为三国时期蜀汉丞相诸葛亮所作的预言书。全书共14课，每课由四句七言诗构成，据信预言了从三国至未来的中国历史大事和朝代更替。「马前课」意为「在出兵之前占卜的课卦」，体现了诸葛亮作为军事家的身份。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "马前课的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "前10课被认为与历史朝代更替高度吻合，包括三国归晋、南北朝分裂、隋唐统一、宋元明清更替等。但学界对马前课的成书年代和真伪存在较大争议，部分学者认为现存版本可能为后人托名伪作。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Ma Qian Ke?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ma Qian Ke (马前课, 'Lessons Before the Saddle') is a Chinese prophetic text traditionally attributed to Zhuge Liang, the legendary chancellor and strategist of Shu Han during the Three Kingdoms period (3rd century). It contains 14 prophetic verses, each a four-line heptasyllabic poem, believed to predict major dynastic transitions in Chinese history from the Three Kingdoms era into the future."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f0e8",
+    "white": "#fff",
+    "text": "#2e2818",
+    "text2": "#7a7060",
+    "textLight": "#635a4a",
+    "primary": "#8b6914",
+    "primaryDark": "#6a4e0e",
+    "primaryBg": "#faf5e8",
+    "link": "#8b6914",
+    "border": "#ddd5c8",
+    "border2": "#c0b8a8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0eadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "马前课 Ma Qian Ke"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/马前课",
+    "sourceLabel": "维基百科"
+  }
+}

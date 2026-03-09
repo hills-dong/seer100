@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 28" height="20">
+  <!-- Unicursal hexagram - six-pointed star drawn in one continuous line -->
+  <path d="M14 2 L18.5 10.5 L26 10.5 L20.5 16 L22.5 24 L14 19.5 L5.5 24 L7.5 16 L2 10.5 L9.5 10.5 Z" fill="none" stroke="#8c3a30" stroke-width="1.8" stroke-linejoin="round"/>
+  <circle cx="14" cy="13.5" r="3" fill="#6a2018"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#6a2018" letter-spacing="0.5">CROWLEY</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" height="20">
+  <!-- Faravahar: winged disc symbol -->
+  <!-- Central disc (body) -->
+  <circle cx="14" cy="14" r="4.5" fill="#b07030"/>
+  <!-- Upper body / head -->
+  <circle cx="14" cy="7" r="2.8" fill="#8a5218"/>
+  <!-- Wings - left -->
+  <path d="M9.5 14 Q6 10 1 9 Q3 12 4 14 Q3 16 1 19 Q6 18 9.5 14Z" fill="#b07030"/>
+  <path d="M7 14 Q5 11.5 2 11 Q3.5 13 4.5 14 Q3.5 15 2 17 Q5 16.5 7 14Z" fill="#f4f0e8"/>
+  <!-- Wings - right -->
+  <path d="M18.5 14 Q22 10 27 9 Q25 12 24 14 Q25 16 27 19 Q22 18 18.5 14Z" fill="#b07030"/>
+  <path d="M21 14 Q23 11.5 26 11 Q24.5 13 23.5 14 Q24.5 15 26 17 Q23 16.5 21 14Z" fill="#f4f0e8"/>
+  <!-- Tail feathers -->
+  <path d="M14 18.5 L11 26 L14 23 L17 26Z" fill="#8a5218"/>
+  <!-- Ring at waist -->
+  <circle cx="14" cy="14" r="6" fill="none" stroke="#8a5218" stroke-width="1"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#8a5218" letter-spacing="0.5">ZOROASTER</text>
+</svg>

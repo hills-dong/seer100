@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "凡尔纳科技预言",
+    "siteSubtitle": "法国科幻小说之父（1828-1905）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "儒勒·凡尔纳是谁？",
+    "homeIntro1": "儒勒·凡尔纳（Jules Verne，1828年2月8日—1905年3月24日），法国小说家、诗人、剧作家，被誉为「科幻小说之父」。他是历史上作品被翻译次数最多的法语作家，也是全世界被翻译次数第二多的作家，仅次于阿加莎·克里斯蒂。",
+    "homeIntro2": "凡尔纳的「非凡旅程」系列共54部长篇小说，构建了一个以科学探索为核心的文学宇宙。他以惊人的远见描绘了许多在当时还不存在的科技：电动潜水艇、登月飞船、直升飞机、视频通话、新闻广播、太空站、深海探索等，这些构想在他去世后的数十年间逐一成为现实。",
+    "homeIntro3": "与神秘主义预言家不同，凡尔纳的「预言」源于他对当时科学技术发展趋势的深刻理解和合理外推。他大量阅读科学期刊，与工程师和科学家保持通信，将严谨的技术细节融入引人入胜的冒险故事中。本站整理了他最具前瞻性的16条科技预言，并对照现实进行了验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「凡是人能想象到的事物，必定有人能将它实现。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1863年 —— 《二十世纪的巴黎》描绘电力驱动的现代都市，手稿被出版商拒绝",
+      "1865年 —— 《从地球到月球》详细设计了登月方案，发射地点选在佛罗里达",
+      "1870年 —— 《海底两万里》中的鹦鹉螺号成为潜水艇的文化原型",
+      "1886年 —— 《征服者罗比尔》描绘了旋翼飞行器，早于莱特兄弟17年",
+      "1889年 —— 《2889年》构想视频通话和全球新闻网络",
+      "1904年 —— 《世界主宰》预见了多功能战争机器的概念"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容来源于凡尔纳原著小说文本，参考多个学术版本（<a href=\"https://en.wikipedia.org/wiki/Jules_Verne\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "科技验证基于公开的发明史、专利记录和科学文献（<a href=\"https://en.wikipedia.org/wiki/Extraordinary_Voyages\" target=\"_blank\" rel=\"noopener\">非凡旅程系列</a>）",
+      "编者观点不代表学术定论",
+      "站点图标采用潜艇舷窗符号——鹦鹉螺号（Nautilus）是凡尔纳最具标志性的发明，圆形舷窗是其最广为流传的视觉符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Jules Verne Predictions",
+    "siteSubtitle": "Father of Science Fiction (1828-1905)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Jules Verne?",
+    "homeIntro1": "Jules Verne (February 8, 1828 – March 24, 1905) was a French novelist, poet, and playwright, widely regarded as the 'Father of Science Fiction'. He is the most-translated French-language author in history and the second most-translated author worldwide, after Agatha Christie.",
+    "homeIntro2": "Verne's 'Extraordinary Voyages' series comprises 54 novels that built a literary universe centered on scientific exploration. With remarkable foresight, he described technologies that did not yet exist: electric submarines, Moon-bound spacecraft, helicopters, videoconferencing, news broadcasting, space stations, and deep-sea exploration — all of which became reality in the decades after his death.",
+    "homeIntro3": "Unlike mystical prophets, Verne's 'predictions' stemmed from his deep understanding of contemporary scientific trends and reasonable extrapolation. He voraciously read scientific journals, corresponded with engineers and scientists, and wove rigorous technical details into thrilling adventure narratives. This site compiles his 16 most visionary technological predictions and verifies them against reality.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Anything one man can imagine, other men can make real.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1863 —— Paris in the Twentieth Century depicts an electric-powered modern city; manuscript rejected by publisher",
+      "1865 —— From the Earth to the Moon details a Moon mission launched from Florida",
+      "1870 —— Twenty Thousand Leagues Under the Seas: the Nautilus becomes the cultural archetype of the submarine",
+      "1886 —— Robur the Conqueror describes a rotary-wing aircraft, 17 years before the Wright Brothers",
+      "1889 —— In the Year 2889 envisions videoconferencing and global news networks",
+      "1904 —— Master of the World foresees multi-function war machines"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions sourced from Verne's original novel texts, referencing multiple scholarly editions (<a href=\"https://en.wikipedia.org/wiki/Jules_Verne\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Technology verification based on public invention histories, patent records, and scientific literature (<a href=\"https://en.wikipedia.org/wiki/Extraordinary_Voyages\" target=\"_blank\" rel=\"noopener\">Extraordinary Voyages series</a>)",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: submarine porthole symbol — the Nautilus is Verne's most iconic invention, and its circular porthole is the most widely recognized visual motif"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 28" height="20">
+  <!-- Pagoda (塔) motif -->
+  <!-- Base platform -->
+  <rect x="6" y="24" width="16" height="2.5" rx="0.5" fill="#3a7a5a"/>
+  <!-- Tower body - 3 tiers tapering upward -->
+  <polygon points="8,24 20,24 18,19 10,19" fill="#245840"/>
+  <polygon points="9,19 19,19 17,14 11,14" fill="#3a7a5a"/>
+  <polygon points="10,14 18,14 16,9 12,9" fill="#245840"/>
+  <!-- Top tier / spire -->
+  <polygon points="11.5,9 16.5,9 14,4" fill="#3a7a5a"/>
+  <!-- Spire finial -->
+  <line x1="14" y1="4" x2="14" y2="1.5" stroke="#245840" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Eave lines -->
+  <line x1="7" y1="19" x2="21" y2="19" stroke="#eef2ee" stroke-width="0.6"/>
+  <line x1="9" y1="14" x2="19" y2="14" stroke="#eef2ee" stroke-width="0.6"/>
+  <line x1="10.5" y1="9" x2="17.5" y2="9" stroke="#eef2ee" stroke-width="0.6"/>
+  <!-- Text: 金陵塔 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#3a7a5a" letter-spacing="2">金陵塔</text>
+</svg>

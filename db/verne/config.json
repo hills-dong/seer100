@@ -1,0 +1,69 @@
+{
+  "siteId": "verne",
+  "answererName": "Jules Verne",
+  "publishDate": "1863-1905",
+  "baseUrl": "https://pre.hilife.me/verne",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "儒勒·凡尔纳科技预言全集 - 科幻之父对未来科技的16条预言与验证 | Jules Verne Predictions",
+      "description": "法国科幻小说之父儒勒·凡尔纳（1828-1905）在其「非凡旅程」系列小说中预言了潜水艇、登月飞行、直升机、视频通话、电动潜艇、太空站等众多科技，数十年后逐一成为现实。",
+      "keywords": "儒勒凡尔纳,凡尔纳预言,科幻之父,Jules Verne,海底两万里,从地球到月球,科技预言,科幻小说预言,凡尔纳预测",
+      "siteName": "凡尔纳科技预言",
+      "ogTitle": "儒勒·凡尔纳科技预言全集 | Jules Verne Predictions",
+      "ogDescription": "科幻之父儒勒·凡尔纳在小说中预言了潜水艇、登月、直升机、视频通话等众多科技，数十年后逐一成为现实。",
+      "locale": "zh_CN",
+      "twitterDescription": "科幻之父凡尔纳的16条科技预言与验证：潜水艇、登月、直升机、视频通话、电动潜艇等，几乎全部成为现实。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Jules Verne Predictions - 16 Technological Prophecies from the Father of Science Fiction | Full Archive & Verification",
+      "description": "French novelist Jules Verne (1828-1905) predicted submarines, Moon landings, helicopters, videoconferencing, electric submarines, space stations, and more in his Extraordinary Voyages novels, decades before their invention.",
+      "keywords": "Jules Verne,Verne predictions,father of science fiction,20000 Leagues,From the Earth to the Moon,technology predictions,sci-fi prophecies,Verne inventions",
+      "siteName": "Jules Verne Predictions",
+      "ogTitle": "Jules Verne Predictions - The Father of Science Fiction's Technological Prophecies",
+      "ogDescription": "16 technological predictions from Jules Verne's novels. Submarines, Moon landings, helicopters, videoconferencing — almost all came true.",
+      "locale": "en_US",
+      "twitterDescription": "16 predictions from Jules Verne, father of science fiction. Submarines, Moon landings, helicopters, videoconferencing — almost all came true."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "凡尔纳科技预言",
+      "alternateName": "Jules Verne Predictions",
+      "url": "https://pre.hilife.me/verne/",
+      "description": "科幻之父儒勒·凡尔纳小说中的科技预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0e8",
+    "white": "#fff",
+    "text": "#2a2a20",
+    "text2": "#747468",
+    "textLight": "#606056",
+    "primary": "#6a6040",
+    "primaryDark": "#4e4628",
+    "primaryBg": "#f2f0e6",
+    "link": "#6a6040",
+    "border": "#dedcd0",
+    "border2": "#c2c0b0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eceae0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Jules Verne Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jules_Verne",
+    "sourceLabel": "Wikipedia"
+  }
+}

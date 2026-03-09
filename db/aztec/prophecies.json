@@ -1,0 +1,158 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "第一太阳纪·四美洲虎（Nahui Ocelotl）",
+      "a": "第一个太阳由特斯卡特利波卡（Tezcatlipoca）统治。这个时代的人类是巨人，以橡果为食。太阳最终坠落，世界陷入黑暗，美洲虎从暗处涌出，将所有巨人吞噬殆尽。",
+      "q_en": "First Sun: 4-Jaguar (Nahui Ocelotl)",
+      "a_en": "The First Sun was ruled by Tezcatlipoca. The humans of this era were giants who lived on acorns. The sun eventually fell, plunging the world into darkness, and jaguars emerged from the shadows to devour all the giants.",
+      "status": "partial",
+      "verdict_zh": "更新世末期（约公元前11000年），美洲确实存在大型哺乳动物群（猛犸象、剑齿虎等）的大规模灭绝事件。美洲虎（Panthera onca）是少数幸存的大型猫科动物之一。但将神话直接对应地质事件存在争议，学界普遍将其视为象征性叙事而非字面记录。",
+      "verdict_en": "At the end of the Pleistocene (c. 11,000 BCE), the Americas did experience mass extinction of megafauna (mammoths, saber-toothed cats, etc.). The jaguar (Panthera onca) was among the few surviving large cats. However, directly mapping myth to geological events is disputed; scholars generally view these as symbolic narratives rather than literal records."
+    },
+    {
+      "id": 2,
+      "cat": "climate",
+      "q": "第二太阳纪·四风（Nahui Ehecatl）",
+      "a": "第二个太阳由羽蛇神克特萨尔科亚特尔（Quetzalcoatl）统治。这个时代的人类以松子为食。最终一场毁灭性的飓风席卷世界，幸存者变成了猴子。",
+      "q_en": "Second Sun: 4-Wind (Nahui Ehecatl)",
+      "a_en": "The Second Sun was ruled by Quetzalcoatl. The humans of this era lived on pine nuts. A catastrophic hurricane ultimately swept the world, and the survivors were transformed into monkeys.",
+      "status": "partial",
+      "verdict_zh": "中美洲地区确实是全球飓风最活跃的区域之一，历史上多次遭受毁灭性风暴。考古证据显示古代中美洲聚落曾因极端天气事件而废弃。但「人变猴子」的叙述属于典型的变形神话（transformation myth），不应作字面理解。",
+      "verdict_en": "Mesoamerica is indeed one of the world's most hurricane-prone regions, with a history of devastating storms. Archaeological evidence shows ancient Mesoamerican settlements were sometimes abandoned due to extreme weather events. However, the 'humans turned into monkeys' narrative is a classic transformation myth and should not be taken literally."
+    },
+    {
+      "id": 3,
+      "cat": "climate",
+      "q": "第三太阳纪·四雨（Nahui Quiahuitl）",
+      "a": "第三个太阳由雨神特拉洛克（Tlaloc）统治。这个时代的人类以水生植物种子为食。最终天降火雨，焚毁了整个世界，幸存者变成了鸟类（或火鸡、蝴蝶）。",
+      "q_en": "Third Sun: 4-Rain (Nahui Quiahuitl)",
+      "a_en": "The Third Sun was ruled by Tlaloc, the rain god. The humans of this era ate aquatic plant seeds. A rain of fire eventually consumed the world, and the survivors were transformed into birds (or turkeys, or butterflies).",
+      "status": "partial",
+      "verdict_zh": "中美洲有丰富的火山活动历史。波波卡特佩特火山（Popocatépetl）距特诺奇蒂特兰仅70公里，历史上多次大规模喷发。火山灰降落可被描述为「火雨」。约公元前100年的希特莱（Xitle）火山喷发曾直接掩埋库伊库尔科（Cuicuilco）古城。但将「火雨」特指某次火山事件的对应关系无法确证。",
+      "verdict_en": "Mesoamerica has a rich history of volcanic activity. Popocatépetl is just 70km from Tenochtitlan and has erupted massively multiple times. Volcanic ashfall could be described as 'rain of fire.' The Xitle volcano eruption (c. 100 BCE) directly buried the ancient city of Cuicuilco. However, mapping 'rain of fire' to a specific volcanic event cannot be verified conclusively."
+    },
+    {
+      "id": 4,
+      "cat": "climate",
+      "q": "第四太阳纪·四水（Nahui Atl）",
+      "a": "第四个太阳由水女神查尔丘特利库埃（Chalchiuhtlicue）统治。这个时代的人类以一种类似玉米的野生谷物为食。最终一场持续五十二年的大洪水吞没了整个世界，天空也随之坍塌。幸存者变成了鱼。",
+      "q_en": "Fourth Sun: 4-Water (Nahui Atl)",
+      "a_en": "The Fourth Sun was ruled by Chalchiuhtlicue, the water goddess. Humans of this era ate a wild grain similar to maize. A great flood lasting fifty-two years engulfed the entire world, and the sky collapsed. The survivors were transformed into fish.",
+      "status": "partial",
+      "verdict_zh": "全球洪水神话几乎存在于每一个古代文明中（美索不达米亚、圣经、印度、中国等）。地质学上，末次冰期结束后（约公元前10000-8000年）全球海平面上升约120米，确实淹没了大量沿海低地。中美洲地区也有洪水事件的沉积学证据。但「五十二年」洪水的具体持续时间无法核实。",
+      "verdict_en": "Global flood myths exist in virtually every ancient civilization (Mesopotamia, Biblical, Indian, Chinese, etc.). Geologically, sea levels rose approximately 120 meters after the last Ice Age (c. 10,000–8,000 BCE), inundating vast coastal lowlands. Mesoamerica also has sedimentological evidence of flood events. However, the specific duration of 'fifty-two years' cannot be verified."
+    },
+    {
+      "id": 5,
+      "cat": "spirit",
+      "q": "第五太阳纪·四运动（Nahui Ollin）的创造",
+      "a": "众神在特奥蒂瓦坎聚会，纳纳瓦特辛（Nanahuatzin）跳入神圣之火，化身为第五太阳。但太阳静止不动，众神必须献出自己的血液才能使太阳运转。于是风神埃赫卡特尔（Ehecatl）杀死了所有神灵，用他们的血推动太阳运行。",
+      "q_en": "Creation of the Fifth Sun: 4-Movement (Nahui Ollin)",
+      "a_en": "The gods gathered at Teotihuacan, and Nanahuatzin leaped into the sacred fire to become the Fifth Sun. But the sun stood still, and the gods had to offer their own blood to set it in motion. So Ehecatl, the wind god, slew all the gods and used their blood to propel the sun across the sky.",
+      "status": "partial",
+      "verdict_zh": "特奥蒂瓦坎确实是中美洲最重要的古城之一，鼎盛期（约公元1-550年）人口超过12万。城中太阳金字塔和月亮金字塔的命名与阿兹特克太阳神话直接相关。考古发现城中存在大量祭祀遗迹，与神话中「众神献祭」的叙事呼应。但阿兹特克人是在特奥蒂瓦坎废弃数百年后才到达中央高原的。",
+      "verdict_en": "Teotihuacan is indeed one of the most important ancient cities in Mesoamerica, with a peak population over 120,000 (c. 1–550 CE). The Pyramid of the Sun and Pyramid of the Moon are named in direct connection to Aztec solar mythology. Archaeological finds of extensive sacrificial remains echo the narrative of 'gods sacrificing themselves.' However, the Aztecs arrived in the central highlands centuries after Teotihuacan's abandonment."
+    },
+    {
+      "id": 6,
+      "cat": "climate",
+      "q": "第五太阳的终结预言",
+      "a": "第五太阳纪（Nahui Ollin）注定在地震中终结。大地将震裂，天空中的怪物齐齐米梅（Tzitzimimeh）——骷髅形态的星辰恶魔——将从天而降，吞噬所有人类。第五太阳将不再升起。",
+      "q_en": "Prophecy of the Fifth Sun's End",
+      "a_en": "The Fifth Sun (Nahui Ollin) is destined to end in earthquakes. The earth will crack apart, and the Tzitzimimeh — skeletal star demons — will descend from the sky to devour all humanity. The Fifth Sun will rise no more.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 7,
+      "cat": "spirit",
+      "q": "活人祭祀维持太阳运转",
+      "a": "第五太阳需要人类鲜血的持续滋养才能继续运转。如果祭祀中断，太阳将停止运动，世界将陷入永恒的黑暗与毁灭。这是阿兹特克帝国进行大规模活人祭祀的宇宙论基础。",
+      "q_en": "Human Sacrifice to Sustain the Sun",
+      "a_en": "The Fifth Sun requires continuous nourishment of human blood to keep moving. If sacrifices cease, the sun will stop, and the world will plunge into eternal darkness and destruction. This cosmological belief formed the foundation of the Aztec Empire's practice of large-scale human sacrifice.",
+      "status": "partial",
+      "verdict_zh": "考古学已充分证实阿兹特克帝国的大规模人祭实践。2015-2018年在墨西哥城出土的「骷髅架」（Huei Tzompantli）遗址发现了数百个头骨，印证了西班牙殖民者的记述。阿兹特克人确实将人祭视为维持宇宙秩序的必要行为。但太阳是否因此「继续运转」属于宗教信仰范畴，不可实证。",
+      "verdict_en": "Archaeology has extensively confirmed the Aztec Empire's large-scale human sacrifice practices. The Huei Tzompantli (skull rack) excavated in Mexico City (2015–2018) revealed hundreds of skulls, corroborating Spanish colonial accounts. The Aztecs did view sacrifice as essential to maintaining cosmic order. However, whether the sun 'kept moving' because of this belongs to religious belief and cannot be empirically verified."
+    },
+    {
+      "id": 8,
+      "cat": "spirit",
+      "q": "新火仪式（Xiuhmolpilli）",
+      "a": "每五十二年（一个完整的历法周期），阿兹特克人举行新火仪式。在仪式前夜，所有火焰被熄灭，全城陷入黑暗。祭司在人祭牺牲者的胸腔中点燃新火——如果新火成功点燃，第五太阳将再延续五十二年；如果失败，世界将永远终结。",
+      "q_en": "New Fire Ceremony (Xiuhmolpilli)",
+      "a_en": "Every fifty-two years (one complete calendar cycle), the Aztecs held the New Fire Ceremony. On the eve of the ceremony, all fires were extinguished and the city plunged into darkness. Priests kindled new fire in the chest cavity of a sacrificial victim — if the new fire ignited successfully, the Fifth Sun would continue for another fifty-two years; if it failed, the world would end forever.",
+      "status": "verified",
+      "verdict_zh": "最后一次有记录的新火仪式于1507年在韦沙奇特佩克山（Huixachtlan）举行，由蒙特苏马二世（Moctezuma II）主持。考古学在该山顶发现了仪式遗迹。此前的新火仪式分别在1455年和1403年举行。这一仪式的历史真实性已被考古学和文献学充分证实。",
+      "verdict_en": "The last recorded New Fire Ceremony was held in 1507 on Mount Huixachtlan, presided over by Moctezuma II. Archaeological remains of the ceremony have been found at the hilltop. Previous ceremonies were held in 1455 and 1403. The historical authenticity of this ceremony is well-established through archaeological and documentary evidence."
+    },
+    {
+      "id": 9,
+      "cat": "other",
+      "q": "太阳石的宇宙图谱",
+      "a": "太阳石（Piedra del Sol）将五个太阳纪的完整宇宙观刻入一块巨型玄武岩圆盘。中央是第五太阳托纳提乌（Tonatiuh）的面容，周围四个方格分别代表前四个太阳纪的毁灭方式：美洲虎、风、火雨、洪水。最外圈是两条火蛇（Xiuhcoatl），象征时间的循环。",
+      "q_en": "The Sun Stone's Cosmic Map",
+      "a_en": "The Sun Stone (Piedra del Sol) carved the complete Five Suns cosmology into a massive basalt disk. At the center is the face of the Fifth Sun, Tonatiuh. The four surrounding panels represent the destruction of each previous sun: jaguars, wind, rain of fire, and flood. The outermost ring features two fire serpents (Xiuhcoatl), symbolizing the cyclical nature of time.",
+      "status": "verified",
+      "verdict_zh": "太阳石于1790年12月17日在墨西哥城主广场（Zócalo）地下被重新发掘。圆盘直径3.6米，重约24吨，由玄武岩雕刻。现收藏于墨西哥国家人类学博物馆（Museo Nacional de Antropología）。石刻上的符号已被学界广泛研究和解读，是中美洲考古学的标志性文物。",
+      "verdict_en": "The Sun Stone was rediscovered on December 17, 1790, beneath the Zócalo (main plaza) of Mexico City. The disk is 3.6 meters in diameter, weighs approximately 24 tons, and is carved from basalt. It is now housed in the National Museum of Anthropology (Museo Nacional de Antropología). The symbols on the stone have been extensively studied and interpreted by scholars, making it an iconic artifact of Mesoamerican archaeology."
+    },
+    {
+      "id": 10,
+      "cat": "spirit",
+      "q": "羽蛇神的离去与归来",
+      "a": "羽蛇神克特萨尔科亚特尔被特斯卡特利波卡欺骗后离开了托兰（Tollan），乘蛇筏向东渡海而去。他许诺将在「一芦苇年」（Ce Acatl）归来，届时将夺回他的王国。",
+      "q_en": "Quetzalcoatl's Departure and Promised Return",
+      "a_en": "After being deceived by Tezcatlipoca, Quetzalcoatl departed from Tollan (Tula), sailing eastward on a raft of serpents. He promised to return in a 'One Reed year' (Ce Acatl) to reclaim his kingdom.",
+      "status": "verified",
+      "verdict_zh": "1519年——恰好是阿兹特克历法中的「一芦苇年」——西班牙征服者埃尔南·科尔特斯从东方抵达墨西哥海岸。多个殖民时期文献记载，蒙特苏马二世曾怀疑科尔特斯就是归来的羽蛇神，这一犹豫可能延缓了阿兹特克的军事抵抗。但近年学界对「蒙特苏马误认科尔特斯为神」的叙事真实性存在争议，部分学者认为这是殖民者事后构建的解释框架。",
+      "verdict_en": "In 1519 — which happened to be a 'One Reed year' in the Aztec calendar — Spanish conquistador Hernán Cortés arrived on Mexico's eastern coast. Multiple colonial-era sources record that Moctezuma II suspected Cortés might be the returning Quetzalcoatl, a hesitation that may have delayed Aztec military resistance. However, recent scholarship debates the authenticity of the 'Moctezuma mistook Cortés for a god' narrative, with some scholars arguing it was a post-conquest explanatory framework constructed by colonizers."
+    },
+    {
+      "id": 11,
+      "cat": "war",
+      "q": "第五太阳末期的征兆",
+      "a": "在第五太阳终结之前，将出现一系列不祥征兆：大地连续震动，天空出现异象，湖水无故沸腾，神庙无火自燃。这些征兆预示着齐齐米梅即将降临。",
+      "q_en": "Omens Before the End of the Fifth Sun",
+      "a_en": "Before the end of the Fifth Sun, a series of ill omens would appear: continuous earthquakes, celestial phenomena, lakes boiling without cause, and temples spontaneously catching fire. These omens foretell the imminent descent of the Tzitzimimeh.",
+      "status": "partial",
+      "verdict_zh": "据多部殖民时期文献记载（弗洛伦萨抄本等），1509-1519年间特诺奇蒂特兰确实出现了被阿兹特克人视为不祥征兆的异常事件，包括特斯科科湖异常涨水、大神庙无因起火、天空出现异光（可能为彗星或极光）等。这些事件的真实性已被历史学证实，但其是否「预示末日」属于文化解读。",
+      "verdict_en": "According to multiple colonial-era sources (Florentine Codex, etc.), Tenochtitlan did experience anomalous events between 1509–1519 that the Aztecs interpreted as ill omens, including unusual flooding of Lake Texcoco, the Great Temple catching fire spontaneously, and strange lights in the sky (possibly comets or aurora). The historicity of these events is confirmed, but whether they 'foretold the end' is a matter of cultural interpretation."
+    },
+    {
+      "id": 12,
+      "cat": "war",
+      "q": "托尔特克的覆灭预言",
+      "a": "羽蛇神离开后，托兰城（Tollan/Tula）将陷入衰败与毁灭。特斯卡特利波卡的黑暗力量将统治这片土地，直到新的循环开始。",
+      "q_en": "Prophecy of Toltec Downfall",
+      "a_en": "After Quetzalcoatl's departure, the city of Tollan (Tula) would fall into decline and ruin. The dark forces of Tezcatlipoca would rule the land until a new cycle begins.",
+      "status": "verified",
+      "verdict_zh": "考古学证实托兰城（今墨西哥伊达尔戈州的图拉遗址）在约公元1150-1200年间确实遭到破坏和废弃。遗址显示大规模焚烧和蓄意破坏的痕迹。托尔特克文明的衰落与阿兹特克神话的叙述在时间线上基本吻合，尽管导致衰落的实际原因是干旱、内乱和外族入侵的综合作用。",
+      "verdict_en": "Archaeology confirms that Tollan (modern Tula in Hidalgo, Mexico) was indeed destroyed and abandoned around 1150–1200 CE. The site shows evidence of large-scale burning and deliberate destruction. The fall of Toltec civilization aligns with the mythological narrative, though the actual causes were a combination of drought, internal strife, and invasion by outside groups."
+    },
+    {
+      "id": 13,
+      "cat": "society",
+      "q": "玉米的神圣起源",
+      "a": "在第五太阳纪初期，羽蛇神化身为蚂蚁，深入「食物之山」（Tonacatepetl）内部，偷取了玉米种子带给人类。玉米从此成为人类的主要食物，人类本身也由玉米团制成。",
+      "q_en": "The Sacred Origin of Maize",
+      "a_en": "At the beginning of the Fifth Sun, Quetzalcoatl transformed into an ant and entered 'Food Mountain' (Tonacatepetl) to steal maize seeds for humanity. Maize became humanity's staple food, and humans themselves were said to be fashioned from maize dough.",
+      "status": "verified",
+      "verdict_zh": "玉米（Zea mays）确实起源于中美洲，约在9000年前从野生大刍草（teosinte）驯化而来。考古学在瓦哈卡谷地和特瓦坎谷地发现了最早的玉米驯化证据。玉米是阿兹特克饮食的绝对核心，占热量摄入的80%以上。中美洲多个文明（包括玛雅）都有「人由玉米制成」的创世叙事。",
+      "verdict_en": "Maize (Zea mays) did originate in Mesoamerica, domesticated from wild teosinte approximately 9,000 years ago. Archaeological evidence of the earliest maize domestication has been found in the Oaxaca and Tehuacán valleys. Maize was the absolute core of Aztec diet, accounting for over 80% of caloric intake. Multiple Mesoamerican civilizations (including the Maya) share the 'humans made from maize' creation narrative."
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "众神在冥界的骨骸再造",
+      "a": "在第四与第五太阳之间，羽蛇神深入冥界（Mictlan），从死亡之神密克特兰特库特利（Mictlantecuhtli）处盗取了前代人类的骨骸。他用自己的鲜血浇灌碎骨，创造了第五太阳纪的新人类。",
+      "q_en": "Recreation from Bones in the Underworld",
+      "a_en": "Between the Fourth and Fifth Suns, Quetzalcoatl descended into the underworld (Mictlan) to steal the bones of previous humans from Mictlantecuhtli, the death god. He sprinkled his own blood upon the ground bones to create the new humans of the Fifth Sun.",
+      "status": "partial",
+      "verdict_zh": "阿兹特克人确实实行复杂的丧葬习俗，包括对骨骸的仪式性处理。在特奥蒂瓦坎和特诺奇蒂特兰的考古发掘中都发现了大量二次埋葬和骨骸重新排列的证据，反映了对骨骸在生命循环中作用的深层信仰。冥界Mictlan的信仰在殖民前文献中有充分记载。但「用鲜血创造人类」属于创世神话的象征性叙事。",
+      "verdict_en": "The Aztecs did practice complex funerary customs including ritualistic treatment of bones. Archaeological excavations at Teotihuacan and Tenochtitlan have uncovered extensive evidence of secondary burials and bone rearrangement, reflecting deep beliefs about the role of bones in the cycle of life. The belief in Mictlan is well-documented in pre-colonial sources. However, 'creating humans with blood' is symbolic creation mythology."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "莲师预言",
+    "siteSubtitle": "莲花生大师伏藏预言（约8世纪）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "莲花生大师是谁？",
+    "homeIntro1": "莲花生大师（Padmasambhava），又称「莲师」或「咕噜仁波切」（Guru Rinpoche），是8世纪印度佛教大师。他受藏王赤松德赞之邀入藏，降伏本地神灵，建立桑耶寺，将密宗佛法系统传入西藏，被尊为藏传佛教的开山祖师。",
+    "homeIntro2": "莲师最独特的传法方式是「伏藏」（terma）——他将教法与预言封藏于岩石、湖泊、甚至弟子的意识流中，由后世的「掘藏师」（terton）在适当时机发掘。这些伏藏文献跨越千年，不断被发现和公开。",
+    "homeIntro3": "莲师预言中最广为流传的是「铁鸟飞天」之说，精确预见了飞机与汽车的出现以及藏人的流散。其他预言涉及末法时代的道德沦丧、佛法向西方传播、以及人类文明的兴衰。本站整理了其中代表性的预言，并对可验证的部分进行了评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「当铁鸟飞翔于天空，铁马奔跑于大地之时，藏人将如蚂蚁般流散于世界各地，佛法将传到红人的土地。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约760年 —— 莲师入藏弘法，建桑耶寺，埋伏藏",
+      "14-19世纪 —— 各代掘藏师陆续发现莲师伏藏预言",
+      "1959年 —— 铁鸟预言应验：藏人流散世界各地",
+      "20世纪下半叶 —— 佛法西传预言应验：藏传佛教在欧美广泛传播",
+      "末法时代 —— 莲师预言人类道德衰退与五浊恶世的到来"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容主要整理自伏藏文献英译本，包括《莲花遗教》（Padma bKa'i Thang）等经典（<a href=\"https://en.wikipedia.org/wiki/Padmasambhava\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "铁鸟预言出处参见 Tulku Thondup《Hidden Teachings of Tibet》（<a href=\"https://archive.org/details/hiddenteachingso0000thon\" target=\"_blank\" rel=\"noopener\">Archive.org</a>）",
+      "验证评价基于公开历史记录和新闻报道",
+      "编者观点不代表学术定论",
+      "站点图标采用莲花符号——Padmasambhava 意为「莲花中诞生者」，莲花是其最核心的身份标志"
+    ]
+  },
+  "en": {
+    "siteTitle": "Padmasambhava Prophecies",
+    "siteSubtitle": "Terma Prophecies of the Lotus-Born Master (c. 8th Century)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Padmasambhava?",
+    "homeIntro1": "Padmasambhava, also known as Guru Rinpoche ('Precious Master'), was an 8th-century Indian Buddhist master. Invited to Tibet by King Trisong Detsen, he subdued local spirits, founded Samye Monastery, and systematically transmitted Vajrayana Buddhism to Tibet. He is revered as the founding patriarch of Tibetan Buddhism.",
+    "homeIntro2": "Padmasambhava's most distinctive legacy is the terma ('hidden treasure') tradition — he concealed teachings and prophecies within rocks, lakes, and even the mindstreams of his disciples, to be discovered by future treasure-revealers (tertons) at the appropriate time. These terma texts have been continuously unearthed over more than a thousand years.",
+    "homeIntro3": "His most famous prophecy speaks of 'iron birds flying in the sky' — an astonishingly precise foretelling of aircraft, automobiles, and the Tibetan diaspora. Other prophecies address the moral decline of the degenerate age, the spread of Dharma to the West, and the rise and fall of human civilization. This site compiles representative prophecies and evaluates those that can be verified.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"When the iron bird flies and horses run on wheels, the Tibetan people will be scattered across the world like ants, and the Dharma will come to the land of the red man.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "c. 760 CE —— Padmasambhava arrives in Tibet, founds Samye, conceals terma",
+      "14th-19th century —— Successive tertons discover Padmasambhava's hidden prophecies",
+      "1959 —— Iron bird prophecy fulfilled: Tibetan diaspora scatters worldwide",
+      "Late 20th century —— Dharma-to-the-West prophecy fulfilled: Tibetan Buddhism spreads across Europe and America",
+      "Age of Degeneration —— Padmasambhava's prophecy of moral decline and the coming of the five degenerations"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled primarily from English translations of terma literature, including the Padma bKa'i Thang and related classics (<a href=\"https://en.wikipedia.org/wiki/Padmasambhava\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Iron bird prophecy reference: Tulku Thondup, <i>Hidden Teachings of Tibet</i> (<a href=\"https://archive.org/details/hiddenteachingso0000thon\" target=\"_blank\" rel=\"noopener\">Archive.org</a>)",
+      "Verification based on public historical records and news reports",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: lotus flower — Padmasambhava means 'Lotus-Born', making the lotus his most essential identity symbol"
+    ]
+  }
+}

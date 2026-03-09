@@ -1,0 +1,99 @@
+{
+  "siteId": "chenggu",
+  "answererName": "袁天罡",
+  "publishDate": "约公元650年",
+  "baseUrl": "https://pre.hilife.me/chenggu",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "称骨算命全集 - 袁天罡51种骨重命格详解 | Bone Weight Fortune Telling",
+      "description": "袁天罡称骨算命法是唐代著名相师袁天罡所创的命理推算体系。以出生年月日时对应骨重（两+钱），查表得出命运判词，共51种骨重等级，每种对应一首四句诗。本站收录代表性骨重命格并进行解读。",
+      "keywords": "称骨算命,袁天罡,骨重,命理,八字,Bone Weight Fortune",
+      "siteName": "称骨算命",
+      "ogTitle": "称骨算命全集 - 袁天罡51种骨重命格详解",
+      "ogDescription": "唐代袁天罡所创称骨算命法，以骨重推算命运。收录代表性骨重命格及四句判词详解。",
+      "locale": "zh_CN",
+      "twitterDescription": "袁天罡称骨算命：从二两一钱到七两二钱，51种骨重命格，每种一首四句诗判词。古代命理学经典体系。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Bone Weight Fortune Telling - Yuan Tiangang's Complete Guide | 称骨算命",
+      "description": "Yuan Tiangang's Bone Weight Fortune Telling (称骨算命) is a Tang dynasty divination system that calculates destiny based on birth date converted to bone weight units. 51 weight levels from 2.1 to 7.2 liang, each with a four-line destiny poem.",
+      "keywords": "Bone Weight Fortune,Yuan Tiangang,Chinese divination,Tang dynasty,destiny poem",
+      "siteName": "Bone Weight Fortune",
+      "ogTitle": "Bone Weight Fortune Telling - Yuan Tiangang's 51 Destiny Poems",
+      "ogDescription": "Tang dynasty divination: convert your birth date to bone weight, discover your destiny poem. 51 levels from poorest to most fortunate fate.",
+      "locale": "en_US",
+      "twitterDescription": "Yuan Tiangang's Bone Weight Fortune: 51 weight levels, each with a destiny poem. A classic Chinese divination system from the Tang dynasty."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "称骨算命",
+      "alternateName": "Bone Weight Fortune Telling",
+      "url": "https://pre.hilife.me/chenggu/",
+      "description": "唐代袁天罡所创称骨算命法，51种骨重命格详解",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "称骨算命是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "称骨算命相传为唐代著名相师袁天罡所创。此法将一个人出生的年、月、日、时各对应一个骨重数值（以「两」和「钱」为单位），四者相加得出总骨重，再查表找到对应的四句判词诗，据此推断命运吉凶。共有51种骨重等级，从二两一钱（最轻，命最苦）到七两二钱（最重，命最贵），骨重越大通常意味着命越好。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "称骨算命准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "称骨算命作为一种古代命理学方法，其科学性无法验证。它将所有人简单归入51种命格，粒度远粗于八字命理。但因其简单易用、朗朗上口，千年来在民间广为流传，是中国传统命理文化的重要组成部分。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Bone Weight Fortune Telling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bone Weight Fortune Telling (称骨算命) is attributed to Yuan Tiangang, a renowned Tang dynasty diviner. The system assigns a weight value (in liang and qian) to each component of one's birth date (year, month, day, hour). The four values are summed to produce a total bone weight, which corresponds to one of 51 four-line destiny poems describing one's fate. Weights range from 2.1 (lightest, hardest fate) to 7.2 (heaviest, most fortunate)."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0f4",
+    "white": "#fff",
+    "text": "#1e222e",
+    "text2": "#606880",
+    "textLight": "#4e5668",
+    "primary": "#5a6b8c",
+    "primaryDark": "#3e4e6a",
+    "primaryBg": "#eef2fa",
+    "link": "#5a6b8c",
+    "border": "#ccd2e0",
+    "border2": "#aab2c4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e4e8f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "称骨算命"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/袁天罡",
+    "sourceLabel": "维基百科"
+  }
+}

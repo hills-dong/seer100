@@ -1,0 +1,69 @@
+{
+  "siteId": "celestine",
+  "answererName": "James Redfield",
+  "publishDate": "1993",
+  "baseUrl": "https://pre.hilife.me/celestine",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "塞莱斯廷预言 - 九大觉悟与灵性进化预言全集 | The Celestine Prophecy",
+      "description": "詹姆斯·雷德菲尔德（James Redfield）1993年出版的灵性冒险小说《塞莱斯廷预言》中的九大觉悟，涵盖同步性、能量感知、控制戏码、灵性进化等主题，及续作中的进阶洞见。",
+      "keywords": "塞莱斯廷预言,九大觉悟,詹姆斯雷德菲尔德,灵性进化,同步性,能量觉知,Celestine Prophecy,新时代运动,意识进化",
+      "siteName": "塞莱斯廷预言",
+      "ogTitle": "塞莱斯廷预言 - 九大觉悟全集 | The Celestine Prophecy",
+      "ogDescription": "詹姆斯·雷德菲尔德灵性冒险小说中的九大觉悟与灵性进化预言，涵盖同步性、能量感知、意识觉醒等主题。",
+      "locale": "zh_CN",
+      "twitterDescription": "《塞莱斯廷预言》九大觉悟与灵性进化预言全集。涵盖同步性、能量感知、控制戏码、意识进化等主题。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "The Celestine Prophecy - Nine Insights & Spiritual Evolution Prophecies | Full Archive",
+      "description": "The Nine Insights from James Redfield's 1993 spiritual adventure novel The Celestine Prophecy, covering synchronicity, energy awareness, control dramas, spiritual evolution, and advanced insights from sequel novels.",
+      "keywords": "Celestine Prophecy,Nine Insights,James Redfield,spiritual evolution,synchronicity,energy awareness,New Age,consciousness evolution,control dramas",
+      "siteName": "The Celestine Prophecy",
+      "ogTitle": "The Celestine Prophecy - Nine Insights & Full Archive",
+      "ogDescription": "The Nine Insights from James Redfield's spiritual adventure novel, covering synchronicity, energy awareness, control dramas, and humanity's spiritual evolution.",
+      "locale": "en_US",
+      "twitterDescription": "The Nine Insights from The Celestine Prophecy by James Redfield. Synchronicity, energy awareness, control dramas, and the evolution of consciousness."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "塞莱斯廷预言",
+      "alternateName": "The Celestine Prophecy",
+      "url": "https://pre.hilife.me/celestine/",
+      "description": "詹姆斯·雷德菲尔德灵性冒险小说中的九大觉悟与灵性进化预言",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f4f2",
+    "white": "#fff",
+    "text": "#222e28",
+    "text2": "#687470",
+    "textLight": "#566260",
+    "primary": "#5a6a5a",
+    "primaryDark": "#3e4e3e",
+    "primaryBg": "#e8f0ea",
+    "link": "#5a6a5a",
+    "border": "#d8e0dc",
+    "border2": "#bcc6c0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#e6ece8"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "The Celestine Prophecy"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Celestine_Prophecy",
+    "sourceLabel": "Wikipedia"
+  }
+}

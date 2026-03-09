@@ -1,0 +1,99 @@
+{
+  "siteId": "geam",
+  "answererName": "南师古",
+  "publishDate": "约1400年",
+  "baseUrl": "https://pre.hilife.me/geam",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "格庵遗录 - 韩国南师古预言书六十篇详解与验证 | Gyeogam Yurok",
+      "description": "《格庵遗录》相传为朝鲜王朝预言家南师古（号格庵）所著的预言书，以汉文写成，共六十篇，涉及壬辰倭乱、日本殖民、南北分裂、朝鲜战争等朝鲜半岛重大历史事件。本站整理部分篇章原文并进行验证分析。",
+      "keywords": "格庵遗录,南师古,格庵,韩国预言,朝鲜预言,Gyeogam Yurok,Nam Sago",
+      "siteName": "格庵遗录预言",
+      "ogTitle": "格庵遗录 - 韩国南师古预言详解 | Gyeogam Yurok",
+      "ogDescription": "朝鲜王朝预言家南师古《格庵遗录》六十篇预言收录与验证分析。涵盖壬辰倭乱、殖民统治、南北分裂等朝鲜半岛历史。",
+      "locale": "zh_CN",
+      "twitterDescription": "格庵遗录预言验证：壬辰倭乱、日本殖民、光复独立、南北分裂、朝鲜战争等。南师古预言逐篇解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Gyeogam Yurok - Korean Prophecy of Nam Sa-go | Full Archive & Verification",
+      "description": "Gyeogam Yurok (格庵遗录) is a Korean prophecy text attributed to Joseon-era scholar Nam Sa-go (styled Gyeogam), written in classical Chinese. It contains 60 chapters predicting major events on the Korean Peninsula including the Imjin War, Japanese colonial rule, and national division.",
+      "keywords": "Gyeogam Yurok,Nam Sago,Korean prophecy,Joseon prophecy,격암유록,남사고",
+      "siteName": "Gyeogam Yurok Prophecies",
+      "ogTitle": "Gyeogam Yurok - The Korean Prophecy of Nam Sa-go",
+      "ogDescription": "60-chapter Korean prophecy text by Joseon scholar Nam Sa-go. Full archive with verification covering the Imjin War, colonial rule, Korean division, and beyond.",
+      "locale": "en_US",
+      "twitterDescription": "Gyeogam Yurok prophecies verified: Imjin War, Japanese colonization, Korean liberation, North-South division, Korean War and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "格庵遗录预言",
+      "alternateName": "Gyeogam Yurok Prophecies",
+      "url": "https://pre.hilife.me/geam/",
+      "description": "朝鲜王朝南师古《格庵遗录》预言收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "格庵遗录是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "《格庵遗录》相传为朝鲜王朝学者南师古（1509—1571，号格庵）所著的预言书。南师古精通易学、风水、天文、占卜，据说少年时在金刚山遇神人授秘诀，遂记录成书。全书以汉文写成，共六十篇，据信预言了朝鲜半岛从壬辰倭乱到未来的重大历史事件。但学术界对其真伪存在较大争议。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "格庵遗录的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "书中被认为预言了壬辰倭乱、日本殖民统治、光复独立、南北分裂、朝鲜战争等多个历史事件。但学术界主流观点认为现存版本可能系后人伪作——1977年李道殷公开的版本被证明是事后编写的，书中出现了现代汉语词汇如「哲学」「共产」「原子」等，这些词语在南师古生活的16世纪并不存在。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Gyeogam Yurok?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gyeogam Yurok (격암유록, 格庵遗录) is a Korean prophecy text attributed to Nam Sa-go (1509–1571), a Joseon-era scholar who styled himself 'Gyeogam.' He was renowned for his mastery of the I Ching, geomancy, astronomy, and divination. The text contains 60 chapters written in classical Chinese (Hanja), believed to predict major events on the Korean Peninsula. However, its authenticity is disputed — scholarly consensus suggests the surviving text may be a modern forgery."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eeee",
+    "white": "#fff",
+    "text": "#282424",
+    "text2": "#786868",
+    "textLight": "#645454",
+    "primary": "#8c6b5a",
+    "primaryDark": "#6a4e3e",
+    "primaryBg": "#f8f2ee",
+    "link": "#8c6b5a",
+    "border": "#ddd4d0",
+    "border2": "#c0b4ae",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#ece6e2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "格庵遗录 Gyeogam Yurok"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gyeogam_Yurok",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "siteId": "jiangziya",
+  "answererName": "姜子牙",
+  "publishDate": "约公元前4世纪（成书），传为公元前11世纪姜太公所作",
+  "baseUrl": "https://pre.hilife.me/jiangziya",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "六韬预言 - 姜太公治国兵法中的预言性警示与验证 | Six Secret Teachings",
+      "description": "《六韬》传为周朝开国功臣姜子牙（姜太公）所著，是中国最早的兵法与治国策略经典之一。书中对国家兴亡规律的论述具有深刻的预言性质，涉及治国、用兵、政治腐败导致亡国等主题。本站精选具有预言价值的篇章进行验证分析。",
+      "keywords": "六韬,姜子牙,姜太公,太公望,六韬预言,治国兵法,周朝,Six Secret Teachings",
+      "siteName": "六韬预言",
+      "ogTitle": "六韬预言 - 姜太公治国兵法中的预言性警示 | Six Secret Teachings",
+      "ogDescription": "《六韬》姜太公治国用兵经典中具有预言性质的警示论述，涵盖治国之道、军事战略、社会兴衰规律。",
+      "locale": "zh_CN",
+      "twitterDescription": "姜太公《六韬》：两千年前的治国兵法如何预见国家兴亡规律？精选预言性警示篇章，逐一验证分析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Six Secret Teachings - Prophetic Warnings from Jiang Ziya's Military Classic | Full Archive & Verification",
+      "description": "The Six Secret Teachings (六韬, Liù Tāo) is attributed to Jiang Ziya (Taigong Wang), the legendary military strategist who helped found the Zhou dynasty (~11th century BCE). This ancient text on governance and military strategy contains remarkably prophetic warnings about patterns of national rise and fall. Full archive with historical verification.",
+      "keywords": "Six Secret Teachings,Liu Tao,Jiang Ziya,Taigong Wang,Chinese military classic,Zhou dynasty",
+      "siteName": "Six Secret Teachings Prophecies",
+      "ogTitle": "Six Secret Teachings - Prophetic Warnings from Jiang Ziya's Military Classic",
+      "ogDescription": "Prophetic warnings from the Six Secret Teachings by Jiang Ziya. Ancient insights on governance, military strategy, and patterns of national rise and fall, verified against history.",
+      "locale": "en_US",
+      "twitterDescription": "Jiang Ziya's Six Secret Teachings: How a 2,000-year-old military classic predicted patterns of national rise and fall. Selected prophetic passages analyzed and verified."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "六韬预言",
+      "alternateName": "Six Secret Teachings Prophecies",
+      "url": "https://pre.hilife.me/jiangziya/",
+      "description": "姜太公《六韬》治国兵法中的预言性警示与历史验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "六韬是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "《六韬》是中国古代一部重要的兵法与治国策略著作，传为周朝开国功臣姜子牙（姜太公、太公望）所著。全书分为文韬、武韬、龙韬、虎韬、豹韬、犬韬六卷，以周文王、武王与姜太公的对话形式，论述治国、用兵、选将、练兵等方方面面。实际成书年代约在战国至汉初。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "六韬为什么具有预言性质？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "《六韬》虽非传统意义上的预言书，但其中对国家兴亡规律、政治腐败导致覆灭、军事决策成败等方面的论述，具有深刻的预见性。这些两千多年前的警示在后世历朝历代反复应验，展现出超越时代的洞察力。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the Six Secret Teachings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Six Secret Teachings (六韬, Liù Tāo) is an ancient Chinese text on military strategy and statecraft, traditionally attributed to Jiang Ziya (Taigong Wang), the legendary strategist who helped King Wu of Zhou overthrow the Shang dynasty around the 11th century BCE. The work is divided into six scrolls — Civil, Martial, Dragon, Tiger, Leopard, and Dog — and takes the form of dialogues between Jiang Ziya and Kings Wen and Wu of Zhou. Its actual composition likely dates to the Warring States period or early Han dynasty."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f2ea",
+    "white": "#fff",
+    "text": "#222a1e",
+    "text2": "#607a48",
+    "textLight": "#4e6438",
+    "primary": "#6b8c4a",
+    "primaryDark": "#4a6830",
+    "primaryBg": "#f0f8e8",
+    "link": "#6b8c4a",
+    "border": "#ccdcc0",
+    "border2": "#aac0a0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e6ede0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "六韬 Six Secret Teachings"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/六韬",
+    "sourceLabel": "维基百科"
+  }
+}

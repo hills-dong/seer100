@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "烧饼歌预言",
+    "siteSubtitle": "明代·刘伯温",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "烧饼歌是什么？",
+    "homeIntro1": "烧饼歌相传为明朝开国军师刘伯温（刘基，1311-1375）所作的预言诗歌。刘基字伯温，浙江青田人，精通天文、兵法、数术，辅佐朱元璋建立明朝，被誉为「明朝第一谋臣」，民间更将他与诸葛亮并称。",
+    "homeIntro2": "据传某日朱元璋正在内殿吃烧饼，忽然召见刘伯温。朱元璋将咬了一口的烧饼用碗扣住，问刘伯温碗中何物。刘伯温掐指一算，答道「半似日兮半似月，曾被金龙咬一缺」，准确说中。朱元璋大喜，遂以国运为题，展开了这场著名的君臣预言对话。",
+    "homeIntro3": "全文以问答体写成，朱元璋提问，刘伯温以隐晦的诗歌作答，预言了从明朝至未来的中国历史大事。烧饼歌与《推背图》《马前课》并称为中国古代三大预言奇书。然而学术界对其真伪和成书年代争议颇大，部分学者认为现存版本可能经后人增补改编。本站整理原文并进行验证分析，供读者参考。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「半似日兮半似月，曾被金龙咬一缺。」——烧饼歌开篇",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "开篇 —— 朱元璋吃烧饼，刘伯温猜中碗中之物",
+      "靖难 —— 预言燕王朱棣起兵夺位",
+      "土木堡 —— 预言英宗被俘、于谦保卫北京",
+      "闯王 —— 预言李自成攻破北京、明朝灭亡",
+      "清入关 —— 预言满清入主中原",
+      "太平天国 —— 预言洪秀全起义",
+      "末篇 —— 预言天下大同"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文来源于民间流传的《烧饼歌》抄本，版本真伪及成书年代学术界尚有争议（<a href=\"https://zh.wikipedia.org/wiki/烧饼歌\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "部分「已验」之段可能为后人增补修改",
+      "验证评价基于历史文献和公开资料，编者观点不代表学术定论",
+      "站点图标采用烧饼造型——取自预言开篇朱元璋吃烧饼的典故，是烧饼歌最具辨识度的文化符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Shaobing Song Prophecies",
+    "siteSubtitle": "Ming Dynasty · Liu Bowen",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is the Shaobing Song?",
+    "homeIntro1": "The Shaobing Song (烧饼歌, \"Sesame Flatbread Song\") is a prophetic text traditionally attributed to Liu Bowen (Liu Ji, 1311-1375), the founding strategist of the Ming dynasty. Liu Ji, courtesy name Bowen, hailed from Qingtian in Zhejiang province. A master of astronomy, military strategy, and divination, he helped Zhu Yuanzhang establish the Ming dynasty and was hailed as the dynasty's foremost advisor — often compared to Zhuge Liang in popular lore.",
+    "homeIntro2": "Legend has it that one day Emperor Zhu Yuanzhang was eating a sesame flatbread (shaobing) in his private chamber when he suddenly summoned Liu Bowen. The emperor hid the half-eaten flatbread under a bowl and asked Liu to guess what was inside. Liu calculated on his fingers and replied: \"Half like the sun, half like the moon, once bitten by a golden dragon — a piece is missing.\" Delighted by the correct answer, the emperor then asked Liu to prophesy the fate of the dynasty, thus beginning their famous prophetic dialogue.",
+    "homeIntro3": "The text is written as a dialogue: Zhu Yuanzhang poses questions, and Liu Bowen answers in cryptic verse, prophesying major events in Chinese history from the Ming dynasty onward. The Shaobing Song is regarded as one of China's three great prophetic texts, alongside the Tui Bei Tu and the Maqian Ke. However, its authenticity and date of composition remain hotly debated among scholars — some believe the surviving text was revised and supplemented over the centuries. This site presents the original text with verification analysis for reference.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Half like the sun, half like the moon, once bitten by the golden dragon — a piece is missing.\" — Opening of the Shaobing Song",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Prologue —— Emperor eats a flatbread; Liu Bowen guesses correctly",
+      "Jingnan —— Prophecy of Prince Yan seizing the throne",
+      "Tumu Crisis —— Prophecy of Emperor Yingzong's capture and Yu Qian's defense",
+      "Chuang Wang —— Prophecy of Li Zicheng toppling the Ming",
+      "Manchu Conquest —— Prophecy of the Qing dynasty entering China",
+      "Taiping Rebellion —— Prophecy of Hong Xiuquan's uprising",
+      "Finale —— Prophecy of universal harmony"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original text sourced from folk-transmitted manuscripts of the Shaobing Song; authenticity and date of composition remain debated (<a href=\"https://zh.wikipedia.org/wiki/烧饼歌\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Some 'verified' passages may have been added or modified retroactively",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: Shaobing (sesame flatbread) motif — from the opening scene where Emperor Zhu was eating a flatbread, the most recognizable cultural symbol of the Shaobing Song"
+    ]
+  }
+}

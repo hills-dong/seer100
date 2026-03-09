@@ -1,0 +1,69 @@
+{
+  "siteId": "asimov",
+  "answererName": "Isaac Asimov",
+  "publishDate": "1950-1992",
+  "baseUrl": "https://pre.hilife.me/asimov",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "阿西莫夫预言全集 - 科幻大师对未来世界的16条预言与验证 | Asimov Predictions",
+      "description": "俄裔美国科幻大师艾萨克·阿西莫夫（1920-1992）的未来预言完整收录，涵盖机器人、人工智能、视频通话、自动驾驶、在线教育、太空殖民等领域。1964年世博会预言文章中的多项预测已被现实印证。",
+      "keywords": "阿西莫夫预言,Isaac Asimov,科幻预言,1964世博会预言,机器人三定律,基地系列,自动驾驶,人工智能,未来预测",
+      "siteName": "阿西莫夫预言",
+      "ogTitle": "阿西莫夫预言全集 | Asimov Predictions",
+      "ogDescription": "科幻大师阿西莫夫对未来世界的预言完整收录与验证分析。涵盖机器人、AI、太空探索、教育革命等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "16条科幻大师阿西莫夫的未来预言，含真实度验证。已应验：视频通话、自动驾驶、在线教育等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Asimov Predictions - 16 Prophecies from the Sci-Fi Master (1920-1992) | Full Archive & Verification",
+      "description": "Isaac Asimov (1920-1992), Russian-American science fiction master and biochemistry professor, left remarkable predictions about robots, AI, video calling, self-driving cars, computerized education, and space colonization. Many predictions from his famous 1964 World's Fair essay have been confirmed by reality.",
+      "keywords": "Isaac Asimov,Asimov predictions,science fiction prophecy,1964 World Fair predictions,Three Laws of Robotics,Foundation series,self-driving cars,artificial intelligence,future predictions",
+      "siteName": "Asimov Predictions",
+      "ogTitle": "Asimov Predictions - The Sci-Fi Master's Complete Prophecies",
+      "ogDescription": "16 predictions from Isaac Asimov (1920-1992). Full archive with real-world verification covering robots, AI, space, education, and human civilization.",
+      "locale": "en_US",
+      "twitterDescription": "16 predictions from sci-fi master Isaac Asimov. Verified: video calling, self-driving cars, online education. Based on his 1964 World's Fair essay and novels."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "阿西莫夫预言",
+      "alternateName": "Asimov Predictions",
+      "url": "https://pre.hilife.me/asimov/",
+      "description": "科幻大师阿西莫夫对未来世界的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0f2",
+    "white": "#fff",
+    "text": "#242830",
+    "text2": "#687078",
+    "textLight": "#565e66",
+    "primary": "#4a5a80",
+    "primaryDark": "#303e60",
+    "primaryBg": "#e6ecf6",
+    "link": "#4a5a80",
+    "border": "#d8dce4",
+    "border2": "#bcc2cc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#e8eaef"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Asimov Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+    "sourceLabel": "Wikipedia"
+  }
+}

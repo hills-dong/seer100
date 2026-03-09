@@ -1,0 +1,62 @@
+{
+  "zh": {
+    "siteTitle": "阿兹特克第五太阳预言",
+    "siteSubtitle": "中美洲文明创世神话（约公元前1000年—16世纪）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "什么是第五太阳预言？",
+    "homeIntro1": "「五个太阳纪」（Cinco Soles）是阿兹特克文明的核心创世神话。根据这一神话体系，世界已经历了四次创造与毁灭的循环，每个时代由一位不同的神灵统治，最终因一场特定的灾难而终结。我们所在的世界是第五个太阳纪，被称为「Nahui Ollin」（四·运动/地震）。",
+    "homeIntro2": "这一神话体系的物质证据集中体现在阿兹特克太阳石（Piedra del Sol）上——一块直径3.6米、重24吨的玄武岩圆盘，约雕刻于1502-1521年间。太阳石中央刻着第五太阳的面容，四周环绕着前四个太阳纪的毁灭符号。现藏于墨西哥城国家人类学博物馆。",
+    "homeIntro3": "五个太阳纪的叙事记录在多部殖民时期抄本中，其中最重要的是《太阳传说》（Leyenda de los Soles，约1558年）和《奇马尔波波卡抄本》（Codex Chimalpopoca）。这些文献由阿兹特克后裔用纳瓦特尔语记录，保存了前哥伦布时期的口述传统。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「第五太阳将在地震中终结。大地将震裂，饥荒将降临，天空中的怪物（Tzitzimimeh）将降下吞噬人类。」",
+    "keyPoints": "五个太阳纪",
+    "keyPointsList": [
+      "第一太阳·四美洲虎（Nahui Ocelotl） —— 特斯卡特利波卡统治，被美洲虎吞噬而终结",
+      "第二太阳·四风（Nahui Ehecatl） —— 羽蛇神统治，被狂风摧毁而终结",
+      "第三太阳·四雨（Nahui Quiahuitl） —— 特拉洛克统治，被火雨焚毁而终结",
+      "第四太阳·四水（Nahui Atl） —— 查尔丘特利库埃统治，被洪水淹没而终结",
+      "第五太阳·四运动（Nahui Ollin） —— 我们所在的时代，注定在地震中终结",
+      "太阳石刻（约1502-1521年） —— 将五个太阳纪的宇宙观永久刻入玄武岩"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容主要整理自《太阳传说》（Leyenda de los Soles，约1558年）和《奇马尔波波卡抄本》（<a href=\"https://en.wikipedia.org/wiki/Codex_Chimalpopoca\" target=\"_blank\" rel=\"noopener\">Codex Chimalpopoca</a>）",
+      "太阳石相关资料参考墨西哥国家人类学博物馆及学术文献（<a href=\"https://en.wikipedia.org/wiki/Aztec_sun_stone\" target=\"_blank\" rel=\"noopener\">Wikipedia: Aztec Sun Stone</a>）",
+      "五个太阳纪神话体系参考（<a href=\"https://en.wikipedia.org/wiki/Five_Suns\" target=\"_blank\" rel=\"noopener\">Wikipedia: Five Suns</a>）",
+      "验证评价基于考古发现、地质记录和历史文献",
+      "编者观点不代表学术定论",
+      "站点图标采用 Ollin（运动/地震）符号——第五太阳纪的核心纪日符号，在太阳石中央占据显著位置"
+    ]
+  },
+  "en": {
+    "siteTitle": "Aztec Fifth Sun Prophecy",
+    "siteSubtitle": "Mesoamerican Creation Myth (c. 1000 BCE – 16th Century)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is the Fifth Sun Prophecy?",
+    "homeIntro1": "The 'Five Suns' (Cinco Soles) is the central creation myth of Aztec civilization. According to this cosmological system, the world has undergone four cycles of creation and destruction, each era ruled by a different deity and ultimately ended by a specific catastrophe. Our current world is the Fifth Sun, called 'Nahui Ollin' (4-Movement/Earthquake).",
+    "homeIntro2": "The physical evidence of this myth is embodied in the Aztec Sun Stone (Piedra del Sol) — a basalt disk 3.6 meters in diameter weighing 24 tons, carved approximately between 1502 and 1521. The center of the Sun Stone depicts the face of the Fifth Sun, surrounded by symbols of the four previous suns' destructions. It is now housed in the National Museum of Anthropology in Mexico City.",
+    "homeIntro3": "The Five Suns narrative is recorded in several colonial-era codices, most importantly the Legend of the Suns (Leyenda de los Soles, c. 1558) and the Codex Chimalpopoca. These documents were written by Aztec descendants in Nahuatl, preserving pre-Columbian oral traditions.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The Fifth Sun shall end in earthquakes. The earth shall crack apart, famine shall descend, and the monsters of the sky (Tzitzimimeh) shall come down to devour humanity.\"",
+    "keyPoints": "The Five Suns",
+    "keyPointsList": [
+      "First Sun: 4-Jaguar (Nahui Ocelotl) —— Ruled by Tezcatlipoca, ended by jaguars devouring all",
+      "Second Sun: 4-Wind (Nahui Ehecatl) —— Ruled by Quetzalcoatl, ended by hurricanes",
+      "Third Sun: 4-Rain (Nahui Quiahuitl) —— Ruled by Tlaloc, ended by a rain of fire",
+      "Fourth Sun: 4-Water (Nahui Atl) —— Ruled by Chalchiuhtlicue, ended by a great flood",
+      "Fifth Sun: 4-Movement (Nahui Ollin) —— Our current era, destined to end in earthquakes",
+      "The Sun Stone (c. 1502–1521) —— The Five Suns cosmology carved permanently in basalt"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled primarily from the Legend of the Suns (Leyenda de los Soles, c. 1558) and the Codex Chimalpopoca (<a href=\"https://en.wikipedia.org/wiki/Codex_Chimalpopoca\" target=\"_blank\" rel=\"noopener\">Codex Chimalpopoca</a>)",
+      "Sun Stone information from the National Museum of Anthropology and academic literature (<a href=\"https://en.wikipedia.org/wiki/Aztec_sun_stone\" target=\"_blank\" rel=\"noopener\">Wikipedia: Aztec Sun Stone</a>)",
+      "Five Suns mythology reference (<a href=\"https://en.wikipedia.org/wiki/Five_Suns\" target=\"_blank\" rel=\"noopener\">Wikipedia: Five Suns</a>)",
+      "Verification based on archaeological findings, geological records, and historical documents",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: Ollin (movement/earthquake) symbol — the core day-sign of the Fifth Sun, prominently featured at the center of the Sun Stone"
+    ]
+  }
+}

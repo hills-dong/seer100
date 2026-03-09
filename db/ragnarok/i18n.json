@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "诸神黄昏预言",
+    "siteSubtitle": "北欧神话末日预言（约800年-1220年）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "什么是诸神黄昏？",
+    "homeIntro1": "诸神黄昏（Ragnarok）是北欧神话中关于世界末日的预言，描述了一场毁灭性的大战、众神的陨落以及世界的毁灭与重生。这一预言体系主要保存在两部重要文献中：《诗体埃达》（Poetic Edda）中的《沃尔娃的预言》（Voluspa），以及冰岛学者斯诺里·斯图鲁松（Snorri Sturluson）于1220年前后编撰的《散文埃达》（Prose Edda）。",
+    "homeIntro2": "诸神黄昏的叙事包含一系列预兆和灾难：持续三年的芬布尔之冬、道德沦丧与亲族相残、被束缚者的挣脱、世界之蛇从海底升起、火巨人苏尔特率军进攻。最终，奥丁被巨狼芬里尔吞噬、托尔与世界之蛇同归于尽、洛基和海姆达尔互相杀死，整个世界在火焰中沉入大海。",
+    "homeIntro3": "然而，诸神黄昏并非绝对的终结。预言描述了毁灭之后的新世界：大地从海中重新升起，幸存的神祇重聚，人类始祖从世界树中走出，开启新的纪元。这种「毁灭—重生」的循环观念是北欧神话最深刻的哲学主题之一。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「太阳变黑，大地沉入海中，繁星从天穹坠落。蒸汽与火焰猛烈交织，高高的热浪舔舐苍穹。」——《沃尔娃的预言》第57节",
+    "keyPoints": "预言叙事脉络",
+    "keyPointsList": [
+      "前兆 —— 道德崩坏、亲族背叛、持续三年的严冬（芬布尔之冬）",
+      "解脱 —— 巨狼芬里尔挣脱锁链，洛基挣脱束缚，世界之蛇浮出海面",
+      "进军 —— 火巨人苏尔特率军从南方进攻，死者之船从冥界启航",
+      "大战 —— 诸神与巨人在维格利德原野展开最终决战",
+      "陨落 —— 奥丁、托尔、弗雷等众神战死，世界在火焰中毁灭",
+      "重生 —— 大地从海中升起，新的神祇与人类开启崭新世界"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容源自《诗体埃达》（约900-1100年口头传承，约1270年手稿）与《散文埃达》（约1220年，斯诺里·斯图鲁松著）（<a href=\"https://en.wikipedia.org/wiki/Ragnar%C3%B6k\" target=\"_blank\" rel=\"noopener\">Wikipedia: Ragnarok</a>）",
+      "《沃尔娃的预言》英文译本参考 <a href=\"https://www.sacred-texts.com/neu/poe/poe03.htm\" target=\"_blank\" rel=\"noopener\">Sacred Texts</a>",
+      "《散文埃达》参考 <a href=\"https://en.wikipedia.org/wiki/Prose_Edda\" target=\"_blank\" rel=\"noopener\">Wikipedia: Prose Edda</a>",
+      "诸神黄昏为神话预言叙事，不涉及现实事件验证",
+      "站点图标采用世界树（Yggdrasil）符号——贯穿九大世界的宇宙之树是北欧神话最核心的象征"
+    ]
+  },
+  "en": {
+    "siteTitle": "Ragnarok Prophecies",
+    "siteSubtitle": "Norse Mythology's End of Days (c. 800-1220 AD)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Ragnarok?",
+    "homeIntro1": "Ragnarok is the apocalyptic prophecy of Norse mythology, describing a catastrophic battle, the death of gods, and the destruction and renewal of the world. This prophetic tradition is preserved primarily in two texts: Voluspa (The Prophecy of the Seeress) from the Poetic Edda, and the Prose Edda compiled by Icelandic scholar Snorri Sturluson around 1220 AD.",
+    "homeIntro2": "The Ragnarok narrative encompasses a series of portents and catastrophes: three years of Fimbulwinter, moral collapse and kinslaying, the breaking of bonds, the World Serpent rising from the ocean, and the fire giant Surtr leading his forces to war. Ultimately, Odin is devoured by the wolf Fenrir, Thor and the World Serpent slay each other, Loki and Heimdall kill one another, and the entire world sinks into the sea amid flames.",
+    "homeIntro3": "Yet Ragnarok is not an absolute end. The prophecy describes a renewed world after destruction: the earth rises again from the sea, surviving gods reunite, and the ancestors of a new humanity emerge from the World Tree to begin a new age. This cyclical vision of destruction and rebirth is one of the most profound philosophical themes in Norse mythology.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The sun turns black, earth sinks in the sea, the bright stars vanish from the sky. Steam rises and the life-feeding flame, till fire leaps high about heaven itself.\" — Voluspa, stanza 57",
+    "keyPoints": "Prophetic Narrative Arc",
+    "keyPointsList": [
+      "Portents —— Moral collapse, kinslaying, three years of relentless winter (Fimbulwinter)",
+      "Breaking Free —— The wolf Fenrir breaks its chains, Loki escapes bondage, the World Serpent rises",
+      "March to War —— Fire giant Surtr leads forces from the south, the ship of the dead sails from Hel",
+      "The Great Battle —— Gods and giants clash in the final battle on Vigrid plain",
+      "Fall of the Gods —— Odin, Thor, Freyr and others die; the world burns",
+      "Renewal —— Earth rises from the sea, new gods and humans begin a fresh world"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy content sourced from the Poetic Edda (oral tradition c. 900-1100, manuscript c. 1270) and Prose Edda (c. 1220, by Snorri Sturluson) (<a href=\"https://en.wikipedia.org/wiki/Ragnar%C3%B6k\" target=\"_blank\" rel=\"noopener\">Wikipedia: Ragnarok</a>)",
+      "Voluspa English translation referenced from <a href=\"https://www.sacred-texts.com/neu/poe/poe03.htm\" target=\"_blank\" rel=\"noopener\">Sacred Texts</a>",
+      "Prose Edda reference: <a href=\"https://en.wikipedia.org/wiki/Prose_Edda\" target=\"_blank\" rel=\"noopener\">Wikipedia: Prose Edda</a>",
+      "Ragnarok is a mythological prophetic narrative; no real-world event verification applies",
+      "Site icon: Yggdrasil (World Tree) — the cosmic tree connecting the Nine Worlds is the most central symbol of Norse mythology"
+    ]
+  }
+}

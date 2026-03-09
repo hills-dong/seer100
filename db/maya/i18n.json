@@ -1,0 +1,62 @@
+{
+  "zh": {
+    "siteTitle": "玛雅历法预言",
+    "siteSubtitle": "中美洲古文明的时间预言（约公元前600年起）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "玛雅历法预言是什么？",
+    "homeIntro1": "玛雅文明是中美洲最辉煌的古文明之一，其天文历法体系在人类历史上首屈一指。玛雅人发展出多套精密的历法系统，其中长历法（Long Count）以公元前3114年8月11日为起点，以大约5125年为一个完整周期。",
+    "homeIntro2": "玛雅文明留下了丰富的预言文献，包括殖民时期记录的《奇兰巴兰书》（Chilam Balam）、创世史诗《波波尔·乌》（Popol Vuh）、以及后世对长历法周期终结的种种解读。2012年12月21日第13个伯克盾周期结束引发的「末日预言」轰动全球，但这实际上是现代人对玛雅历法的误读。",
+    "homeIntro3": "玛雅预言的核心并非线性的末日叙事，而是基于循环时间观的纪元更替——世界经历多次创造与毁灭，每个纪元以不同方式终结并重生。本站整理了14条源自玛雅文献和历法体系的核心预言，并对可验证的预言进行了现实评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「时间不是一条直线，而是一个循环。每个纪元的终结都是下一个纪元的开始。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "公元前3114年 —— 长历法起始日（13.0.0.0.0，4 Ahau 8 Cumku）",
+      "约公元250-900年 —— 玛雅古典期，历法与预言体系高度发展",
+      "约1500年代 —— 西班牙殖民者抵达，玛雅文献大量被毁",
+      "1700年代 —— 《奇兰巴兰书》各版本在尤卡坦半岛被记录保存",
+      "2012年12月21日 —— 第13个伯克盾周期结束，「末日预言」热潮"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "《波波尔·乌》（Popol Vuh）基于Dennis Tedlock英译本及中文译本（<a href=\"https://en.wikipedia.org/wiki/Popol_Vuh\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "《奇兰巴兰书》内容参考Ralph Roys英译本及学术研究（<a href=\"https://en.wikipedia.org/wiki/Chilam_Balam\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "玛雅历法体系参考学术文献及考古研究（<a href=\"https://en.wikipedia.org/wiki/Maya_calendar\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "2012现象研究参考NASA官方声明及学术分析（<a href=\"https://en.wikipedia.org/wiki/2012_phenomenon\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开历史文献和考古发现",
+      "编者观点不代表学术定论",
+      "站点图标采用简化玛雅太阳纹章——太阳神金尼奇·阿豪（Kinich Ahau）是玛雅文明最重要的神祇之一，太阳纹饰是玛雅艺术中最具辨识度的符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Mayan Calendar Prophecies",
+    "siteSubtitle": "Time Prophecies of Ancient Mesoamerica (c. 600 BCE onward)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What are the Mayan Calendar Prophecies?",
+    "homeIntro1": "The Maya civilization was one of the most brilliant ancient civilizations of Mesoamerica, renowned for its unparalleled astronomical calendar systems. The Maya developed several sophisticated calendars, among which the Long Count begins on August 11, 3114 BCE and spans approximately 5,125 years per cycle.",
+    "homeIntro2": "The Maya left rich prophetic literature, including the colonial-era Chilam Balam books, the creation epic Popol Vuh, and various modern interpretations of Long Count cycle endings. The 'end of the world' prediction surrounding December 21, 2012 — the end of the 13th b'ak'tun — captivated the world, but was actually a modern misinterpretation of Maya calendar concepts.",
+    "homeIntro3": "The core of Maya prophecy is not a linear doomsday narrative but a cyclical worldview of successive world ages — the world undergoes multiple creations and destructions, each age ending and being reborn in different ways. This site compiles 14 core prophecies from Maya texts and calendar systems, with reality assessments for verifiable predictions.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Time is not a line but a cycle. The end of each age is the beginning of the next.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "3114 BCE —— Long Count start date (13.0.0.0.0, 4 Ahau 8 Cumku)",
+      "c. 250-900 CE —— Maya Classic Period, height of calendar and prophecy systems",
+      "c. 1500s —— Spanish colonizers arrive, mass destruction of Maya texts",
+      "1700s —— Chilam Balam books recorded and preserved in Yucatan",
+      "December 21, 2012 —— End of 13th b'ak'tun, '2012 apocalypse' phenomenon"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Popol Vuh based on Dennis Tedlock's English translation (<a href=\"https://en.wikipedia.org/wiki/Popol_Vuh\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Chilam Balam content based on Ralph Roys' English translation and academic research (<a href=\"https://en.wikipedia.org/wiki/Chilam_Balam\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Maya calendar system based on academic literature and archaeological research (<a href=\"https://en.wikipedia.org/wiki/Maya_calendar\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "2012 phenomenon research based on NASA official statements and academic analysis (<a href=\"https://en.wikipedia.org/wiki/2012_phenomenon\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public historical records and archaeological findings",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: simplified Maya sun glyph — the sun god Kinich Ahau is one of the most important Maya deities, and sun motifs are the most recognizable symbols in Maya art"
+    ]
+  }
+}

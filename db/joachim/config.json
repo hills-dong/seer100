@@ -1,0 +1,69 @@
+{
+  "siteId": "joachim",
+  "answererName": "Joachim of Fiore",
+  "publishDate": "约1190年",
+  "baseUrl": "https://pre.hilife.me/joachim",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "菲奥雷的约阿基姆预言全集 - 三纪神学与历史预言 | Joachim of Fiore Prophecies",
+      "description": "意大利西多会修道院长约阿基姆（约1135-1202）的历史神学预言完整收录。他将人类历史分为圣父之纪、圣子之纪和即将到来的圣灵之纪，深刻影响了方济各灵修派、千禧年主义和历史哲学。",
+      "keywords": "约阿基姆,菲奥雷的约阿基姆,三纪神学,圣灵之纪,Joachim of Fiore,中世纪预言,千禧年主义,历史神学,方济各灵修派",
+      "siteName": "约阿基姆预言",
+      "ogTitle": "菲奥雷的约阿基姆预言全集 | Joachim of Fiore Prophecies",
+      "ogDescription": "意大利神秘主义修道院长约阿基姆的三纪历史神学预言完整收录与分析。涵盖教会改革、敌基督、圣灵时代等主题。",
+      "locale": "zh_CN",
+      "twitterDescription": "中世纪最具影响力的历史预言家——菲奥雷的约阿基姆，三纪神学预言完整收录与验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Joachim of Fiore Prophecies - Trinitarian Theology of History & Prophetic Vision | Full Archive",
+      "description": "Complete archive of prophecies by Joachim of Fiore (c.1135-1202), Italian Cistercian abbot and mystic. His theology divides history into three ages: the Age of the Father, the Age of the Son, and the coming Age of the Spirit. Profoundly influenced Franciscan Spirituals and millenarianism.",
+      "keywords": "Joachim of Fiore,three ages,Age of the Spirit,medieval prophecy,millenarianism,theology of history,Franciscan Spirituals,Calabrian abbot,trinitarian circles",
+      "siteName": "Joachim of Fiore Prophecies",
+      "ogTitle": "Joachim of Fiore Prophecies - Trinitarian Theology of History",
+      "ogDescription": "Complete archive of prophetic visions by Joachim of Fiore (c.1135-1202). His three-age theology reshaped Christian eschatology and the philosophy of history.",
+      "locale": "en_US",
+      "twitterDescription": "Prophecies of Joachim of Fiore — the medieval abbot who divided history into three ages. Full archive with analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "约阿基姆预言",
+      "alternateName": "Joachim of Fiore Prophecies",
+      "url": "https://pre.hilife.me/joachim/",
+      "description": "意大利西多会修道院长菲奥雷的约阿基姆的历史神学预言完整收录与分析",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0e8",
+    "white": "#fff",
+    "text": "#222218",
+    "text2": "#6a6a52",
+    "textLight": "#56563e",
+    "primary": "#6a6a30",
+    "primaryDark": "#4e4e18",
+    "primaryBg": "#f4f4e6",
+    "link": "#6a6a30",
+    "border": "#d4d4bc",
+    "border2": "#b8b89c",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eaeadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Joachim of Fiore Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joachim_of_Fiore",
+    "sourceLabel": "Wikipedia"
+  }
+}

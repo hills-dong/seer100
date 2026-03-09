@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "塞拉芬预言",
+    "siteSubtitle": "俄罗斯东正教圣人（约1754-1833）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "萨罗夫的塞拉芬是谁？",
+    "homeIntro1": "萨罗夫的塞拉芬（Seraphim of Sarov，约1754年或1759年—1833年1月14日），俗名普罗霍尔·莫什宁，是俄罗斯东正教会最受尊崇的圣人之一。他19岁进入萨罗夫修道院，此后在森林中独居苦修长达25年，以极端的禁欲生活和深邃的灵性体验闻名。",
+    "homeIntro2": "塞拉芬以「获得圣灵」为其核心教导，强调基督徒生活的真正目的是获得圣灵的恩赐。他晚年向来访者敞开隐修之门，以慈爱和洞察力为众人提供灵性指导，据称多次展现预知能力和治愈神迹。他与野熊和平共处的故事广为流传，成为俄罗斯灵性传统中最具标志性的画面之一。",
+    "homeIntro3": "塞拉芬留下了关于俄罗斯未来命运的预言，涉及革命灾难、信仰迫害、敌基督降临以及俄罗斯最终的灵性复兴。1903年在沙皇尼古拉二世的坚持下被封圣。本站整理了他流传最广的预言，并对已到期的预言进行了历史验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「基督徒生活的真正目标不在于斋戒、祈祷、守夜或其他善行——这些只是手段。真正的目标是获得上帝的圣灵。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1778年 —— 进入萨罗夫修道院，开始修道生活",
+      "1794年 —— 隐入森林独居苦修，持续约16年",
+      "约1825年 —— 结束隐修，开始接见来访者并传授预言",
+      "1833年 —— 在萨罗夫修道院去世",
+      "1903年 —— 在沙皇尼古拉二世坚持下被东正教会封圣"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自东正教传统文献与圣人传记，部分预言的确切措辞存在不同版本（<a href=\"https://en.wikipedia.org/wiki/Seraphim_of_Sarov\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "莫托维洛夫的笔记是塞拉芬教导的重要第一手资料（<a href=\"https://www.pravoslavie.ru/english/seraphim_of_sarov.htm\" target=\"_blank\" rel=\"noopener\">Pravoslavie.ru</a>）",
+      "验证评价基于公开历史记录和学术研究",
+      "编者观点不代表学术定论",
+      "站点图标采用熊的轮廓——塞拉芬与野熊和平共处是其最广为流传的标志性故事"
+    ]
+  },
+  "en": {
+    "siteTitle": "Seraphim Prophecies",
+    "siteSubtitle": "Russian Orthodox Saint (c. 1754-1833)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Seraphim of Sarov?",
+    "homeIntro1": "Seraphim of Sarov (c. 1754 or 1759 – January 14, 1833), born Prokhor Moshnin, is one of the most venerated saints in Russian Orthodox Christianity. He entered the Sarov Monastery at age 19 and spent approximately 25 years in solitary ascetic life deep in the forest, renowned for his extreme asceticism and profound spiritual experiences.",
+    "homeIntro2": "Seraphim's central teaching was the 'acquisition of the Holy Spirit,' emphasizing that the true purpose of Christian life is to acquire the grace of the Holy Spirit. In his later years, he opened his hermitage to visitors, offering spiritual guidance with compassion and insight. He was said to have demonstrated the gift of prophecy and miraculous healing on numerous occasions. His peaceful coexistence with a wild bear became one of the most iconic images in Russian spiritual tradition.",
+    "homeIntro3": "Seraphim left prophecies about Russia's future destiny, including revolutionary catastrophe, persecution of faith, the coming of the Antichrist, and Russia's ultimate spiritual resurrection. He was canonized in 1903 at the insistence of Tsar Nicholas II. This site compiles his most widely circulated prophecies and provides historical verification for those whose timelines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The true aim of the Christian life consists not in fasting, prayer, vigil, or any other good works — these are merely the means. The true aim is the acquisition of the Holy Spirit of God.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1778 —— Entered Sarov Monastery, began monastic life",
+      "1794 —— Withdrew into the forest for solitary ascetic life, lasting about 16 years",
+      "c. 1825 —— Ended seclusion, began receiving visitors and sharing prophecies",
+      "1833 —— Died at Sarov Monastery",
+      "1903 —— Canonized by the Russian Orthodox Church at Tsar Nicholas II's insistence"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled from Orthodox hagiographic tradition and saint biographies; exact wording varies across sources (<a href=\"https://en.wikipedia.org/wiki/Seraphim_of_Sarov\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Motovilov's notes are an important primary source for Seraphim's teachings (<a href=\"https://www.pravoslavie.ru/english/seraphim_of_sarov.htm\" target=\"_blank\" rel=\"noopener\">Pravoslavie.ru</a>)",
+      "Verification based on public historical records and academic research",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: bear silhouette — Seraphim's peaceful coexistence with a wild bear is his most iconic and widely circulated story"
+    ]
+  }
+}

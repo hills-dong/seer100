@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 28" height="20">
+  <!-- Robot head icon -->
+  <!-- Head outline (rounded rectangle) -->
+  <rect x="4" y="4" width="20" height="18" rx="4" ry="4" fill="#4a5a80"/>
+  <!-- Antenna -->
+  <line x1="14" y1="4" x2="14" y2="1" stroke="#303e60" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="14" cy="0.5" r="1.2" fill="#303e60"/>
+  <!-- Left eye -->
+  <rect x="8" y="9" width="4.5" height="3.5" rx="0.8" fill="#eef0f2"/>
+  <!-- Right eye -->
+  <rect x="15.5" y="9" width="4.5" height="3.5" rx="0.8" fill="#eef0f2"/>
+  <!-- Mouth -->
+  <rect x="9" y="16" width="10" height="2" rx="0.8" fill="#eef0f2"/>
+  <!-- Ears -->
+  <rect x="1.5" y="10" width="2.5" height="5" rx="1" fill="#303e60"/>
+  <rect x="24" y="10" width="2.5" height="5" rx="1" fill="#303e60"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#303e60" letter-spacing="0.5">ASIMOV</text>
+</svg>

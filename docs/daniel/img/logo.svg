@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" height="20">
+  <!-- Lion head silhouette -->
+  <circle cx="14" cy="14" r="12" fill="#4a3a6a"/>
+  <!-- Mane: radiating arcs around the lion head -->
+  <path d="M14 2 Q20 4 24 8 Q26 12 26 14 Q26 18 24 20 Q20 24 14 26 Q8 24 4 20 Q2 18 2 14 Q2 12 4 8 Q8 4 14 2 Z" fill="#4a3a6a"/>
+  <!-- Inner mane detail -->
+  <path d="M14 4 Q19 5.5 22 9 Q24 12 24 14 Q24 17 22 19 Q19 22.5 14 24 Q9 22.5 6 19 Q4 17 4 14 Q4 12 6 9 Q9 5.5 14 4 Z" fill="#302450"/>
+  <!-- Face -->
+  <circle cx="14" cy="14" r="7.5" fill="#eeeef4"/>
+  <!-- Eyes -->
+  <circle cx="11" cy="12.5" r="1.2" fill="#302450"/>
+  <circle cx="17" cy="12.5" r="1.2" fill="#302450"/>
+  <!-- Nose -->
+  <path d="M13 15.5 L14 14.5 L15 15.5 Z" fill="#302450"/>
+  <!-- Mouth -->
+  <path d="M11.5 17 Q14 19 16.5 17" fill="none" stroke="#302450" stroke-width="0.8"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#302450" letter-spacing="0.5">DANIEL</text>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "赫胥黎预言",
+    "siteSubtitle": "英国作家与思想家（1894-1963）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "奥尔德斯·赫胥黎是谁？",
+    "homeIntro1": "奥尔德斯·赫胥黎（Aldous Huxley，1894年7月26日—1963年11月22日），英国作家、哲学家，出生于英国萨里郡的学术世家。祖父托马斯·赫胥黎是达尔文进化论的著名倡导者，兄长朱利安·赫胥黎是联合国教科文组织首任总干事。赫胥黎一生创作了近50部作品，横跨小说、散文、诗歌和剧本。",
+    "homeIntro2": "1932年出版的《美丽新世界》是赫胥黎最具影响力的作品。小说描绘了一个通过基因工程、情绪药物（索玛）、消费主义和娱乐来维持稳定的未来社会——人类不是被压迫所控制，而是被快乐所奴役。1958年他又出版了《重返美丽新世界》，以非虚构的方式审视现实世界正在向小说中的方向滑动。",
+    "homeIntro3": "赫胥黎的预见在21世纪获得了惊人的验证：体外受精技术使试管婴儿成为现实，SSRI类抗抑郁药物的全球普及酷似「索玛」，基因编辑技术（CRISPR）让「人类设计」不再是幻想，而社交媒体和流媒体的无限娱乐正在实现他所警告的「娱乐至死」。本站整理了他作品中16条最具预言性的描写，并逐一对照现实进行验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「人们会渐渐爱上压迫，崇拜那些使他们丧失思考能力的工业技术。」——《重返美丽新世界》",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1932年 —— 《美丽新世界》出版，描绘快乐极权主义社会",
+      "1958年 —— 《重返美丽新世界》出版，警告现实正在追上虚构",
+      "1978年 —— 首例试管婴儿路易丝·布朗诞生",
+      "1987年 —— 百忧解（Prozac）上市，SSRI类药物时代开启",
+      "2012年 —— CRISPR基因编辑技术问世",
+      "2018年 —— 贺建奎基因编辑婴儿事件震惊世界"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容摘编自赫胥黎原著《美丽新世界》(1932)和《重返美丽新世界》(1958)（<a href=\"https://en.wikipedia.org/wiki/Brave_New_World\" target=\"_blank\" rel=\"noopener\">Wikipedia: Brave New World</a>）",
+      "验证评价基于公开科学文献、新闻报道和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用试管/基因螺旋符号——《美丽新世界》以生物工程改造人类为核心设定，试管是其最广为流传的视觉意象"
+    ]
+  },
+  "en": {
+    "siteTitle": "Huxley Prophecies",
+    "siteSubtitle": "English Writer & Thinker (1894-1963)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Aldous Huxley?",
+    "homeIntro1": "Aldous Huxley (July 26, 1894 – November 22, 1963) was an English writer and philosopher from a prominent intellectual family in Surrey. His grandfather Thomas Huxley was a famous advocate of Darwin's theory of evolution, and his brother Julian Huxley served as the first Director-General of UNESCO. Huxley produced nearly 50 works spanning novels, essays, poetry, and screenplays.",
+    "homeIntro2": "Published in 1932, Brave New World is Huxley's most influential work. The novel depicts a future society maintained through genetic engineering, mood-altering drugs (soma), consumerism, and entertainment — humanity enslaved not by oppression, but by pleasure. In 1958 he published Brave New World Revisited, a non-fiction examination of how the real world was sliding toward the novel's predictions.",
+    "homeIntro3": "Huxley's foresight has been strikingly validated in the 21st century: IVF technology made test-tube babies reality, SSRI antidepressants mirror 'soma', gene editing (CRISPR) makes 'human design' plausible, and social media's infinite entertainment fulfills his warning of 'amusing ourselves to death.' This site compiles 16 of his most prophetic passages and verifies each against reality.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"People will come to love their oppression, to adore the technologies that undo their capacities to think.\" — Brave New World Revisited",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1932 —— Brave New World published, depicting a pleasure-based totalitarian society",
+      "1958 —— Brave New World Revisited published, warning reality is catching up with fiction",
+      "1978 —— First test-tube baby Louise Brown born",
+      "1987 —— Prozac launched, beginning the SSRI era",
+      "2012 —— CRISPR gene-editing technology invented",
+      "2018 —— He Jiankui's gene-edited babies shock the world"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies excerpted from Huxley's original works: Brave New World (1932) and Brave New World Revisited (1958) (<a href=\"https://en.wikipedia.org/wiki/Brave_New_World\" target=\"_blank\" rel=\"noopener\">Wikipedia: Brave New World</a>)",
+      "Verification based on published scientific literature, news reports, and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: test tube / genetic helix — Brave New World's core premise is the bioengineering of human beings, and the test tube is its most iconic visual symbol"
+    ]
+  }
+}

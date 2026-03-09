@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" height="20">
+  <!-- Flame/divine fire icon - outer flame -->
+  <polygon points="14,2 8,18 10,23 12,26 14,27 16,26 18,23 20,18" fill="#7a5a7a"/>
+  <!-- Inner flame -->
+  <polygon points="14,7 10,18 11,22 13,25 14,25 15,25 17,22 18,18" fill="#5c3e5c"/>
+  <!-- Light core -->
+  <polygon points="14,12 12,18 12.5,21 13.5,23 14,23 14.5,23 15.5,21 16,18" fill="#f2eef2"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#5c3e5c" letter-spacing="0.5">HILDEGARD</text>
+</svg>

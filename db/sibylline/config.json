@@ -1,0 +1,69 @@
+{
+  "siteId": "sibylline",
+  "answererName": "Sibyls",
+  "publishDate": "约公元前500年至公元7世纪",
+  "baseUrl": "https://pre.hilife.me/sibylline",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "西比林预言书全集 - 古希腊罗马女先知的神谕与末世预言 | Sibylline Oracles",
+      "description": "西比林预言书（Sibylline Oracles）是古希腊罗马传统中女先知西比尔留下的神谕合集，现存14卷犹太-基督教伪典（公元前2世纪至公元7世纪），涵盖帝国兴衰、末世启示、自然灾变等预言主题。",
+      "keywords": "西比林预言书,Sibylline Oracles,西比尔,古希腊预言,罗马预言,末世预言,神谕,女先知,古典预言",
+      "siteName": "西比林预言书",
+      "ogTitle": "西比林预言书全集 | Sibylline Oracles",
+      "ogDescription": "古希腊罗马女先知西比尔的神谕合集，现存14卷犹太-基督教伪典，涵盖帝国兴衰与末世启示。",
+      "locale": "zh_CN",
+      "twitterDescription": "西比林预言书：古希腊罗马女先知的神谕合集，涵盖帝国兴亡、末世预言与历史验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Sibylline Oracles - Prophecies of the Ancient Sibyls | Full Archive & Verification",
+      "description": "The Sibylline Oracles are a collection of oracular utterances attributed to the Sibyls, prophetic women in Greco-Roman tradition. Surviving as 14 books of Judeo-Christian pseudepigrapha (2nd century BC - 7th century AD), covering the fall of empires, apocalyptic visions, and cosmic upheavals.",
+      "keywords": "Sibylline Oracles,Sibyl,Greek prophecy,Roman prophecy,ancient prophecy,apocalyptic prophecy,oracle,prophetess,classical prophecy",
+      "siteName": "Sibylline Oracles",
+      "ogTitle": "Sibylline Oracles - Prophecies of the Ancient Sibyls",
+      "ogDescription": "A collection of oracular utterances from the ancient Sibyls, spanning empires, apocalyptic visions, and cosmic upheavals across 14 surviving books.",
+      "locale": "en_US",
+      "twitterDescription": "The Sibylline Oracles: ancient Greek and Roman prophetic utterances covering the rise and fall of empires, apocalyptic visions, and historical verification."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "西比林预言书",
+      "alternateName": "Sibylline Oracles",
+      "url": "https://pre.hilife.me/sibylline/",
+      "description": "古希腊罗马女先知西比尔的神谕合集，完整收录与历史验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2eeea",
+    "white": "#fff",
+    "text": "#2a2420",
+    "text2": "#7a6e60",
+    "textLight": "#645a4c",
+    "primary": "#8c5a2e",
+    "primaryDark": "#6a4018",
+    "primaryBg": "#faf4ee",
+    "link": "#8c5a2e",
+    "border": "#ddd4ca",
+    "border2": "#c0b4a8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eee6de"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Sibylline Oracles"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sibylline_Oracles",
+    "sourceLabel": "Wikipedia"
+  }
+}

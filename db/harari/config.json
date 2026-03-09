@@ -1,0 +1,69 @@
+{
+  "siteId": "harari",
+  "answererName": "Yuval Noah Harari",
+  "publishDate": "2015-2018",
+  "baseUrl": "https://pre.hilife.me/harari",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "赫拉利预言全集 - 《未来简史》《今日简史》中的14条未来预测与验证 | Harari Predictions",
+      "description": "以色列历史学家尤瓦尔·诺亚·赫拉利在《未来简史》《今日简史》及公开演讲中提出的14条关于AI、数据主义、生物监控、无用阶级等未来预测，含真实度验证。",
+      "keywords": "赫拉利,尤瓦尔赫拉利,未来简史,今日简史,Homo Deus,人工智能预言,数据主义,无用阶级,算法权威,赫拉利预言",
+      "siteName": "赫拉利预言",
+      "ogTitle": "赫拉利预言全集 | Harari Predictions",
+      "ogDescription": "以色列历史学家赫拉利在《未来简史》《今日简史》中提出的14条未来预测与验证分析。涵盖AI、数据主义、生物监控等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "赫拉利14条未来预测，含真实度验证。涵盖AI取代人类工作、数据主义、生物监控、无用阶级等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Harari Predictions - 14 Forecasts from Homo Deus & 21 Lessons | Full Archive & Verification",
+      "description": "Israeli historian Yuval Noah Harari's 14 predictions from Homo Deus, 21 Lessons for the 21st Century, and public lectures. Topics include AI replacing jobs, dataism, biometric surveillance, useless class, and algorithmic authority.",
+      "keywords": "Yuval Harari,Harari predictions,Homo Deus,21 Lessons,AI predictions,dataism,useless class,algorithmic authority,biometric surveillance,future predictions",
+      "siteName": "Harari Predictions",
+      "ogTitle": "Harari Predictions - Forecasts from Homo Deus & 21 Lessons",
+      "ogDescription": "14 predictions from historian Yuval Noah Harari on AI, dataism, surveillance, and the future of humanity. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from Yuval Harari on AI, dataism, biometric surveillance, and the useless class. Verified against reality."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "赫拉利预言",
+      "alternateName": "Harari Predictions",
+      "url": "https://pre.hilife.me/harari/",
+      "description": "以色列历史学家赫拉利的未来预测完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f2f0",
+    "white": "#fff",
+    "text": "#282828",
+    "text2": "#747470",
+    "textLight": "#60605c",
+    "primary": "#8c6a20",
+    "primaryDark": "#6a5010",
+    "primaryBg": "#f6f2e6",
+    "link": "#8c6a20",
+    "border": "#deded8",
+    "border2": "#c2c2ba",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eceae4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Harari Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "宇宙善恶二元论",
+      "a": "宇宙由两大原始力量主宰：阿胡拉·马兹达（智慧之主）代表真理、光明与善，安格拉·曼纽（毁灭之灵）代表谎言、黑暗与恶。两者从太初便展开对抗，这场斗争贯穿整个宇宙历史。",
+      "q_en": "Cosmic Dualism of Good and Evil",
+      "a_en": "The universe is governed by two primal forces: Ahura Mazda (the Wise Lord), representing truth, light, and goodness, and Angra Mainyu (the Destructive Spirit), representing falsehood, darkness, and evil. Their conflict began at the dawn of creation and pervades all of cosmic history.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 2,
+      "cat": "spirit",
+      "q": "世界历史的一万二千年",
+      "a": "世界历史分为四个三千年纪元。第一纪元为纯精神创世，第二纪元善恶开始交锋，第三纪元琐罗亚斯德降世传教，第四纪元三位救世主相继降临，直至最终更新。",
+      "q_en": "The Twelve Thousand Years of World History",
+      "a_en": "World history is divided into four epochs of three thousand years each. The first epoch is pure spiritual creation, the second sees the onset of the cosmic conflict, the third marks Zoroaster's revelation, and the fourth sees the arrival of three successive saviors leading to the final renovation.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 3,
+      "cat": "spirit",
+      "q": "第一位救世主：乌赫夏特·埃雷塔",
+      "a": "在琐罗亚斯德之后的第一个千年末，第一位萨奥什扬特（救世主）乌赫夏特·埃雷塔将从琐罗亚斯德的后裔中诞生。他将恢复正义，使人类减少对肉食的依赖，推动世界向善转变。",
+      "q_en": "The First Savior: Ukhshyat-ereta",
+      "a_en": "At the end of the first millennium after Zoroaster, the first Saoshyant (savior), Ukhshyat-ereta, will be born from Zoroaster's lineage. He will restore righteousness, reduce humanity's dependence on meat, and advance the world toward goodness.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 4,
+      "cat": "spirit",
+      "q": "第二位救世主：乌赫夏特·内玛",
+      "a": "在第二个千年末，第二位萨奥什扬特乌赫夏特·内玛降世。他将进一步推进善的事业，使人类完全不再需要进食，太阳将在天空中静止不动。",
+      "q_en": "The Second Savior: Ukhshyat-nemah",
+      "a_en": "At the end of the second millennium, the second Saoshyant, Ukhshyat-nemah, will appear. He will further advance the cause of good, freeing humanity from the need for food entirely, and the sun will stand still in the sky.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 5,
+      "cat": "spirit",
+      "q": "第三位救世主：阿斯特瓦特·埃雷塔",
+      "a": "在第三个千年末——也是世界历史的终点，最后一位萨奥什扬特阿斯特瓦特·埃雷塔将降世。他将主持最终审判，彻底消灭邪恶，引领世界走向弗拉绍凯尔提（最终更新）。",
+      "q_en": "The Third Savior: Astvat-ereta",
+      "a_en": "At the end of the third millennium — the culmination of world history — the final Saoshyant, Astvat-ereta, will appear. He will preside over the last judgment, utterly vanquish evil, and lead the world into Frashokereti (the final renovation).",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 6,
+      "cat": "war",
+      "q": "善恶最终之战",
+      "a": "在末世，善神的天使军团（阿梅沙·斯彭塔与雅扎塔）将与恶神的魔军（德弗与德鲁吉）展开最后决战。每位善神天使都有对应的恶魔对手。善将取得压倒性胜利，安格拉·曼纽将被彻底击溃。",
+      "q_en": "The Final Battle Between Good and Evil",
+      "a_en": "In the end times, the angelic host of Ahura Mazda (the Amesha Spentas and Yazatas) will wage a final war against the demonic forces of Angra Mainyu (the Daevas and Druj). Each divine being has a corresponding demonic adversary. Good will achieve overwhelming victory, and Angra Mainyu will be utterly destroyed.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 7,
+      "cat": "spirit",
+      "q": "死者复活",
+      "a": "在末世审判之前，所有已故之人将重新获得肉身而复活。最先复活的是原人盖约马尔特，然后是第一对人类马什亚和马什亚纳，最后所有亡灵依次复活。每个人将与自己的灵魂重新结合。",
+      "q_en": "Resurrection of the Dead",
+      "a_en": "Before the final judgment, all the dead will be restored to bodily life. The first to rise is the primordial man Gayomard, followed by the first human couple Mashya and Mashyana, and then all souls in succession. Each person will be reunited with their own soul.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 8,
+      "cat": "climate",
+      "q": "熔金审判",
+      "a": "一条巨大的熔化金属之河将流遍大地，所有复活之人必须从中走过。对于义人，熔化的金属感觉如同温热的牛奶；对于恶人，则如烈火灼烧。这是区分善恶的最终考验。",
+      "q_en": "The Ordeal of Molten Metal",
+      "a_en": "A great river of molten metal will flow across the entire earth, and all resurrected beings must pass through it. For the righteous, the molten metal will feel like warm milk; for the wicked, it will burn like fire. This is the ultimate test separating good from evil.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 9,
+      "cat": "spirit",
+      "q": "弗拉绍凯尔提：世界最终更新",
+      "a": "在最终审判之后，世界将经历彻底的更新与净化，称为「弗拉绍凯尔提」。大地将变得平坦，山谷将被填平。一切邪恶、疾病、衰老和死亡都将被永远消灭。世界恢复到创世之初的完美状态。",
+      "q_en": "Frashokereti: The Final Renovation of the World",
+      "a_en": "After the final judgment, the world will undergo a complete renovation and purification called 'Frashokereti'. The earth will be flattened, valleys will be filled. All evil, disease, aging, and death will be abolished forever. The world will be restored to the perfection of its original creation.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 10,
+      "cat": "spirit",
+      "q": "永生与不朽",
+      "a": "弗拉绍凯尔提之后，所有人类将获得不朽的身体，不再需要进食。人们将永远生活在完美的物质世界中，与阿胡拉·马兹达同在。时间本身将终结，永恒取代有限。",
+      "q_en": "Immortality and Eternal Life",
+      "a_en": "After Frashokereti, all human beings will receive immortal bodies and will no longer need sustenance. They will live forever in a perfected material world, in the presence of Ahura Mazda. Time itself will cease, replaced by eternity.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 11,
+      "cat": "spirit",
+      "q": "钦瓦特桥上的灵魂审判",
+      "a": "每个人死后，灵魂将来到钦瓦特桥（裁判之桥）接受审判。义人的善行化为美丽少女引导其过桥通往天堂；恶人的恶行化为丑陋老妇将其推落桥下深渊，坠入地狱。善恶各得其所。",
+      "q_en": "Judgment of Souls at the Chinvat Bridge",
+      "a_en": "After each person's death, their soul arrives at the Chinvat Bridge (Bridge of the Separator) for judgment. The righteous person's good deeds appear as a beautiful maiden who guides them across to paradise; the wicked person's evil deeds appear as a hideous crone who casts them from the bridge into the abyss of hell.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 12,
+      "cat": "spirit",
+      "q": "恶的最终消灭",
+      "a": "安格拉·曼纽将被彻底消灭，不仅是被击败，而是从存在中被永远抹去。地狱将被熔化的金属净化，恶人经过炼狱之苦后也将获得救赎。最终，一切存在都将归于善，恶不再有容身之处。",
+      "q_en": "The Ultimate Annihilation of Evil",
+      "a_en": "Angra Mainyu will not merely be defeated but utterly annihilated — erased from existence forever. Hell will be purified by the molten metal, and even the wicked will be redeemed after their purgatorial suffering. In the end, all existence will belong to goodness, and evil will have no place anywhere.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 13,
+      "cat": "society",
+      "q": "末世前的道德败坏",
+      "a": "在末世来临之前，世界将经历一段极度堕落的时期。人们将抛弃正义、背离真理，谎言横行。气候将紊乱，冬天变得严酷而漫长。恶魔阿兹·达哈卡将挣脱锁链为祸人间，直到英雄凯尔萨斯帕将其斩杀。",
+      "q_en": "Moral Decline Before the End Times",
+      "a_en": "Before the end times, the world will endure a period of extreme moral degradation. People will abandon righteousness and forsake truth; falsehood will prevail. The climate will become disordered, with winters growing harsh and long. The demon Azi Dahaka will break free from his chains to terrorize the world, until the hero Keresaspa slays him.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "圣火与最终净化",
+      "a": "圣火阿塔尔（Atar）是阿胡拉·马兹达之子，在末世将发挥关键作用。圣火将燃遍大地，融化所有山脉中的金属，形成熔金之河。这圣火不仅是物理的净化，更是宇宙真理对一切谎言的最终审判与涤荡。",
+      "q_en": "The Sacred Fire and Final Purification",
+      "a_en": "The sacred fire Atar, son of Ahura Mazda, will play a crucial role in the end times. The fire will sweep across the earth, melting the metal in all mountains to form the river of molten metal. This sacred fire represents not merely physical purification but the ultimate judgment of cosmic truth (Asha) over all falsehood (Druj).",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 15,
+      "cat": "spirit",
+      "q": "万灵的最终和解",
+      "a": "在弗拉绍凯尔提完成后，阿胡拉·马兹达将举行最后的宗教仪式（亚斯纳），祭献最后一头公牛。从公牛的脂肪与神圣的白色豪马汁液中，将调制出不死灵药，赐予所有复活之人永生。",
+      "q_en": "The Final Reconciliation of All Souls",
+      "a_en": "After Frashokereti is accomplished, Ahura Mazda will perform the final Yasna (religious ceremony), sacrificing the last bull. From the bull's fat and the sacred white Haoma juice, the elixir of immortality will be prepared and bestowed upon all resurrected beings, granting them eternal life.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    }
+  ]
+}

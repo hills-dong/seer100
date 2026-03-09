@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "马前课预言",
+    "siteSubtitle": "三国·诸葛亮",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "马前课是什么？",
+    "homeIntro1": "马前课相传为三国时期蜀汉丞相诸葛亮所作。诸葛亮（181-234），字孔明，号卧龙，是中国历史上最负盛名的政治家、军事家之一。他辅佐刘备建立蜀汉政权，鞠躬尽瘁、死而后已，被后世尊为智慧的化身。",
+    "homeIntro2": "全书共14课，每课由四句七言诗构成，依照历史顺序预言从三国至未来的中国朝代更替。「马前课」意为「在出兵之前占卜的课卦」，也有解释为「在马上（即行军途中）推演的卦课」，体现了诸葛亮作为军事家的身份。每课言简意赅，以隐语暗喻指代朝代和人物。",
+    "homeIntro3": "马前课与《推背图》《烧饼歌》并称为中国古代三大预言书。然而学术界对其真伪争议颇大，部分学者认为现存版本可能为后人托诸葛亮之名所作，前代已验之课或为后人增补。本站整理了14课原文并进行验证分析，供读者参考。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「拯患救难，是唯圣人。阳复而治，晦极生明。」——马前课·第十二课",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "第一课 —— 三国鼎立，蜀汉兴亡",
+      "第三课 —— 南北朝对峙分裂",
+      "第四课 —— 隋唐大一统盛世",
+      "第八课 —— 明朝建立与国祚",
+      "第十课 —— 清朝覆灭与民国肇建"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文来源于传世版本《马前课》，版本真伪及成书年代学术界尚有争议（<a href=\"https://zh.wikipedia.org/wiki/马前课\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "诸葛亮生平参考（<a href=\"https://zh.wikipedia.org/wiki/诸葛亮\" target=\"_blank\" rel=\"noopener\">维基百科·诸葛亮</a>）",
+      "验证评价基于历史文献和公开资料，编者观点不代表学术定论",
+      "站点图标采用八卦符号——诸葛亮精通易学和奇门遁甲，八卦是其术数体系的核心符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Ma Qian Ke Prophecies",
+    "siteSubtitle": "Three Kingdoms · Zhuge Liang",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Ma Qian Ke?",
+    "homeIntro1": "Ma Qian Ke (马前课, 'Lessons Before the Saddle') is traditionally attributed to Zhuge Liang (181-234 AD), the legendary chancellor and chief strategist of Shu Han during the Three Kingdoms period. Zhuge Liang, courtesy name Kongming and known as the 'Sleeping Dragon,' is one of the most celebrated political and military figures in Chinese history, revered as the embodiment of wisdom and loyalty.",
+    "homeIntro2": "The complete work comprises 14 lessons, each consisting of a four-line heptasyllabic poem. Arranged in chronological order, the verses are believed to predict major dynastic transitions in Chinese history from the Three Kingdoms era into the future. The title 'Ma Qian Ke' literally means 'divination lessons before mounting the horse,' or 'lessons calculated on horseback during a military campaign,' reflecting Zhuge Liang's identity as a military strategist. Each lesson is concise, using cryptic metaphors to allude to dynasties and historical figures.",
+    "homeIntro3": "Ma Qian Ke is regarded as one of the three great Chinese prophetic texts, alongside Tui Bei Tu and Shaobing Song. However, its authenticity remains hotly debated among scholars — some believe the surviving text may have been composed by later authors under Zhuge Liang's name, with earlier 'fulfilled' lessons possibly added retroactively. This site presents all 14 lessons with verification analysis for reference.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"To rescue the world from peril and save it from calamity — this is the work of the sage. When yang returns, order is restored; when darkness reaches its extreme, light is born.\" — Ma Qian Ke, Lesson 12",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Lesson 1 —— Three Kingdoms and the rise and fall of Shu Han",
+      "Lesson 3 —— North-South Dynasties division",
+      "Lesson 4 —— Sui-Tang grand unification",
+      "Lesson 8 —— Founding and reign of the Ming Dynasty",
+      "Lesson 10 —— Fall of the Qing and birth of the Republic"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original text sourced from the transmitted version of Ma Qian Ke; authenticity and date of composition remain debated (<a href=\"https://zh.wikipedia.org/wiki/马前课\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Zhuge Liang biography reference (<a href=\"https://en.wikipedia.org/wiki/Zhuge_Liang\" target=\"_blank\" rel=\"noopener\">Wikipedia: Zhuge Liang</a>)",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: Bagua (Eight Trigrams) symbol — Zhuge Liang was a master of the I Ching and Qimen Dunjia; the Bagua is the core symbol of his divination system"
+    ]
+  }
+}

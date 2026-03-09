@@ -1,0 +1,69 @@
+{
+  "siteId": "revelation",
+  "answererName": "John of Patmos",
+  "publishDate": "约95年",
+  "baseUrl": "https://pre.hilife.me/revelation",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "启示录预言全集 - 约翰在拔摩岛的末世异象与验证 | Book of Revelation",
+      "description": "《启示录》是《新约》最后一卷，由拔摩岛的约翰于公元约95年写成。包含七封印、七号角、四骑士、兽的印记666、巴比伦大城、哈米吉多顿、千禧年国度、新耶路撒冷等末世异象，是西方文明最具影响力的启示文学。",
+      "keywords": "启示录,约翰启示录,拔摩岛,七封印,四骑士,666,巴比伦,哈米吉多顿,末世预言,新耶路撒冷,千禧年,Book of Revelation",
+      "siteName": "启示录预言",
+      "ogTitle": "启示录预言全集 | Book of Revelation Prophecies",
+      "ogDescription": "《启示录》末世异象完整收录与验证分析。涵盖七封印、四骑士、兽的印记、巴比伦、哈米吉多顿、新耶路撒冷等预言。",
+      "locale": "zh_CN",
+      "twitterDescription": "《启示录》末世预言全集：七封印、四骑士、666兽印、巴比伦、哈米吉多顿、千禧年、新耶路撒冷。西方文明最具影响力的启示文学。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Book of Revelation Prophecies - Apocalyptic Visions of John of Patmos (~95 AD) | Full Archive & Verification",
+      "description": "The Book of Revelation (Apocalypse of John), the final book of the New Testament, written by John of Patmos circa 95 AD. Contains visions of seven seals, four horsemen, the Beast 666, Babylon the Great, Armageddon, the Millennium, and New Jerusalem — the most influential apocalyptic text in Western civilization.",
+      "keywords": "Book of Revelation,Apocalypse,John of Patmos,seven seals,four horsemen,666,Beast,Babylon,Armageddon,New Jerusalem,Millennium,end times,prophecy",
+      "siteName": "Book of Revelation Prophecies",
+      "ogTitle": "Book of Revelation Prophecies - Apocalyptic Visions of John of Patmos",
+      "ogDescription": "Complete archive and analysis of the Book of Revelation's apocalyptic prophecies. Seven seals, four horsemen, the Beast, Babylon, Armageddon, and New Jerusalem.",
+      "locale": "en_US",
+      "twitterDescription": "The Book of Revelation's apocalyptic prophecies: seven seals, four horsemen, 666, Babylon, Armageddon, Millennium, New Jerusalem. The most influential apocalyptic text in Western civilization."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "启示录预言",
+      "alternateName": "Book of Revelation Prophecies",
+      "url": "https://pre.hilife.me/revelation/",
+      "description": "《启示录》末世异象完整收录与验证分析",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4eeee",
+    "white": "#fff",
+    "text": "#2e1e1e",
+    "text2": "#7a6060",
+    "textLight": "#664a4a",
+    "primary": "#a03030",
+    "primaryDark": "#7a1818",
+    "primaryBg": "#faeaea",
+    "link": "#a03030",
+    "border": "#ddd0d0",
+    "border2": "#c0b0b0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e4e4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Book of Revelation Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Book_of_Revelation",
+    "sourceLabel": "Wikipedia"
+  }
+}

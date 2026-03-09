@@ -1,0 +1,69 @@
+{
+  "siteId": "tesla",
+  "answererName": "Nikola Tesla",
+  "publishDate": "1893-1943",
+  "baseUrl": "https://pre.hilife.me/tesla",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "特斯拉预言全集 - 尼古拉·特斯拉对未来科技的16条预言与验证 | Tesla Prophecies",
+      "description": "塞尔维亚裔美国发明家尼古拉·特斯拉（1856-1943）在采访、文章和专利中留下的16条关于未来科技的预言完整收录。涵盖智能手机、WiFi、无人机战争、可再生能源、机器人等领域，大量预言已被现代科技验证。",
+      "keywords": "特斯拉预言,尼古拉特斯拉,Tesla预言,1926预言,无线通信预言,智能手机预言,未来科技预言,特斯拉发明,Tesla predictions",
+      "siteName": "特斯拉预言",
+      "ogTitle": "特斯拉预言全集 | Tesla Prophecies",
+      "ogDescription": "尼古拉·特斯拉在采访和文章中留下的16条关于未来科技的预言完整收录与验证分析。涵盖智能手机、WiFi、无人机、可再生能源等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "16条尼古拉·特斯拉的科技预言，含真实度验证。已应验：智能手机、WiFi、无人机战争、雷达等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Tesla Prophecies - 16 Predictions from Nikola Tesla (1856-1943) | Full Archive & Verification",
+      "description": "Serbian-American inventor Nikola Tesla (1856-1943) made 16 remarkable predictions about future technology in interviews, articles, and patents. Covering smartphones, WiFi, drone warfare, renewable energy, and robotics. Many have been verified by modern technology.",
+      "keywords": "Nikola Tesla,Tesla predictions,Tesla prophecy,1926 Collier's interview,wireless communication,smartphone prediction,future technology,Tesla inventor,Tesla futurist",
+      "siteName": "Tesla Prophecies",
+      "ogTitle": "Tesla Prophecies - Nikola Tesla's Complete Predictions",
+      "ogDescription": "16 predictions from inventor Nikola Tesla (1856-1943). Full archive with real-world verification covering smartphones, WiFi, drone warfare, renewable energy, and more.",
+      "locale": "en_US",
+      "twitterDescription": "16 predictions from Nikola Tesla. Verified: smartphones, WiFi, drone warfare, radar, and more. The inventor who saw the future."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "特斯拉预言",
+      "alternateName": "Tesla Prophecies",
+      "url": "https://pre.hilife.me/tesla/",
+      "description": "尼古拉·特斯拉在采访和文章中留下的科技预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef2f4",
+    "white": "#fff",
+    "text": "#222830",
+    "text2": "#687078",
+    "textLight": "#565e68",
+    "primary": "#c47a10",
+    "primaryDark": "#9a5c08",
+    "primaryBg": "#faf4e8",
+    "link": "#c47a10",
+    "border": "#d8dee4",
+    "border2": "#bcc4cc",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eef0e8"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Tesla Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 28" height="20">
+  <!-- Balance scale icon -->
+  <!-- Center pillar -->
+  <line x1="14" y1="6" x2="14" y2="24" stroke="#5e4e28" stroke-width="2" stroke-linecap="round"/>
+  <!-- Base -->
+  <line x1="8" y1="24" x2="20" y2="24" stroke="#5e4e28" stroke-width="2" stroke-linecap="round"/>
+  <!-- Beam -->
+  <line x1="3" y1="8" x2="25" y2="8" stroke="#7a6a40" stroke-width="2" stroke-linecap="round"/>
+  <!-- Top triangle/fulcrum -->
+  <polygon points="14,4 11,8 17,8" fill="#7a6a40"/>
+  <!-- Left pan -->
+  <path d="M3,8 L0,18 A5,2 0 0,0 6,18 Z" fill="#7a6a40"/>
+  <!-- Right pan -->
+  <path d="M25,8 L22,18 A5,2 0 0,0 28,18 Z" fill="#7a6a40"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="bold" fill="#5e4e28" letter-spacing="0.5">TOCQUEVILLE</text>
+</svg>

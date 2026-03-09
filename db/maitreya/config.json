@@ -1,0 +1,69 @@
+{
+  "siteId": "maitreya",
+  "answererName": "弥勒佛",
+  "publishDate": "约公元前200年",
+  "baseUrl": "https://pre.hilife.me/maitreya",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "弥勒佛预言全集 - 佛教未来佛的降世预言与末法时代启示 | Maitreya Prophecies",
+      "description": "佛教经典中关于弥勒菩萨的预言完整收录，涵盖末法时代、兜率天宫、龙华三会、人寿八万岁、转轮圣王等内容。出自《长阿含经》《弥勒下生经》《弥勒上生经》等早期佛典。",
+      "keywords": "弥勒佛,弥勒菩萨,弥勒预言,未来佛,龙华三会,末法时代,兜率天,佛教预言,弥勒下生经,转轮圣王",
+      "siteName": "弥勒佛预言",
+      "ogTitle": "弥勒佛预言全集 | Maitreya Prophecies",
+      "ogDescription": "佛教经典中关于弥勒菩萨降世的预言完整收录。涵盖末法时代、兜率天宫、龙华三会、理想世界等内容。",
+      "locale": "zh_CN",
+      "twitterDescription": "佛教未来佛弥勒菩萨的降世预言，出自巴利三藏与汉传佛典。末法时代、龙华三会、人寿八万岁。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Maitreya Prophecies - Buddhist Predictions of the Future Buddha | Full Archive",
+      "description": "Complete collection of Buddhist prophecies about Maitreya, the future Buddha. Covering the decline of Dharma, Tushita Heaven, descent to Earth, Dragon Flower Assemblies, and the ideal world. From the Pali Canon, Maitreyavyakarana, and Chinese Buddhist texts.",
+      "keywords": "Maitreya,Maitreya prophecy,future Buddha,Buddhist prophecy,Dragon Flower Assembly,decline of Dharma,Tushita Heaven,Maitreyavyakarana,Cakkavatti,Buddhist eschatology",
+      "siteName": "Maitreya Prophecies",
+      "ogTitle": "Maitreya Prophecies - The Future Buddha's Coming",
+      "ogDescription": "Complete Buddhist prophecies about Maitreya, the future Buddha. From Pali Canon and Chinese Buddhist scriptures, covering Dharma decline, Tushita Heaven, and Dragon Flower Assemblies.",
+      "locale": "en_US",
+      "twitterDescription": "Buddhist prophecies of Maitreya, the future Buddha. Dharma decline, Tushita Heaven, Dragon Flower Assemblies, and the ideal world."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "弥勒佛预言",
+      "alternateName": "Maitreya Prophecies",
+      "url": "https://pre.hilife.me/maitreya/",
+      "description": "佛教经典中关于弥勒菩萨降世的预言完整收录与解读",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f2e8",
+    "white": "#fff",
+    "text": "#2a2818",
+    "text2": "#787058",
+    "textLight": "#625a40",
+    "primary": "#b08a20",
+    "primaryDark": "#886818",
+    "primaryBg": "#faf6e6",
+    "link": "#b08a20",
+    "border": "#dcd4c0",
+    "border2": "#c0b69c",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0eadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "弥勒佛预言"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Maitreya",
+    "sourceLabel": "Wikipedia"
+  }
+}

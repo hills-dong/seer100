@@ -1,0 +1,69 @@
+{
+  "siteId": "malachy",
+  "answererName": "St. Malachy",
+  "publishDate": "1595（声称1139年）",
+  "baseUrl": "https://pre.hilife.me/malachy",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "圣马拉基教皇预言全集 - 112位教皇的拉丁箴言与验证 | Prophecy of the Popes",
+      "description": "据传为圣马拉基（1094-1148）所著的教皇预言，以112条简短拉丁语箴言描述从策肋定二世到最后一位教皇「罗马人伯多禄」。1595年由阿诺德·维翁首次出版。本站精选22条最著名预言并进行验证分析。",
+      "keywords": "教皇预言,圣马拉基,马拉基预言,Prophecy of the Popes,St Malachy,拉丁箴言,教皇列表,罗马人伯多禄,Petrus Romanus,天主教预言",
+      "siteName": "圣马拉基教皇预言",
+      "ogTitle": "圣马拉基教皇预言全集 | Prophecy of the Popes",
+      "ogDescription": "据传为12世纪爱尔兰圣人马拉基所著的112条教皇预言，精选22条最著名箴言与验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "圣马拉基教皇预言：112条拉丁箴言预言历代教皇，精选22条最著名预言含验证分析。最终预言：罗马人伯多禄。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Prophecy of the Popes - St. Malachy's 112 Papal Mottos with Verification | Full Archive",
+      "description": "The Prophecy of the Popes, attributed to St. Malachy of Armagh (1094-1148), consists of 112 short Latin phrases describing each pope from Celestine II to the final pope 'Peter the Roman'. First published in 1595 by Arnold Wion. 22 selected entries with verification.",
+      "keywords": "Prophecy of the Popes,St Malachy,papal prophecy,Latin mottos,Petrus Romanus,Peter the Roman,Catholic prophecy,pope list,papal predictions",
+      "siteName": "Prophecy of the Popes",
+      "ogTitle": "Prophecy of the Popes - St. Malachy's Papal Prophecy Archive",
+      "ogDescription": "112 Latin mottos attributed to 12th-century Irish saint Malachy, each describing a future pope. 22 selected entries with historical verification.",
+      "locale": "en_US",
+      "twitterDescription": "St. Malachy's Prophecy of the Popes: 112 Latin mottos predicting each pope. 22 selected entries with verification. Final prophecy: Petrus Romanus."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "圣马拉基教皇预言",
+      "alternateName": "Prophecy of the Popes",
+      "url": "https://pre.hilife.me/malachy/",
+      "description": "据传为圣马拉基所著的教皇预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f2ee",
+    "white": "#fff",
+    "text": "#282420",
+    "text2": "#787060",
+    "textLight": "#645c4a",
+    "primary": "#8c7040",
+    "primaryDark": "#6a5228",
+    "primaryBg": "#f8f4ea",
+    "link": "#8c7040",
+    "border": "#dcd4c4",
+    "border2": "#c0b6a2",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0eadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Prophecy of the Popes"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Prophecy_of_the_Popes",
+    "sourceLabel": "Wikipedia"
+  }
+}

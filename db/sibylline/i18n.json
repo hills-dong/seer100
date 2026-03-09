@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "西比林预言书",
+    "siteSubtitle": "古希腊罗马女先知的神谕（约前500年—公元7世纪）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "西比林预言书是什么？",
+    "homeIntro1": "西比尔（Sibyl）是古希腊罗马世界中一类著名的女先知，她们在神灵感召下进入迷狂状态，口述关于未来的预言。最著名的西比尔包括库迈的西比尔（Cumaean Sibyl）、厄立特里亚的西比尔（Erythraean Sibyl）等，据传曾为罗马元老院提供神谕指导。",
+    "homeIntro2": "历史上存在两组「西比林」文献：一是早已失传的「西比林之书」（Sibylline Books），曾由罗马官方保管并在国家危机时查阅；二是现存的「西比林神谕」（Sibylline Oracles），共14卷，成书于公元前2世纪至公元7世纪，属犹太-基督教伪典，借西比尔之名表达末世思想。",
+    "homeIntro3": "现存的西比林神谕以六音步诗歌写成，涵盖帝国兴亡、自然灾变、末世审判与弥赛亚降临等主题。其中大量内容被认为是「事后预言」（vaticinium ex eventu），即以预言的形式追述已发生的历史事件。本站整理了其中代表性的预言条目，并对可验证的历史预言进行了评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「万物的终结即将来临，审判之日将降临大地。永生的上帝将审判所有人的灵魂与行为。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约前500年 —— 最早的西比尔传说出现在希腊文献中",
+      "前83年 —— 罗马卡庇托林山火灾，原始西比林之书被焚毁",
+      "前2世纪至前1世纪 —— 犹太西比林神谕（第3卷）开始编纂",
+      "公元1-2世纪 —— 基督教化的西比林神谕大量产生",
+      "公元7世纪 —— 最晚期的西比林神谕文本写就"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文基于 J.J. Collins 编辑的学术译本《The Sibylline Oracles》（<a href=\"https://en.wikipedia.org/wiki/Sibylline_Oracles\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "历史验证基于古典史学文献（塔西佗、苏维托尼乌斯等）与现代考古学研究",
+      "编者观点不代表学术定论，部分预言的年代归属存在学术争议",
+      "站点图标采用古典柱式神殿造型——西比尔在阿波罗神殿中传达神谕，神殿是其最具辨识度的视觉符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Sibylline Oracles",
+    "siteSubtitle": "Oracles of the Greco-Roman Prophetesses (c. 500 BC - 7th century AD)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What are the Sibylline Oracles?",
+    "homeIntro1": "The Sibyls were renowned prophetesses of the ancient Greco-Roman world who, under divine inspiration, entered ecstatic states and uttered prophecies about the future. The most famous include the Cumaean Sibyl and the Erythraean Sibyl, who reportedly provided oracular guidance to the Roman Senate.",
+    "homeIntro2": "Two distinct collections bore the 'Sibylline' name: the lost Sibylline Books, kept by Roman authorities and consulted during national crises; and the surviving Sibylline Oracles, 14 books of Judeo-Christian pseudepigrapha composed between the 2nd century BC and 7th century AD, expressing apocalyptic themes under the Sibyls' authority.",
+    "homeIntro3": "The surviving Oracles, written in Greek hexameter verse, cover the rise and fall of empires, natural catastrophes, divine judgment, and messianic prophecies. Much of the content is considered vaticinium ex eventu — 'prophecy after the fact', describing historical events in prophetic form. This site compiles representative entries and evaluates those with verifiable historical outcomes.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The end of all things draws near, and the day of judgment shall come upon the earth. The immortal God shall judge the souls and deeds of all.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "c. 500 BC —— Earliest Sibyl traditions appear in Greek literature",
+      "83 BC —— Fire on the Capitoline Hill destroys original Sibylline Books",
+      "2nd-1st century BC —— Jewish Sibylline Oracles (Book 3) begin composition",
+      "1st-2nd century AD —— Christianized Sibylline Oracles proliferate",
+      "7th century AD —— Latest Sibylline Oracle texts composed"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecy texts based on the scholarly translation by J.J. Collins in <i>The Sibylline Oracles</i> (<a href=\"https://en.wikipedia.org/wiki/Sibylline_Oracles\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Historical verification based on classical historiography (Tacitus, Suetonius, etc.) and modern archaeology",
+      "Editorial opinions do not represent academic consensus; dating of some oracles remains disputed",
+      "Site icon: classical temple motif — the Sibyls delivered their oracles in the Temple of Apollo, the most recognizable visual symbol of their tradition"
+    ]
+  }
+}

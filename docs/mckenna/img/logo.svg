@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 28" height="20">
+  <!-- Spiral/fractal icon representing Timewave Zero -->
+  <path d="M14 2 A12 12 0 0 1 26 14 A12 12 0 0 1 14 26 A12 12 0 0 1 2 14 A12 12 0 0 1 14 2 Z" fill="#506a3a"/>
+  <path d="M14 6 A8 8 0 0 1 22 14 A8 8 0 0 1 14 22 A8 8 0 0 1 6 14 A8 8 0 0 1 14 6 Z" fill="#f0f4f0"/>
+  <path d="M14 6 A8 8 0 0 1 22 14" stroke="#384e22" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M14 9 A5 5 0 0 0 9 14 A5 5 0 0 0 14 19" stroke="#384e22" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M14 12 A2 2 0 0 1 16 14" stroke="#506a3a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <circle cx="14" cy="14" r="1.5" fill="#384e22"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#384e22" letter-spacing="0.5">MCKENNA</text>
+</svg>

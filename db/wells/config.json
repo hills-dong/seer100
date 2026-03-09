@@ -1,0 +1,69 @@
+{
+  "siteId": "wells",
+  "answererName": "H.G. Wells",
+  "publishDate": "1895-1945",
+  "baseUrl": "https://pre.hilife.me/wells",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "H.G.威尔斯预言全集 - 科幻之父对人类未来的16条预言与验证 | H.G. Wells Prophecies",
+      "description": "英国科幻小说之父赫伯特·乔治·威尔斯（1866-1946）在小说和论文中预言了坦克、原子弹、空战、太空旅行、基因工程、世界大战、电视和互联网等。收录16条预言及真实度验证。",
+      "keywords": "威尔斯预言,HG Wells,科幻之父,时间机器,世界大战,原子弹预言,坦克预言,科幻预言,Wells predictions",
+      "siteName": "H.G.威尔斯预言",
+      "ogTitle": "H.G.威尔斯预言全集 | H.G. Wells Prophecies",
+      "ogDescription": "英国科幻之父威尔斯在小说中预见了原子弹、坦克、空战、太空旅行等现代技术与事件。16条预言完整收录与验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "16条科幻之父威尔斯的预言，含真实度验证。已应验：原子弹、坦克、空战、太空旅行、基因工程等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "H.G. Wells Prophecies - 16 Predictions from the Father of Science Fiction (1866-1946) | Full Archive & Verification",
+      "description": "English writer H.G. Wells (1866-1946), the Father of Science Fiction, predicted tanks, atomic bombs, aerial warfare, space travel, genetic engineering, world wars, television, and the internet in his novels and essays. Full archive with verification.",
+      "keywords": "HG Wells,Wells predictions,Father of Science Fiction,Time Machine,War of the Worlds,World Set Free,atomic bomb prediction,tank prediction,science fiction prophecy",
+      "siteName": "H.G. Wells Prophecies",
+      "ogTitle": "H.G. Wells Prophecies - The Father of Science Fiction's Complete Predictions",
+      "ogDescription": "16 predictions from H.G. Wells (1866-1946). Verified: atomic bombs, tanks, aerial warfare, space travel, genetic engineering, and more.",
+      "locale": "en_US",
+      "twitterDescription": "16 predictions from H.G. Wells, Father of Science Fiction. Verified: atomic bombs, tanks, aerial warfare, space travel, genetic engineering."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "H.G.威尔斯预言",
+      "alternateName": "H.G. Wells Prophecies",
+      "url": "https://pre.hilife.me/wells/",
+      "description": "英国科幻之父威尔斯在小说中预见的现代技术与事件完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0ec",
+    "white": "#fff",
+    "text": "#2c2824",
+    "text2": "#767068",
+    "textLight": "#625c54",
+    "primary": "#6a5a50",
+    "primaryDark": "#4e3e34",
+    "primaryBg": "#f0ece8",
+    "link": "#6a5a50",
+    "border": "#e0dcd6",
+    "border2": "#c4beb6",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#ece8e2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "H.G. Wells Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/H._G._Wells",
+    "sourceLabel": "Wikipedia"
+  }
+}

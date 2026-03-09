@@ -1,0 +1,69 @@
+{
+  "siteId": "twain",
+  "answererName": "Mark Twain",
+  "publishDate": "1889-1909",
+  "baseUrl": "https://pre.hilife.me/twain",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "马克·吐温预言全集 - 美国文豪的惊人预见 | Mark Twain Prophecies",
+      "description": "美国作家马克·吐温（1835-1910）不仅是文学巨匠，还留下了多项惊人预言：预言自己随哈雷彗星而去、在小说中预见互联网、对帝国主义与人性的深刻洞察至今仍具预见性。",
+      "keywords": "马克吐温,马克吐温预言,哈雷彗星,远距电视镜,Telelectroscope,Mark Twain predictions,美国文学,预言家,未来预见",
+      "siteName": "马克·吐温预言",
+      "ogTitle": "马克·吐温预言全集 | Mark Twain Prophecies",
+      "ogDescription": "美国文豪马克·吐温留下的预言完整收录与验证分析。涵盖科技、政治、社会、人性等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "马克·吐温的惊人预言：预言自己的死亡、预见互联网、洞察帝国主义与人性。完整收录与验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Mark Twain Prophecies - Remarkable Predictions from America's Greatest Writer | Full Archive & Verification",
+      "description": "Mark Twain (1835-1910), America's greatest writer, left behind remarkable predictions: his own death tied to Halley's Comet, the internet foreseen in fiction, and observations on imperialism and human nature that remain prescient today.",
+      "keywords": "Mark Twain,Mark Twain predictions,Halley's Comet,Telelectroscope,American literature,prophet,futurist,prescient observations",
+      "siteName": "Mark Twain Prophecies",
+      "ogTitle": "Mark Twain Prophecies - Remarkable Predictions from America's Greatest Writer",
+      "ogDescription": "Mark Twain's remarkable predictions: his own death, the internet, imperialism, and human nature. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Mark Twain predicted his own death, foresaw the internet, and made observations on politics and human nature that remain remarkably prescient."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "马克·吐温预言",
+      "alternateName": "Mark Twain Prophecies",
+      "url": "https://pre.hilife.me/twain/",
+      "description": "美国文豪马克·吐温留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f2ee",
+    "white": "#fff",
+    "text": "#2c2820",
+    "text2": "#787060",
+    "textLight": "#645c4c",
+    "primary": "#b08a20",
+    "primaryDark": "#8a6a10",
+    "primaryBg": "#f8f4e6",
+    "link": "#b08a20",
+    "border": "#e0dcd2",
+    "border2": "#c4c0b2",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eeeae0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Mark Twain Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mark_Twain",
+    "sourceLabel": "Wikipedia"
+  }
+}

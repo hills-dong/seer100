@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "特斯拉预言",
+    "siteSubtitle": "塞尔维亚裔美国发明家（1856-1943）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "尼古拉·特斯拉是谁？",
+    "homeIntro1": "尼古拉·特斯拉（Nikola Tesla，1856年7月10日—1943年1月7日），塞尔维亚裔美国发明家、电气工程师、机械工程师和未来学家。他是交流电系统的主要推动者，拥有超过300项专利，被誉为「创造了20世纪的人」。",
+    "homeIntro2": "特斯拉不仅是一位杰出的发明家，更是一位惊人的未来预见者。在20世纪初的多次采访和文章中，他描述了智能手机、WiFi、无人机战争、可再生能源、机器人自动化等在当时看来不可思议的技术。他1926年接受《柯里尔周刊》的采访尤为著名，其中对无线通信设备的描述与现代智能手机惊人地吻合。",
+    "homeIntro3": "与传统预言家不同，特斯拉的预言源于他对电磁学、能量传输和工程学的深刻理解。他的「预言」更准确地说是基于科学原理的技术展望，这也是他的预言应验率极高的原因。本站整理了他最具代表性的16条技术预言，并对照现代科技发展进行了验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「当无线技术被完美地应用时，整个地球将变成一个巨大的大脑……我们将能够在瞬间实现彼此的通信，无论距离多远。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1898年 —— 在麦迪逊广场花园展示遥控船，预见无人机与机器人时代",
+      "1904年 —— 发表文章预言无线能量传输将改变世界",
+      "1926年 —— 接受《柯里尔周刊》采访，描述未来口袋大小的无线通信设备",
+      "1934年 —— 提出「死光」定向能武器概念",
+      "1935年 —— 预言无线能量将为全球提供无限清洁能源"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容主要来自特斯拉的公开采访和文章，包括1926年《柯里尔周刊》采访（<a href=\"https://teslauniverse.com/nikola-tesla/articles/when-woman-boss\" target=\"_blank\" rel=\"noopener\">Tesla Universe</a>）",
+      "1904年文章和其他技术论述收录于《Electrical Experimenter》杂志（<a href=\"https://en.wikipedia.org/wiki/Nikola_Tesla#Legacy_and_honors\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开新闻报道、技术发展史和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用特斯拉线圈符号——特斯拉线圈是特斯拉最具标志性的发明，也是他名字最广为人知的视觉象征"
+    ]
+  },
+  "en": {
+    "siteTitle": "Tesla Prophecies",
+    "siteSubtitle": "Serbian-American Inventor (1856-1943)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Nikola Tesla?",
+    "homeIntro1": "Nikola Tesla (July 10, 1856 – January 7, 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist. He was the primary champion of the alternating current (AC) electrical system, held over 300 patents, and has been called 'the man who invented the 20th century'.",
+    "homeIntro2": "Tesla was not only a brilliant inventor but also an extraordinary futurist. In numerous interviews and articles in the early 20th century, he described technologies that seemed unimaginable at the time — smartphones, WiFi, drone warfare, renewable energy, and robotic automation. His 1926 interview with Collier's magazine is particularly famous, where his description of a wireless communication device matches the modern smartphone with remarkable precision.",
+    "homeIntro3": "Unlike traditional prophets, Tesla's predictions stemmed from his deep understanding of electromagnetism, energy transmission, and engineering. His 'prophecies' were technically informed visions of the future, which explains their extraordinarily high accuracy rate. This site compiles his 16 most representative technology predictions and verifies them against modern technological developments.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"When wireless is perfectly applied the whole earth will be converted into a huge brain... we shall be able to communicate with one another instantly, irrespective of distance.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1898 —— Demonstrated remote-controlled boat at Madison Square Garden, foreseeing drones and robotics",
+      "1904 —— Published article predicting wireless energy transmission would change the world",
+      "1926 —— Collier's interview describing a future pocket-sized wireless communication device",
+      "1934 —— Proposed 'death ray' directed-energy weapon concept",
+      "1935 —— Predicted wireless energy would provide unlimited clean power worldwide"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions sourced from Tesla's published interviews and articles, including the 1926 Collier's interview (<a href=\"https://teslauniverse.com/nikola-tesla/articles/when-woman-boss\" target=\"_blank\" rel=\"noopener\">Tesla Universe</a>)",
+      "1904 articles and other technical writings from Electrical Experimenter magazine (<a href=\"https://en.wikipedia.org/wiki/Nikola_Tesla#Legacy_and_honors\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public news reports, technology history, and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: Tesla coil symbol — the Tesla coil is Tesla's most iconic invention and the most widely recognized visual symbol of his name"
+    ]
+  }
+}

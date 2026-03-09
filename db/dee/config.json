@@ -1,0 +1,69 @@
+{
+  "siteId": "dee",
+  "answererName": "John Dee",
+  "publishDate": "1564-1607",
+  "baseUrl": "https://pre.hilife.me/dee",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "约翰·迪预言全集 - 伊丽莎白时代宫廷占星师的天使对话与以诺魔法 | John Dee Prophecies",
+      "description": "英国数学家、占星师约翰·迪（1527-1608）通过灵媒爱德华·凯利与天使对话，留下以诺魔法体系和神秘预言。涵盖政治、宗教、炼金术与超自然领域的15条预言及验证分析。",
+      "keywords": "约翰迪,John Dee,以诺魔法,天使对话,爱德华凯利,伊丽莎白一世,占星术,炼金术,预言,神秘学",
+      "siteName": "约翰·迪预言",
+      "ogTitle": "约翰·迪预言全集 | John Dee Prophecies",
+      "ogDescription": "伊丽莎白时代宫廷占星师约翰·迪通过天使对话留下的预言完整收录与验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "15条约翰·迪的天使对话预言，含真实度验证。以诺魔法体系创始人，伊丽莎白一世的宫廷顾问。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "John Dee Prophecies - Angelic Conversations & Enochian Revelations (1527-1608) | Full Archive & Verification",
+      "description": "Elizabethan mathematician, astrologer, and occultist John Dee (1527-1608) received prophecies through angelic conversations with scryer Edward Kelley. Complete archive of 15 predictions covering politics, religion, alchemy, and the supernatural, with verification analysis.",
+      "keywords": "John Dee,Enochian magic,angelic conversations,Edward Kelley,Elizabeth I,astrology,alchemy,prophecy,occultism,Monas Hieroglyphica",
+      "siteName": "John Dee Prophecies",
+      "ogTitle": "John Dee Prophecies - Angelic Conversations & Enochian Revelations",
+      "ogDescription": "15 prophecies from Elizabethan occultist John Dee's angelic conversations. Full archive with real-world verification covering politics, religion, alchemy, and the supernatural.",
+      "locale": "en_US",
+      "twitterDescription": "15 predictions from John Dee's angelic conversations. Creator of Enochian magic, advisor to Queen Elizabeth I."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "约翰·迪预言",
+      "alternateName": "John Dee Prophecies",
+      "url": "https://pre.hilife.me/dee/",
+      "description": "伊丽莎白时代宫廷占星师约翰·迪的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0eb",
+    "white": "#fff",
+    "text": "#2e2a24",
+    "text2": "#7a7068",
+    "textLight": "#665e56",
+    "primary": "#2e5a6a",
+    "primaryDark": "#1a3e4e",
+    "primaryBg": "#e8f0f4",
+    "link": "#2e5a6a",
+    "border": "#e0dbd5",
+    "border2": "#c5beb6",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eceae4"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "John Dee Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/John_Dee",
+    "sourceLabel": "Wikipedia"
+  }
+}

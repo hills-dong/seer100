@@ -1,0 +1,169 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "war",
+      "q": "帕伊西奥斯长老关于土耳其与俄罗斯的预言",
+      "a": "「事态将发展到一定地步后，俄罗斯人将占领土耳其。土耳其的三分之一将归希腊，三分之一将归亚美尼亚，三分之一将归库尔德斯坦。」",
+      "q_en": "Elder Paisios on Turkey and Russia",
+      "a_en": "\"Events will reach a point where the Russians will take Turkey. A third of Turkey will be given to Greece, a third to Armenia, and a third to Kurdistan.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 2,
+      "cat": "politics",
+      "q": "关于君士坦丁堡回归的预言",
+      "a": "「君士坦丁堡将归还给我们。不是我们去取回它，而是它自己会被交到我们手中。各大国将迫使土耳其交出这座城市。」",
+      "q_en": "On the return of Constantinople",
+      "a_en": "\"Constantinople will be given back to us. We won't take it ourselves — it will be handed to us. The great powers will force Turkey to give up the city.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 3,
+      "cat": "war",
+      "q": "关于土耳其挑起冲突的预言",
+      "a": "「土耳其人将在爱琴海制造危机。他们的舰队将被摧毁。然后事态将朝着有利于希腊的方向迅速发展。」",
+      "q_en": "On Turkey provoking conflict",
+      "a_en": "\"The Turks will create a crisis in the Aegean Sea. Their fleet will be destroyed. Then events will rapidly develop in favor of Greece.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 4,
+      "cat": "war",
+      "q": "关于中东局势与大战",
+      "a": "「中东将有一场大战。各大海军舰队将在地中海集结。一场大规模的战争将在那里爆发。」",
+      "q_en": "On the Middle East and a great war",
+      "a_en": "\"There will be a great war in the Middle East. Naval fleets from great powers will gather in the Mediterranean. A large-scale war will break out there.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 5,
+      "cat": "politics",
+      "q": "关于希腊领土扩张",
+      "a": "「希腊最终将扩展其领土。我们将夺回北伊庇鲁斯和小亚细亚的部分地区。希腊的疆域将大大扩展。」",
+      "q_en": "On Greek territorial expansion",
+      "a_en": "\"Greece will eventually expand its territory. We will take back Northern Epirus and parts of Asia Minor. Greece's borders will be greatly expanded.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 6,
+      "cat": "politics",
+      "q": "关于欧盟解体的预言",
+      "a": "「欧洲联盟不会持久。它将会解体，因为它不是建立在正确的基础上。那些建造它的人只想着利益，而非各民族的真正团结。」",
+      "q_en": "On the dissolution of the European Union",
+      "a_en": "\"The European Union will not last. It will fall apart because it is not built on the right foundations. Those who built it only thought about profit, not the true unity of peoples.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 7,
+      "cat": "society",
+      "q": "关于电子身份证与兽印",
+      "a": "「他们会给每个人一张电子卡片。然后是芯片植入。任何不接受的人将无法买卖。这一切的背后是对人类的全面控制。这就是《启示录》中所说的兽印。」",
+      "q_en": "On electronic ID cards and the mark of the beast",
+      "a_en": "\"They will give everyone an electronic card. Then a chip implant. Anyone who refuses it will be unable to buy or sell. Behind all this is total control of humanity. This is the mark of the beast spoken of in the Book of Revelation.\"",
+      "status": "partial",
+      "verdict_zh": "多国已推行电子身份证和数字化系统，如欧盟电子身份证（eID）、希腊于2024年启用电子身份证。芯片植入技术也已实现（如瑞典的微芯片植入试验），但尚未成为强制性要求，「无法买卖」的全面控制局面并未出现。",
+      "verdict_en": "Many countries have implemented electronic ID systems, such as EU eID and Greece's 2024 electronic ID rollout. Chip implant technology exists (e.g., Sweden microchip trials), but has not become mandatory. The 'unable to buy or sell' scenario of total control has not materialized."
+    },
+    {
+      "id": 8,
+      "cat": "spirit",
+      "q": "关于末世征兆",
+      "a": "「末世的征兆是：人们将远离信仰，教会将变得软弱。修道院将变成旅馆，牧场将变成荒地。一切美好的事物将被人遗忘。」",
+      "q_en": "On signs of the end times",
+      "a_en": "\"Signs of the end times are: people will turn away from faith, churches will become weak. Monasteries will turn into hotels, pastures will become wastelands. All good things will be forgotten.\"",
+      "status": "partial",
+      "verdict_zh": "西方社会确实出现了明显的世俗化趋势。皮尤研究中心数据显示，欧洲和北美无宗教信仰人口持续增长，多国教堂因信众减少而关闭或改建为世俗用途。但「修道院变旅馆」的说法仅在个别案例中出现，并非普遍现象。",
+      "verdict_en": "Western society has indeed seen significant secularization. Pew Research data shows growing religiously unaffiliated populations in Europe and North America, with churches closing or being repurposed. However, 'monasteries becoming hotels' has occurred only in isolated cases, not as a widespread phenomenon."
+    },
+    {
+      "id": 9,
+      "cat": "spirit",
+      "q": "关于灵性衰退与道德危机",
+      "a": "「将来会出现这样的时代：人们虽然受过高等教育，却缺乏基本的道德观念。知识会增长，但智慧会衰退。人们会拥有很多信息，却不知道如何生活。」",
+      "q_en": "On spiritual decline and moral crisis",
+      "a_en": "\"There will come a time when people will be highly educated but lack basic moral values. Knowledge will increase but wisdom will decline. People will have much information but won't know how to live.\"",
+      "status": "partial",
+      "verdict_zh": "全球高等教育入学率持续攀升（UNESCO数据：2000年19%升至2022年42%），但多项社会调查显示心理健康问题、社会孤立感和道德相对主义同步增长。「知识增长但智慧衰退」的判断带有主观性，难以用客观指标衡量。",
+      "verdict_en": "Global higher education enrollment has risen continuously (UNESCO: 19% in 2000 to 42% in 2022), while multiple social surveys show parallel increases in mental health issues, social isolation, and moral relativism. The judgment that 'knowledge increases but wisdom declines' is subjective and difficult to measure objectively."
+    },
+    {
+      "id": 10,
+      "cat": "politics",
+      "q": "关于俄罗斯的角色",
+      "a": "「俄罗斯最终将在上帝的安排下发挥巨大作用。当所有其他国家都道德败坏时，俄罗斯将成为信仰的灯塔。」",
+      "q_en": "On Russia's role",
+      "a_en": "\"Russia will eventually play a great role under God's providence. When all other nations have become morally corrupt, Russia will become a beacon of faith.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 11,
+      "cat": "society",
+      "q": "关于数字化控制",
+      "a": "「将来有一天，他们会试图用数字系统控制一切。你的钱、你的工作、你的出行，全都被记录和监控。人们会心甘情愿地接受这些，因为这被包装为便利和进步。」",
+      "q_en": "On digital control systems",
+      "a_en": "\"One day they will try to control everything through digital systems. Your money, your work, your travel — all recorded and monitored. People will willingly accept this because it is packaged as convenience and progress.\"",
+      "status": "partial",
+      "verdict_zh": "数字支付、电子出行记录和社会信用体系已在多国推行（中国社会信用系统、欧盟数字身份钱包计划、各国推行的无现金社会）。数字化监控和数据收集已成为全球性现实，但完全的「用数字系统控制一切」的局面尚未到来。",
+      "verdict_en": "Digital payments, electronic travel records, and social credit systems have been implemented in various countries (China's social credit system, EU Digital Identity Wallet, cashless society initiatives). Digital surveillance and data collection are global realities, but total 'control of everything through digital systems' has not yet arrived."
+    },
+    {
+      "id": 12,
+      "cat": "spirit",
+      "q": "关于家庭的瓦解",
+      "a": "「家庭将被摧毁。婚姻将失去其神圣性。孩子们将不再尊敬父母。一切都将颠倒：邪恶将被称为善，善将被称为邪恶。」",
+      "q_en": "On the disintegration of the family",
+      "a_en": "\"The family will be destroyed. Marriage will lose its sanctity. Children will no longer respect their parents. Everything will be turned upside down: evil will be called good, and good will be called evil.\"",
+      "status": "partial",
+      "verdict_zh": "全球离婚率在过去数十年总体上升（OECD国家平均离婚率约40-50%），非婚生育比例在欧洲多国超过50%，传统家庭结构确实经历了重大变化。但「家庭被摧毁」过于绝对化，家庭形态的多元化并非等同于家庭的消亡。",
+      "verdict_en": "Global divorce rates have generally risen over past decades (OECD average 40-50%), non-marital birth rates exceed 50% in many European countries, and traditional family structures have undergone significant changes. However, 'the family will be destroyed' is an overstatement — diversification of family forms does not equate to the disappearance of the family."
+    },
+    {
+      "id": 13,
+      "cat": "war",
+      "q": "关于第三次世界大战",
+      "a": "「第三次世界大战将从中东开始。俄罗斯将与土耳其作战。很多国家将卷入这场冲突。但战争不会持续太久。上帝不会允许人类完全毁灭自己。」",
+      "q_en": "On World War III",
+      "a_en": "\"World War III will start from the Middle East. Russia will fight against Turkey. Many nations will be drawn into this conflict. But the war will not last long. God will not allow humanity to completely destroy itself.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 14,
+      "cat": "society",
+      "q": "关于世俗权力对教会的压力",
+      "a": "「政府将试图控制教会。他们会通过法律迫使教会接受世俗标准。一些主教会妥协，但真正的信徒会坚守信仰。教会表面上会变弱，但内在的信仰之火不会熄灭。」",
+      "q_en": "On secular pressure on the Church",
+      "a_en": "\"Governments will try to control the Church. They will pass laws forcing the Church to accept secular standards. Some bishops will compromise, but true believers will hold firm. The Church will appear weaker on the surface, but the inner flame of faith will not be extinguished.\"",
+      "status": "partial",
+      "verdict_zh": "多国围绕同性婚姻、性别议题和宗教自由的立法确实引发了教会与政府之间的张力（如希腊2024年通过同性伴侣法案引发东正教会反对）。部分教会领袖选择妥协，部分坚持传统立场，与预言描述的分化情况有一定吻合。",
+      "verdict_en": "Legislation around same-sex marriage, gender issues, and religious freedom has indeed created tensions between churches and governments in many countries (e.g., Greece's 2024 same-sex civil partnership law opposed by the Orthodox Church). Some church leaders have compromised while others maintain traditional positions, partially matching the predicted division."
+    },
+    {
+      "id": 15,
+      "cat": "spirit",
+      "q": "关于最终的灵性复兴",
+      "a": "「在所有这些苦难之后，人们将回归上帝。将会有一场伟大的灵性复兴。东正教信仰将在全世界传播。人们将重新发现祈祷和斋戒的力量。这将是一个信仰的黄金时代。」",
+      "q_en": "On the ultimate spiritual revival",
+      "a_en": "\"After all these tribulations, people will return to God. There will be a great spiritual revival. The Orthodox faith will spread throughout the world. People will rediscover the power of prayer and fasting. It will be a golden age of faith.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    }
+  ]
+}

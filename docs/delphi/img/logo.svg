@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" height="20">
+  <!-- Tripod icon: stylized ancient Greek tripod/cauldron -->
+  <!-- Bowl/cauldron top -->
+  <path d="M6 10 Q14 4 22 10" fill="none" stroke="#b89a30" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Three legs -->
+  <line x1="8" y1="10" x2="5" y2="25" stroke="#8c7420" stroke-width="2" stroke-linecap="round"/>
+  <line x1="14" y1="12" x2="14" y2="25" stroke="#8c7420" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="10" x2="23" y2="25" stroke="#8c7420" stroke-width="2" stroke-linecap="round"/>
+  <!-- Small flame/vapor above bowl -->
+  <path d="M14 8 Q12 5 14 2 Q16 5 14 8" fill="#b89a30"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#8c7420" letter-spacing="0.5">DELPHI</text>
+</svg>

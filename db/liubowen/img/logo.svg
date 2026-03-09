@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 28" height="20">
+  <!-- Stone tablet (碑) motif -->
+  <!-- Tablet body -->
+  <path d="M6,6 L6,25 L22,25 L22,6 L6,6 Z" fill="#8c4a6b" stroke="#6a304e" stroke-width="0.6"/>
+  <!-- Tablet rounded top (stele cap) -->
+  <path d="M6,6 Q6,2 14,2 Q22,2 22,6" fill="#8c4a6b" stroke="#6a304e" stroke-width="0.6"/>
+  <!-- Carved line details on tablet face -->
+  <line x1="9" y1="10" x2="19" y2="10" stroke="#f2eef0" stroke-width="0.8"/>
+  <line x1="9" y1="13.5" x2="19" y2="13.5" stroke="#f2eef0" stroke-width="0.8"/>
+  <line x1="9" y1="17" x2="19" y2="17" stroke="#f2eef0" stroke-width="0.8"/>
+  <line x1="9" y1="20.5" x2="19" y2="20.5" stroke="#f2eef0" stroke-width="0.8"/>
+  <!-- Tablet base -->
+  <rect x="4" y="25" width="20" height="2" rx="0.5" fill="#6a304e"/>
+  <!-- Text: 碑记 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#6a304e" letter-spacing="2">碑记</text>
+</svg>

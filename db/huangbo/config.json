@@ -1,0 +1,99 @@
+{
+  "siteId": "huangbo",
+  "answererName": "黄蘖禅师",
+  "publishDate": "约公元850年",
+  "baseUrl": "https://pre.hilife.me/huangbo",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "黄蘖禅师诗全集 - 唐代预言诗十四首详解与验证 | Huangbo Prophecy Poem",
+      "description": "黄蘖禅师诗是托名唐代高僧黄蘖希运所作的预言诗，共十四首七言绝句，以隐晦的意象预言从明朝至近现代的中国历史大事。本站完整收录十四首原文并进行验证分析。",
+      "keywords": "黄蘖禅师诗,黄檗禅师预言诗,黄蘖希运,预言诗,中国预言",
+      "siteName": "黄蘖禅师诗",
+      "ogTitle": "黄蘖禅师诗全集 - 十四首预言诗详解 | Huangbo Poem",
+      "ogDescription": "托名唐代高僧黄蘖禅师所作的十四首预言诗，以七言绝句预言明清至近现代中国历史。完整收录与验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "黄蘖禅师诗预言验证：明朝覆灭、康熙盛世、太平天国、辛亥革命、抗日战争等。十四首逐一解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Huangbo Chan Master's Prophecy Poem - Complete 14 Verses with Verification | Full Archive",
+      "description": "The Huangbo Prophecy Poem is a collection of 14 seven-character quatrains attributed to the Tang dynasty Chan Buddhist master Huangbo Xiyun. Using cryptic imagery, it purportedly predicts major events in Chinese history from the Ming dynasty to modern times. Full archive with verification.",
+      "keywords": "Huangbo prophecy poem,Huangbo Xiyun,Chinese prophecy,Chan Buddhism,Tang dynasty prophecy",
+      "siteName": "Huangbo Prophecy Poem",
+      "ogTitle": "Huangbo Chan Master's Prophecy Poem - Complete 14 Verses with Verification",
+      "ogDescription": "14 prophetic verses attributed to Tang dynasty Chan master Huangbo Xiyun, predicting Chinese history from Ming dynasty to modern era. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Huangbo's prophecy verified: fall of Ming, Kangxi era, Taiping Rebellion, Xinhai Revolution, WWII and more. 14 verses analyzed."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "黄蘖禅师诗",
+      "alternateName": "Huangbo Prophecy Poem",
+      "url": "https://pre.hilife.me/huangbo/",
+      "description": "托名唐代高僧黄蘖禅师所作的十四首预言诗完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "黄蘖禅师诗是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "黄蘖禅师诗是一组共十四首的七言预言诗，托名唐代禅宗高僧黄蘖希运所作。诗以隐晦的意象和谐音字谜，预言从明朝灭亡到近现代的中国历史大事。该诗被列为中国古代七大预言之一，但学术界对其真实作者和成书年代存在较大争议，部分学者认为实际成文于清末民初。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "黄蘖禅师诗的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "前十一首被认为与明清至民国时期的历史事件有较高吻合度，包括明朝覆灭、康雍乾盛世、太平天国、辛亥革命等。但由于该诗可能成文于清末民初，前期的「准确」可能是事后追述而非真正预言。进入民国后的预言准确度明显下降。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the Huangbo Prophecy Poem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Huangbo Prophecy Poem is a collection of 14 seven-character quatrains attributed to the Tang dynasty Chan Buddhist master Huangbo Xiyun (circa 9th century). Using cryptic imagery, homophones, and character puzzles, the poems purportedly predict major events in Chinese history from the fall of the Ming dynasty to modern times. It is listed among China's seven great ancient prophecies, though scholars debate its true authorship and date of composition, with many believing it was actually written in the late Qing or early Republican period."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0e6",
+    "white": "#fff",
+    "text": "#2a2818",
+    "text2": "#78744e",
+    "textLight": "#646040",
+    "primary": "#8c7a2e",
+    "primaryDark": "#6a5a18",
+    "primaryBg": "#f8f5e6",
+    "link": "#8c7a2e",
+    "border": "#dcd8c4",
+    "border2": "#c0baa0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eeeadc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "黄蘖禅师诗 Huangbo Poem"
+  },
+  "footer": {
+    "sourceUrl": "https://baike.baidu.com/item/%E9%BB%84%E6%AB%B1%E7%A6%85%E5%B8%88%E8%AF%97/18448808",
+    "sourceLabel": "百度百科"
+  }
+}

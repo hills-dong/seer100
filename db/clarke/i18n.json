@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "克拉克预言",
+    "siteSubtitle": "英国科幻作家与未来学家（1917-2008）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "阿瑟·C·克拉克是谁？",
+    "homeIntro1": "阿瑟·查尔斯·克拉克爵士（Sir Arthur Charles Clarke，1917年12月16日—2008年3月19日），英国科幻作家、科学家和未来学家。他与艾萨克·阿西莫夫、罗伯特·海因莱因并称为「科幻三巨头」。代表作包括《2001太空漫游》《与拉玛相会》《童年的终结》等。",
+    "homeIntro2": "克拉克不仅是杰出的小说家，更是一位极具远见的技术预言家。1945年，他在《无线电世界》杂志发表论文，首次提出利用地球同步轨道卫星建立全球通信网络的构想——这一预言在20年后变为现实，地球同步轨道因此被称为「克拉克轨道」。",
+    "homeIntro3": "克拉克的预言以科学素养为基础，涵盖通信技术、互联网、人工智能、太空探索等诸多领域。他的许多设想已被后来的技术发展所印证。本站收录了他最具影响力的17条技术预言，并对已到期的预言进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「任何足够先进的技术，都与魔法无异。」——克拉克第三定律",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1945年 —— 发表论文提出地球同步通信卫星构想",
+      "1962年 —— 出版《未来的轮廓》，系统预测21世纪技术",
+      "1968年 —— 《2001太空漫游》上映，展示平板电脑和AI概念",
+      "1976年 —— 提出太空电梯概念的详细工程方案",
+      "1999年 —— 接受采访，预测21世纪初互联网和远程办公的普及"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自克拉克已出版著作与论文，包括1945年发表于《无线电世界》的论文（<a href=\"https://lakdiva.org/clarke/1945ww/1945ww_oct_305-308.html\" target=\"_blank\" rel=\"noopener\">原文</a>）、《未来的轮廓》(1962)、《2001太空漫游》(1968)等",
+      "1999年AT&T采访视频可于YouTube查看（<a href=\"https://www.youtube.com/watch?v=UOePnBfbJ08\" target=\"_blank\" rel=\"noopener\">YouTube</a>）",
+      "验证评价基于公开新闻报道、技术发展史和统计数据",
+      "编者观点不代表学术定论",
+      "站点图标采用卫星轨道环——克拉克最著名的预言是地球同步通信卫星，地球同步轨道也因此被称为「克拉克轨道」"
+    ]
+  },
+  "en": {
+    "siteTitle": "Clarke Predictions",
+    "siteSubtitle": "British Sci-Fi Author & Futurist (1917-2008)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Arthur C. Clarke?",
+    "homeIntro1": "Sir Arthur Charles Clarke (December 16, 1917 – March 19, 2008) was a British science fiction writer, scientist, and futurist. Along with Isaac Asimov and Robert A. Heinlein, he is regarded as one of the 'Big Three' of science fiction. His notable works include 2001: A Space Odyssey, Rendezvous with Rama, and Childhood's End.",
+    "homeIntro2": "Clarke was not only an outstanding novelist but also a remarkably prescient technology forecaster. In 1945, he published a paper in Wireless World magazine proposing the use of geostationary orbit satellites for global communications — a vision that became reality 20 years later. The geostationary orbit is now known as the 'Clarke Orbit' in his honor.",
+    "homeIntro3": "Clarke's predictions were grounded in scientific literacy, spanning communications, the internet, artificial intelligence, and space exploration. Many of his ideas have been vindicated by subsequent technological developments. This site archives 17 of his most influential technology predictions and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Any sufficiently advanced technology is indistinguishable from magic.\" — Clarke's Third Law",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1945 —— Published paper proposing geostationary communication satellites",
+      "1962 —— Published Profiles of the Future, systematically predicting 21st-century technology",
+      "1968 —— 2001: A Space Odyssey released, depicting tablet computers and AI",
+      "1976 —— Proposed detailed engineering concept for space elevator",
+      "1999 —— Interview predicting internet and telecommuting in the early 21st century"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions compiled from Clarke's published works and papers, including his 1945 Wireless World paper (<a href=\"https://lakdiva.org/clarke/1945ww/1945ww_oct_305-308.html\" target=\"_blank\" rel=\"noopener\">original text</a>), Profiles of the Future (1962), 2001: A Space Odyssey (1968), and others",
+      "1999 AT&T interview available on YouTube (<a href=\"https://www.youtube.com/watch?v=UOePnBfbJ08\" target=\"_blank\" rel=\"noopener\">YouTube</a>)",
+      "Verification based on public news reports, technology history, and statistical data",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: satellite orbit ring — Clarke's most famous prediction is the geostationary communication satellite; the geostationary orbit is named the 'Clarke Orbit' in his honor"
+    ]
+  }
+}

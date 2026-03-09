@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "威廉·米勒预言",
+    "siteSubtitle": "美国浸信会末日预言家（1782-1849）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "威廉·米勒是谁？",
+    "homeIntro1": "威廉·米勒（William Miller，1782年2月15日—1849年12月20日），美国浸信会平信徒传道人，19世纪美国最具影响力的末日预言家之一。他曾参加1812年战争，退役后成为自耕农，此间深入研读《圣经》长达十余年，最终于1831年公开宣布他的发现。",
+    "homeIntro2": "米勒基于《但以理书》8:14「到二千三百日，圣所就必洁净」的经文，将「2300日」解释为2300年，以公元前457年为起算点，推算出基督将于1843年复临地球。他的解经方法在当时引起巨大轰动，追随者一度达到5万至10万人，被称为「米勒运动」（Millerism）。",
+    "homeIntro3": "1844年10月22日，被追随者锁定为基督复临的最终日期，当日过后一切如常，数万信徒陷入绝望。这一事件被称为「大失望」（The Great Disappointment），是美国宗教史上最著名的预言落空事件。但米勒运动并未就此消亡，其残余信徒重新解释预言，最终催生了基督复临安息日会等多个教派。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「我相信，基督将在约1843年前后第二次降临地球，届时他将在荣耀中洁净、净化和占有这个世界。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1816年 —— 米勒开始系统研读《圣经》，逐字逐节对照注释",
+      "1818年 —— 初步得出「约1843年基督复临」的计算结论",
+      "1831年 —— 在纽约州德累斯顿首次公开布道，宣讲末日临近",
+      "1840年 —— 奥斯曼帝国预言应验，米勒运动声势大涨",
+      "1843年3月21日—1844年3月21日 —— 米勒预言的基督复临时间窗口",
+      "1844年10月22日 —— 「大失望」：最终日期过后，预言彻底落空"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自米勒本人著作及米勒运动历史文献（<a href=\"https://en.wikipedia.org/wiki/William_Miller_(preacher)\" target=\"_blank\" rel=\"noopener\">Wikipedia: William Miller</a>）",
+      "大失望事件参考（<a href=\"https://en.wikipedia.org/wiki/Great_Disappointment\" target=\"_blank\" rel=\"noopener\">Wikipedia: Great Disappointment</a>）",
+      "米勒运动历史参考（<a href=\"https://en.wikipedia.org/wiki/Millerism\" target=\"_blank\" rel=\"noopener\">Wikipedia: Millerism</a>）",
+      "验证评价基于历史记录和学术研究",
+      "站点图标采用翻开的书本与沙漏组合——象征米勒毕生钻研《圣经》经文以推算末日时间的核心行为"
+    ]
+  },
+  "en": {
+    "siteTitle": "William Miller Prophecies",
+    "siteSubtitle": "American Baptist End-Times Preacher (1782-1849)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is William Miller?",
+    "homeIntro1": "William Miller (February 15, 1782 – December 20, 1849) was an American Baptist lay preacher and one of the most influential apocalyptic prophets in 19th-century America. A War of 1812 veteran turned farmer, he spent over a decade intensively studying the Bible before publicly announcing his findings in 1831.",
+    "homeIntro2": "Miller based his calculations on Daniel 8:14 — 'Unto two thousand and three hundred days; then shall the sanctuary be cleansed.' Interpreting the '2,300 days' as 2,300 years and starting from 457 BC, he calculated that Christ would return to Earth around 1843. His method of biblical interpretation caused a sensation, attracting 50,000 to 100,000 followers in what became known as the Millerite movement.",
+    "homeIntro3": "October 22, 1844, was fixed by his followers as the definitive date of Christ's return. When the day passed without incident, tens of thousands of believers were plunged into despair. This event, known as 'The Great Disappointment,' remains the most famous prophetic failure in American religious history. Yet the movement did not die — remnant believers reinterpreted the prophecy, eventually giving rise to the Seventh-day Adventist Church and other denominations.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"I believe that the second coming of Jesus Christ is near, even at the door, even within twenty-one years — on or before 1843.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1816 —— Miller begins systematic Bible study, comparing scripture verse by verse",
+      "1818 —— Arrives at preliminary conclusion: Christ will return around 1843",
+      "1831 —— First public sermon in Dresden, New York, preaching the imminent end",
+      "1840 —— Ottoman Empire prophecy appears fulfilled, Millerite movement surges",
+      "March 21, 1843 – March 21, 1844 —— Miller's predicted window for Christ's return",
+      "October 22, 1844 —— 'The Great Disappointment': final date passes, prophecy fails"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled from Miller's own writings and Millerite movement historical literature (<a href=\"https://en.wikipedia.org/wiki/William_Miller_(preacher)\" target=\"_blank\" rel=\"noopener\">Wikipedia: William Miller</a>)",
+      "Great Disappointment reference (<a href=\"https://en.wikipedia.org/wiki/Great_Disappointment\" target=\"_blank\" rel=\"noopener\">Wikipedia: Great Disappointment</a>)",
+      "Millerite movement reference (<a href=\"https://en.wikipedia.org/wiki/Millerism\" target=\"_blank\" rel=\"noopener\">Wikipedia: Millerism</a>)",
+      "Verification based on historical records and academic research",
+      "Site icon: open book with hourglass — symbolizing Miller's lifelong pursuit of calculating the end times through intensive Bible study"
+    ]
+  }
+}

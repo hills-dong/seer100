@@ -1,0 +1,69 @@
+{
+  "siteId": "shipton",
+  "answererName": "Mother Shipton",
+  "publishDate": "约1530年",
+  "baseUrl": "https://pre.hilife.me/shipton",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "希普顿修女预言全集 - 英格兰女预言家的14条预言与验证 | Mother Shipton Prophecies",
+      "description": "英格兰女预言家希普顿修女（约1488-1561）的预言完整收录，涵盖伦敦大火、西班牙无敌舰队、铁船、无马马车、电报通信等，并标注1862年查尔斯·辛德利伪造争议。",
+      "keywords": "希普顿修女,Mother Shipton,英国预言家,伦敦大火预言,无敌舰队,铁船预言,辛德利伪造,约克郡预言家,乌苏拉·索泰尔",
+      "siteName": "希普顿修女预言",
+      "ogTitle": "希普顿修女预言全集 | Mother Shipton Prophecies",
+      "ogDescription": "英格兰女预言家希普顿修女的预言完整收录与验证分析，包含伪造争议标注。",
+      "locale": "zh_CN",
+      "twitterDescription": "14条希普顿修女的预言，含真实度验证与伪造争议分析。伦敦大火、无敌舰队、铁船等经典预言。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Mother Shipton Prophecies - 14 Predictions from Yorkshire's Prophetess (c.1488-1561) | Full Archive & Verification",
+      "description": "Mother Shipton (c.1488-1561), born Ursula Southeil in Knaresborough, Yorkshire. Her prophecies include the Great Fire of London, the Spanish Armada, iron ships, horseless carriages, and more. Includes analysis of the 1862 Charles Hindley forgery controversy.",
+      "keywords": "Mother Shipton,Mother Shipton prophecies,Ursula Southeil,Knaresborough,Yorkshire prophetess,Great Fire of London,Spanish Armada,Charles Hindley forgery,iron ships prophecy",
+      "siteName": "Mother Shipton Prophecies",
+      "ogTitle": "Mother Shipton Prophecies - Yorkshire's Legendary Prophetess",
+      "ogDescription": "14 prophecies from Mother Shipton (c.1488-1561), with verification and forgery analysis. Includes the Great Fire of London, Spanish Armada, and technological predictions.",
+      "locale": "en_US",
+      "twitterDescription": "14 predictions from Mother Shipton, England's legendary prophetess. Verified against history, with forgery controversy noted."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "希普顿修女预言",
+      "alternateName": "Mother Shipton Prophecies",
+      "url": "https://pre.hilife.me/shipton/",
+      "description": "英格兰女预言家希普顿修女的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eee8",
+    "white": "#fff",
+    "text": "#24221a",
+    "text2": "#706a58",
+    "textLight": "#5c5642",
+    "primary": "#6a6040",
+    "primaryDark": "#4e4628",
+    "primaryBg": "#f4f2e8",
+    "link": "#6a6040",
+    "border": "#d6d0c0",
+    "border2": "#b8b4a0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#ece6da"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Mother Shipton Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mother_Shipton",
+    "sourceLabel": "Wikipedia"
+  }
+}

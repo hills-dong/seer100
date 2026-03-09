@@ -1,0 +1,62 @@
+{
+  "zh": {
+    "siteTitle": "QAnon预言",
+    "siteSubtitle": "匿名者Q的预测与验证（2017-2021）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "QAnon 是什么？",
+    "homeIntro1": "QAnon 是一场起源于美国的政治阴谋论运动。2017年10月28日，一个自称「Q」的匿名用户在4chan论坛的/pol/板块发帖，声称自己是美国政府中拥有最高机密权限（Q级）的内部人士，掌握一个涉及全球精英阶层的秘密计划的详情。",
+    "homeIntro2": "Q在2017年至2022年间共发布了约4,950条帖子（被称为「Q drops」），从4chan转移至8chan（后更名为8kun）。这些帖子以隐晦的暗示、反问和口号为特征，声称美国前总统特朗普正在秘密打击一个由政界、商界和媒体精英组成的「深层政府」犯罪网络。",
+    "homeIntro3": "QAnon运动在2020年美国大选期间达到顶峰，并与2021年1月6日美国国会大厦事件密切相关。运动中提出了大量具体预测，包括大规模逮捕、军事法庭和「风暴」事件等，但绝大多数均未应验。本站以学术中立态度整理了其中可验证的核心预测，并逐条进行事实核查。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「风暴即将来临。」——Q（2017年10月）",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "2017年10月 —— Q在4chan首次发帖，声称希拉里·克林顿即将被捕",
+      "2018年 —— Q转移至8chan平台，追随者社群迅速壮大",
+      "2019年 —— FBI将QAnon列为国内恐怖主义威胁",
+      "2020年 —— 运动在大选期间达到顶峰，多名QAnon支持者竞选国会议员",
+      "2021年1月6日 —— 美国国会大厦遭冲击，多名参与者与QAnon有关",
+      "2022年11月 —— Q在沉寂一年多后发布最后几条帖子"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "Q drops 原文存档于多个公开数据库（<a href=\"https://web.archive.org/web/2021/https://qalerts.app/\" target=\"_blank\" rel=\"noopener\">QAlerts 存档</a>）",
+      "背景信息参考维基百科（<a href=\"https://en.wikipedia.org/wiki/QAnon\" target=\"_blank\" rel=\"noopener\">Wikipedia: QAnon</a>）及学术研究",
+      "事实核查参考主流新闻媒体报道、司法文件及政府公开记录",
+      "FBI 2019年将QAnon列为国内恐怖主义威胁的备忘录（<a href=\"https://web.archive.org/web/2019/https://www.fbi.gov/\" target=\"_blank\" rel=\"noopener\">FBI</a>）",
+      "编者观点不代表学术定论，本站以事实核查为目的，不为任何阴谋论背书",
+      "站点图标采用字母Q符号——Q是该匿名发帖者的自称代号，也是整个运动最广为人知的视觉标志"
+    ]
+  },
+  "en": {
+    "siteTitle": "QAnon Predictions",
+    "siteSubtitle": "Fact-Checking Q's Claims (2017-2021)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "What is QAnon?",
+    "homeIntro1": "QAnon is an American political conspiracy theory movement. On October 28, 2017, an anonymous user calling themselves 'Q' posted on 4chan's /pol/ board, claiming to be a U.S. government insider with Q-level security clearance who had knowledge of a secret plan involving global elites.",
+    "homeIntro2": "Between 2017 and 2022, Q published approximately 4,950 posts (known as 'Q drops'), initially on 4chan and later on 8chan (renamed 8kun). These posts were characterized by cryptic hints, rhetorical questions, and slogans, claiming that former President Trump was secretly fighting a 'deep state' criminal network of political, business, and media elites.",
+    "homeIntro3": "The QAnon movement peaked during the 2020 U.S. presidential election and was closely linked to the January 6, 2021 Capitol breach. The movement made numerous specific predictions, including mass arrests, military tribunals, and 'The Storm' — the vast majority of which never materialized. This site compiles the verifiable core predictions in an academically neutral manner and fact-checks each one.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"The Storm is coming.\" — Q (October 2017)",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "October 2017 —— Q's first post on 4chan, claiming Hillary Clinton's arrest was imminent",
+      "2018 —— Q migrates to 8chan; follower community grows rapidly",
+      "2019 —— FBI classifies QAnon as a domestic terrorism threat",
+      "2020 —— Movement peaks during the election; multiple QAnon supporters run for Congress",
+      "January 6, 2021 —— U.S. Capitol breach; multiple participants linked to QAnon",
+      "November 2022 —— Q posts final drops after over a year of silence"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Q drops archived on public databases (<a href=\"https://web.archive.org/web/2021/https://qalerts.app/\" target=\"_blank\" rel=\"noopener\">QAlerts Archive</a>)",
+      "Background from Wikipedia (<a href=\"https://en.wikipedia.org/wiki/QAnon\" target=\"_blank\" rel=\"noopener\">Wikipedia: QAnon</a>) and academic research",
+      "Fact-checks based on mainstream news reports, court documents, and public government records",
+      "FBI 2019 memo classifying QAnon as domestic terrorism threat (<a href=\"https://web.archive.org/web/2019/https://www.fbi.gov/\" target=\"_blank\" rel=\"noopener\">FBI</a>)",
+      "Editorial opinions do not represent academic consensus; this site aims to fact-check, not endorse any conspiracy theory",
+      "Site icon: letter Q — the self-chosen alias of the anonymous poster and the movement's most recognizable visual symbol"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "siteId": "ezekiel",
+  "answererName": "Ezekiel",
+  "publishDate": "约公元前590年",
+  "baseUrl": "https://pre.hilife.me/ezekiel",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "以西结异象全集 - 旧约先知以西结的预言与验证 | Ezekiel's Visions",
+      "description": "旧约先知以西结在巴比伦流亡期间所见异象完整收录，涵盖宝座战车（Merkabah）、枯骨复生、歌革与玛各之战、新圣殿异象、耶路撒冷陷落、列国审判等预言，附历史验证分析。",
+      "keywords": "以西结,以西结书,旧约预言,圣经预言,Merkabah,宝座战车,枯骨复生,歌革玛各,新圣殿,耶路撒冷陷落,先知以西结",
+      "siteName": "以西结异象",
+      "ogTitle": "以西结异象全集 | Ezekiel's Visions",
+      "ogDescription": "旧约先知以西结在巴比伦流亡期间的预言异象完整收录，涵盖宝座战车、枯骨复生、歌革与玛各之战、新圣殿等，附历史验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "以西结书预言全集：宝座战车异象、枯骨复生、歌革与玛各之战、新圣殿蓝图，附历史验证分析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Ezekiel's Visions - Old Testament Prophecies from the Exiled Priest | Full Archive & Verification",
+      "description": "Complete collection of visions from the Old Testament prophet Ezekiel, written during the Babylonian exile (~590 BC). Covers the Merkabah throne-chariot, valley of dry bones, Gog and Magog, the new Temple, fall of Jerusalem, and judgments on nations.",
+      "keywords": "Ezekiel,Book of Ezekiel,Old Testament prophecy,Bible prophecy,Merkabah,throne chariot,dry bones,Gog Magog,new Temple,fall of Jerusalem,prophet Ezekiel",
+      "siteName": "Ezekiel's Visions",
+      "ogTitle": "Ezekiel's Visions - Old Testament Prophecies from the Exiled Priest",
+      "ogDescription": "Complete collection of the prophet Ezekiel's visions from the Babylonian exile. Includes the Merkabah, valley of dry bones, Gog and Magog, the new Temple, and historical verification.",
+      "locale": "en_US",
+      "twitterDescription": "Ezekiel's prophecies: the throne-chariot vision, valley of dry bones, Gog and Magog war, new Temple blueprint, with historical verification."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "以西结异象",
+      "alternateName": "Ezekiel's Visions",
+      "url": "https://pre.hilife.me/ezekiel/",
+      "description": "旧约先知以西结在巴比伦流亡期间所见异象完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eee8",
+    "white": "#fff",
+    "text": "#282418",
+    "text2": "#746a58",
+    "textLight": "#605644",
+    "primary": "#6a4a3a",
+    "primaryDark": "#4e3024",
+    "primaryBg": "#f6f0ea",
+    "link": "#6a4a3a",
+    "border": "#d8d0c4",
+    "border2": "#bab0a0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eee6dc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Ezekiel's Visions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Book_of_Ezekiel",
+    "sourceLabel": "Wikipedia"
+  }
+}

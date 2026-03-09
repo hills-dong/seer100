@@ -1,0 +1,69 @@
+{
+  "siteId": "musk",
+  "answererName": "Elon Musk",
+  "publishDate": "2002-2024",
+  "baseUrl": "https://pre.hilife.me/musk",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "埃隆·马斯克预言全集 - 科技狂人对人类未来的17条预测与验证 | Elon Musk Predictions",
+      "description": "特斯拉、SpaceX、xAI CEO 埃隆·马斯克关于火星殖民、全自动驾驶、AI 风险、脑机接口、人形机器人等领域的17条公开预测，附真实度验证。许多预测已错过原定时间表。",
+      "keywords": "马斯克预言,Elon Musk predictions,火星殖民,全自动驾驶,AI风险,Neuralink,特斯拉,SpaceX,马斯克预测验证",
+      "siteName": "马斯克预言",
+      "ogTitle": "埃隆·马斯克预言全集 | Elon Musk Predictions",
+      "ogDescription": "特斯拉、SpaceX CEO 马斯克关于火星殖民、全自动驾驶、AI 风险等17条预测的完整收录与验证。",
+      "locale": "zh_CN",
+      "twitterDescription": "马斯克17条公开预测全集：火星殖民、全自动驾驶、AI 风险、Neuralink 脑机接口等，附真实度验证。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Elon Musk Predictions - 17 Bold Forecasts from the Tech Visionary | Full Archive & Verification",
+      "description": "Elon Musk's 17 public predictions on Mars colonization, full self-driving, AI existential risk, Neuralink, humanoid robots, and more. Many have missed their original deadlines. Full verification included.",
+      "keywords": "Elon Musk predictions,Mars colony,full self-driving,AI risk,Neuralink,Tesla,SpaceX,Musk forecast,tech predictions verified",
+      "siteName": "Elon Musk Predictions",
+      "ogTitle": "Elon Musk Predictions - Bold Forecasts from the Tech Visionary",
+      "ogDescription": "17 public predictions from Elon Musk on Mars, AI, self-driving, Neuralink, and more. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "17 bold predictions from Elon Musk: Mars colony, full self-driving, AI risk, Neuralink. How many came true? Full verification."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "马斯克预言",
+      "alternateName": "Elon Musk Predictions",
+      "url": "https://pre.hilife.me/musk/",
+      "description": "埃隆·马斯克关于人类未来的公开预测完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f2f4",
+    "white": "#fff",
+    "text": "#1e2430",
+    "text2": "#686e7a",
+    "textLight": "#565c68",
+    "primary": "#8c5070",
+    "primaryDark": "#6a3450",
+    "primaryBg": "#f4eaf0",
+    "link": "#8c5070",
+    "border": "#dcdee4",
+    "border2": "#bec2ca",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eaeaee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Elon Musk Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "siteId": "paisios",
+  "answererName": "Elder Paisios",
+  "publishDate": "约1970-1994",
+  "baseUrl": "https://pre.hilife.me/paisios",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "帕伊西奥斯长老预言全集 - 阿索斯山圣僧的15条预言与验证 | Elder Paisios Prophecies",
+      "description": "希腊东正教圣僧帕伊西奥斯长老（1924-1994）留下的15条预言完整收录，涵盖土耳其与君士坦丁堡、俄土战争、欧盟命运、电子身份证与兽印、末世征兆与灵性衰退等领域。2015年被封圣，是现代希腊最受尊敬的圣徒。",
+      "keywords": "帕伊西奥斯长老,帕伊西奥斯预言,阿索斯山,希腊圣僧,君士坦丁堡,Elder Paisios,预言,东正教,圣山预言",
+      "siteName": "帕伊西奥斯长老预言",
+      "ogTitle": "帕伊西奥斯长老预言全集 | Elder Paisios Prophecies",
+      "ogDescription": "希腊东正教圣僧帕伊西奥斯长老留下的15条预言完整收录与验证分析。涵盖地缘政治、宗教与灵性等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "阿索斯山圣僧帕伊西奥斯长老的15条预言，含验证分析。涉及土耳其命运、君士坦丁堡回归、末世征兆等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Elder Paisios Prophecies - 15 Predictions from the Saint of Mount Athos (1924-1994) | Full Archive & Verification",
+      "description": "Elder Paisios of Mount Athos (1924-1994), canonized Greek Orthodox saint, left 15 prophecies about Turkey, Constantinople, Russia, European Union, electronic ID marks, and signs of the end times. Complete archive with verification.",
+      "keywords": "Elder Paisios,Paisios prophecies,Mount Athos,Greek Orthodox saint,Constantinople prophecy,Turkey prophecy,end times,Orthodox prophecy",
+      "siteName": "Elder Paisios Prophecies",
+      "ogTitle": "Elder Paisios Prophecies - The Saint of Mount Athos",
+      "ogDescription": "15 prophecies from Elder Paisios of Mount Athos (1924-1994), canonized Orthodox saint. Complete archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "15 predictions from Elder Paisios, the canonized Greek Orthodox saint of Mount Athos. Topics include Turkey, Constantinople, and end times signs."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "帕伊西奥斯长老预言",
+      "alternateName": "Elder Paisios Prophecies",
+      "url": "https://pre.hilife.me/paisios/",
+      "description": "希腊东正教圣僧帕伊西奥斯长老留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0ea",
+    "white": "#fff",
+    "text": "#1e221a",
+    "text2": "#607858",
+    "textLight": "#4e6244",
+    "primary": "#506a3a",
+    "primaryDark": "#364e22",
+    "primaryBg": "#eaf4e6",
+    "link": "#506a3a",
+    "border": "#c8d8c0",
+    "border2": "#a8bca0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e2ece0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Elder Paisios Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Paisios_of_Mount_Athos",
+    "sourceLabel": "Wikipedia"
+  }
+}

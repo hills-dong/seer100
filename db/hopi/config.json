@@ -1,0 +1,69 @@
+{
+  "siteId": "hopi",
+  "answererName": "Hopi Elders",
+  "publishDate": "口传传统，约公元前1000年起",
+  "baseUrl": "https://pre.hilife.me/hopi",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "霍比预言全集 - 美洲原住民霍比族九大征兆与大净化预言 | Hopi Prophecy",
+      "description": "美国亚利桑那州霍比族长老口传的预言传统，包含九大征兆、蓝星卡奇纳、预言石刻、大净化等预言，记录于 Frank Waters《霍比之书》(1963) 及 Thomas Banyacya 1992年联合国演讲。",
+      "keywords": "霍比预言,Hopi Prophecy,九大征兆,蓝星卡奇纳,大净化,预言石刻,霍比族,美洲原住民预言,Thomas Banyacya,Frank Waters",
+      "siteName": "霍比预言",
+      "ogTitle": "霍比预言全集 | Hopi Prophecy",
+      "ogDescription": "美洲原住民霍比族长老口传的预言传统完整收录与验证。九大征兆、蓝星卡奇纳、大净化、预言石刻双路解读。",
+      "locale": "zh_CN",
+      "twitterDescription": "霍比族长老口传的古老预言：九大征兆、蓝星卡奇纳、大净化。多项征兆已在现代社会应验。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Hopi Prophecy Archive - Nine Signs, Blue Star Kachina & the Great Purification | Full Collection",
+      "description": "Ancient oral prophecies of the Hopi people of Arizona, including the Nine Signs before the Great Purification, the Blue Star Kachina, Prophecy Rock, and the Two Paths. Documented by Frank Waters (1963) and presented to the UN by Thomas Banyacya (1992).",
+      "keywords": "Hopi Prophecy,Nine Signs,Blue Star Kachina,Great Purification,Prophecy Rock,Hopi elders,Native American prophecy,Thomas Banyacya,Frank Waters,Book of the Hopi",
+      "siteName": "Hopi Prophecy",
+      "ogTitle": "Hopi Prophecy Archive - Complete Collection & Verification",
+      "ogDescription": "Ancient oral prophecies of the Hopi people: Nine Signs, Blue Star Kachina, Great Purification, and Prophecy Rock. Many signs have been fulfilled in modern times.",
+      "locale": "en_US",
+      "twitterDescription": "Ancient Hopi prophecies: Nine Signs before the Great Purification, Blue Star Kachina, Prophecy Rock. Multiple signs already fulfilled."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "霍比预言",
+      "alternateName": "Hopi Prophecy",
+      "url": "https://pre.hilife.me/hopi/",
+      "description": "美洲原住民霍比族长老口传的预言传统完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f0e6",
+    "white": "#fff",
+    "text": "#2e2818",
+    "text2": "#7a6e54",
+    "textLight": "#645838",
+    "primary": "#b06830",
+    "primaryDark": "#8a4c18",
+    "primaryBg": "#faf2e6",
+    "link": "#b06830",
+    "border": "#ddd4be",
+    "border2": "#c0b498",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0e8d8"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Hopi Prophecy"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hopi_prophecy",
+    "sourceLabel": "Wikipedia"
+  }
+}

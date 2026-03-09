@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 28" height="20">
+  <!-- Vajra/Dorje icon - simplified symmetrical form -->
+  <!-- Central hub -->
+  <circle cx="14" cy="14" r="3.5" fill="#8c3a30"/>
+  <!-- Top prong -->
+  <path d="M14 2 L16.5 10 L14 8.5 L11.5 10 Z" fill="#6a2218"/>
+  <!-- Bottom prong -->
+  <path d="M14 26 L16.5 18 L14 19.5 L11.5 18 Z" fill="#6a2218"/>
+  <!-- Left prong -->
+  <path d="M2 14 L10 11.5 L8.5 14 L10 16.5 Z" fill="#6a2218"/>
+  <!-- Right prong -->
+  <path d="M26 14 L18 11.5 L19.5 14 L18 16.5 Z" fill="#6a2218"/>
+  <!-- Inner ring -->
+  <circle cx="14" cy="14" r="6" fill="none" stroke="#8c3a30" stroke-width="1.2"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#6a2218" letter-spacing="2">藏传预言</text>
+</svg>

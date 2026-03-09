@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" height="20">
+  <!-- Microphone icon -->
+  <rect x="10" y="3" width="8" height="13" rx="4" fill="#8c4040"/>
+  <path d="M7 13 L7 16 Q7 22 14 22 Q21 22 21 16 L21 13" fill="none" stroke="#8c4040" stroke-width="2" stroke-linecap="round"/>
+  <line x1="14" y1="22" x2="14" y2="26" stroke="#6a2828" stroke-width="2" stroke-linecap="round"/>
+  <line x1="10" y1="26" x2="18" y2="26" stroke="#6a2828" stroke-width="2" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#6a2828" letter-spacing="0.5">K. CLEMENT</text>
+</svg>

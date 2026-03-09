@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 28" height="20">
+  <!-- Orthodox three-bar cross -->
+  <!-- Top short bar -->
+  <rect x="10" y="3" width="8" height="2" rx="0.5" fill="#5c5228"/>
+  <!-- Middle long bar (main crossbar) -->
+  <rect x="7" y="8" width="14" height="2" rx="0.5" fill="#5c5228"/>
+  <!-- Vertical bar -->
+  <rect x="12.5" y="1" width="3" height="25" rx="0.8" fill="#7a7040"/>
+  <!-- Bottom slanted bar -->
+  <line x1="8" y1="20" x2="20" y2="16" stroke="#5c5228" stroke-width="2" stroke-linecap="round"/>
+  <!-- Redraw top and middle bars over vertical -->
+  <rect x="10" y="3" width="8" height="2" rx="0.5" fill="#5c5228"/>
+  <rect x="7" y="8" width="14" height="2" rx="0.5" fill="#5c5228"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#5c5228" letter-spacing="0.5">ATHOS</text>
+</svg>

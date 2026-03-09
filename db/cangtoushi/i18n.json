@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "藏头诗预言",
+    "siteSubtitle": "唐代·李淳风",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "藏头诗是什么？",
+    "homeIntro1": "《藏头诗》相传为唐朝贞观年间（约公元7世纪），唐太宗李世民召太史令李淳风问国运之作。唐太宗问：「朕之天下，今稍定矣。不知何人始丧我国家？」李淳风以隐晦的诗歌和谶语作答，预言了唐朝之后历代王朝的兴亡更替。因预言以隐语「藏头」而不直言，故名「藏头诗」。",
+    "homeIntro2": "全篇采用对话体裁，唐太宗发问、李淳风作答，从唐朝武则天篡权开始，依次预言五代十国、宋、元、明、清等朝代的兴衰大事。每段预言以隐喻和字谜暗指历史人物与事件，如「止戈不离身，两目长在空」暗指「武」「瞾」二字，即武则天。",
+    "homeIntro3": "李淳风同时也是《推背图》的作者之一，两部作品在内容上互有呼应。学术界普遍认为《藏头诗》的成书年代和真伪存在争议，部分学者认为现存版本可能经过后世增补。但作为中国古代预言文化的重要组成部分，它与《推背图》《烧饼歌》并列为广为流传的预言典籍，具有重要的文化研究价值。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「天机不可泄，泄之有殃。」——李淳风答唐太宗",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "武则天篡唐 —— 预言「止戈不离身」暗指武氏篡权",
+      "安史之乱 —— 预言「遇杨而生，逢郭而止」",
+      "宋朝建立 —— 预言「真龙降世」指赵匡胤",
+      "蒙元入侵 —— 预言「一兀之主」暗指元朝",
+      "明朝兴起 —— 预言「日月并行」暗合「明」字",
+      "清朝入关 —— 预言「八旗常在身之主」"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言原文来源于民间流传版本的《藏头诗》，成书年代及真伪学术界尚有争议（<a href=\"https://zh.wikipedia.org/wiki/藏頭詩_(李淳風)\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "藏头诗与《推背图》同传为李淳风所作，两者内容互有呼应（<a href=\"https://baike.baidu.com/item/藏头诗/6267415\" target=\"_blank\" rel=\"noopener\">百度百科</a>）",
+      "验证评价基于历史文献和公开资料，编者观点不代表学术定论",
+      "站点图标采用卷轴藏字纹——「藏头」意为隐语藏于诗首，卷轴象征古代典籍承载预言"
+    ]
+  },
+  "en": {
+    "siteTitle": "Cang Tou Shi Prophecies",
+    "siteSubtitle": "Tang Dynasty · Li Chunfeng",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Cang Tou Shi?",
+    "homeIntro1": "Cang Tou Shi (藏头诗, \"Hidden-Head Poem\") is traditionally attributed to Li Chunfeng, the imperial astronomer of the Tang dynasty (circa 7th century). Emperor Taizong summoned Li Chunfeng and asked: \"My realm is now somewhat settled. Who shall be the first to bring ruin to my dynasty?\" Li Chunfeng responded with cryptic verse and riddles, prophesying the rise and fall of dynasties after the Tang. The name \"Hidden-Head\" refers to its method of concealing prophecies within veiled language.",
+    "homeIntro2": "The entire work takes the form of a dialogue: Emperor Taizong asks questions and Li Chunfeng responds. Beginning with Wu Zetian's usurpation of the Tang, the prophecies proceed through the Five Dynasties, Song, Yuan, Ming, and Qing. Each segment uses metaphors and character puzzles to allude to historical figures and events — for example, \"the weapon never leaves the body, two eyes forever in the sky\" encodes the characters \"Wu\" (武) and \"Zhao\" (曌), referring to Empress Wu Zetian.",
+    "homeIntro3": "Li Chunfeng is also co-author of the Tui Bei Tu (推背图), and the two works echo each other in content. Scholars widely debate the authenticity and date of Cang Tou Shi, with some believing the surviving text was supplemented in later centuries. Nevertheless, as an important part of Chinese prophetic culture, it stands alongside the Tui Bei Tu and Shaobing Song as one of the most widely circulated prophetic texts, holding significant value for cultural research.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Heaven's secrets must not be revealed — to reveal them invites calamity.\" — Li Chunfeng to Emperor Taizong",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Wu Zetian's usurpation —— 'The weapon never leaves the body' alludes to the Wu clan seizing power",
+      "An Lushan Rebellion —— 'Born from Yang, ended by Guo'",
+      "Founding of Song —— 'A true dragon descends' refers to Zhao Kuangyin",
+      "Mongol invasion —— 'A ruler with one-wu' alludes to the Yuan dynasty",
+      "Rise of Ming —— 'Sun and moon march together' encodes the character Ming (明)",
+      "Qing conquest —— 'A ruler with Eight Banners ever present'"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Original text sourced from folk-transmitted versions of Cang Tou Shi; authenticity and date of composition remain debated (<a href=\"https://zh.wikipedia.org/wiki/藏頭詩_(李淳風)\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Cang Tou Shi and Tui Bei Tu are both attributed to Li Chunfeng; the two works echo each other in content (<a href=\"https://baike.baidu.com/item/藏头诗/6267415\" target=\"_blank\" rel=\"noopener\">Baidu Baike</a>)",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "Site icon: scroll with hidden character motif — 'Hidden-Head' means prophecies concealed within verse, and the scroll symbolizes ancient texts carrying prophecy"
+    ]
+  }
+}

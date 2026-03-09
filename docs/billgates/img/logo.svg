@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158 28" height="20">
+  <!-- Window/grid icon: 4-pane window -->
+  <rect x="4" y="4" width="9" height="9" rx="1" fill="#4a7a50"/>
+  <rect x="15" y="4" width="9" height="9" rx="1" fill="#4a7a50"/>
+  <rect x="4" y="15" width="9" height="9" rx="1" fill="#4a7a50"/>
+  <rect x="15" y="15" width="9" height="9" rx="1" fill="#305c36"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#305c36" letter-spacing="0.5">BILL GATES</text>
+</svg>

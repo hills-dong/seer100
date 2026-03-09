@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 28" height="20">
+  <!-- Halley's Comet icon -->
+  <circle cx="16" cy="13" r="4" fill="#b08a20"/>
+  <path d="M12 13 Q6 11 1 14 Q6 13 12 13 Z" fill="#8a6a10"/>
+  <path d="M12 13 Q5 8 0 8 Q5 10 12 13 Z" fill="#b08a20"/>
+  <path d="M12 13 Q7 15 2 19 Q7 16 12 13 Z" fill="#8a6a10"/>
+  <circle cx="16" cy="13" r="2.2" fill="#f4f2ee"/>
+  <circle cx="16" cy="13" r="1" fill="#8a6a10"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#8a6a10" letter-spacing="0.5">MARK TWAIN</text>
+</svg>

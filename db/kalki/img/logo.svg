@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 28" height="20">
+  <!-- Sudarshana Chakra (Vishnu's discus) -->
+  <circle cx="14" cy="14" r="11" fill="none" stroke="#c47a10" stroke-width="2.5"/>
+  <circle cx="14" cy="14" r="6" fill="none" stroke="#9a5a08" stroke-width="1.5"/>
+  <circle cx="14" cy="14" r="2.2" fill="#c47a10"/>
+  <!-- Spokes -->
+  <line x1="14" y1="3" x2="14" y2="8" stroke="#9a5a08" stroke-width="1.2"/>
+  <line x1="14" y1="20" x2="14" y2="25" stroke="#9a5a08" stroke-width="1.2"/>
+  <line x1="3" y1="14" x2="8" y2="14" stroke="#9a5a08" stroke-width="1.2"/>
+  <line x1="20" y1="14" x2="25" y2="14" stroke="#9a5a08" stroke-width="1.2"/>
+  <line x1="6.2" y1="6.2" x2="9.7" y2="9.7" stroke="#9a5a08" stroke-width="1.2"/>
+  <line x1="18.3" y1="18.3" x2="21.8" y2="21.8" stroke="#9a5a08" stroke-width="1.2"/>
+  <line x1="21.8" y1="6.2" x2="18.3" y2="9.7" stroke="#9a5a08" stroke-width="1.2"/>
+  <line x1="6.2" y1="21.8" x2="9.7" y2="18.3" stroke="#9a5a08" stroke-width="1.2"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#9a5a08" letter-spacing="0.5">KALKI</text>
+</svg>

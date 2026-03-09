@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 28" height="20">
+  <!-- Mayan sun glyph: simplified Kinich Ahau motif -->
+  <!-- Outer ring -->
+  <circle cx="14" cy="14" r="12" fill="#6a7a2e"/>
+  <!-- Inner face circle (bg color, no opacity) -->
+  <circle cx="14" cy="14" r="7.5" fill="#f0eee6"/>
+  <!-- Center dot (eye of the sun god) -->
+  <circle cx="14" cy="14" r="2.5" fill="#4e5c18"/>
+  <!-- Four cardinal rays -->
+  <polygon points="14,0 11,5 17,5" fill="#4e5c18"/>
+  <polygon points="14,28 11,23 17,23" fill="#4e5c18"/>
+  <polygon points="0,14 5,11 5,17" fill="#4e5c18"/>
+  <polygon points="28,14 23,11 23,17" fill="#4e5c18"/>
+  <!-- Four diagonal rays (smaller) -->
+  <polygon points="4.4,4.4 7,7.5 8.5,6" fill="#4e5c18"/>
+  <polygon points="23.6,4.4 21,7.5 19.5,6" fill="#4e5c18"/>
+  <polygon points="4.4,23.6 7,20.5 8.5,22" fill="#4e5c18"/>
+  <polygon points="23.6,23.6 21,20.5 19.5,22" fill="#4e5c18"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#4e5c18" letter-spacing="0.5">MAYA</text>
+</svg>

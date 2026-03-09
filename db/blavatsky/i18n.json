@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "布拉瓦茨基预言",
+    "siteSubtitle": "神智学创始人（1831-1891）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "布拉瓦茨基是谁？",
+    "homeIntro1": "海伦娜·彼得罗芙娜·布拉瓦茨基（Helena Petrovna Blavatsky，1831年8月12日—1891年5月8日），俄国神秘学家、灵媒、作家，神智学会（Theosophical Society）联合创始人。她是19世纪最具影响力的神秘主义者之一，其思想深刻影响了新纪元运动和现代灵性传统。",
+    "homeIntro2": "布拉瓦茨基的两部巨著《揭开伊西斯的面纱》（1877）和《秘密教义》（1888）系统阐述了她的宇宙论和人类进化理论。她提出物质由不可见的力量构成、原子可以继续分割等观点，其中一些预见在后来的科学发现中得到了印证。",
+    "homeIntro3": "她的预言涵盖科学发现、文明周期、灵性进化和人类未来等领域。本站整理了她著作和书信中的15条预言性论述，并对已可验证的部分进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「世界没有偶然——只有人类智识尚未理解的法则。物质不过是精神的凝结，而科学终将证明古代智慧所言非虚。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1875年 —— 在纽约创立神智学会，开启现代神秘主义运动",
+      "1877年 —— 出版《揭开伊西斯的面纱》，挑战正统科学与宗教",
+      "1888年 —— 出版《秘密教义》，提出原子可分性等超前观点",
+      "1889年 —— 撰写《沉默的声音》和《神智学钥匙》",
+      "1891年 —— 在伦敦逝世，神智学运动在全球持续扩展"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容整理自布拉瓦茨基原著《秘密教义》和《揭开伊西斯的面纱》（<a href=\"https://www.theosociety.org/pasadena/sd/sd-hp.htm\" target=\"_blank\" rel=\"noopener\">The Secret Doctrine Online</a>）",
+      "部分内容参考布拉瓦茨基书信集和神智学会档案（<a href=\"https://en.wikipedia.org/wiki/Helena_Blavatsky\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开科学文献和历史记录",
+      "编者观点不代表学术定论",
+      "站点图标采用衔尾蛇与交叠三角的简化图案——这是神智学会印章的核心符号，代表永恒循环与精神-物质的统一"
+    ]
+  },
+  "en": {
+    "siteTitle": "Blavatsky Prophecies",
+    "siteSubtitle": "Theosophical Founder (1831-1891)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is Helena Blavatsky?",
+    "homeIntro1": "Helena Petrovna Blavatsky (August 12, 1831 – May 8, 1891) was a Russian mystic, medium, and author who co-founded the Theosophical Society in 1875. She is one of the most influential occultists of the 19th century, whose ideas profoundly shaped the New Age movement and modern spiritual traditions.",
+    "homeIntro2": "Blavatsky's two magnum opuses, 'Isis Unveiled' (1877) and 'The Secret Doctrine' (1888), systematically laid out her cosmology and theory of human evolution. She proposed that matter is composed of invisible forces and that atoms can be further divided — some of these insights were later validated by scientific discoveries.",
+    "homeIntro3": "Her predictions span scientific discoveries, civilization cycles, spiritual evolution, and the future of humanity. This site compiles 15 prophetic statements from her writings and correspondence, with verification assessments for those that can be evaluated.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"There is no chance in the world — only laws not yet understood by human intellect. Matter is but crystallized spirit, and science will ultimately prove that ancient wisdom spoke truth.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1875 —— Founded the Theosophical Society in New York, launching the modern occult movement",
+      "1877 —— Published 'Isis Unveiled', challenging orthodox science and religion",
+      "1888 —— Published 'The Secret Doctrine', proposing atomic divisibility and other prescient ideas",
+      "1889 —— Wrote 'The Voice of the Silence' and 'The Key to Theosophy'",
+      "1891 —— Died in London; the Theosophical movement continued to expand globally"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophecies compiled from Blavatsky's original works 'The Secret Doctrine' and 'Isis Unveiled' (<a href=\"https://www.theosociety.org/pasadena/sd/sd-hp.htm\" target=\"_blank\" rel=\"noopener\">The Secret Doctrine Online</a>)",
+      "Additional content from Blavatsky's collected letters and Theosophical Society archives (<a href=\"https://en.wikipedia.org/wiki/Helena_Blavatsky\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on published scientific literature and historical records",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: ouroboros with interlocked triangles — the core symbol of the Theosophical Society seal, representing eternal cycles and the unity of spirit and matter"
+    ]
+  }
+}

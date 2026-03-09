@@ -1,0 +1,99 @@
+{
+  "siteId": "shedaoren",
+  "answererName": "赊刀人",
+  "publishDate": "约1990年代至今",
+  "baseUrl": "https://pre.hilife.me/shedaoren",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "赊刀人预言全集 - 中国民间神秘预言者的菜刀预言与验证 | Credit Knife Sellers",
+      "description": "赊刀人是中国民间传说中的神秘人物，走街串巷赊卖菜刀，以预言作为收款条件。本站收录广泛流传的赊刀人预言故事，涵盖物价、气候、社会变化等领域，逐条进行验证分析。",
+      "keywords": "赊刀人,赊刀人预言,菜刀预言,中国民间预言,Credit Knife Sellers",
+      "siteName": "赊刀人预言",
+      "ogTitle": "赊刀人预言全集 - 中国民间神秘预言与验证",
+      "ogDescription": "中国民间赊刀人预言完整收录与验证分析。涵盖物价变动、气候异常、社会变迁等领域的神秘预言。",
+      "locale": "zh_CN",
+      "twitterDescription": "赊刀人预言验证：大米涨价、猪肉降价、房价下跌、粮食变化……走街串巷的神秘赊刀人留下的预言，哪些成真了？"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Credit Knife Sellers (赊刀人) - Chinese Folk Prophecies Archive & Verification",
+      "description": "She Dao Ren (Credit Knife Sellers) are mysterious figures in Chinese folklore who sell kitchen knives on credit, leaving prophecies as payment conditions. Full archive with accuracy verification covering prices, climate, and social changes.",
+      "keywords": "She Dao Ren,Credit Knife Sellers,Chinese folk prophecy,赊刀人,kitchen knife prophecy",
+      "siteName": "Credit Knife Sellers Prophecies",
+      "ogTitle": "Credit Knife Sellers - Chinese Folk Prophecies Archive",
+      "ogDescription": "Mysterious Chinese folk prophets who sell knives on credit, leaving predictions as IOUs. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Credit Knife Sellers: mysterious Chinese folk prophets who trade kitchen knives for predictions. Rice prices, housing markets, droughts — which came true?"
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "赊刀人预言",
+      "alternateName": "Credit Knife Sellers Prophecies",
+      "url": "https://pre.hilife.me/shedaoren/",
+      "description": "中国民间赊刀人预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "赊刀人是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "赊刀人是中国民间传说中的一类神秘人物。他们在乡村和城镇走街串巷，赊卖菜刀或剪刀，不收现款，而是留下一个看似不可能实现的预言——当预言成真时回来收钱。这一现象自1990年代起在各地被广泛报道，近年通过社交媒体进一步传播。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "赊刀人的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "赊刀人的预言多涉及物价变动（如大米、猪肉价格），部分预言在多年后看来确实与现实吻合，但也有未应验的案例。由于这些故事多为口耳相传或网络转述，缺乏原始记录，真实性难以独立考证。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are Credit Knife Sellers (赊刀人)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Credit Knife Sellers (She Dao Ren) are mysterious figures in Chinese folklore who travel through villages and towns selling kitchen knives on credit. Instead of collecting payment, they leave behind a seemingly impossible prediction — promising to return for payment when the prophecy comes true. Reported sightings date from the 1990s onward, with stories spreading widely on Chinese social media in recent years."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f2ec",
+    "white": "#fff",
+    "text": "#2c2820",
+    "text2": "#787060",
+    "textLight": "#645c4c",
+    "primary": "#8c4a2e",
+    "primaryDark": "#6a3018",
+    "primaryBg": "#f8ece4",
+    "link": "#8c4a2e",
+    "border": "#e0dcd2",
+    "border2": "#c4c0b2",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eeeae0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "赊刀人 Credit Knife Sellers"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/赊刀人",
+    "sourceLabel": "维基百科"
+  }
+}

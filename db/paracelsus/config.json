@@ -1,0 +1,69 @@
+{
+  "siteId": "paracelsus",
+  "answererName": "Paracelsus",
+  "publishDate": "1531-1538",
+  "baseUrl": "https://pre.hilife.me/paracelsus",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "帕拉塞尔苏斯预言全集 - 炼金术之父的预言与验证 | Paracelsus Prophecies",
+      "description": "瑞士-德意志医师、炼金术士帕拉塞尔苏斯（1493-1541）留下的预言完整收录，涵盖医学革命、文明兴衰、宗教改革等领域。被誉为毒理学之父，其《预言书》对后世影响深远。",
+      "keywords": "帕拉塞尔苏斯,Paracelsus,预言,炼金术,毒理学之父,Prognostications,预言书,霍恩海姆,中世纪预言",
+      "siteName": "帕拉塞尔苏斯预言",
+      "ogTitle": "帕拉塞尔苏斯预言全集 | Paracelsus Prophecies",
+      "ogDescription": "瑞士-德意志医师、炼金术士帕拉塞尔苏斯留下的预言完整收录与验证分析。涵盖医学革命、文明兴衰、宗教改革等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "炼金术之父帕拉塞尔苏斯的预言收录与验证。涵盖医学革命、文明兴衰、宗教改革等领域。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Paracelsus Prophecies - Predictions from the Father of Toxicology (1493-1541) | Full Archive & Verification",
+      "description": "Swiss-German physician, alchemist, and astrologer Paracelsus (1493-1541) left prophetic writings about medicine, alchemy, and the future of civilization. His Prognostications contain predictions spanning centuries. Full archive with verification.",
+      "keywords": "Paracelsus,Paracelsus prophecies,father of toxicology,alchemist,Prognostications,Theophrastus von Hohenheim,Renaissance prophecy,medical prophecy",
+      "siteName": "Paracelsus Prophecies",
+      "ogTitle": "Paracelsus Prophecies - The Alchemist's Complete Predictions",
+      "ogDescription": "Prophetic writings from Paracelsus (1493-1541), Swiss-German physician and alchemist. Full archive with real-world verification covering medicine, civilization, and religion.",
+      "locale": "en_US",
+      "twitterDescription": "Predictions from Paracelsus, the father of toxicology. Prophecies spanning medicine, alchemy, religion, and the future of civilization."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "帕拉塞尔苏斯预言",
+      "alternateName": "Paracelsus Prophecies",
+      "url": "https://pre.hilife.me/paracelsus/",
+      "description": "瑞士-德意志医师、炼金术士帕拉塞尔苏斯留下的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f0e8",
+    "white": "#fff",
+    "text": "#2c2416",
+    "text2": "#7a6e5e",
+    "textLight": "#665a4a",
+    "primary": "#8c6914",
+    "primaryDark": "#6a4e0a",
+    "primaryBg": "#f8f2e4",
+    "link": "#8c6914",
+    "border": "#e2dcd0",
+    "border2": "#c8c0b0",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#f0ece2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Paracelsus Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Paracelsus",
+    "sourceLabel": "Wikipedia"
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" height="20">
+  <!-- Test tube / genetic helix icon -->
+  <!-- Tube body -->
+  <rect x="10" y="4" width="8" height="16" rx="1" fill="none" stroke="#406080" stroke-width="1.8"/>
+  <!-- Rounded bottom -->
+  <path d="M10 18 Q10 24 14 24 Q18 24 18 18" fill="none" stroke="#406080" stroke-width="1.8"/>
+  <!-- Tube rim -->
+  <line x1="8" y1="4" x2="20" y2="4" stroke="#2a4460" stroke-width="2" stroke-linecap="round"/>
+  <!-- Helix strands -->
+  <path d="M11.5 8 Q14 6.5 16.5 8" fill="none" stroke="#2a4460" stroke-width="1.3"/>
+  <path d="M11.5 12 Q14 13.5 16.5 12" fill="none" stroke="#2a4460" stroke-width="1.3"/>
+  <path d="M11.5 16 Q14 14.5 16.5 16" fill="none" stroke="#406080" stroke-width="1.3"/>
+  <!-- Bubbles -->
+  <circle cx="13" cy="20" r="1" fill="#406080"/>
+  <circle cx="15.5" cy="21.5" r="0.7" fill="#2a4460"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#2a4460" letter-spacing="0.5">HUXLEY</text>
+</svg>

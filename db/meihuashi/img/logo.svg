@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 28" height="20">
+  <!-- Plum blossom (梅花) - 5 petals arranged around center -->
+  <!-- Petal 1 (top) -->
+  <circle cx="14" cy="4.5" r="4.2" fill="#a04060"/>
+  <!-- Petal 2 (upper right) -->
+  <circle cx="23.05" cy="10.85" r="4.2" fill="#a04060"/>
+  <!-- Petal 3 (lower right) -->
+  <circle cx="19.57" cy="21.15" r="4.2" fill="#a04060"/>
+  <!-- Petal 4 (lower left) -->
+  <circle cx="8.43" cy="21.15" r="4.2" fill="#a04060"/>
+  <!-- Petal 5 (upper left) -->
+  <circle cx="4.95" cy="10.85" r="4.2" fill="#a04060"/>
+  <!-- Center -->
+  <circle cx="14" cy="14" r="3" fill="#7a2848"/>
+  <!-- Stamen dots -->
+  <circle cx="14" cy="8.5" r="1" fill="#f4eff0"/>
+  <circle cx="18.24" cy="11.75" r="1" fill="#f4eff0"/>
+  <circle cx="16.62" cy="17.25" r="1" fill="#f4eff0"/>
+  <circle cx="11.38" cy="17.25" r="1" fill="#f4eff0"/>
+  <circle cx="9.76" cy="11.75" r="1" fill="#f4eff0"/>
+  <!-- Text: 梅花诗 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#a04060" letter-spacing="2">梅花诗</text>
+</svg>

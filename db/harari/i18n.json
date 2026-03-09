@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "赫拉利预言",
+    "siteSubtitle": "以色列历史学家与未来学家（1976-）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "赫拉利是谁？",
+    "homeIntro1": "尤瓦尔·诺亚·赫拉利（Yuval Noah Harari，1976年2月24日—），以色列历史学家、哲学家、畅销书作家，耶路撒冷希伯来大学历史系教授。他以宏大叙事著称，擅长将历史、生物学、计算机科学和哲学融为一体，探讨人类的过去与未来。",
+    "homeIntro2": "赫拉利的三部曲——《人类简史》（Sapiens, 2011）、《未来简史》（Homo Deus, 2015）和《今日简史》（21 Lessons, 2018）——全球销量超过4500万册，被翻译为65种语言。在这些著作及大量公开演讲中，他对人工智能、数据主义、生物监控和人类社会的未来走向做出了大量预测性论述。",
+    "homeIntro3": "赫拉利的预测并非传统意义上的「预言」，而是基于历史趋势和技术发展的学术推演。他警告AI可能创造一个「无用阶级」，算法将比人类更了解自己，数据主义可能取代人文主义成为新的主导意识形态。本站整理了他最具代表性的14条预测，并对已到验证期的预测进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「人类正面临前所未有的革命：一切旧故事都已破产，新故事尚未出现。当生物技术与信息技术融合，它们将创造出前所未见的控制手段——不仅控制外部世界，还控制人类内心。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "2011年 —— 出版《人类简史》（希伯来文版），首次提出人类认知革命框架",
+      "2015年 —— 出版《未来简史》，系统阐述数据主义、无用阶级、算法权威等核心预测",
+      "2018年 —— 出版《今日简史》，聚焦AI威胁、自由民主危机、全球合作失败等当下议题",
+      "2020年 —— 新冠疫情期间大量公开发言，警告生物监控正常化和疫后威权主义",
+      "2023-2025年 —— 围绕生成式AI爆发（ChatGPT等），频繁警告AI对民主与就业的颠覆性影响"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预测内容主要来自《未来简史》（Homo Deus, 2015）和《今日简史》（21 Lessons for the 21st Century, 2018）原文（<a href=\"https://www.ynharari.com/book/homo-deus/\" target=\"_blank\" rel=\"noopener\">官方网站</a>）",
+      "部分预测来自赫拉利的TED演讲、访谈和专栏文章（<a href=\"https://www.ted.com/speakers/yuval_noah_harari\" target=\"_blank\" rel=\"noopener\">TED Talks</a>）",
+      "验证评价基于公开新闻报道、行业报告和学术研究",
+      "编者观点不代表学术定论",
+      "站点图标采用DNA双螺旋与二进制代码融合的符号——呼应《未来简史》核心主题：生物学与信息技术的融合"
+    ]
+  },
+  "en": {
+    "siteTitle": "Harari Predictions",
+    "siteSubtitle": "Israeli Historian & Futurist (1976-)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Yuval Noah Harari?",
+    "homeIntro1": "Yuval Noah Harari (born February 24, 1976) is an Israeli historian, philosopher, and bestselling author. He is a professor at the Hebrew University of Jerusalem, known for his grand narratives that weave together history, biology, computer science, and philosophy to explore humanity's past and future.",
+    "homeIntro2": "Harari's trilogy — Sapiens (2011), Homo Deus (2015), and 21 Lessons for the 21st Century (2018) — has sold over 45 million copies worldwide and been translated into 65 languages. In these works and numerous public lectures, he has made extensive predictive arguments about artificial intelligence, dataism, biometric surveillance, and the future of human society.",
+    "homeIntro3": "Harari's predictions are not prophecies in the traditional sense, but academic extrapolations based on historical trends and technological developments. He warns that AI may create a 'useless class', algorithms will know us better than we know ourselves, and dataism may replace humanism as the dominant ideology. This site compiles 14 of his most representative predictions and evaluates those whose verification periods have arrived.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Humans face unprecedented revolutions: all old stories have gone bankrupt, and no new story has emerged to replace them. When biotechnology and information technology merge, they will create unprecedented means of control — not just over the external world, but over the human interior.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "2011 —— Published Sapiens (Hebrew edition), first articulating the cognitive revolution framework",
+      "2015 —— Published Homo Deus, systematically presenting predictions on dataism, useless class, and algorithmic authority",
+      "2018 —— Published 21 Lessons, focusing on AI threats, liberal democracy crisis, and global cooperation failure",
+      "2020 —— Extensive public commentary during COVID-19, warning about normalization of biometric surveillance",
+      "2023-2025 —— Frequent warnings about generative AI's disruptive impact on democracy and employment"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions primarily sourced from Homo Deus (2015) and 21 Lessons for the 21st Century (2018) (<a href=\"https://www.ynharari.com/book/homo-deus/\" target=\"_blank\" rel=\"noopener\">Official Website</a>)",
+      "Some predictions from Harari's TED talks, interviews, and op-eds (<a href=\"https://www.ted.com/speakers/yuval_noah_harari\" target=\"_blank\" rel=\"noopener\">TED Talks</a>)",
+      "Verification based on public news reports, industry reports, and academic research",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: DNA helix morphing into binary code — reflecting Homo Deus's core theme of biology merging with information technology"
+    ]
+  }
+}

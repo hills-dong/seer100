@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 28" height="20">
+  <!-- Six-pointed star (Star of Mary / Stella Maris) -->
+  <!-- Upward triangle -->
+  <polygon points="14,3 22.5,17 5.5,17" fill="#3a5a8c"/>
+  <!-- Downward triangle -->
+  <polygon points="14,25 5.5,11 22.5,11" fill="#1e3e6a"/>
+  <!-- Center circle -->
+  <circle cx="14" cy="14" r="3.2" fill="#f0f0f4"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" fill="#1e3e6a" letter-spacing="0.5">FATIMA</text>
+</svg>

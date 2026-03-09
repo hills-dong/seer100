@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 28" height="20">
+  <!-- Satellite orbit icon: Earth with geostationary ring -->
+  <!-- Earth (small circle) -->
+  <circle cx="14" cy="14" r="5" fill="#3a6080"/>
+  <!-- Geostationary orbit ring (ellipse) -->
+  <ellipse cx="14" cy="14" rx="12" ry="4.5" fill="none" stroke="#224460" stroke-width="1.8" transform="rotate(-30 14 14)"/>
+  <!-- Satellite dot on orbit -->
+  <circle cx="24.5" cy="8.5" r="1.8" fill="#224460"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#224460" letter-spacing="0.5">CLARKE</text>
+</svg>

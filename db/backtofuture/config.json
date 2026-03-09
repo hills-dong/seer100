@@ -1,0 +1,69 @@
+{
+  "siteId": "backtofuture",
+  "answererName": "Robert Zemeckis & Bob Gale",
+  "publishDate": "1989",
+  "baseUrl": "https://pre.hilife.me/backtofuture",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "回到未来预言全集 - 1989年电影对2015年的16条科技预言与验证 | Back to the Future Predictions",
+      "description": "《回到未来II》（1989）对2015年的科技预言完整收录与验证：视频通话、平板电视、生物识别支付、可穿戴设备、无人机、悬浮滑板、3D电影等16条预言，哪些成真了？",
+      "keywords": "回到未来,回到未来预言,Back to the Future,BTTF,2015预言,科幻电影预言,悬浮滑板,飞行汽车,视频通话,科技预言验证",
+      "siteName": "回到未来预言",
+      "ogTitle": "回到未来预言全集 | Back to the Future Predictions",
+      "ogDescription": "《回到未来II》（1989）对2015年的16条科技预言完整收录与验证分析。视频通话、平板电视、无人机等哪些成真了？",
+      "locale": "zh_CN",
+      "twitterDescription": "16条《回到未来II》对2015年的科技预言验证：视频通话已实现，飞行汽车未成真，小熊队竟真夺冠了。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Back to the Future Predictions - 16 Tech Prophecies from 1989 for 2015 | Full Archive & Verification",
+      "description": "Back to the Future Part II (1989) depicted 2015 with video calling, flat-screen TVs, biometric payments, wearable tech, drones, hoverboards, and more. Full archive of 16 predictions with real-world verification.",
+      "keywords": "Back to the Future,BTTF predictions,Back to the Future 2015,hoverboard,flying cars,video calling,sci-fi predictions,movie predictions verified,Zemeckis",
+      "siteName": "Back to the Future Predictions",
+      "ogTitle": "Back to the Future Predictions - What the 1989 Film Got Right About 2015",
+      "ogDescription": "16 predictions from Back to the Future Part II (1989) about life in 2015. Full archive with real-world verification: video calls, flat screens, drones, and more.",
+      "locale": "en_US",
+      "twitterDescription": "16 predictions from BTTF Part II about 2015: video calling came true, flying cars didn't, and the Cubs actually won the World Series."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "回到未来预言",
+      "alternateName": "Back to the Future Predictions",
+      "url": "https://pre.hilife.me/backtofuture/",
+      "description": "《回到未来II》对2015年的科技预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0f4",
+    "white": "#fff",
+    "text": "#24242e",
+    "text2": "#6e6e78",
+    "textLight": "#5a5a66",
+    "primary": "#a05a20",
+    "primaryDark": "#7e4010",
+    "primaryBg": "#f8f0e6",
+    "link": "#a05a20",
+    "border": "#dcdce2",
+    "border2": "#bec0c8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eaeaee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Back to the Future Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II",
+    "sourceLabel": "Wikipedia"
+  }
+}

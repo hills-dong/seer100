@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "金陵塔碑文",
+    "siteSubtitle": "明代·刘伯温（传）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "金陵塔碑文是什么？",
+    "homeIntro1": "金陵塔碑文据传为明代开国功臣刘伯温（刘基，1311-1375）所作的预言碑文。传说1918年国军拆除南京金陵塔时，在塔基下发现了这块石碑，碑上刻有韵文预言。碑文开头便以「金陵塔，金陵塔，刘基建，介石拆」点明来历——「刘基」即刘伯温，「介石」即蒋介石。",
+    "homeIntro2": "碑文以押韵的短句写成，风格类似民间谶纬歌谣，预言内容涵盖民国时期的军阀混战、抗日战争、国共内战、新中国建立等重大历史事件。碑文行文隐晦，多用拆字、谐音、隐喻等手法，与《推背图》《烧饼歌》并称为中国民间流传最广的预言文本。",
+    "homeIntro3": "然而，金陵塔碑文的真伪在学术界争议极大。目前没有可靠的考古记录证实1918年发现碑文一事，碑文最早的可查文本出现在民国报刊上，部分学者认为这很可能是民国时期假托刘伯温之名的伪作。此外，碑文的不同版本之间存在文字差异，后半部分的解读更是众说纷纭。本站整理了碑文主要流传版本的原文，并对可考证的预言进行验证分析，供读者参考。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「金陵塔，金陵塔，刘基建，介石拆。拆了金陵塔，军民自己杀。」——金陵塔碑文·开篇",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "开篇 —— 金陵塔的建造与拆除，预言的缘起",
+      "第一段 —— 北伐战争与军阀混战",
+      "第二段 —— 抗日战争与民族浩劫",
+      "第三段 —— 国共内战与政权更迭",
+      "第四段 —— 新中国建立及此后大事",
+      "末段 —— 对未来的模糊预言"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "碑文版本参考民间流传的主要文本，目前无考古实物佐证（<a href=\"https://zh.wikipedia.org/wiki/金陵塔碑文\" target=\"_blank\" rel=\"noopener\">维基百科</a>）",
+      "碑文真伪存在重大争议，可能为民国时期伪托之作",
+      "验证评价基于历史文献和公开资料，编者观点不代表学术定论",
+      "关于刘伯温生平参考（<a href=\"https://zh.wikipedia.org/wiki/刘基\" target=\"_blank\" rel=\"noopener\">维基百科·刘基</a>）",
+      "站点图标采用宝塔造型——金陵塔碑文因塔而得名，塔是该预言最直接的视觉符号"
+    ]
+  },
+  "en": {
+    "siteTitle": "Jinling Tower Stele",
+    "siteSubtitle": "Ming Dynasty · Liu Bowen (attributed)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is the Jinling Tower Stele?",
+    "homeIntro1": "The Jinling Tower Stele (金陵塔碑文) is a prophetic inscription attributed to Liu Bowen (Liu Ji, 1311-1375), a renowned strategist and founding minister of the Ming dynasty. According to legend, when Nationalist troops demolished a tower called 'Jinling Tower' in Nanjing in 1918, they discovered a stone stele buried beneath its foundation, inscribed with prophetic verses. The opening line declares: 'Jinling Tower, Jinling Tower — Liu Ji built it, Jieshi tore it down' — where 'Liu Ji' is Liu Bowen and 'Jieshi' is Chiang Kai-shek.",
+    "homeIntro2": "The inscription is composed in short, rhyming couplets resembling folk prophecy ballads. Its content covers major events of 20th-century China: warlord conflicts during the Republican era, the Second Sino-Japanese War, the Chinese Civil War, and the founding of the People's Republic. The text employs cryptic wordplay — character decomposition, homophones, and allegory — in a style shared with other famous Chinese prophecy texts such as the Tui Bei Tu and Shaobing Song.",
+    "homeIntro3": "However, the authenticity of the Jinling Tower Stele is highly contested among scholars. There are no reliable archaeological records confirming the 1918 discovery, and the earliest verifiable versions of the text appeared in Republican-era newspapers. Many scholars believe it is likely a Republican-period forgery attributed to Liu Bowen for credibility. Furthermore, different circulating versions contain textual discrepancies, and interpretations of the latter sections vary wildly. This site presents the most widely circulated version with verification analysis for reference.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Jinling Tower, Jinling Tower — Liu Ji built it, Jieshi tore it down. Once the Jinling Tower falls, soldiers and civilians slaughter each other.\" — Opening lines",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "Opening —— The building and demolition of Jinling Tower",
+      "Section 1 —— Northern Expedition and warlord conflicts",
+      "Section 2 —— Second Sino-Japanese War",
+      "Section 3 —— Chinese Civil War and regime change",
+      "Section 4 —— Founding of the PRC and subsequent events",
+      "Final section —— Obscure prophecies about the future"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Text based on the most widely circulated version; no archaeological artifacts have been verified (<a href=\"https://zh.wikipedia.org/wiki/金陵塔碑文\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Authenticity is highly disputed; the text may be a Republican-era forgery",
+      "Verification based on historical records and public sources; editorial opinions do not represent academic consensus",
+      "For Liu Bowen's biography, see (<a href=\"https://en.wikipedia.org/wiki/Liu_Bowen\" target=\"_blank\" rel=\"noopener\">Wikipedia: Liu Bowen</a>)",
+      "Site icon: Pagoda motif — the Jinling Tower Stele is named after the tower, making it the most direct visual symbol of this prophecy"
+    ]
+  }
+}

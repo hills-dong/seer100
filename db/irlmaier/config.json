@@ -1,0 +1,69 @@
+{
+  "siteId": "irlmaier",
+  "answererName": "Alois Irlmaier",
+  "publishDate": "1945-1959",
+  "baseUrl": "https://pre.hilife.me/irlmaier",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "伊尔迈尔预言全集 - 巴伐利亚先知的15条预言与验证 | Alois Irlmaier Prophecies",
+      "description": "巴伐利亚先知阿洛伊斯·伊尔迈尔（1894-1959）的预言完整收录，涵盖第三次世界大战、俄军入侵欧洲、三日黑暗、大彗星等末世预言，以及二战期间寻人和空袭预测的验证记录。",
+      "keywords": "伊尔迈尔,阿洛伊斯伊尔迈尔,Alois Irlmaier,巴伐利亚先知,三日黑暗,俄军入侵,第三次世界大战,预言家,末世预言",
+      "siteName": "伊尔迈尔预言",
+      "ogTitle": "伊尔迈尔预言全集 | Alois Irlmaier Prophecies",
+      "ogDescription": "巴伐利亚先知阿洛伊斯·伊尔迈尔的预言完整收录与验证分析。涵盖欧洲战争、三日黑暗、大彗星等末世异象。",
+      "locale": "zh_CN",
+      "twitterDescription": "巴伐利亚先知伊尔迈尔的15条预言，含真实度验证。二战寻人、俄军入侵欧洲、三日黑暗、大彗星等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Alois Irlmaier Prophecies - 15 Predictions from the Bavarian Seer (1894-1959) | Full Archive & Verification",
+      "description": "Bavarian seer Alois Irlmaier (1894-1959) left striking prophecies about a future Russian invasion of Europe, Three Days of Darkness, a great comet, and more. Includes verified WWII-era predictions about locating missing persons and air raids.",
+      "keywords": "Alois Irlmaier,Irlmaier prophecy,Bavarian seer,Three Days of Darkness,Russian invasion Europe,World War 3,great comet,dowser,Catholic prophecy",
+      "siteName": "Alois Irlmaier Prophecies",
+      "ogTitle": "Alois Irlmaier Prophecies - The Bavarian Seer's Complete Predictions",
+      "ogDescription": "15 prophecies from Bavarian seer Alois Irlmaier (1894-1959). Full archive with verification covering WWIII, Russian invasion, Three Days of Darkness, and cosmic events.",
+      "locale": "en_US",
+      "twitterDescription": "15 predictions from Bavarian seer Alois Irlmaier. WWII verified predictions plus apocalyptic visions: Russian invasion, Three Days of Darkness, great comet."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "伊尔迈尔预言",
+      "alternateName": "Alois Irlmaier Prophecies",
+      "url": "https://pre.hilife.me/irlmaier/",
+      "description": "巴伐利亚先知阿洛伊斯·伊尔迈尔的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0ee",
+    "white": "#fff",
+    "text": "#202020",
+    "text2": "#686868",
+    "textLight": "#545454",
+    "primary": "#5a6a5a",
+    "primaryDark": "#3e4e3e",
+    "primaryBg": "#eaf0ea",
+    "link": "#5a6a5a",
+    "border": "#ccd4cc",
+    "border2": "#aeb8ae",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e2eae2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Alois Irlmaier Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alois_Irlmaier",
+    "sourceLabel": "Wikipedia"
+  }
+}

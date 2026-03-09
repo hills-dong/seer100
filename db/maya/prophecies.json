@@ -1,0 +1,168 @@
+{
+  "prophecies": [
+    {
+      "id": 1,
+      "cat": "spirit",
+      "q": "波波尔·乌：第一纪元——泥人时代",
+      "a": "众神首次创造人类，用泥土塑形。泥人没有思想、没有灵魂，无法行走也无法繁衍，遇水即溶。众神对此不满，将泥人毁灭。\n【白话】神用泥土造人失败，泥人无智慧无灵魂，被神毁灭。",
+      "q_en": "Popol Vuh: First Age — The Mud People",
+      "a_en": "The gods first created humans from mud. The mud people had no mind or soul, could not walk or reproduce, and dissolved in water. The gods were displeased and destroyed them.\n[Plain language] The gods failed to create humans from mud; the mud people lacked wisdom and soul, and were destroyed.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 2,
+      "cat": "spirit",
+      "q": "波波尔·乌：第二纪元——木人时代",
+      "a": "众神第二次造人，用木头雕刻。木人能说话、能繁衍，但没有心灵和记忆，不懂敬拜创造者。众神降下大洪水，又派出怪兽撕碎他们，木人的器具也起而反抗主人。幸存者退化为猴子。\n【白话】神用木头造人，木人无心无情，被洪水和怪兽毁灭，残存者变成猴子。",
+      "q_en": "Popol Vuh: Second Age — The Wood People",
+      "a_en": "The gods created humans from wood a second time. The wood people could speak and multiply but had no hearts or memory, and did not worship their creators. The gods sent a great flood and monsters to tear them apart; even their tools turned against them. The survivors devolved into monkeys.\n[Plain language] The gods made humans from wood; heartless and ungrateful, they were destroyed by flood and monsters, with survivors becoming monkeys.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 3,
+      "cat": "spirit",
+      "q": "波波尔·乌：第三纪元——英雄双子与冥界",
+      "a": "在当前纪元人类被创造之前，英雄双子胡纳赫普和伊希巴兰克降入冥界希巴尔巴，战胜冥界之主，为第四纪元的到来清除障碍。他们最终化为太阳和月亮升上天空。\n【白话】英雄双子进入冥界打败死神，变为日月升天，为新世界的创造铺平了道路。",
+      "q_en": "Popol Vuh: Third Age — The Hero Twins and the Underworld",
+      "a_en": "Before the current age of humans, the Hero Twins Hunahpu and Xbalanque descended into the underworld Xibalba, defeated the lords of death, and cleared the way for the Fourth Age. They ultimately rose into the sky as the sun and moon.\n[Plain language] The Hero Twins entered the underworld and defeated the lords of death, becoming the sun and moon, paving the way for a new creation.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 4,
+      "cat": "spirit",
+      "q": "波波尔·乌：第四纪元——玉米人时代（当前纪元）",
+      "a": "众神第四次创世，用白玉米和黄玉米磨成的面团塑造了人类。玉米人拥有智慧、视力和感恩之心，能敬拜创造者。但众神担心玉米人的能力太强，便用雾气模糊了他们的视力，使他们只能看到眼前之物。\n【白话】神用玉米面造出当前的人类，有智慧但视野被神限制，只能看到近处。",
+      "q_en": "Popol Vuh: Fourth Age — The Corn People (Current Age)",
+      "a_en": "The gods created humans a fourth time from white and yellow corn dough. The corn people had wisdom, sight, and gratitude, and could worship their creators. But the gods feared their abilities were too great and clouded their vision with mist, limiting them to seeing only what was near.\n[Plain language] The gods created current humans from corn; they have wisdom but their vision was limited by the gods to see only what is close.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 5,
+      "cat": "spirit",
+      "q": "五个太阳纪：第四太阳纪的毁灭",
+      "a": "中美洲传统认为世界经历五个太阳纪。第四太阳纪（水之太阳）以大洪水终结，人类变成了鱼。当前的第五太阳纪将以大地震终结。\n【白话】世界已经历四次毁灭与重生，当前的第五纪元预言将以地震结束。",
+      "q_en": "Five Suns: Destruction of the Fourth Sun",
+      "a_en": "Mesoamerican tradition holds that the world has passed through five suns (ages). The Fourth Sun (Water Sun) ended in a great flood, and humans were turned into fish. The current Fifth Sun will end in earthquakes.\n[Plain language] The world has been destroyed and reborn four times; the current fifth age is prophesied to end in earthquakes.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 6,
+      "cat": "climate",
+      "q": "长历法：第13个伯克盾周期的终结",
+      "a": "玛雅长历法从公元前3114年8月11日起算，第13个伯克盾（b'ak'tun）周期于2012年12月21日结束（13.0.0.0.0）。部分古代铭文（如托尔图格罗纪念碑6号）记载此日将发生重大事件，神灵博隆·约克特将降临。",
+      "q_en": "Long Count: End of the 13th B'ak'tun Cycle",
+      "a_en": "The Maya Long Count calendar, starting from August 11, 3114 BCE, marks the end of the 13th b'ak'tun cycle on December 21, 2012 (13.0.0.0.0). Some ancient inscriptions (such as Tortuguero Monument 6) record that a significant event will occur on this date, with the deity Bolon Yokte' descending.",
+      "year": 2012,
+      "status": "failed",
+      "verdict_zh": "2012年12月21日平安过去，没有任何灾难性事件发生。NASA等科学机构在事前已反复声明，玛雅历法周期结束只是一个新周期的开始，类似于里程表归零，并非世界末日预言。实际上，玛雅学者指出古代玛雅人本身并未将此日期视为末日。",
+      "verdict_en": "December 21, 2012 passed without incident. NASA and scientific institutions had repeatedly stated beforehand that the Maya calendar cycle ending was simply the start of a new cycle, similar to an odometer resetting, not an apocalypse prediction. Maya scholars note that ancient Maya themselves did not view this date as doomsday."
+    },
+    {
+      "id": 7,
+      "cat": "spirit",
+      "q": "2012现象：全球意识觉醒",
+      "a": "新纪元运动（New Age）将2012年12月21日解读为人类意识的「量子跃迁」时刻，认为地球将进入更高维度的精神状态，人类集体意识将经历根本性转变。",
+      "q_en": "2012 Phenomenon: Global Consciousness Awakening",
+      "a_en": "The New Age movement interpreted December 21, 2012 as a 'quantum leap' moment for human consciousness, believing Earth would enter a higher-dimensional spiritual state and that collective human consciousness would undergo a fundamental transformation.",
+      "year": 2012,
+      "status": "failed",
+      "verdict_zh": "2012年前后未出现任何可测量的全球意识转变。该解读并非来自玛雅原始文献，而是20世纪后半叶新纪元运动对玛雅历法的自由演绎，代表人物包括Jose Arguelles和Daniel Pinchbeck等。",
+      "verdict_en": "No measurable global consciousness shift occurred around 2012. This interpretation did not originate from Maya sources but was a free interpretation of the Maya calendar by the New Age movement in the late 20th century, promoted by figures like Jose Arguelles and Daniel Pinchbeck."
+    },
+    {
+      "id": 8,
+      "cat": "society",
+      "q": "奇兰巴兰书：外来者的到来",
+      "a": "《楚马耶尔的奇兰巴兰书》预言：「在卡盾11 Ahau，外来的白色之子将从东方日出之处到来。他们带来的痛苦将降临这片土地。」",
+      "q_en": "Chilam Balam: The Arrival of Foreigners",
+      "a_en": "The Chilam Balam of Chumayel prophesied: \"In Katun 11 Ahau, the white sons of foreigners shall come from the east, from where the sun rises. The suffering they bring shall descend upon this land.\"",
+      "year": 1519,
+      "date": "约1500年代记录",
+      "status": "verified",
+      "verdict_zh": "1519年埃尔南·科尔特斯率西班牙征服者抵达墨西哥海岸，此后西班牙对玛雅地区的殖民征服导致了大规模人口减少、文化毁灭和社会瓦解。需注意：《奇兰巴兰书》成书于殖民时期，部分内容可能是事后追记而非真正的事前预言。",
+      "verdict_en": "In 1519, Hernán Cortés and Spanish conquistadors arrived on the Mexican coast. The subsequent Spanish colonization of Maya territories led to massive population decline, cultural destruction, and social collapse. Note: The Chilam Balam books were compiled during the colonial period; some content may be retrospective accounts rather than genuine pre-event prophecies."
+    },
+    {
+      "id": 9,
+      "cat": "spirit",
+      "q": "奇兰巴兰书：基督教的到来",
+      "a": "《楚马耶尔的奇兰巴兰书》记载：「真神将从天上降临，传播他的话语。十字架的标志将出现在世界上。世界由此被照亮。」",
+      "q_en": "Chilam Balam: The Coming of Christianity",
+      "a_en": "The Chilam Balam of Chumayel records: \"The true God shall descend from heaven and spread his word. The sign of the cross shall appear in the world. The world shall be illuminated thereby.\"",
+      "year": 1519,
+      "date": "约1500年代记录",
+      "status": "verified",
+      "verdict_zh": "西班牙殖民者从16世纪起在玛雅地区强制推行天主教，摧毁玛雅神庙并建造教堂，十字架确实成为该地区的核心宗教符号。同样需注意此预言可能受殖民时期基督教影响而后加。",
+      "verdict_en": "Spanish colonizers enforced Catholicism in Maya territories from the 16th century, destroying Maya temples and building churches. The cross indeed became the central religious symbol in the region. This prophecy may also have been added under colonial Christian influence."
+    },
+    {
+      "id": 10,
+      "cat": "war",
+      "q": "奇兰巴兰书：卡盾周期的战争与瘟疫",
+      "a": "《蒂齐明的奇兰巴兰书》预言卡盾8 Ahau时期将发生战争和瘟疫：「这个卡盾将有瘟疫和战乱。这将是弓箭之盾的时代，这将是苦难之盾的时代。」",
+      "q_en": "Chilam Balam: Wars and Plagues in the Katun Cycle",
+      "a_en": "The Chilam Balam of Tizimin prophesied wars and plagues during Katun 8 Ahau: \"This katun shall bring plagues and warfare. This shall be the shield of bows and arrows, this shall be the shield of suffering.\"",
+      "year": 1697,
+      "date": "约1700年代记录",
+      "status": "verified",
+      "verdict_zh": "玛雅地区在殖民时期确实经历了多次战争（西班牙征服战争、1697年最后的独立玛雅城邦诺赫佩滕陷落）和毁灭性的瘟疫（天花、麻疹等旧世界疾病导致玛雅人口减少约90%）。但卡盾周期预言具有循环性，每轮卡盾都包含类似预测。",
+      "verdict_en": "The Maya region did experience wars (Spanish conquest wars, fall of the last independent Maya city Nojpetén in 1697) and devastating plagues (smallpox, measles, and other Old World diseases reduced the Maya population by roughly 90%) during the colonial era. However, Katun cycle prophecies are cyclical, with similar predictions recurring in each round."
+    },
+    {
+      "id": 11,
+      "cat": "spirit",
+      "q": "羽蛇神的回归",
+      "a": "中美洲广泛流传的预言称，羽蛇神库库尔坎（玛雅名，阿兹特克名为奎兹尔科亚特尔）在离去时承诺将在特定时间回归，带来新的智慧和和平纪元。",
+      "q_en": "The Return of the Feathered Serpent",
+      "a_en": "A widespread Mesoamerican prophecy holds that the Feathered Serpent god Kukulkan (Maya name; Aztec name Quetzalcoatl) promised upon departure to return at a specific time, bringing a new era of wisdom and peace.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 12,
+      "cat": "spirit",
+      "q": "胡纳布库：银河对齐与宇宙更新",
+      "a": "现代玛雅精神传承者认为，胡纳布库（Hunab Ku，意为「唯一的神」）代表银河中心的创造力量。当太阳在冬至日与银河中心对齐时（约2012年前后），宇宙能量将迎来更新，人类将进入新的精神纪元。",
+      "q_en": "Hunab Ku: Galactic Alignment and Cosmic Renewal",
+      "a_en": "Modern Maya spiritual practitioners believe Hunab Ku ('the One God') represents the creative force at the galactic center. When the sun aligns with the galactic center at the winter solstice (around 2012), cosmic energy will be renewed and humanity will enter a new spiritual age.",
+      "year": 2012,
+      "status": "failed",
+      "verdict_zh": "天文学上的「银河对齐」是一个缓慢的岁差过程，并非发生在某一特定日期。2012年冬至日太阳位置与往年无显著不同。此外，「胡纳布库」作为银河概念是现代演绎，殖民时期文献中的Hunab Ku是西班牙传教士引入的一神论概念，与银河无关。",
+      "verdict_en": "The astronomical 'galactic alignment' is a slow precession process, not an event occurring on a specific date. The sun's position on the 2012 winter solstice was not significantly different from other years. Moreover, 'Hunab Ku' as a galactic concept is a modern interpretation; in colonial-era texts, Hunab Ku was a monotheistic concept introduced by Spanish missionaries, unrelated to the galaxy."
+    },
+    {
+      "id": 13,
+      "cat": "climate",
+      "q": "德累斯顿抄本：大洪水预言",
+      "a": "《德累斯顿抄本》最后一页描绘了一场末世大洪水：天空中的蛇形怪物口吐洪水，鳄鱼神从天顶倾泻水流，洪水淹没了整个世界。黑色的天空女神也在倒注毁灭之水。",
+      "q_en": "Dresden Codex: The Great Flood Prophecy",
+      "a_en": "The last page of the Dresden Codex depicts an apocalyptic flood: a serpent monster in the sky spews torrents, the crocodile god pours water from the zenith, and the flood engulfs the entire world. A black sky goddess also pours destructive waters.",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 14,
+      "cat": "spirit",
+      "q": "帕伦克铭文：时间尽头的纪念日",
+      "a": "帕伦克十字架神庙的铭文记录了一个遥远的未来日期——公元4772年10月21日（长历法1.0.0.0.0.8），届时将举行隆重的宇宙纪念仪式，纪念帕伦克建城者巴加尔大帝。这是已知玛雅铭文中指向最遥远未来的日期。",
+      "q_en": "Palenque Inscription: Anniversary at the End of Time",
+      "a_en": "Inscriptions at Palenque's Temple of the Cross record a distant future date — October 21, 4772 CE (Long Count 1.0.0.0.0.8) — when a grand cosmic anniversary ceremony will be held honoring Palenque's founder, King Pakal the Great. This is the farthest future date found in any known Maya inscription.",
+      "year": 4772,
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "siteId": "cyberpunk",
+  "answererName": "William Gibson et al.",
+  "publishDate": "1984",
+  "baseUrl": "https://pre.hilife.me/cyberpunk",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "赛博朋克预言全集 - 科幻文学对数字时代的16条预言与验证 | Cyberpunk Prophecies",
+      "description": "赛博朋克文学流派对数字时代的16条预言完整收录，涵盖赛博空间、黑客文化、虚拟现实、企业霸权、加密货币、脑机接口等领域。源自《神经漫游者》《雪崩》《银翼杀手》《攻壳机动队》等经典作品。",
+      "keywords": "赛博朋克,赛博朋克预言,神经漫游者,威廉吉布森,尼尔斯蒂芬森,雪崩,银翼杀手,攻壳机动队,科幻预言,数字时代预言",
+      "siteName": "赛博朋克预言",
+      "ogTitle": "赛博朋克预言全集 | Cyberpunk Prophecies",
+      "ogDescription": "赛博朋克文学流派对数字时代的16条预言完整收录与验证分析。涵盖赛博空间、黑客文化、虚拟现实、企业霸权等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "16条赛博朋克文学预言，含真实度验证。已应验：互联网/赛博空间、黑客文化、企业霸权、虚拟现实等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Cyberpunk Prophecies - 16 Predictions from Sci-Fi That Came True | Full Archive & Verification",
+      "description": "16 prophetic visions from cyberpunk literature including Neuromancer, Snow Crash, Blade Runner, and Ghost in the Shell. Covering cyberspace, hacking culture, VR, corporate dominance, cryptocurrency, brain-computer interfaces, and more.",
+      "keywords": "cyberpunk,cyberpunk predictions,Neuromancer,William Gibson,Neal Stephenson,Snow Crash,Blade Runner,Ghost in the Shell,sci-fi prophecy,digital age predictions",
+      "siteName": "Cyberpunk Prophecies",
+      "ogTitle": "Cyberpunk Prophecies - Sci-Fi Visions That Shaped the Future",
+      "ogDescription": "16 prophetic visions from cyberpunk literature. Full archive with real-world verification covering cyberspace, hacking, VR, corporate power, and the fusion of human and machine.",
+      "locale": "en_US",
+      "twitterDescription": "16 cyberpunk predictions verified against reality. Confirmed: internet/cyberspace, hacking culture, corporate dominance, VR, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "赛博朋克预言",
+      "alternateName": "Cyberpunk Prophecies",
+      "url": "https://pre.hilife.me/cyberpunk/",
+      "description": "赛博朋克文学流派对数字时代的预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0f0f4",
+    "white": "#fff",
+    "text": "#1e2030",
+    "text2": "#686878",
+    "textLight": "#565664",
+    "primary": "#5a4030",
+    "primaryDark": "#3e2818",
+    "primaryBg": "#f0ece8",
+    "link": "#5a4030",
+    "border": "#dcdce2",
+    "border2": "#bec0c8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eaeaee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Cyberpunk Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cyberpunk",
+    "sourceLabel": "Wikipedia"
+  }
+}

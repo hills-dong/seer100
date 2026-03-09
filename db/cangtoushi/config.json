@@ -1,0 +1,99 @@
+{
+  "siteId": "cangtoushi",
+  "answererName": "李淳风",
+  "publishDate": "约公元650年",
+  "baseUrl": "https://pre.hilife.me/cangtoushi",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "藏头诗全文 - 唐代李淳风预言诗详解与验证 | Cang Tou Shi Prophecies",
+      "description": "藏头诗相传为唐朝贞观年间太史令李淳风与唐太宗李世民的对话记录，以诗歌形式预言唐朝之后历代王朝兴衰。本站完整收录藏头诗原文并进行逐段验证分析。",
+      "keywords": "藏头诗,李淳风,唐太宗,藏头诗预言,推背图,Cang Tou Shi",
+      "siteName": "藏头诗预言",
+      "ogTitle": "藏头诗全文 - 唐代李淳风预言诗详解 | Cang Tou Shi",
+      "ogDescription": "唐代李淳风与唐太宗对话形式的《藏头诗》预言完整收录与验证分析。涵盖唐、宋、元、明、清等历代王朝兴亡。",
+      "locale": "zh_CN",
+      "twitterDescription": "藏头诗预言验证：武则天篡唐、安史之乱、宋朝建立、蒙古入侵、明朝兴起、清朝入关等。逐段解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Cang Tou Shi - Li Chunfeng's Prophetic Dialogue with Emperor Taizong | Full Archive & Verification",
+      "description": "Cang Tou Shi (藏头诗, 'Hidden-Head Poem') is a Tang dynasty Chinese prophetic text attributed to Li Chunfeng, recorded as a dialogue with Emperor Taizong, predicting the rise and fall of dynasties after the Tang. Full archive with accuracy verification.",
+      "keywords": "Cang Tou Shi,Li Chunfeng,Tang dynasty prophecy,Chinese prophecy,Hidden Head Poem",
+      "siteName": "Cang Tou Shi Prophecies",
+      "ogTitle": "Cang Tou Shi - Li Chunfeng's Prophetic Poem from Tang Dynasty China",
+      "ogDescription": "A prophetic dialogue between Tang dynasty astrologer Li Chunfeng and Emperor Taizong, predicting the fate of Chinese dynasties. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Cang Tou Shi prophecies verified: Wu Zetian's usurpation, An Lushan Rebellion, Song dynasty founding, Mongol conquest, Ming rise, Qing invasion and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "藏头诗预言",
+      "alternateName": "Cang Tou Shi Prophecies",
+      "url": "https://pre.hilife.me/cangtoushi/",
+      "description": "唐代李淳风与唐太宗对话形式的《藏头诗》预言完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "藏头诗是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "《藏头诗》相传为唐朝贞观年间太史令李淳风与唐太宗李世民的对话记录。唐太宗询问国运，李淳风以诗歌和隐语作答，预言了唐朝之后历代王朝的兴亡更替。因其预言以隐晦方式「藏头」而得名。李淳风同时也是《推背图》的作者之一。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "藏头诗和推背图有什么关系？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "《藏头诗》与《推背图》均传为唐代李淳风所作。推背图以图画和卦象为主，藏头诗则以君臣对话和诗歌为主。两者内容互有呼应，被认为是对中国历史走向的不同形式的预言。部分学者认为藏头诗可视为推背图的散文注解。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Cang Tou Shi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cang Tou Shi (藏头诗, 'Hidden-Head Poem') is a Chinese prophetic text traditionally attributed to Li Chunfeng, the imperial astronomer of the Tang dynasty. It takes the form of a dialogue between Li Chunfeng and Emperor Taizong, in which the astrologer uses cryptic verse to predict the rise and fall of Chinese dynasties from the Tang onward. Li Chunfeng is also co-author of the Tui Bei Tu (推背图), another famous Chinese prophetic work."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eef4",
+    "white": "#fff",
+    "text": "#22202e",
+    "text2": "#6a687a",
+    "textLight": "#565468",
+    "primary": "#5c4a8c",
+    "primaryDark": "#3e2e6a",
+    "primaryBg": "#f0ecfa",
+    "link": "#5c4a8c",
+    "border": "#d5d0e0",
+    "border2": "#b8b0c8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#ece8f2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "藏头诗 Cang Tou Shi"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/藏頭詩_(李淳風)",
+    "sourceLabel": "维基百科"
+  }
+}

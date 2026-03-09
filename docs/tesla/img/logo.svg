@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 28" height="20">
+  <!-- Tesla Coil icon -->
+  <!-- Base plate -->
+  <rect x="8" y="24" width="12" height="2" rx="0.5" fill="#9a5c08"/>
+  <!-- Coil body (stacked rings) -->
+  <ellipse cx="14" cy="22" rx="5" ry="1.2" fill="none" stroke="#c47a10" stroke-width="1.2"/>
+  <ellipse cx="14" cy="19.5" rx="4.2" ry="1" fill="none" stroke="#c47a10" stroke-width="1.1"/>
+  <ellipse cx="14" cy="17.2" rx="3.5" ry="0.9" fill="none" stroke="#c47a10" stroke-width="1"/>
+  <ellipse cx="14" cy="15.2" rx="2.8" ry="0.8" fill="none" stroke="#c47a10" stroke-width="0.9"/>
+  <!-- Top sphere -->
+  <circle cx="14" cy="12" r="2.5" fill="#c47a10"/>
+  <!-- Lightning sparks from top -->
+  <path d="M14 9.5 L12 5 L13.5 7.5 L11 3" fill="none" stroke="#9a5c08" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M14 9.5 L16 5 L14.5 7.5 L17 3" fill="none" stroke="#9a5c08" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M14 9.5 L14 4" fill="none" stroke="#9a5c08" stroke-width="0.7" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#9a5c08" letter-spacing="0.5">TESLA</text>
+</svg>

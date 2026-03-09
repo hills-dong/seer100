@@ -1,0 +1,69 @@
+{
+  "siteId": "kalki",
+  "answererName": "Kalki",
+  "publishDate": "约公元前400年",
+  "baseUrl": "https://pre.hilife.me/kalki",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "卡尔基预言全集 - 印度教末世预言与宇宙时代循环 | Kalki Prophecy",
+      "description": "印度教经典中关于毗湿奴第十化身卡尔基的末世预言完整收录。来源包括《卡尔基往世书》《毗湿奴往世书》《薄伽梵往世书》《摩诃婆罗多》，涵盖卡利年代的堕落征兆、卡尔基降世、白马征伐、邪恶毁灭与黄金时代再临。",
+      "keywords": "卡尔基,Kalki,毗湿奴化身,印度教预言,卡利年代,末世预言,薄伽梵往世书,卡尔基往世书,宇宙循环,Satya Yuga",
+      "siteName": "卡尔基预言",
+      "ogTitle": "卡尔基预言全集 | Kalki Prophecy",
+      "ogDescription": "印度教经典中关于毗湿奴第十化身卡尔基的末世预言完整收录与解读。卡利年代的堕落征兆、卡尔基降世与黄金时代再临。",
+      "locale": "zh_CN",
+      "twitterDescription": "印度教末世预言：毗湿奴第十化身卡尔基将于卡利年代末期降世，骑白马持利剑毁灭邪恶，开启新的黄金时代。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Kalki Prophecy - Hindu Eschatological Prophecy of Vishnu's Final Avatar | Full Archive",
+      "description": "Complete collection of Hindu prophecies about Kalki, the tenth and final avatar of Vishnu. Sources include Kalki Purana, Vishnu Purana, Bhagavata Purana, and Mahabharata. Covering the signs of Kali Yuga, Kalki's advent, the white horse, destruction of evil, and the dawn of Satya Yuga.",
+      "keywords": "Kalki,Kalki avatar,Vishnu avatar,Hindu prophecy,Kali Yuga,end times,Bhagavata Purana,Kalki Purana,cosmic cycle,Satya Yuga",
+      "siteName": "Kalki Prophecy",
+      "ogTitle": "Kalki Prophecy - Vishnu's Final Avatar",
+      "ogDescription": "Hindu eschatological prophecy of Kalki, Vishnu's tenth avatar, who will appear at the end of Kali Yuga to destroy evil and restore Dharma.",
+      "locale": "en_US",
+      "twitterDescription": "Hindu prophecy: Kalki, Vishnu's final avatar, will descend at the end of Kali Yuga riding a white horse to destroy evil and begin a new golden age."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "卡尔基预言",
+      "alternateName": "Kalki Prophecy",
+      "url": "https://pre.hilife.me/kalki/",
+      "description": "印度教经典中关于毗湿奴第十化身卡尔基的末世预言完整收录与解读",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f0e6",
+    "white": "#fff",
+    "text": "#2e2810",
+    "text2": "#7a7050",
+    "textLight": "#645a38",
+    "primary": "#c47a10",
+    "primaryDark": "#9a5a08",
+    "primaryBg": "#faf4e4",
+    "link": "#c47a10",
+    "border": "#ddd4be",
+    "border2": "#c0b498",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#f0ead8"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Kalki Prophecy"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kalki",
+    "sourceLabel": "Wikipedia"
+  }
+}

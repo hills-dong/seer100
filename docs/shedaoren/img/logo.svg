@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 28" height="20">
+  <!-- Chinese cleaver (菜刀) icon -->
+  <!-- Blade body -->
+  <path d="M6,6 L22,4 L24,8 L24,20 C24,22 22,24 20,24 L6,24 C4,24 3,22 3,20 L3,10 C3,8 4,6 6,6 Z" fill="#8c4a2e"/>
+  <!-- Blade highlight (lighter area on blade face) -->
+  <path d="M7,8 L21,6.5 L22,9 L22,18 C22,19 21,20 20,20 L7,20 C6,20 5.5,19 5.5,18 L5.5,11 C5.5,9 6,8 7,8 Z" fill="#f4f2ec"/>
+  <!-- Handle -->
+  <rect x="24" y="9" width="3" height="12" rx="1" fill="#6a3018"/>
+  <!-- Blade edge (bottom cutting edge) -->
+  <path d="M3,20 L3,24 C3,24 4,25 6,25 L20,25 C22,25 24,23 24,21 L24,20" fill="none" stroke="#6a3018" stroke-width="0.8"/>
+  <!-- Handle rivets -->
+  <circle cx="25.5" cy="12.5" r="0.8" fill="#f4f2ec"/>
+  <circle cx="25.5" cy="17.5" r="0.8" fill="#f4f2ec"/>
+  <!-- Text: 赊刀人 -->
+  <text x="32" y="20" font-family="'Noto Serif SC', 'Source Han Serif CN', 'SimSun', Georgia, serif" font-size="18" font-weight="bold" fill="#8c4a2e" letter-spacing="2">赊刀人</text>
+</svg>

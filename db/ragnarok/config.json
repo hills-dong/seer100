@@ -1,0 +1,69 @@
+{
+  "siteId": "ragnarok",
+  "answererName": "Norse Eddas",
+  "publishDate": "约800年-1220年",
+  "baseUrl": "https://pre.hilife.me/ragnarok",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "诸神黄昏预言全集 - 北欧神话末日预言与世界重生 | Ragnarok Prophecies",
+      "description": "北欧神话中的末日预言「诸神黄昏」(Ragnarok) 完整收录，源自《诗体埃达》与《散文埃达》。涵盖芬布尔之冬、诸神之战、世界毁灭与重生等预言叙事，共17条预言条目。",
+      "keywords": "诸神黄昏,Ragnarok,北欧神话,末日预言,Edda,埃达,沃尔娃预言,Voluspa,奥丁,托尔,洛基,芬布尔之冬,世界树,尤弥尔",
+      "siteName": "诸神黄昏预言",
+      "ogTitle": "诸神黄昏预言全集 | Ragnarok Prophecies",
+      "ogDescription": "北欧神话末日预言「诸神黄昏」完整收录与叙事分析。源自《诗体埃达》与《散文埃达》，涵盖世界毁灭与重生的完整预言体系。",
+      "locale": "zh_CN",
+      "twitterDescription": "北欧神话末日预言「诸神黄昏」全集，涵盖芬布尔之冬、诸神陨落、世界重生等17条预言叙事。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Ragnarok Prophecies - Norse Mythology's End of Days & World Renewal | Full Archive",
+      "description": "Complete collection of Ragnarok prophecies from Norse mythology, sourced from the Poetic Edda and Prose Edda. Covering Fimbulwinter, the great battle, deaths of gods, world destruction, and renewal — 17 prophetic entries.",
+      "keywords": "Ragnarok,Norse mythology,end of world,Edda,Voluspa,Odin,Thor,Loki,Fimbulwinter,Yggdrasil,Fenrir,Jormungandr,Surtr,Norse prophecy",
+      "siteName": "Ragnarok Prophecies",
+      "ogTitle": "Ragnarok Prophecies - Norse End of Days Complete Archive",
+      "ogDescription": "Complete Ragnarok prophecies from Norse mythology. Sourced from the Poetic Edda and Prose Edda, covering the full prophetic narrative of world destruction and renewal.",
+      "locale": "en_US",
+      "twitterDescription": "Norse mythology's Ragnarok prophecies in full — Fimbulwinter, fall of the gods, world destruction, and rebirth. 17 entries from the Eddas."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "诸神黄昏预言",
+      "alternateName": "Ragnarok Prophecies",
+      "url": "https://pre.hilife.me/ragnarok/",
+      "description": "北欧神话末日预言「诸神黄昏」完整收录与叙事分析",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0f4",
+    "white": "#fff",
+    "text": "#1e2028",
+    "text2": "#606878",
+    "textLight": "#4e5466",
+    "primary": "#5a7a8c",
+    "primaryDark": "#3e5a6a",
+    "primaryBg": "#e8f0f6",
+    "link": "#5a7a8c",
+    "border": "#ccd4e0",
+    "border2": "#aab4c4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#e2eaf0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Ragnarok Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ragnar%C3%B6k",
+    "sourceLabel": "Wikipedia"
+  }
+}

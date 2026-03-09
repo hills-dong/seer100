@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "德尔菲神谕",
+    "siteSubtitle": "古希腊阿波罗神庙的皮提亚女祭司（约前800年—393年）",
+    "navHome": "神谕介绍",
+    "navAll": "神谕全集",
+    "homeTitle": "德尔菲神谕是什么？",
+    "homeIntro1": "德尔菲神谕（Oracle of Delphi）是古希腊最重要、最权威的神谕所，位于帕尔纳索斯山麓的阿波罗神庙内。从约公元前800年到公元393年，横跨近1200年，德尔菲是整个古代地中海世界的精神中心。",
+    "homeIntro2": "神谕由被称为「皮提亚」（Pythia）的女祭司传达。她坐在神庙内殿的三脚鼎上，据说吸入从地缝中升起的气体后进入迷狂状态，以阿波罗之名发出预言。神谕通常以晦涩、双关的诗句形式给出，需要祭司进一步解读。",
+    "homeIntro3": "从国王到平民，从城邦到帝国，无数人前往德尔菲寻求神谕的指引。希罗多德、修昔底德、普鲁塔克等古代史学家记录了大量著名神谕，其中许多深刻影响了历史进程。本站收录了最著名的神谕案例，并依据古代文献进行历史考证。",
+    "coreMessage": "核心铭言",
+    "coreQuote": "「认识你自己。」（Gnothi seauton）——刻于德尔菲阿波罗神庙入口的箴言",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "约前800年 —— 德尔菲神谕所开始运作，成为泛希腊圣地",
+      "前560年 —— 吕底亚国王克罗伊斯求神谕，误解后败亡",
+      "前480年 —— 雅典人获「木墙」神谕，萨拉米斯海战大胜波斯",
+      "前399年 —— 凯勒丰问神谕「谁比苏格拉底更有智慧」，引发苏格拉底哲学使命",
+      "前336年 —— 亚历山大大帝强迫皮提亚发出神谕，征服亚洲",
+      "393年 —— 罗马皇帝狄奥多西一世关闭神谕所，运作近1200年"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "神谕记录主要来源于希罗多德《历史》、普鲁塔克《德尔菲对话录》等古代文献（<a href=\"https://en.wikipedia.org/wiki/Pythia\" target=\"_blank\" rel=\"noopener\">Wikipedia: Pythia</a>）",
+      "历史验证基于古代史料记载与现代考古学研究（<a href=\"https://en.wikipedia.org/wiki/Delphi\" target=\"_blank\" rel=\"noopener\">Wikipedia: Delphi</a>）",
+      "编者观点不代表学术定论，古代神谕的真实性和传承过程本身存在学术争议",
+      "站点图标采用三脚鼎符号——皮提亚女祭司坐在三脚鼎上传达阿波罗神谕，三脚鼎是德尔菲最具标志性的象征物"
+    ]
+  },
+  "en": {
+    "siteTitle": "Oracle of Delphi",
+    "siteSubtitle": "The Pythia Priestess of Apollo's Temple (~800 BC - 393 AD)",
+    "navHome": "Background",
+    "navAll": "All Oracles",
+    "homeTitle": "What is the Oracle of Delphi?",
+    "homeIntro1": "The Oracle of Delphi was the most important and authoritative oracle in ancient Greece, housed within the Temple of Apollo on the slopes of Mount Parnassus. From approximately 800 BC to 393 AD, spanning nearly 1,200 years, Delphi served as the spiritual center of the entire ancient Mediterranean world.",
+    "homeIntro2": "The oracles were delivered by a priestess known as the Pythia. Seated upon a tripod in the temple's inner sanctum, she reportedly inhaled vapors rising from a chasm in the earth, entering a trance-like state to deliver prophecies in Apollo's name. The oracles were typically given in obscure, ambiguous verse requiring further interpretation by the temple priests.",
+    "homeIntro3": "From kings to commoners, from city-states to empires, countless people journeyed to Delphi seeking divine guidance. Ancient historians including Herodotus, Thucydides, and Plutarch recorded numerous famous oracles, many of which profoundly shaped the course of history. This site compiles the most renowned cases and evaluates them against historical records.",
+    "coreMessage": "Core Maxim",
+    "coreQuote": "\"Know thyself.\" (Gnothi seauton) — inscribed at the entrance to the Temple of Apollo at Delphi",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "~800 BC —— The Oracle of Delphi begins operation, becoming a pan-Hellenic sanctuary",
+      "560 BC —— King Croesus of Lydia consults the oracle, misinterprets it, and falls",
+      "480 BC —— Athenians receive the 'wooden wall' oracle, win the Battle of Salamis against Persia",
+      "399 BC —— Chaerephon asks the oracle 'who is wiser than Socrates', sparking Socrates' philosophical mission",
+      "336 BC —— Alexander the Great compels the Pythia to prophesy, conquers Asia",
+      "393 AD —— Emperor Theodosius I closes the oracle after nearly 1,200 years of operation"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Oracle records primarily sourced from ancient texts including Herodotus' Histories and Plutarch's Delphic Dialogues (<a href=\"https://en.wikipedia.org/wiki/Pythia\" target=\"_blank\" rel=\"noopener\">Wikipedia: Pythia</a>)",
+      "Historical verification based on ancient historical records and modern archaeological research (<a href=\"https://en.wikipedia.org/wiki/Delphi\" target=\"_blank\" rel=\"noopener\">Wikipedia: Delphi</a>)",
+      "Editorial opinions do not represent academic consensus; the authenticity and transmission of ancient oracles is itself subject to scholarly debate",
+      "Site icon: tripod symbol — the Pythia delivered Apollo's oracles while seated on a tripod, making it the most iconic symbol of Delphi"
+    ]
+  }
+}

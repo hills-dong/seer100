@@ -1,0 +1,99 @@
+{
+  "siteId": "wuhouji",
+  "answererName": "诸葛亮（托名）",
+  "publishDate": "约1900年",
+  "baseUrl": "https://pre.hilife.me/wuhouji",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "武侯百年乩 - 托名诸葛亮的扶乩预言诗全集与验证 | Wuhou Bainian Ji",
+      "description": "武侯百年乩是1933年在香港新界粉岭扶乩所得的预言诗，托名诸葛孔明，预言二十世纪至未来百年中国大事。本站收录乩文原文并逐段验证分析。",
+      "keywords": "武侯百年乩,诸葛亮预言,扶乩,诸葛武侯乩文,百年乩,Wuhou Bainian Ji",
+      "siteName": "武侯百年乩",
+      "ogTitle": "武侯百年乩 - 托名诸葛亮的扶乩预言全集",
+      "ogDescription": "1933年香港扶乩所得预言诗，托名诸葛武侯，预言二战、国共内战、政权更替等百年大事。原文收录与验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "武侯百年乩预言验证：二战爆发、国共内战、政权更迭、香港回归等。扶乩预言诗逐段解析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Wuhou Bainian Ji - Spirit Writing Prophecy Attributed to Zhuge Liang | Full Archive & Verification",
+      "description": "Wuhou Bainian Ji (武侯百年乩) is a prophetic poem obtained through spirit writing (planchette) in 1933 in Hong Kong, attributed to Zhuge Liang. It prophesies major events in 20th-century China. Full text with accuracy verification.",
+      "keywords": "Wuhou Bainian Ji,Zhuge Liang prophecy,spirit writing,planchette divination,Chinese prophecy",
+      "siteName": "Wuhou Bainian Ji",
+      "ogTitle": "Wuhou Bainian Ji - The Hundred-Year Prophecy of Marquis Wu",
+      "ogDescription": "A 1933 spirit writing prophecy attributed to Zhuge Liang, foretelling WWII, Chinese civil war, regime change and more. Full text with verification analysis.",
+      "locale": "en_US",
+      "twitterDescription": "Wuhou Bainian Ji prophecies verified: WWII, Chinese civil war, regime transitions, Hong Kong handover. Spirit writing poem analyzed section by section."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "武侯百年乩",
+      "alternateName": "Wuhou Bainian Ji",
+      "url": "https://pre.hilife.me/wuhouji/",
+      "description": "1933年扶乩所得预言诗，托名诸葛武侯，预言百年中国大事",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "武侯百年乩是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "武侯百年乩是1933年（民国二十二年）在香港新界粉岭玄圆学院开幕时，通过扶乩仪式所得的预言诗。乩文托名三国时期蜀汉丞相诸葛亮（武侯），以七言诗体预言二十世纪至未来的中国大事，内容涉及二战、国共内战、政权更替等。第一部分1933年刊登于《香港工商日报》，完整版1951年刊于《华侨日报》。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "武侯百年乩的预言准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "第一部分（1933年刊登）中关于二战爆发、日本侵华等预言被认为与史实有相当吻合之处。但学界对其真伪争议很大：部分学者认为1951年刊出的后续部分可能是事后补写；且原文中'五色旗帜'在再版时被改为'五星旗帜'，引发篡改疑虑。网上流传版本长度为报刊原文的三倍，后续部分的真实性更受质疑。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Wuhou Bainian Ji?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wuhou Bainian Ji (武侯百年乩, 'Marquis Wu's Hundred-Year Divination') is a prophetic poem obtained through spirit writing (planchette divination) in 1933 at the opening of the Xuanyuan Academy in Fanling, Hong Kong. Attributed to Zhuge Liang, the famed strategist of the Three Kingdoms period, it uses seven-character verse to prophesy major Chinese events from the 20th century onward, including WWII, the Chinese civil war, and regime changes. The first section was published in the Hong Kong Industrial & Commercial Daily in 1933; the complete text appeared in the Overseas Chinese Daily in 1951."
+          }
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "bg": "#f2f0ea",
+    "white": "#fff",
+    "text": "#2a2820",
+    "text2": "#7a7060",
+    "textLight": "#645a4a",
+    "primary": "#7a5a3a",
+    "primaryDark": "#5c4028",
+    "primaryBg": "#f8f2ea",
+    "link": "#7a5a3a",
+    "border": "#dcd4c6",
+    "border2": "#c0b6a4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#eee8dc"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "百年乩 Wuhou Bainian Ji"
+  },
+  "footer": {
+    "sourceUrl": "https://zh.wikipedia.org/wiki/扶乩",
+    "sourceLabel": "维基百科"
+  }
+}

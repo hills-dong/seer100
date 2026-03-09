@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 28" height="20">
+  <!-- Rose Cross icon: cross with rose at center -->
+  <!-- Vertical bar of cross -->
+  <rect x="12" y="2" width="4" height="24" rx="1" fill="#5a6a3a"/>
+  <!-- Horizontal bar of cross -->
+  <rect x="4" y="10" width="20" height="4" rx="1" fill="#5a6a3a"/>
+  <!-- Central rose (5 petals) -->
+  <circle cx="14" cy="12" r="3.5" fill="#3e4e24"/>
+  <circle cx="14" cy="9" r="2" fill="#5a6a3a"/>
+  <circle cx="16.8" cy="10.8" r="2" fill="#5a6a3a"/>
+  <circle cx="15.7" cy="13.8" r="2" fill="#5a6a3a"/>
+  <circle cx="12.3" cy="13.8" r="2" fill="#5a6a3a"/>
+  <circle cx="11.2" cy="10.8" r="2" fill="#5a6a3a"/>
+  <!-- Rose center -->
+  <circle cx="14" cy="12" r="1.5" fill="#f2f0e6"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#3e4e24" letter-spacing="0.5">STEINER</text>
+</svg>

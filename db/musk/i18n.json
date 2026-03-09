@@ -1,0 +1,60 @@
+{
+  "zh": {
+    "siteTitle": "马斯克预言",
+    "siteSubtitle": "科技狂人的未来预测（2002-2024）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "埃隆·马斯克是谁？",
+    "homeIntro1": "埃隆·马斯克（Elon Musk，1971年6月28日—），出生于南非，美国企业家、工程师，现任特斯拉（Tesla）、SpaceX、xAI CEO。他同时是 Neuralink 和 The Boring Company 的创始人，曾联合创立 PayPal，是当今世界最具影响力的科技人物之一。",
+    "homeIntro2": "马斯克以其大胆甚至激进的公开预测闻名：火星殖民、全自动驾驶、通用人工智能、脑机接口、人形机器人……他的预测往往设定了具体的时间节点，但许多都大幅错过了原定时间表，被批评者称为「马斯克时间」（Elon Time）。",
+    "homeIntro3": "尽管如此，马斯克的预测并非空想——SpaceX 成功实现火箭回收复用，特斯拉推动了全球电动车革命，Starlink 已覆盖全球互联网。本站收录了他17条具有代表性的公开预测，并对已到期的预测进行了真实度评估。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「人类必须成为多行星物种，否则我们将面临灭绝。」",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "2002年 —— 创立 SpaceX，宣布目标：让人类成为多行星物种",
+      "2006年 —— 公布特斯拉「秘密总体计划」：从跑车到大众电动车",
+      "2015年 —— 联合创建 OpenAI，警告 AI 是人类文明最大威胁",
+      "2016年 —— 创立 Neuralink，目标实现人脑与 AI 的共生",
+      "2020年 —— 预言全自动驾驶「年底实现」，此后多次推迟",
+      "2024年 —— 发布 Optimus 人形机器人原型，预言将改变经济结构"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预测内容整理自马斯克公开采访、推文和发布会记录（<a href=\"https://en.wikipedia.org/wiki/Elon_Musk\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "各预测的原始出处包括：<a href=\"https://web.archive.org/web/2024/https://twitter.com/elonmusk\" target=\"_blank\" rel=\"noopener\">X/Twitter 存档</a>、<a href=\"https://www.youtube.com/results?search_query=elon+musk+interview\" target=\"_blank\" rel=\"noopener\">YouTube 采访视频</a>",
+      "验证评价基于公开新闻报道和行业分析数据",
+      "编者观点不代表学术定论",
+      "站点图标采用火箭符号——SpaceX 是马斯克最具标志性的事业，火箭也是其「多行星物种」愿景的核心象征"
+    ]
+  },
+  "en": {
+    "siteTitle": "Elon Musk Predictions",
+    "siteSubtitle": "Bold Forecasts from the Tech Visionary (2002-2024)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "Who is Elon Musk?",
+    "homeIntro1": "Elon Musk (born June 28, 1971) is a South African-born American entrepreneur and engineer. He is the CEO of Tesla, SpaceX, and xAI, founder of Neuralink and The Boring Company, and co-founder of PayPal. He is one of the most influential technology figures in the world today.",
+    "homeIntro2": "Musk is famous for his bold — often aggressive — public predictions: Mars colonization, full self-driving, artificial general intelligence, brain-computer interfaces, humanoid robots. His forecasts typically come with specific deadlines, but many have significantly overshot their original timelines, earning the nickname 'Elon Time' from critics.",
+    "homeIntro3": "That said, Musk's predictions are not mere fantasy — SpaceX achieved reusable rockets, Tesla accelerated the global EV revolution, and Starlink now provides worldwide internet coverage. This site archives 17 of his most representative public predictions and evaluates those whose deadlines have passed.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Humanity must become a multi-planetary species, or we face extinction.\"",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "2002 —— Founded SpaceX with the goal of making humanity multi-planetary",
+      "2006 —— Published Tesla's 'Secret Master Plan': from sports car to mass-market EV",
+      "2015 —— Co-founded OpenAI, warned AI is the greatest threat to civilization",
+      "2016 —— Founded Neuralink, aiming for human-AI symbiosis",
+      "2020 —— Predicted full self-driving 'by end of year', later repeatedly delayed",
+      "2024 —— Unveiled Optimus humanoid robot prototype, predicted economic transformation"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Predictions compiled from Musk's public interviews, tweets, and press events (<a href=\"https://en.wikipedia.org/wiki/Elon_Musk\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Original sources include: <a href=\"https://web.archive.org/web/2024/https://twitter.com/elonmusk\" target=\"_blank\" rel=\"noopener\">X/Twitter archives</a>, <a href=\"https://www.youtube.com/results?search_query=elon+musk+interview\" target=\"_blank\" rel=\"noopener\">YouTube interviews</a>",
+      "Verification based on public news reports and industry analysis",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: rocket symbol — SpaceX is Musk's most iconic venture, and the rocket is central to his 'multi-planetary species' vision"
+    ]
+  }
+}

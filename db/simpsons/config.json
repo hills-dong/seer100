@@ -1,0 +1,69 @@
+{
+  "siteId": "simpsons",
+  "answererName": "Matt Groening et al.",
+  "publishDate": "1989",
+  "baseUrl": "https://pre.hilife.me/simpsons",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "辛普森一家预言全集 - 动画片中的18个惊人预测与验证 | The Simpsons Predictions",
+      "description": "美国动画《辛普森一家》（1989至今）中令人惊叹的未来预测完整收录，涵盖政治、科技、社会等领域。已应验预言包括特朗普当选总统、迪士尼收购福克斯、智能手表、视频通话等。",
+      "keywords": "辛普森一家预言,辛普森预测,The Simpsons predictions,动画预言,特朗普预言,迪士尼收购福克斯,智能手表预言,视频通话预言",
+      "siteName": "辛普森一家预言",
+      "ogTitle": "辛普森一家预言全集 | The Simpsons Predictions",
+      "ogDescription": "美国动画《辛普森一家》中18个令人惊叹的未来预测完整收录与验证分析，涵盖政治、科技、社会等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "18个《辛普森一家》中的惊人预测与验证。已应验：特朗普当选、迪士尼收购福克斯、智能手表等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "The Simpsons Predictions - 18 Times the Show Predicted the Future | Full Archive & Verification",
+      "description": "The Simpsons (1989-present) has seemingly predicted the future numerous times. Complete archive of 18 verified predictions including Trump's presidency, Disney buying Fox, smartwatches, video calling, and more.",
+      "keywords": "Simpsons predictions,Simpsons predicted future,Trump Simpsons,Disney Fox Simpsons,smartwatch prediction,The Simpsons prophecy,animated predictions",
+      "siteName": "The Simpsons Predictions",
+      "ogTitle": "The Simpsons Predictions - 18 Times the Show Predicted the Future",
+      "ogDescription": "Complete archive of 18 times The Simpsons predicted the future, with real-world verification. From Trump's presidency to smartwatches.",
+      "locale": "en_US",
+      "twitterDescription": "18 times The Simpsons predicted the future. Verified: Trump presidency, Disney-Fox merger, smartwatches, video calling, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "辛普森一家预言",
+      "alternateName": "The Simpsons Predictions",
+      "url": "https://pre.hilife.me/simpsons/",
+      "description": "美国动画《辛普森一家》中的未来预测完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f4f4ee",
+    "white": "#fff",
+    "text": "#2a2a20",
+    "text2": "#787468",
+    "textLight": "#646056",
+    "primary": "#b07030",
+    "primaryDark": "#8a5018",
+    "primaryBg": "#faf2e8",
+    "link": "#b07030",
+    "border": "#e0dcd2",
+    "border2": "#c4c0b2",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eeece2"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "The Simpsons Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Simpsons",
+    "sourceLabel": "Wikipedia"
+  }
+}

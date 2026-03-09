@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "梦幻时代预言",
+    "siteSubtitle": "澳洲原住民万年口传智慧",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "什么是梦幻时代？",
+    "homeIntro1": "梦幻时代（Dreamtime / Tjukurpa / Jukurrpa）是澳洲原住民的宇宙观核心概念，指的是一个超越时间的创世纪元——过去、现在与未来在其中共存。这不是线性历史中的某个时期，而是一个永恒的、持续运作的精神维度。",
+    "homeIntro2": "在梦幻时代的叙事中，祖灵（Ancestral Beings）塑造了大地、河流、山脉和一切生灵，并通过歌之路（Songlines）将整片大陆编织成一张精神地图。这些故事不仅是创世神话，更是法律、生态知识和行为准则的载体，代代口传至今已超过一万年。",
+    "homeIntro3": "虽然原住民传统中不存在西方意义上的「预言」概念，但梦幻时代的诸多教导包含了深刻的警示：如果人类不遵守与大地的契约——不尊重火、水、动物和土地的法则——灾难将会降临。这些万年智慧在当代环境危机面前，展现出惊人的预见性。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「我们不拥有土地，土地拥有我们。如果你不照顾大地，大地就不会照顾你。」",
+    "keyPoints": "关键主题",
+    "keyPointsList": [
+      "彩虹蛇 —— 水的守护者，违背其法则将招致洪水或干旱",
+      "火的法则 —— 原住民用「冷火」管理土地已有数万年历史",
+      "歌之路 —— 穿越大陆的精神地图，记录每一处地形的故事与法则",
+      "大地照护 —— 人类对土地负有神圣责任，破坏土地即破坏自身",
+      "陌生人的到来 —— 多个部落口传中预见了外来者将带来巨变"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "教导内容综合自人类学文献、原住民长老公开访谈及学术研究（<a href=\"https://en.wikipedia.org/wiki/Dreamtime\" target=\"_blank\" rel=\"noopener\">Wikipedia: Dreamtime</a>）",
+      "火焰管理相关研究参考 Bill Gammage《The Biggest Estate on Earth》（<a href=\"https://en.wikipedia.org/wiki/The_Biggest_Estate_on_Earth\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于环境科学研究、历史记录和气候数据",
+      "编者观点不代表学术定论，亦不代表任何特定原住民社群的立场",
+      "站点图标采用同心圆——澳洲原住民点画艺术中最核心的符号，代表营地、水源、聚会场所或梦幻时代的神圣地点"
+    ]
+  },
+  "en": {
+    "siteTitle": "Dreamtime Prophecies",
+    "siteSubtitle": "10,000+ Years of Aboriginal Oral Wisdom",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is the Dreamtime?",
+    "homeIntro1": "The Dreamtime (Tjukurpa / Jukurrpa) is the foundational cosmological concept of Australian Aboriginal peoples — a timeless era of creation where past, present, and future coexist. It is not a period in linear history, but an eternal, ever-present spiritual dimension.",
+    "homeIntro2": "In Dreamtime narratives, Ancestral Beings shaped the land, rivers, mountains, and all living things, weaving the entire continent into a spiritual map through Songlines. These stories are not merely creation myths — they encode law, ecological knowledge, and codes of conduct, passed down through oral tradition for over 10,000 years.",
+    "homeIntro3": "While Aboriginal tradition does not contain 'prophecy' in the Western sense, many Dreamtime teachings carry profound warnings: if humans fail to uphold their covenant with the land — disrespecting the laws of fire, water, animals, and earth — catastrophe will follow. This ancient wisdom has proven startlingly prescient in the face of modern environmental crisis.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"We don't own the land, the land owns us. If you don't look after Country, Country won't look after you.\"",
+    "keyPoints": "Key Themes",
+    "keyPointsList": [
+      "Rainbow Serpent —— Guardian of water; violating its laws brings flood or drought",
+      "Fire Law —— Aboriginal people managed land with 'cool fire' for tens of thousands of years",
+      "Songlines —— Spiritual maps across the continent, encoding the story and law of every landform",
+      "Care for Country —— Humans bear sacred responsibility for the land; to harm it is to harm oneself",
+      "Coming of Strangers —— Multiple tribal oral traditions foresaw outsiders bringing great upheaval"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Teachings compiled from anthropological literature, public interviews with Aboriginal elders, and academic research (<a href=\"https://en.wikipedia.org/wiki/Dreamtime\" target=\"_blank\" rel=\"noopener\">Wikipedia: Dreamtime</a>)",
+      "Fire management research references Bill Gammage's <i>The Biggest Estate on Earth</i> (<a href=\"https://en.wikipedia.org/wiki/The_Biggest_Estate_on_Earth\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on environmental science research, historical records, and climate data",
+      "Editorial opinions do not represent academic consensus, nor the position of any specific Aboriginal community",
+      "Site icon: concentric circles — the most fundamental symbol in Aboriginal dot painting art, representing campsites, waterholes, meeting places, or sacred Dreamtime sites"
+    ]
+  }
+}

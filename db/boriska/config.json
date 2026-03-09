@@ -1,0 +1,69 @@
+{
+  "siteId": "boriska",
+  "answererName": "Boriska",
+  "publishDate": "2004",
+  "baseUrl": "https://pre.hilife.me/boriska",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "火星男孩预言全集 - 波力斯卡关于火星文明与地球未来的预言与验证 | Boriska Prophecies",
+      "description": "俄罗斯火星男孩波力斯卡（Boris Kipriyanovich，1996年生）声称拥有火星前世记忆，2004年起引发媒体广泛关注。预言涉及火星文明、狮身人面像秘密、地球灾难、灵性进化等领域。本站收录其主要预言并进行验证分析。",
+      "keywords": "火星男孩,波力斯卡,Boriska,Boris Kipriyanovich,火星文明,狮身人面像,地球预言,靛蓝儿童,火星前世,预言验证",
+      "siteName": "火星男孩预言",
+      "ogTitle": "火星男孩预言全集 | Boriska Prophecies",
+      "ogDescription": "俄罗斯火星男孩波力斯卡关于火星文明、地球未来、狮身人面像秘密的预言收录与验证分析。",
+      "locale": "zh_CN",
+      "twitterDescription": "火星男孩波力斯卡的预言全集，涵盖火星文明、地球灾难、狮身人面像秘密等，含验证分析。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Boriska Prophecies - Mars Boy's Predictions on Martian Civilization & Earth's Future | Full Archive & Verification",
+      "description": "Russian 'Mars Boy' Boris Kipriyanovich (born 1996) claims to remember a past life on Mars. Since 2004, his statements about Martian civilization, the Great Sphinx, Earth's dangers, and spiritual evolution have attracted worldwide attention. Full archive with verification.",
+      "keywords": "Boriska,Boris Kipriyanovich,Mars Boy,Martian civilization,Great Sphinx,indigo children,Mars prophecy,Earth prophecy,spiritual evolution",
+      "siteName": "Boriska Prophecies",
+      "ogTitle": "Boriska Prophecies - The Mars Boy's Complete Predictions",
+      "ogDescription": "Russian Mars Boy Boris Kipriyanovich's predictions on Martian civilization, the Great Sphinx, and Earth's future. Full archive with real-world verification.",
+      "locale": "en_US",
+      "twitterDescription": "Boriska the Mars Boy's complete predictions on Martian civilization, the Sphinx, and Earth's future, with verification analysis."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "火星男孩预言",
+      "alternateName": "Boriska Prophecies",
+      "url": "https://pre.hilife.me/boriska/",
+      "description": "俄罗斯火星男孩波力斯卡关于火星文明与地球未来的预言收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eef0f4",
+    "white": "#fff",
+    "text": "#1a1e28",
+    "text2": "#585e74",
+    "textLight": "#444a60",
+    "primary": "#4a5a80",
+    "primaryDark": "#303e60",
+    "primaryBg": "#e6ecf6",
+    "link": "#4a5a80",
+    "border": "#c8cede",
+    "border2": "#a8b0c4",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#3a7aaa",
+    "tagBg": "#dee4f0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Boriska Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Boriska",
+    "sourceLabel": "Wikipedia"
+  }
+}

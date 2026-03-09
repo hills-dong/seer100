@@ -1,0 +1,69 @@
+{
+  "siteId": "hawking",
+  "answererName": "Stephen Hawking",
+  "publishDate": "1988-2018",
+  "baseUrl": "https://pre.hilife.me/hawking",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "霍金预言全集 - 人类未来的15条警告与验证 | Stephen Hawking Predictions",
+      "description": "英国理论物理学家斯蒂芬·霍金（1942-2018）关于人类未来的15条重要预言与警告，涵盖人工智能威胁、气候灾难、外星人接触风险、核战争、基因工程、太空移民等领域，附真实度评估。",
+      "keywords": "霍金预言,霍金警告,Stephen Hawking,人工智能威胁,气候变化,外星人,核战争,太空移民,霍金辐射,黑洞,时间旅行",
+      "siteName": "霍金预言",
+      "ogTitle": "霍金预言全集 | Stephen Hawking Predictions",
+      "ogDescription": "理论物理学家霍金关于人类未来的15条重要预言与警告，涵盖AI威胁、气候灾难、太空移民等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "15条霍金对人类未来的警告与预言，含真实度验证。AI威胁、气候灾难、百年内必须离开地球等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Stephen Hawking Predictions - 15 Warnings About Humanity's Future | Full Archive & Verification",
+      "description": "British theoretical physicist Stephen Hawking (1942-2018) made 15 major predictions and warnings about humanity's future, covering AI threats, climate catastrophe, alien contact risks, nuclear war, genetic engineering, and space colonization. With real-world verification.",
+      "keywords": "Stephen Hawking,Hawking predictions,AI danger,climate change,alien contact,nuclear war,space colonization,Hawking radiation,black holes,time travel,future warnings",
+      "siteName": "Hawking Predictions",
+      "ogTitle": "Stephen Hawking Predictions - Warnings About Humanity's Future",
+      "ogDescription": "15 predictions and warnings from theoretical physicist Stephen Hawking about AI, climate, space colonization, and the future of humanity. With verification analysis.",
+      "locale": "en_US",
+      "twitterDescription": "15 predictions from Stephen Hawking on AI threats, climate catastrophe, leaving Earth, and more. With real-world verification."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "霍金预言",
+      "alternateName": "Stephen Hawking Predictions",
+      "url": "https://pre.hilife.me/hawking/",
+      "description": "理论物理学家霍金关于人类未来的预言与警告完整收录与验证",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#eff0f4",
+    "white": "#fff",
+    "text": "#20242e",
+    "text2": "#686c78",
+    "textLight": "#545a66",
+    "primary": "#2e6a7a",
+    "primaryDark": "#1a4e5c",
+    "primaryBg": "#e4f0f4",
+    "link": "#2e6a7a",
+    "border": "#d6dae2",
+    "border2": "#bac0ca",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#e6e8ee"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "Hawking Predictions"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+    "sourceLabel": "Wikipedia"
+  }
+}

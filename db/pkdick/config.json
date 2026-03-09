@@ -1,0 +1,69 @@
+{
+  "siteId": "pkdick",
+  "answererName": "Philip K. Dick",
+  "publishDate": "1962-1982",
+  "baseUrl": "https://pre.hilife.me/pkdick",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "meta": {
+    "zh": {
+      "htmlLang": "zh-CN",
+      "title": "菲利普·K·迪克预言全集 - 科幻大师对人类未来的16条预言与验证 | Philip K. Dick Prophecies",
+      "description": "美国科幻作家菲利普·K·迪克（1928-1982）通过小说预见的16项未来科技与社会变革，涵盖人工智能、虚拟现实、监控社会、深度伪造、个性化广告等领域。作品改编为《银翼杀手》《少数派报告》《全面回忆》等经典影片。",
+      "keywords": "菲利普迪克,PKD,科幻预言,银翼杀手,少数派报告,全面回忆,高堡奇人,仿生人会梦见电子羊吗,AI预言,虚拟现实预言",
+      "siteName": "菲利普·K·迪克预言",
+      "ogTitle": "菲利普·K·迪克预言全集 | Philip K. Dick Prophecies",
+      "ogDescription": "科幻大师菲利普·K·迪克通过小说预见的16项未来科技与社会变革，涵盖AI、VR、监控社会、深度伪造等领域。",
+      "locale": "zh_CN",
+      "twitterDescription": "16条科幻大师菲利普·K·迪克的预言，含真实度验证。已应验：AI意识辩论、个性化广告、无人机监控、虚拟现实等。"
+    },
+    "en": {
+      "htmlLang": "en",
+      "title": "Philip K. Dick Prophecies - 16 Predictions from the Sci-Fi Visionary (1928-1982) | Full Archive & Verification",
+      "description": "American sci-fi author Philip K. Dick (1928-1982) foresaw 16 technological and social transformations through his novels, including AI consciousness, virtual reality, surveillance states, deepfakes, and personalized advertising. Works adapted into Blade Runner, Minority Report, Total Recall, and more.",
+      "keywords": "Philip K Dick,PKD,sci-fi prophecy,Blade Runner,Minority Report,Total Recall,Man in the High Castle,Do Androids Dream,AI prediction,virtual reality prediction",
+      "siteName": "Philip K. Dick Prophecies",
+      "ogTitle": "Philip K. Dick Prophecies - The Sci-Fi Visionary's Complete Predictions",
+      "ogDescription": "16 predictions from sci-fi master Philip K. Dick (1928-1982). Full archive with real-world verification covering AI, VR, surveillance, deepfakes, and more.",
+      "locale": "en_US",
+      "twitterDescription": "16 predictions from Philip K. Dick, the sci-fi visionary. Verified: AI consciousness debates, personalized ads, drone surveillance, virtual reality, and more."
+    }
+  },
+  "structuredData": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "菲利普·K·迪克预言",
+      "alternateName": "Philip K. Dick Prophecies",
+      "url": "https://pre.hilife.me/pkdick/",
+      "description": "科幻大师菲利普·K·迪克通过小说预见的未来科技与社会变革",
+      "inLanguage": ["zh-CN", "en"]
+    }
+  ],
+  "theme": {
+    "bg": "#f0eef2",
+    "white": "#fff",
+    "text": "#282430",
+    "text2": "#706878",
+    "textLight": "#5c5468",
+    "primary": "#7a5080",
+    "primaryDark": "#5c3660",
+    "primaryBg": "#f2ecf4",
+    "link": "#7a5080",
+    "border": "#dcd8e0",
+    "border2": "#c0bac8",
+    "orange": "#d4880e",
+    "red": "#c04040",
+    "blue": "#4a7ab5",
+    "tagBg": "#eceaf0"
+  },
+  "logo": {
+    "type": "image",
+    "file": "logo.svg",
+    "alt": "P.K. Dick Prophecies"
+  },
+  "footer": {
+    "sourceUrl": "https://en.wikipedia.org/wiki/Philip_K._Dick",
+    "sourceLabel": "Wikipedia"
+  }
+}

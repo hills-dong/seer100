@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "女巫预言",
+    "siteSubtitle": "北欧埃达诗集（约950年）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "《女巫预言》是什么？",
+    "homeIntro1": "《女巫预言》（古诺尔斯语：Völuspá，意为「女先知的预言」）是北欧《诗体埃达》（Poetic Edda）的开篇之作，也是北欧神话最重要的文献之一。全诗约66节，由一位沃尔瓦（völva，女先知/女巫）向主神奥丁讲述世界的起源、历史与终结。",
+    "homeIntro2": "诗中描述了世界从虚空（金伦加鸿沟）中创生，经历诸神的黄金时代，到第一场战争打破和平，再到诸神黄昏（Ragnarök）——世界在烈火与洪水中毁灭。但毁灭并非终点：大地将从海中重新升起，幸存的神祇将开启新的时代。",
+    "homeIntro3": "该诗约成文于公元950年前后的冰岛，现存于两份中世纪手稿：《皇家手稿》（Codex Regius，约1270年）和《豪克之书》（Hauksbók，约1334年）。本站按诗歌结构分段收录，附白话翻译与文化解读。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「兄弟相残，姐妹之子互相杀戮；世道险恶，淫风肆虐——斧之时代，剑之时代，盾牌碎裂；风之时代，狼之时代，直到世界沉沦。」",
+    "keyPoints": "关键节点",
+    "keyPointsList": [
+      "创世 —— 世界从金伦加鸿沟中诞生，诸神造天地万物",
+      "黄金时代 —— 诸神在伊达平原建殿，万物和谐",
+      "第一场战争 —— 华纳神族与阿萨神族开战，和平终结",
+      "人类诞生 —— 奥丁等三神用木头创造人类",
+      "诸神黄昏 —— 芬里尔挣脱锁链，世界在烈火中毁灭",
+      "世界重生 —— 大地从海中升起，新的黄金时代开始"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "诗歌原文基于《皇家手稿》（Codex Regius）版本，参考 <a href=\"https://en.wikipedia.org/wiki/V%C3%B6lusp%C3%A1\" target=\"_blank\" rel=\"noopener\">Wikipedia: Völuspá</a>",
+      "英译参考 Henry Adams Bellows (1936) 与 Carolyne Larrington (2014) 的学术译本（<a href=\"https://www.sacred-texts.com/neu/poe/poe03.htm\" target=\"_blank\" rel=\"noopener\">Sacred Texts</a>）",
+      "白话翻译与文化解读为编者整理，不代表学术定论",
+      "站点图标采用北欧如尼文字 Algiz (ᛉ)——古日耳曼语中意为「保护」，是北欧文化中最具辨识度的符文之一"
+    ]
+  },
+  "en": {
+    "siteTitle": "Völuspá Prophecies",
+    "siteSubtitle": "Poetic Edda (~950 AD)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "What is Völuspá?",
+    "homeIntro1": "Völuspá (Old Norse: 'Prophecy of the Seeress') is the opening poem of the Poetic Edda and one of the most important sources of Norse mythology. Comprising approximately 66 stanzas, it recounts a völva (seeress) telling Odin about the creation, history, and ultimate fate of the world.",
+    "homeIntro2": "The poem describes the world's creation from the primordial void (Ginnungagap), through the gods' golden age, the first war that shattered the peace, and finally Ragnarök — the destruction of the world in fire and flood. But destruction is not the end: the earth rises again from the sea, and surviving gods usher in a new age.",
+    "homeIntro3": "The poem was likely composed around 950 AD in Iceland. It survives in two medieval manuscripts: the Codex Regius (~1270) and Hauksbók (~1334). This site presents the poem in structured sections with modern translations and cultural analysis.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Brothers shall fight and slay each other; sisters' sons shall kinship stain. Hard is it on earth — an age of axes, an age of swords, shields are cloven; an age of storms, an age of wolves, ere the world falls.\"",
+    "keyPoints": "Key Sections",
+    "keyPointsList": [
+      "Creation —— The world is born from Ginnungagap, gods shape heaven and earth",
+      "Golden Age —— The gods build halls on Iðavöllr, all things in harmony",
+      "First War —— The Vanir and Æsir clash, peace is shattered",
+      "Human Creation —— Odin and two gods create mankind from driftwood",
+      "Ragnarök —— Fenrir breaks free, the world burns in fire",
+      "World Renewed —— Earth rises from the sea, a new golden age begins"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Poem text based on the Codex Regius version, referencing <a href=\"https://en.wikipedia.org/wiki/V%C3%B6lusp%C3%A1\" target=\"_blank\" rel=\"noopener\">Wikipedia: Völuspá</a>",
+      "English translations reference Henry Adams Bellows (1936) and Carolyne Larrington (2014) scholarly editions (<a href=\"https://www.sacred-texts.com/neu/poe/poe03.htm\" target=\"_blank\" rel=\"noopener\">Sacred Texts</a>)",
+      "Vernacular translations and cultural commentary are editorial, not academic consensus",
+      "Site icon: Algiz rune (ᛉ) — meaning 'protection' in Proto-Germanic, one of the most recognizable symbols of Norse culture"
+    ]
+  }
+}

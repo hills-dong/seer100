@@ -1,0 +1,58 @@
+{
+  "zh": {
+    "siteTitle": "辛普森一家预言",
+    "siteSubtitle": "美国动画剧集（1989至今）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "辛普森一家是什么？",
+    "homeIntro1": "《辛普森一家》（The Simpsons）是美国福克斯广播公司自1989年起播出的动画情景喜剧，由马特·格勒宁（Matt Groening）创作。该剧以辛普森家族的日常生活为主线，通过讽刺幽默反映美国社会的方方面面，至今已播出超过35季，是美国播出时间最长的黄金时段动画系列。",
+    "homeIntro2": "令人惊叹的是，这部动画剧集多次在数年甚至数十年前就「预测」到了后来真实发生的事件。从特朗普当选总统到迪士尼收购福克斯，从智能手表到视频通话，《辛普森一家》似乎拥有不可思议的「预言」能力。",
+    "homeIntro3": "当然，这些「预言」更多源于编剧团队对社会趋势的敏锐洞察、海量剧集的统计概率，以及讽刺喜剧将现实推向极端的创作手法。本站整理了18个最著名的「预言」案例，并对每一条进行了验证分析。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「我们只是把事情推向了最荒谬的极端——然后现实追上来了。」——辛普森一家编剧团队",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1989年 —— 《辛普森一家》首播，开启美国最长寿动画剧集",
+      "1995年 —— 第6季出现智能手表、视频通话等科技预测",
+      "2000年 —— S11E17「Bart to the Future」预言特朗普当选总统",
+      "2003年 —— 多个关于动物攻击、科学发现的预言陆续应验",
+      "2013年 —— 迪士尼收购福克斯的剧情在5年后成为现实",
+      "2017年 —— 特朗普就任总统，辛普森一家再次登上新闻头条"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言案例整理自《辛普森一家》各季剧集内容与公开报道（<a href=\"https://en.wikipedia.org/wiki/The_Simpsons\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>）",
+      "验证评价基于公开新闻报道和历史事件记录（<a href=\"https://www.snopes.com/articles/305591/times-the-simpsons-predicted-the-future/\" target=\"_blank\" rel=\"noopener\">Snopes</a>）",
+      "编者观点不代表学术定论，部分「预言」的认定存在争议",
+      "站点图标采用甜甜圈符号——荷马·辛普森标志性的最爱食物，也是该剧最具辨识度的文化符号之一"
+    ]
+  },
+  "en": {
+    "siteTitle": "The Simpsons Predictions",
+    "siteSubtitle": "American Animated Series (1989-present)",
+    "navHome": "Background",
+    "navAll": "All Predictions",
+    "homeTitle": "What is The Simpsons?",
+    "homeIntro1": "The Simpsons is an American animated sitcom created by Matt Groening for the Fox Broadcasting Company. First airing in 1989, it has run for over 35 seasons, making it the longest-running American primetime animated series. The show follows the Simpson family and satirizes American society and culture.",
+    "homeIntro2": "Remarkably, the show has repeatedly appeared to 'predict' real-world events years or even decades before they happened. From Trump's presidency to Disney's acquisition of Fox, from smartwatches to video calling, The Simpsons seems to possess an uncanny ability to foresee the future.",
+    "homeIntro3": "Of course, these 'predictions' largely stem from the writing team's sharp social observation, the statistical probability of 35+ seasons of content, and the comedic technique of pushing reality to absurd extremes. This site compiles 18 of the most famous cases and verifies each one.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"We just took things to their most absurd extreme — and then reality caught up.\" — The Simpsons writing team",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1989 —— The Simpsons premieres, becoming America's longest-running animated series",
+      "1995 —— Season 6 features smartwatch, video calling and other tech predictions",
+      "2000 —— S11E17 'Bart to the Future' predicts Trump presidency",
+      "2003 —— Multiple predictions about animal attacks and scientific discoveries come true",
+      "2013 —— Disney-Fox acquisition plotline becomes reality 5 years later",
+      "2017 —— Trump inaugurated as president, The Simpsons makes headlines again"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prediction cases compiled from The Simpsons episode content and public reporting (<a href=\"https://en.wikipedia.org/wiki/The_Simpsons\" target=\"_blank\" rel=\"noopener\">Wikipedia</a>)",
+      "Verification based on public news reports and historical records (<a href=\"https://www.snopes.com/articles/305591/times-the-simpsons-predicted-the-future/\" target=\"_blank\" rel=\"noopener\">Snopes</a>)",
+      "Editorial opinions do not represent academic consensus; some 'predictions' are debated",
+      "Site icon: donut symbol — Homer Simpson's iconic favorite food and one of the show's most recognizable cultural symbols"
+    ]
+  }
+}

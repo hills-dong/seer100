@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 28" height="20">
+  <!-- Cross on hill (Križevac / Cross Mountain) -->
+  <!-- Hill / mountain base -->
+  <path d="M3 26 L14 8 L25 26 Z" fill="#184e5c"/>
+  <!-- Cross on top of hill -->
+  <line x1="14" y1="3" x2="14" y2="13" stroke="#2e6a7a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="10" y1="6.5" x2="18" y2="6.5" stroke="#2e6a7a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="bold" fill="#184e5c" letter-spacing="0.5">MEDJUGORJE</text>
+</svg>

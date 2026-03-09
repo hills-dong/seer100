@@ -1,0 +1,56 @@
+{
+  "zh": {
+    "siteTitle": "奥威尔文学预言",
+    "siteSubtitle": "英国反乌托邦作家（1903-1950）",
+    "navHome": "预言介绍",
+    "navAll": "预言全集",
+    "homeTitle": "乔治·奥威尔是谁？",
+    "homeIntro1": "乔治·奥威尔（George Orwell，1903年6月25日—1950年1月21日），本名埃里克·阿瑟·布莱尔，英国小说家、散文家、记者和评论家。他以敏锐的政治洞察力和犀利的文笔闻名于世，被公认为20世纪最有影响力的英语作家之一。",
+    "homeIntro2": "奥威尔最著名的两部作品——《1984》（1949年）和《动物庄园》（1945年）——以文学的形式对极权主义、大规模监控、语言操控和历史篡改发出了深刻警告。这些虚构的反乌托邦场景在数十年后惊人地成为现实。",
+    "homeIntro3": "从NSA棱镜计划到社交媒体审查，从「新话」到政治话语的简化，从「电幕」到无处不在的监控摄像头和智能设备——奥威尔笔下的噩梦正在以各种形式渗透进我们的日常生活。本站整理了他作品中最具预言性的段落，并与现实世界的事件进行对照验证。",
+    "coreMessage": "核心信息",
+    "coreQuote": "「谁控制了过去，谁就控制了未来；谁控制了现在，谁就控制了过去。」——《1984》",
+    "keyPoints": "关键时间节点",
+    "keyPointsList": [
+      "1903年 —— 出生于英属印度比哈尔邦，本名埃里克·阿瑟·布莱尔",
+      "1936年 —— 赴西班牙参加内战，亲历极权主义的残酷",
+      "1945年 —— 出版《动物庄园》，以寓言讽刺苏联极权",
+      "1949年 —— 出版《1984》，构建了完整的极权监控社会图景",
+      "1950年 —— 因肺结核在伦敦病逝，年仅46岁"
+    ],
+    "sourceTitle": "数据来源",
+    "sourceList": [
+      "预言内容摘自奥威尔原著《1984》（1949年）和《动物庄园》（1945年），以及部分散文作品（<a href=\"https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\" target=\"_blank\" rel=\"noopener\">Wikipedia: 1984</a>）",
+      "验证评价基于公开新闻报道、政府解密文件和学术研究",
+      "编者观点不代表学术定论",
+      "站点图标采用电幕/全视之眼符号——《1984》中无处不在的监控屏幕是奥威尔最具标志性的文学意象"
+    ]
+  },
+  "en": {
+    "siteTitle": "Orwell Literary Prophecies",
+    "siteSubtitle": "English Dystopian Author (1903-1950)",
+    "navHome": "Background",
+    "navAll": "All Prophecies",
+    "homeTitle": "Who is George Orwell?",
+    "homeIntro1": "George Orwell (June 25, 1903 – January 21, 1950), born Eric Arthur Blair, was an English novelist, essayist, journalist, and critic. Renowned for his acute political insight and sharp prose, he is widely regarded as one of the most influential English-language writers of the 20th century.",
+    "homeIntro2": "Orwell's two most famous works — '1984' (1949) and 'Animal Farm' (1945) — delivered profound literary warnings against totalitarianism, mass surveillance, language manipulation, and historical revisionism. These fictional dystopian scenarios have become remarkably prescient decades later.",
+    "homeIntro3": "From the NSA's PRISM program to social media censorship, from 'Newspeak' to the simplification of political discourse, from 'telescreens' to ubiquitous CCTV cameras and smart devices — Orwell's nightmares are seeping into our daily lives in various forms. This site compiles the most prophetic passages from his works and cross-references them with real-world events.",
+    "coreMessage": "Core Message",
+    "coreQuote": "\"Who controls the past controls the future; who controls the present controls the past.\" — 1984",
+    "keyPoints": "Key Timeline",
+    "keyPointsList": [
+      "1903 —— Born Eric Arthur Blair in British India (Bihar)",
+      "1936 —— Fought in the Spanish Civil War, witnessed totalitarianism firsthand",
+      "1945 —— Published 'Animal Farm', a satirical allegory of Soviet totalitarianism",
+      "1949 —— Published '1984', envisioning a complete totalitarian surveillance state",
+      "1950 —— Died of tuberculosis in London, aged 46"
+    ],
+    "sourceTitle": "Data Sources",
+    "sourceList": [
+      "Prophetic passages sourced from Orwell's original works: '1984' (1949) and 'Animal Farm' (1945), plus selected essays (<a href=\"https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\" target=\"_blank\" rel=\"noopener\">Wikipedia: 1984</a>)",
+      "Verification based on public news reports, declassified government documents, and academic research",
+      "Editorial opinions do not represent academic consensus",
+      "Site icon: telescreen/all-seeing eye — the omnipresent surveillance screen in '1984' is Orwell's most iconic literary image"
+    ]
+  }
+}

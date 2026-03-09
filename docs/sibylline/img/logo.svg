@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" height="20">
+  <!-- Temple icon: classical columns with pediment -->
+  <!-- Pediment (triangle roof) -->
+  <polygon points="14,3 3,12 25,12" fill="#8c5a2e"/>
+  <!-- Architrave (beam) -->
+  <rect x="3" y="12" width="22" height="2" fill="#6a4018"/>
+  <!-- Left column -->
+  <rect x="5" y="14" width="3" height="11" fill="#8c5a2e"/>
+  <!-- Center column -->
+  <rect x="12.5" y="14" width="3" height="11" fill="#8c5a2e"/>
+  <!-- Right column -->
+  <rect x="20" y="14" width="3" height="11" fill="#8c5a2e"/>
+  <!-- Base/stylobate -->
+  <rect x="2" y="25" width="24" height="2" fill="#6a4018"/>
+  <!-- Text -->
+  <text x="32" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#6a4018" letter-spacing="0.5">SIBYLLINE</text>
+</svg>
