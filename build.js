@@ -372,6 +372,16 @@ function buildIndex() {
   const sitesJsonPath = path.join(dbRoot, 'sites.json');
   const sites = JSON.parse(fs.readFileSync(sitesJsonPath, 'utf8'));
 
+  // Auto-promote pending sites to done if their data files exist
+  for (const site of sites) {
+    if (site.status === 'done') continue;
+    const cfgPath = path.join(dbRoot, site.siteId, 'config.json');
+    if (fs.existsSync(cfgPath)) {
+      site.status = 'done';
+      site.url = site.url || `https://pre.hilife.me/${site.siteId}/`;
+    }
+  }
+
   // Enrich done sites with data from their db directories
   for (const site of sites) {
     if (site.status !== 'done') continue;
