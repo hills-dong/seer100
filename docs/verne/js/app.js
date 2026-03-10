@@ -1,4 +1,9 @@
 let lang = (typeof defaultLang !== 'undefined') ? defaultLang : 'zh';
+if (lang === 'zh' && !/^zh/i.test(navigator.language || '')) {
+var p = location.pathname;
+var enUrl = p.endsWith('index.html') ? p.replace(/index\.html$/, 'en/index.html') : p.replace(/\/?$/, '/') + 'en/';
+location.replace(enUrl);
+}
 let currentCat = 'all';
 let currentStatus = 'all';
 let currentTab = 'all'; 

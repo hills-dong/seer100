@@ -481,28 +481,23 @@ function buildIndex() {
     const yearDisplay = parseInt(s.startYear, 10) < 0
       ? `<span data-lang="zh">公元前${Math.abs(parseInt(s.startYear, 10))}年</span><span data-lang="en">${Math.abs(parseInt(s.startYear, 10))} BC</span>`
       : s.startYear;
-    const logoCell = isDone && s.logo
-      ? `<img src="${s.siteId}/img/${escapeHtml(s.logo)}" alt="" class="tbl-logo">`
+    const logoCell = isDone
+      ? `<img src="${s.siteId}/img/favicon.png" alt="" class="tbl-logo">`
       : '';
     const nameCell = isDone
-      ? `<a href="${escapeHtml(urlZh)}" target="_blank" rel="noopener" class="site-link" data-lang="zh">${logoCell}<span>${escapeHtml(nameZh)}</span></a><a href="${escapeHtml(urlEn)}" target="_blank" rel="noopener" class="site-link" data-lang="en">${logoCell}<span>${escapeHtml(nameEn)}</span></a>`
+      ? `<span class="site-link" data-lang="zh">${logoCell}<span>${escapeHtml(nameZh)}</span></span><span class="site-link" data-lang="en">${logoCell}<span>${escapeHtml(nameEn)}</span></span>`
       : `<span data-lang="zh" class="site-pending">${escapeHtml(nameZh)}</span><span data-lang="en" class="site-pending">${escapeHtml(nameEn)}</span>`;
     const countCell = isDone && s.count ? s.count : '';
     const rateCell = isDone && s.hitRate !== null
       ? `<span class="hit-rate">${s.hitRate}%</span>`
       : '';
-    const statusCell = isDone
-      ? `<a href="${escapeHtml(urlZh)}" target="_blank" rel="noopener" class="status-done" data-lang="zh"><span>进入</span> →</a><a href="${escapeHtml(urlEn)}" target="_blank" rel="noopener" class="status-done" data-lang="en"><span>Enter</span> →</a>`
-      : `<span class="status-coming"><span data-lang="zh">即将推出</span><span data-lang="en">Coming soon</span></span>`;
-
-    return `<tr data-cat="${s.category}" data-country="${s.country}" class="${isDone ? '' : 'row-pending'}">
+    return `<tr data-cat="${s.category}" data-country="${s.country}" class="${isDone ? 'row-done' : 'row-pending'}"${isDone ? ` data-href-zh="${escapeHtml(urlZh)}" data-href-en="${escapeHtml(urlEn)}"` : ''}>
       <td class="col-name">${nameCell}</td>
       <td class="col-cat"><span data-lang="zh">${escapeHtml(catLabel.zh)}</span><span data-lang="en">${escapeHtml(catLabel.en)}</span></td>
       <td class="col-country"><span data-lang="zh">${escapeHtml(countryLabel.zh)}</span><span data-lang="en">${escapeHtml(countryLabel.en)}</span></td>
       <td class="col-year">${yearDisplay}</td>
       <td class="col-count">${countCell}</td>
       <td class="col-rate">${rateCell}</td>
-      <td class="col-status">${statusCell}</td>
     </tr>`;
   }).join('\n');
 
@@ -527,12 +522,10 @@ function buildIndex() {
         <div class="upcoming-source">
           <a href="${escapeHtml(u.siteUrl)}" target="_blank" rel="noopener" style="color:${u.primary}" data-lang="zh">${escapeHtml(u.siteNameZh)}</a><a href="${escapeHtml(u.siteUrlEn)}" target="_blank" rel="noopener" style="color:${u.primary}" data-lang="en">${escapeHtml(u.siteNameEn)}</a>${u.hitRate !== null ? ` <span class="upcoming-rate"><span data-lang="zh">历史应验率</span><span data-lang="en">Hit rate</span> ${u.hitRate}%</span>` : ''}
         </div>
-        ${u.q ? `<div class="upcoming-q"><span data-lang="zh">${escapeHtml(u.q)}</span><span data-lang="en">${escapeHtml(u.q_en)}</span></div>` : ''}
         <div class="upcoming-a">
           <span data-lang="zh">${escapeHtml(u.a)}</span>
           <span data-lang="en">${escapeHtml(u.a_en)}</span>
         </div>
-        ${u.verdict_zh ? `<div class="upcoming-verdict"><span data-lang="zh">${escapeHtml(u.verdict_zh)}</span><span data-lang="en">${escapeHtml(u.verdict_en)}</span></div>` : ''}
       </div>`;
     }).join('\n    ');
 
@@ -711,9 +704,10 @@ body {
 .row-pending:hover td { color: var(--text2); }
 .col-name { min-width: 160px; }
 .col-cat, .col-country { white-space: nowrap; }
-.col-year, .col-count, .col-rate { text-align: center; white-space: nowrap; }
-.col-status { text-align: right; white-space: nowrap; }
-.tbl-logo { height: 16px; width: auto; margin-right: 6px; vertical-align: middle; }
+.col-year { text-align: left; white-space: nowrap; padding-left: 4px; padding-right: 4px; }
+.col-count, .col-rate { text-align: left; white-space: nowrap; }
+.row-done { cursor: pointer; }
+.tbl-logo { height: 16px; width: 16px; margin-right: 6px; vertical-align: middle; border-radius: 2px; }
 .site-link {
   text-decoration: none; color: var(--text); font-weight: 500;
   display: inline-flex; align-items: center;
@@ -721,12 +715,6 @@ body {
 .site-link:hover { color: var(--heading); }
 .site-pending { color: var(--text2); }
 .country-code { font-size: 11px; color: var(--text2); }
-.status-done {
-  font-size: 12px; font-weight: 500; text-decoration: none;
-  color: var(--heading); white-space: nowrap;
-}
-.status-done:hover { opacity: .7; }
-.status-coming { font-size: 12px; color: var(--border2); }
 .hit-rate { font-weight: 600; color: var(--heading); }
 .upcoming-rate { font-size: 12px; color: var(--text2); margin-left: auto; }
 
@@ -766,9 +754,9 @@ body {
   .header-logo { width: 24px; height: 24px; }
   .content { padding: 0 12px 48px; }
   .main-tab { padding: 8px 16px; font-size: 14px; }
-  .col-cat, .col-country, .col-count, .col-rate { display: none; }
-  .col-name { min-width: 120px; }
-  .sites-table th:nth-child(2), .sites-table th:nth-child(3), .sites-table th:nth-child(5), .sites-table th:nth-child(6) { display: none; }
+  .col-country, .col-count { display: none; }
+  .col-name { min-width: 100px; }
+  .sites-table th:nth-child(3), .sites-table th:nth-child(5) { display: none; }
   .upcoming-item { padding: 12px 14px; }
 }
 @media (max-width: 375px) {
@@ -785,8 +773,7 @@ body {
 [data-lang="en"] { display: none; }
 body.en [data-lang="zh"] { display: none; }
 body.en [data-lang="en"] { display: initial; }
-body.en a.site-link[data-lang="en"],
-body.en a.status-done[data-lang="en"] { display: inline-flex; }
+body.en span.site-link[data-lang="en"] { display: inline-flex; }
 </style>
 </head>
 <body>
@@ -842,7 +829,6 @@ body.en a.status-done[data-lang="en"] { display: inline-flex; }
           <th><span data-lang="zh">起始年</span><span data-lang="en">Start</span></th>
           <th><span data-lang="zh">预言数</span><span data-lang="en">Count</span></th>
           <th><span data-lang="zh">历史应验率</span><span data-lang="en">Historical Hit Rate</span></th>
-          <th><span class="sr-only">Action</span></th>
         </tr>
       </thead>
       <tbody>
@@ -867,6 +853,13 @@ body.en a.status-done[data-lang="en"] { display: inline-flex; }
 
 <script>
 (function() {
+  // Auto-detect language
+  if (!/^zh/i.test(navigator.language || '')) {
+    document.body.classList.add('en');
+    var btn = document.querySelector('.lang-switch');
+    if (btn) btn.textContent = '中文';
+  }
+
   // Main tab switching
   document.querySelectorAll('.main-tab').forEach(function(tab) {
     tab.addEventListener('click', function() {
@@ -920,7 +913,14 @@ body.en a.status-done[data-lang="en"] { display: inline-flex; }
     });
   });
 
-  // Year groups are shown flat, no tab switching needed
+  // Clickable rows
+  document.querySelectorAll('tr.row-done').forEach(function(row) {
+    row.addEventListener('click', function() {
+      var isEn = document.body.classList.contains('en');
+      var href = isEn ? row.dataset.hrefEn : row.dataset.hrefZh;
+      if (href) window.open(href, '_blank', 'noopener');
+    });
+  });
 })();
 </script>
 </body>
