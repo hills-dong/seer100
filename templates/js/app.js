@@ -1,12 +1,4 @@
 let lang = (typeof defaultLang !== 'undefined') ? defaultLang : 'zh';
-
-// Auto-detect: redirect non-Chinese browsers from zh page to en page
-if (lang === 'zh' && !/^zh/i.test(navigator.language || '')) {
-  var p = location.pathname;
-  var enUrl = p.endsWith('index.html') ? p.replace(/index\.html$/, 'en/index.html') : p.replace(/\/?$/, '/') + 'en/';
-  location.replace(enUrl);
-}
-
 let currentCat = 'all';
 let currentStatus = 'all';
 let currentTab = 'all'; // 'intro' or 'all'
