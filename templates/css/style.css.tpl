@@ -299,6 +299,16 @@ main {
   background: var(--white);
   border: 1px solid var(--border);
   border-top: none;
+  position: relative;
+}
+.list-info::after {
+  content: '';
+  position: absolute;
+  left: -30px;
+  right: -30px;
+  bottom: -1px;
+  height: 1px;
+  background: var(--border);
 }
 
 /* Prophecy verdict inline */
