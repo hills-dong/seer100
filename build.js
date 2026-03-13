@@ -244,6 +244,7 @@ function generateHTML(siteData, lang) {
     twitterDescription: meta.twitterDescription,
     assetPrefix: assetPrefix,
     structuredData: structuredData,
+    analyticsScript: '  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JG9Q2GL3T4"></script>\n  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag(\'js\',new Date());gtag(\'config\',\'G-JG9Q2GL3T4\');</script>',
     logoHtml: logoHtml,
     navAll: labels.navAll,
     navHome: labels.navHome,
@@ -592,6 +593,8 @@ ${JSON.stringify({
   "provider": { "@type": "Organization", "name": "Seer100", "url": siteUrl + "/" }
 }, null, 2)}
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JG9Q2GL3T4"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-JG9Q2GL3T4');</script>
 <style>
 :root {
   --bg: #f5f5f0;
