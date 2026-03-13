@@ -33,6 +33,9 @@
 
   <!-- Structured Data -->
 {{structuredData}}
+
+  <!-- Google Analytics -->
+{{analyticsScript}}
 </head>
 
 <body>
