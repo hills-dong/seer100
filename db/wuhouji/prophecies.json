@@ -21,7 +21,9 @@
       "year": 1937,
       "status": "verified",
       "verdict_zh": "「鼠尾牛头」指1936年（鼠年）末至1937年（牛年）初。1937年7月7日卢沟桥事变爆发，全面抗日战争开始。二战欧洲战场于1939年爆发。乩文1933年刊出，对战争爆发时间的预言与史实基本吻合。",
-      "verdict_en": "'Tail of the Rat, head of the Ox' points to late 1936 (Year of the Rat) to early 1937 (Year of the Ox). The Marco Polo Bridge Incident on July 7, 1937 marked the start of the Second Sino-Japanese War. WWII in Europe began in 1939. Published in 1933, the prophecy's timing aligns closely with historical events."
+      "verdict_en": "'Tail of the Rat, head of the Ox' points to late 1936 (Year of the Rat) to early 1937 (Year of the Ox). The Marco Polo Bridge Incident on July 7, 1937 marked the start of the Second Sino-Japanese War. WWII in Europe began in 1939. Published in 1933, the prophecy's timing aligns closely with historical events.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 3,
@@ -33,7 +35,9 @@
       "year": 1937,
       "status": "verified",
       "verdict_zh": "准确描述了二战及抗日战争期间的惨况。1937至1945年间，中国军民伤亡超过3500万人，大量百姓从东部沿海向西南后方迁移（「西复东」）。「血染山河满地红」真实反映了南京大屠杀等惨烈战事。",
-      "verdict_en": "Accurately describes the devastation of WWII and the Second Sino-Japanese War. Between 1937 and 1945, Chinese military and civilian casualties exceeded 35 million, with massive population displacement from eastern coastal areas to the southwestern interior. 'Blood stains mountains and rivers' reflects the reality of atrocities including the Nanjing Massacre."
+      "verdict_en": "Accurately describes the devastation of WWII and the Second Sino-Japanese War. Between 1937 and 1945, Chinese military and civilian casualties exceeded 35 million, with massive population displacement from eastern coastal areas to the southwestern interior. 'Blood stains mountains and rivers' reflects the reality of atrocities including the Nanjing Massacre.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 4,
@@ -45,7 +49,9 @@
       "year": 1939,
       "status": "verified",
       "verdict_zh": "「太阳」指日本（日本国旗为太阳），「争北土」指日本侵占中国东北（1931年九一八事变）。「美人东渡」指美国参战太平洋战争（1941年）。「十四一心」拆字合为「德」——指纳粹德国。「水去西方」暗指「法」——法国。准确预言了二战主要参战国。",
-      "verdict_en": "'People of the sun' refers to Japan (the Rising Sun flag); 'contend for northern lands' refers to Japan's occupation of Manchuria (1931 Mukden Incident). 'Americans cross eastward' alludes to U.S. entry into the Pacific War (1941). 'Fourteen-one-heart' deconstructs into the character '德' (De/Germany) — Nazi Germany. 'Water goes west' alludes to '法' (Fa/France). Accurately prophesies the major belligerents of WWII."
+      "verdict_en": "'People of the sun' refers to Japan (the Rising Sun flag); 'contend for northern lands' refers to Japan's occupation of Manchuria (1931 Mukden Incident). 'Americans cross eastward' alludes to U.S. entry into the Pacific War (1941). 'Fourteen-one-heart' deconstructs into the character '德' (De/Germany) — Nazi Germany. 'Water goes west' alludes to '法' (Fa/France). Accurately prophesies the major belligerents of WWII.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 5,
@@ -57,7 +63,9 @@
       "year": 1946,
       "status": "verified",
       "verdict_zh": "「切齿雠仇今始复」指抗战胜利、日本投降（1945年）。「马先生」被解读为美国特使乔治·马歇尔（George Marshall），1945年底至1947年初赴华调停国共冲突，「马腾四海似苏秦」形容其穿梭外交，与史实吻合。",
-      "verdict_en": "'Teeth-gnashing vengeance finally repaid' refers to victory over Japan and its surrender (1945). 'Mr. Ma' is interpreted as U.S. envoy George Marshall, who mediated between the Nationalists and Communists from late 1945 to early 1947. 'Ma gallops across four seas like Su Qin' describes his shuttle diplomacy, consistent with historical events."
+      "verdict_en": "'Teeth-gnashing vengeance finally repaid' refers to victory over Japan and its surrender (1945). 'Mr. Ma' is interpreted as U.S. envoy George Marshall, who mediated between the Nationalists and Communists from late 1945 to early 1947. 'Ma gallops across four seas like Su Qin' describes his shuttle diplomacy, consistent with historical events.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 6,
@@ -69,7 +77,9 @@
       "year": 1949,
       "status": "verified",
       "verdict_zh": "「青天白日由西落」指中华民国国民党政权败退台湾（青天白日旗为国民党旗）。「五星旗帜向东生」指1949年中华人民共和国成立、五星红旗升起。此句是乩文中最著名的预言之一。注意：1933年原报刊版本写「五色旗帜」而非「五星旗帜」，1951年再版时才改为「五星」，存在事后修改的可能。",
-      "verdict_en": "'Blue-sky white-sun sets in the west' refers to the Nationalist (KMT) government's retreat to Taiwan (the Blue Sky with a White Sun is the KMT flag). 'Five-starred banner rises in the east' refers to the founding of the PRC in 1949 and the raising of the Five-Star Red Flag. This is one of the most famous lines. Note: the original 1933 newspaper version reads 'five-colored flags' (五色旗帜), not 'five-starred'; the change to 'five-starred' appeared only in the 1951 reprint, raising suspicions of post-hoc alteration."
+      "verdict_en": "'Blue-sky white-sun sets in the west' refers to the Nationalist (KMT) government's retreat to Taiwan (the Blue Sky with a White Sun is the KMT flag). 'Five-starred banner rises in the east' refers to the founding of the PRC in 1949 and the raising of the Five-Star Red Flag. This is one of the most famous lines. Note: the original 1933 newspaper version reads 'five-colored flags' (五色旗帜), not 'five-starred'; the change to 'five-starred' appeared only in the 1951 reprint, raising suspicions of post-hoc alteration.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 7,
@@ -81,7 +91,9 @@
       "year": 1949,
       "status": "partial",
       "verdict_zh": "「二蒋」常被解读为蒋介石与蒋经国父子，或蒋介石与中共方面某「蒋」姓人物。「两陈」有多种解读：陈诚与陈毅、陈立夫与陈伯达等。具体指代存在争议，但整体反映了国共内战中两方阵营的对抗格局。",
-      "verdict_en": "'Two Chiangs' is often interpreted as Chiang Kai-shek and his son Chiang Ching-kuo, or Chiang Kai-shek versus a CCP figure surnamed Chiang. 'Two Chens' has multiple interpretations: Chen Cheng vs. Chen Yi, Chen Lifu vs. Chen Boda, etc. The specific referents are debated, but the verse broadly reflects the confrontation between the two sides in the Chinese Civil War."
+      "verdict_en": "'Two Chiangs' is often interpreted as Chiang Kai-shek and his son Chiang Ching-kuo, or Chiang Kai-shek versus a CCP figure surnamed Chiang. 'Two Chens' has multiple interpretations: Chen Cheng vs. Chen Yi, Chen Lifu vs. Chen Boda, etc. The specific referents are debated, but the verse broadly reflects the confrontation between the two sides in the Chinese Civil War.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 8,
@@ -93,7 +105,9 @@
       "year": 1949,
       "status": "verified",
       "verdict_zh": "1949年前后，大量人口从大陆逃往香港、澳门避难。「五羊」即广州，1949年10月广州解放前局势动荡。「水巷」被广泛解读为香港或澳门（英葡殖民地），当时确为大陆难民的避风港。「钱财散尽犹小事，性命安全谢上苍」真实反映了逃难者的心态。",
-      "verdict_en": "Around 1949, large numbers of people fled from the mainland to Hong Kong and Macau. 'Five Rams' is Guangzhou, where the situation was turbulent before its fall in October 1949. 'Water lanes' is widely interpreted as Hong Kong or Macau (British/Portuguese colonies), which were indeed refuges for mainland refugees. 'Wealth lost is a small matter; give thanks for life preserved' authentically captures the refugee mentality."
+      "verdict_en": "Around 1949, large numbers of people fled from the mainland to Hong Kong and Macau. 'Five Rams' is Guangzhou, where the situation was turbulent before its fall in October 1949. 'Water lanes' is widely interpreted as Hong Kong or Macau (British/Portuguese colonies), which were indeed refuges for mainland refugees. 'Wealth lost is a small matter; give thanks for life preserved' authentically captures the refugee mentality.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 9,
@@ -105,7 +119,9 @@
       "year": 1949,
       "status": "verified",
       "verdict_zh": "此句为第一部分（1933年刊出）的结尾。「言和语」暗示短暂的和平，「留与明宵话短长」暗示未来还有纷争——与1949年后两岸分治、对峙的局面吻合。同时也是乩文形式上的分段标记，预告还有后续内容。",
-      "verdict_en": "This line closes the first section (published 1933). 'Speaking of peace' suggests a temporary truce; 'leave the reckoning for tomorrow night' implies future conflicts — consistent with the cross-strait standoff after 1949. It also serves as a structural marker in the divination text, signaling that more content follows."
+      "verdict_en": "This line closes the first section (published 1933). 'Speaking of peace' suggests a temporary truce; 'leave the reckoning for tomorrow night' implies future conflicts — consistent with the cross-strait standoff after 1949. It also serves as a structural marker in the divination text, signaling that more content follows.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 10,
@@ -117,7 +133,9 @@
       "year": 1966,
       "status": "partial",
       "verdict_zh": "「其二」部分1951年首次刊出，真实性存疑。「平地风波起」「戈兵相对张」常被解读为1966年文化大革命等政治运动中的社会动荡。但此段语句较为笼统，可适用于多个历史时期，缺乏如第一部分般的具体指向性。",
-      "verdict_en": "Part Two was first published in 1951; its authenticity is questionable. 'Storms on level ground' and 'weapons raised in confrontation' are often interpreted as the social upheaval of the Cultural Revolution (1966). However, these lines are rather generic and could apply to multiple historical periods, lacking the specificity of Part One."
+      "verdict_en": "Part Two was first published in 1951; its authenticity is questionable. 'Storms on level ground' and 'weapons raised in confrontation' are often interpreted as the social upheaval of the Cultural Revolution (1966). However, these lines are rather generic and could apply to multiple historical periods, lacking the specificity of Part One.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 11,
@@ -129,7 +147,9 @@
       "year": 1978,
       "status": "partial",
       "verdict_zh": "「稻粱难足」可对应1959-1961年大饥荒时期粮食极度匮乏的历史。「天降贤人有主张」常被解读为1978年邓小平推行改革开放。但此部分为1951年刊出版本，对后续数十年事件的「预言」可能受到质疑。",
-      "verdict_en": "'Rice and grain hard to come by' may correspond to the extreme food shortages during the Great Famine (1959-1961). 'Heaven sends a worthy person with clear vision' is often interpreted as Deng Xiaoping's Reform and Opening Up policy in 1978. However, this section was published in 1951, and its 'prophecies' of events decades later are subject to skepticism."
+      "verdict_en": "'Rice and grain hard to come by' may correspond to the extreme food shortages during the Great Famine (1959-1961). 'Heaven sends a worthy person with clear vision' is often interpreted as Deng Xiaoping's Reform and Opening Up policy in 1978. However, this section was published in 1951, and its 'prophecies' of events decades later are subject to skepticism.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 12,
@@ -141,7 +161,9 @@
       "year": 1997,
       "status": "partial",
       "verdict_zh": "香港1997年、澳门1999年分别回归中国，与「港澳回归」吻合。但此句被认为极可能是后人增补——1951年版本中并无如此直白的表述，此句主要出现在网络流传的扩展版本中，真实性高度存疑。",
-      "verdict_en": "Hong Kong returned to China in 1997 and Macau in 1999, matching 'Hong Kong and Macau return.' However, this line is widely believed to be a later addition — the 1951 version contained no such explicit statement. This line appears mainly in extended online versions, and its authenticity is highly doubtful."
+      "verdict_en": "Hong Kong returned to China in 1997 and Macau in 1999, matching 'Hong Kong and Macau return.' However, this line is widely believed to be a later addition — the 1951 version contained no such explicit statement. This line appears mainly in extended online versions, and its authenticity is highly doubtful.",
+      "yearReason": "根据武侯百年乩的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Wuhou Bainian Ji corresponds to this historical period"
     },
     {
       "id": 13,

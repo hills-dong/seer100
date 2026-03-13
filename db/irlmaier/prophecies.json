@@ -15,6 +15,21 @@
     {
       "id": 2,
       "cat": "war",
+      "q": "伊尔迈尔预言二战德国战败",
+      "a": "「战争会输掉。我们的城市会变成废墟。但之后会重新建设，一切会比以前更好。」",
+      "q_en": "Irlmaier predicted Germany's defeat in WWII",
+      "a_en": "\"The war will be lost. Our cities will be reduced to rubble. But afterward, everything will be rebuilt, and it will be better than before.\"",
+      "date": "1943",
+      "year": 1945,
+      "status": "verified",
+      "verdict_zh": "1945年5月德国无条件投降。德国主要城市在盟军轰炸中严重受损，战后在马歇尔计划等援助下迅速重建，经历了「经济奇迹」（Wirtschaftswunder），经济水平远超战前。",
+      "verdict_en": "Germany surrendered unconditionally in May 1945. Major German cities were heavily damaged by Allied bombing. Post-war reconstruction, aided by the Marshall Plan, led to the 'Wirtschaftswunder' (economic miracle), with economic levels far surpassing pre-war standards.",
+      "yearReason": "伊尔迈尔在其预见中描述了该时期的事件",
+      "yearReason_en": "Irlmaier described events of this period in his visions"
+    },
+    {
+      "id": 3,
+      "cat": "war",
       "q": "伊尔迈尔预测弗赖拉辛的空袭",
       "a": "他多次提前警告当地居民即将发生空袭，指出炸弹落点的精确位置，帮助人们提前转移到安全地带。",
       "q_en": "Irlmaier predicted air raids on Freilassing",
@@ -25,7 +40,7 @@
       "verdict_en": "Multiple Freilassing residents confirmed Irlmaier's accurate warnings before air raids. He even specified which houses would be destroyed and which would survive. These testimonies became key evidence in his 1947 trial."
     },
     {
-      "id": 3,
+      "id": 4,
       "cat": "war",
       "q": "伊尔迈尔描述未来的中东冲突引爆大战",
       "a": "「一切从中东开始。在那里有一次大规模的军事冲突，然后大事来临。一位重要的政治人物将在中东被暗杀或暗杀未遂，这成为导火索。」",
@@ -37,7 +52,7 @@
       "verdict_en": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "cat": "war",
       "q": "伊尔迈尔描述俄军突然入侵欧洲",
       "a": "「俄国人夜间突然向西推进，穿过三条楔形路线。一路沿北海方向推进，一路穿过中欧直达莱茵河，第三路经巴尔干半岛向西南推进。一切发生得非常突然，西方毫无准备。」",
@@ -49,7 +64,7 @@
       "verdict_en": ""
     },
     {
-      "id": 5,
+      "id": 6,
       "cat": "war",
       "q": "伊尔迈尔描述战争中使用的异常武器",
       "a": "「我看到飞机投下黄色粉尘。凡是接触到这种粉尘的人，无论是人还是牲畜，都会当场死亡。植物枯萎变黑。但不要打开窗户，把窗户和门用黑纸或黑布遮严。」",
@@ -61,7 +76,7 @@
       "verdict_en": ""
     },
     {
-      "id": 6,
+      "id": 7,
       "cat": "climate",
       "q": "伊尔迈尔描述三日黑暗",
       "a": "「然后黑暗降临，持续整整三天三夜。白天你无法看到自己的手指。在这段时间里，不要点蜡烛以外的任何光源。电灯不会亮。谁吸入粉尘就会死。关闭一切门窗，用黑布遮挡。」",
@@ -73,7 +88,7 @@
       "verdict_en": ""
     },
     {
-      "id": 7,
+      "id": 8,
       "cat": "climate",
       "q": "伊尔迈尔描述大彗星或小行星撞击",
       "a": "「战争结束时，我看到天空中有一个巨大的十字架。地球颤抖。一颗巨大的天体从太空坠入大海——大西洋。海水翻涌到极高的地方，淹没了大片海岸地区。」",
@@ -85,7 +100,7 @@
       "verdict_en": ""
     },
     {
-      "id": 8,
+      "id": 9,
       "cat": "society",
       "q": "伊尔迈尔描述战后的社会革命",
       "a": "「战后人们非常愤怒。他们抓住那些有权势的人。街上发生暴力事件。没有人愿意再当士兵。法律和秩序暂时崩溃。但这不会持续太久。」",
@@ -97,7 +112,7 @@
       "verdict_en": ""
     },
     {
-      "id": 9,
+      "id": 10,
       "cat": "economy",
       "q": "伊尔迈尔描述战后新货币",
       "a": "「旧的货币将毫无价值。新的货币出现了。一段时间内没有钱可用，但情况很快好转。新的货币是好的。」",
@@ -109,7 +124,7 @@
       "verdict_en": ""
     },
     {
-      "id": 10,
+      "id": 11,
       "cat": "economy",
       "q": "伊尔迈尔预言战前的经济繁荣与通胀",
       "a": "「在大事发生之前，会有一段前所未有的繁荣时期。金钱到处都是，但它变得越来越不值钱。人们不再满足于现有的一切，整个世界生活在虚假的富裕中。」",
@@ -121,7 +136,7 @@
       "verdict_en": ""
     },
     {
-      "id": 11,
+      "id": 12,
       "cat": "society",
       "q": "伊尔迈尔预言战前的道德堕落",
       "a": "「信仰越来越少，人们不再去教堂。年轻人穿着怪异，变得越来越不虔诚。一切都变得混乱。人们不再尊重彼此。」",
@@ -133,7 +148,7 @@
       "verdict_en": "Secularization in Western Europe has indeed continued — church attendance has declined steadily since WWII, with regular religious participation falling below 20% in many countries by the early 21st century. Changes in youth fashion and social attitudes also match. However, such broad social trend 'predictions' lack temporal specificity and constitute generalized forecasting."
     },
     {
-      "id": 12,
+      "id": 13,
       "cat": "war",
       "q": "伊尔迈尔描述战争持续时间极短",
       "a": "「整场战争不会持续很久。从俄国人推进到一切结束，大约只有三个月的时间。」",
@@ -145,7 +160,7 @@
       "verdict_en": ""
     },
     {
-      "id": 13,
+      "id": 14,
       "cat": "spirit",
       "q": "伊尔迈尔描述战后的和平与信仰复兴",
       "a": "「三日黑暗之后，阳光再次升起。一切变得美好而平静。一个漫长的和平时期开始了。那些幸存下来的人重新开始信仰上帝。这是一个新的开始。」",
@@ -155,19 +170,6 @@
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
-    },
-    {
-      "id": 14,
-      "cat": "war",
-      "q": "伊尔迈尔预言二战德国战败",
-      "a": "「战争会输掉。我们的城市会变成废墟。但之后会重新建设，一切会比以前更好。」",
-      "q_en": "Irlmaier predicted Germany's defeat in WWII",
-      "a_en": "\"The war will be lost. Our cities will be reduced to rubble. But afterward, everything will be rebuilt, and it will be better than before.\"",
-      "date": "1943",
-      "year": 1945,
-      "status": "verified",
-      "verdict_zh": "1945年5月德国无条件投降。德国主要城市在盟军轰炸中严重受损，战后在马歇尔计划等援助下迅速重建，经历了「经济奇迹」（Wirtschaftswunder），经济水平远超战前。",
-      "verdict_en": "Germany surrendered unconditionally in May 1945. Major German cities were heavily damaged by Allied bombing. Post-war reconstruction, aided by the Marshall Plan, led to the 'Wirtschaftswunder' (economic miracle), with economic levels far surpassing pre-war standards."
     },
     {
       "id": 15,
@@ -180,6 +182,258 @@
       "status": "partial",
       "verdict_zh": "2015年欧洲难民危机期间，超过百万难民从中东和北非涌入欧洲。然而伊尔迈尔描述的是从东方（俄军入侵方向）的逃亡，与实际难民路线方向不完全一致。难民危机的场景与描述部分吻合，但背景和原因不同。",
       "verdict_en": "During the 2015 European refugee crisis, over a million refugees entered Europe from the Middle East and North Africa. However, Irlmaier described flight from the east (the direction of Russian invasion), which doesn't fully match actual refugee routes. The visual scene partially matches, but the context and causes differ."
+    },
+    {
+      "cat": "economy",
+      "q": "伊尔迈尔预言通货膨胀将摧毁储蓄",
+      "a": "钱将变得一文不值。人们辛苦积攒的储蓄在一夜之间化为乌有。一袋面粉的价格将等于曾经一栋房子的价格。",
+      "q_en": "Irlmaier predicted inflation would destroy savings",
+      "a_en": "Money will become worthless. People's hard-earned savings will vanish overnight. A bag of flour will cost what a house once did.",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，描述为大战前征兆",
+      "yearReason_en": "Irlmaier did not specify timing, described as pre-war sign",
+      "id": 16
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述黄尘降临导致大规模死亡",
+      "a": "「飞机投下黄色的粉尘。当粉尘接触到地面，一切生命都会死亡——人类、动物、植物。不要出门，关紧窗户，用黑布遮盖一切。粉尘会持续三天三夜。」",
+      "q_en": "Irlmaier described yellow dust causing mass death",
+      "a_en": "\"Planes drop yellow dust. When the dust touches the ground, all life dies — humans, animals, plants. Do not go outside, seal all windows, cover everything with black cloth. The dust will last three days and three nights.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，与三日黑暗预言相关",
+      "yearReason_en": "Irlmaier did not specify timing, related to three days of darkness prophecy",
+      "id": 17
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述战争中的新式武器",
+      "a": "「战争中将使用一种人们从未见过的武器。那不是普通的炸弹，也不是核弹。它会产生一道看不见的光线，触碰到的一切都会化为灰烬。」",
+      "q_en": "Irlmaier described new weapons in war",
+      "a_en": "\"A weapon never seen before will be used in war. It is not an ordinary bomb, nor a nuclear bomb. It will produce an invisible beam, and everything it touches will turn to ash.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间",
+      "yearReason_en": "Irlmaier did not specify timing",
+      "id": 18
+    },
+    {
+      "cat": "climate",
+      "q": "伊尔迈尔预言大地震改变欧洲地貌",
+      "a": "「英格兰沿海将被大水淹没。意大利将遭受火山和地震的双重打击。西西里岛将沉入海底。」",
+      "q_en": "Irlmaier predicted earthquakes reshaping Europe",
+      "a_en": "\"The English coast will be flooded by great waters. Italy will be struck by both volcanoes and earthquakes. Sicily will sink into the sea.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，与大战后自然灾害相关",
+      "yearReason_en": "Irlmaier did not specify timing, related to post-war natural disasters",
+      "id": 19
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述三日黑暗",
+      "a": "「一场可怕的黑暗将降临大地，持续三天三夜。在这段时间里，不要打开窗户，不要点蜡烛，用祝福过的蜡烛祈祷。黑暗中传来的声音是魔鬼的声音，不要回应。」",
+      "q_en": "Irlmaier described three days of darkness",
+      "a_en": "\"A terrible darkness will descend upon the earth for three days and three nights. During this time, do not open windows, do not light candles except blessed ones. Voices heard in the darkness are the devil's — do not respond.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，属于末世预言",
+      "yearReason_en": "Irlmaier did not specify timing, belongs to end-times prophecy",
+      "id": 20
+    },
+    {
+      "cat": "society",
+      "q": "伊尔迈尔预言信仰衰落",
+      "a": "「教堂将变得空空荡荡。人们不再去做弥撒，也不再祈祷。年轻人嘲笑信仰，牧师的话无人听从。这将是灾难来临前的征兆。」",
+      "q_en": "Irlmaier predicted decline of faith",
+      "a_en": "\"Churches will stand empty. People will stop attending mass and praying. Young people will mock faith, and priests' words will go unheeded. This will be a sign of approaching catastrophe.\"",
+      "year": 2000,
+      "date": "1950-1959",
+      "status": "verified",
+      "verdict_zh": "21世纪欧洲宗教参与率急剧下降。德国2022年有超过50万人退出教会（创历史纪录）。法国、荷兰等国定期参加礼拜的人口比例降至10%以下。年轻一代无神论者比例持续上升。",
+      "verdict_en": "Religious participation declined sharply in 21st-century Europe. Over 500,000 left the German church in 2022 (a record). Regular worship attendance in France and Netherlands fell below 10%. Atheism among younger generations continues rising.",
+      "yearReason": "伊尔迈尔暗示的社会变化时间",
+      "yearReason_en": "Social change timeline implied by Irlmaier",
+      "id": 21
+    },
+    {
+      "cat": "society",
+      "q": "伊尔迈尔预言道德沦丧和社会衰退",
+      "a": "「人们将变得越来越贪婪，越来越不诚实。邻里之间不再互相帮助。人人只为自己活着。这种自私将毁掉整个社会的根基。」",
+      "q_en": "Irlmaier predicted moral decline and social decay",
+      "a_en": "\"People will become increasingly greedy and dishonest. Neighbors will no longer help each other. Everyone lives only for themselves. This selfishness will destroy the foundations of society.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，描述为灾难征兆",
+      "yearReason_en": "Irlmaier did not specify timing, described as sign of catastrophe",
+      "id": 22
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述中东高级领导人遇刺引发大战",
+      "a": "「在中东或巴尔干地区，一位高级领导人将被暗杀。这将是战争的导火索。此后事态迅速升级，无法控制。」",
+      "q_en": "Irlmaier described assassination of a Middle East leader triggering war",
+      "a_en": "\"In the Middle East or the Balkans, a high-ranking leader will be assassinated. This will be the trigger for war. Events will escalate rapidly and become uncontrollable.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间",
+      "yearReason_en": "Irlmaier did not specify timing",
+      "id": 23
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述俄军三路进攻的路线",
+      "a": "「俄国军队将分三路进攻：北路经波罗的海诸国和斯堪的纳维亚，中路穿过德国直抵莱茵河和鲁尔区，南路经巴尔干半岛进入意大利。」",
+      "q_en": "Irlmaier described three Russian attack routes",
+      "a_en": "\"Russian forces will attack in three prongs: the northern route through the Baltic states and Scandinavia, the central route through Germany to the Rhine and Ruhr, and the southern route through the Balkans into Italy.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间",
+      "yearReason_en": "Irlmaier did not specify timing",
+      "id": 24
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述大战只持续很短时间",
+      "a": "「整场战争不会持续很久。当黄尘和黑暗过去之后，一切就结束了。活下来的人将开始新的生活。」",
+      "q_en": "Irlmaier described the war lasting only a short time",
+      "a_en": "\"The entire war will not last long. When the yellow dust and darkness pass, everything will be over. The survivors will begin a new life.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间",
+      "yearReason_en": "Irlmaier did not specify timing",
+      "id": 25
+    },
+    {
+      "cat": "climate",
+      "q": "伊尔迈尔预言多瑙河大洪水",
+      "a": "「多瑙河水位将暴涨到前所未有的高度。河岸两侧的城市和村庄都将被淹没。巴伐利亚的许多地方将被水覆盖。」",
+      "q_en": "Irlmaier predicted great Danube floods",
+      "a_en": "\"The Danube will rise to unprecedented heights. Cities and villages on both banks will be flooded. Many places in Bavaria will be covered with water.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，与大战或灾后相关",
+      "yearReason_en": "Irlmaier did not specify timing, related to war or post-disaster period",
+      "id": 26
+    },
+    {
+      "cat": "society",
+      "q": "伊尔迈尔预言战后和平与信仰复兴",
+      "a": "「战争结束后，将迎来一段长久的和平时期。人们将重新回到教堂。土地将变得极其肥沃，收成比以往任何时候都好。活下来的人将享受前所未有的富足。」",
+      "q_en": "Irlmaier predicted post-war peace and faith revival",
+      "a_en": "\"After the war ends, a long period of peace will come. People will return to church. The land will become extremely fertile, with harvests better than ever. Survivors will enjoy unprecedented abundance.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，属于战后预言",
+      "yearReason_en": "Irlmaier did not specify timing, post-war prophecy",
+      "id": 27
+    },
+    {
+      "cat": "tech",
+      "q": "伊尔迈尔预言人们通过盒子与远方交流",
+      "a": "「人们将通过小盒子与远方的人交谈，还能看到对方的脸。但这些盒子也会让人变得更加孤独。」",
+      "q_en": "Irlmaier predicted communication through small boxes",
+      "a_en": "\"People will talk to distant others through small boxes and even see their faces. But these boxes will also make people lonelier.\"",
+      "year": 2010,
+      "date": "1950-1959",
+      "status": "verified",
+      "verdict_zh": "智能手机普及后的视频通话完美印证了这一预言。2024年全球智能手机用户超过60亿。同时，研究显示过度使用社交媒体导致孤独感和抑郁症增加——正如伊尔迈尔所警告的「让人更加孤独」。",
+      "verdict_en": "Video calls on smartphones perfectly fulfilled this prophecy. Over 6 billion smartphone users globally by 2024. Research shows excessive social media use increases loneliness and depression — exactly as Irlmaier warned about 'making people lonelier'.",
+      "yearReason": "智能手机视频通话普及的大致时间",
+      "yearReason_en": "Approximate period when smartphone video calls became widespread",
+      "id": 28
+    },
+    {
+      "cat": "politics",
+      "q": "伊尔迈尔预言德国分裂后统一",
+      "a": "「德国将被分成两半，但不会永远如此。当墙倒下的时候，人们将会欢庆。但统一带来的喜悦不会持续太久，因为更大的困难即将到来。」",
+      "q_en": "Irlmaier predicted Germany's division and reunification",
+      "a_en": "\"Germany will be split in two, but not forever. When the wall falls, people will celebrate. But the joy of reunification will not last long, for greater difficulties are approaching.\"",
+      "year": 1989,
+      "date": "1950-1959",
+      "status": "verified",
+      "verdict_zh": "1949年德国分裂为东西两部分。1989年11月9日柏林墙倒塌，1990年10月3日德国统一。统一后东德经济重建的巨大成本、失业问题和社会裂痕确实带来了「更大的困难」。",
+      "verdict_en": "Germany split into East and West in 1949. The Berlin Wall fell on November 9, 1989, and Germany reunified on October 3, 1990. Post-reunification costs of rebuilding East Germany, unemployment, and social fractures indeed brought 'greater difficulties'.",
+      "yearReason": "伊尔迈尔暗示了柏林墙倒塌的时间",
+      "yearReason_en": "Irlmaier implied the timing of the Berlin Wall's fall",
+      "id": 29
+    },
+    {
+      "cat": "society",
+      "q": "伊尔迈尔预言外国人大量涌入",
+      "a": "「大量外国人将涌入巴伐利亚。他们来自南方和东方。这将引起当地人的恐惧和不满。但在大灾难来临时，所有人的命运都是一样的。」",
+      "q_en": "Irlmaier predicted mass immigration",
+      "a_en": "\"Large numbers of foreigners will flood into Bavaria. They come from the south and east. This will cause fear and resentment among locals. But when the great catastrophe comes, everyone's fate will be the same.\"",
+      "year": 2015,
+      "date": "1950-1959",
+      "status": "verified",
+      "verdict_zh": "2015年欧洲难民危机期间，超过100万难民涌入德国，巴伐利亚作为主要入境通道承受了巨大压力。这引发了德国社会的激烈争论、AfD等右翼政党崛起和民众的恐惧情绪。",
+      "verdict_en": "During the 2015 European refugee crisis, over 1 million refugees entered Germany, with Bavaria as a major entry point bearing enormous pressure. This triggered heated debate, the rise of right-wing parties like AfD, and public anxiety.",
+      "yearReason": "欧洲难民危机的时间",
+      "yearReason_en": "Timing of the European refugee crisis",
+      "id": 30
+    },
+    {
+      "cat": "economy",
+      "q": "伊尔迈尔预言粮食短缺",
+      "a": "「商店里将买不到面包。田地里的庄稼将因战争和天灾而歉收。城市里的人将饥寒交迫，农村的人稍好一些，因为他们可以自给自足。」",
+      "q_en": "Irlmaier predicted food shortages",
+      "a_en": "\"Bread will be unavailable in stores. Crops in fields will fail due to war and natural disasters. City dwellers will suffer hunger and cold, while rural people will fare somewhat better as they can be self-sufficient.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，与大战预言相关",
+      "yearReason_en": "Irlmaier did not specify timing, related to war prophecy",
+      "id": 31
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述战争中巴黎被毁",
+      "a": "「巴黎将在战争中被摧毁。一场大火将从内部燃起——是巴黎人自己点燃的。暴民将在城市中横行，铁塔将会倒塌。」",
+      "q_en": "Irlmaier described Paris being destroyed in war",
+      "a_en": "\"Paris will be destroyed in war. A great fire will burn from within — lit by the Parisians themselves. Mobs will rampage through the city, and the tower will collapse.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间",
+      "yearReason_en": "Irlmaier did not specify timing",
+      "id": 32
+    },
+    {
+      "cat": "politics",
+      "q": "伊尔迈尔预言教皇逃离罗马",
+      "a": "「教皇将不得不逃离罗马。他将乔装打扮逃走，两名忠诚的助手陪伴在侧。许多教士将被杀害。」",
+      "q_en": "Irlmaier predicted the Pope fleeing Rome",
+      "a_en": "\"The Pope will have to flee Rome. He will escape in disguise, accompanied by two loyal aides. Many priests will be killed.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间",
+      "yearReason_en": "Irlmaier did not specify timing",
+      "id": 33
+    },
+    {
+      "cat": "war",
+      "q": "伊尔迈尔描述大反攻击退俄军",
+      "a": "「当俄国人推进到莱茵河时，一支来自西方的大军将发动反攻。还有一种秘密武器将被使用，俄国人将被迅速击退。他们的军队将在撤退中崩溃。」",
+      "q_en": "Irlmaier described a great counterattack repelling the Russians",
+      "a_en": "\"When the Russians advance to the Rhine, a great army from the west will launch a counterattack. A secret weapon will be deployed, and the Russians will be swiftly repelled. Their army will collapse during the retreat.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间",
+      "yearReason_en": "Irlmaier did not specify timing",
+      "id": 34
+    },
+    {
+      "cat": "politics",
+      "q": "伊尔迈尔预言战后新秩序",
+      "a": "「大灾难过后，各国将签订和平条约。新的货币将被发行。政治格局将完全不同——不再有超级大国的对抗。一位伟大的领袖将带来持久和平。」",
+      "q_en": "Irlmaier predicted a new post-war order",
+      "a_en": "\"After the great catastrophe, nations will sign peace treaties. New currency will be issued. The political landscape will be completely different — no more superpower confrontation. A great leader will bring lasting peace.\"",
+      "year": "未确定",
+      "date": "1950-1959",
+      "yearReason": "伊尔迈尔未明确时间，属于战后预言",
+      "yearReason_en": "Irlmaier did not specify timing, post-war prophecy",
+      "id": 35
     }
   ]
 }

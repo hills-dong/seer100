@@ -106,7 +106,9 @@
       "year": 1959,
       "status": "verified",
       "verdict_zh": "1959年中国对西藏的军事行动后，达赖喇嘛及大量藏人流亡印度和世界各地。20世纪下半叶，藏传佛教在欧美广泛传播。「铁鸟」对应飞机，「铁马」对应火车/汽车。",
-      "verdict_en": "After the 1959 Chinese military campaign in Tibet, the Dalai Lama and large numbers of Tibetans fled to India and across the world. In the latter half of the 20th century, Tibetan Buddhism spread widely in Europe and North America. 'Iron bird' corresponds to airplanes; 'iron horse' to trains/automobiles."
+      "verdict_en": "After the 1959 Chinese military campaign in Tibet, the Dalai Lama and large numbers of Tibetans fled to India and across the world. In the latter half of the 20th century, Tibetan Buddhism spread widely in Europe and North America. 'Iron bird' corresponds to airplanes; 'iron horse' to trains/automobiles.",
+      "yearReason": "香巴拉预言中关于此时代的描述",
+      "yearReason_en": "Description of this era in the Shambhala prophecy"
     },
     {
       "id": 14,
@@ -118,7 +120,9 @@
       "year": 1970,
       "status": "verified",
       "verdict_zh": "1970年代起，达赖喇嘛及多位藏传佛教大德在全球范围内举行时轮金刚灌顶法会。截至2025年，达赖喇嘛已主持超过30次时轮金刚灌顶，遍布印度、美国、欧洲和澳大利亚等地。",
-      "verdict_en": "From the 1970s onward, the Dalai Lama and other prominent Tibetan Buddhist masters have conducted Kalachakra initiation ceremonies worldwide. As of 2025, the Dalai Lama has presided over more than 30 Kalachakra initiations across India, the United States, Europe, and Australia."
+      "verdict_en": "From the 1970s onward, the Dalai Lama and other prominent Tibetan Buddhist masters have conducted Kalachakra initiation ceremonies worldwide. As of 2025, the Dalai Lama has presided over more than 30 Kalachakra initiations across India, the United States, Europe, and Australia.",
+      "yearReason": "香巴拉预言中关于此时代的描述",
+      "yearReason_en": "Description of this era in the Shambhala prophecy"
     },
     {
       "id": 15,
@@ -130,7 +134,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "香巴拉预言中关于此时代的描述",
+      "yearReason_en": "Description of this era in the Shambhala prophecy"
     }
   ]
 }

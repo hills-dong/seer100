@@ -10,7 +10,9 @@
       "year": 1127,
       "status": "verified",
       "verdict_zh": "「山河虽好非完璧」指北宋虽繁荣但已有隐患。「黄金是祸胎」暗指金国（「金」）入侵，靖康二年（1127年）金兵攻破汴京，俘虏徽钦二帝，北宋灭亡，史称靖康之变。",
-      "verdict_en": "'Mountains and rivers fine yet no longer whole' refers to the Northern Song's hidden vulnerabilities despite its prosperity. 'Gold is the seed of disaster' is a pun on the Jin (金, 'Gold') dynasty invasion. In 1127, Jin forces sacked the capital Kaifeng and captured Emperors Huizong and Qinzong, ending the Northern Song — the Jingkang Incident."
+      "verdict_en": "'Mountains and rivers fine yet no longer whole' refers to the Northern Song's hidden vulnerabilities despite its prosperity. 'Gold is the seed of disaster' is a pun on the Jin (金, 'Gold') dynasty invasion. In 1127, Jin forces sacked the capital Kaifeng and captured Emperors Huizong and Qinzong, ending the Northern Song — the Jingkang Incident.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "year": 1279,
       "status": "verified",
       "verdict_zh": "「湖山一梦」指南宋偏安临安（杭州西湖），沉醉享乐如同一梦。「云龙向北飞」指宋朝气数北去。「三百年来终一日」指两宋合计约三百二十年国祚至此终结。1279年崖山之战，陆秀夫背幼帝投海，南宋灭亡。",
-      "verdict_en": "'Lake and hills, a dream' refers to the Southern Song's retreat to Lin'an (Hangzhou, by West Lake), living in complacent luxury. 'Cloud-dragon flies north' indicates the dynasty's fate departing. 'Three hundred years end in a single day' — the two Song dynasties lasted about 320 years total. In 1279, at the Battle of Yamen, Lu Xiufu carried the young emperor into the sea, ending the Southern Song."
+      "verdict_en": "'Lake and hills, a dream' refers to the Southern Song's retreat to Lin'an (Hangzhou, by West Lake), living in complacent luxury. 'Cloud-dragon flies north' indicates the dynasty's fate departing. 'Three hundred years end in a single day' — the two Song dynasties lasted about 320 years total. In 1279, at the Battle of Yamen, Lu Xiufu carried the young emperor into the sea, ending the Southern Song.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 3,
@@ -34,7 +38,9 @@
       "year": 1368,
       "status": "verified",
       "verdict_zh": "「兴元」直指元朝建立。「甲子又兴元」暗指元世祖忽必烈建元。「年华二八乘除尽」指元朝国祚，二八为十六，也有说法指元朝传十五帝、约九十八年。1368年朱元璋建立明朝，元朝覆灭。",
-      "verdict_en": "'Yuan arises' directly names the Yuan dynasty. 'In a jiazi year, Yuan arises' alludes to Kublai Khan founding the Yuan. 'Twice-eight multiplied and divided' refers to the Yuan's lifespan — 16 by some reckoning, or 15 emperors over about 98 years. In 1368, Zhu Yuanzhang founded the Ming dynasty, ending Mongol rule."
+      "verdict_en": "'Yuan arises' directly names the Yuan dynasty. 'In a jiazi year, Yuan arises' alludes to Kublai Khan founding the Yuan. 'Twice-eight multiplied and divided' refers to the Yuan's lifespan — 16 by some reckoning, or 15 emperors over about 98 years. In 1368, Zhu Yuanzhang founded the Ming dynasty, ending Mongol rule.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 4,
@@ -46,7 +52,9 @@
       "year": 1644,
       "status": "verified",
       "verdict_zh": "「英雄起布衣」指朱元璋出身贫寒建立明朝。「朱门」直指朱姓皇室。「飞来燕子」指燕王朱棣发动靖难之役夺取帝位。「开到李花春已非」指李自成起义攻破北京，明朝覆灭（1644年）。",
-      "verdict_en": "'Hero rises from common cloth' refers to Zhu Yuanzhang's humble origins in founding the Ming. 'Vermilion gate' directly names the Zhu imperial house. 'A swallow flying in' alludes to the Prince of Yan (Zhu Di) seizing the throne in the Jingnan Campaign. 'Plum blossoms open, spring is gone' — 'Li' (plum/李) refers to Li Zicheng's rebellion capturing Beijing in 1644, ending the Ming."
+      "verdict_en": "'Hero rises from common cloth' refers to Zhu Yuanzhang's humble origins in founding the Ming. 'Vermilion gate' directly names the Zhu imperial house. 'A swallow flying in' alludes to the Prince of Yan (Zhu Di) seizing the throne in the Jingnan Campaign. 'Plum blossoms open, spring is gone' — 'Li' (plum/李) refers to Li Zicheng's rebellion capturing Beijing in 1644, ending the Ming.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 5,
@@ -58,7 +66,9 @@
       "year": 1912,
       "status": "verified",
       "verdict_zh": "「胡儿骑马走长安」指满族（胡人）入关建立清朝。「开辟中原海境宽」指清朝扩张版图。「洪水乍平洪水起」指洪秀全太平天国运动。「清光宜向汉中看」暗示清朝最终被汉人推翻，1912年辛亥革命建立中华民国。",
-      "verdict_en": "'Northern horsemen ride into Chang'an' refers to the Manchu conquest establishing the Qing dynasty. 'Opening the Central Plain, widening the sea frontier' describes Qing territorial expansion. 'One flood barely subsides before another rises' — 'flood' (洪) alludes to Hong Xiuquan's Taiping Rebellion. 'The light of Qing should be sought toward Hanzhong' hints that the Qing would ultimately be overthrown by the Han Chinese; the 1911 Revolution established the Republic of China in 1912."
+      "verdict_en": "'Northern horsemen ride into Chang'an' refers to the Manchu conquest establishing the Qing dynasty. 'Opening the Central Plain, widening the sea frontier' describes Qing territorial expansion. 'One flood barely subsides before another rises' — 'flood' (洪) alludes to Hong Xiuquan's Taiping Rebellion. 'The light of Qing should be sought toward Hanzhong' hints that the Qing would ultimately be overthrown by the Han Chinese; the 1911 Revolution established the Republic of China in 1912.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 6,
@@ -70,7 +80,9 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "「汉天一白」指民国时期汉人当政。「憔悴黄花总带愁」指民国内忧外患，黄花岗起义等革命艰辛。「吉曜半升」暗指中华民国政权尚未稳固。「金乌起灭海山头」指日本（海东之国）的侵华与最终战败（1937-1945），「金乌」象征日本国旗中的太阳。",
-      "verdict_en": "'Han sky turns pale' refers to the Republican era under Han Chinese rule. 'Withered yellow flowers carry sorrow' alludes to the hardships of the Republic — revolutions like the Huanghuagang Uprising. 'Auspicious star rises halfway' suggests the Republic's government was never fully stable. 'Golden crow rises and sets over the sea-mountain' refers to Japan (the island nation to the east) — its invasion of China and ultimate defeat (1937-1945). The 'golden crow' symbolizes the sun on Japan's flag."
+      "verdict_en": "'Han sky turns pale' refers to the Republican era under Han Chinese rule. 'Withered yellow flowers carry sorrow' alludes to the hardships of the Republic — revolutions like the Huanghuagang Uprising. 'Auspicious star rises halfway' suggests the Republic's government was never fully stable. 'Golden crow rises and sets over the sea-mountain' refers to Japan (the island nation to the east) — its invasion of China and ultimate defeat (1937-1945). The 'golden crow' symbolizes the sun on Japan's flag.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 7,
@@ -82,7 +94,9 @@
       "year": 1950,
       "status": "partial",
       "verdict_zh": "「云雾苍茫各一天」被解读为国共分治、两岸隔海相望。「西北起烽烟」指朝鲜战争（1950年）或中印边境冲突。「东来暴客」指日本或美国势力，「西来盗」指苏联或西方列强，「胡儿在眼前」指北方边境的威胁。此首解读争议较大，不同注家有不同说法。",
-      "verdict_en": "'Each side holds its own sky' is interpreted as the KMT-CCP split — mainland and Taiwan separated across the strait. 'War fires in the northwest' may refer to the Korean War (1950) or Sino-Indian border conflicts. 'Violent guests from the east' may mean Japan or US forces; 'thieves from the west' may mean the Soviet Union or Western powers; 'northern horsemen' refers to threats on the northern border. Interpretations of this poem vary significantly among commentators."
+      "verdict_en": "'Each side holds its own sky' is interpreted as the KMT-CCP split — mainland and Taiwan separated across the strait. 'War fires in the northwest' may refer to the Korean War (1950) or Sino-Indian border conflicts. 'Violent guests from the east' may mean Japan or US forces; 'thieves from the west' may mean the Soviet Union or Western powers; 'northern horsemen' refers to threats on the northern border. Interpretations of this poem vary significantly among commentators.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 8,
@@ -94,7 +108,9 @@
       "year": 2025,
       "status": "partial",
       "verdict_zh": "「如棋世事局初残」被解读为当今世界格局进入变局阶段。「共济和衷却大难」暗示需要团结合作应对危机。「豹死犹留皮一袭」意为旧势力虽然衰落，其影响犹存。「最佳秋色在长安」被解读为中国（长安为古代中国象征）将迎来复兴。此首指向近现代，解读争议较大。",
-      "verdict_en": "'Chess game entering its endgame' is interpreted as the current world order entering a period of transformation. 'Working together to overcome crisis' suggests unity is needed to face challenges. 'Leopard dies but leaves its pelt' implies that old powers may decline but their influence persists. 'Finest autumn in Chang'an' is interpreted as China (Chang'an symbolizing China) heading toward revival. This poem points to the modern/contemporary era and interpretations vary widely."
+      "verdict_en": "'Chess game entering its endgame' is interpreted as the current world order entering a period of transformation. 'Working together to overcome crisis' suggests unity is needed to face challenges. 'Leopard dies but leaves its pelt' implies that old powers may decline but their influence persists. 'Finest autumn in Chang'an' is interpreted as China (Chang'an symbolizing China) heading toward revival. This poem points to the modern/contemporary era and interpretations vary widely.",
+      "yearReason": "根据梅花诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Plum Blossom Poem corresponds to this historical period"
     },
     {
       "id": 9,

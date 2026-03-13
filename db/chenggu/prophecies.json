@@ -1,6 +1,10 @@
 {
   "categories": {
-    "spirit": { "zh": "命理", "en": "Destiny", "icon": "i-spirit" }
+    "spirit": {
+      "zh": "命理",
+      "en": "Destiny",
+      "icon": "i-spirit"
+    }
   },
   "prophecies": [
     {

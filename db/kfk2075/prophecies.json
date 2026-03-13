@@ -2,32 +2,6 @@
   "prophecies": [
     {
       "id": 1,
-      "cat": "tech",
-      "q": "YJ 的首条预言：人造卫星坠落",
-      "a": "「2018年会有一颗人造卫星掉下来。」",
-      "q_en": "YJ's first prediction: satellite crash",
-      "a_en": "\"A man-made satellite will fall in 2018.\"",
-      "year": 2018,
-      "date": "2018-01-05",
-      "status": "verified",
-      "verdict_zh": "2018年4月2日，中国空间站天宫一号在轨道衰减后重新进入大气层，残骸坠入南太平洋。这是 YJ 最早且最广为传播的应验预言。",
-      "verdict_en": "On April 2, 2018, China's space station Tiangong-1 reentered the atmosphere after orbital decay, with debris falling into the South Pacific. This was YJ's earliest and most widely cited fulfilled prediction."
-    },
-    {
-      "id": 2,
-      "cat": "economy",
-      "q": "2020年的重要性",
-      "a": "「2020年将是经济和军事上非常重要的一年。」",
-      "q_en": "The importance of 2020",
-      "a_en": "\"2020 will be a very important year economically and militarily.\"",
-      "year": 2020,
-      "date": "2020-01-01",
-      "status": "verified",
-      "verdict_zh": "2020年新冠疫情席卷全球，造成史无前例的经济冲击，全球GDP下降3.1%。军事方面，中印边境对峙、美伊紧张局势升级等事件频发，确实是极不寻常的一年。",
-      "verdict_en": "The COVID-19 pandemic swept the globe in 2020, causing an unprecedented economic shock with global GDP declining 3.1%. Militarily, events such as the China-India border standoff and escalating US-Iran tensions made it an extraordinary year indeed."
-    },
-    {
-      "id": 3,
       "cat": "economy",
       "q": "无现金社会的到来",
       "a": "「现金处理的时代将在几年内结束。」",
@@ -37,10 +11,12 @@
       "date": "2018-01",
       "status": "partial",
       "verdict_zh": "截至2025年，中国移动支付已覆盖超过90%的日常消费场景，瑞典等北欧国家现金使用量降至不足1%。但全球范围内现金并未完全消失，多数国家仍保留现金流通。",
-      "verdict_en": "By 2025, China's mobile payments covered over 90% of daily transactions, and Nordic countries like Sweden saw cash usage drop below 1%. However, cash has not fully disappeared globally, with most countries still maintaining cash circulation."
+      "verdict_en": "By 2025, China's mobile payments covered over 90% of daily transactions, and Nordic countries like Sweden saw cash usage drop below 1%. However, cash has not fully disappeared globally, with most countries still maintaining cash circulation.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 4,
+      "id": 2,
       "cat": "tech",
       "q": "AI 电动车成为主流",
       "a": "「搭载人工智能的电动车是主流。」",
@@ -50,10 +26,12 @@
       "date": "2018-01",
       "status": "partial",
       "verdict_zh": "2025年全球电动车销量突破1700万辆，市场份额持续攀升。特斯拉FSD、华为智驾等AI辅助驾驶系统已广泛应用，但AI电动车尚未完全取代传统燃油车成为绝对主流。",
-      "verdict_en": "Global EV sales exceeded 17 million in 2025 with rising market share. AI-assisted driving systems like Tesla FSD and Huawei's smart driving are widely deployed, but AI EVs have not yet fully replaced traditional fuel vehicles as the absolute mainstream."
+      "verdict_en": "Global EV sales exceeded 17 million in 2025 with rising market share. AI-assisted driving systems like Tesla FSD and Huawei's smart driving are widely deployed, but AI EVs have not yet fully replaced traditional fuel vehicles as the absolute mainstream.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 5,
+      "id": 3,
       "cat": "climate",
       "q": "中国人工气象操控系统",
       "a": "「2021年，中国完成并实用化人工气象操控系统。」",
@@ -63,10 +41,12 @@
       "date": "2018-01",
       "status": "partial",
       "verdict_zh": "2020年12月，中国国务院发布《关于推进人工影响天气工作高质量发展的意见》，计划到2025年建成较完善的人工影响天气体系。2021年已在多地实施人工增雨、消雹作业，但远未达到「操控气象」的程度。",
-      "verdict_en": "In December 2020, China's State Council issued a plan to build a comprehensive weather modification system by 2025. By 2021, cloud seeding and hail suppression operations were conducted in many regions, but fell far short of actual 'weather control.'"
+      "verdict_en": "In December 2020, China's State Council issued a plan to build a comprehensive weather modification system by 2025. By 2021, cloud seeding and hail suppression operations were conducted in many regions, but fell far short of actual 'weather control.'",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 6,
+      "id": 4,
       "cat": "tech",
       "q": "日本登月",
       "a": "「到2021年，日本将首次成功登月。」",
@@ -76,10 +56,12 @@
       "date": "2018-01",
       "status": "failed",
       "verdict_zh": "日本直到2024年1月才由SLIM探测器实现首次月面软着陆，比预言晚了三年。2021年日本并未进行登月任务。",
-      "verdict_en": "Japan did not achieve its first lunar soft landing until January 2024 with the SLIM probe, three years later than predicted. No moon landing mission was conducted in 2021."
+      "verdict_en": "Japan did not achieve its first lunar soft landing until January 2024 with the SLIM probe, three years later than predicted. No moon landing mission was conducted in 2021.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 7,
+      "id": 5,
       "cat": "politics",
       "q": "日本首都迁移",
       "a": "网友问：「那时候日本还存在吗？」YJ 回答：「还存在，但首都已不是东京，变成了岡山。」",
@@ -89,10 +71,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 8,
+      "id": 6,
       "cat": "war",
       "q": "第三次世界大战",
       "a": "「2031年将爆发第三次世界大战。」",
@@ -102,10 +86,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 9,
+      "id": 7,
       "cat": "tech",
       "q": "与死者的模拟对话",
       "a": "「2031年，科技将发展到可以与死者进行逼真的模拟对话。」",
@@ -115,10 +101,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 10,
+      "id": 8,
       "cat": "politics",
       "q": "日本废除无核三原则",
       "a": "「日本将在2025年取消无核三原则。」",
@@ -128,10 +116,12 @@
       "date": "2018-01",
       "status": "failed",
       "verdict_zh": "截至2025年底，日本并未正式废除无核三原则（不拥有、不制造、不运进核武器）。虽然日本国内关于核共享的讨论有所增加，但三原则仍为官方政策。",
-      "verdict_en": "As of the end of 2025, Japan has not formally abolished the Three Non-Nuclear Principles (no possession, production, or introduction of nuclear weapons). While domestic discussions about nuclear sharing increased, the principles remained official policy."
+      "verdict_en": "As of the end of 2025, Japan has not formally abolished the Three Non-Nuclear Principles (no possession, production, or introduction of nuclear weapons). While domestic discussions about nuclear sharing increased, the principles remained official policy.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 11,
+      "id": 9,
       "cat": "politics",
       "q": "朝鲜半岛变局",
       "a": "「金正恩将遭暗杀，涉及朝鲜、美国、日本、韩国和中国。朝鲜半岛将统一。」",
@@ -141,10 +131,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 12,
+      "id": 10,
       "cat": "tech",
       "q": "沙漠太阳能电厂与超导输电",
       "a": "「2029年，在沙漠中建造大型太阳能发电厂，利用超导传输技术向全球供电。」",
@@ -154,10 +146,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 13,
+      "id": 11,
       "cat": "tech",
       "q": "AI 不应被创造",
       "a": "「关于 AI 的发展——它不应该被创造出来。大部分工作将被消灭，大多数人即使想工作也无法工作。」",
@@ -167,10 +161,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 14,
+      "id": 12,
       "cat": "society",
       "q": "监视社会与隐私消失",
       "a": "「未来是监视型社会结构，个人隐私概念将大幅削弱。」",
@@ -180,10 +176,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 15,
+      "id": 13,
       "cat": "society",
       "q": "台湾的主要问题",
       "a": "「台湾未来的首要问题是老龄化。」",
@@ -193,10 +191,12 @@
       "date": "2018-01",
       "status": "verified",
       "verdict_zh": "2025年台湾65岁以上人口占比突破20%，正式进入「超高龄社会」。少子化与老龄化已成为台湾最受关注的社会议题，劳动力短缺和社会保障压力持续加大。",
-      "verdict_en": "In 2025, Taiwan's population aged 65 and above exceeded 20%, officially entering a 'super-aged society.' Low birth rates and aging have become Taiwan's most pressing social issues, with growing labor shortages and social security pressures."
+      "verdict_en": "In 2025, Taiwan's population aged 65 and above exceeded 20%, officially entering a 'super-aged society.' Low birth rates and aging have become Taiwan's most pressing social issues, with growing labor shortages and social security pressures.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 16,
+      "id": 14,
       "cat": "climate",
       "q": "海洋生态崩溃",
       "a": "「海洋生物几乎灭绝或不可食用。到2075年，人类已经很难吃到海鲜了。」",
@@ -206,10 +206,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 17,
+      "id": 15,
       "cat": "tech",
       "q": "梦境操控设备",
       "a": "「未来将发明梦境操控设备，人们可以自由选择想要体验的梦境。」",
@@ -219,10 +221,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 18,
+      "id": 16,
       "cat": "tech",
       "q": "时间机器的理论基础",
       "a": "「时间机器的理论基础来自尼古拉·特斯拉的研究，外观像一根大管子。时间旅行仅限政府授权人员使用。」",
@@ -232,10 +236,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 19,
+      "id": 17,
       "cat": "society",
       "q": "未来的饮食制度",
       "a": "「2075年通常每天吃四餐，其中一餐是营养补充剂。」",
@@ -245,10 +251,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 20,
+      "id": 18,
       "cat": "tech",
       "q": "分子级复制设备",
       "a": "「未来将完善分子级复制设备，可以在分子层面精确复制物体。」",
@@ -258,10 +266,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 21,
+      "id": 19,
       "cat": "tech",
       "q": "马里亚纳海沟新物种",
       "a": "「在马里亚纳海沟将发现新的物种。」",
@@ -271,10 +281,12 @@
       "date": "2018-01",
       "status": "verified",
       "verdict_zh": "2019年至2025年间，多次深海探测任务在马里亚纳海沟发现了新物种，包括2020年发现的新型端足类生物和2024年发现的深海鱼类新种。这一预言较为模糊但方向正确。",
-      "verdict_en": "Between 2019 and 2025, multiple deep-sea expeditions discovered new species in the Mariana Trench, including a new amphipod species in 2020 and new deep-sea fish species in 2024. This prediction was vague but directionally correct."
+      "verdict_en": "Between 2019 and 2025, multiple deep-sea expeditions discovered new species in the Mariana Trench, including a new amphipod species in 2020 and new deep-sea fish species in 2024. This prediction was vague but directionally correct.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 22,
+      "id": 20,
       "cat": "tech",
       "q": "虚拟现实游戏普及",
       "a": "「虚拟空间体验游戏将全面普及，人们可以完全沉浸在虚拟世界中。」",
@@ -284,10 +296,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 23,
+      "id": 21,
       "cat": "tech",
       "q": "俄罗斯核太空发动机",
       "a": "「俄罗斯将完成世界首台核太空发动机。」",
@@ -297,10 +311,12 @@
       "date": "2018-01",
       "status": "partial",
       "verdict_zh": "俄罗斯自2010年代起持续推进「核动力太空拖船」项目（TEM），2018年时处于研发阶段但并未完成。该项目后续多次推迟，截至2025年仍在开发中。",
-      "verdict_en": "Russia has been developing the 'nuclear-powered space tug' project (TEM) since the 2010s. In 2018 it was in the R&D phase but not completed. The project has been repeatedly delayed and remains under development as of 2025."
+      "verdict_en": "Russia has been developing the 'nuclear-powered space tug' project (TEM) since the 2010s. In 2018 it was in the R&D phase but not completed. The project has been repeatedly delayed and remains under development as of 2025.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 24,
+      "id": 22,
       "cat": "spirit",
       "q": "外星人与人类的关系",
       "a": "「人类自古就与外星人有友善的往来关系。UFO 不只是外星生命的交通工具。」",
@@ -310,10 +326,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 25,
+      "id": 23,
       "cat": "society",
       "q": "演艺行业的存续",
       "a": "「在大部分职业被 AI 消灭的未来，演员是少数幸存的职业之一。」",
@@ -323,10 +341,12 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 26,
+      "id": 24,
       "cat": "tech",
       "q": "15岁即可驾驶",
       "a": "「由于 AI 辅助驾驶的普及，15岁即可驾驶配备完整 AI 系统的汽车。」",
@@ -336,17 +356,51 @@
       "date": "2018-01",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     },
     {
-      "id": 27,
+      "id": 25,
+      "cat": "tech",
+      "q": "YJ 的首条预言：人造卫星坠落",
+      "a": "「2018年会有一颗人造卫星掉下来。」",
+      "q_en": "YJ's first prediction: satellite crash",
+      "a_en": "\"A man-made satellite will fall in 2018.\"",
+      "year": 2018,
+      "date": "2018-01-05",
+      "status": "verified",
+      "verdict_zh": "2018年4月2日，中国空间站天宫一号在轨道衰减后重新进入大气层，残骸坠入南太平洋。这是 YJ 最早且最广为传播的应验预言。",
+      "verdict_en": "On April 2, 2018, China's space station Tiangong-1 reentered the atmosphere after orbital decay, with debris falling into the South Pacific. This was YJ's earliest and most widely cited fulfilled prediction.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
+    },
+    {
+      "id": 26,
       "cat": "tech",
       "q": "YJ 的神秘离去",
       "a": "「2018年12月13日，YJ 发出一串意义不明的乱码后停更。最后留言称这是'遭遇未来的钥匙'。」",
       "q_en": "YJ's mysterious departure",
       "a_en": "\"On December 13, 2018, YJ posted a string of meaningless code and stopped updating. The final message was described as 'the key to encountering the future.'\"",
       "year": "未确定",
-      "date": "2018-12-13"
+      "date": "2018-12-13",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
+    },
+    {
+      "id": 27,
+      "cat": "economy",
+      "q": "2020年的重要性",
+      "a": "「2020年将是经济和军事上非常重要的一年。」",
+      "q_en": "The importance of 2020",
+      "a_en": "\"2020 will be a very important year economically and militarily.\"",
+      "year": 2020,
+      "date": "2020-01-01",
+      "status": "verified",
+      "verdict_zh": "2020年新冠疫情席卷全球，造成史无前例的经济冲击，全球GDP下降3.1%。军事方面，中印边境对峙、美伊紧张局势升级等事件频发，确实是极不寻常的一年。",
+      "verdict_en": "The COVID-19 pandemic swept the globe in 2020, causing an unprecedented economic shock with global GDP declining 3.1%. Militarily, events such as the China-India border standoff and escalating US-Iran tensions made it an extraordinary year indeed.",
+      "yearReason": "KFK2075在论坛帖子中明确提到了该年份",
+      "yearReason_en": "KFK2075 explicitly mentioned this year in forum posts"
     }
   ]
 }

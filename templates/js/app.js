@@ -72,13 +72,14 @@ function renderList(searchOnly) {
       const st = p.status ? STATUS_MAP[p.status] : null;
       const verdict = esc(p[verdictKey] || '');
       const pubDate = p.date || (typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG.publishDate : '');
+      const yearReason = p.year ? esc(lang === 'en' ? (p.yearReason_en || '') : (p.yearReason || '')) : '';
       itemsHtml += `
         <div class="prophecy-item${st ? ' ' + st.cls : ''}">
           <div class="prophecy-header">
             <div class="prophecy-header-title"><span class="prophecy-id">#${p.id}</span> ${pq(p)} ${pubDate ? `<span class="prophecy-date">${s('pubPrefix')} ${pubDate}</span>` : ''}</div>
             <div class="prophecy-header-tags">
               <span class="prophecy-cat"><i class="${cat.icon}"></i> ${cat[catKey]}</span>
-              ${p.year ? `<span class="prophecy-year-tag"><i class="i-target"></i> ${p.year}</span>` : ''}
+              ${p.year ? `<span class="prophecy-year-tag"${yearReason ? ` data-reason` : ''}><i class="i-target"></i> ${p.year}${yearReason ? `<span class="year-reason-tip">${yearReason}</span>` : ''}</span>` : ''}
               ${st ? `<span class="status-badge ${st.cls}"><i class="${st.icon}"></i> ${st[catKey]}</span>` : ''}
             </div>
           </div>

@@ -10,7 +10,9 @@
       "year": 1975,
       "status": "verified",
       "verdict_zh": "IBM 5100确实拥有一个未公开记录的功能：能够在APL和BASIC之间进行仿真翻译，还能直接访问System/370大型机代码。这个功能在提托发帖时并非公众所知，直到后来IBM工程师Bob Dubke证实了这一点。提托准确描述了一台古旧计算机的隐藏特性，这是其最有力的验证之一。",
-      "verdict_en": "The IBM 5100 indeed had an undocumented feature: the ability to emulate and translate between APL and BASIC, and directly access System/370 mainframe code. This capability was not publicly known when Titor posted. IBM engineer Bob Dubke later confirmed this. Titor's accurate description of an obscure computer's hidden features is considered one of his strongest verified claims."
+      "verdict_en": "The IBM 5100 indeed had an undocumented feature: the ability to emulate and translate between APL and BASIC, and directly access System/370 mainframe code. This capability was not publicly known when Titor posted. IBM engineer Bob Dubke later confirmed this. Titor's accurate description of an obscure computer's hidden features is considered one of his strongest verified claims.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "year": 2004,
       "status": "failed",
       "verdict_zh": "2004年至2008年间美国并未爆发内战。虽然美国社会在此期间确实存在政治极化现象（如反伊战运动、2008年金融危机引发的社会不满），但远未达到内战程度。提托关于城乡对立、联邦权力争议的描述在后来的美国政治（2016年后）中有所体现，但时间线完全不符。",
-      "verdict_en": "No civil war occurred in the US between 2004 and 2008. While political polarization did exist during this period (anti-Iraq War movement, social unrest from the 2008 financial crisis), it was nowhere near civil war levels. Titor's descriptions of urban-rural division and federal power disputes did resonate with later US politics (post-2016), but the timeline was entirely wrong."
+      "verdict_en": "No civil war occurred in the US between 2004 and 2008. While political polarization did exist during this period (anti-Iraq War movement, social unrest from the 2008 financial crisis), it was nowhere near civil war levels. Titor's descriptions of urban-rural division and federal power disputes did resonate with later US politics (post-2016), but the timeline was entirely wrong.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 3,
@@ -34,7 +38,9 @@
       "year": 2015,
       "status": "failed",
       "verdict_zh": "2015年并未爆发核战争或第三次世界大战。虽然2014年克里米亚危机后俄罗斯与西方关系急剧恶化，但远未升级至核冲突。提托预言的30亿人死亡的核战争完全未发生。",
-      "verdict_en": "No nuclear war or World War Three occurred in 2015. While Russia-West relations deteriorated sharply after the 2014 Crimea crisis, this was far from nuclear conflict. Titor's predicted nuclear war killing 3 billion people did not materialize."
+      "verdict_en": "No nuclear war or World War Three occurred in 2015. While Russia-West relations deteriorated sharply after the 2014 Crimea crisis, this was far from nuclear conflict. Titor's predicted nuclear war killing 3 billion people did not materialize.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 4,
@@ -46,7 +52,9 @@
       "year": 2001,
       "status": "partial",
       "verdict_zh": "CERN没有制造出微型黑洞，但2008年大型强子对撞机（LHC）启动后，微型黑洞的可能性确实成为了科学界和公众热议的话题。2012年CERN发现了希格斯玻色子，是基本粒子物理学的重大突破。提托关于CERN的核心地位判断正确，但具体成果不符。",
-      "verdict_en": "CERN did not create micro black holes, but the possibility of micro black holes became a major topic of scientific and public discussion after the Large Hadron Collider (LHC) launched in 2008. CERN discovered the Higgs boson in 2012, a major breakthrough in particle physics. Titor was correct about CERN's central importance, but the specific achievement was wrong."
+      "verdict_en": "CERN did not create micro black holes, but the possibility of micro black holes became a major topic of scientific and public discussion after the Large Hadron Collider (LHC) launched in 2008. CERN discovered the Higgs boson in 2012, a major breakthrough in particle physics. Titor was correct about CERN's central importance, but the specific achievement was wrong.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 5,
@@ -58,7 +66,9 @@
       "year": 2004,
       "status": "failed",
       "verdict_zh": "2004年后奥运会照常举办：2006年都灵冬奥会、2008年北京夏季奥运会、2010年温哥华冬奥会等一直持续至今。即使2020年东京奥运会因新冠疫情推迟一年，也并未取消。此预言完全错误。",
-      "verdict_en": "Olympic Games continued normally after 2004: the 2006 Turin Winter Olympics, 2008 Beijing Summer Olympics, 2010 Vancouver Winter Olympics, and so on up to the present day. Even the 2020 Tokyo Olympics were only postponed by one year due to COVID-19, not canceled. This prediction was entirely wrong."
+      "verdict_en": "Olympic Games continued normally after 2004: the 2006 Turin Winter Olympics, 2008 Beijing Summer Olympics, 2010 Vancouver Winter Olympics, and so on up to the present day. Even the 2020 Tokyo Olympics were only postponed by one year due to COVID-19, not canceled. This prediction was entirely wrong.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 6,
@@ -70,7 +80,9 @@
       "year": 2003,
       "status": "partial",
       "verdict_zh": "疯牛病（BSE）在2003年确实成为全球关注焦点：美国在2003年12月发现首例本土病例，导致多国禁止进口美国牛肉。然而疫情并未如提托所言大规模蔓延，通过严格的食品安全管控，疯牛病后来逐步得到控制，人类变异型克雅氏病（vCJD）病例总数约230例，未出现大规模流行。",
-      "verdict_en": "BSE (mad cow disease) did become a global concern in 2003: the US discovered its first domestic case in December 2003, leading many countries to ban US beef imports. However, it did not spread on the massive scale Titor predicted. Through strict food safety controls, BSE was gradually contained, with approximately 230 total cases of variant CJD worldwide — far from a pandemic."
+      "verdict_en": "BSE (mad cow disease) did become a global concern in 2003: the US discovered its first domestic case in December 2003, leading many countries to ban US beef imports. However, it did not spread on the massive scale Titor predicted. Through strict food safety controls, BSE was gradually contained, with approximately 230 total cases of variant CJD worldwide — far from a pandemic.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 7,
@@ -82,7 +94,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 8,
@@ -94,7 +108,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 9,
@@ -106,7 +122,9 @@
       "year": 2005,
       "status": "partial",
       "verdict_zh": "2004年大选乔治·W·布什连任，2005年总统确实与2000年相同（小布什于2001年就任）。但提托暗示2004年之后将有不同的总统，这并不准确。不过他关于「不想改变事件走向」的说法为自己留了退路。",
-      "verdict_en": "George W. Bush was re-elected in 2004, so the 2005 president was the same as in 2000 (Bush took office in 2001). Titor's implication of a different president was incorrect. However, his caveat about 'not wanting to change the course of events' gave him plausible deniability."
+      "verdict_en": "George W. Bush was re-elected in 2004, so the 2005 president was the same as in 2000 (Bush took office in 2001). Titor's implication of a different president was incorrect. However, his caveat about 'not wanting to change the course of events' gave him plausible deniability.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 10,
@@ -118,7 +136,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 11,
@@ -130,7 +150,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 12,
@@ -142,7 +164,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 13,
@@ -154,7 +178,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 14,
@@ -166,7 +192,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 15,
@@ -178,7 +206,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 16,
@@ -190,7 +220,9 @@
       "year": 2004,
       "status": "partial",
       "verdict_zh": "虽然2004年并未爆发内战，但提托描述的社会分裂趋势在后来的美国政治中有所体现：城乡对立在2016年和2020年大选中成为显著特征，枪支管控争议持续激化，联邦权力与州权之间的张力不断升级（如2020-2021年的抗议活动、2021年1月6日国会事件）。趋势判断有一定预见性，但内战程度的预测完全错误。",
-      "verdict_en": "While no civil war erupted in 2004, Titor's described social divisions did manifest in later American politics: urban-rural polarization became prominent in the 2016 and 2020 elections, gun control debates intensified, and federal-state tensions escalated (the 2020-2021 protests, January 6, 2021 Capitol incident). The trend analysis showed some foresight, but the prediction of actual civil war was entirely wrong."
+      "verdict_en": "While no civil war erupted in 2004, Titor's described social divisions did manifest in later American politics: urban-rural polarization became prominent in the 2016 and 2020 elections, gun control debates intensified, and federal-state tensions escalated (the 2020-2021 protests, January 6, 2021 Capitol incident). The trend analysis showed some foresight, but the prediction of actual civil war was entirely wrong.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 17,
@@ -202,7 +234,9 @@
       "year": 2003,
       "status": "partial",
       "verdict_zh": "中东冲突确实持续并加剧：2003年伊拉克战争、叙利亚内战（2011年起）、ISIS崛起（2014年）、也门战争等。西方干预确实带来了灾难性后果（伊拉克战争后的权力真空）。以色列持续面临威胁。但这些预测属于较容易做出的趋势判断，缺乏具体细节。",
-      "verdict_en": "Middle East conflicts did continue and intensify: 2003 Iraq War, Syrian Civil War (from 2011), ISIS rise (2014), Yemen War, etc. Western intervention did have catastrophic consequences (power vacuum after Iraq War). Israel continued facing threats. However, these are fairly easy trend predictions lacking specific details."
+      "verdict_en": "Middle East conflicts did continue and intensify: 2003 Iraq War, Syrian Civil War (from 2011), ISIS rise (2014), Yemen War, etc. Western intervention did have catastrophic consequences (power vacuum after Iraq War). Israel continued facing threats. However, these are fairly easy trend predictions lacking specific details.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 18,
@@ -214,7 +248,9 @@
       "year": 2015,
       "status": "failed",
       "verdict_zh": "全球变暖在2015年后成为更大的问题而非消退：2015年巴黎气候协定签署、极端天气事件频率和强度持续增加、全球平均温度不断刷新纪录。提托预言的前提（核战争）未发生，因此整个叙事链断裂。",
-      "verdict_en": "Global warming became a bigger, not smaller, issue after 2015: the Paris Climate Agreement was signed in 2015, extreme weather events continued to increase in frequency and intensity, and global average temperatures kept breaking records. Titor's premise (nuclear war) did not occur, so the entire narrative chain broke down."
+      "verdict_en": "Global warming became a bigger, not smaller, issue after 2015: the Paris Climate Agreement was signed in 2015, extreme weather events continued to increase in frequency and intensity, and global average temperatures kept breaking records. Titor's premise (nuclear war) did not occur, so the entire narrative chain broke down.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 19,
@@ -226,7 +262,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 20,
@@ -238,7 +276,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 21,
@@ -250,7 +290,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 22,
@@ -262,7 +304,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 23,
@@ -274,7 +318,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 24,
@@ -286,7 +332,9 @@
       "year": 2010,
       "status": "failed",
       "verdict_zh": "食品安全确实一直是全球关注的问题，但朊病毒并未如提托所说大规模通过食物链传播。全球变异型克雅氏病病例总计约230例，远未达到严重流行病的程度。现代食品安全监管体系有效控制了BSE风险。",
-      "verdict_en": "Food safety has indeed been a global concern, but prion transmission through the food chain did not become the massive problem Titor predicted. Total global cases of variant CJD numbered approximately 230, far from a serious epidemic. Modern food safety regulation effectively controlled BSE risk."
+      "verdict_en": "Food safety has indeed been a global concern, but prion transmission through the food chain did not become the massive problem Titor predicted. Total global cases of variant CJD numbered approximately 230, far from a serious epidemic. Modern food safety regulation effectively controlled BSE risk.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 25,
@@ -298,7 +346,9 @@
       "year": 2015,
       "status": "failed",
       "verdict_zh": "核战争未发生，中国并未通过军事手段将台湾、日本、韩国纳入势力范围。但中国确实在经济和军事上持续崛起，台海局势紧张加剧，中日、中韩关系也出现波动。提托对中国崛起的大方向判断有一定准确性，但具体情景（核战后扩张）完全错误。",
-      "verdict_en": "No nuclear war occurred, and China did not militarily absorb Taiwan, Japan, or Korea. However, China has indeed continued to rise economically and militarily, with increasing Taiwan Strait tensions and fluctuating China-Japan and China-Korea relations. Titor's general direction on China's rise had some accuracy, but the specific scenario (post-nuclear expansion) was entirely wrong."
+      "verdict_en": "No nuclear war occurred, and China did not militarily absorb Taiwan, Japan, or Korea. However, China has indeed continued to rise economically and militarily, with increasing Taiwan Strait tensions and fluctuating China-Japan and China-Korea relations. Titor's general direction on China's rise had some accuracy, but the specific scenario (post-nuclear expansion) was entirely wrong.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 26,
@@ -310,7 +360,9 @@
       "year": 2020,
       "status": "failed",
       "verdict_zh": "截至2026年，美国并未分裂为五个区域，首都仍在华盛顿。虽然州权运动和分裂主义言论偶有出现（如德克萨斯独立运动），但美国联邦体制保持完整。此预言完全未应验。",
-      "verdict_en": "As of 2026, the US has not split into five regions, and the capital remains in Washington. While states' rights movements and secessionist rhetoric occasionally surface (e.g., Texas independence movements), the US federal system remains intact. This prediction was entirely unfulfilled."
+      "verdict_en": "As of 2026, the US has not split into five regions, and the capital remains in Washington. While states' rights movements and secessionist rhetoric occasionally surface (e.g., Texas independence movements), the US federal system remains intact. This prediction was entirely unfulfilled.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 27,
@@ -322,7 +374,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 28,
@@ -334,7 +388,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 29,
@@ -346,7 +402,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 30,
@@ -358,7 +416,9 @@
       "year": 2004,
       "status": "partial",
       "verdict_zh": "韦科事件（1993年）确实在美国右翼和民兵运动中产生了深远影响，直接促成了1995年俄克拉荷马城爆炸案。政府对公民武力使用的争议持续发酵。虽然未导致内战，但提托将韦科事件定位为政府与民间对抗的标志性事件，这一判断在美国政治话语中确实有所体现。",
-      "verdict_en": "The Waco siege (1993) did have a profound impact on American right-wing and militia movements, directly contributing to the 1995 Oklahoma City bombing. Debates about government use of force against citizens continued. While it didn't lead to civil war, Titor's framing of Waco as a symbolic event of government-civilian confrontation did resonate in American political discourse."
+      "verdict_en": "The Waco siege (1993) did have a profound impact on American right-wing and militia movements, directly contributing to the 1995 Oklahoma City bombing. Debates about government use of force against citizens continued. While it didn't lead to civil war, Titor's framing of Waco as a symbolic event of government-civilian confrontation did resonate in American political discourse.",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 31,
@@ -370,7 +430,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 32,
@@ -382,7 +444,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 33,
@@ -394,7 +458,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 34,
@@ -406,7 +472,9 @@
       "year": 2036,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     },
     {
       "id": 35,
@@ -418,7 +486,9 @@
       "year": "未确定",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "John Titor在论坛帖子中明确提到了该年份",
+      "yearReason_en": "John Titor explicitly mentioned this year in his forum posts"
     }
   ]
 }

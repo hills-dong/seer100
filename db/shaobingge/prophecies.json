@@ -21,7 +21,9 @@
       "year": 1402,
       "status": "verified",
       "verdict_zh": "「嫡裔太子」指建文帝朱允炆为太子朱标嫡孙。「文星高拱日防西」暗示需提防的威胁来自西方——燕王朱棣封地在北平（相对南京偏西北），后发动靖难之役夺位。",
-      "verdict_en": "The 'legitimate heir' refers to the Jianwen Emperor Zhu Yunwen, grandson of Crown Prince Zhu Biao. 'A literary star rises high — beware the west' hints at the threat from Prince of Yan Zhu Di, whose fief was in Beiping (northwest of Nanjing), who later launched the Jingnan Campaign to seize the throne."
+      "verdict_en": "The 'legitimate heir' refers to the Jianwen Emperor Zhu Yunwen, grandson of Crown Prince Zhu Biao. 'A literary star rises high — beware the west' hints at the threat from Prince of Yan Zhu Di, whose fief was in Beiping (northwest of Nanjing), who later launched the Jingnan Campaign to seize the throne.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 3,
@@ -33,7 +35,9 @@
       "year": 1402,
       "status": "verified",
       "verdict_zh": "「永乐平」直指永乐年号（1402-1424），朱棣即位后年号永乐。「秃顶人」暗指辅佐朱棣的僧人道衍（姚广孝），他是靖难之役的关键谋士。「英雄一半尽还乡」指朱棣登基后对建文旧臣的清洗。",
-      "verdict_en": "'Eternal Joy' directly names the Yongle era (1402-1424) of Emperor Zhu Di. 'A bald-headed man' alludes to the monk Dao Yan (Yao Guangxiao), the key strategist behind the Jingnan Campaign. 'Half the heroes return home' refers to Zhu Di's purge of Jianwen-era officials after seizing power."
+      "verdict_en": "'Eternal Joy' directly names the Yongle era (1402-1424) of Emperor Zhu Di. 'A bald-headed man' alludes to the monk Dao Yan (Yao Guangxiao), the key strategist behind the Jingnan Campaign. 'Half the heroes return home' refers to Zhu Di's purge of Jianwen-era officials after seizing power.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 4,
@@ -45,7 +49,9 @@
       "year": 1449,
       "status": "verified",
       "verdict_zh": "「北方胡虏」指瓦剌（蒙古部落）入侵。「御驾亲征」指明英宗朱祁镇在太监王振怂恿下御驾亲征，于1449年土木堡之变中被瓦剌俘虏。「失算功臣不敢谏」指王振专权，群臣不敢反对亲征决定。",
-      "verdict_en": "'Northern barbarians' refers to the Oirat (Mongol) invasion. 'Imperial campaign' refers to Emperor Yingzong's ill-fated personal campaign at the urging of eunuch Wang Zhen, which led to his capture at the Tumu Crisis of 1449. 'Ministers who miscalculated dare not remonstrate' refers to Wang Zhen's autocratic power and officials' inability to oppose the campaign."
+      "verdict_en": "'Northern barbarians' refers to the Oirat (Mongol) invasion. 'Imperial campaign' refers to Emperor Yingzong's ill-fated personal campaign at the urging of eunuch Wang Zhen, which led to his capture at the Tumu Crisis of 1449. 'Ministers who miscalculated dare not remonstrate' refers to Wang Zhen's autocratic power and officials' inability to oppose the campaign.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 5,
@@ -57,7 +63,9 @@
       "year": 1449,
       "status": "verified",
       "verdict_zh": "此段暗指于谦在土木堡之变后力挽狂澜。英宗被俘后，于谦拥立景泰帝，组织北京保卫战击退瓦剌，稳定了明朝局势。于谦后被英宗复辟后冤杀。",
-      "verdict_en": "This passage alludes to Yu Qian's heroic defense after the Tumu Crisis. After Emperor Yingzong's capture, Yu Qian installed the Jingtai Emperor and organized the defense of Beijing, repelling the Oirat forces and stabilizing the Ming dynasty. Yu Qian was later unjustly executed when Yingzong was restored to power."
+      "verdict_en": "This passage alludes to Yu Qian's heroic defense after the Tumu Crisis. After Emperor Yingzong's capture, Yu Qian installed the Jingtai Emperor and organized the defense of Beijing, repelling the Oirat forces and stabilizing the Ming dynasty. Yu Qian was later unjustly executed when Yingzong was restored to power.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 6,
@@ -69,7 +77,9 @@
       "year": 1521,
       "status": "verified",
       "verdict_zh": "此段暗指明朝中期宦官专权。「乘婴儿」指太监趁幼帝年幼把持朝政，如正德年间刘瑾专权。「长大金龙太平时」指嘉靖帝即位后整顿朝纲。",
-      "verdict_en": "This passage alludes to eunuch dominance in mid-Ming politics. 'Rides upon the infant' refers to eunuchs seizing power during young emperors' reigns, such as Liu Jin's autocracy during the Zhengde era. 'When the golden dragon grows up, peace returns' refers to the Jiajing Emperor's ascension and restoration of order."
+      "verdict_en": "This passage alludes to eunuch dominance in mid-Ming politics. 'Rides upon the infant' refers to eunuchs seizing power during young emperors' reigns, such as Liu Jin's autocracy during the Zhengde era. 'When the golden dragon grows up, peace returns' refers to the Jiajing Emperor's ascension and restoration of order.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 7,
@@ -81,7 +91,9 @@
       "year": 1555,
       "status": "verified",
       "verdict_zh": "此段暗指嘉靖至万历年间（1521-1620），明朝抗击倭寇、平定边患。戚继光等名将荡平倭寇，「四夷各自都消灭」指东南倭患和北方蒙古威胁的先后平定。",
-      "verdict_en": "This passage alludes to the Jiajing-Wanli period (1521-1620), when the Ming fought Japanese pirates and border threats. Generals like Qi Jiguang defeated the Japanese raiders; 'barbarians on all sides destroyed' refers to the pacification of both the southeastern pirate menace and northern Mongol threats."
+      "verdict_en": "This passage alludes to the Jiajing-Wanli period (1521-1620), when the Ming fought Japanese pirates and border threats. Generals like Qi Jiguang defeated the Japanese raiders; 'barbarians on all sides destroyed' refers to the pacification of both the southeastern pirate menace and northern Mongol threats.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 8,
@@ -93,7 +105,9 @@
       "year": 1620,
       "status": "verified",
       "verdict_zh": "此段暗指明朝万历末年至天启年间的朝政混乱。「猴子沐盆」暗指万历帝属猴、「鸡逐鹿」指天启帝属鸡年间魏忠贤专权。万历至崇祯年间政局动荡，最终导致明朝覆亡。",
-      "verdict_en": "This passage alludes to late-Ming political chaos from the Wanli to Tianqi periods. 'Monkey in the basin' hints at the Wanli Emperor (born in a Monkey year); 'rooster chases the deer' refers to the Tianqi era when eunuch Wei Zhongxian seized power. Political turmoil from Wanli to Chongzhen ultimately led to the Ming's fall."
+      "verdict_en": "This passage alludes to late-Ming political chaos from the Wanli to Tianqi periods. 'Monkey in the basin' hints at the Wanli Emperor (born in a Monkey year); 'rooster chases the deer' refers to the Tianqi era when eunuch Wei Zhongxian seized power. Political turmoil from Wanli to Chongzhen ultimately led to the Ming's fall.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 9,
@@ -105,7 +119,9 @@
       "year": 1644,
       "status": "verified",
       "verdict_zh": "「十八孩儿」合为「李」字（十八子），暗指李自成。1644年李自成攻破北京，崇祯帝自缢，明朝灭亡。「公侯不复朝金阙」指明末群臣离散，无人再朝见皇帝。",
-      "verdict_en": "'Eighteen children' combines to form the character 'Li' (李, ten + eight + child), alluding to Li Zicheng. In 1644, Li Zicheng captured Beijing, the Chongzhen Emperor hanged himself, and the Ming dynasty fell. 'Lords no longer attend the golden court' refers to the scattering of officials at the dynasty's end."
+      "verdict_en": "'Eighteen children' combines to form the character 'Li' (李, ten + eight + child), alluding to Li Zicheng. In 1644, Li Zicheng captured Beijing, the Chongzhen Emperor hanged himself, and the Ming dynasty fell. 'Lords no longer attend the golden court' refers to the scattering of officials at the dynasty's end.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 10,
@@ -117,7 +133,9 @@
       "year": 1644,
       "status": "verified",
       "verdict_zh": "此段通过拆字法明确指出「李自成」三字。李自成于1644年建立大顺政权，攻破北京推翻明朝，但仅在位42天即被清军和吴三桂联军击败，后败亡于湖北。「英雄豪杰总无春」指李自成的大顺政权短命。",
-      "verdict_en": "This passage uses character decomposition to spell out 'Li Zicheng' (李自成). Li Zicheng established the Shun dynasty in 1644, captured Beijing and overthrew the Ming, but ruled for only 42 days before being defeated by the combined forces of the Qing army and Wu Sangui. 'Heroes find no spring' refers to the brevity of his reign."
+      "verdict_en": "This passage uses character decomposition to spell out 'Li Zicheng' (李自成). Li Zicheng established the Shun dynasty in 1644, captured Beijing and overthrew the Ming, but ruled for only 42 days before being defeated by the combined forces of the Qing army and Wu Sangui. 'Heroes find no spring' refers to the brevity of his reign.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 11,
@@ -129,7 +147,9 @@
       "year": 1644,
       "status": "verified",
       "verdict_zh": "此段暗指吴三桂引清兵入关。「手执钢刀九十九」，九十九暗合「白」字（百少一），指满族的白山黑水之地。清军入关后与南明和农民军反复征战，最终统一中国。",
-      "verdict_en": "This passage alludes to Wu Sangui inviting the Qing (Manchu) army through Shanhai Pass. 'Ninety-nine' hints at the character 'bai' (白, hundred minus one), referencing the Manchu homeland of 'white mountains and black waters.' The Qing army entered China in 1644 and waged prolonged campaigns against the Southern Ming and peasant armies before unifying the country."
+      "verdict_en": "This passage alludes to Wu Sangui inviting the Qing (Manchu) army through Shanhai Pass. 'Ninety-nine' hints at the character 'bai' (白, hundred minus one), referencing the Manchu homeland of 'white mountains and black waters.' The Qing army entered China in 1644 and waged prolonged campaigns against the Southern Ming and peasant armies before unifying the country.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 12,
@@ -141,7 +161,9 @@
       "year": 1644,
       "status": "verified",
       "verdict_zh": "通过拆字法暗示「清」朝国号。清军入关后，经历约二十年战争（1644-1662南明抗清），最终平定三藩、收复台湾，统一全国。「一方冠冕天中坐」指清朝皇帝稳坐江山。",
-      "verdict_en": "Character decomposition encodes the dynasty name 'Qing' (清). After entering China, the Qing spent roughly twenty years fighting (1644-1662 against the Southern Ming) before pacifying the Three Feudatories and recovering Taiwan to unify the country. 'One crowned head sits in heaven's center' indicates the Qing emperor's secure rule."
+      "verdict_en": "Character decomposition encodes the dynasty name 'Qing' (清). After entering China, the Qing spent roughly twenty years fighting (1644-1662 against the Southern Ming) before pacifying the Three Feudatories and recovering Taiwan to unify the country. 'One crowned head sits in heaven's center' indicates the Qing emperor's secure rule.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 13,
@@ -153,7 +175,9 @@
       "year": 1851,
       "status": "verified",
       "verdict_zh": "「一二三四五六七」缺「八」，暗喻清朝终将灭亡。「半边山河」指太平天国占据半壁江山（1851-1864）。「鸡犬同起舞」指各路人马乘乱而起。「八方混战」指清末各地起义不断。",
-      "verdict_en": "'One through seven' missing 'eight' implies the dynasty's eventual doom. 'Half the realm' refers to the Taiping Heavenly Kingdom occupying half of China (1851-1864). 'Roosters and dogs dance together' alludes to various factions rising in the chaos. 'Eight directions at war' refers to the constant uprisings across late-Qing China."
+      "verdict_en": "'One through seven' missing 'eight' implies the dynasty's eventual doom. 'Half the realm' refers to the Taiping Heavenly Kingdom occupying half of China (1851-1864). 'Roosters and dogs dance together' alludes to various factions rising in the chaos. 'Eight directions at war' refers to the constant uprisings across late-Qing China.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 14,
@@ -165,7 +189,9 @@
       "year": 1911,
       "status": "verified",
       "verdict_zh": "此段暗指辛亥革命和中华民国建立。「头生角」暗指「总统」（角为总字偏旁变化）。「大海流水各相通」指近代中国开放通商。辛亥革命（1911年，辛亥属猪）推翻清朝，建立民国，「无归路」指帝制不可复辟。",
-      "verdict_en": "This passage alludes to the Xinhai Revolution and the founding of the Republic of China. 'Horned head' hints at 'president.' 'Ocean waters flow and connect' refers to modern China's opening to trade. The Xinhai Revolution (1911) overthrew the Qing dynasty and established the Republic; 'no road back' means the imperial system could not be restored."
+      "verdict_en": "This passage alludes to the Xinhai Revolution and the founding of the Republic of China. 'Horned head' hints at 'president.' 'Ocean waters flow and connect' refers to modern China's opening to trade. The Xinhai Revolution (1911) overthrew the Qing dynasty and established the Republic; 'no road back' means the imperial system could not be restored.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 15,
@@ -177,7 +203,9 @@
       "year": 1949,
       "status": "verified",
       "verdict_zh": "「日头落水」暗指日本战败投降（1945年，「日」落入水中）。「江山是非多」指抗战后国共内战。「红花满地众人和」暗指1949年新中国成立，红色政权统一大陆，红旗遍布。",
-      "verdict_en": "'Sun falls into water' alludes to Japan's defeat and surrender (1945 — 'sun' sinks into water). 'Much dispute in the realm' refers to the Chinese Civil War after WWII. 'Red flowers cover the land, people unite' alludes to the founding of the People's Republic of China in 1949, with the red flag covering the mainland."
+      "verdict_en": "'Sun falls into water' alludes to Japan's defeat and surrender (1945 — 'sun' sinks into water). 'Much dispute in the realm' refers to the Chinese Civil War after WWII. 'Red flowers cover the land, people unite' alludes to the founding of the People's Republic of China in 1949, with the red flag covering the mainland.",
+      "yearReason": "根据烧饼歌的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Shaobing Song corresponds to this historical period"
     },
     {
       "id": 16,

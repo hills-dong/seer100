@@ -3,18 +3,6 @@
     {
       "id": 1,
       "cat": "spirit",
-      "q": "圣母在首次显现时的核心呼唤",
-      "a": "「亲爱的孩子们！我是你们的母亲，和平女王。我来到这里是要告诉你们：天主存在。天主派遣了我。我呼唤你们走向和平。要和平！在你们心中寻找和平，在你们周围建造和平。」",
-      "q_en": "Our Lady's core call at the first apparition",
-      "a_en": "\"Dear children! I am your Mother, the Queen of Peace. I have come to tell you that God exists. God has sent me. I call you to peace. Be at peace! Seek peace in your hearts and build peace around you.\"",
-      "date": "1981-06-25",
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
-    },
-    {
-      "id": 2,
-      "cat": "spirit",
       "q": "圣母关于祈祷与斋戒的讯息",
       "a": "「你们要用心祈祷。不只是嘴上的祈祷，而是心灵的祈祷。你们要在周三和周五守斋——只食面包和水。斋戒与祈祷能制止战争，能改变自然法则。」",
       "q_en": "Our Lady's message on prayer and fasting",
@@ -25,13 +13,25 @@
       "verdict_en": ""
     },
     {
-      "id": 3,
+      "id": 2,
       "cat": "spirit",
       "q": "圣母关于皈依的呼唤",
       "a": "「你们要皈依！不要等到圣母给你们的标记出现才皈依，因为对于那些不信的人，当标记出现时就太迟了。你们这些信的人，现在就要皈依，加深你们的信仰。」",
       "q_en": "Our Lady's call to conversion",
       "a_en": "\"You must convert! Do not wait for the sign I will give you before you convert, because for those who do not believe, when the sign comes it will be too late. You who believe, convert now and deepen your faith.\"",
       "date": "1981",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 3,
+      "cat": "spirit",
+      "q": "圣母在首次显现时的核心呼唤",
+      "a": "「亲爱的孩子们！我是你们的母亲，和平女王。我来到这里是要告诉你们：天主存在。天主派遣了我。我呼唤你们走向和平。要和平！在你们心中寻找和平，在你们周围建造和平。」",
+      "q_en": "Our Lady's core call at the first apparition",
+      "a_en": "\"Dear children! I am your Mother, the Queen of Peace. I have come to tell you that God exists. God has sent me. I call you to peace. Be at peace! Seek peace in your hearts and build peace around you.\"",
+      "date": "1981-06-25",
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
@@ -167,7 +167,9 @@
       "year": 1991,
       "status": "verified",
       "verdict_zh": "1991-2001年间，前南斯拉夫爆发了一系列战争，包括克罗地亚独立战争（1991-1995）、波斯尼亚战争（1992-1995）和科索沃战争（1998-1999），造成超过14万人死亡、数百万人流离失所。默主哥耶本身位于波斯尼亚，直接经历了战火。",
-      "verdict_en": "From 1991-2001, the former Yugoslavia experienced a series of wars including the Croatian War of Independence (1991-1995), the Bosnian War (1992-1995), and the Kosovo War (1998-1999), causing over 140,000 deaths and millions displaced. Medjugorje itself, located in Bosnia, was directly affected by the conflict."
+      "verdict_en": "From 1991-2001, the former Yugoslavia experienced a series of wars including the Croatian War of Independence (1991-1995), the Bosnian War (1992-1995), and the Kosovo War (1998-1999), causing over 140,000 deaths and millions displaced. Medjugorje itself, located in Bosnia, was directly affected by the conflict.",
+      "yearReason": "默主哥耶圣母在显现信息中提及",
+      "yearReason_en": "Mentioned in the apparition messages at Medjugorje"
     },
     {
       "id": 15,
@@ -192,7 +194,9 @@
       "year": 2024,
       "status": "verified",
       "verdict_zh": "2024年9月19日，梵蒂冈教义部部长费尔南德斯枢机签署公告，经教宗方济各2024年8月28日接见时批准，正式对默主哥耶现象授予「无异议」认可。这是梵蒂冈43年来首次对默主哥耶作出正式表态，标志着教会承认其灵修价值，但审慎地未对超自然性质作出判定。",
-      "verdict_en": "On September 19, 2024, Cardinal Fernández, prefect of the Dicastery for the Doctrine of the Faith, signed the note granting 'nihil obstat' to the Medjugorje phenomenon, approved by Pope Francis during an August 28, 2024 audience. This was the Vatican's first formal pronouncement on Medjugorje in 43 years, marking the Church's recognition of its spiritual value while prudently not judging its supernatural character."
+      "verdict_en": "On September 19, 2024, Cardinal Fernández, prefect of the Dicastery for the Doctrine of the Faith, signed the note granting 'nihil obstat' to the Medjugorje phenomenon, approved by Pope Francis during an August 28, 2024 audience. This was the Vatican's first formal pronouncement on Medjugorje in 43 years, marking the Church's recognition of its spiritual value while prudently not judging its supernatural character.",
+      "yearReason": "默主哥耶圣母在显现信息中提及",
+      "yearReason_en": "Mentioned in the apparition messages at Medjugorje"
     }
   ]
 }

@@ -11,7 +11,9 @@
       "date": "2001-06",
       "status": "partial",
       "verdict_zh": "2001年9月11日发生了震惊世界的恐怖袭击。Web Bot 声称提前检测到了相关语言信号，但这一说法缺乏独立第三方验证。原始ALTA报告的措辞极为模糊，并未具体提及航空袭击或世贸中心。批评者认为这是典型的事后追溯性解读。",
-      "verdict_en": "The September 11, 2001 terrorist attacks shocked the world. Web Bot claims to have detected relevant linguistic signals in advance, but this claim lacks independent third-party verification. The original ALTA report's wording was extremely vague and did not specifically mention aviation attacks or the World Trade Center. Critics consider this a classic case of retroactive interpretation."
+      "verdict_en": "The September 11, 2001 terrorist attacks shocked the world. Web Bot claims to have detected relevant linguistic signals in advance, but this claim lacks independent third-party verification. The original ALTA report's wording was extremely vague and did not specifically mention aviation attacks or the World Trade Center. Critics consider this a classic case of retroactive interpretation.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 2,
@@ -24,23 +26,12 @@
       "date": "2004",
       "status": "partial",
       "verdict_zh": "2004年12月26日，印度洋海啸造成约23万人死亡。Web Bot 声称在其报告中预测了这一事件，但原始报告仅笼统提及\"水相关灾难\"，并未指明海啸、印度洋或具体时间。考虑到全球每年都会发生洪水、台风等水相关灾害，如此宽泛的预测容易在事后找到对应事件。",
-      "verdict_en": "On December 26, 2004, the Indian Ocean tsunami killed approximately 230,000 people. Web Bot claims to have predicted this in its reports, but the original report only vaguely mentioned 'water-related disaster' without specifying a tsunami, the Indian Ocean, or a specific timeframe. Given that floods, typhoons, and other water-related disasters occur globally every year, such broad predictions can easily be matched retroactively."
+      "verdict_en": "On December 26, 2004, the Indian Ocean tsunami killed approximately 230,000 people. Web Bot claims to have predicted this in its reports, but the original report only vaguely mentioned 'water-related disaster' without specifying a tsunami, the Indian Ocean, or a specific timeframe. Given that floods, typhoons, and other water-related disasters occur globally every year, such broad predictions can easily be matched retroactively.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 3,
-      "cat": "economy",
-      "q": "Web Bot 预测全球金融系统崩溃",
-      "a": "ALTA报告检测到大量与\"崩溃\"、\"损失\"、\"恐慌\"、\"银行\"相关的语言模式，预测2008年秋季将出现全球性金融危机，经济系统将发生根本性动摇。",
-      "q_en": "Web Bot predicts global financial system collapse",
-      "a_en": "ALTA reports detected significant language patterns related to 'collapse,' 'loss,' 'panic,' and 'banks,' predicting a global financial crisis in fall 2008 that would fundamentally shake the economic system.",
-      "year": 2008,
-      "date": "2008-03",
-      "status": "partial",
-      "verdict_zh": "2008年9月雷曼兄弟倒闭引发全球金融危机，这是自大萧条以来最严重的经济灾难。Web Bot 确实在2008年初的报告中提及了金融动荡的信号。然而，到2008年3月贝尔斯登已被紧急收购，次贷危机已广为人知，许多主流经济学家也在发出类似警告。Web Bot 的预测并非独特的前瞻性洞察。",
-      "verdict_en": "The collapse of Lehman Brothers in September 2008 triggered the worst global financial crisis since the Great Depression. Web Bot did mention financial turmoil signals in early 2008 reports. However, by March 2008 Bear Stearns had already been rescued, the subprime crisis was widely known, and many mainstream economists were issuing similar warnings. Web Bot's prediction was not a uniquely prescient insight."
-    },
-    {
-      "id": 4,
       "cat": "climate",
       "q": "Web Bot 预测2009年将发生\"全球沿海事件\"",
       "a": "ALTA报告预测2009年夏季将有大规模沿海灾难事件发生，涉及地震、海啸或风暴引发的沿海破坏。",
@@ -50,7 +41,24 @@
       "date": "2008",
       "status": "failed",
       "verdict_zh": "2009年夏季并未发生任何符合描述的\"全球沿海事件\"。虽然世界各地每年都有台风、飓风等沿海灾害，但2009年并无特别突出的全球性沿海灾难。此预测完全落空。",
-      "verdict_en": "No 'global coastal event' matching the description occurred in summer 2009. While coastal disasters such as typhoons and hurricanes occur worldwide every year, 2009 saw no particularly notable global coastal catastrophe. This prediction completely failed."
+      "verdict_en": "No 'global coastal event' matching the description occurred in summer 2009. While coastal disasters such as typhoons and hurricanes occur worldwide every year, 2009 saw no particularly notable global coastal catastrophe. This prediction completely failed.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
+    },
+    {
+      "id": 4,
+      "cat": "economy",
+      "q": "Web Bot 预测全球金融系统崩溃",
+      "a": "ALTA报告检测到大量与\"崩溃\"、\"损失\"、\"恐慌\"、\"银行\"相关的语言模式，预测2008年秋季将出现全球性金融危机，经济系统将发生根本性动摇。",
+      "q_en": "Web Bot predicts global financial system collapse",
+      "a_en": "ALTA reports detected significant language patterns related to 'collapse,' 'loss,' 'panic,' and 'banks,' predicting a global financial crisis in fall 2008 that would fundamentally shake the economic system.",
+      "year": 2008,
+      "date": "2008-03",
+      "status": "partial",
+      "verdict_zh": "2008年9月雷曼兄弟倒闭引发全球金融危机，这是自大萧条以来最严重的经济灾难。Web Bot 确实在2008年初的报告中提及了金融动荡的信号。然而，到2008年3月贝尔斯登已被紧急收购，次贷危机已广为人知，许多主流经济学家也在发出类似警告。Web Bot 的预测并非独特的前瞻性洞察。",
+      "verdict_en": "The collapse of Lehman Brothers in September 2008 triggered the worst global financial crisis since the Great Depression. Web Bot did mention financial turmoil signals in early 2008 reports. However, by March 2008 Bear Stearns had already been rescued, the subprime crisis was widely known, and many mainstream economists were issuing similar warnings. Web Bot's prediction was not a uniquely prescient insight.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 5,
@@ -63,23 +71,12 @@
       "date": "2009",
       "status": "failed",
       "verdict_zh": "2012年12月21日（玛雅历法终结日）前后一切正常，未发生任何末日级灾难。这是Web Bot最广为人知的失败预测之一。批评者指出，Web Bot 检测到的语言信号很可能只是反映了互联网上对2012年末日论本身的广泛讨论，而非对真实事件的预感。这暴露了该系统的根本缺陷：它无法区分\"对未来的预感\"和\"对流行话题的讨论\"。",
-      "verdict_en": "December 21, 2012 (the Maya calendar end date) passed without incident. No doomsday catastrophe occurred. This is one of Web Bot's most well-known failed predictions. Critics note that the linguistic signals Web Bot detected likely reflected widespread internet discussion about 2012 doomsday theories themselves, not premonitions of actual events. This exposes a fundamental flaw: the system cannot distinguish between 'premonitions of the future' and 'discussion of popular topics.'"
+      "verdict_en": "December 21, 2012 (the Maya calendar end date) passed without incident. No doomsday catastrophe occurred. This is one of Web Bot's most well-known failed predictions. Critics note that the linguistic signals Web Bot detected likely reflected widespread internet discussion about 2012 doomsday theories themselves, not premonitions of actual events. This exposes a fundamental flaw: the system cannot distinguish between 'premonitions of the future' and 'discussion of popular topics.'",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 6,
-      "cat": "climate",
-      "q": "Web Bot 预测太阳风暴导致大规模基础设施破坏",
-      "a": "ALTA报告持续检测到与\"太阳\"、\"电磁\"、\"停电\"、\"电网崩溃\"相关的强烈语言信号，预测2013年将发生破坏性太阳风暴事件，导致全球电网大面积瘫痪。",
-      "q_en": "Web Bot predicts solar storm causing massive infrastructure damage",
-      "a_en": "ALTA reports consistently detected strong language signals related to 'sun,' 'electromagnetic,' 'blackout,' and 'grid collapse,' predicting a destructive solar storm in 2013 causing widespread global power grid failure.",
-      "year": 2013,
-      "date": "2010",
-      "status": "failed",
-      "verdict_zh": "2013年并未发生破坏性太阳风暴事件。虽然2012年7月确实有一次强烈的日冕物质抛射（卡灵顿级别）与地球擦肩而过，但并未命中地球。2013年太阳活动处于第24周期峰值，但没有造成任何大规模电网或基础设施破坏。",
-      "verdict_en": "No destructive solar storm event occurred in 2013. While a powerful coronal mass ejection (Carrington-level) did narrowly miss Earth in July 2012, it did not hit. Solar activity peaked in Solar Cycle 24 during 2013, but caused no large-scale grid or infrastructure damage."
-    },
-    {
-      "id": 7,
       "cat": "economy",
       "q": "Web Bot 预测美元崩溃",
       "a": "ALTA报告多年持续检测到与\"美元\"、\"贬值\"、\"崩溃\"、\"恶性通胀\"相关的语言信号，预测美元将在2011-2012年间失去全球储备货币地位，引发美国恶性通货膨胀。",
@@ -89,7 +86,24 @@
       "date": "2009",
       "status": "failed",
       "verdict_zh": "美元在2011-2012年间并未崩溃，也未发生恶性通货膨胀。事实上，2011年欧债危机期间，美元作为避险资产反而走强。美元至今仍是全球主要储备货币。这一预测反映了Web Bot系统的一个特点：它倾向于将互联网上末日论者和贵金属投资者的焦虑情绪误读为对真实事件的预测。",
-      "verdict_en": "The US dollar did not collapse in 2011-2012, nor did hyperinflation occur. In fact, during the 2011 European debt crisis, the dollar strengthened as a safe-haven asset. The dollar remains the world's primary reserve currency. This prediction illustrates a pattern: Web Bot tends to misread anxiety from doomsday theorists and precious metals investors online as predictions of real events."
+      "verdict_en": "The US dollar did not collapse in 2011-2012, nor did hyperinflation occur. In fact, during the 2011 European debt crisis, the dollar strengthened as a safe-haven asset. The dollar remains the world's primary reserve currency. This prediction illustrates a pattern: Web Bot tends to misread anxiety from doomsday theorists and precious metals investors online as predictions of real events.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
+    },
+    {
+      "id": 7,
+      "cat": "climate",
+      "q": "Web Bot 预测太阳风暴导致大规模基础设施破坏",
+      "a": "ALTA报告持续检测到与\"太阳\"、\"电磁\"、\"停电\"、\"电网崩溃\"相关的强烈语言信号，预测2013年将发生破坏性太阳风暴事件，导致全球电网大面积瘫痪。",
+      "q_en": "Web Bot predicts solar storm causing massive infrastructure damage",
+      "a_en": "ALTA reports consistently detected strong language signals related to 'sun,' 'electromagnetic,' 'blackout,' and 'grid collapse,' predicting a destructive solar storm in 2013 causing widespread global power grid failure.",
+      "year": 2013,
+      "date": "2010",
+      "status": "failed",
+      "verdict_zh": "2013年并未发生破坏性太阳风暴事件。虽然2012年7月确实有一次强烈的日冕物质抛射（卡灵顿级别）与地球擦肩而过，但并未命中地球。2013年太阳活动处于第24周期峰值，但没有造成任何大规模电网或基础设施破坏。",
+      "verdict_en": "No destructive solar storm event occurred in 2013. While a powerful coronal mass ejection (Carrington-level) did narrowly miss Earth in July 2012, it did not hit. Solar activity peaked in Solar Cycle 24 during 2013, but caused no large-scale grid or infrastructure damage.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 8,
@@ -102,7 +116,9 @@
       "date": "2012",
       "status": "failed",
       "verdict_zh": "2013年并未发生任何\"全球沿海事件\"，没有大规模海啸、海平面急剧上升或沿海人口被迫迁移的情况。这是Web Bot反复预测的\"全球沿海事件\"系列中的又一次失败，该主题从2008年起被多次预测并多次落空。",
-      "verdict_en": "No 'global coastal event' occurred in 2013. There was no mega-tsunami, rapid sea level rise, or forced coastal migration. This was another failure in Web Bot's recurring 'global coastal event' predictions, a theme repeatedly predicted and repeatedly unfulfilled since 2008."
+      "verdict_en": "No 'global coastal event' occurred in 2013. There was no mega-tsunami, rapid sea level rise, or forced coastal migration. This was another failure in Web Bot's recurring 'global coastal event' predictions, a theme repeatedly predicted and repeatedly unfulfilled since 2008.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 9,
@@ -115,7 +131,9 @@
       "date": "2017-01",
       "status": "verified",
       "verdict_zh": "2017年比特币价格从年初约1000美元飙升至12月近20000美元，涨幅近20倍。加密货币市场经历了史无前例的爆发式增长。然而需要指出，到2017年初加密货币已是互联网热门话题，Web Bot检测到的语言信号更可能反映了已有的市场热情，而非对未来的独特预见。Clif High 本人也是知名的加密货币投资者和推广者。",
-      "verdict_en": "Bitcoin surged from approximately $1,000 in early 2017 to nearly $20,000 in December 2017, a roughly 20x increase. The cryptocurrency market experienced unprecedented explosive growth. However, by early 2017 cryptocurrency was already a trending internet topic, and Web Bot's linguistic signals likely reflected existing market enthusiasm rather than unique foresight. Clif High himself is a well-known cryptocurrency investor and promoter."
+      "verdict_en": "Bitcoin surged from approximately $1,000 in early 2017 to nearly $20,000 in December 2017, a roughly 20x increase. The cryptocurrency market experienced unprecedented explosive growth. However, by early 2017 cryptocurrency was already a trending internet topic, and Web Bot's linguistic signals likely reflected existing market enthusiasm rather than unique foresight. Clif High himself is a well-known cryptocurrency investor and promoter.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 10,
@@ -128,7 +146,9 @@
       "date": "2017-11",
       "status": "failed",
       "verdict_zh": "比特币在2017年12月达到约20000美元的高点后，2018年初即开始暴跌，全年下跌超过80%，年底跌至约3200美元。10万美元的预测完全落空。比特币直到2024年底才首次触及10万美元。",
-      "verdict_en": "After reaching approximately $20,000 in December 2017, Bitcoin crashed in early 2018, falling over 80% throughout the year to approximately $3,200 by year-end. The $100,000 prediction completely failed. Bitcoin did not reach $100,000 until late 2024."
+      "verdict_en": "After reaching approximately $20,000 in December 2017, Bitcoin crashed in early 2018, falling over 80% throughout the year to approximately $3,200 by year-end. The $100,000 prediction completely failed. Bitcoin did not reach $100,000 until late 2024.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 11,
@@ -141,7 +161,9 @@
       "date": "2019",
       "status": "partial",
       "verdict_zh": "2020年确实发生了全球性的重大社会事件：新冠疫情引发全球封锁，美国乔治·弗洛伊德事件引发席卷全球的Black Lives Matter抗议运动。但Web Bot的预测并未具体提及疫情或种族正义运动，其\"觉醒\"叙事更接近阴谋论社区的常见用语。此外，全球范围的社会动荡几乎每年都有，此类宽泛预测容易事后匹配。",
-      "verdict_en": "2020 did see major global social events: COVID-19 caused worldwide lockdowns, and the George Floyd incident in the US sparked global Black Lives Matter protests. However, Web Bot did not specifically mention a pandemic or racial justice movement; its 'awakening' narrative aligns more closely with conspiracy theory community language. Moreover, social unrest of some kind occurs globally almost every year, making such broad predictions easy to match retroactively."
+      "verdict_en": "2020 did see major global social events: COVID-19 caused worldwide lockdowns, and the George Floyd incident in the US sparked global Black Lives Matter protests. However, Web Bot did not specifically mention a pandemic or racial justice movement; its 'awakening' narrative aligns more closely with conspiracy theory community language. Moreover, social unrest of some kind occurs globally almost every year, making such broad predictions easy to match retroactively.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 12,
@@ -154,7 +176,9 @@
       "date": "2020",
       "status": "partial",
       "verdict_zh": "2021年发生了多起重大网络安全事件，包括Colonial Pipeline勒索软件攻击导致美国东海岸燃油供应中断，以及SolarWinds供应链攻击的后续影响持续发酵。但这些事件的规模与Web Bot所预测的\"前所未有的全球性数据灾难\"相去甚远，且网络安全事件每年都在发生，此类预测缺乏具体性。",
-      "verdict_en": "Several major cybersecurity incidents occurred in 2021, including the Colonial Pipeline ransomware attack disrupting fuel supply on the US East Coast, and ongoing fallout from the SolarWinds supply chain attack. However, these events fell far short of the 'unprecedented global data catastrophe' Web Bot predicted, and cybersecurity incidents occur every year, making such predictions lack specificity."
+      "verdict_en": "Several major cybersecurity incidents occurred in 2021, including the Colonial Pipeline ransomware attack disrupting fuel supply on the US East Coast, and ongoing fallout from the SolarWinds supply chain attack. However, these events fell far short of the 'unprecedented global data catastrophe' Web Bot predicted, and cybersecurity incidents occur every year, making such predictions lack specificity.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 13,
@@ -167,7 +191,9 @@
       "date": "2021",
       "status": "failed",
       "verdict_zh": "2022年全球经济面临通胀压力和利率上升，但法定货币体系并未崩溃。相反，2022年恰恰是加密货币的\"寒冬\"——Terra/Luna崩盘、FTX交易所破产，加密市场总市值蒸发超过2万亿美元。加密货币非但没有取代法币，反而遭受了严重打击。",
-      "verdict_en": "The global economy faced inflationary pressure and rising interest rates in 2022, but fiat currency systems did not collapse. On the contrary, 2022 was a 'crypto winter' — Terra/Luna collapsed, FTX went bankrupt, and the total crypto market cap lost over $2 trillion. Cryptocurrency not only failed to replace fiat currency but suffered severe setbacks."
+      "verdict_en": "The global economy faced inflationary pressure and rising interest rates in 2022, but fiat currency systems did not collapse. On the contrary, 2022 was a 'crypto winter' — Terra/Luna collapsed, FTX went bankrupt, and the total crypto market cap lost over $2 trillion. Cryptocurrency not only failed to replace fiat currency but suffered severe setbacks.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     },
     {
       "id": 14,
@@ -180,7 +206,9 @@
       "date": "2023",
       "status": "partial",
       "verdict_zh": "2024-2025年确实处于第25太阳周期活动极大期，2024年5月发生了20年来最强的地磁风暴（G5级），全球多地可见壮观极光，部分地区出现短暂GPS和无线电干扰。但并未发生Web Bot所预测的\"大面积停电和通信中断\"等严重灾难。太阳活动极大期是天文学界早已预知的周期性事件，并非独特预见。",
-      "verdict_en": "2024-2025 is indeed the Solar Cycle 25 maximum period. In May 2024, the strongest geomagnetic storm in 20 years (G5-level) occurred, producing spectacular auroras visible worldwide with brief GPS and radio interference in some areas. However, the 'widespread blackouts and communication outages' Web Bot predicted did not occur. Solar maximum is a periodic event well-known to astronomers in advance, not a unique prediction."
+      "verdict_en": "2024-2025 is indeed the Solar Cycle 25 maximum period. In May 2024, the strongest geomagnetic storm in 20 years (G5-level) occurred, producing spectacular auroras visible worldwide with brief GPS and radio interference in some areas. However, the 'widespread blackouts and communication outages' Web Bot predicted did not occur. Solar maximum is a periodic event well-known to astronomers in advance, not a unique prediction.",
+      "yearReason": "网络机器人项目的数据分析预测了该时期",
+      "yearReason_en": "Web Bot project data analysis predicted this period"
     }
   ]
 }

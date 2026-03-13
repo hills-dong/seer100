@@ -3,6 +3,21 @@
     {
       "id": 1,
       "cat": "spirit",
+      "q": "庇护神父预言自己的去世时间",
+      "a": "「当我的弥撒结束五十年后，我将离开。」",
+      "q_en": "Padre Pio predicted the timing of his own death",
+      "a_en": "\"When fifty years of my Mass have passed, I shall depart.\"",
+      "year": 1968,
+      "date": "1918",
+      "status": "verified",
+      "verdict_zh": "庇护神父于1918年获准独立主持弥撒并出现圣伤。整整50年后的1968年9月23日，他在主持完最后一台弥撒数小时后去世。时间精确吻合。",
+      "verdict_en": "Padre Pio was authorized to celebrate Mass independently and received the stigmata in 1918. Exactly 50 years later, on September 23, 1968, he died just hours after celebrating his final Mass. The timing matched precisely.",
+      "yearReason": "庇奥神父在预言中提到了该时间",
+      "yearReason_en": "Padre Pio mentioned this time in his prophecies"
+    },
+    {
+      "id": 2,
+      "cat": "spirit",
       "q": "庇护神父关于圣伤的预言",
       "a": "「我感到自己正在死去。我的双手、双脚和肋部仿佛被利剑刺穿……这些伤口不会消失，它们将伴随我直到死亡。」",
       "q_en": "Padre Pio's prophecy about the stigmata",
@@ -11,10 +26,12 @@
       "date": "1918-09-20",
       "status": "verified",
       "verdict_zh": "庇护神父于1918年9月20日出现圣伤，持续整整50年直到1968年9月23日去世。去世前圣伤神秘消失，不留疤痕。这一预言完全应验。",
-      "verdict_en": "Padre Pio received the stigmata on September 20, 1918, which persisted for exactly 50 years until his death on September 23, 1968. The wounds mysteriously disappeared before death, leaving no scars. This prophecy was fully fulfilled."
+      "verdict_en": "Padre Pio received the stigmata on September 20, 1918, which persisted for exactly 50 years until his death on September 23, 1968. The wounds mysteriously disappeared before death, leaving no scars. This prophecy was fully fulfilled.",
+      "yearReason": "庇奥神父在预言中提到了该时间",
+      "yearReason_en": "Padre Pio mentioned this time in his prophecies"
     },
     {
-      "id": 2,
+      "id": 3,
       "cat": "war",
       "q": "庇护神父预言二战中意大利的命运",
       "a": "「意大利将遭受巨大的苦难，但最终会得到拯救。圣母将保护这片土地。战争不会毁灭我们。」",
@@ -24,10 +41,12 @@
       "date": "1940",
       "status": "verified",
       "verdict_zh": "意大利在二战中经历了盟军轰炸、内战和纳粹占领等巨大苦难，但1943年意大利投降后转向盟军一方，最终在1945年获得解放。圣乔瓦尼·罗通多在战争中未被摧毁。",
-      "verdict_en": "Italy suffered greatly during WWII through Allied bombings, civil war, and Nazi occupation, but after surrendering in 1943 and switching to the Allied side, it was ultimately liberated in 1945. San Giovanni Rotondo survived the war intact."
+      "verdict_en": "Italy suffered greatly during WWII through Allied bombings, civil war, and Nazi occupation, but after surrendering in 1943 and switching to the Allied side, it was ultimately liberated in 1945. San Giovanni Rotondo survived the war intact.",
+      "yearReason": "庇奥神父在预言中提到了该时间",
+      "yearReason_en": "Padre Pio mentioned this time in his prophecies"
     },
     {
-      "id": 3,
+      "id": 4,
       "cat": "war",
       "q": "庇护神父预言盟军不会轰炸圣乔瓦尼·罗通多",
       "a": "「不要害怕。圣乔瓦尼·罗通多不会被炸弹击中。天主不会允许这件事发生。」",
@@ -37,10 +56,12 @@
       "date": "1943",
       "status": "verified",
       "verdict_zh": "据美军飞行员证词，盟军曾派轰炸机前往圣乔瓦尼·罗通多执行任务，但飞行员声称在空中看到一位修士的异象，随后掉转方向。该镇在整个战争期间确实未遭轰炸。",
-      "verdict_en": "According to testimonies from American pilots, Allied bombers were sent to San Giovanni Rotondo, but pilots claimed to see a vision of a friar in the sky, after which they turned away. The town was indeed never bombed throughout the entire war."
+      "verdict_en": "According to testimonies from American pilots, Allied bombers were sent to San Giovanni Rotondo, but pilots claimed to see a vision of a friar in the sky, after which they turned away. The town was indeed never bombed throughout the entire war.",
+      "yearReason": "庇奥神父在预言中提到了该时间",
+      "yearReason_en": "Padre Pio mentioned this time in his prophecies"
     },
     {
-      "id": 4,
+      "id": 5,
       "cat": "politics",
       "q": "庇护神父预言卡罗尔·沃伊蒂瓦将成为教宗",
       "a": "「你将来会成为教宗。」",
@@ -50,10 +71,12 @@
       "date": "1947",
       "status": "verified",
       "verdict_zh": "1947年，年轻的波兰神父卡罗尔·沃伊蒂瓦（后来的若望保禄二世）拜访庇护神父。据多位见证人回忆，庇护预言他将登上伯多禄宝座。1978年10月16日，沃伊蒂瓦当选教宗若望保禄二世，成为455年来首位非意大利籍教宗。",
-      "verdict_en": "In 1947, young Polish priest Karol Wojtyla (later John Paul II) visited Padre Pio. According to multiple witnesses, Padre Pio prophesied he would ascend to the Chair of Peter. On October 16, 1978, Wojtyla was elected Pope John Paul II, the first non-Italian pope in 455 years."
+      "verdict_en": "In 1947, young Polish priest Karol Wojtyla (later John Paul II) visited Padre Pio. According to multiple witnesses, Padre Pio prophesied he would ascend to the Chair of Peter. On October 16, 1978, Wojtyla was elected Pope John Paul II, the first non-Italian pope in 455 years.",
+      "yearReason": "庇奥神父在预言中提到了该时间",
+      "yearReason_en": "Padre Pio mentioned this time in his prophecies"
     },
     {
-      "id": 5,
+      "id": 6,
       "cat": "spirit",
       "q": "庇护神父关于教会未来的警告",
       "a": "「撒旦已经进入了教会的怀抱，在很短的时间内，它将统治一个假教会。」",
@@ -65,26 +88,19 @@
       "verdict_en": "This prophecy is widely cited among traditionalist Catholics and resonates with the divisions and controversies within the Church after the Second Vatican Council (1962-1965). However, the claim of a 'false church' remains disputed, and the Catholic Church has never officially acknowledged this statement. Source is a letter allegedly sent to his spiritual director in January 1959."
     },
     {
-      "id": 6,
-      "cat": "spirit",
-      "q": "庇护神父关于三日黑暗的预言",
-      "a": "「黑暗将笼罩大地整整三天三夜。在这可怕的黑暗中，除了祝圣过的蜡烛外，任何东西都无法提供光明。点燃祝圣过的蜡烛，它将在三天中持续发光，但在罪人的家中无法点亮。在这三天中，不要打开门窗，不要向外张望，不要与屋外的人交谈。跪下祈祷，乞求天主的仁慈。」",
-      "q_en": "Padre Pio's prophecy of the Three Days of Darkness",
-      "a_en": "\"The darkness shall cover the earth for three days and three nights. In this terrible darkness, nothing can give light except blessed candles. Light a blessed candle and it will last through the three days, but in the homes of sinners it cannot be lit. During the three days, do not open doors or windows, do not look outside, do not speak to anyone outside. Kneel down and pray, imploring God's mercy.\"",
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
-    },
-    {
       "id": 7,
       "cat": "spirit",
-      "q": "庇护神父关于末世净化的预言",
-      "a": "「三日黑暗过后，圣伯多禄和圣保禄将从天降下，在全世界传教，指定新的教宗。大地将涌出一股清泉，万物将重获光明。幸存者应感谢天主三位一体的仁慈，并敬拜祂。」",
-      "q_en": "Padre Pio's prophecy about eschatological purification",
-      "a_en": "\"After the three days of darkness, Saints Peter and Paul will descend from heaven and preach throughout the world, designating a new Pope. A great light will spring from the earth. The survivors should give thanks to the Holy Trinity for Their mercy and worship Them.\"",
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "q": "庇护神父关于梵二会议的预示",
+      "a": "「很快，教会将召开一次大公会议，它将是一次巨大的恩典……但也将有人试图利用它偏离正道。」",
+      "q_en": "Padre Pio's foreshadowing of Vatican II",
+      "a_en": "\"Soon the Church will convene a great council, which will be an immense grace... but there will also be those who try to use it to deviate from the right path.\"",
+      "year": 1965,
+      "date": "约1959年",
+      "status": "verified",
+      "verdict_zh": "梵蒂冈第二次大公会议于1962年开幕、1965年闭幕，由教宗若望二十三世召集。会议对天主教会进行了重大改革，被视为「巨大恩典」。但会后教会内部确实出现了关于改革方向的激烈争议，传统派与改革派的分歧延续至今。",
+      "verdict_en": "The Second Vatican Council opened in 1962 and closed in 1965, convened by Pope John XXIII. The council brought major reforms to the Catholic Church, widely regarded as a 'great grace.' However, the post-conciliar period saw fierce disputes over the direction of reform, with divisions between traditionalists and progressives persisting to this day.",
+      "yearReason": "庇奥神父在预言中提到了该时间",
+      "yearReason_en": "Padre Pio mentioned this time in his prophecies"
     },
     {
       "id": 8,
@@ -100,19 +116,6 @@
     },
     {
       "id": 9,
-      "cat": "spirit",
-      "q": "庇护神父预言自己的去世时间",
-      "a": "「当我的弥撒结束五十年后，我将离开。」",
-      "q_en": "Padre Pio predicted the timing of his own death",
-      "a_en": "\"When fifty years of my Mass have passed, I shall depart.\"",
-      "year": 1968,
-      "date": "1918",
-      "status": "verified",
-      "verdict_zh": "庇护神父于1918年获准独立主持弥撒并出现圣伤。整整50年后的1968年9月23日，他在主持完最后一台弥撒数小时后去世。时间精确吻合。",
-      "verdict_en": "Padre Pio was authorized to celebrate Mass independently and received the stigmata in 1918. Exactly 50 years later, on September 23, 1968, he died just hours after celebrating his final Mass. The timing matched precisely."
-    },
-    {
-      "id": 10,
       "cat": "politics",
       "q": "庇护神父关于俄罗斯的预言",
       "a": "「俄罗斯将会皈依，世界将享有一段和平时期。」",
@@ -124,20 +127,7 @@
       "verdict_en": "After the fall of the Soviet Union in 1991, the Russian Orthodox Church indeed experienced a massive revival with religious freedom restored. However, the exact meaning of 'conversion' (to Catholicism? return to faith?) is debated, and 'world peace' has not been fully realized. This prophecy closely parallels the Fatima apparition's message about Russia's conversion."
     },
     {
-      "id": 11,
-      "cat": "spirit",
-      "q": "庇护神父关于梵二会议的预示",
-      "a": "「很快，教会将召开一次大公会议，它将是一次巨大的恩典……但也将有人试图利用它偏离正道。」",
-      "q_en": "Padre Pio's foreshadowing of Vatican II",
-      "a_en": "\"Soon the Church will convene a great council, which will be an immense grace... but there will also be those who try to use it to deviate from the right path.\"",
-      "year": 1965,
-      "date": "约1959年",
-      "status": "verified",
-      "verdict_zh": "梵蒂冈第二次大公会议于1962年开幕、1965年闭幕，由教宗若望二十三世召集。会议对天主教会进行了重大改革，被视为「巨大恩典」。但会后教会内部确实出现了关于改革方向的激烈争议，传统派与改革派的分歧延续至今。",
-      "verdict_en": "The Second Vatican Council opened in 1962 and closed in 1965, convened by Pope John XXIII. The council brought major reforms to the Catholic Church, widely regarded as a 'great grace.' However, the post-conciliar period saw fierce disputes over the direction of reform, with divisions between traditionalists and progressives persisting to this day."
-    },
-    {
-      "id": 12,
+      "id": 10,
       "cat": "spirit",
       "q": "庇护神父关于未来教宗的预言",
       "a": "「在我之后，将会有许多教宗，但教会将经历一段极为黑暗的时期。最终，一位来自遥远国度的伟大教宗将引领教会走向复兴。」",
@@ -149,7 +139,7 @@
       "verdict_en": "After Padre Pio's death, the Church has indeed had multiple popes. The 'great pope from a distant land' has been interpreted by some as John Paul II (Poland, elected 1978) or Francis (Argentina, elected 2013), both non-Italian popes. However, the judgment of an 'extremely dark period' varies by perspective."
     },
     {
-      "id": 13,
+      "id": 11,
       "cat": "society",
       "q": "庇护神父关于科技与信仰的警告",
       "a": "「人类将制造出越来越精妙的机器，但他们的灵魂将变得越来越空虚。他们将征服太空，却迷失在自己的内心。」",
@@ -159,6 +149,28 @@
       "status": "partial",
       "verdict_zh": "人类确实在科技领域取得了巨大进步，太空探索从1969年登月到如今的火星探测。同时，精神健康危机、孤独感流行和信仰参与率下降在发达国家已成为公认趋势。但将科技进步与灵魂空虚直接关联的判断具有价值倾向性。",
       "verdict_en": "Humanity has indeed achieved remarkable technological progress, from the 1969 Moon landing to current Mars exploration. Meanwhile, mental health crises, epidemic loneliness, and declining religious participation are recognized trends in developed nations. However, directly linking technological progress to spiritual emptiness carries a value judgment."
+    },
+    {
+      "id": 12,
+      "cat": "spirit",
+      "q": "庇护神父关于三日黑暗的预言",
+      "a": "「黑暗将笼罩大地整整三天三夜。在这可怕的黑暗中，除了祝圣过的蜡烛外，任何东西都无法提供光明。点燃祝圣过的蜡烛，它将在三天中持续发光，但在罪人的家中无法点亮。在这三天中，不要打开门窗，不要向外张望，不要与屋外的人交谈。跪下祈祷，乞求天主的仁慈。」",
+      "q_en": "Padre Pio's prophecy of the Three Days of Darkness",
+      "a_en": "\"The darkness shall cover the earth for three days and three nights. In this terrible darkness, nothing can give light except blessed candles. Light a blessed candle and it will last through the three days, but in the homes of sinners it cannot be lit. During the three days, do not open doors or windows, do not look outside, do not speak to anyone outside. Kneel down and pray, imploring God's mercy.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
+    },
+    {
+      "id": 13,
+      "cat": "spirit",
+      "q": "庇护神父关于末世净化的预言",
+      "a": "「三日黑暗过后，圣伯多禄和圣保禄将从天降下，在全世界传教，指定新的教宗。大地将涌出一股清泉，万物将重获光明。幸存者应感谢天主三位一体的仁慈，并敬拜祂。」",
+      "q_en": "Padre Pio's prophecy about eschatological purification",
+      "a_en": "\"After the three days of darkness, Saints Peter and Paul will descend from heaven and preach throughout the world, designating a new Pope. A great light will spring from the earth. The survivors should give thanks to the Holy Trinity for Their mercy and worship Them.\"",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": ""
     },
     {
       "id": 14,

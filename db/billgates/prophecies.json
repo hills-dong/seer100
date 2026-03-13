@@ -11,7 +11,9 @@
       "date": "1995",
       "status": "verified",
       "verdict_zh": "亚马逊（1994年创立）、阿里巴巴（1999年创立）和eBay等电商平台彻底改变了全球零售业。2024年全球电子商务销售额超过6.3万亿美元，价格比较网站和应用无处不在。",
-      "verdict_en": "Amazon (founded 1994), Alibaba (founded 1999), and eBay transformed global retail. Global e-commerce sales exceeded $6.3 trillion in 2024, and price comparison websites and apps are ubiquitous."
+      "verdict_en": "Amazon (founded 1994), Alibaba (founded 1999), and eBay transformed global retail. Global e-commerce sales exceeded $6.3 trillion in 2024, and price comparison websites and apps are ubiquitous.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 2,
@@ -24,7 +26,9 @@
       "date": "1999",
       "status": "verified",
       "verdict_zh": "2007年iPhone发布开创了智能手机时代。截至2024年，全球智能手机用户超过69亿，几乎人人随身携带，用于通讯、支付、获取信息等。",
-      "verdict_en": "The iPhone launched in 2007, ushering in the smartphone era. By 2024, there were over 6.9 billion smartphone users worldwide, with nearly everyone carrying a device for communication, payments, and information access."
+      "verdict_en": "The iPhone launched in 2007, ushering in the smartphone era. By 2024, there were over 6.9 billion smartphone users worldwide, with nearly everyone carrying a device for communication, payments, and information access.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 3,
@@ -37,7 +41,9 @@
       "date": "1999",
       "status": "verified",
       "verdict_zh": "Facebook（2004）、Twitter（2006）、Instagram（2010）、微信（2011）等社交媒体平台相继诞生并迅速普及。2024年全球社交媒体用户超过50亿。",
-      "verdict_en": "Facebook (2004), Twitter (2006), Instagram (2010), WeChat (2011) and other social media platforms emerged and rapidly grew. By 2024, global social media users exceeded 5 billion."
+      "verdict_en": "Facebook (2004), Twitter (2006), Instagram (2010), WeChat (2011) and other social media platforms emerged and rapidly grew. By 2024, global social media users exceeded 5 billion.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 4,
@@ -50,7 +56,9 @@
       "date": "1999",
       "status": "verified",
       "verdict_zh": "Google AdWords（2000年推出）和Facebook广告系统开创了精准定向广告时代。2024年全球数字广告支出超过6000亿美元，算法驱动的精准投放已成为行业标准。",
-      "verdict_en": "Google AdWords (launched 2000) and Facebook's ad system pioneered targeted advertising. Global digital ad spending exceeded $600 billion in 2024, with algorithm-driven targeting as the industry standard."
+      "verdict_en": "Google AdWords (launched 2000) and Facebook's ad system pioneered targeted advertising. Global digital ad spending exceeded $600 billion in 2024, with algorithm-driven targeting as the industry standard.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 5,
@@ -63,7 +71,9 @@
       "date": "1999",
       "status": "verified",
       "verdict_zh": "在线银行和移动支付已成为全球主流。中国的支付宝（2004）和微信支付（2013）引领了移动支付革命。2024年全球移动支付交易额超过11万亿美元。",
-      "verdict_en": "Online banking and mobile payments became mainstream globally. China's Alipay (2004) and WeChat Pay (2013) led the mobile payment revolution. Global mobile payment transactions exceeded $11 trillion in 2024."
+      "verdict_en": "Online banking and mobile payments became mainstream globally. China's Alipay (2004) and WeChat Pay (2013) led the mobile payment revolution. Global mobile payment transactions exceeded $11 trillion in 2024.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 6,
@@ -76,7 +86,9 @@
       "date": "1999",
       "status": "verified",
       "verdict_zh": "智能家居市场蓬勃发展。Amazon Echo（2014）、Google Home（2016）和Apple HomeKit推动了智能家居的普及。2024年全球智能家居设备安装量超过3.5亿台。",
-      "verdict_en": "The smart home market flourished. Amazon Echo (2014), Google Home (2016), and Apple HomeKit drove smart home adoption. Over 350 million smart home devices were installed globally by 2024."
+      "verdict_en": "The smart home market flourished. Amazon Echo (2014), Google Home (2016), and Apple HomeKit drove smart home adoption. Over 350 million smart home devices were installed globally by 2024.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 7,
@@ -89,7 +101,9 @@
       "date": "1999",
       "status": "verified",
       "verdict_zh": "Coursera（2012）、edX（2012）、可汗学院等在线教育平台迅速发展。2020年新冠疫情加速了在线教育的全球普及，全球约15亿学生转入在线学习。",
-      "verdict_en": "Coursera (2012), edX (2012), Khan Academy and other online education platforms grew rapidly. The COVID-19 pandemic in 2020 accelerated global adoption, with approximately 1.5 billion students shifting to online learning."
+      "verdict_en": "Coursera (2012), edX (2012), Khan Academy and other online education platforms grew rapidly. The COVID-19 pandemic in 2020 accelerated global adoption, with approximately 1.5 billion students shifting to online learning.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 8,
@@ -102,23 +116,12 @@
       "date": "1999",
       "status": "partial",
       "verdict_zh": "Kindle（2007年推出）和iPad（2010年推出）推动了电子阅读的发展，电子书市场持续增长。但纸质书并未被完全取代——2024年纸质书销售额仍占全球图书市场的约75%。电子书改变了阅读方式但未实现全面替代。",
-      "verdict_en": "Kindle (2007) and iPad (2010) drove digital reading growth, and the e-book market continues to expand. However, print books were not fully replaced — print still accounted for about 75% of global book sales in 2024. E-books changed reading habits but did not achieve full replacement."
+      "verdict_en": "Kindle (2007) and iPad (2010) drove digital reading growth, and the e-book market continues to expand. However, print books were not fully replaced — print still accounted for about 75% of global book sales in 2024. E-books changed reading habits but did not achieve full replacement.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
       "id": 9,
-      "cat": "society",
-      "q": "盖茨在TED演讲中预警大流行病",
-      "a": "「如果有什么东西能在未来几十年杀死上千万人，那很可能是高传染性的病毒，而不是战争。不是导弹，而是微生物。我们没有为下一次疫情做好准备。」",
-      "q_en": "Gates warned of a pandemic in TED talk",
-      "a_en": "\"If anything kills over 10 million people in the next few decades, it's most likely to be a highly infectious virus rather than a war. Not missiles, but microbes. We are not ready for the next epidemic.\"",
-      "year": 2020,
-      "date": "2015-04-03",
-      "status": "verified",
-      "verdict_zh": "2020年初，新冠病毒（COVID-19）大流行爆发，最终导致全球超过700万人死亡（WHO官方统计，实际可能更高）。盖茨2015年的警告被广泛认为是最精准的大流行病预测之一，几乎完美描述了后来发生的情况。",
-      "verdict_en": "In early 2020, the COVID-19 pandemic erupted, ultimately causing over 7 million deaths globally (WHO official count, likely higher in reality). Gates's 2015 warning is widely regarded as one of the most accurate pandemic predictions, almost perfectly describing what later unfolded."
-    },
-    {
-      "id": 10,
       "cat": "tech",
       "q": "盖茨预测体育赛事在线观看将超越电视",
       "a": "「体育比赛的在线直播将提供多角度回放和实时统计数据，最终在线观看将超越传统电视转播。」",
@@ -128,36 +131,42 @@
       "date": "1999",
       "status": "partial",
       "verdict_zh": "体育赛事流媒体确实快速增长，多角度回放和实时数据统计已成标配。但截至2025年，传统电视转播在体育领域仍占主导地位，NFL超级碗等重大赛事的电视观众仍远超在线观众。流媒体正在追赶但尚未全面超越。",
-      "verdict_en": "Sports streaming grew rapidly, with multi-angle replays and real-time stats becoming standard. However, as of 2025, traditional TV still dominates sports broadcasting — the NFL Super Bowl and other major events still draw far more TV viewers than online. Streaming is catching up but has not fully surpassed TV."
+      "verdict_en": "Sports streaming grew rapidly, with multi-angle replays and real-time stats becoming standard. However, as of 2025, traditional TV still dominates sports broadcasting — the NFL Super Bowl and other major events still draw far more TV viewers than online. Streaming is catching up but has not fully surpassed TV.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
-      "id": 11,
-      "cat": "climate",
-      "q": "盖茨预测清洁能源突破",
-      "a": "「我们需要在清洁能源方面实现突破——太阳能和风能的成本将大幅下降，核能将获得新的发展，储能技术将取得关键进展。到2030年代，清洁能源将变得比化石能源更便宜。」",
-      "q_en": "Gates predicted clean energy breakthroughs",
-      "a_en": "\"We need breakthroughs in clean energy — solar and wind costs will drop dramatically, nuclear will see new development, and energy storage will make critical advances. By the 2030s, clean energy will become cheaper than fossil fuels.\"",
-      "year": 2030,
-      "date": "2016",
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
+      "cat": "tech",
+      "q": "盖茨关于在线学习革命的预测",
+      "a": "在线课程将使全球任何人都能获得世界顶级大学的教育。五年内，你可以在网上找到比任何单一大学更好的教学内容。",
+      "q_en": "Gates' prediction about online learning revolution",
+      "a_en": "Online courses will give anyone in the world access to top university education. Within five years, you'll find better lectures online than at any single university.",
+      "year": 2017,
+      "date": "2010-08",
+      "status": "verified",
+      "verdict_zh": "MOOC平台（Coursera、edX、Khan Academy）在2010年代蓬勃发展。2020年疫情更加速了在线教育普及，全球数亿学生转入线上学习。盖茨基金会资助的Khan Academy月活用户超过1.2亿。",
+      "verdict_en": "MOOC platforms (Coursera, edX, Khan Academy) boomed in the 2010s. The 2020 pandemic further accelerated online education, with hundreds of millions of students shifting to online learning. Gates Foundation-funded Khan Academy surpassed 120 million monthly active users.",
+      "yearReason": "盖茨2010年预测五年内在线教育将超越传统大学教学质量",
+      "yearReason_en": "Gates predicted in 2010 that online education would surpass traditional university teaching within five years",
+      "id": 10
+    },
+    {
+      "cat": "tech",
+      "q": "盖茨关于在线教育革命的预测",
+      "a": "未来5年内，网络将提供世界上最好的讲座，比任何一所大学都好。在线课程将彻底改变教育方式。",
+      "q_en": "Gates' prediction about online education revolution",
+      "a_en": "Within the next 5 years, the web will deliver the best lectures in the world, better than any university. Online courses will fundamentally transform education.",
+      "year": 2015,
+      "date": "2010-08",
+      "status": "partial",
+      "verdict_zh": "2012-2015年MOOCs（大规模开放在线课程）兴起，Coursera、edX、Khan Academy等平台提供了顶级大学的免费课程。2020年疫情更加速了在线教育。但在线教育并未取代传统大学，两者形成互补。",
+      "verdict_en": "MOOCs rose from 2012-2015, with Coursera, edX, and Khan Academy offering free courses from top universities. The 2020 pandemic further accelerated online education. But online education hasn't replaced traditional universities — the two complement each other.",
+      "yearReason": "盖茨2010年在Techonomy大会上预测5年内在线教育超越大学",
+      "yearReason_en": "Gates predicted online education would surpass universities within 5 years at Techonomy 2010",
+      "id": 11
     },
     {
       "id": 12,
-      "cat": "tech",
-      "q": "盖茨预测AI将重塑教育和医疗",
-      "a": "「AI时代已经到来。AI将成为最具变革性的技术之一，它将在教育领域充当个人导师，在医疗领域帮助诊断疾病和研发新药。这一变革将在未来5到10年内发生。」",
-      "q_en": "Gates predicted AI will reshape education and healthcare",
-      "a_en": "\"The Age of AI has begun. AI will be one of the most transformative technologies. It will serve as a personal tutor in education and help diagnose diseases and develop new drugs in healthcare. This transformation will happen within 5 to 10 years.\"",
-      "year": 2030,
-      "date": "2023-03-21",
-      "status": "pending",
-      "verdict_zh": "",
-      "verdict_en": ""
-    },
-    {
-      "id": 13,
       "cat": "society",
       "q": "盖茨预测脊髓灰质炎将被根除",
       "a": "「我们正处于根除脊髓灰质炎的最后阶段。这将是人类历史上消灭的第二种疾病，仅次于天花。」",
@@ -167,7 +176,24 @@
       "date": "2013",
       "status": "partial",
       "verdict_zh": "截至2025年底，全球野生脊髓灰质炎病例已降至极低水平（2024年仅报告12例），但阿富汗和巴基斯坦仍有零星病例。盖茨基金会投入数十亿美元推动根除工作，取得了巨大进展，但完全根除的目标尚未实现。",
-      "verdict_en": "By the end of 2025, wild poliovirus cases dropped to extremely low levels (only 12 reported in 2024), but sporadic cases persisted in Afghanistan and Pakistan. The Gates Foundation invested billions toward eradication with enormous progress, but the goal of complete eradication has not yet been achieved."
+      "verdict_en": "By the end of 2025, wild poliovirus cases dropped to extremely low levels (only 12 reported in 2024), but sporadic cases persisted in Afghanistan and Pakistan. The Gates Foundation invested billions toward eradication with enormous progress, but the goal of complete eradication has not yet been achieved.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
+    },
+    {
+      "cat": "society",
+      "q": "盖茨关于消灭小儿麻痹症的预测",
+      "a": "小儿麻痹症将在2026年前从地球上完全消除，成为继天花之后第二种被人类彻底消灭的疾病。",
+      "q_en": "Gates' prediction about polio eradication",
+      "a_en": "Polio will be completely eradicated from the Earth by 2026, becoming the second disease to be fully eliminated by humanity after smallpox.",
+      "year": 2026,
+      "date": "2013",
+      "status": "partial",
+      "verdict_zh": "2024年全球仅在巴基斯坦和阿富汗报告了少量野生脊髓灰质炎病例。消灭进程非常接近目标但受政治动荡、疫苗犹豫等因素拖延。盖茨基金会已投入超过60亿美元用于消灭小儿麻痹症。",
+      "verdict_en": "In 2024, only a few wild poliovirus cases were reported in Pakistan and Afghanistan. Eradication is very close but delayed by political instability and vaccine hesitancy. The Gates Foundation has invested over $6 billion in polio eradication.",
+      "yearReason": "盖茨多次公开表示小儿麻痹症将在2020年代中期被消灭",
+      "yearReason_en": "Gates repeatedly stated polio would be eradicated by the mid-2020s",
+      "id": 13
     },
     {
       "id": 14,
@@ -180,10 +206,177 @@
       "date": "2014",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
     {
-      "id": 15,
+      "cat": "tech",
+      "q": "盖茨关于智能手机普及的预测",
+      "a": "到2020年，全球大多数人将拥有智能手机。即使在非洲最贫困的地区，手机也将成为获取金融服务、教育和医疗信息的主要工具。",
+      "q_en": "Gates' prediction about smartphone ubiquity",
+      "a_en": "By 2020, most people in the world will own smartphones. Even in Africa's poorest regions, phones will be the primary tool for accessing financial services, education, and health information.",
+      "year": 2020,
+      "date": "2015-01-21",
+      "status": "verified",
+      "verdict_zh": "2020年全球智能手机用户超过35亿。非洲手机银行M-Pesa用户超过5000万，成为数字金融包容的典范。智能手机确实成为发展中国家获取服务的主要渠道。",
+      "verdict_en": "Global smartphone users exceeded 3.5 billion by 2020. M-Pesa mobile banking in Africa surpassed 50 million users, becoming a model for digital financial inclusion. Smartphones indeed became the primary service access channel in developing countries.",
+      "yearReason": "盖茨在2015年年度公开信中预测2020年前智能手机全面普及",
+      "yearReason_en": "Gates predicted ubiquitous smartphones by 2020 in his 2015 annual letter",
+      "id": 15
+    },
+    {
+      "cat": "tech",
+      "q": "盖茨关于非洲数字货币的预测",
+      "a": "到2030年，非洲大部分地区将实现无现金社会。手机支付将取代传统银行体系，数十亿人将首次获得正规金融服务。",
+      "q_en": "Gates' prediction about digital money in Africa",
+      "a_en": "By 2030, most of Africa will be a cashless society. Mobile payments will replace traditional banking, and billions will gain access to formal financial services for the first time.",
+      "year": 2030,
+      "date": "2015-01-21",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "盖茨在2015年年度公开信中预测非洲将在2030年前实现数字金融普及",
+      "yearReason_en": "Gates predicted digital financial inclusion in Africa by 2030 in his 2015 annual letter",
+      "id": 16
+    },
+    {
+      "cat": "tech",
+      "q": "盖茨关于智能手机普及的预测",
+      "a": "到2020年，全球大多数人将拥有智能手机。即使在非洲最贫困的地区，手机也将成为获取金融服务、教育和医疗信息的主要工具。",
+      "q_en": "Gates' prediction about smartphone ubiquity",
+      "a_en": "By 2020, most people in the world will own smartphones. Even in Africa's poorest regions, phones will be the primary tool for accessing financial services, education, and health information.",
+      "year": 2020,
+      "date": "2015-01-21",
+      "status": "verified",
+      "verdict_zh": "2020年全球智能手机用户超过35亿。非洲手机银行M-Pesa用户超过5000万，成为数字金融包容的典范。智能手机确实成为发展中国家获取服务的主要渠道。",
+      "verdict_en": "Global smartphone users exceeded 3.5 billion by 2020. M-Pesa mobile banking in Africa surpassed 50 million users, becoming a model for digital financial inclusion. Smartphones indeed became the primary service access channel in developing countries.",
+      "yearReason": "盖茨在2015年年度公开信中预测2020年前智能手机全面普及",
+      "yearReason_en": "Gates predicted ubiquitous smartphones by 2020 in his 2015 annual letter",
+      "id": 17
+    },
+    {
+      "cat": "economy",
+      "q": "盖茨关于非洲数字金融的预测",
+      "a": "到2030年，手机银行将帮助20亿目前没有银行账户的人获得金融服务。移动支付将首先在非洲和南亚地区普及。",
+      "q_en": "Gates' prediction about digital finance in Africa",
+      "a_en": "By 2030, mobile banking will help 2 billion currently unbanked people access financial services. Mobile payments will first become widespread in Africa and South Asia.",
+      "year": 2025,
+      "date": "2015-01-21",
+      "status": "partial",
+      "verdict_zh": "2025年M-Pesa等移动支付平台在非洲已有数亿用户。全球无银行账户人口从2011年的25亿降至2021年的14亿。但完全覆盖20亿人的目标尚未实现。",
+      "verdict_en": "By 2025, mobile payment platforms like M-Pesa have hundreds of millions of users in Africa. The global unbanked population dropped from 2.5 billion in 2011 to 1.4 billion in 2021. But the goal of covering 2 billion people hasn't been fully achieved.",
+      "yearReason": "盖茨在2015年年度信中预测移动金融将在未来十年内服务20亿人",
+      "yearReason_en": "Gates predicted mobile finance would serve 2 billion people within a decade in his 2015 annual letter",
+      "id": 18
+    },
+    {
+      "cat": "climate",
+      "q": "盖茨关于全球大流行病的警告",
+      "a": "下一场大灾难可能不是战争而是流行病。一种高传染性的病毒可能在不到一年的时间内杀死超过1000万人。我们对此毫无准备。",
+      "q_en": "Gates' warning about a global pandemic",
+      "a_en": "The next catastrophe may not be war but a pandemic. A highly infectious virus could kill over 10 million people in less than a year. We are not prepared.",
+      "year": 2020,
+      "date": "2015-03-18",
+      "status": "verified",
+      "verdict_zh": "2020年新冠疫情全球大流行，截至2023年WHO统计超过690万人死亡（实际数字可能高达数倍）。盖茨2015年TED演讲「下一次疫情？我们还没有准备好」成为疫情期间最被引用的预言之一。",
+      "verdict_en": "The COVID-19 pandemic struck in 2020, with WHO reporting over 6.9 million deaths by 2023 (actual figures likely much higher). Gates' 2015 TED talk 'The Next Outbreak? We're Not Ready' became one of the most cited predictions during the pandemic.",
+      "yearReason": "盖茨2015年TED演讲警告流行病威胁，COVID-19于2020年爆发",
+      "yearReason_en": "Gates warned of pandemic threat in 2015 TED talk; COVID-19 struck in 2020",
+      "id": 19
+    },
+    {
+      "cat": "climate",
+      "q": "盖茨关于全球大流行病的警告",
+      "a": "下一场大灾难可能不是战争而是流行病。一种高传染性的病毒可能在不到一年的时间内杀死超过1000万人。我们对此毫无准备。",
+      "q_en": "Gates' warning about a global pandemic",
+      "a_en": "The next catastrophe may not be war but a pandemic. A highly infectious virus could kill over 10 million people in less than a year. We are not prepared.",
+      "year": 2020,
+      "date": "2015-03-18",
+      "status": "verified",
+      "verdict_zh": "2020年新冠疫情全球大流行，截至2023年WHO统计超过690万人死亡（实际数字可能高达数倍）。盖茨2015年TED演讲「下一次疫情？我们还没有准备好」成为疫情期间最被引用的预言之一。",
+      "verdict_en": "The COVID-19 pandemic struck in 2020, with WHO reporting over 6.9 million deaths by 2023 (actual figures likely much higher). Gates' 2015 TED talk 'The Next Outbreak? We're Not Ready' became one of the most cited predictions during the pandemic.",
+      "yearReason": "盖茨2015年TED演讲警告流行病威胁，COVID-19于2020年爆发",
+      "yearReason_en": "Gates warned of pandemic threat in 2015 TED talk; COVID-19 struck in 2020",
+      "id": 20
+    },
+    {
+      "id": 21,
+      "cat": "society",
+      "q": "盖茨在TED演讲中预警大流行病",
+      "a": "「如果有什么东西能在未来几十年杀死上千万人，那很可能是高传染性的病毒，而不是战争。不是导弹，而是微生物。我们没有为下一次疫情做好准备。」",
+      "q_en": "Gates warned of a pandemic in TED talk",
+      "a_en": "\"If anything kills over 10 million people in the next few decades, it's most likely to be a highly infectious virus rather than a war. Not missiles, but microbes. We are not ready for the next epidemic.\"",
+      "year": 2020,
+      "date": "2015-04-03",
+      "status": "verified",
+      "verdict_zh": "2020年初，新冠病毒（COVID-19）大流行爆发，最终导致全球超过700万人死亡（WHO官方统计，实际可能更高）。盖茨2015年的警告被广泛认为是最精准的大流行病预测之一，几乎完美描述了后来发生的情况。",
+      "verdict_en": "In early 2020, the COVID-19 pandemic erupted, ultimately causing over 7 million deaths globally (WHO official count, likely higher in reality). Gates's 2015 warning is widely regarded as one of the most accurate pandemic predictions, almost perfectly describing what later unfolded.",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
+    },
+    {
+      "id": 22,
+      "cat": "climate",
+      "q": "盖茨预测清洁能源突破",
+      "a": "「我们需要在清洁能源方面实现突破——太阳能和风能的成本将大幅下降，核能将获得新的发展，储能技术将取得关键进展。到2030年代，清洁能源将变得比化石能源更便宜。」",
+      "q_en": "Gates predicted clean energy breakthroughs",
+      "a_en": "\"We need breakthroughs in clean energy — solar and wind costs will drop dramatically, nuclear will see new development, and energy storage will make critical advances. By the 2030s, clean energy will become cheaper than fossil fuels.\"",
+      "year": 2030,
+      "date": "2016",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
+    },
+    {
+      "cat": "climate",
+      "q": "盖茨关于清洁能源创新的呼吁",
+      "a": "要避免气候灾难，我们需要将清洁能源的「绿色溢价」降至接近零。到2050年全球必须实现净零排放，这需要在核能、储能、碳捕获等领域实现技术突破。",
+      "q_en": "Gates' call for clean energy innovation",
+      "a_en": "To avoid climate disaster, we need to bring the 'green premium' of clean energy close to zero. The world must achieve net-zero emissions by 2050, requiring breakthroughs in nuclear, energy storage, and carbon capture.",
+      "year": 2050,
+      "date": "2021-02-16",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "盖茨在2021年出版的《如何避免气候灾难》中提出2050年净零排放目标",
+      "yearReason_en": "Gates proposed the 2050 net-zero target in 'How to Avoid a Climate Disaster' (2021)",
+      "id": 23
+    },
+    {
+      "cat": "climate",
+      "q": "盖茨关于清洁能源突破的预测",
+      "a": "要避免气候灾难，我们需要在清洁能源技术上取得重大突破。到2050年全球必须实现净零排放。政府和私营部门需要大幅增加清洁能源研发投入。",
+      "q_en": "Gates' prediction about clean energy breakthroughs",
+      "a_en": "To avoid climate disaster, we need major breakthroughs in clean energy technology. The world must achieve net-zero emissions by 2050. Governments and private sector need to dramatically increase clean energy R&D spending.",
+      "year": 2050,
+      "date": "2021-02-16",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "盖茨2021年《如何避免气候灾难》一书中设定2050年净零排放目标",
+      "yearReason_en": "Gates set the 2050 net-zero target in his 2021 book 'How to Avoid a Climate Disaster'",
+      "id": 24
+    },
+    {
+      "id": 25,
+      "cat": "tech",
+      "q": "盖茨预测AI将重塑教育和医疗",
+      "a": "「AI时代已经到来。AI将成为最具变革性的技术之一，它将在教育领域充当个人导师，在医疗领域帮助诊断疾病和研发新药。这一变革将在未来5到10年内发生。」",
+      "q_en": "Gates predicted AI will reshape education and healthcare",
+      "a_en": "\"The Age of AI has begun. AI will be one of the most transformative technologies. It will serve as a personal tutor in education and help diagnose diseases and develop new drugs in healthcare. This transformation will happen within 5 to 10 years.\"",
+      "year": 2030,
+      "date": "2023-03-21",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
+    },
+    {
+      "id": 26,
       "cat": "tech",
       "q": "盖茨预测生成式AI将改变工作方式",
       "a": "「AI助手将成为每个人的数字代理——帮你处理邮件、安排日程、做研究报告。白领工作者的效率将提升数倍，整个办公方式将被重新定义。」",
@@ -193,7 +386,24 @@
       "date": "2023-03-21",
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
+      "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
+    },
+    {
+      "cat": "tech",
+      "q": "盖茨关于AI个人助手的预测",
+      "a": "五年内，每个人都将拥有一个AI驱动的个人助手，它能阅读你的邮件、参加你的会议、帮你做笔记，并在你需要时随叫随到。这将是人机交互的最大变革。",
+      "q_en": "Gates' prediction about AI personal assistants",
+      "a_en": "Within five years, everyone will have an AI-powered personal assistant that can read your emails, attend your meetings, take notes, and be available whenever you need it. This will be the biggest change in human-computer interaction.",
+      "year": 2028,
+      "date": "2023-11-09",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "盖茨在2023年博客文章中预测AI代理将在五年内普及",
+      "yearReason_en": "Gates predicted AI agents would become ubiquitous within five years in a 2023 blog post",
+      "id": 27
     }
   ]
 }

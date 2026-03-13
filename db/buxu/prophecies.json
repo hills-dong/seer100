@@ -21,7 +21,9 @@
       "year": 1912,
       "status": "verified",
       "verdict_zh": "「龙归泥土」指清朝灭亡。「三岁孩童三载福」精确描述宣统帝溥仪——1908年三岁登基，1912年退位，在位恰好三年。「猕猴」暗指民国（猴与「侯」谐音，亦有解读为孙中山属猴）。辛亥革命于1911年爆发，1912年清帝退位，中华民国成立。",
-      "verdict_en": "'Dragon returns to mud' refers to the fall of the Qing dynasty. 'Three-year-old child with three years of fortune' precisely describes Emperor Xuantong (Puyi) — enthroned at age 3 in 1908, abdicated in 1912, reigning exactly three years. 'Monkey' alludes to the Republic (some interpret it as Sun Yat-sen, who was born in a Year of the Monkey). The Xinhai Revolution erupted in 1911; the Qing emperor abdicated in 1912 and the Republic of China was established."
+      "verdict_en": "'Dragon returns to mud' refers to the fall of the Qing dynasty. 'Three-year-old child with three years of fortune' precisely describes Emperor Xuantong (Puyi) — enthroned at age 3 in 1908, abdicated in 1912, reigning exactly three years. 'Monkey' alludes to the Republic (some interpret it as Sun Yat-sen, who was born in a Year of the Monkey). The Xinhai Revolution erupted in 1911; the Qing emperor abdicated in 1912 and the Republic of China was established.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 3,
@@ -33,7 +35,9 @@
       "year": 1912,
       "status": "verified",
       "verdict_zh": "「黄鹤楼中吹玉笛」暗指1911年武昌起义，黄鹤楼位于武汉，起义正是在武昌打响。「旌旗五色换新新」指中华民国成立后采用五色旗（红黄蓝白黑，代表五族共和）。「君做祖」指孙中山被尊为国父。",
-      "verdict_en": "'Jade flute in Yellow Crane Tower' alludes to the 1911 Wuchang Uprising — Yellow Crane Tower is in Wuhan, where the uprising was launched. 'Five-colored banners raised anew' refers to the Republic of China's Five-Colored Flag (red, yellow, blue, white, black, representing the unity of five peoples). 'He becomes ruler and ancestor' refers to Sun Yat-sen, honored as the Father of the Nation."
+      "verdict_en": "'Jade flute in Yellow Crane Tower' alludes to the 1911 Wuchang Uprising — Yellow Crane Tower is in Wuhan, where the uprising was launched. 'Five-colored banners raised anew' refers to the Republic of China's Five-Colored Flag (red, yellow, blue, white, black, representing the unity of five peoples). 'He becomes ruler and ancestor' refers to Sun Yat-sen, honored as the Father of the Nation.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 4,
@@ -45,7 +49,9 @@
       "year": 1928,
       "status": "verified",
       "verdict_zh": "「吉士怀柔」暗指袁世凯，「吉」与「袁」字形相近。「昙花一现」指袁世凯1916年称帝仅83天即失败病死。「南北东西龙争虎战」指此后的军阀混战时期。「七八数定」可解为七加八等于十五年（1912-1927），北伐战争于1928年基本统一中国，「山川粗奠」。",
-      "verdict_en": "'Worthy man with appeasement' alludes to Yuan Shikai. 'Flash in the pan' refers to his 1916 imperial restoration lasting only 83 days before his death. 'Dragons and tigers battling in all directions' describes the subsequent warlord era. 'Seven-eight count settled' may mean 7+8=15 years (1912-1927); the Northern Expedition roughly unified China by 1928, 'establishing the mountains and rivers.'"
+      "verdict_en": "'Worthy man with appeasement' alludes to Yuan Shikai. 'Flash in the pan' refers to his 1916 imperial restoration lasting only 83 days before his death. 'Dragons and tigers battling in all directions' describes the subsequent warlord era. 'Seven-eight count settled' may mean 7+8=15 years (1912-1927); the Northern Expedition roughly unified China by 1928, 'establishing the mountains and rivers.'",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 5,
@@ -57,7 +63,9 @@
       "year": 1927,
       "status": "verified",
       "verdict_zh": "「草莽英雄将出山」暗指蒋介石崛起。「金陵日月又重光」指1927年蒋介石定都南京，建立国民政府。「逐鹿忙」描述北伐战争期间各方势力角逐的局面。金陵即南京古称。",
-      "verdict_en": "'Heroes from the wilds emerge' alludes to Chiang Kai-shek's rise. 'Jinling's sun and moon shine again' refers to Chiang establishing the Nationalist government in Nanjing (ancient name: Jinling) in 1927. 'Chase for the deer' describes the rival factions competing for power during the Northern Expedition."
+      "verdict_en": "'Heroes from the wilds emerge' alludes to Chiang Kai-shek's rise. 'Jinling's sun and moon shine again' refers to Chiang establishing the Nationalist government in Nanjing (ancient name: Jinling) in 1927. 'Chase for the deer' describes the rival factions competing for power during the Northern Expedition.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 6,
@@ -69,7 +77,9 @@
       "year": 1937,
       "status": "verified",
       "verdict_zh": "「瀛洲虎渡海狼」明确指日本侵华。「满天红日更昏黄」以红日暗喻日本国旗太阳旗。1937年日本全面侵华，中国大地遭受空前浩劫。「春雷乍响见晴阳」指1945年抗战胜利。此节是全诗中指向最明确的段落之一。",
-      "verdict_en": "'Tiger of Yingzhou, wolf crossing the sea' clearly refers to the Japanese invasion of China. 'Sky full of red suns growing dark' uses the red sun as a metaphor for Japan's Rising Sun flag. Japan launched a full-scale invasion in 1937, devastating China. 'Spring thunder roars, clear sun appears' refers to victory in 1945. This is one of the most unambiguous sections of the entire poem."
+      "verdict_en": "'Tiger of Yingzhou, wolf crossing the sea' clearly refers to the Japanese invasion of China. 'Sky full of red suns growing dark' uses the red sun as a metaphor for Japan's Rising Sun flag. Japan launched a full-scale invasion in 1937, devastating China. 'Spring thunder roars, clear sun appears' refers to victory in 1945. This is one of the most unambiguous sections of the entire poem.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 7,
@@ -81,7 +91,9 @@
       "year": 1936,
       "status": "verified",
       "verdict_zh": "此节被解读为1936年西安事变。「细柳营」指军营，「群雄豪饮」暗指张学良、杨虎城等将领。「双狮搏球一坠其井」暗指蒋介石被扣押（一说指两方争斗，蒋介石落入困境）。「红粉佳人面靥樱景」暗指宋美龄赴西安斡旋。事变发生于1936年12月12日。",
-      "verdict_en": "This section is interpreted as the 1936 Xi'an Incident. 'Camp of Slender Willows' refers to a military camp; 'heroes drinking boldly' alludes to Zhang Xueliang, Yang Hucheng, and other generals. 'Two lions wrestling, one falls into the well' suggests Chiang Kai-shek's detention. 'Beauty with cherry-blossom face' alludes to Soong Mei-ling traveling to Xi'an to negotiate. The incident occurred on December 12, 1936."
+      "verdict_en": "This section is interpreted as the 1936 Xi'an Incident. 'Camp of Slender Willows' refers to a military camp; 'heroes drinking boldly' alludes to Zhang Xueliang, Yang Hucheng, and other generals. 'Two lions wrestling, one falls into the well' suggests Chiang Kai-shek's detention. 'Beauty with cherry-blossom face' alludes to Soong Mei-ling traveling to Xi'an to negotiate. The incident occurred on December 12, 1936.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 8,
@@ -93,7 +105,9 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "「春雷炸竖白旗」指1945年日本投降。「千万活鬼哭啼啼」描述战后日军的惨状。「石头城中飞符到」指日本在南京（石头城）签署投降书。「再看重整汉宫仪」指国民政府还都南京。「东山又有火光照」暗指随后爆发的国共内战。",
-      "verdict_en": "'Spring thunder explodes, white flags raised' refers to Japan's surrender in 1945. 'Millions of living ghosts weeping' describes the Japanese army's state after defeat. 'Flying decree into Stone City' refers to the surrender ceremony in Nanjing (ancient name: Stone City). 'Han palace rites restored' refers to the Nationalist government returning to Nanjing. 'Fire from the eastern hills' foreshadows the ensuing Chinese Civil War."
+      "verdict_en": "'Spring thunder explodes, white flags raised' refers to Japan's surrender in 1945. 'Millions of living ghosts weeping' describes the Japanese army's state after defeat. 'Flying decree into Stone City' refers to the surrender ceremony in Nanjing (ancient name: Stone City). 'Han palace rites restored' refers to the Nationalist government returning to Nanjing. 'Fire from the eastern hills' foreshadows the ensuing Chinese Civil War.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 9,
@@ -105,7 +119,9 @@
       "year": 1949,
       "status": "verified",
       "verdict_zh": "「日月蚀」指国民党青天白日旗失势。「五星稀」暗指五星红旗升起。「野人举足迫金虎」指毛泽东（出身农村）领导的共产党击败国民党。「遍地红花遍地饥」既指革命胜利（红花）也暗示随后的大饥荒。「富贵贫贱无高低」描述社会主义改造消灭阶级差别。1949年10月1日中华人民共和国成立。",
-      "verdict_en": "'Sun and moon eclipsed' refers to the Nationalist flag's demise. 'Five stars' alludes to the Five-Star Red Flag. 'Wild man presses the golden tiger' refers to Mao Zedong (of rural origin) leading the CCP to defeat the Nationalists. 'Red flowers everywhere, famine everywhere' references both revolutionary triumph and subsequent famines. 'Rich and poor leveled' describes socialist class elimination. The PRC was founded October 1, 1949."
+      "verdict_en": "'Sun and moon eclipsed' refers to the Nationalist flag's demise. 'Five stars' alludes to the Five-Star Red Flag. 'Wild man presses the golden tiger' refers to Mao Zedong (of rural origin) leading the CCP to defeat the Nationalists. 'Red flowers everywhere, famine everywhere' references both revolutionary triumph and subsequent famines. 'Rich and poor leveled' describes socialist class elimination. The PRC was founded October 1, 1949.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 10,
@@ -117,7 +133,9 @@
       "year": 1958,
       "status": "verified",
       "verdict_zh": "「一牛双尾」被解读为海峡两岸分裂对峙。「海上金鳖」指台湾岛（形似海龟）。「铁鸟凌空东南尽毁」指1958年金门炮战（八二三炮战），解放军向金门大规模炮击。「玄服律吕」暗指台湾实行军事管制（戒严）。此节描述了两岸军事对峙的紧张局势。",
-      "verdict_en": "'One ox two tails' is interpreted as the cross-strait division between mainland China and Taiwan. 'Golden turtle in the sea' refers to Taiwan (shaped like a turtle). 'Iron birds in sky, southeast destroyed' refers to the 1958 Taiwan Strait Crisis (the August 23 Artillery Bombardment of Kinmen). 'Dark robes with strict regulations' alludes to martial law in Taiwan. This section describes the tense cross-strait military standoff."
+      "verdict_en": "'One ox two tails' is interpreted as the cross-strait division between mainland China and Taiwan. 'Golden turtle in the sea' refers to Taiwan (shaped like a turtle). 'Iron birds in sky, southeast destroyed' refers to the 1958 Taiwan Strait Crisis (the August 23 Artillery Bombardment of Kinmen). 'Dark robes with strict regulations' alludes to martial law in Taiwan. This section describes the tense cross-strait military standoff.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 11,
@@ -129,7 +147,9 @@
       "year": 1976,
       "status": "verified",
       "verdict_zh": "「四海水中皆赤色」被广泛解读为1966-1976年的政治运动，红色浪潮席卷全国。「白骨如丘满岗陵」描述运动造成的大量非正常死亡。「相将玉兔渐东升」暗指1976年后拨乱反正，中国逐渐走向和平与恢复。「落花流水两无情」描述运动中人与人之间的无情斗争。",
-      "verdict_en": "'Waters of four seas all red' is widely interpreted as the political campaigns of 1966-1976, with red ideology sweeping the nation. 'White bones piled like hills' describes the massive casualties. 'Jade rabbit gradually rises in the east' suggests the restoration of order after 1976, with China moving toward peace and recovery. 'Fallen flowers and flowing water show no mercy' describes the ruthless struggles between people during the campaigns."
+      "verdict_en": "'Waters of four seas all red' is widely interpreted as the political campaigns of 1966-1976, with red ideology sweeping the nation. 'White bones piled like hills' describes the massive casualties. 'Jade rabbit gradually rises in the east' suggests the restoration of order after 1976, with China moving toward peace and recovery. 'Fallen flowers and flowing water show no mercy' describes the ruthless struggles between people during the campaigns.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 12,
@@ -141,7 +161,9 @@
       "year": 1978,
       "status": "verified",
       "verdict_zh": "「盖棺定功罪分」指1976年毛泽东去世后对其历史功过的评价。「南朝金粉太平春」暗指1978年后改革开放从南方（深圳等经济特区）率先启动，南方经济繁荣。「万里山河处处青」描述改革开放后中国经济腾飞、社会恢复生机。「百年大事浑如梦」感叹从清末到改革开放的百年沧桑。",
-      "verdict_en": "'Coffin sealed, merits and faults settled' refers to the historical assessment of Mao Zedong after his death in 1976. 'Golden splendor of the southern court in spring' alludes to the Reform and Opening-Up launched from the south (Shenzhen and other Special Economic Zones) after 1978, and the resulting southern economic boom. 'Mountains and rivers green everywhere' describes China's economic takeoff and social revival. 'A century of great events like a dream' reflects on the turbulent century from the late Qing to Reform and Opening-Up."
+      "verdict_en": "'Coffin sealed, merits and faults settled' refers to the historical assessment of Mao Zedong after his death in 1976. 'Golden splendor of the southern court in spring' alludes to the Reform and Opening-Up launched from the south (Shenzhen and other Special Economic Zones) after 1978, and the resulting southern economic boom. 'Mountains and rivers green everywhere' describes China's economic takeoff and social revival. 'A century of great events like a dream' reflects on the turbulent century from the late Qing to Reform and Opening-Up.",
+      "yearReason": "根据步虚大师预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Buxu Master's prophetic poems corresponds to this historical period"
     },
     {
       "id": 13,
