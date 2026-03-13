@@ -11,35 +11,12 @@
       "date": "1558",
       "status": "verified",
       "verdict_zh": "伊丽莎白一世确实于1559年1月15日加冕，此后统治英格兰长达45年（1558-1603），是英国历史上最辉煌的时期之一，史称伊丽莎白时代。迪选定的日期与女王的长期统治形成了对应。",
-      "verdict_en": "Elizabeth I was indeed crowned on January 15, 1559, and went on to rule England for 45 years (1558-1603), one of the most glorious periods in English history, known as the Elizabethan era. The date Dee selected corresponded with the Queen's long and successful reign."
+      "verdict_en": "Elizabeth I was indeed crowned on January 15, 1559, and went on to rule England for 45 years (1558-1603), one of the most glorious periods in English history, known as the Elizabethan era. The date Dee selected corresponded with the Queen's long and successful reign.",
+      "yearReason": "约翰·迪伊在天使对话记录中提及该时期",
+      "yearReason_en": "John Dee mentioned this period in his angelic conversation records"
     },
     {
       "id": 2,
-      "cat": "war",
-      "q": "天使预言西班牙舰队的覆灭",
-      "a": "天使告知迪，一场来自南方的巨大海上威胁将降临英格兰，但风暴将成为英格兰的盟友，敌人的舰队将被大海吞没。",
-      "q_en": "Angels foretold the destruction of the Spanish fleet",
-      "a_en": "The angels told Dee that a great naval threat from the south would come upon England, but storms would be England's ally, and the enemy's fleet would be swallowed by the sea.",
-      "year": 1588,
-      "date": "1583",
-      "status": "verified",
-      "verdict_zh": "1588年，西班牙无敌舰队进攻英格兰，但在英吉利海峡遭遇英国海军阻击后北上苏格兰绕行，途中遭遇猛烈风暴，约三分之一的舰船沉没。迪曾为伊丽莎白提供占星咨询，风暴摧毁舰队的细节与预言高度吻合。",
-      "verdict_en": "In 1588, the Spanish Armada attacked England but was repelled by the English navy in the English Channel. Forced to sail north around Scotland, the fleet was devastated by severe storms, losing about a third of its ships. Dee had provided astrological counsel to Elizabeth, and the detail of storms destroying the fleet closely matches the prophecy."
-    },
-    {
-      "id": 3,
-      "cat": "spirit",
-      "q": "以诺语——天使的语言",
-      "a": "天使通过凯利传授了一套完整的语言体系，包括字母表、语法和咒语。天使称这是亚当在伊甸园中使用的原始语言，通过掌握它可以与天使界直接沟通。",
-      "q_en": "Enochian — the language of angels",
-      "a_en": "The angels transmitted through Kelley a complete language system, including an alphabet, grammar, and invocations. The angels claimed this was the original language used by Adam in the Garden of Eden, and that mastering it would enable direct communication with the angelic realm.",
-      "date": "1582-1587",
-      "status": "partial",
-      "verdict_zh": "以诺语体系被完整记录并流传至今，成为西方神秘学传统的核心组成部分。黄金黎明协会（1888年成立）和阿莱斯特·克劳利等人将其发展为完整的魔法仪式体系。语言体系的存在已被证实，但其「天使起源」和「与天使沟通」的功能无法被验证。",
-      "verdict_en": "The Enochian language system was fully recorded and has survived to the present day, becoming a core component of Western esoteric tradition. The Hermetic Order of the Golden Dawn (founded 1888) and Aleister Crowley further developed it into a complete ceremonial magic system. The existence of the language system is confirmed, but its claimed 'angelic origin' and 'communication with angels' function cannot be verified."
-    },
-    {
-      "id": 4,
       "cat": "spirit",
       "q": "《单子象形文字》——万物统一的符号",
       "a": "迪提出一个统一的象形符号（Monas Hieroglyphica），融合了太阳、月亮、十字架和白羊座的符号，代表所有天体和元素的统一。他声称这个符号蕴含了宇宙的全部奥秘，理解它便可掌握炼金术和宇宙的终极真理。",
@@ -51,58 +28,7 @@
       "verdict_en": "Monas Hieroglyphica was published in 1564 and had a profound influence on later occultism, semiotics, and alchemical studies. The symbol is still widely studied and referenced today. However, its claimed ability to 'contain all mysteries of the universe' and 'unlock the ultimate truths of alchemy' are metaphysical claims that cannot be scientifically verified."
     },
     {
-      "id": 5,
-      "cat": "politics",
-      "q": "大英帝国的崛起",
-      "a": "迪向伊丽莎白女王进言，英格兰应当建立海上霸权，将领土扩展至新大陆和远洋。他首次使用「大英帝国」一词，预言英格兰将成为统治海洋的世界强国。",
-      "q_en": "The rise of the British Empire",
-      "a_en": "Dee advised Queen Elizabeth that England should establish naval supremacy and extend its territories to the New World and beyond. He was the first to use the term 'British Empire,' prophesying that England would become a world power ruling the seas.",
-      "year": "未确定",
-      "date": "1576-1580",
-      "status": "verified",
-      "verdict_zh": "迪在1576-1580年间撰写的备忘录中首次提出「大英帝国」概念，为英国的海外扩张提供了理论基础。此后英国确实建立了人类历史上最大的帝国，鼎盛时期（19-20世纪初）领土覆盖全球约四分之一的陆地面积。他的海上霸权构想与后来的历史发展高度吻合。",
-      "verdict_en": "In memoranda written between 1576-1580, Dee first proposed the concept of a 'British Empire,' providing theoretical foundations for England's overseas expansion. Britain did indeed go on to establish the largest empire in human history, covering about a quarter of the world's land area at its peak (19th-early 20th century). His vision of naval supremacy closely matched subsequent historical developments."
-    },
-    {
-      "id": 6,
-      "cat": "politics",
-      "q": "天使预言欧洲宗教格局的剧变",
-      "a": "天使告知迪，欧洲的宗教秩序将经历巨大动荡，旧的教会权威将被削弱，新的信仰力量将在北方崛起，王国之间将因信仰而分裂和交战。",
-      "q_en": "Angels foretold upheaval in Europe's religious order",
-      "a_en": "The angels told Dee that the religious order of Europe would undergo great turmoil, the old Church authority would be weakened, new forces of faith would rise in the north, and kingdoms would be divided and wage war over religion.",
-      "year": "未确定",
-      "date": "1583-1585",
-      "status": "verified",
-      "verdict_zh": "迪活动的时期正值欧洲宗教改革的高潮。三十年战争（1618-1648）使欧洲陷入天主教与新教之间的大规模宗教冲突，造成约800万人死亡。北欧诸国确实普遍转向新教，教廷权威大幅削弱。预言与16-17世纪欧洲宗教政治格局的演变基本吻合。",
-      "verdict_en": "Dee's active period coincided with the height of the European Reformation. The Thirty Years' War (1618-1648) plunged Europe into massive religious conflict between Catholics and Protestants, causing approximately 8 million deaths. Northern European nations did broadly adopt Protestantism, and papal authority was significantly diminished. The prophecy broadly matches the evolution of Europe's religio-political landscape in the 16th-17th centuries."
-    },
-    {
-      "id": 7,
-      "cat": "spirit",
-      "q": "天使预言末日审判与人类净化",
-      "a": "天使大量传达关于末日的信息：人类将经历一场巨大的净化，旧世界的秩序将被彻底摧毁，只有理解天使语言和神圣数学的人才能在末日中得救。这场净化将在天使对话发生后的不远将来降临。",
-      "q_en": "Angels foretold the Last Judgment and human purification",
-      "a_en": "The angels extensively conveyed messages about the end times: humanity would undergo a great purification, the old world order would be completely destroyed, and only those who understood the angelic language and sacred mathematics would be saved. This purification would come in the not-too-distant future after the angelic conversations.",
-      "date": "1583-1587",
-      "status": "failed",
-      "verdict_zh": "天使对话中反复提及的末日审判和人类净化并未在迪的有生之年或此后的几个世纪内发生。尽管17世纪确实经历了战争和瘟疫等灾难，但并未达到天使所描述的末日规模。以诺语知识也未被证明具有「拯救」功能。",
-      "verdict_en": "The Last Judgment and human purification repeatedly mentioned in the angelic conversations did not occur during Dee's lifetime or in the centuries since. While the 17th century did experience wars and plagues, these did not reach the apocalyptic scale described by the angels. Knowledge of Enochian has not been proven to have any 'salvific' function."
-    },
-    {
-      "id": 8,
-      "cat": "politics",
-      "q": "天使预言波兰-波西米亚的命运",
-      "a": "在波兰和波西米亚宫廷期间，天使告知迪，这些王国将经历权力更迭，旧日的王冠将落入新主之手，波西米亚将成为宗教冲突的中心。",
-      "q_en": "Angels foretold the fate of Poland-Bohemia",
-      "a_en": "During his time at the Polish and Bohemian courts, the angels told Dee that these kingdoms would undergo power transitions, old crowns would pass to new rulers, and Bohemia would become the center of religious conflict.",
-      "year": "未确定",
-      "date": "1583-1589",
-      "status": "verified",
-      "verdict_zh": "1618年波西米亚的「掷出窗外事件」直接引发了三十年战争，波西米亚确实成为欧洲宗教冲突的爆发点。波兰在17世纪也经历了大洪水时期（1655-1660），遭受瑞典入侵，王权动荡。迪的预言与这些历史事件存在对应。",
-      "verdict_en": "The 1618 Defenestration of Prague in Bohemia directly triggered the Thirty Years' War, and Bohemia did indeed become the flashpoint of European religious conflict. Poland also experienced the Deluge (1655-1660), suffering Swedish invasion and royal instability. Dee's prophecy corresponds to these historical events."
-    },
-    {
-      "id": 9,
+      "id": 3,
       "cat": "tech",
       "q": "迪预言数学将揭示自然的终极奥秘",
       "a": "迪在其数学著作的序言中宣称，数学是理解自然界一切现象的钥匙。天体运行、光的传播、声音的本质，乃至生命本身，都将通过数学语言被完全理解和掌控。",
@@ -114,16 +40,49 @@
       "verdict_en": "Dee's lengthy preface to the English translation of Euclid's Elements (1570) is considered a milestone in promoting English mathematics. In the centuries that followed, Newtonian mechanics, Maxwell's electromagnetism, quantum mechanics, and more did indeed reveal natural laws through mathematical language. Modern science has largely vindicated Dee's foresight about the primacy of mathematics."
     },
     {
-      "id": 10,
-      "cat": "spirit",
-      "q": "天使揭示宇宙的层级结构",
-      "a": "天使向迪展示了宇宙的多层结构：物质世界之上有天使界、大天使界和神圣界。每一层由不同等级的天使管辖，通过以诺魔法体系中的特定名号和印记可以与各层天使沟通。共有三十个「以太」（Aethyr）层级。",
-      "q_en": "Angels revealed the hierarchical structure of the universe",
-      "a_en": "The angels showed Dee a multi-layered structure of the universe: above the material world were the angelic, archangelic, and divine realms. Each layer was governed by different orders of angels, contactable through specific names and sigils in the Enochian magic system. There were thirty 'Aethyrs' (layers) in total.",
-      "date": "1584-1587"
+      "id": 4,
+      "cat": "politics",
+      "q": "大英帝国的崛起",
+      "a": "迪向伊丽莎白女王进言，英格兰应当建立海上霸权，将领土扩展至新大陆和远洋。他首次使用「大英帝国」一词，预言英格兰将成为统治海洋的世界强国。",
+      "q_en": "The rise of the British Empire",
+      "a_en": "Dee advised Queen Elizabeth that England should establish naval supremacy and extend its territories to the New World and beyond. He was the first to use the term 'British Empire,' prophesying that England would become a world power ruling the seas.",
+      "year": "未确定",
+      "date": "1576-1580",
+      "status": "verified",
+      "verdict_zh": "迪在1576-1580年间撰写的备忘录中首次提出「大英帝国」概念，为英国的海外扩张提供了理论基础。此后英国确实建立了人类历史上最大的帝国，鼎盛时期（19-20世纪初）领土覆盖全球约四分之一的陆地面积。他的海上霸权构想与后来的历史发展高度吻合。",
+      "verdict_en": "In memoranda written between 1576-1580, Dee first proposed the concept of a 'British Empire,' providing theoretical foundations for England's overseas expansion. Britain did indeed go on to establish the largest empire in human history, covering about a quarter of the world's land area at its peak (19th-early 20th century). His vision of naval supremacy closely matched subsequent historical developments.",
+      "yearReason": "约翰·迪伊在天使对话记录中提及该时期",
+      "yearReason_en": "John Dee mentioned this period in his angelic conversation records"
     },
     {
-      "id": 11,
+      "id": 5,
+      "cat": "politics",
+      "q": "迪预言英格兰将主宰北方航路",
+      "a": "迪向女王建议，英格兰应探索北极航路以到达远东，这些航路一旦打通，将为英格兰带来巨大的商业利益和战略优势。北方的冰海将成为英格兰的通途。",
+      "q_en": "Dee predicted England would dominate northern sea routes",
+      "a_en": "Dee advised the Queen that England should explore Arctic routes to reach the Far East. Once opened, these routes would bring England enormous commercial benefits and strategic advantages. The frozen northern seas would become England's highway.",
+      "year": "未确定",
+      "date": "1576-1580",
+      "status": "partial",
+      "verdict_zh": "迪积极推动了英国对西北航道和东北航道的探索（弗罗比舍1576年探险等），但这些航路在当时并未成功打通。直到21世纪，随着气候变暖导致北极冰层融化，北方航路才真正开始具有商业可行性。英国在历史上确实成为了海上霸主，但主要通过大西洋和印度洋航线，而非北极航路。",
+      "verdict_en": "Dee actively promoted English exploration of the Northwest and Northeast Passages (Frobisher's 1576 expedition, etc.), but these routes were not successfully opened at the time. It was not until the 21st century, with Arctic ice melting due to climate change, that northern routes began to become commercially viable. Britain did become a naval superpower historically, but primarily through Atlantic and Indian Ocean routes, not Arctic passages.",
+      "yearReason": "约翰·迪伊在天使对话记录中提及该时期",
+      "yearReason_en": "John Dee mentioned this period in his angelic conversation records"
+    },
+    {
+      "id": 6,
+      "cat": "spirit",
+      "q": "以诺语——天使的语言",
+      "a": "天使通过凯利传授了一套完整的语言体系，包括字母表、语法和咒语。天使称这是亚当在伊甸园中使用的原始语言，通过掌握它可以与天使界直接沟通。",
+      "q_en": "Enochian — the language of angels",
+      "a_en": "The angels transmitted through Kelley a complete language system, including an alphabet, grammar, and invocations. The angels claimed this was the original language used by Adam in the Garden of Eden, and that mastering it would enable direct communication with the angelic realm.",
+      "date": "1582-1587",
+      "status": "partial",
+      "verdict_zh": "以诺语体系被完整记录并流传至今，成为西方神秘学传统的核心组成部分。黄金黎明协会（1888年成立）和阿莱斯特·克劳利等人将其发展为完整的魔法仪式体系。语言体系的存在已被证实，但其「天使起源」和「与天使沟通」的功能无法被验证。",
+      "verdict_en": "The Enochian language system was fully recorded and has survived to the present day, becoming a core component of Western esoteric tradition. The Hermetic Order of the Golden Dawn (founded 1888) and Aleister Crowley further developed it into a complete ceremonial magic system. The existence of the language system is confirmed, but its claimed 'angelic origin' and 'communication with angels' function cannot be verified."
+    },
+    {
+      "id": 7,
       "cat": "spirit",
       "q": "天使预言炼金术的终极成就",
       "a": "天使暗示，贤者之石的制备是可能的，但其真正目的不是将贱金属变为黄金，而是实现人类灵魂的净化与升华。真正的炼金术是内在的灵性转化，而非物质层面的转变。",
@@ -135,20 +94,49 @@
       "verdict_en": "Material alchemy (transmuting base metals into gold) has been disproven by modern chemistry. However, Dee's concept of 'spiritual alchemy' profoundly influenced Jung's analytical psychology — Jung interpreted the alchemical process as a metaphor for psychic transformation. Within the framework of psychology and spiritual tradition, the core insight of this prophecy has partially endured."
     },
     {
-      "id": 12,
-      "cat": "politics",
-      "q": "迪预言英格兰将主宰北方航路",
-      "a": "迪向女王建议，英格兰应探索北极航路以到达远东，这些航路一旦打通，将为英格兰带来巨大的商业利益和战略优势。北方的冰海将成为英格兰的通途。",
-      "q_en": "Dee predicted England would dominate northern sea routes",
-      "a_en": "Dee advised the Queen that England should explore Arctic routes to reach the Far East. Once opened, these routes would bring England enormous commercial benefits and strategic advantages. The frozen northern seas would become England's highway.",
-      "year": "未确定",
-      "date": "1576-1580",
-      "status": "partial",
-      "verdict_zh": "迪积极推动了英国对西北航道和东北航道的探索（弗罗比舍1576年探险等），但这些航路在当时并未成功打通。直到21世纪，随着气候变暖导致北极冰层融化，北方航路才真正开始具有商业可行性。英国在历史上确实成为了海上霸主，但主要通过大西洋和印度洋航线，而非北极航路。",
-      "verdict_en": "Dee actively promoted English exploration of the Northwest and Northeast Passages (Frobisher's 1576 expedition, etc.), but these routes were not successfully opened at the time. It was not until the 21st century, with Arctic ice melting due to climate change, that northern routes began to become commercially viable. Britain did become a naval superpower historically, but primarily through Atlantic and Indian Ocean routes, not Arctic passages."
+      "id": 8,
+      "cat": "war",
+      "q": "天使预言西班牙舰队的覆灭",
+      "a": "天使告知迪，一场来自南方的巨大海上威胁将降临英格兰，但风暴将成为英格兰的盟友，敌人的舰队将被大海吞没。",
+      "q_en": "Angels foretold the destruction of the Spanish fleet",
+      "a_en": "The angels told Dee that a great naval threat from the south would come upon England, but storms would be England's ally, and the enemy's fleet would be swallowed by the sea.",
+      "year": 1588,
+      "date": "1583",
+      "status": "verified",
+      "verdict_zh": "1588年，西班牙无敌舰队进攻英格兰，但在英吉利海峡遭遇英国海军阻击后北上苏格兰绕行，途中遭遇猛烈风暴，约三分之一的舰船沉没。迪曾为伊丽莎白提供占星咨询，风暴摧毁舰队的细节与预言高度吻合。",
+      "verdict_en": "In 1588, the Spanish Armada attacked England but was repelled by the English navy in the English Channel. Forced to sail north around Scotland, the fleet was devastated by severe storms, losing about a third of its ships. Dee had provided astrological counsel to Elizabeth, and the detail of storms destroying the fleet closely matches the prophecy.",
+      "yearReason": "约翰·迪伊在天使对话记录中提及该时期",
+      "yearReason_en": "John Dee mentioned this period in his angelic conversation records"
     },
     {
-      "id": 13,
+      "id": 9,
+      "cat": "politics",
+      "q": "天使预言欧洲宗教格局的剧变",
+      "a": "天使告知迪，欧洲的宗教秩序将经历巨大动荡，旧的教会权威将被削弱，新的信仰力量将在北方崛起，王国之间将因信仰而分裂和交战。",
+      "q_en": "Angels foretold upheaval in Europe's religious order",
+      "a_en": "The angels told Dee that the religious order of Europe would undergo great turmoil, the old Church authority would be weakened, new forces of faith would rise in the north, and kingdoms would be divided and wage war over religion.",
+      "year": "未确定",
+      "date": "1583-1585",
+      "status": "verified",
+      "verdict_zh": "迪活动的时期正值欧洲宗教改革的高潮。三十年战争（1618-1648）使欧洲陷入天主教与新教之间的大规模宗教冲突，造成约800万人死亡。北欧诸国确实普遍转向新教，教廷权威大幅削弱。预言与16-17世纪欧洲宗教政治格局的演变基本吻合。",
+      "verdict_en": "Dee's active period coincided with the height of the European Reformation. The Thirty Years' War (1618-1648) plunged Europe into massive religious conflict between Catholics and Protestants, causing approximately 8 million deaths. Northern European nations did broadly adopt Protestantism, and papal authority was significantly diminished. The prophecy broadly matches the evolution of Europe's religio-political landscape in the 16th-17th centuries.",
+      "yearReason": "约翰·迪伊在天使对话记录中提及该时期",
+      "yearReason_en": "John Dee mentioned this period in his angelic conversation records"
+    },
+    {
+      "id": 10,
+      "cat": "spirit",
+      "q": "天使预言末日审判与人类净化",
+      "a": "天使大量传达关于末日的信息：人类将经历一场巨大的净化，旧世界的秩序将被彻底摧毁，只有理解天使语言和神圣数学的人才能在末日中得救。这场净化将在天使对话发生后的不远将来降临。",
+      "q_en": "Angels foretold the Last Judgment and human purification",
+      "a_en": "The angels extensively conveyed messages about the end times: humanity would undergo a great purification, the old world order would be completely destroyed, and only those who understood the angelic language and sacred mathematics would be saved. This purification would come in the not-too-distant future after the angelic conversations.",
+      "date": "1583-1587",
+      "status": "failed",
+      "verdict_zh": "天使对话中反复提及的末日审判和人类净化并未在迪的有生之年或此后的几个世纪内发生。尽管17世纪确实经历了战争和瘟疫等灾难，但并未达到天使所描述的末日规模。以诺语知识也未被证明具有「拯救」功能。",
+      "verdict_en": "The Last Judgment and human purification repeatedly mentioned in the angelic conversations did not occur during Dee's lifetime or in the centuries since. While the 17th century did experience wars and plagues, these did not reach the apocalyptic scale described by the angels. Knowledge of Enochian has not been proven to have any 'salvific' function."
+    },
+    {
+      "id": 11,
       "cat": "war",
       "q": "天使预言欧洲王室的衰落",
       "a": "天使告知迪，欧洲的君主制将逐渐失去实权。王冠将变为空有其表的装饰，真正的权力将转移到人民和议会手中。这一过程将在数个世纪内逐步完成。",
@@ -160,7 +148,40 @@
       "verdict_en": "The English Glorious Revolution (1688) established parliamentary supremacy, and the French Revolution (1789) overthrew absolute monarchy. By the early 20th century, most European monarchies had either been replaced by republics (Germany, Russia, Austria-Hungary) or transformed into constitutional monarchies. The trend of power transferring from royalty to parliaments and the people closely matches the prophecy."
     },
     {
+      "id": 12,
+      "cat": "politics",
+      "q": "天使预言波兰-波西米亚的命运",
+      "a": "在波兰和波西米亚宫廷期间，天使告知迪，这些王国将经历权力更迭，旧日的王冠将落入新主之手，波西米亚将成为宗教冲突的中心。",
+      "q_en": "Angels foretold the fate of Poland-Bohemia",
+      "a_en": "During his time at the Polish and Bohemian courts, the angels told Dee that these kingdoms would undergo power transitions, old crowns would pass to new rulers, and Bohemia would become the center of religious conflict.",
+      "year": "未确定",
+      "date": "1583-1589",
+      "status": "verified",
+      "verdict_zh": "1618年波西米亚的「掷出窗外事件」直接引发了三十年战争，波西米亚确实成为欧洲宗教冲突的爆发点。波兰在17世纪也经历了大洪水时期（1655-1660），遭受瑞典入侵，王权动荡。迪的预言与这些历史事件存在对应。",
+      "verdict_en": "The 1618 Defenestration of Prague in Bohemia directly triggered the Thirty Years' War, and Bohemia did indeed become the flashpoint of European religious conflict. Poland also experienced the Deluge (1655-1660), suffering Swedish invasion and royal instability. Dee's prophecy corresponds to these historical events.",
+      "yearReason": "约翰·迪伊在天使对话记录中提及该时期",
+      "yearReason_en": "John Dee mentioned this period in his angelic conversation records"
+    },
+    {
+      "id": 13,
+      "cat": "spirit",
+      "q": "天使揭示宇宙的层级结构",
+      "a": "天使向迪展示了宇宙的多层结构：物质世界之上有天使界、大天使界和神圣界。每一层由不同等级的天使管辖，通过以诺魔法体系中的特定名号和印记可以与各层天使沟通。共有三十个「以太」（Aethyr）层级。",
+      "q_en": "Angels revealed the hierarchical structure of the universe",
+      "a_en": "The angels showed Dee a multi-layered structure of the universe: above the material world were the angelic, archangelic, and divine realms. Each layer was governed by different orders of angels, contactable through specific names and sigils in the Enochian magic system. There were thirty 'Aethyrs' (layers) in total.",
+      "date": "1584-1587"
+    },
+    {
       "id": 14,
+      "cat": "spirit",
+      "q": "天使预言物质与灵性的最终统一",
+      "a": "天使告知迪，人类终将认识到物质世界和灵性世界并非分离的两个领域，而是同一实在的不同面向。科学与灵性将在未来某个时代达到统一，届时人类将同时拥有物质的力量和灵性的智慧。",
+      "q_en": "Angels foretold the ultimate unity of matter and spirit",
+      "a_en": "The angels told Dee that humanity would eventually recognize that the material world and the spiritual world are not two separate domains but different aspects of the same reality. Science and spirituality would be unified in some future era, when humanity would possess both material power and spiritual wisdom.",
+      "date": "1584-1587"
+    },
+    {
+      "id": 15,
       "cat": "spirit",
       "q": "天使预言以诺魔法将被重新发现",
       "a": "天使告知迪，他所记录的天使语言和魔法体系将被遗忘一段时间，但终将被后世的探索者重新发现和复兴。这些知识将在一个新的灵性觉醒时代重新绽放光芒。",
@@ -170,15 +191,6 @@
       "status": "verified",
       "verdict_zh": "迪的手稿在其去世后散佚，部分被Meric Casaubon于1659年出版。19世纪末，黄金黎明协会重新发掘并系统化了以诺魔法体系。20世纪，阿莱斯特·克劳利进一步发展了以诺魔法实践。至今，以诺魔法仍是西方神秘学传统中最重要的体系之一，确实经历了被遗忘后又被重新发现的过程。",
       "verdict_en": "Dee's manuscripts were scattered after his death, with some published by Meric Casaubon in 1659. In the late 19th century, the Golden Dawn rediscovered and systematized the Enochian magic system. In the 20th century, Aleister Crowley further developed Enochian magical practice. To this day, Enochian magic remains one of the most important systems in Western esoteric tradition, having indeed undergone a process of being forgotten and then rediscovered."
-    },
-    {
-      "id": 15,
-      "cat": "spirit",
-      "q": "天使预言物质与灵性的最终统一",
-      "a": "天使告知迪，人类终将认识到物质世界和灵性世界并非分离的两个领域，而是同一实在的不同面向。科学与灵性将在未来某个时代达到统一，届时人类将同时拥有物质的力量和灵性的智慧。",
-      "q_en": "Angels foretold the ultimate unity of matter and spirit",
-      "a_en": "The angels told Dee that humanity would eventually recognize that the material world and the spiritual world are not two separate domains but different aspects of the same reality. Science and spirituality would be unified in some future era, when humanity would possess both material power and spiritual wisdom.",
-      "date": "1584-1587"
     }
   ]
 }

@@ -21,7 +21,9 @@
       "year": 1927,
       "status": "verified",
       "verdict_zh": "「草头相对草头人」被解读为蒋（艹字头）与共产党的对抗。「路上行人背向西」指抗战时期国民政府西迁重庆（1937-1945），大量民众随之向西逃难。「洪水横流」亦与1931年长江大洪水吻合。",
-      "verdict_en": "'Grass-topped characters' is interpreted as referring to the conflict between Chiang (蒋, with grass radical) and the Communist Party. 'Travelers flee westward' matches the Nationalist government's wartime relocation to Chongqing (1937-1945). 'Floods flow unchecked' also corresponds to the catastrophic 1931 Yangtze flood."
+      "verdict_en": "'Grass-topped characters' is interpreted as referring to the conflict between Chiang (蒋, with grass radical) and the Communist Party. 'Travelers flee westward' matches the Nationalist government's wartime relocation to Chongqing (1937-1945). 'Floods flow unchecked' also corresponds to the catastrophic 1931 Yangtze flood.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 3,
@@ -33,7 +35,9 @@
       "year": 1937,
       "status": "verified",
       "verdict_zh": "「日出东」被广泛解读为日本（日出之国）从东方入侵中国。1937年全面抗战爆发后，中国军民伤亡惨重，「家家户户受惨凄」与抗战八年的民间苦难高度吻合。",
-      "verdict_en": "'Sun rises in the east' is widely interpreted as Japan (the Land of the Rising Sun) invading from the east. After the full-scale war began in 1937, Chinese military and civilian casualties were devastating — 'every household suffers terrible misery' closely matches the eight years of wartime suffering."
+      "verdict_en": "'Sun rises in the east' is widely interpreted as Japan (the Land of the Rising Sun) invading from the east. After the full-scale war began in 1937, Chinese military and civilian casualties were devastating — 'every household suffers terrible misery' closely matches the eight years of wartime suffering.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 4,
@@ -45,7 +49,9 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "「德」「意」被解读为德国和意大利，即二战中的轴心国。两国在二战中一度气焰嚣张（「逍遥」），但最终战败投降（1945年），「百载繁华一梦消」。",
-      "verdict_en": "'De' (Germany) and 'Yi' (Italy) are interpreted as the Axis powers in WWII. Both nations were ascendant ('roaming free') during the war but ultimately surrendered in defeat (1945) — 'a hundred years of prosperity vanishes like a dream.'"
+      "verdict_en": "'De' (Germany) and 'Yi' (Italy) are interpreted as the Axis powers in WWII. Both nations were ascendant ('roaming free') during the war but ultimately surrendered in defeat (1945) — 'a hundred years of prosperity vanishes like a dream.'",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 5,
@@ -57,7 +63,9 @@
       "year": 1949,
       "status": "partial",
       "verdict_zh": "「红头旗，大头星」与中华人民共和国国旗（红底大五角星）高度吻合，1949年建国。「家家户户吊伶仃」被部分解读者认为指历次政治运动中的民间苦难，但此解读存在争议，也有解读认为指战后的普遍贫困。",
-      "verdict_en": "'Red-topped flag with a big star' closely matches the PRC national flag (red background with large five-pointed star), established in 1949. 'Every household hangs in lonely sorrow' is interpreted by some as referring to suffering during political campaigns, though this reading is disputed — others interpret it as post-war widespread poverty."
+      "verdict_en": "'Red-topped flag with a big star' closely matches the PRC national flag (red background with large five-pointed star), established in 1949. 'Every household hangs in lonely sorrow' is interpreted by some as referring to suffering during political campaigns, though this reading is disputed — others interpret it as post-war widespread poverty.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 6,
@@ -69,7 +77,9 @@
       "year": 1949,
       "status": "partial",
       "verdict_zh": "「三山难立足」被解读为新中国推翻「三座大山」（帝国主义、封建主义、官僚资本主义）。「尔一党时我一党」反映国共两党之争。但具体的「五子齐荣升」「清风桥」等意象解读分歧较大，无统一定论。",
-      "verdict_en": "'Three mountains cannot stand' is interpreted as the PRC's 'overthrowing the three mountains' (imperialism, feudalism, bureaucratic capitalism). 'Your party, my party' reflects the KMT-CCP rivalry. However, interpretations of 'five sons rise together' and 'Qingfeng Bridge' vary widely with no scholarly consensus."
+      "verdict_en": "'Three mountains cannot stand' is interpreted as the PRC's 'overthrowing the three mountains' (imperialism, feudalism, bureaucratic capitalism). 'Your party, my party' reflects the KMT-CCP rivalry. However, interpretations of 'five sons rise together' and 'Qingfeng Bridge' vary widely with no scholarly consensus.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 7,
@@ -81,7 +91,9 @@
       "year": 1959,
       "status": "partial",
       "verdict_zh": "被部分解读者认为指1959-1961年大饥荒时期，底层百姓以高粱等粗粮勉强度日，而一些干部对民间饥荒视而不见。但此解读存在争议，原文较为笼统，可适用于多个历史时期。",
-      "verdict_en": "Some interpreters associate this with the Great Famine (1959-1961), when common people subsisted on coarse grains like sorghum while some officials turned a blind eye. However, the original text is vague enough to apply to multiple historical periods, so this interpretation remains disputed."
+      "verdict_en": "Some interpreters associate this with the Great Famine (1959-1961), when common people subsisted on coarse grains like sorghum while some officials turned a blind eye. However, the original text is vague enough to apply to multiple historical periods, so this interpretation remains disputed.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 8,
@@ -93,7 +105,9 @@
       "year": 1949,
       "status": "partial",
       "verdict_zh": "「廿八人」即二十八画，被广泛解读为「毛泽东」三字的繁体笔画总数（毛3+澤17+東8=28画）。「孚众望」指其深得民心。「秧针胜刀枪」指以农民革命（农村包围城市）战胜正规军。此解读流传甚广，但笔画数的计算方式存在不同版本。",
-      "verdict_en": "'Man of twenty-eight strokes' is widely interpreted as Mao Zedong, whose name in traditional Chinese characters totals 28 strokes (毛3+澤17+東8=28). 'Wins the people's trust' refers to his popular support. 'Rice seedlings triumph over swords' refers to peasant revolution defeating a regular army. This interpretation is widespread, though the exact stroke count varies by calculation method."
+      "verdict_en": "'Man of twenty-eight strokes' is widely interpreted as Mao Zedong, whose name in traditional Chinese characters totals 28 strokes (毛3+澤17+東8=28). 'Wins the people's trust' refers to his popular support. 'Rice seedlings triumph over swords' refers to peasant revolution defeating a regular army. This interpretation is widespread, though the exact stroke count varies by calculation method.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 9,
@@ -105,7 +119,9 @@
       "year": 1949,
       "status": "partial",
       "verdict_zh": "「小星光蔽星光」被解读为共产党（小五角星）压过国民党（大星）。「廿将二人走北方」有多种解读，一说指国民党将领败退。「去家木」拆字为「宋」，有解读认为指宋美龄或相关人物。整体指1949年前后国共内战尾声的败退与流亡。",
-      "verdict_en": "'Small stars eclipse the stars' is interpreted as the CCP (small stars) overcoming the KMT (big star). 'Twenty-odd generals flee north' has multiple readings, one suggesting KMT generals retreating. 'Rootless tree' may be a character decomposition for 'Song.' Overall, it is read as referring to the KMT's defeat and exodus around 1949."
+      "verdict_en": "'Small stars eclipse the stars' is interpreted as the CCP (small stars) overcoming the KMT (big star). 'Twenty-odd generals flee north' has multiple readings, one suggesting KMT generals retreating. 'Rootless tree' may be a character decomposition for 'Song.' Overall, it is read as referring to the KMT's defeat and exodus around 1949.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 10,
@@ -117,7 +133,9 @@
       "year": 1949,
       "status": "verified",
       "verdict_zh": "「大海落门闩」准确描述了1949年后台湾海峡的隔绝状态，国民党退守台湾，两岸中断往来。「大好江山换一姓」指政权由国民党转至共产党。「良田万顷无人耕」可对应土改前后的农业生产波动。",
-      "verdict_en": "'A bolt falls across the great sea' accurately describes the Taiwan Strait separation after 1949, when the KMT retreated to Taiwan and cross-strait contact was severed. 'The great land changes its master' refers to the transfer of power from the KMT to the CCP. 'Fertile fields lie untilled' may correspond to agricultural disruptions during land reform."
+      "verdict_en": "'A bolt falls across the great sea' accurately describes the Taiwan Strait separation after 1949, when the KMT retreated to Taiwan and cross-strait contact was severed. 'The great land changes its master' refers to the transfer of power from the KMT to the CCP. 'Fertile fields lie untilled' may correspond to agricultural disruptions during land reform.",
+      "yearReason": "根据金陵塔碑文的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Jinling Tower inscription corresponds to this historical period"
     },
     {
       "id": 11,

@@ -10,7 +10,9 @@
       "year": 1143,
       "status": "verified",
       "verdict_zh": "策肋定二世原名圭多·迪·卡斯特洛，出生于台伯河畔的奇塔迪卡斯泰洛，箴言与出生地精确吻合。但此条属于1595年之前的箴言，可能是事后编写。",
-      "verdict_en": "Celestine II was born Guido di Castello from Città di Castello on the Tiber. The motto matches precisely. However, this motto predates the 1595 publication and may have been composed after the fact."
+      "verdict_en": "Celestine II was born Guido di Castello from Città di Castello on the Tiber. The motto matches precisely. However, this motto predates the 1595 publication and may have been composed after the fact.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "year": 1145,
       "status": "verified",
       "verdict_zh": "尤金三世出生于蒙特马尼奥，地名直译为「大山」，与箴言精确对应。此条同属1595年前的箴言。",
-      "verdict_en": "Eugene III was born in Montemagno, literally meaning 'great mountain', matching the motto precisely. This motto also predates the 1595 publication."
+      "verdict_en": "Eugene III was born in Montemagno, literally meaning 'great mountain', matching the motto precisely. This motto also predates the 1595 publication.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 3,
@@ -34,7 +38,9 @@
       "year": 1261,
       "status": "partial",
       "verdict_zh": "该箴言的对应关系不如前几条明确。传统解释试图将其与教皇的家族徽章或出身地联系，但具体匹配存在争议。此条仍属1595年前的箴言。",
-      "verdict_en": "The correspondence for this motto is less clear than earlier entries. Traditional interpretations attempt to link it to the pope's coat of arms or birthplace, but the exact match is debated. Still predates the 1595 publication."
+      "verdict_en": "The correspondence for this motto is less clear than earlier entries. Traditional interpretations attempt to link it to the pope's coat of arms or birthplace, but the exact match is debated. Still predates the 1595 publication.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 4,
@@ -46,7 +52,9 @@
       "year": 1342,
       "status": "verified",
       "verdict_zh": "克莱孟六世的修道院背景和家族纹章中的十字架图案与箴言吻合。此条属于1595年前的箴言，极可能为事后编写。",
-      "verdict_en": "Clement VI's monastic background and the cross in his family heraldry match the motto. This predates 1595 and was very likely composed retroactively."
+      "verdict_en": "Clement VI's monastic background and the cross in his family heraldry match the motto. This predates 1595 and was very likely composed retroactively.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 5,
@@ -58,7 +66,9 @@
       "year": 1410,
       "status": "partial",
       "verdict_zh": "对立教皇若望二十三世的纹章解释有一定依据，但「鹿和狮子」的具体对应不够明确。这一时期的箴言仍在1595年出版之前。",
-      "verdict_en": "The heraldic interpretation for Antipope John XXIII has some basis, but the specific correspondence of 'deer and lion' is not entirely clear. This motto still predates the 1595 publication."
+      "verdict_en": "The heraldic interpretation for Antipope John XXIII has some basis, but the specific correspondence of 'deer and lion' is not entirely clear. This motto still predates the 1595 publication.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 6,
@@ -70,7 +80,9 @@
       "year": 1534,
       "status": "verified",
       "verdict_zh": "保禄三世出身法尔内塞家族，其家族纹章确实以六朵百合花为标志，「花」的对应明确。但「患病球柱」部分的解释较为牵强。此条为1595年前最晚期的箴言之一。",
-      "verdict_en": "Paul III was from the Farnese family whose coat of arms indeed features six fleur-de-lis, making the 'flower' correspondence clear. However, the 'sick ball/pillar' part is a stretch. This is among the latest pre-1595 mottos."
+      "verdict_en": "Paul III was from the Farnese family whose coat of arms indeed features six fleur-de-lis, making the 'flower' correspondence clear. However, the 'sick ball/pillar' part is a stretch. This is among the latest pre-1595 mottos.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 7,
@@ -82,7 +94,9 @@
       "year": 1585,
       "status": "verified",
       "verdict_zh": "西斯都五世的纹章确实包含轴线和星形图案。作为1590年去世的教皇，其箴言仍在1595年出版前的范围内，解释的精确度符合事后编写的模式。",
-      "verdict_en": "Sixtus V's coat of arms does include an axis and star motifs. As a pope who died in 1590, this motto falls within the pre-1595 range, and its precision fits the pattern of retroactive composition."
+      "verdict_en": "Sixtus V's coat of arms does include an axis and star motifs. As a pope who died in 1590, this motto falls within the pre-1595 range, and its precision fits the pattern of retroactive composition.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 8,
@@ -94,7 +108,9 @@
       "year": 1590,
       "status": "verified",
       "verdict_zh": "乌尔巴诺七世确实出生于罗马——最古老的城市之一。但他是1590年教皇选举的产物，而预言据信正是为这次选举而伪造的，因此此条的「准确」恰好支持伪造说。",
-      "verdict_en": "Urban VII was indeed born in Rome — one of the most ancient cities. However, he was elected in the 1590 conclave, and the prophecy is believed to have been fabricated precisely for that election, so this motto's 'accuracy' actually supports the forgery hypothesis."
+      "verdict_en": "Urban VII was indeed born in Rome — one of the most ancient cities. However, he was elected in the 1590 conclave, and the prophecy is believed to have been fabricated precisely for that election, so this motto's 'accuracy' actually supports the forgery hypothesis.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 9,
@@ -106,7 +122,9 @@
       "year": 1800,
       "status": "partial",
       "verdict_zh": "庇护七世确实在拿破仑统治期间被囚禁（1809-1814），鹰也确实是拿破仑帝国的象征。但箴言本应描述教皇而非其对手，解释方向被扭转。作为1595年后的箴言，其匹配依赖于灵活的解读。",
-      "verdict_en": "Pius VII was indeed imprisoned by Napoleon (1809-1814), and the eagle was Napoleon's imperial symbol. However, the motto should describe the pope, not his adversary — the interpretation is inverted. As a post-1595 motto, the match relies on flexible reading."
+      "verdict_en": "Pius VII was indeed imprisoned by Napoleon (1809-1814), and the eagle was Napoleon's imperial symbol. However, the motto should describe the pope, not his adversary — the interpretation is inverted. As a post-1595 motto, the match relies on flexible reading.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 10,
@@ -118,7 +136,9 @@
       "year": 1846,
       "status": "partial",
       "verdict_zh": "庇护九世确实经历了教皇国领土丧失的巨大磨难。但「十字架中的十字架」的解读相当灵活——几乎任何受苦的教皇都可以套用。作为1595年后数百年的箴言，匹配依赖主观解读。",
-      "verdict_en": "Pius IX did suffer the loss of the Papal States. However, 'Cross from a cross' is a highly flexible interpretation — almost any pope who suffered could fit. As a motto centuries after 1595, the match depends on subjective reading."
+      "verdict_en": "Pius IX did suffer the loss of the Papal States. However, 'Cross from a cross' is a highly flexible interpretation — almost any pope who suffered could fit. As a motto centuries after 1595, the match depends on subjective reading.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 11,
@@ -130,7 +150,9 @@
       "year": 1878,
       "status": "partial",
       "verdict_zh": "良十三世的家族纹章确实有彗星图案，与「天上的光」有一定对应。但纹章中有星星的教皇家族并不罕见，匹配程度中等。",
-      "verdict_en": "Leo XIII's family heraldry did feature a comet, providing some correspondence with 'light in the sky'. However, stars in papal family heraldry are not uncommon, so the match is moderate."
+      "verdict_en": "Leo XIII's family heraldry did feature a comet, providing some correspondence with 'light in the sky'. However, stars in papal family heraldry are not uncommon, so the match is moderate.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 12,
@@ -142,7 +164,9 @@
       "year": 1903,
       "status": "partial",
       "verdict_zh": "庇护十世确以改革热情著称，但「燃烧的火焰」过于笼统——几乎任何有魄力的教皇都可套用。后1595年箴言的典型模糊匹配。",
-      "verdict_en": "Pius X was indeed known for reformist zeal, but 'burning fire' is too generic — almost any energetic pope could fit. A typical vague match for a post-1595 motto."
+      "verdict_en": "Pius X was indeed known for reformist zeal, but 'burning fire' is too generic — almost any energetic pope could fit. A typical vague match for a post-1595 motto.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 13,
@@ -154,7 +178,9 @@
       "year": 1914,
       "status": "partial",
       "verdict_zh": "本笃十五世任期确实与一战重叠，基督教国家间的大规模杀戮可以解读为「宗教被毁灭」。但这一解读将历史事件而非教皇个人特征与箴言挂钩，属于灵活解读。",
-      "verdict_en": "Benedict XV's pontificate did overlap with WWI, and the mass slaughter among Christian nations can be read as 'religion depopulated'. However, this links a historical event rather than a personal trait to the motto — a flexible interpretation."
+      "verdict_en": "Benedict XV's pontificate did overlap with WWI, and the mass slaughter among Christian nations can be read as 'religion depopulated'. However, this links a historical event rather than a personal trait to the motto — a flexible interpretation.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 14,
@@ -166,7 +192,9 @@
       "year": 1922,
       "status": "partial",
       "verdict_zh": "庇护十一世确实公开谴责纳粹主义，展现了一定的「无畏」。但他也与墨索里尼签订了《拉特兰条约》，对法西斯意大利的态度更为复杂。箴言的匹配有选择性。",
-      "verdict_en": "Pius XI did openly condemn Nazism, showing some 'intrepidity'. However, he also signed the Lateran Treaty with Mussolini, and his stance toward Fascist Italy was more complex. The motto match is selective."
+      "verdict_en": "Pius XI did openly condemn Nazism, showing some 'intrepidity'. However, he also signed the Lateran Treaty with Mussolini, and his stance toward Fascist Italy was more complex. The motto match is selective.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 15,
@@ -178,7 +206,9 @@
       "year": 1939,
       "status": "partial",
       "verdict_zh": "庇护十二世的支持者视他为圣洁的牧人，但批评者指责他对大屠杀保持沉默。值得注意的是，这条箴言在选举前就广为人知，可能产生了自我实现效应——选民可能倾向选出一位「看起来像天使般牧人」的候选人。",
-      "verdict_en": "Pius XII's supporters view him as a holy shepherd, but critics accuse him of silence during the Holocaust. Notably, this motto was widely known before the election, potentially creating a self-fulfilling effect — electors may have favored a candidate who appeared 'angelic'."
+      "verdict_en": "Pius XII's supporters view him as a holy shepherd, but critics accuse him of silence during the Holocaust. Notably, this motto was widely known before the election, potentially creating a self-fulfilling effect — electors may have favored a candidate who appeared 'angelic'.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 16,
@@ -190,7 +220,9 @@
       "year": 1958,
       "status": "verified",
       "verdict_zh": "若望二十三世确实曾任威尼斯宗主教（水手=水城），又以召集梵二会议引领教会（牧人），两个意象都有明确对应。这是1595年后箴言中匹配度最高的之一。",
-      "verdict_en": "John XXIII was indeed Patriarch of Venice (sailor = water city) and led the Church by convening Vatican II (shepherd). Both images have clear correspondences. This is one of the best matches among post-1595 mottos."
+      "verdict_en": "John XXIII was indeed Patriarch of Venice (sailor = water city) and led the Church by convening Vatican II (shepherd). Both images have clear correspondences. This is one of the best matches among post-1595 mottos.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 17,
@@ -202,7 +234,9 @@
       "year": 1963,
       "status": "verified",
       "verdict_zh": "保禄六世的蒙蒂尼家族纹章确实有三朵百合花/鸢尾花，「花中之花」的对应较为明确。",
-      "verdict_en": "Paul VI's Montini family heraldry does feature three fleurs-de-lis, making the 'flower of flowers' correspondence fairly clear."
+      "verdict_en": "Paul VI's Montini family heraldry does feature three fleurs-de-lis, making the 'flower of flowers' correspondence fairly clear.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 18,
@@ -214,7 +248,9 @@
       "year": 1978,
       "status": "partial",
       "verdict_zh": "若望保禄一世的33天任期是教皇史上最短之一，「半月」的时间隐喻有一定道理。但月亮意象过于灵活，可以从多角度解读。他的突然去世至今仍有阴谋论。",
-      "verdict_en": "John Paul I's 33-day pontificate is among the shortest in papal history, giving the 'half moon' temporal metaphor some merit. However, the lunar imagery is highly flexible and open to multiple interpretations. His sudden death remains the subject of conspiracy theories."
+      "verdict_en": "John Paul I's 33-day pontificate is among the shortest in papal history, giving the 'half moon' temporal metaphor some merit. However, the lunar imagery is highly flexible and open to multiple interpretations. His sudden death remains the subject of conspiracy theories.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 19,
@@ -226,7 +262,9 @@
       "year": 1978,
       "status": "verified",
       "verdict_zh": "若望保禄二世出生日（1920年5月18日）有日偏食可见于欧洲南部，下葬日（2005年4月8日）有日环食-日全食混合型日食。两个日食巧合是这条箴言最引人注目的对应。他也是历史上旅行最多的教皇，「太阳的劳作」亦可解读为不懈的工作。",
-      "verdict_en": "A partial solar eclipse visible from southern Europe occurred on John Paul II's birthday (May 18, 1920), and a hybrid annular-total solar eclipse occurred on his funeral day (April 8, 2005). These two eclipse coincidences are the most striking match for this motto. He was also the most-traveled pope in history, and 'labor of the Sun' can also be read as tireless work."
+      "verdict_en": "A partial solar eclipse visible from southern Europe occurred on John Paul II's birthday (May 18, 1920), and a hybrid annular-total solar eclipse occurred on his funeral day (April 8, 2005). These two eclipse coincidences are the most striking match for this motto. He was also the most-traveled pope in history, and 'labor of the Sun' can also be read as tireless work.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 20,
@@ -238,7 +276,9 @@
       "year": 2005,
       "status": "partial",
       "verdict_zh": "本笃十六世选择「本笃」为教皇名号，本笃会确有「橄榄会」分支，但拉青格本人并非本笃会修士。联系是间接的：教皇名号→修会→分支别称→橄榄。此外，预言的自我实现效应不容忽视——拉青格选择名号时可能受到了箴言的影响。",
-      "verdict_en": "Benedict XVI chose 'Benedict' as his papal name, and the Benedictine Order does have an Olivetan branch. However, Ratzinger was not himself a Benedictine monk. The connection is indirect: papal name → order → branch nickname → olive. Moreover, the self-fulfilling prophecy effect cannot be ignored — Ratzinger may have been influenced by the motto when choosing his name."
+      "verdict_en": "Benedict XVI chose 'Benedict' as his papal name, and the Benedictine Order does have an Olivetan branch. However, Ratzinger was not himself a Benedictine monk. The connection is indirect: papal name → order → branch nickname → olive. Moreover, the self-fulfilling prophecy effect cannot be ignored — Ratzinger may have been influenced by the motto when choosing his name.",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 21,
@@ -250,7 +290,9 @@
       "year": 2013,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "根据教皇预言的序列推算，该条对应此时期的教皇",
+      "yearReason_en": "Based on the sequential order of the Prophecy of the Popes, this entry corresponds to the pope of this era"
     },
     {
       "id": 22,

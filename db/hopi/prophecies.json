@@ -2,6 +2,21 @@
   "prophecies": [
     {
       "id": 1,
+      "cat": "society",
+      "q": "Thomas Banyacya 联合国演讲的警示",
+      "a": "「如果我们人类不醒悟，不重新学会与大地和谐共处，大自然就将对我们采取行动。地震、洪水和其他灾难将越来越多、越来越严重——这些都是大地母亲的警告。」",
+      "q_en": "Thomas Banyacya's warning at the United Nations",
+      "a_en": "\"If we humans do not wake up and relearn to live in harmony with the Earth, nature will act against us. Earthquakes, floods, and other disasters will become more frequent and severe — these are warnings from Mother Earth.\"",
+      "date": "1992-12-10",
+      "year": 2020,
+      "status": "partial",
+      "verdict_zh": "21世纪以来，全球自然灾害频率和强度确有上升趋势。2004年印度洋海啸、2011年日本大地震、频繁的飓风和山火等均造成巨大损失。但将自然灾害增多直接归因于人类与大地不和谐的因果关系，属于哲学与信仰范畴而非科学结论。",
+      "verdict_en": "Since the 21st century, global natural disasters have indeed increased in frequency and intensity. The 2004 Indian Ocean tsunami, 2011 Japan earthquake, frequent hurricanes and wildfires have caused enormous damage. However, attributing increased natural disasters directly to humanity's disharmony with Earth is a philosophical and spiritual claim rather than a scientific conclusion.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
+    },
+    {
+      "id": 2,
       "cat": "tech",
       "q": "第一征兆：白皮肤的人到来",
       "a": "「白皮肤的人将会到来，就像巴哈纳（失散的白人兄弟）一样，但他们的行为不像巴哈纳。他们会夺取不属于自己的土地，用雷棒打击敌人。」",
@@ -10,10 +25,12 @@
       "year": 1600,
       "status": "verified",
       "verdict_zh": "16世纪起，欧洲殖民者携带火枪（雷棒）到达美洲，强占原住民土地。西班牙征服者于1540年首次接触霍比人。",
-      "verdict_en": "From the 16th century, European colonizers arrived in the Americas with firearms ('thunder sticks') and seized indigenous lands. Spanish conquistadors first contacted the Hopi in 1540."
+      "verdict_en": "From the 16th century, European colonizers arrived in the Americas with firearms ('thunder sticks') and seized indigenous lands. Spanish conquistadors first contacted the Hopi in 1540.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 2,
+      "id": 3,
       "cat": "tech",
       "q": "第二征兆：旋转的木轮",
       "a": "「我们的土地上将出现旋转的木轮，发出声音。白人将乘坐这些木轮拉着的大篷车而来。」",
@@ -22,10 +39,12 @@
       "year": 1880,
       "status": "verified",
       "verdict_zh": "19世纪，美国西进运动中大量移民乘坐马车和大篷车穿越大平原。「旋转的木轮」准确描述了马车车轮。",
-      "verdict_en": "During the 19th-century American westward expansion, settlers traveled in covered wagons across the Great Plains. 'Spinning wheels of wood' accurately describes wagon wheels."
+      "verdict_en": "During the 19th-century American westward expansion, settlers traveled in covered wagons across the Great Plains. 'Spinning wheels of wood' accurately describes wagon wheels.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 3,
+      "id": 4,
       "cat": "tech",
       "q": "第三征兆：长角的巨兽",
       "a": "「一种奇怪的巨兽将充满大地，它像水牛但有巨大的长角。」",
@@ -34,10 +53,12 @@
       "year": 1880,
       "status": "verified",
       "verdict_zh": "指美国西部大规模引入的长角牛（Longhorn cattle）。19世纪后半叶，牧牛业扩张，数以百万计的长角牛遍布美国西部草原。",
-      "verdict_en": "Refers to Longhorn cattle introduced en masse in the American West. In the late 19th century, the cattle industry expanded with millions of Longhorns across western grasslands."
+      "verdict_en": "Refers to Longhorn cattle introduced en masse in the American West. In the late 19th century, the cattle industry expanded with millions of Longhorns across western grasslands.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 4,
+      "id": 5,
       "cat": "tech",
       "q": "第四征兆：铁蛇穿越大地",
       "a": "「大地将被铁蛇纵横穿越。」",
@@ -46,10 +67,12 @@
       "year": 1880,
       "status": "verified",
       "verdict_zh": "指横贯美国的铁路建设。1869年第一条横贯大陆铁路完工，此后铁路网迅速覆盖全美。铁轨外观确实像钢铁长蛇。",
-      "verdict_en": "Refers to railroad construction across America. The first transcontinental railroad was completed in 1869, and rail networks rapidly expanded nationwide. Railroad tracks indeed resemble iron snakes."
+      "verdict_en": "Refers to railroad construction across America. The first transcontinental railroad was completed in 1869, and rail networks rapidly expanded nationwide. Railroad tracks indeed resemble iron snakes.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 5,
+      "id": 6,
       "cat": "tech",
       "q": "第五征兆：巨大的蜘蛛网覆盖大地",
       "a": "「大地将被一张巨大的蜘蛛网纵横交错地覆盖。」",
@@ -58,10 +81,12 @@
       "year": 1920,
       "status": "verified",
       "verdict_zh": "指电话线和电力线网络。20世纪初，电话线和电线杆遍布美国，从空中俯瞰确实如同巨大的蜘蛛网。也有人认为同时预示了后来的互联网。",
-      "verdict_en": "Refers to telephone and power line networks. By the early 20th century, telephone lines and power poles covered America, resembling a giant spider's web when viewed from above. Some also interpret this as foreshadowing the Internet."
+      "verdict_en": "Refers to telephone and power line networks. By the early 20th century, telephone lines and power poles covered America, resembling a giant spider's web when viewed from above. Some also interpret this as foreshadowing the Internet.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 6,
+      "id": 7,
       "cat": "tech",
       "q": "第六征兆：石河纵横大地",
       "a": "「大地将被石头做的河流纵横交错。这些石河在阳光下会产生幻象。」",
@@ -70,10 +95,12 @@
       "year": 1960,
       "status": "verified",
       "verdict_zh": "指柏油公路和高速公路网。1956年美国启动州际高速公路系统建设，柏油路面在烈日下确实会产生热浪幻象（海市蜃楼效应）。",
-      "verdict_en": "Refers to paved highways. The US Interstate Highway System began construction in 1956. Asphalt roads under intense sun indeed produce heat shimmer mirages, matching 'pictures in the sun.'"
+      "verdict_en": "Refers to paved highways. The US Interstate Highway System began construction in 1956. Asphalt roads under intense sun indeed produce heat shimmer mirages, matching 'pictures in the sun.'",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 7,
+      "id": 8,
       "cat": "climate",
       "q": "第七征兆：海水变黑",
       "a": "「你们会听到大海变黑了，许多生物因此死去。」",
@@ -82,10 +109,12 @@
       "year": 1990,
       "status": "verified",
       "verdict_zh": "指大规模石油泄漏事件。1989年埃克森·瓦尔迪兹号在阿拉斯加海域泄漏4000万升原油，2010年墨西哥湾深水地平线平台泄漏事故更为严重，均导致大面积海面变黑、海洋生物大量死亡。",
-      "verdict_en": "Refers to major oil spills. The 1989 Exxon Valdez spill released 40 million liters of crude oil in Alaskan waters; the 2010 Deepwater Horizon disaster in the Gulf of Mexico was even worse. Both turned vast sea areas black and caused mass marine life death."
+      "verdict_en": "Refers to major oil spills. The 1989 Exxon Valdez spill released 40 million liters of crude oil in Alaskan waters; the 2010 Deepwater Horizon disaster in the Gulf of Mexico was even worse. Both turned vast sea areas black and caused mass marine life death.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 8,
+      "id": 9,
       "cat": "society",
       "q": "第八征兆：长发青年来到部落",
       "a": "「你们会看到许多年轻人留着长发，像我们的族人一样。他们会来到原住民的土地上，学习我们的生活方式和智慧。」",
@@ -94,10 +123,12 @@
       "year": 1970,
       "status": "verified",
       "verdict_zh": "指1960-70年代的嬉皮士运动和反文化运动。大量留长发的白人青年前往印第安保留地，学习原住民的生活方式、精神信仰和自然哲学，成为那个时代的标志性现象。",
-      "verdict_en": "Refers to the 1960s-70s hippie and counterculture movements. Many long-haired white youth visited Indian reservations to learn indigenous lifestyles, spiritual beliefs, and nature philosophy, a defining phenomenon of that era."
+      "verdict_en": "Refers to the 1960s-70s hippie and counterculture movements. Many long-haired white youth visited Indian reservations to learn indigenous lifestyles, spiritual beliefs, and nature philosophy, a defining phenomenon of that era.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 9,
+      "id": 10,
       "cat": "war",
       "q": "第九征兆：天上的居所坠落",
       "a": "「你们会听到天上的居所像一颗蓝色的星星一样坠落到地球上，发出巨大的撞击声。这之后不久，我族人的仪式就将停止。」",
@@ -108,7 +139,7 @@
       "verdict_en": ""
     },
     {
-      "id": 10,
+      "id": 11,
       "cat": "spirit",
       "q": "蓝星卡奇纳的回归",
       "a": "「当蓝星卡奇纳在广场上跳起舞来，摘下面具的时候，就标志着第五世界即将到来。卡奇纳们将在广场上摘下面具向未成年者展示真容，届时没有信仰的人将毫无希望。」",
@@ -119,7 +150,7 @@
       "verdict_en": ""
     },
     {
-      "id": 11,
+      "id": 12,
       "cat": "war",
       "q": "灰烬之葫芦（核武器预言）",
       "a": "「有一天，某种灰烬之葫芦会从天空中被投下，它会烧毁大地上的一切，让海洋沸腾。之后很长一段时间里，那片土地上什么都不会生长。」",
@@ -128,10 +159,12 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "1945年8月，美国在日本广岛和长崎投下两颗原子弹。蘑菇云的形状确似葫芦，核爆产生的高温足以蒸发一切，辐射导致爆心区域多年寸草不生。这是霍比预言中被引用最多的已应验预言。",
-      "verdict_en": "In August 1945, the US dropped atomic bombs on Hiroshima and Nagasaki. The mushroom cloud shape resembles a gourd, the extreme heat vaporized everything, and radiation left ground zero barren for years. This is the most frequently cited fulfilled Hopi prophecy."
+      "verdict_en": "In August 1945, the US dropped atomic bombs on Hiroshima and Nagasaki. The mushroom cloud shape resembles a gourd, the extreme heat vaporized everything, and radiation left ground zero barren for years. This is the most frequently cited fulfilled Hopi prophecy.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     },
     {
-      "id": 12,
+      "id": 13,
       "cat": "spirit",
       "q": "预言石刻：人类的两条道路",
       "a": "「生命之路有两条分支。上面一条路的人越来越与大地脱离，头上没有连接大灵的线——他们的路走到尽头就断裂了。下面一条路的人与土地和谐共处，他们的玉米继续生长，生命之路延续到永远。」",
@@ -142,7 +175,7 @@
       "verdict_en": ""
     },
     {
-      "id": 13,
+      "id": 14,
       "cat": "spirit",
       "q": "大净化",
       "a": "「大净化即将到来。届时世界将被摇晃和翻转。邪恶的人将被消灭，真正和平的人将在新世界中建立新的生活方式。世界将被净化，生命将重新开始。」",
@@ -153,7 +186,7 @@
       "verdict_en": ""
     },
     {
-      "id": 14,
+      "id": 15,
       "cat": "spirit",
       "q": "巴哈纳（失散的白人兄弟）的回归",
       "a": "「创世之初，红种人的兄弟——巴哈纳（白人兄弟）——向东方出发去寻找知识。有一天他会带着智慧回来，届时红白两族将再次团聚。但如果巴哈纳带着十字架而非圆圈的符号回来，那将意味着巨大的灾难。」",
@@ -164,7 +197,7 @@
       "verdict_en": ""
     },
     {
-      "id": 15,
+      "id": 16,
       "cat": "climate",
       "q": "季节与气候的紊乱",
       "a": "「时间将会加速。人们将失去分辨季节的能力。庄稼会在错误的时间生长，天气会变得混乱无序。」",
@@ -173,20 +206,9 @@
       "year": 2020,
       "status": "partial",
       "verdict_zh": "全球气候变化导致极端天气事件频发，季节规律被打破。北极冰层加速融化，欧洲热浪、澳洲山火、反常暖冬等现象日益普遍。但「时间加速」的说法较为模糊，难以具体验证。",
-      "verdict_en": "Global climate change has caused increasingly frequent extreme weather events and disrupted seasonal patterns. Arctic ice is melting rapidly, European heatwaves, Australian bushfires, and abnormal warm winters are increasingly common. However, the notion of 'time speeding up' is vague and hard to verify concretely."
-    },
-    {
-      "id": 16,
-      "cat": "society",
-      "q": "Thomas Banyacya 联合国演讲的警示",
-      "a": "「如果我们人类不醒悟，不重新学会与大地和谐共处，大自然就将对我们采取行动。地震、洪水和其他灾难将越来越多、越来越严重——这些都是大地母亲的警告。」",
-      "q_en": "Thomas Banyacya's warning at the United Nations",
-      "a_en": "\"If we humans do not wake up and relearn to live in harmony with the Earth, nature will act against us. Earthquakes, floods, and other disasters will become more frequent and severe — these are warnings from Mother Earth.\"",
-      "date": "1992-12-10",
-      "year": 2020,
-      "status": "partial",
-      "verdict_zh": "21世纪以来，全球自然灾害频率和强度确有上升趋势。2004年印度洋海啸、2011年日本大地震、频繁的飓风和山火等均造成巨大损失。但将自然灾害增多直接归因于人类与大地不和谐的因果关系，属于哲学与信仰范畴而非科学结论。",
-      "verdict_en": "Since the 21st century, global natural disasters have indeed increased in frequency and intensity. The 2004 Indian Ocean tsunami, 2011 Japan earthquake, frequent hurricanes and wildfires have caused enormous damage. However, attributing increased natural disasters directly to humanity's disharmony with Earth is a philosophical and spiritual claim rather than a scientific conclusion."
+      "verdict_en": "Global climate change has caused increasingly frequent extreme weather events and disrupted seasonal patterns. Arctic ice is melting rapidly, European heatwaves, Australian bushfires, and abnormal warm winters are increasingly common. However, the notion of 'time speeding up' is vague and hard to verify concretely.",
+      "yearReason": "霍皮族口述传统中关于此世代转变的预言",
+      "yearReason_en": "From Hopi oral tradition regarding this era of world transformation"
     }
   ]
 }

@@ -10,7 +10,9 @@
       "year": -1046,
       "status": "verified",
       "verdict_zh": "周朝（约前1046-前256年）国祚约790年，与「八百秋」之说基本吻合。西周东周合计确为中国历史上最长的朝代。",
-      "verdict_en": "The Zhou dynasty (c. 1046-256 BC) lasted approximately 790 years, closely matching the claim of 'eight hundred autumns.' Combined Western and Eastern Zhou form the longest dynasty in Chinese history."
+      "verdict_en": "The Zhou dynasty (c. 1046-256 BC) lasted approximately 790 years, closely matching the claim of 'eight hundred autumns.' Combined Western and Eastern Zhou form the longest dynasty in Chinese history.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "year": -221,
       "status": "verified",
       "verdict_zh": "秦始皇于前221年统一六国，建立秦朝，但秦仅历二世（前221-前206年），历时约15年即亡，与「二十年间不能守」相近。「卯坐金头带直刀」拆字为「刘」，暗指刘邦取代秦朝建立汉朝。",
-      "verdict_en": "Qin Shi Huang unified the six states in 221 BC, but the Qin dynasty lasted only two generations (221-206 BC), approximately 15 years — close to the 'twenty years' prediction. The character puzzle components form 'Liu,' alluding to Liu Bang who replaced Qin and founded the Han dynasty."
+      "verdict_en": "Qin Shi Huang unified the six states in 221 BC, but the Qin dynasty lasted only two generations (221-206 BC), approximately 15 years — close to the 'twenty years' prediction. The character puzzle components form 'Liu,' alluding to Liu Bang who replaced Qin and founded the Han dynasty.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 3,
@@ -34,7 +38,9 @@
       "year": -206,
       "status": "verified",
       "verdict_zh": "「一土临朝」指王莽（「莽」字含「大」与「犬」，古文拆字法暗指），他于公元9年篡汉建立新朝。「泉中涌出光华主」指刘秀（光武帝），于25年兴复汉室。两汉合计约405年（前206-220年），与「四百年来」吻合。「日上一曲」为「曹」字，指曹操挟天子以令诸侯。",
-      "verdict_en": "'One earth at court' refers to Wang Mang, who usurped the Han throne in 9 AD and established the Xin dynasty. 'From the spring emerges a radiant lord' refers to Liu Xiu (Emperor Guangwu), who restored the Han in 25 AD. The two Han dynasties combined lasted approximately 405 years (206 BC - 220 AD), matching 'four hundred years.' 'Sun above a bent stroke' forms the character 'Cao,' referring to Cao Cao's domination."
+      "verdict_en": "'One earth at court' refers to Wang Mang, who usurped the Han throne in 9 AD and established the Xin dynasty. 'From the spring emerges a radiant lord' refers to Liu Xiu (Emperor Guangwu), who restored the Han in 25 AD. The two Han dynasties combined lasted approximately 405 years (206 BC - 220 AD), matching 'four hundred years.' 'Sun above a bent stroke' forms the character 'Cao,' referring to Cao Cao's domination.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 4,
@@ -46,7 +52,9 @@
       "year": 220,
       "status": "verified",
       "verdict_zh": "刘备于221年在成都称帝，建立蜀汉（西川），与魏、吴三分天下。蜀汉传二帝（刘备、刘禅），于263年亡国。三国时期约60年（220-280年）。「马上同无半」暗指司马氏，司马炎于265年建立西晋，280年统一天下。",
-      "verdict_en": "Liu Bei proclaimed himself emperor in Chengdu in 221 AD, founding Shu Han (western Sichuan), forming a three-way split with Wei and Wu. Shu Han lasted two rulers (Liu Bei, Liu Shan) and fell in 263. The Three Kingdoms period lasted about 60 years (220-280). The character puzzle alludes to the Sima family; Sima Yan founded Western Jin in 265 and unified China in 280."
+      "verdict_en": "Liu Bei proclaimed himself emperor in Chengdu in 221 AD, founding Shu Han (western Sichuan), forming a three-way split with Wei and Wu. Shu Han lasted two rulers (Liu Bei, Liu Shan) and fell in 263. The Three Kingdoms period lasted about 60 years (220-280). The character puzzle alludes to the Sima family; Sima Yan founded Western Jin in 265 and unified China in 280.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 5,
@@ -58,7 +66,9 @@
       "year": 317,
       "status": "verified",
       "verdict_zh": "西晋灭亡后，司马氏南渡建立东晋（317年），此后南北朝长期分裂对峙。从西晋末年（316年）到隋统一（589年），约270余年战乱纷争。诗中「五百年」或为夸张，也有说法从三国算起约涵盖更长时段。「一轮圆光」暗指隋朝统一天下。",
-      "verdict_en": "After the fall of Western Jin, the Sima clan retreated south to establish Eastern Jin (317 AD), followed by the prolonged North-South division. From late Western Jin (316) to Sui reunification (589), over 270 years of conflict ensued. The 'five hundred years' may be hyperbolic or may count from earlier periods. 'One round light' alludes to the Sui dynasty's reunification."
+      "verdict_en": "After the fall of Western Jin, the Sima clan retreated south to establish Eastern Jin (317 AD), followed by the prolonged North-South division. From late Western Jin (316) to Sui reunification (589), over 270 years of conflict ensued. The 'five hundred years' may be hyperbolic or may count from earlier periods. 'One round light' alludes to the Sui dynasty's reunification.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 6,
@@ -70,7 +80,9 @@
       "year": 581,
       "status": "verified",
       "verdict_zh": "杨坚于581年建立隋朝，统一天下，万里山河尽归杨姓。隋炀帝杨广暴政导致天下大乱，李渊于617年起兵攻入长安（古称咸阳附近），隋朝二世而亡（581-618年），仅37年。",
-      "verdict_en": "Yang Jian founded the Sui dynasty in 581 and unified China — all the realm belonged to the Yang surname. Emperor Yang of Sui's tyranny led to widespread rebellion; Li Yuan raised troops and captured Chang'an (near ancient Xianyang) in 617. The Sui lasted only two generations (581-618), just 37 years."
+      "verdict_en": "Yang Jian founded the Sui dynasty in 581 and unified China — all the realm belonged to the Yang surname. Emperor Yang of Sui's tyranny led to widespread rebellion; Li Yuan raised troops and captured Chang'an (near ancient Xianyang) in 617. The Sui lasted only two generations (581-618), just 37 years.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 7,
@@ -82,7 +94,9 @@
       "year": 618,
       "status": "verified",
       "verdict_zh": "李渊于618年建立唐朝，传至唐末907年，国祚289年，为中国最辉煌的朝代之一。「两朝天子并为一」或指武则天改唐为周后又复辟为唐，两朝实为一脉。",
-      "verdict_en": "Li Yuan founded the Tang dynasty in 618, which lasted until 907 — a span of 289 years and one of China's most glorious eras. 'Two dynasties merge into one' may refer to Wu Zetian's brief Zhou dynasty interlude before the Tang was restored, making two dynasties effectively one lineage."
+      "verdict_en": "Li Yuan founded the Tang dynasty in 618, which lasted until 907 — a span of 289 years and one of China's most glorious eras. 'Two dynasties merge into one' may refer to Wu Zetian's brief Zhou dynasty interlude before the Tang was restored, making two dynasties effectively one lineage.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 8,
@@ -94,7 +108,9 @@
       "year": 907,
       "status": "verified",
       "verdict_zh": "五代十国（907-960年）是唐朝灭亡后的大分裂时期，五个短命朝代和十余个割据政权并存，战乱频仍。此段描绘的纷争与孤城意象与这一时期吻合。",
-      "verdict_en": "The Five Dynasties and Ten Kingdoms (907-960) was a period of fragmentation after the Tang dynasty's fall, with five short-lived dynasties and over ten regional regimes coexisting amid constant warfare. The imagery of conflict and isolated cities matches this period."
+      "verdict_en": "The Five Dynasties and Ten Kingdoms (907-960) was a period of fragmentation after the Tang dynasty's fall, with five short-lived dynasties and over ten regional regimes coexisting amid constant warfare. The imagery of conflict and isolated cities matches this period.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 9,
@@ -106,7 +122,9 @@
       "year": 960,
       "status": "verified",
       "verdict_zh": "赵匡胤原为后周殿前都点检，960年在陈桥驿发动兵变，黄袍加身，建立北宋。北宋定都开封，统一了大部分中原地区。",
-      "verdict_en": "Zhao Kuangyin was originally the commander of the palace guards of Later Zhou. In 960, he staged a mutiny at Chen Bridge, had the yellow robe draped over him, and founded the Northern Song dynasty, establishing its capital at Kaifeng and unifying most of the Central Plain."
+      "verdict_en": "Zhao Kuangyin was originally the commander of the palace guards of Later Zhou. In 960, he staged a mutiny at Chen Bridge, had the yellow robe draped over him, and founded the Northern Song dynasty, establishing its capital at Kaifeng and unifying most of the Central Plain.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 10,
@@ -118,7 +136,9 @@
       "year": 1127,
       "status": "verified",
       "verdict_zh": "靖康之变（1127年），金兵攻破开封，北宋灭亡。赵构南渡建立南宋，偏安临安（杭州）。「一汪深水流全国」暗指南宋依托江南水网偏安，也预示最终1279年崖山之战南宋彻底灭亡。",
-      "verdict_en": "The Jingkang Incident (1127) saw Jurchen forces capture Kaifeng, ending the Northern Song. Zhao Gou fled south and established the Southern Song at Lin'an (Hangzhou). 'Deep water flows across the land' alludes to the Southern Song's reliance on the Yangtze water network, and foreshadows its final destruction at the Battle of Yamen in 1279."
+      "verdict_en": "The Jingkang Incident (1127) saw Jurchen forces capture Kaifeng, ending the Northern Song. Zhao Gou fled south and established the Southern Song at Lin'an (Hangzhou). 'Deep water flows across the land' alludes to the Southern Song's reliance on the Yangtze water network, and foreshadows its final destruction at the Battle of Yamen in 1279.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 11,
@@ -130,7 +150,9 @@
       "year": 1271,
       "status": "verified",
       "verdict_zh": "忽必烈于1271年建立元朝，1279年灭南宋，蒙古人入主中原。元朝疆域空前广大，但蒙古统治者被视为外族。「一雷惊天」形容蒙古铁骑横扫天下的震撼。",
-      "verdict_en": "Kublai Khan established the Yuan dynasty in 1271 and destroyed the Southern Song by 1279, bringing Mongol rule to China. The Yuan had an unprecedentedly vast territory, but the Mongol rulers were seen as foreign. 'One thunderclap startles the sky' describes the devastating impact of the Mongol cavalry sweeping across the land."
+      "verdict_en": "Kublai Khan established the Yuan dynasty in 1271 and destroyed the Southern Song by 1279, bringing Mongol rule to China. The Yuan had an unprecedentedly vast territory, but the Mongol rulers were seen as foreign. 'One thunderclap startles the sky' describes the devastating impact of the Mongol cavalry sweeping across the land.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 12,
@@ -142,7 +164,9 @@
       "year": 1368,
       "status": "verified",
       "verdict_zh": "朱元璋于1368年建立明朝，「日月」合为「明」字。朱元璋起于西方（安徽凤阳），以红巾军起家。明朝历276年（1368-1644年），修筑万里长城防御北方。「明月落地」指明朝灭亡后的安定。",
-      "verdict_en": "Zhu Yuanzhang founded the Ming dynasty in 1368 — 'sun and moon' combine to form the character 'Ming.' He rose from the west (Fengyang, Anhui) through the Red Turban rebellion. The Ming lasted 276 years (1368-1644) and rebuilt the Great Wall. 'Bright moon falls to earth' refers to stability after the Ming's fall."
+      "verdict_en": "Zhu Yuanzhang founded the Ming dynasty in 1368 — 'sun and moon' combine to form the character 'Ming.' He rose from the west (Fengyang, Anhui) through the Red Turban rebellion. The Ming lasted 276 years (1368-1644) and rebuilt the Great Wall. 'Bright moon falls to earth' refers to stability after the Ming's fall.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 13,
@@ -154,7 +178,9 @@
       "year": 1644,
       "status": "verified",
       "verdict_zh": "1644年，清军入关，从东北方向（东方）入主中原。清朝前期经康熙、雍正、乾隆三代盛世，疆域辽阔，国力强盛，「纵横天下无人挡」符合这一时期清朝的军事优势。",
-      "verdict_en": "In 1644, Qing forces entered through the passes from the northeast. The early Qing experienced the prosperous reigns of Kangxi, Yongzheng, and Qianlong, with vast territory and strong national power. 'Dominating the realm, none can resist' matches the Qing's military supremacy during this period."
+      "verdict_en": "In 1644, Qing forces entered through the passes from the northeast. The early Qing experienced the prosperous reigns of Kangxi, Yongzheng, and Qianlong, with vast territory and strong national power. 'Dominating the realm, none can resist' matches the Qing's military supremacy during this period.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 14,
@@ -166,7 +192,9 @@
       "year": 1912,
       "status": "partial",
       "verdict_zh": "清朝于1912年灭亡，中华民国成立。「大红花」有多种解读：一说指辛亥革命（红色革命），一说指后来的中华人民共和国（红色政权）。此段预言较为模糊，具体指向存在争议。",
-      "verdict_en": "The Qing dynasty fell in 1912 and the Republic of China was established. 'Great red flower' has multiple interpretations: some say it refers to the Xinhai Revolution (a red revolution), others to the later People's Republic of China (a red regime). This segment is relatively vague and its specific reference remains debated."
+      "verdict_en": "The Qing dynasty fell in 1912 and the Republic of China was established. 'Great red flower' has multiple interpretations: some say it refers to the Xinhai Revolution (a red revolution), others to the later People's Republic of China (a red regime). This segment is relatively vague and its specific reference remains debated.",
+      "yearReason": "万年歌中根据历史周期推算对应该时期",
+      "yearReason_en": "Calculated to correspond to this period based on historical cycles in Wanniange"
     },
     {
       "id": 15,

@@ -11,7 +11,9 @@
       "year": 2010,
       "status": "verified",
       "verdict_zh": "中国大米零售价在2010年前后普遍突破2元/斤。据国家统计局数据，粳米价格从1990年代的0.8-1.2元/斤逐步上涨，至2010年已普遍超过2元/斤。",
-      "verdict_en": "China's retail rice prices generally exceeded 2 yuan per jin around 2010. According to National Bureau of Statistics data, japonica rice rose from 0.8-1.2 yuan/jin in the 1990s to over 2 yuan/jin by 2010."
+      "verdict_en": "China's retail rice prices generally exceeded 2 yuan per jin around 2010. According to National Bureau of Statistics data, japonica rice rose from 0.8-1.2 yuan/jin in the 1990s to over 2 yuan/jin by 2010.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 2,
@@ -24,7 +26,9 @@
       "year": 2022,
       "status": "verified",
       "verdict_zh": "中国大米零售价在2020年代已普遍达到5元/斤左右。特别是2022年后，优质大米零售价多在4-6元/斤区间，部分品种超过5元。",
-      "verdict_en": "China's retail rice prices generally reached around 5 yuan per jin in the 2020s. After 2022, quality rice retailed mostly in the 4-6 yuan/jin range, with some varieties exceeding 5 yuan."
+      "verdict_en": "China's retail rice prices generally reached around 5 yuan per jin in the 2020s. After 2022, quality rice retailed mostly in the 4-6 yuan/jin range, with some varieties exceeding 5 yuan.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 3,
@@ -37,7 +41,9 @@
       "year": 2023,
       "status": "verified",
       "verdict_zh": "2023年猪肉价格经历大幅下跌，部分地区猪肉零售价跌破10元/斤。据农业农村部数据，2023年上半年生猪价格持续低迷，部分时段猪肉批发价低至15元/公斤（约7.5元/斤）。",
-      "verdict_en": "Pork prices dropped sharply in 2023, with retail prices falling below 10 yuan per jin in some regions. According to Ministry of Agriculture data, hog prices remained depressed in the first half of 2023, with wholesale pork prices dropping to 15 yuan/kg (about 7.5 yuan/jin) at times."
+      "verdict_en": "Pork prices dropped sharply in 2023, with retail prices falling below 10 yuan per jin in some regions. According to Ministry of Agriculture data, hog prices remained depressed in the first half of 2023, with wholesale pork prices dropping to 15 yuan/kg (about 7.5 yuan/jin) at times.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 4,
@@ -50,7 +56,9 @@
       "year": 2023,
       "status": "verified",
       "verdict_zh": "2022年起中国房地产市场持续低迷。恒大、碧桂园等大型房企爆发债务危机，多地出现大量滞销楼盘。据国家统计局数据，2023-2024年全国商品房销售面积和金额连续下降，二手房市场普遍出现「有价无市」现象。",
-      "verdict_en": "China's real estate market entered a sustained downturn from 2022. Major developers like Evergrande and Country Garden faced debt crises, with unsold inventory piling up across cities. National Bureau of Statistics data shows consecutive declines in commercial housing sales volume and value in 2023-2024, with the secondary market widely experiencing a 'listed but no buyers' phenomenon."
+      "verdict_en": "China's real estate market entered a sustained downturn from 2022. Major developers like Evergrande and Country Garden faced debt crises, with unsold inventory piling up across cities. National Bureau of Statistics data shows consecutive declines in commercial housing sales volume and value in 2023-2024, with the secondary market widely experiencing a 'listed but no buyers' phenomenon.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 5,
@@ -63,7 +71,9 @@
       "year": 2022,
       "status": "verified",
       "verdict_zh": "2022年夏季，中国长江流域遭遇1961年以来最严重高温干旱。鄱阳湖水位创历史新低，洞庭湖大面积缩减，长江多段水位降至有记录以来最低值。四川、重庆、湖北、安徽等地旱情严重。",
-      "verdict_en": "In the summer of 2022, the Yangtze River basin experienced its worst heat and drought since 1961. Poyang Lake hit record low water levels, Dongting Lake shrank dramatically, and multiple sections of the Yangtze fell to the lowest levels ever recorded. Severe drought affected Sichuan, Chongqing, Hubei, and Anhui provinces."
+      "verdict_en": "In the summer of 2022, the Yangtze River basin experienced its worst heat and drought since 1961. Poyang Lake hit record low water levels, Dongting Lake shrank dramatically, and multiple sections of the Yangtze fell to the lowest levels ever recorded. Severe drought affected Sichuan, Chongqing, Hubei, and Anhui provinces.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 6,
@@ -76,7 +86,9 @@
       "year": 2023,
       "status": "verified",
       "verdict_zh": "2023年7-8月，台风「杜苏芮」引发华北地区特大洪涝灾害。北京、河北涿州等地遭遇历史罕见暴雨洪水，造成重大人员伤亡和财产损失。这是北京地区140年来最大降雨。",
-      "verdict_en": "In July-August 2023, Typhoon Doksuri triggered catastrophic flooding across North China. Beijing and Zhuozhou in Hebei experienced historically rare torrential rains and floods, causing significant casualties and property damage. It was Beijing's heaviest rainfall in 140 years."
+      "verdict_en": "In July-August 2023, Typhoon Doksuri triggered catastrophic flooding across North China. Beijing and Zhuozhou in Hebei experienced historically rare torrential rains and floods, causing significant casualties and property damage. It was Beijing's heaviest rainfall in 140 years.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 7,
@@ -89,7 +101,9 @@
       "year": "未确定",
       "status": "partial",
       "verdict_zh": "虽然总体上粮食仍比肉类便宜，但某些场景下已部分应验：2023年猪肉价格暴跌至7-8元/斤，而部分优质大米售价达5-6元/斤，价差大幅缩小。有机粮食价格甚至可超过普通猪肉价格。但严格意义上，普通粮食仍未普遍比肉贵。",
-      "verdict_en": "While grain is still generally cheaper than meat, partial fulfillment has occurred: in 2023, pork prices crashed to 7-8 yuan/jin while premium rice sold at 5-6 yuan/jin, greatly narrowing the gap. Organic grain prices can even exceed ordinary pork prices. However, in strict terms, common grain has not universally become more expensive than meat."
+      "verdict_en": "While grain is still generally cheaper than meat, partial fulfillment has occurred: in 2023, pork prices crashed to 7-8 yuan/jin while premium rice sold at 5-6 yuan/jin, greatly narrowing the gap. Organic grain prices can even exceed ordinary pork prices. However, in strict terms, common grain has not universally become more expensive than meat.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 8,
@@ -102,7 +116,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "2020年初新冠疫情爆发，中国实施了大规模封控措施。武汉封城76天，此后多地反复实施居家隔离、小区封闭管理。2022年上海等城市经历了长达数月的全域静态管理，全民居家不出门成为现实。",
-      "verdict_en": "The COVID-19 pandemic broke out in early 2020, and China implemented large-scale lockdowns. Wuhan was locked down for 76 days, followed by repeated home quarantines and residential compound closures across the country. In 2022, cities like Shanghai experienced months-long citywide lockdowns, making 'people not going outside' a reality."
+      "verdict_en": "The COVID-19 pandemic broke out in early 2020, and China implemented large-scale lockdowns. Wuhan was locked down for 76 days, followed by repeated home quarantines and residential compound closures across the country. In 2022, cities like Shanghai experienced months-long citywide lockdowns, making 'people not going outside' a reality.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 9,
@@ -115,7 +131,9 @@
       "year": "未确定",
       "status": "partial",
       "verdict_zh": "从购买力角度看，人民币确实经历了显著的通货膨胀。1990年代100元的购买力相当于2020年代的约20-30元。但中国并未出现恶性通胀，物价上涨属于经济发展伴随的温和通胀，「钱不值钱」的程度因人理解而异。",
-      "verdict_en": "In terms of purchasing power, the RMB has indeed experienced significant inflation. The purchasing power of 100 yuan in the 1990s equals roughly 20-30 yuan in the 2020s. However, China has not experienced hyperinflation — price increases reflect moderate inflation accompanying economic development. The degree of 'money becoming worthless' is a matter of interpretation."
+      "verdict_en": "In terms of purchasing power, the RMB has indeed experienced significant inflation. The purchasing power of 100 yuan in the 1990s equals roughly 20-30 yuan in the 2020s. However, China has not experienced hyperinflation — price increases reflect moderate inflation accompanying economic development. The degree of 'money becoming worthless' is a matter of interpretation.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 10,
@@ -128,7 +146,9 @@
       "year": 2023,
       "status": "partial",
       "verdict_zh": "电商崛起和新冠疫情双重冲击下，中国实体零售确实经历了大规模关店潮。据中国连锁经营协会数据，2020-2023年实体零售闭店率显著上升，许多城市出现大量空置商铺。但并非所有实体店都关闭，便利店、餐饮等业态仍在扩张。",
-      "verdict_en": "Under the dual impact of e-commerce growth and COVID-19, China's brick-and-mortar retail indeed experienced massive store closures. According to the China Chain Store & Franchise Association, physical retail closure rates rose significantly from 2020-2023, with many cities seeing large numbers of vacant storefronts. However, not all physical stores closed — convenience stores, restaurants, and other formats continued expanding."
+      "verdict_en": "Under the dual impact of e-commerce growth and COVID-19, China's brick-and-mortar retail indeed experienced massive store closures. According to the China Chain Store & Franchise Association, physical retail closure rates rose significantly from 2020-2023, with many cities seeing large numbers of vacant storefronts. However, not all physical stores closed — convenience stores, restaurants, and other formats continued expanding.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 11,
@@ -141,7 +161,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "鸡蛋零售价在2020年前后已普遍达到1元/个以上。据农业农村部数据，2020年鸡蛋均价约10-12元/斤，按每斤约8-10个鸡蛋计算，单个价格已超过1元。",
-      "verdict_en": "Egg retail prices generally exceeded 1 yuan each around 2020. According to Ministry of Agriculture data, the average egg price in 2020 was about 10-12 yuan per jin, which works out to over 1 yuan per egg (at 8-10 eggs per jin)."
+      "verdict_en": "Egg retail prices generally exceeded 1 yuan each around 2020. According to Ministry of Agriculture data, the average egg price in 2020 was about 10-12 yuan per jin, which works out to over 1 yuan per egg (at 8-10 eggs per jin).",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 12,
@@ -154,7 +176,9 @@
       "year": 2006,
       "status": "verified",
       "verdict_zh": "2006年1月1日，中国正式废除农业税条例，终结了延续2600年的农业税制度。这对于1990年代的农民来说确实难以想象——几千年来天经地义的「皇粮国税」真的被取消了。",
-      "verdict_en": "On January 1, 2006, China formally abolished agricultural taxes, ending a 2,600-year-old institution. For farmers in the 1990s, this was truly unimaginable — the 'imperial grain tax' that had existed for millennia was actually eliminated."
+      "verdict_en": "On January 1, 2006, China formally abolished agricultural taxes, ending a 2,600-year-old institution. For farmers in the 1990s, this was truly unimaginable — the 'imperial grain tax' that had existed for millennia was actually eliminated.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 13,
@@ -167,7 +191,9 @@
       "year": 1998,
       "status": "verified",
       "verdict_zh": "1998年起，中国国有企业大规模改革，数千万工人下岗。据统计，1998-2003年间约有2800万国企职工下岗失业，「铁饭碗」时代宣告终结。这是中国现代史上最大规模的结构性失业。",
-      "verdict_en": "Starting in 1998, China's state-owned enterprise reforms led to massive layoffs, with tens of millions of workers losing their jobs. Statistics indicate approximately 28 million SOE workers were laid off between 1998-2003, ending the 'iron rice bowl' era. This was the largest structural unemployment event in modern Chinese history."
+      "verdict_en": "Starting in 1998, China's state-owned enterprise reforms led to massive layoffs, with tens of millions of workers losing their jobs. Statistics indicate approximately 28 million SOE workers were laid off between 1998-2003, ending the 'iron rice bowl' era. This was the largest structural unemployment event in modern Chinese history.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 14,
@@ -180,7 +206,9 @@
       "year": 2023,
       "status": "verified",
       "verdict_zh": "中国气象局数据显示，中国冬季平均气温呈明显上升趋势。2023年冬季（2023年12月-2024年2月）为1961年以来最暖冬季之一，全国平均气温较常年偏高1.5°C以上。暖冬现象已成为全球气候变暖的显著表现。",
-      "verdict_en": "China Meteorological Administration data shows a clear warming trend in winter average temperatures. The winter of 2023 (Dec 2023-Feb 2024) was among the warmest since 1961, with national average temperatures exceeding the norm by over 1.5°C. Warm winters have become a notable manifestation of global climate change."
+      "verdict_en": "China Meteorological Administration data shows a clear warming trend in winter average temperatures. The winter of 2023 (Dec 2023-Feb 2024) was among the warmest since 1961, with national average temperatures exceeding the norm by over 1.5°C. Warm winters have become a notable manifestation of global climate change.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     },
     {
       "id": 15,
@@ -193,7 +221,9 @@
       "year": 2024,
       "status": "partial",
       "verdict_zh": "部分地区确已出现极低房价。2023-2024年，鹤岗、阜新、玉门等收缩型城市出现大量几万元甚至几千元的房产，被媒体称为「白菜价房」。但一二线城市房价虽有下跌，仍远未达到「白菜价」水平。全国范围内的判断取决于对「白菜价」的定义。",
-      "verdict_en": "Some regions have indeed seen extremely low housing prices. In 2023-2024, shrinking cities like Hegang, Fuxin, and Yumen saw properties listed for tens of thousands or even thousands of yuan, labeled 'cabbage-price housing' by media. However, first- and second-tier city prices, while declining, are far from 'cabbage price' levels. The nationwide assessment depends on how 'cheap as cabbage' is defined."
+      "verdict_en": "Some regions have indeed seen extremely low housing prices. In 2023-2024, shrinking cities like Hegang, Fuxin, and Yumen saw properties listed for tens of thousands or even thousands of yuan, labeled 'cabbage-price housing' by media. However, first- and second-tier city prices, while declining, are far from 'cabbage price' levels. The nationwide assessment depends on how 'cheap as cabbage' is defined.",
+      "yearReason": "根据射雕人预言的传统解读对应该时期",
+      "yearReason_en": "Traditional interpretation of Shedaoren prophecy corresponds to this period"
     }
   ]
 }

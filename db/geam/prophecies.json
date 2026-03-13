@@ -21,7 +21,9 @@
       "year": 1592,
       "status": "verified",
       "verdict_zh": "壬辰倭乱（1592-1598）发生于壬辰年（龙年），丰臣秀吉率军从南方入侵朝鲜。战争持续约七年，朝鲜八道均遭战火波及，与预言描述高度吻合。但学者指出，现存版本可能系后人据已知历史事后编写。",
-      "verdict_en": "The Imjin War (1592–1598) began in the year of Imjin (Dragon year). Toyotomi Hideyoshi's forces invaded Korea from the south. The war lasted approximately seven years and devastated all eight provinces of Joseon, closely matching the prophecy. However, scholars note the surviving text may have been composed after these events."
+      "verdict_en": "The Imjin War (1592–1598) began in the year of Imjin (Dragon year). Toyotomi Hideyoshi's forces invaded Korea from the south. The war lasted approximately seven years and devastated all eight provinces of Joseon, closely matching the prophecy. However, scholars note the surviving text may have been composed after these events.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 3,
@@ -33,7 +35,9 @@
       "year": 1636,
       "status": "verified",
       "verdict_zh": "丙子胡乱（1636-1637）中，清军南下攻破汉阳（今首尔），仁祖避至南汉山城被围困45天后投降，向清朝称臣纳贡。预言描述与史实基本吻合，但学者认为现存文本可能系后人据史事编写。",
-      "verdict_en": "During the Manchu invasion of 1636–1637 (Byeongja Horan), Qing forces swept south and took Hanyang (modern Seoul). King Injo fled to Namhansanseong fortress, was besieged for 45 days, and surrendered, becoming a vassal of the Qing dynasty. The prophecy matches historical events closely, though scholars suspect the text was composed post-hoc."
+      "verdict_en": "During the Manchu invasion of 1636–1637 (Byeongja Horan), Qing forces swept south and took Hanyang (modern Seoul). King Injo fled to Namhansanseong fortress, was besieged for 45 days, and surrendered, becoming a vassal of the Qing dynasty. The prophecy matches historical events closely, though scholars suspect the text was composed post-hoc.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 4,
@@ -45,7 +49,9 @@
       "year": 1897,
       "status": "verified",
       "verdict_zh": "朝鲜王朝（1392-1897）延续约505年后，因列强入侵国力衰竭，1897年改称大韩帝国，1910年被日本吞并。「五百年基业」与朝鲜王朝的实际国祚高度吻合。",
-      "verdict_en": "The Joseon dynasty (1392–1897) lasted approximately 505 years before collapsing under pressure from foreign powers. It was reorganized as the Korean Empire in 1897 and annexed by Japan in 1910. The 'five hundred years of foundation' closely matches Joseon's actual duration."
+      "verdict_en": "The Joseon dynasty (1392–1897) lasted approximately 505 years before collapsing under pressure from foreign powers. It was reorganized as the Korean Empire in 1897 and annexed by Japan in 1910. The 'five hundred years of foundation' closely matches Joseon's actual duration.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 5,
@@ -57,7 +63,9 @@
       "year": 1910,
       "status": "partial",
       "verdict_zh": "日本殖民统治朝鲜半岛从1910年至1945年，实际为35年。预言中「三十六年」与实际相差一年（若从1909年《己巳条约》算起则恰好36年）。「日出东方」明确指向日本，殖民统治的苦难描述与史实吻合，但年数略有出入。",
-      "verdict_en": "Japanese colonial rule over Korea lasted from 1910 to 1945, actually 35 years. The prophecy states 'thirty-six years,' off by one year (though counting from the 1909 Gisa Treaty yields exactly 36 years). 'Sun rises in the east' clearly refers to Japan. The description of suffering under colonial rule matches history, but the year count is slightly off."
+      "verdict_en": "Japanese colonial rule over Korea lasted from 1910 to 1945, actually 35 years. The prophecy states 'thirty-six years,' off by one year (though counting from the 1909 Gisa Treaty yields exactly 36 years). 'Sun rises in the east' clearly refers to Japan. The description of suffering under colonial rule matches history, but the year count is slightly off.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 6,
@@ -69,7 +77,9 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "1945年8月15日，日本宣布无条件投降，朝鲜半岛光复。「太极旗」是朝鲜/韩国的国旗。「万岁」呼应了韩国独立运动中的「大韩独立万岁」口号（源自1919年三一运动）。光复的描述与史实完全吻合。",
-      "verdict_en": "On August 15, 1945, Japan announced unconditional surrender and the Korean Peninsula was liberated. The 'Taegukgi' (Taegeuk flag) is the Korean national flag. 'Manse' (ten thousand years) echoes the rallying cry of the Korean independence movement (originating from the March 1st Movement of 1919). The description of liberation matches history precisely."
+      "verdict_en": "On August 15, 1945, Japan announced unconditional surrender and the Korean Peninsula was liberated. The 'Taegukgi' (Taegeuk flag) is the Korean national flag. 'Manse' (ten thousand years) echoes the rallying cry of the Korean independence movement (originating from the March 1st Movement of 1919). The description of liberation matches history precisely.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 7,
@@ -81,7 +91,9 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "1945年光复后，朝鲜半岛沿北纬38度线被美苏分别占领，1948年分别建立大韩民国和朝鲜民主主义人民共和国。「三八线」的明确提及、南北分裂和骨肉离散的描述均与史实吻合。但「三八线」这一概念在16世纪不可能存在，是学者质疑文本真伪的重要证据之一。",
-      "verdict_en": "After liberation in 1945, the Korean Peninsula was divided along the 38th parallel by US and Soviet occupation. In 1948, the Republic of Korea (South) and the DPRK (North) were established separately. The explicit mention of the '38th parallel,' national division, and family separation all match history. However, the concept of the '38th parallel' could not have existed in the 16th century — this is key evidence scholars cite questioning the text's authenticity."
+      "verdict_en": "After liberation in 1945, the Korean Peninsula was divided along the 38th parallel by US and Soviet occupation. In 1948, the Republic of Korea (South) and the DPRK (North) were established separately. The explicit mention of the '38th parallel,' national division, and family separation all match history. However, the concept of the '38th parallel' could not have existed in the 16th century — this is key evidence scholars cite questioning the text's authenticity.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 8,
@@ -93,7 +105,9 @@
       "year": 1950,
       "status": "verified",
       "verdict_zh": "1950年6月25日，朝鲜战争爆发。1950年为庚寅年，与预言中的干支纪年完全吻合。战争造成数百万人伤亡，朝鲜半岛几乎全境遭受战火。「同室操戈」准确描述了同一民族之间的内战性质。但学者指出「庚寅」纪年可能系1977年版本中后人添加。",
-      "verdict_en": "The Korean War broke out on June 25, 1950. The year 1950 is indeed Geng-Yin in the sexagenary cycle, matching the prophecy exactly. The war caused millions of casualties and devastated nearly the entire peninsula. 'Brothers turning weapons on each other' accurately describes the civil war nature of the conflict. Scholars note the Geng-Yin dating may have been added in the 1977 edition."
+      "verdict_en": "The Korean War broke out on June 25, 1950. The year 1950 is indeed Geng-Yin in the sexagenary cycle, matching the prophecy exactly. The war caused millions of casualties and devastated nearly the entire peninsula. 'Brothers turning weapons on each other' accurately describes the civil war nature of the conflict. Scholars note the Geng-Yin dating may have been added in the 1977 edition.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 9,
@@ -105,7 +119,9 @@
       "year": 1988,
       "status": "verified",
       "verdict_zh": "韩国自1960年代起实现「汉江奇迹」，从世界最贫穷的国家之一跃升为发达经济体。1988年汉城（今首尔）奥运会标志着韩国跻身国际舞台。「汉江之水」和「汉城」的提及与韩国经济奇迹的地理中心高度吻合。GDP从1960年的人均79美元增长至1990年代的数千美元。",
-      "verdict_en": "South Korea achieved the 'Miracle on the Han River' from the 1960s onward, rising from one of the world's poorest nations to a developed economy. The 1988 Seoul Olympics marked Korea's arrival on the world stage. The mentions of 'Han River' and 'Hanseong' (Seoul) closely correspond to the geographic center of Korea's economic miracle. Per capita GDP rose from $79 in 1960 to thousands of dollars by the 1990s."
+      "verdict_en": "South Korea achieved the 'Miracle on the Han River' from the 1960s onward, rising from one of the world's poorest nations to a developed economy. The 1988 Seoul Olympics marked Korea's arrival on the world stage. The mentions of 'Han River' and 'Hanseong' (Seoul) closely correspond to the geographic center of Korea's economic miracle. Per capita GDP rose from $79 in 1960 to thousands of dollars by the 1990s.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 10,
@@ -117,7 +133,9 @@
       "year": 1987,
       "status": "verified",
       "verdict_zh": "韩国在1987年六月民主抗争后实现民主化转型，结束了数十年的军事威权统治。「烛火万千」与韩国独特的烛光示威传统（2016-2017年烛光集会促成总统弹劾）形成呼应。从1980年光州事件到1987年民主化，韩国人民的抗争历程与「民声如潮不可挡」的描述吻合。",
-      "verdict_en": "South Korea achieved democratic transition after the June Democratic Struggle of 1987, ending decades of military authoritarian rule. 'Ten thousand candles' resonates with Korea's distinctive candlelight protest tradition (the 2016–2017 candlelight rallies led to presidential impeachment). From the 1980 Gwangju Uprising to the 1987 democratization, the Korean people's struggle matches the description of 'the people's voice rising like an unstoppable tide.'"
+      "verdict_en": "South Korea achieved democratic transition after the June Democratic Struggle of 1987, ending decades of military authoritarian rule. 'Ten thousand candles' resonates with Korea's distinctive candlelight protest tradition (the 2016–2017 candlelight rallies led to presidential impeachment). From the 1980 Gwangju Uprising to the 1987 democratization, the Korean people's struggle matches the description of 'the people's voice rising like an unstoppable tide.'",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 11,
@@ -129,7 +147,9 @@
       "year": 2007,
       "status": "verified",
       "verdict_zh": "「方寸之间通万里」和「天下知识入掌中」可被解读为智能手机和移动互联网的描述。韩国是全球互联网和智能手机普及率最高的国家之一。2007年iPhone问世标志着智能手机时代到来。但此类描述较为泛泛，且「无线」一词在16世纪不存在，是学者质疑文本真伪的证据之一。",
-      "verdict_en": "The descriptions of 'communicating across ten thousand li within an inch' and 'all knowledge fits in the palm' can be interpreted as smartphones and mobile internet. South Korea has among the world's highest internet and smartphone adoption rates. The iPhone's 2007 debut marked the smartphone era. However, such descriptions are rather general, and the concept of 'wireless' did not exist in the 16th century — another piece of evidence scholars cite questioning the text's authenticity."
+      "verdict_en": "The descriptions of 'communicating across ten thousand li within an inch' and 'all knowledge fits in the palm' can be interpreted as smartphones and mobile internet. South Korea has among the world's highest internet and smartphone adoption rates. The iPhone's 2007 debut marked the smartphone era. However, such descriptions are rather general, and the concept of 'wireless' did not exist in the 16th century — another piece of evidence scholars cite questioning the text's authenticity.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 12,
@@ -141,7 +161,9 @@
       "year": 2020,
       "status": "partial",
       "verdict_zh": "全球气候变化导致极端天气频发，韩国近年来经历异常高温、暴雨洪灾（2022年首尔暴雨、2023年多地洪灾）与干旱交替。「四时失序」的描述与气候异常的现实趋势部分吻合。但此类笼统的灾异描述在古代预言书中极为常见，缺乏具体的可验证细节。",
-      "verdict_en": "Global climate change has led to increasingly frequent extreme weather. South Korea has experienced abnormal heat waves, devastating floods (2022 Seoul floods, 2023 flooding in multiple regions), and alternating droughts. 'Seasons losing their order' partially matches the reality of climate anomalies. However, such general descriptions of natural disasters are extremely common in ancient prophecy texts and lack specific verifiable details."
+      "verdict_en": "Global climate change has led to increasingly frequent extreme weather. South Korea has experienced abnormal heat waves, devastating floods (2022 Seoul floods, 2023 flooding in multiple regions), and alternating droughts. 'Seasons losing their order' partially matches the reality of climate anomalies. However, such general descriptions of natural disasters are extremely common in ancient prophecy texts and lack specific verifiable details.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 13,
@@ -153,7 +175,9 @@
       "year": 2006,
       "status": "verified",
       "verdict_zh": "朝鲜于2006年首次进行核试验，此后多次试验，成为东北亚重大安全威胁。「原子之火」直接提及核武器，「北方穷兵黩武」描述朝鲜的军事优先政策。朝鲜半岛核危机至今持续。但「原子」一词在16世纪不存在，是学者判定文本为伪作的关键证据之一。",
-      "verdict_en": "North Korea conducted its first nuclear test in 2006 and has since performed multiple tests, becoming a major security threat in Northeast Asia. 'Atomic fire' directly references nuclear weapons, and 'the north pursues militarism' describes North Korea's military-first policy. The Korean Peninsula nuclear crisis continues to this day. However, the word 'atom' did not exist in the 16th century — this is a key piece of evidence scholars cite in concluding the text is a forgery."
+      "verdict_en": "North Korea conducted its first nuclear test in 2006 and has since performed multiple tests, becoming a major security threat in Northeast Asia. 'Atomic fire' directly references nuclear weapons, and 'the north pursues militarism' describes North Korea's military-first policy. The Korean Peninsula nuclear crisis continues to this day. However, the word 'atom' did not exist in the 16th century — this is a key piece of evidence scholars cite in concluding the text is a forgery.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 14,
@@ -165,7 +189,9 @@
       "year": 2012,
       "status": "verified",
       "verdict_zh": "韩流（Korean Wave/Hallyu）自2000年代起席卷全球。K-pop（BTS、BLACKPINK等）、韩剧、韩国电影（《寄生虫》2020年获奥斯卡最佳影片）在全球范围内产生巨大影响力。2012年PSY的《江南Style》成为首个YouTube播放量破10亿的视频。「韩风吹拂异域」的描述与韩流现象吻合，但措辞较为笼统。",
-      "verdict_en": "The Korean Wave (Hallyu) has swept the globe since the 2000s. K-pop (BTS, BLACKPINK, etc.), Korean dramas, and Korean films (Parasite won Best Picture at the 2020 Oscars) have had enormous global impact. In 2012, PSY's 'Gangnam Style' became the first YouTube video to surpass 1 billion views. 'Korean wind blossoms in foreign lands' matches the Hallyu phenomenon, though the wording is rather general."
+      "verdict_en": "The Korean Wave (Hallyu) has swept the globe since the 2000s. K-pop (BTS, BLACKPINK, etc.), Korean dramas, and Korean films (Parasite won Best Picture at the 2020 Oscars) have had enormous global impact. In 2012, PSY's 'Gangnam Style' became the first YouTube video to surpass 1 billion views. 'Korean wind blossoms in foreign lands' matches the Hallyu phenomenon, though the wording is rather general.",
+      "yearReason": "盖亚预言传统中描述了该时期",
+      "yearReason_en": "Described this period in the Gaia prophetic tradition"
     },
     {
       "id": 15,

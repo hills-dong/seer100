@@ -11,7 +11,9 @@
       "status": "verified",
       "verdict_zh": "1984年10月31日，英迪拉·甘地遭锡克教卫士刺杀身亡时，身穿一件藏红色（橙黄色）纱丽。",
       "verdict_en": "On October 31, 1984, Indira Gandhi was assassinated by her Sikh bodyguards. She was wearing a saffron-hued (orange-yellow) saree at the time of her death.",
-      "date": "1969"
+      "date": "1969",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 2,
@@ -24,7 +26,9 @@
       "status": "verified",
       "verdict_zh": "当时人们以为她说的是库尔斯克市。但2000年8月12日，俄罗斯核潜艇「库尔斯克号」在巴伦支海沉没，118名船员全部遇难。时间差了约一年，但事件细节高度吻合。",
       "verdict_en": "People assumed she meant the city of Kursk. But on August 12, 2000, the Russian nuclear submarine 'Kursk' sank in the Barents Sea, killing all 118 crew members. The timing was off by about one year, but the event details match remarkably.",
-      "date": "1980"
+      "date": "1980",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 3,
@@ -37,7 +41,9 @@
       "status": "verified",
       "verdict_zh": "2001年9月11日，两架被劫持的客机（钢铁之鸟）撞击纽约世贸中心双子塔（美国兄弟），造成近3000人死亡。这是万加最广为人知的应验预言。",
       "verdict_en": "On September 11, 2001, two hijacked planes ('steel birds') struck the Twin Towers ('American brethren') of the World Trade Center in New York, killing nearly 3,000 people. This is Vanga's most widely cited fulfilled prediction.",
-      "date": "1989"
+      "date": "1989",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 4,
@@ -49,7 +55,9 @@
       "year": 2008,
       "status": "partial",
       "verdict_zh": "2008年巴拉克·奥巴马当选美国第44任总统，确实是首位非裔总统。但「最后一位总统」的说法并未应验，美国此后继续有新总统当选。",
-      "verdict_en": "Barack Obama was elected 44th US president in 2008, indeed the first African-American president. However, the claim of being 'the last president' did not come true, as the US has continued to elect new presidents."
+      "verdict_en": "Barack Obama was elected 44th US president in 2008, indeed the first African-American president. However, the claim of being 'the last president' did not come true, as the US has continued to elect new presidents.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 5,
@@ -61,7 +69,9 @@
       "year": 1996,
       "status": "verified",
       "verdict_zh": "万加在1990年的一次采访中准确预言了自己的死亡日期。她于1996年8月11日去世，享年85岁。",
-      "verdict_en": "In a 1990 interview, Vanga accurately predicted her own death date. She passed away on August 11, 1996, at the age of 85."
+      "verdict_en": "In a 1990 interview, Vanga accurately predicted her own death date. She passed away on August 11, 1996, at the age of 85.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 6,
@@ -73,7 +83,9 @@
       "year": 2022,
       "status": "verified",
       "verdict_zh": "2022年英国经历了「自1935年以来最干旱的7月」，悉尼在四天内降下了八个月的雨量导致严重洪灾，日本也遭遇了大规模台风洪水。",
-      "verdict_en": "In 2022, the UK experienced 'the driest July since 1935', Sydney received eight months of rainfall in four days causing severe flooding, and Japan faced major tropical storm flooding."
+      "verdict_en": "In 2022, the UK experienced 'the driest July since 1935', Sydney received eight months of rainfall in four days causing severe flooding, and Japan faced major tropical storm flooding.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 7,
@@ -85,7 +97,9 @@
       "year": 2010,
       "status": "failed",
       "verdict_zh": "2010年至2014年间并未爆发第三次世界大战。虽然这段时期有阿拉伯之春和叙利亚内战等冲突，但远未达到世界大战的规模。",
-      "verdict_en": "No World War Three occurred between 2010-2014. While there were conflicts like the Arab Spring and Syrian civil war during this period, they were far from a world war."
+      "verdict_en": "No World War Three occurred between 2010-2014. While there were conflicts like the Arab Spring and Syrian civil war during this period, they were far from a world war.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 8,
@@ -97,7 +111,9 @@
       "year": 2025,
       "status": "partial",
       "verdict_zh": "2025年俄乌战争持续，但未导致欧洲大片地区人口稀少。冲突存在但规模未达预言程度。",
-      "verdict_en": "The Russia-Ukraine war continued in 2025, but did not cause large areas of Europe to become depopulated. Conflict existed but not at the predicted scale."
+      "verdict_en": "The Russia-Ukraine war continued in 2025, but did not cause large areas of Europe to become depopulated. Conflict existed but not at the predicted scale.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 9,
@@ -109,7 +125,9 @@
       "year": 2025,
       "status": "partial",
       "verdict_zh": "2025年类器官和生物打印技术取得显著进展，但实验室培育的完整器官尚未用于常规临床移植。",
-      "verdict_en": "Organoid and bioprinting technologies made significant advances in 2025, but lab-grown complete organs were not yet used in routine clinical transplants."
+      "verdict_en": "Organoid and bioprinting technologies made significant advances in 2025, but lab-grown complete organs were not yet used in routine clinical transplants.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 10,
@@ -121,7 +139,9 @@
       "year": 2025,
       "status": "failed",
       "verdict_zh": "2025年未在任何体育赛事期间发生与外星人的接触事件。",
-      "verdict_en": "No contact with extraterrestrial beings occurred during any sporting event in 2025."
+      "verdict_en": "No contact with extraterrestrial beings occurred during any sporting event in 2025.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 11,
@@ -133,7 +153,9 @@
       "year": 2025,
       "status": "partial",
       "verdict_zh": "2025年Neuralink等脑机接口技术取得重要进展，首批人体试验成功，但真正的心灵感应能力尚未实现。",
-      "verdict_en": "Neuralink and other BCI technologies made important progress in 2025 with successful first human trials, but true telepathic ability has not been achieved."
+      "verdict_en": "Neuralink and other BCI technologies made important progress in 2025 with successful first human trials, but true telepathic ability has not been achieved.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 12,
@@ -145,7 +167,9 @@
       "year": 2025,
       "status": "failed",
       "verdict_zh": "截至2025年底，全球并未发现任何突破性的新能源。虽然核聚变研究（如ITER项目）和钙钛矿太阳能电池等领域取得了进展，但均属渐进式技术改良，并非万加所描述的全新能源形式的发现。",
-      "verdict_en": "As of the end of 2025, no breakthrough new energy source was discovered worldwide. While progress was made in nuclear fusion research (such as the ITER project) and perovskite solar cells, these were incremental technological improvements, not the discovery of an entirely new form of energy as Vanga described."
+      "verdict_en": "As of the end of 2025, no breakthrough new energy source was discovered worldwide. While progress was made in nuclear fusion research (such as the ITER project) and perovskite solar cells, these were incremental technological improvements, not the discovery of an entirely new form of energy as Vanga described.",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 13,
@@ -157,7 +181,9 @@
       "year": 2028,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 14,
@@ -169,7 +195,9 @@
       "year": 2033,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 15,
@@ -181,7 +209,9 @@
       "year": 2043,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 16,
@@ -193,7 +223,9 @@
       "year": 2046,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 17,
@@ -205,7 +237,9 @@
       "year": 2066,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 18,
@@ -217,7 +251,9 @@
       "year": 2076,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 19,
@@ -229,7 +265,9 @@
       "year": 2084,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 20,
@@ -241,7 +279,9 @@
       "year": 2088,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 21,
@@ -253,7 +293,9 @@
       "year": 2097,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 22,
@@ -265,7 +307,9 @@
       "year": 2100,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 23,
@@ -277,7 +321,9 @@
       "year": 2111,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 24,
@@ -289,7 +335,9 @@
       "year": 2123,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 25,
@@ -301,7 +349,9 @@
       "year": 2125,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 26,
@@ -313,7 +363,9 @@
       "year": 2130,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 27,
@@ -325,7 +377,9 @@
       "year": 2154,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 28,
@@ -337,7 +391,9 @@
       "year": 2167,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 29,
@@ -349,7 +405,9 @@
       "year": 2170,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 30,
@@ -361,7 +419,9 @@
       "year": 2183,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 31,
@@ -373,7 +433,9 @@
       "year": 2187,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 32,
@@ -385,7 +447,9 @@
       "year": 2195,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 33,
@@ -397,7 +461,9 @@
       "year": 2196,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 34,
@@ -409,7 +475,9 @@
       "year": 2201,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 35,
@@ -421,7 +489,9 @@
       "year": 2221,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 36,
@@ -433,7 +503,9 @@
       "year": 2256,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 37,
@@ -445,7 +517,9 @@
       "year": 2262,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 38,
@@ -457,7 +531,9 @@
       "year": 2271,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 39,
@@ -469,7 +545,9 @@
       "year": 2273,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 40,
@@ -481,7 +559,9 @@
       "year": 2279,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 41,
@@ -493,7 +573,9 @@
       "year": 2288,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 42,
@@ -505,7 +587,9 @@
       "year": 2291,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 43,
@@ -517,7 +601,9 @@
       "year": 2296,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 44,
@@ -529,7 +615,9 @@
       "year": 2299,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 45,
@@ -541,7 +629,9 @@
       "year": 2302,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 46,
@@ -553,7 +643,9 @@
       "year": 2304,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 47,
@@ -565,7 +657,9 @@
       "year": 2341,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 48,
@@ -577,7 +671,9 @@
       "year": 2354,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 49,
@@ -589,7 +685,9 @@
       "year": 2371,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 50,
@@ -601,7 +699,9 @@
       "year": 2378,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 51,
@@ -613,7 +713,9 @@
       "year": 2480,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 52,
@@ -625,7 +727,9 @@
       "year": 3005,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 53,
@@ -637,7 +741,9 @@
       "year": 3010,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 54,
@@ -649,7 +755,9 @@
       "year": 3797,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 55,
@@ -661,7 +769,9 @@
       "year": 3803,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 56,
@@ -673,7 +783,9 @@
       "year": 3805,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 57,
@@ -685,7 +797,9 @@
       "year": 3815,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 58,
@@ -697,7 +811,9 @@
       "year": 3854,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 59,
@@ -709,7 +825,9 @@
       "year": 3871,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 60,
@@ -721,7 +839,9 @@
       "year": 3874,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 61,
@@ -733,7 +853,9 @@
       "year": 3878,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 62,
@@ -745,7 +867,9 @@
       "year": 4302,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 63,
@@ -757,7 +881,9 @@
       "year": 4308,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 64,
@@ -769,7 +895,9 @@
       "year": 4509,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 65,
@@ -781,7 +909,9 @@
       "year": 4599,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 66,
@@ -793,7 +923,9 @@
       "year": 4674,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 67,
@@ -805,7 +937,9 @@
       "year": 5076,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 68,
@@ -817,7 +951,9 @@
       "year": 5078,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 69,
@@ -829,7 +965,9 @@
       "year": 5079,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 70,
@@ -841,7 +979,9 @@
       "year": 2026,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     },
     {
       "id": 71,
@@ -853,7 +993,9 @@
       "year": 2026,
       "status": "pending",
       "verdict_zh": "",
-      "verdict_en": ""
+      "verdict_en": "",
+      "yearReason": "万加在生前的预言中提到了该年份",
+      "yearReason_en": "Vanga mentioned this year in her lifetime prophecies"
     }
   ]
 }

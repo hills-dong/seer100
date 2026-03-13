@@ -26,7 +26,9 @@
       "year": 1917,
       "status": "verified",
       "verdict_zh": "1917年俄国革命推翻了沙皇制度。1918年7月17日沙皇尼古拉二世全家被布尔什维克处决。苏联时期大规模迫害东正教：关闭数万座教堂，处决数以千计的神职人员和信徒。",
-      "verdict_en": "The 1917 Russian Revolution overthrew the Tsarist regime. On July 17, 1918, Tsar Nicholas II and his entire family were executed by the Bolsheviks. During the Soviet era, the Orthodox Church faced massive persecution: tens of thousands of churches were closed, and thousands of clergy and believers were executed."
+      "verdict_en": "The 1917 Russian Revolution overthrew the Tsarist regime. On July 17, 1918, Tsar Nicholas II and his entire family were executed by the Bolsheviks. During the Soviet era, the Orthodox Church faced massive persecution: tens of thousands of churches were closed, and thousands of clergy and believers were executed.",
+      "yearReason": "萨罗夫的塞拉芬在预言中描述了该时期",
+      "yearReason_en": "Seraphim of Sarov described this period in his prophecies"
     },
     {
       "id": 4,
@@ -38,7 +40,9 @@
       "year": 1903,
       "status": "verified",
       "verdict_zh": "1903年沙皇尼古拉二世力排众议坚持为塞拉芬封圣。此后俄罗斯接连经历1904-1905年日俄战争失败、1905年革命、第一次世界大战，最终在1917年爆发革命，沙皇制度覆灭。",
-      "verdict_en": "In 1903, Tsar Nicholas II insisted on Seraphim's canonization against opposition. Russia subsequently suffered defeat in the Russo-Japanese War (1904-1905), the 1905 Revolution, World War I, and finally the 1917 Revolution that destroyed the Tsarist system."
+      "verdict_en": "In 1903, Tsar Nicholas II insisted on Seraphim's canonization against opposition. Russia subsequently suffered defeat in the Russo-Japanese War (1904-1905), the 1905 Revolution, World War I, and finally the 1917 Revolution that destroyed the Tsarist system.",
+      "yearReason": "萨罗夫的塞拉芬在预言中描述了该时期",
+      "yearReason_en": "Seraphim of Sarov described this period in his prophecies"
     },
     {
       "id": 5,
@@ -50,7 +54,9 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "第二次世界大战期间，纳粹德国于1941年入侵苏联，深入俄罗斯腹地直至莫斯科和斯大林格勒郊外。战争造成苏联约2700万人死亡、大片国土被毁。1945年苏联最终取得胜利，将纳粹势力彻底驱逐。",
-      "verdict_en": "During World War II, Nazi Germany invaded the Soviet Union in 1941, penetrating deep into Russia to the outskirts of Moscow and Stalingrad. The war caused approximately 27 million Soviet deaths and widespread destruction. The Soviet Union ultimately achieved victory in 1945, completely expelling the Nazi forces."
+      "verdict_en": "During World War II, Nazi Germany invaded the Soviet Union in 1941, penetrating deep into Russia to the outskirts of Moscow and Stalingrad. The war caused approximately 27 million Soviet deaths and widespread destruction. The Soviet Union ultimately achieved victory in 1945, completely expelling the Nazi forces.",
+      "yearReason": "萨罗夫的塞拉芬在预言中描述了该时期",
+      "yearReason_en": "Seraphim of Sarov described this period in his prophecies"
     },
     {
       "id": 6,
@@ -62,7 +68,9 @@
       "year": 1991,
       "status": "verified",
       "verdict_zh": "1991年苏联解体后，俄罗斯经历了大规模的东正教信仰复兴。数千座教堂被重建或重新开放，东正教会重新成为俄罗斯社会的重要力量。2000年代教堂出席率显著上升，东正教信仰成为俄罗斯国家认同的核心要素之一。",
-      "verdict_en": "After the collapse of the Soviet Union in 1991, Russia experienced a massive revival of Orthodox faith. Thousands of churches were rebuilt or reopened, and the Orthodox Church regained a prominent role in Russian society. Church attendance rose significantly in the 2000s, with Orthodoxy becoming a core element of Russian national identity."
+      "verdict_en": "After the collapse of the Soviet Union in 1991, Russia experienced a massive revival of Orthodox faith. Thousands of churches were rebuilt or reopened, and the Orthodox Church regained a prominent role in Russian society. Church attendance rose significantly in the 2000s, with Orthodoxy becoming a core element of Russian national identity.",
+      "yearReason": "萨罗夫的塞拉芬在预言中描述了该时期",
+      "yearReason_en": "Seraphim of Sarov described this period in his prophecies"
     },
     {
       "id": 7,
@@ -74,7 +82,9 @@
       "year": 1927,
       "status": "verified",
       "verdict_zh": "萨罗夫修道院于1927年被苏联当局关闭，修士被驱散，部分建筑被改为军事设施（后成为核武器研发基地「阿尔扎马斯-16」）。1991年苏联解体后，修道院部分区域于2006年正式归还东正教会并恢复宗教活动。",
-      "verdict_en": "Sarov Monastery was closed by Soviet authorities in 1927. Monks were dispersed, and parts of the complex were converted to military facilities (later becoming the nuclear research center 'Arzamas-16'). After the Soviet collapse in 1991, parts of the monastery were officially returned to the Orthodox Church in 2006 and religious activities resumed."
+      "verdict_en": "Sarov Monastery was closed by Soviet authorities in 1927. Monks were dispersed, and parts of the complex were converted to military facilities (later becoming the nuclear research center 'Arzamas-16'). After the Soviet collapse in 1991, parts of the monastery were officially returned to the Orthodox Church in 2006 and religious activities resumed.",
+      "yearReason": "萨罗夫的塞拉芬在预言中描述了该时期",
+      "yearReason_en": "Seraphim of Sarov described this period in his prophecies"
     },
     {
       "id": 8,
@@ -86,7 +96,9 @@
       "year": 1927,
       "status": "verified",
       "verdict_zh": "迪维耶沃修道院1927年被苏联关闭。1991年苏联解体后修道院重新开放，1991年塞拉芬圣髑在此被重新安置。如今迪维耶沃已成为俄罗斯最重要的东正教朝圣地之一，每年吸引数十万朝圣者。",
-      "verdict_en": "Diveyevo Convent was closed by the Soviets in 1927. After the Soviet collapse, the convent reopened in 1991 and Seraphim's relics were reinterred there. Today Diveyevo is one of the most important Orthodox pilgrimage sites in Russia, attracting hundreds of thousands of pilgrims annually."
+      "verdict_en": "Diveyevo Convent was closed by the Soviets in 1927. After the Soviet collapse, the convent reopened in 1991 and Seraphim's relics were reinterred there. Today Diveyevo is one of the most important Orthodox pilgrimage sites in Russia, attracting hundreds of thousands of pilgrims annually.",
+      "yearReason": "萨罗夫的塞拉芬在预言中描述了该时期",
+      "yearReason_en": "Seraphim of Sarov described this period in his prophecies"
     },
     {
       "id": 9,
@@ -109,7 +121,9 @@
       "year": 1991,
       "status": "verified",
       "verdict_zh": "塞拉芬的圣髑在苏联时期失踪。1991年，其圣髑在列宁格勒（圣彼得堡）的一座博物馆中被重新发现，随后经隆重仪式迁移至迪维耶沃修道院安放。此事件恰与苏联解体和俄罗斯东正教信仰复兴同时发生。",
-      "verdict_en": "Seraphim's relics disappeared during the Soviet era. In 1991, they were rediscovered in a museum in Leningrad (St. Petersburg) and ceremonially transferred to the Diveyevo Convent. This event coincided with the collapse of the Soviet Union and the revival of Orthodox faith in Russia."
+      "verdict_en": "Seraphim's relics disappeared during the Soviet era. In 1991, they were rediscovered in a museum in Leningrad (St. Petersburg) and ceremonially transferred to the Diveyevo Convent. This event coincided with the collapse of the Soviet Union and the revival of Orthodox faith in Russia.",
+      "yearReason": "萨罗夫的塞拉芬在预言中描述了该时期",
+      "yearReason_en": "Seraphim of Sarov described this period in his prophecies"
     },
     {
       "id": 11,
@@ -140,6 +154,99 @@
       "status": "pending",
       "verdict_zh": "",
       "verdict_en": ""
+    },
+    {
+      "cat": "spirit",
+      "q": "关于俄罗斯末世命运的预言",
+      "a": "「俄罗斯将经历巨大的苦难，但最终将通过信仰得到拯救。在末日之前，俄罗斯将经历一段复兴时期。」",
+      "q_en": "Prophecy about Russia's eschatological destiny",
+      "a_en": "\"Russia will undergo great suffering, but will ultimately be saved through faith. Before the end times, Russia will experience a period of revival.\"",
+      "year": "未确定",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "塞拉芬的预言未指明具体年份，属于末世论范畴",
+      "yearReason_en": "Seraphim's prophecy does not specify an exact year; it belongs to eschatological teaching",
+      "id": 14
+    },
+    {
+      "cat": "politics",
+      "q": "关于沙皇制度终结的预言",
+      "a": "「将会有一位伟大的战争，沙皇和他的全家将被杀害。河流将被鲜血染红。」",
+      "q_en": "Prophecy about the end of the Tsarist system",
+      "a_en": "\"There will be a great war, and the Tsar and his entire family will be killed. Rivers will run red with blood.\"",
+      "year": 1917,
+      "status": "verified",
+      "verdict_zh": "1917年俄国革命推翻沙皇制度，1918年尼古拉二世及其全家在叶卡捷琳堡被布尔什维克处决。俄国内战（1917-1922）造成数百万人死亡。",
+      "verdict_en": "The 1917 Russian Revolution overthrew the Tsarist system. In 1918, Nicholas II and his entire family were executed by the Bolsheviks in Yekaterinburg. The Russian Civil War (1917-1922) caused millions of deaths.",
+      "yearReason": "塞拉芬预言俄国将经历巨变，1917年革命应验",
+      "yearReason_en": "Seraphim prophesied great upheaval in Russia, fulfilled by the 1917 Revolution",
+      "id": 15
+    },
+    {
+      "cat": "war",
+      "q": "关于两次大战的预言",
+      "a": "「在大灾难之前，将有两场可怕的战争席卷全世界。在第二场战争中，一切将被摧毁到几乎无法辨认的程度。」",
+      "q_en": "Prophecy about two great wars",
+      "a_en": "\"Before the great catastrophe, there will be two terrible wars sweeping the whole world. In the second war, everything will be destroyed almost beyond recognition.\"",
+      "year": 1939,
+      "status": "verified",
+      "verdict_zh": "第一次世界大战（1914-1918）和第二次世界大战（1939-1945）确实席卷全球。二战的破坏规模空前，广岛和长崎的原子弹轰炸将「摧毁到无法辨认」推向极致。",
+      "verdict_en": "WWI (1914-1918) and WWII (1939-1945) indeed swept the globe. WWII's destruction was unprecedented; the atomic bombings of Hiroshima and Nagasaki epitomized 'destroyed beyond recognition.'",
+      "yearReason": "塞拉芬预言两场世界大战，第二场于1939年爆发",
+      "yearReason_en": "Seraphim prophesied two world wars; the second began in 1939",
+      "id": 16
+    },
+    {
+      "cat": "spirit",
+      "q": "关于反基督者来临的预言",
+      "a": "「在末日之前，反基督者将出现在世上。他将以虚假的奇迹和神迹欺骗全人类，甚至选民也几乎被迷惑。」",
+      "q_en": "Prophecy about the coming of the Antichrist",
+      "a_en": "\"Before the end times, the Antichrist will appear in the world. He will deceive all of humanity with false miracles and signs, and even the elect will almost be led astray.\"",
+      "year": "未确定",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "塞拉芬的末世预言未指明具体年份",
+      "yearReason_en": "Seraphim's eschatological prophecy does not specify an exact year",
+      "id": 17
+    },
+    {
+      "cat": "spirit",
+      "q": "关于圣灵恩赐的教导",
+      "a": "「获得圣灵是基督徒生活的真正目的。祈祷、禁食、守夜和其他基督教实践不过是达到这一目的的手段。」",
+      "q_en": "Teaching on the acquisition of the Holy Spirit",
+      "a_en": "\"The acquisition of the Holy Spirit is the true aim of Christian life. Prayer, fasting, vigils, and other Christian practices are merely means toward this end.\"",
+      "year": "未确定",
+      "id": 18
+    },
+    {
+      "cat": "spirit",
+      "q": "关于末世教会复兴的预言",
+      "a": "「在最后的时代来临之前，将有一段教会的伟大复兴。修道院将重新充满修士，教堂将挤满信徒，但这段时间将很短暂。」",
+      "q_en": "Prophecy about end-times church revival",
+      "a_en": "\"Before the last times come, there will be a great revival of the Church. Monasteries will again be filled with monks, churches will be packed with believers, but this period will be brief.\"",
+      "year": "未确定",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "塞拉芬关于教会复兴的预言属于末世论范畴",
+      "yearReason_en": "Seraphim's prophecy about church revival belongs to eschatological teaching",
+      "id": 19
+    },
+    {
+      "cat": "politics",
+      "q": "关于君主制复辟的预言",
+      "a": "「主将为俄罗斯兴起一位伟大的君王。他将是一位具有巨大智慧的人，所有人都将臣服于他。」",
+      "q_en": "Prophecy about monarchical restoration",
+      "a_en": "\"The Lord will raise up for Russia a great monarch. He will be a man of enormous wisdom, and all will submit to him.\"",
+      "year": "未确定",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "塞拉芬关于俄罗斯君主复辟的预言无具体时间",
+      "yearReason_en": "Seraphim's prophecy about Russian monarchical restoration has no specific date",
+      "id": 20
     }
   ]
 }

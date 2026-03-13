@@ -21,7 +21,9 @@
       "status": "verified",
       "verdict_zh": "准确预言唐朝国祚。「二九先成实」暗指二百八十九年，唐朝自618年至907年共二十一帝。「阴盛阳先竭」暗示武则天以女主临朝。",
       "verdict_en": "Accurately prophesied the Tang dynasty's reign. 'Twice nine first bears fruit' alludes to 289 years. The Tang lasted from 618 to 907 with twenty-one emperors. 'When yin prevails, yang is exhausted' foreshadows Empress Wu Zetian's rule.",
-      "year": 618
+      "year": 618,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 3,
@@ -33,7 +35,9 @@
       "status": "verified",
       "verdict_zh": "「日月当空」合为「曌」字，正是武则天自创之名。武则天称帝，改国号为周，废中宗，屠戮李唐宗室，与预言完全吻合。",
       "verdict_en": "The characters for 'sun' and 'moon' above 'sky' combine to form the character 'Zhao' (曌), the name Wu Zetian created for herself. She declared herself emperor, changed the dynasty name to Zhou, deposed Emperor Zhongzong, and massacred the Tang royal family — matching the prophecy exactly.",
-      "year": 690
+      "year": 690,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 4,
@@ -45,7 +49,9 @@
       "status": "verified",
       "verdict_zh": "「十八枝」暗喻李唐宗室遭武则天迫害后所剩无几。「猴儿」暗指狄仁杰（申属猴），他推荐张柬之等五人发动神龙政变，复辟唐朝。",
       "verdict_en": "The 'eighteen branches' allude to the decimated Tang royal house under Wu Zetian. 'Monkey' refers to Di Renjie (born in the year of the Monkey), who recommended Zhang Jianzhi and four others to launch the Shenlong coup and restore the Tang dynasty.",
-      "year": 705
+      "year": 705,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 5,
@@ -57,7 +63,9 @@
       "status": "verified",
       "verdict_zh": "「杨花飞」指杨贵妃之死。「截断竹箫」去「箫」的竹头为「肃」，指唐肃宗平乱。「更无一史」指史思明被灭后天下太平。「木易」为「杨」，「山下鬼」为「嵬」，即马嵬坡。安史之乱（755-763）与预言完全吻合。",
       "verdict_en": "'Willow catkins fly' refers to Yang Guifei's death. 'Cut the bamboo flute' yields the character 'Su' (肃), referring to Emperor Suzong who quelled the rebellion. 'No more Shi' means peace after Shi Siming's defeat. 'Wood-change' forms 'Yang' (杨), 'ghost beneath mountain' forms 'Wei' (嵬) — Mawei slope. The An Lushan Rebellion (755-763) matches perfectly.",
-      "year": 755
+      "year": 755,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 6,
@@ -69,7 +77,9 @@
       "status": "verified",
       "verdict_zh": "安史之乱平定后，唐玄宗（明皇）返回长安，唐肃宗恢复两京，天下重归太平。「非都是都」指安禄山以范阳为都，「非皇是皇」指安禄山僭称大燕皇帝。",
       "verdict_en": "After the An-Shi Rebellion was quelled, Emperor Xuanzong returned to Chang'an and Emperor Suzong restored the two capitals. 'What is not the capital becomes the capital' refers to An Lushan making Fanyang his capital; 'who is not the emperor becomes the emperor' refers to An Lushan declaring himself Emperor of Yan.",
-      "year": 755
+      "year": 755,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 7,
@@ -81,7 +91,9 @@
       "status": "verified",
       "verdict_zh": "安史之乱后，唐朝藩镇割据日益严重，吐蕃趁虚而入，一度攻占长安。「旌节满目」指各地藩镇林立，「破关客乍来」指吐蕃入侵。",
       "verdict_en": "After the An-Shi Rebellion, regional warlords (jiedushi) grew increasingly powerful and the Tibetan Empire took advantage, even briefly occupying Chang'an. 'Banners fill my eyes' refers to ubiquitous warlord fiefdoms; 'invaders breach the passes' refers to the Tibetan invasion.",
-      "year": 755
+      "year": 755,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 8,
@@ -93,7 +105,9 @@
       "status": "verified",
       "verdict_zh": "建中之乱（783-784年），李希烈、朱泚、李怀光三将叛乱，唐德宗被迫出逃。「破贼还为贼」指平叛将领反叛。李晟率孤军平定叛乱，收复长安。",
       "verdict_en": "During the Jianzhong Rebellion (783-784), three generals — Li Xilie, Zhu Ci, and Li Huaiguang — revolted, forcing Emperor Dezong to flee. 'Those who defeat bandits become bandits' refers to generals who turned traitor. Li Sheng led a lone army to quell the rebellion and retake Chang'an.",
-      "year": 783
+      "year": 783,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 9,
@@ -105,7 +119,9 @@
       "status": "verified",
       "verdict_zh": "「草头人」指「黄」字（草头下「黄」），即黄巢。黄巢起义（875-884年）席卷全国，攻占长安。「巢覆亦成空」一语双关，既指黄巢败亡，也暗合其名。朱温后来篡唐自立，建立后梁。",
       "verdict_en": "'Man from the grass' encodes the character 'Huang' (黄, with grass radical on top), meaning Huang Chao. His rebellion (875-884) swept the nation and captured Chang'an. 'When the nest falls, all is emptied' is a pun on Huang Chao's name ('Chao' means nest). Zhu Wen later usurped the Tang and founded the Later Liang dynasty.",
-      "year": 875
+      "year": 875,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 10,
@@ -117,7 +133,9 @@
       "status": "verified",
       "verdict_zh": "「八牛」合为「朱」字，指朱温。朱温先后杀害唐昭宗、何皇后及唐哀帝（昭宣帝），于907年篡唐建立后梁。「有血无头」暗指被弒杀的君主。唐朝至此灭亡。",
       "verdict_en": "'Eight-ox' combines to form the character 'Zhu' (朱), referring to Zhu Wen. He successively murdered Emperor Zhaozong, Empress He, and Emperor Ai (Zhaoxuan), then usurped the throne in 907 to found the Later Liang. 'Blood but no head' alludes to the murdered monarchs. The Tang dynasty ended here.",
-      "year": 907
+      "year": 907,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 11,
@@ -129,7 +147,9 @@
       "status": "verified",
       "verdict_zh": "「五人同卜」暗喻五代更替。后唐庄宗李存勖年号「同光」（「同光直上天」），他宠信伶人，终被伶人郭从谦叛军射杀。五代时期（907-960）确实充满喜怒哀乐的动荡。",
       "verdict_en": "The 'five men divining together' alludes to the Five Dynasties succession. Later Tang Emperor Zhuangzong Li Cunxu had the reign title 'Tongguang' ('Tongguang rises to heaven'). He favored actors, and was ultimately killed by a stray arrow during the actor Guo Congqian's revolt. The Five Dynasties period (907-960) was indeed filled with turmoil.",
-      "year": 907
+      "year": 907,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 12,
@@ -141,7 +161,9 @@
       "status": "verified",
       "verdict_zh": "「块然一石」指石敬瑭，「谓他人父」指他认契丹主耶律德光为义父。石敬瑭割让燕云十六州（「二八州」即十六州）给契丹以换取支持，建立后晋。此举为后世留下巨大边患。",
       "verdict_en": "The 'single stone' refers to Shi Jingtang; 'calls another man father' refers to his adoption of Khitan ruler Yelü Deguang as his father. Shi Jingtang ceded the Sixteen Prefectures of Yan and Yun ('sixteen provinces') to the Khitan in exchange for support, establishing the Later Jin. This created a lasting border crisis.",
-      "year": 936
+      "year": 936,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 13,
@@ -153,7 +175,9 @@
       "status": "verified",
       "verdict_zh": "「汉水竭」指后汉灭亡。郭威推翻后汉，建立后周。「雀高飞」中「雀」暗指后汉高祖刘知远（「知远」谐音「雀」之飞远）。后汉仅存四年即被取代。",
       "verdict_en": "'Han waters dry up' refers to the fall of the Later Han. Guo Wei overthrew the Later Han and established the Later Zhou. The Later Han lasted only four years before being replaced.",
-      "year": 951
+      "year": 951,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 14,
@@ -165,7 +189,9 @@
       "status": "verified",
       "verdict_zh": "「金木水火土已终」暗喻五代（后梁、后唐、后晋、后汉、后周分别对应五行）终结。周世宗柴荣英明有为，惜在位仅六年即崩。「五十三参运不通」暗示其短命。此象标志五代终结，宋朝即将兴起。",
       "verdict_en": "The 'five elements all ended' alludes to the end of the Five Dynasties (Later Liang, Tang, Jin, Han, Zhou corresponding to the five elements). Zhou Shizong Chai Rong was a brilliant ruler but reigned only six years before dying. 'Fifty-three — fate does not hold' hints at his short life. This hexagram marks the end of the Five Dynasties, with the Song dynasty about to rise.",
-      "year": 959
+      "year": 959,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 15,
@@ -177,7 +203,9 @@
       "status": "verified",
       "verdict_zh": "赵匡胤于960年通过陈桥兵变建立宋朝，结束五代十国的分裂局面。「寰中自有真天子」指宋太祖，「扫尽群妖见日头」指统一天下。",
       "verdict_en": "Zhao Kuangyin established the Song dynasty in 960 through the Chenqiao Mutiny, ending the fragmentation of the Five Dynasties and Ten Kingdoms. 'True Son of Heaven' refers to Song Taizu; 'sweeps away all demons' refers to his unification of China.",
-      "year": 960
+      "year": 960,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 16,
@@ -189,7 +217,9 @@
       "status": "verified",
       "verdict_zh": "宋太祖以和平方式统一天下，吴越王钱俶、南唐后主李煜先后纳土归降（「纳土姓钱并姓李」），太祖善待降臣，「不杀人民更全嗣」，以仁政一统天下。",
       "verdict_en": "Song Taizu unified China largely through peaceful means. King Qian Chu of Wuyue and Li Yu, last ruler of Southern Tang, both surrendered their territories ('those surnamed Qian and Li offer their lands'). Taizu treated surrendered rulers mercifully, 'neither killing the people nor ending their lines.'",
-      "year": 960
+      "year": 960,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 17,
@@ -201,7 +231,9 @@
       "status": "verified",
       "verdict_zh": "1004年，辽军南下，宋真宗在寇准力劝下亲征至澶州。「完全女」指寇准（「完」为「寇」之谐音，另一说指刘皇后），最终达成澶渊之盟，以岁币换和平。",
       "verdict_en": "In 1004, the Liao army invaded southward. Emperor Zhenzong of Song, urged by Kou Zhun, personally led the campaign to Chanzhou. The 'resourceful woman' may refer to Kou Zhun or Empress Dowager Liu. The result was the Treaty of Chanyuan, exchanging annual tribute for peace.",
-      "year": 1004
+      "year": 1004,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 18,
@@ -213,7 +245,9 @@
       "status": "verified",
       "verdict_zh": "「天下之母」指刘太后，仁宗幼年即位，刘太后垂帘听政。「金刀」为「刘」字的拆解。「三八之年」指仁宗在位期间的太平盛世，「朝中又见钗光照」再次暗示女主临朝。",
       "verdict_en": "'Mother of the realm' refers to Empress Dowager Liu, who served as regent during Emperor Renzong's minority. 'Golden blade' deconstructs to the character 'Liu' (刘). The 'year of three-eights' refers to the prosperous era of Renzong's reign. 'Hairpin light shines in court' again alludes to a woman ruling from behind the curtain.",
-      "year": 1022
+      "year": 1022,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 19,
@@ -225,7 +259,9 @@
       "status": "verified",
       "verdict_zh": "「头上一石」暗指王安石（「安石」在头上即「宋」字头上加「石」）。宋神宗启用王安石变法，虽初衷为富国强兵，但执行不当引发社会动荡，西北用兵失利，百姓流离。",
       "verdict_en": "'A stone upon their heads' alludes to Wang Anshi ('Anshi' meaning 'peaceful stone'). Emperor Shenzong of Song employed Wang Anshi's reforms, which aimed to strengthen the state but caused social upheaval due to poor implementation. Military campaigns in the northwest failed, displacing the populace.",
-      "year": 1069
+      "year": 1069,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 20,
@@ -237,7 +273,9 @@
       "status": "verified",
       "verdict_zh": "「莫与京」谐音暗指蔡京，「父子同心」指蔡京父子把持朝政。蔡京为北宋六贼之首，权倾朝野，导致朝政腐败，贤良被害，为靖康之耻埋下祸根。",
       "verdict_en": "'None can match Jing' phonetically alludes to Cai Jing. 'Father and son share one heart' refers to the Cai clan's grip on power. Cai Jing was the chief of the 'Six Traitors' of the Northern Song, whose corruption laid the groundwork for the Jingkang Incident disaster.",
-      "year": 1082
+      "year": 1082,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 21,
@@ -249,7 +287,9 @@
       "status": "verified",
       "verdict_zh": "1127年靖康之变，金兵攻破汴京，掳走徽钦二帝，北宋灭亡。「空厥宫中，雪深三尺」形容京城沦陷后的凄凉景象。「卜世三六」指北宋传位共九代（三乘六为十八，暗指年数或世数）。",
       "verdict_en": "The Jingkang Incident of 1127: Jin armies breached Bianjing and captured Emperors Huizong and Qinzong, ending the Northern Song. 'The empty palace with snow three feet deep' depicts the desolation after the capital fell. 'Eighteen reigns, then heading south' refers to the transition to the Southern Song.",
-      "year": 1127
+      "year": 1127,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 22,
@@ -261,7 +301,9 @@
       "status": "verified",
       "verdict_zh": "靖康之变后，宋高宗赵构南渡建立南宋，定都临安（今杭州）。「神京王气满东南」指南宋偏安东南。「临行马色半平安」中暗含「临安」二字。南宋虽保半壁江山，但终究只是偏安政权。",
       "verdict_en": "After the Jingkang Incident, Emperor Gaozong Zhao Gou fled south and established the Southern Song, with its capital at Lin'an (modern Hangzhou). 'Imperial spirit fills the southeast' refers to the Southern Song's partial regime. 'Half at peace' encodes 'Lin'an.' The Southern Song held half the realm but remained only a partial dynasty.",
-      "year": 1127
+      "year": 1127,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 23,
@@ -273,7 +315,9 @@
       "status": "verified",
       "verdict_zh": "「似道非道」直指贾似道之名。贾似道专权误国，蒙古军大举南侵时，他隐瞒军情、沉溺享乐。「犹自张灯作水嬉」描绘了他在国家危亡之际仍纵情声色的荒唐行为。南宋因此加速灭亡。",
       "verdict_en": "'Seems like the Way but is not' directly encodes the name Jia Sidao. He monopolized power and ruined the state — when Mongol armies invaded, he concealed military intelligence and indulged in pleasure. 'Still hanging lanterns for water games' depicts his debauchery while the nation crumbled, hastening the Southern Song's fall.",
-      "year": 1274
+      "year": 1274,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 24,
@@ -285,7 +329,9 @@
       "status": "verified",
       "verdict_zh": "1279年，南宋最后的小皇帝赵昺被丞相陆秀夫背负投海殉国于崖山。「山崖海边」指崖山海战的地点。「回天无力道俱穷」描述南宋最后的绝望。「二九四八」暗指宋朝国祚三百一十九年。",
       "verdict_en": "In 1279, the last Southern Song emperor Zhao Bing was carried into the sea by Chancellor Lu Xiufu at the Battle of Yamen (Cliff Mountain). 'Mountain cliff and seashore' describes the battle's location. 'No power to reverse heaven' depicts the Song's final desperation. 'Two-nine-four-eight' encodes the Song dynasty's 319-year span.",
-      "year": 1279
+      "year": 1279,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 25,
@@ -297,7 +343,9 @@
       "status": "verified",
       "verdict_zh": "「一兀自立」合为「元」字，指元朝建立。「北帝南臣」指蒙古从北方崛起征服南方。成吉思汗起于斡难河（斡离河），建立蒙古帝国。元朝共传十帝，「子子孙孙五五宜」暗指十代传承。",
       "verdict_en": "'One-wu stands alone' combines to form the character 'Yuan' (元), referring to the Yuan dynasty. 'Northern emperor, southern vassal' describes the Mongol conquest from north to south. Genghis Khan rose at the Onon River (Orkhon). The Yuan had ten emperors — 'five times five' alludes to this succession.",
-      "year": 1206
+      "year": 1206,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 26,
@@ -309,7 +357,9 @@
       "status": "verified",
       "verdict_zh": "元末顺帝沉迷享乐，不理朝政。「时无夜」暗指彻夜笙歌，「年无米」暗指饥荒遍地。红巾军等农民起义四起（「贼四起」），「木木来」合为「林」，暗指朱元璋等群雄并起。元朝统治迅速崩溃。",
       "verdict_en": "At the end of the Yuan, Emperor Shun indulged in pleasure and neglected governance. 'Time has no night' alludes to endless revelry; 'year has no rice' alludes to widespread famine. Peasant uprisings like the Red Turban Rebellion erupted everywhere ('bandits rise on all sides'). Yuan rule quickly collapsed.",
-      "year": 1368
+      "year": 1368,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 27,
@@ -321,7 +371,9 @@
       "status": "verified",
       "verdict_zh": "「日与月」合为「明」字，指明朝。「其色曰赤」指朱元璋（「朱」为红色）。「谈空说偈有真王」指朱元璋出身僧侣（曾在皇觉寺出家），后建立明朝。「江东岸上光明起」指他从南京（江东）起兵建国。",
       "verdict_en": "'Sun and moon' combine to form 'Ming' (明), the dynasty name. 'Its color is red' refers to Zhu Yuanzhang ('Zhu' means vermillion/red). 'One who speaks of emptiness is the true king' refers to his origins as a Buddhist monk at Huangjue Temple. 'Brightness arises on the eastern bank' refers to his establishing the dynasty from Nanjing.",
-      "year": 1368
+      "year": 1368,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 28,
@@ -333,7 +385,9 @@
       "status": "verified",
       "verdict_zh": "「草头火脚」合为「燕」字，指燕王朱棣。朱棣发动靖难之役，攻克南京，「宫阙灰飞」指宫殿被焚。建文帝朱允炆下落不明，传说削发为僧出逃（「郊外有尼」暗指出家）。",
       "verdict_en": "'Grass on top, fire below' combines to form 'Yan' (燕), referring to the Prince of Yan, Zhu Di. He launched the Jingnan Campaign and captured Nanjing — 'palace halls turn to ash' describes the burning palace. The Jianwen Emperor's fate remains unknown; legend says he shaved his head and fled as a monk ('a nun in the outskirts' alludes to monastic exile).",
-      "year": 1402
+      "year": 1402,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 29,
@@ -345,7 +399,9 @@
       "status": "verified",
       "verdict_zh": "明宣宗时期，张太后辅政，任用「三杨」（杨士奇、杨荣、杨溥）为国之栋梁，开创「仁宣之治」。「一枝向北一枝东」暗指三杨分布朝中各要职。此为明朝政治最清明的时期。",
       "verdict_en": "During Emperor Xuanzong's reign, Empress Dowager Zhang served as regent and employed the 'Three Yangs' (Yang Shiqi, Yang Rong, Yang Pu) as pillars of state, creating the prosperous 'Renxuan Era.' This was the most politically enlightened period of the Ming dynasty.",
-      "year": 1435
+      "year": 1435,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 30,
@@ -357,7 +413,9 @@
       "status": "verified",
       "verdict_zh": "「半圭半林」合为「琳」，暗指王振（宫中人称「王先生」）。张太后崩后，宦官王振专权，怂恿明英宗亲征瓦剌。1449年土木堡之变，英宗被俘。「六龙亲御到胡边」指皇帝亲征蒙古边境。",
       "verdict_en": "After Empress Dowager Zhang's death, the eunuch Wang Zhen seized power and persuaded Emperor Yingzong to personally lead a campaign against the Oirats. In 1449, the Tumu Crisis saw the emperor captured. 'Six dragons ride to the barbarian border' refers to the imperial expedition to the Mongol frontier.",
-      "year": 1449
+      "year": 1449,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 31,
@@ -369,7 +427,9 @@
       "status": "verified",
       "verdict_zh": "「一男一女」指魏忠贤与客氏。天启年间（1620-1627），大太监魏忠贤与乳母客氏勾结专权，迫害东林党人，朝政极度腐败。「忠臣贤士尽沉沦」描述了大批正直官员遭到迫害的惨状。",
       "verdict_en": "'One man and one woman' refers to the eunuch Wei Zhongxian and Madame Ke. During the Tianqi reign (1620-1627), they colluded to monopolize power, persecuting the Donglin Party scholars. 'Loyal ministers all sink into obscurity' describes the massive persecution of upright officials.",
-      "year": 1620
+      "year": 1620,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 32,
@@ -381,7 +441,9 @@
       "status": "verified",
       "verdict_zh": "「李花残」指李自成，「犬敖西方」指张献忠在四川作乱。1644年李自成攻入北京，崇祯帝在煤山自缢（「投环」）。「八九数尽」暗指明朝历时约十七帝（八加九）。「日月无光」再次以日月暗指「明」朝灭亡。",
       "verdict_en": "'Plum blossoms withered' refers to Li Zicheng; 'dog howls in the west' refers to Zhang Xianzhong's rebellion in Sichuan. In 1644, Li Zicheng took Beijing and Emperor Chongzhen hanged himself at Coal Hill. 'Eight and nine exhausted' alludes to the Ming's seventeen emperors. 'Sun and moon lose their light' — sun and moon form 'Ming,' signifying the dynasty's end.",
-      "year": 1644
+      "year": 1644,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 33,
@@ -393,7 +455,9 @@
       "status": "verified",
       "verdict_zh": "「天长白瀑来」指满族发源于长白山。1644年吴三桂引清兵入关，满清取代明朝。「主客不分」暗指满汉不分、入主中原。「藩篱多撤去」指山海关等关隘被打开。「稚子半可哀」暗指明朝宗室遭屠戮。",
       "verdict_en": "'From the long white mountains' refers to the Manchu homeland at Changbai Mountain. In 1644, Wu Sangui invited Qing forces through the passes, and the Manchu Qing replaced the Ming. 'Host and guest indistinguishable' alludes to Manchu-Han integration. 'Fences removed' refers to Shanhai Pass being opened. 'Young ones half to be pitied' alludes to the slaughter of Ming royals.",
-      "year": 1644
+      "year": 1644,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 34,
@@ -405,7 +469,9 @@
       "status": "verified",
       "verdict_zh": "「太平时，王杀王」直指太平天国内讧——天京事变中，韦昌辉杀杨秀清，石达开出走。「头有发」指太平军蓄发不剃（与清朝剃发令相反）。「洪水滔天」暗指洪秀全。太平天国运动（1850-1864）造成数千万人死亡。",
       "verdict_en": "'In Taiping times, king slays king' directly predicts the Taiping Heavenly Kingdom's internal strife — Wei Changhui killed Yang Xiuqing, and Shi Dakai departed. 'Heads have hair' refers to Taiping soldiers growing their hair (defying the Qing queue order). 'Floodwaters' alludes to Hong Xiuquan. The Taiping Rebellion (1850-1864) claimed tens of millions of lives.",
-      "year": 1856
+      "year": 1856,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 35,
@@ -417,7 +483,9 @@
       "status": "verified",
       "verdict_zh": "1900年八国联军侵华，攻占北京（「西方有人，足踏神京」）。慈禧太后携光绪帝仓皇西逃（「帝出不还」）。「三台扶倾」指李鸿章等重臣在东南互保中维系局面。",
       "verdict_en": "In 1900, the Eight-Nation Alliance invaded China and captured Beijing ('Westerners tread upon the sacred capital'). Empress Dowager Cixi fled westward with Emperor Guangxu ('the emperor departs and does not return'). 'Three pillars prop the tilting realm' refers to senior statesmen like Li Hongzhang who maintained order through the Southeastern Mutual Protection pact.",
-      "year": 1900
+      "year": 1900,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 36,
@@ -429,7 +497,9 @@
       "status": "verified",
       "verdict_zh": "「纤纤女子」指慈禧太后。「双拳旋转乾坤」暗指义和拳（义和团）。慈禧利用义和团对抗西方列强，却不分祸福，招致八国联军入侵。「母子不分先后」指慈禧与光绪帝先后去世（1908年仅隔一天）。",
       "verdict_en": "'Delicate woman' refers to Empress Dowager Cixi. 'Two fists spin heaven and earth' alludes to the Boxer Movement (义和拳, literally 'Righteous Fists'). Cixi exploited the Boxers against Western powers but 'could not distinguish fortune from disaster,' provoking the Allied intervention. 'Mother and son, no distinction of before or after' refers to Cixi and Guangxu dying just one day apart in 1908.",
-      "year": 1900
+      "year": 1900,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 37,
@@ -441,7 +511,9 @@
       "status": "verified",
       "verdict_zh": "「汉水茫茫」指武昌起义发生在汉水之滨。1911年辛亥革命推翻清朝，建立中华民国。「海内竟无王」指帝制终结，「不统继统」指由帝制转为共和。「倒戈逢八月」指农历八月武昌起义爆发（阳历10月10日）。",
       "verdict_en": "'Vast Han River' refers to the Wuchang Uprising on the banks of the Han. The 1911 Xinhai Revolution overthrew the Qing and established the Republic of China. 'No king within the seas' refers to the end of imperial rule. 'Those who did not rule now continue the rule' refers to the transition from monarchy to republic. 'Arms reversed in the eighth month' marks the uprising in lunar August (October 10 by the solar calendar).",
-      "year": 1911
+      "year": 1911,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 38,
@@ -453,7 +525,9 @@
       "status": "verified",
       "verdict_zh": "「门外一鹿，群雄争逐」指日本侵华，中国陷入战乱。「水深火热」描述人民所受苦难。抗日战争（1937-1945）期间，中国军民伤亡超过三千万。「海波能使江河浊」暗指日本从海上入侵。",
       "verdict_en": "'A deer outside the gate, heroes contend' refers to Japan's invasion of China. 'Deep water and hot fire' describes the people's suffering. During the Second Sino-Japanese War (1937-1945), over thirty million Chinese were killed or wounded. 'Ocean waves muddy the rivers' alludes to Japan's naval invasion.",
-      "year": 1937
+      "year": 1937,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 39,
@@ -465,7 +539,9 @@
       "status": "verified",
       "verdict_zh": "「鸟无足，山有月」合为「岛」字，指岛国日本。「旭初升」指日本旭日旗，「人都哭」指战争苦难。「金鸡叫」指酉年（鸡年），1945年为乙酉年，日本于该年8月15日宣布无条件投降。「大海沉沉日已过」暗指日本（日出之国）的战败。",
       "verdict_en": "'Bird without feet, mountain with moon' combines to form the character 'island' (岛), referring to the island nation Japan. 'Dawn sun rises' refers to Japan's Rising Sun flag; 'all the people weep' describes wartime suffering. 'Golden rooster crows' refers to the Year of the Rooster — 1945 was Yiyou year, when Japan surrendered unconditionally on August 15. 'The sinking sun has passed over the great sea' symbolizes Japan's defeat.",
-      "year": 1945
+      "year": 1945,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 40,
@@ -477,7 +553,9 @@
       "status": "verified",
       "verdict_zh": "「无土有主」指毛泽东（「无土」暗示非地主阶级出身而成为领袖）。「一口东来气太骄」指来自东方的势力。国共内战（1945-1949）最终以共产党胜利、中华人民共和国成立告终。「木子」为「李」字，暗指相关历史人物。",
       "verdict_en": "'No land but there is a master' alludes to Mao Zedong. The Chinese Civil War (1945-1949) ended with Communist victory and the founding of the People's Republic of China. 'Wood-son' forms the character 'Li' (李), alluding to a relevant historical figure.",
-      "year": 1949
+      "year": 1949,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 41,
@@ -489,7 +567,9 @@
       "status": "partial",
       "verdict_zh": "「天地晦盲」「阴阳反背」被解读为文化大革命（1966-1976）期间的社会动荡与秩序颠倒。「帽儿须戴血无头」暗指批斗时戴高帽。但此象解读存在较大争议，不同学者有不同见解。",
       "verdict_en": "'Heaven and earth dark and blind' and 'yin and yang reversed' are interpreted as the social upheaval and inverted order during the Cultural Revolution (1966-1976). 'Caps must be worn, blood without a head' alludes to the dunce caps worn during struggle sessions. However, this hexagram's interpretation remains highly disputed among scholars.",
-      "year": 1966
+      "year": 1966,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 42,
@@ -501,7 +581,9 @@
       "status": "partial",
       "verdict_zh": "「美人自西来」被解读为西方文化与资本进入中国，对应1978年开始的改革开放。「天朝中日渐安」指中国经济逐渐恢复与发展。「危而不危」暗示虽有风险但总体稳定。此解读有争议。",
       "verdict_en": "'A beauty comes from the west' is interpreted as Western culture and capital entering China, corresponding to the Reform and Opening Up policy beginning in 1978. 'The Celestial Kingdom gradually finds peace' refers to China's economic recovery and growth. 'Dangerous yet not dangerous' suggests risks but overall stability. This interpretation is disputed.",
-      "year": 1978
+      "year": 1978,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 43,
@@ -513,7 +595,9 @@
       "status": "partial",
       "verdict_zh": "「黑兔走入青龙穴」被部分学者解读为癸卯年（黑兔）与甲辰年（青龙）之间的事件。「君非君，臣非臣」暗示秩序的重建。「三十年中子孙结」指长期发展后的成果。此象解读众说纷纭。",
       "verdict_en": "'The black rabbit enters the blue dragon's den' is interpreted by some scholars as events between the Guimao year (black rabbit) and Jiachen year (blue dragon). 'The ruler is not a ruler; the minister is not a minister' suggests a reordering. 'In thirty years descendants bear fruit' refers to long-term outcomes. This hexagram has many competing interpretations.",
-      "year": 2023
+      "year": 2023,
+      "yearReason": "传统解读认为该象对应此历史时期",
+      "yearReason_en": "Traditional interpretation associates this image with this historical period"
     },
     {
       "id": 44,

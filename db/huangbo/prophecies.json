@@ -10,7 +10,9 @@
       "year": 1644,
       "status": "verified",
       "verdict_zh": "「日月」合为「明」，指明朝。1644年（甲申年，猿属申）李自成攻入北京，崇祯帝自缢，明朝灭亡。「八牛」合为「朱」字，南明永历帝朱由榔辗转逃至滇黔，1662年被吴三桂绞杀于云南昆明，朱明王朝彻底终结。",
-      "verdict_en": "'Sun and moon' form the character 'Ming' (明). In 1644 (jiashen year, Year of the Monkey), Li Zicheng captured Beijing and the Chongzhen Emperor hanged himself, ending the Ming dynasty. 'Eight-ox' forms the character 'Zhu' (朱, the Ming surname). The last Southern Ming emperor Yongli fled to Yunnan and Guizhou and was executed by Wu Sangui in Kunming in 1662."
+      "verdict_en": "'Sun and moon' form the character 'Ming' (明). In 1644 (jiashen year, Year of the Monkey), Li Zicheng captured Beijing and the Chongzhen Emperor hanged himself, ending the Ming dynasty. 'Eight-ox' forms the character 'Zhu' (朱, the Ming surname). The last Southern Ming emperor Yongli fled to Yunnan and Guizhou and was executed by Wu Sangui in Kunming in 1662.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "year": 1662,
       "status": "verified",
       "verdict_zh": "1662年为壬寅虎年，康熙帝即位，年号含「康」字，与诗中「运际康」吻合。康熙在位61年（1661-1722），为中国历史上在位最长的皇帝之一。五五（25）加六六（36）恰好等于61。康熙平定三藩、收复台湾、驱逐沙俄，史称「康熙盛世」。",
-      "verdict_en": "1662 was a renyin (Water Tiger) year, when the Kangxi Emperor ascended the throne — his reign title contains the character 'Kang' (康), matching the poem. Kangxi reigned for 61 years (1661–1722), one of the longest reigns in Chinese history. Five-fives (25) plus six-sixes (36) equals exactly 61. He suppressed the Three Feudatories, recovered Taiwan, and repelled Russian incursions — an era known as the 'Kangxi Prosperity.'"
+      "verdict_en": "1662 was a renyin (Water Tiger) year, when the Kangxi Emperor ascended the throne — his reign title contains the character 'Kang' (康), matching the poem. Kangxi reigned for 61 years (1661–1722), one of the longest reigns in Chinese history. Five-fives (25) plus six-sixes (36) equals exactly 61. He suppressed the Three Feudatories, recovered Taiwan, and repelled Russian incursions — an era known as the 'Kangxi Prosperity.'",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 3,
@@ -34,7 +38,9 @@
       "year": 1722,
       "status": "verified",
       "verdict_zh": "「雍州」谐音暗指雍正帝。雍正即位过程争议极大，传说有「九子夺嫡」之变。雍正推行摊丁入亩、火耗归公等改革，手段深刻严厉，与「深刻非常法」吻合。雍正在位13年（1722-1735），1722年为壬寅年而非虎年，但「白虎」一说指庚寅年（1710），距雍正去世1735年恰好相隔约一个周期。",
-      "verdict_en": "'Yongzhou' phonetically alludes to the Yongzheng Emperor. His accession was highly controversial, amid the famous 'Nine Princes' Succession Struggle.' Yongzheng implemented sweeping reforms — merging the head tax into the land tax, recovering administrative surcharges — with notably harsh methods, matching 'deep and sharp ways are no ordinary method.' He reigned for 13 years (1722–1735)."
+      "verdict_en": "'Yongzhou' phonetically alludes to the Yongzheng Emperor. His accession was highly controversial, amid the famous 'Nine Princes' Succession Struggle.' Yongzheng implemented sweeping reforms — merging the head tax into the land tax, recovering administrative surcharges — with notably harsh methods, matching 'deep and sharp ways are no ordinary method.' He reigned for 13 years (1722–1735).",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 4,
@@ -46,7 +52,9 @@
       "year": 1735,
       "status": "verified",
       "verdict_zh": "「景运隆」含「隆」字，暗指乾隆帝。「六甲祖孙同」指康熙在位61年、乾隆在位60年，祖孙皆在位约一甲子。乾隆十全武功平定准噶尔、大小金川等边疆，对应「外攘初度筹边策」。1795年乾隆禅位于嘉庆帝，为中国历史上少有的主动禅让，对应「内禅无惭太古风」。",
-      "verdict_en": "'Prosperous and grand' (景运隆) contains the character 'Long' (隆), alluding to Qianlong. Kangxi reigned 61 years, Qianlong 60 years — grandfather and grandson both served approximately one sixty-year cycle. Qianlong's 'Ten Great Campaigns' pacified Dzungar, Jinchuan and other frontiers, matching 'border strategies first repel invaders.' In 1795, Qianlong voluntarily abdicated to the Jiaqing Emperor, matching 'abdication rivals the ways of high antiquity.'"
+      "verdict_en": "'Prosperous and grand' (景运隆) contains the character 'Long' (隆), alluding to Qianlong. Kangxi reigned 61 years, Qianlong 60 years — grandfather and grandson both served approximately one sixty-year cycle. Qianlong's 'Ten Great Campaigns' pacified Dzungar, Jinchuan and other frontiers, matching 'border strategies first repel invaders.' In 1795, Qianlong voluntarily abdicated to the Jiaqing Emperor, matching 'abdication rivals the ways of high antiquity.'",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 5,
@@ -58,7 +66,9 @@
       "year": 1861,
       "status": "partial",
       "verdict_zh": "此首解读众说纷纭。主流解读认为「赤龙受宠」指咸丰帝宠幸叶赫那拉氏（后来的慈禧太后）。「莲池开白花」或暗指第二次鸦片战争后英法联军火烧圆明园等国难。「二十五弦」指嘉庆至咸丰约五十年间的衰落。「龙来龙去又逢蛇」可能指咸丰帝（辛亥年属蛇说存疑）或辛酉政变（1861年为辛酉年）。整体与咸丰至慈禧时期的动荡格局部分吻合，但具体字句对应尚有争议。",
-      "verdict_en": "Interpretations vary widely. The mainstream view holds that 'the red dragon is favored' refers to Emperor Xianfeng's favor toward Empress Dowager Cixi. 'White flowers in the lotus pool' may allude to the burning of the Old Summer Palace by Anglo-French forces. 'Twenty-five strings played to their end' suggests the decline from Jiaqing to Xianfeng. 'Dragons come and go, meeting the snake' may refer to the Xinyou Coup of 1861. The verse partially matches the turbulent Xianfeng-Cixi era, but specific correspondences remain debated."
+      "verdict_en": "Interpretations vary widely. The mainstream view holds that 'the red dragon is favored' refers to Emperor Xianfeng's favor toward Empress Dowager Cixi. 'White flowers in the lotus pool' may allude to the burning of the Old Summer Palace by Anglo-French forces. 'Twenty-five strings played to their end' suggests the decline from Jiaqing to Xianfeng. 'Dragons come and go, meeting the snake' may refer to the Xinyou Coup of 1861. The verse partially matches the turbulent Xianfeng-Cixi era, but specific correspondences remain debated.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 6,
@@ -70,7 +80,9 @@
       "year": 1860,
       "status": "verified",
       "verdict_zh": "「宵旰勤劳一世忙」被认为指慈禧太后垂帘听政、实际主政近半个世纪。「英雄来海上」指鸦片战争后列强从海上入侵中国。第一次鸦片战争（1840）、第二次鸦片战争（1856-1860）、甲午海战（1894）等一系列海上军事失败，使中国「望洋从此叹茫茫」，丧失大量主权和领土。",
-      "verdict_en": "'Toiling from dawn to dusk, busy for a lifetime' is interpreted as referring to Empress Dowager Cixi, who effectively ruled for nearly half a century. 'Heroes come from the sea' refers to Western powers invading China by sea. The First Opium War (1840), Second Opium War (1856–1860), and Sino-Japanese War (1894) — a series of naval defeats — left China 'gazing at the ocean and sighing,' losing sovereignty and territory."
+      "verdict_en": "'Toiling from dawn to dusk, busy for a lifetime' is interpreted as referring to Empress Dowager Cixi, who effectively ruled for nearly half a century. 'Heroes come from the sea' refers to Western powers invading China by sea. The First Opium War (1840), Second Opium War (1856–1860), and Sino-Japanese War (1894) — a series of naval defeats — left China 'gazing at the ocean and sighing,' losing sovereignty and territory.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 7,
@@ -82,7 +94,9 @@
       "year": 1851,
       "status": "verified",
       "verdict_zh": "1851年为辛亥猪年，洪秀全发动金田起义，建立太平天国，席卷东南各省长达十四年。「红巾」指太平军（太平军以红巾裹头）。同时期西北爆发大规模回民起义（1862-1877），回民戴白帽，与「西北千群白帽来」完全吻合。太平天国运动和回民起义共造成数千万人死亡，「三三两两总堪哀」形容其惨烈。",
-      "verdict_en": "1851 was a xinhai (pig) year when Hong Xiuquan launched the Jintian Uprising and established the Taiping Heavenly Kingdom, sweeping through southeastern provinces for 14 years. 'Red turbans' refers to the Taiping forces (who wore red headbands). Simultaneously, massive Muslim uprisings erupted in the northwest (1862–1877) — Muslims wore white caps, perfectly matching 'a thousand groups of white caps in the northwest.' Together, these conflicts caused tens of millions of deaths."
+      "verdict_en": "1851 was a xinhai (pig) year when Hong Xiuquan launched the Jintian Uprising and established the Taiping Heavenly Kingdom, sweeping through southeastern provinces for 14 years. 'Red turbans' refers to the Taiping forces (who wore red headbands). Simultaneously, massive Muslim uprisings erupted in the northwest (1862–1877) — Muslims wore white caps, perfectly matching 'a thousand groups of white caps in the northwest.' Together, these conflicts caused tens of millions of deaths.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 8,
@@ -94,7 +108,9 @@
       "year": 1862,
       "status": "verified",
       "verdict_zh": "「同心佐治」暗含「同治」二字，指清穆宗同治帝（1862-1874在位）。同治年间，曾国藩、李鸿章等平定太平天国和捻军，南北烽烟渐息，史称「同治中兴」。「一纪刚周」指同治帝在位约十三年。「寒冰空自惕兢兢」暗示中兴局面短暂脆弱，同治帝年仅19岁驾崩，随后清朝继续衰落。",
-      "verdict_en": "'United hearts assist in governance' (同心佐治) contains the characters of the Tongzhi reign title. During the Tongzhi era (1862–1874), Zeng Guofan, Li Hongzhang and others suppressed the Taiping and Nian rebellions, pacifying north and south — the 'Tongzhi Restoration.' 'One cycle just completes' refers to Tongzhi's approximately 13-year reign. 'Trembling amid cold ice' foreshadows the restoration's fragility — Tongzhi died at just 19, and the Qing continued to decline."
+      "verdict_en": "'United hearts assist in governance' (同心佐治) contains the characters of the Tongzhi reign title. During the Tongzhi era (1862–1874), Zeng Guofan, Li Hongzhang and others suppressed the Taiping and Nian rebellions, pacifying north and south — the 'Tongzhi Restoration.' 'One cycle just completes' refers to Tongzhi's approximately 13-year reign. 'Trembling amid cold ice' foreshadows the restoration's fragility — Tongzhi died at just 19, and the Qing continued to decline.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 9,
@@ -106,7 +122,9 @@
       "year": 1898,
       "status": "verified",
       "verdict_zh": "「光芒」暗指光绪帝。光绪帝并非前帝之子，而是旁支入继大统（「统绪旁延」）。「秦晋一家仍鼎足」指慈禧与光绪名为一家实则权力对立。1898年戊戌变法失败，光绪帝被囚禁于瀛台，维新派遭到镇压。「黄猿运兀力难胜」可指1908年戊申猴年光绪帝驾崩（后经考证为砒霜中毒），一生改革抱负终未实现。",
-      "verdict_en": "'Flashing light' alludes to the Guangxu Emperor. Guangxu was not the previous emperor's son but was selected from a collateral branch ('succession extends to a collateral line'). 'Qin and Jin as one family yet a tripod' refers to the power struggle between Cixi and Guangxu. The 1898 Hundred Days' Reform failed and Guangxu was imprisoned. 'Yellow monkey, fortune falters' may refer to 1908 (wushen, Monkey year) when Guangxu died (later confirmed to be arsenic poisoning), his reform ambitions unfulfilled."
+      "verdict_en": "'Flashing light' alludes to the Guangxu Emperor. Guangxu was not the previous emperor's son but was selected from a collateral branch ('succession extends to a collateral line'). 'Qin and Jin as one family yet a tripod' refers to the power struggle between Cixi and Guangxu. The 1898 Hundred Days' Reform failed and Guangxu was imprisoned. 'Yellow monkey, fortune falters' may refer to 1908 (wushen, Monkey year) when Guangxu died (later confirmed to be arsenic poisoning), his reform ambitions unfulfilled.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 10,
@@ -118,7 +136,9 @@
       "year": 1914,
       "status": "partial",
       "verdict_zh": "「白虎年」指庚寅年，1914年为甲寅年（虎年），第一次世界大战爆发，「四方各自起烽烟」与世界大战格局吻合。「九州又见三分定」被解读为中国在民国时期陷入军阀割据，北洋政府、南方革命政府、各地军阀三分天下。「七载」解读不一，一说指1914-1921年间的混战期。整体与民国初年乱局部分吻合，但具体年份和「三分」的对应存在多种说法。",
-      "verdict_en": "'White tiger year' refers to a gengyin (Tiger) year. 1914 was a jiayin (Tiger) year when WWI broke out, matching 'four quarters raise smoke of war.' 'Nine Provinces see a three-way partition' is interpreted as China's fragmentation during the warlord era — Northern warlords, Southern revolutionaries, and regional powers. 'Seven years' has multiple interpretations. The verse partially matches the early Republican chaos, but specific correspondences remain debated."
+      "verdict_en": "'White tiger year' refers to a gengyin (Tiger) year. 1914 was a jiayin (Tiger) year when WWI broke out, matching 'four quarters raise smoke of war.' 'Nine Provinces see a three-way partition' is interpreted as China's fragmentation during the warlord era — Northern warlords, Southern revolutionaries, and regional powers. 'Seven years' has multiple interpretations. The verse partially matches the early Republican chaos, but specific correspondences remain debated.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 11,
@@ -130,7 +150,9 @@
       "year": 1945,
       "status": "verified",
       "verdict_zh": "「红鸡啼後」指1945年乙酉鸡年，日本宣布无条件投降。「鬼生愁」中「鬼」指日本（中文俗称「鬼子」）。「宝位纷争半壁休」指抗战胜利后国共内战爆发，国民党丢失大陆半壁江山。「金鳌能载主」指台湾（形似金鳌）成为国民党政府的最后根据地。「旗分八面下秦州」指解放军从八个方向进军全国。",
-      "verdict_en": "'Red rooster crows' refers to 1945 (yiyou, Rooster year) when Japan surrendered unconditionally. 'Ghosts' refers to the Japanese (colloquially called 'guizi/devils' in Chinese). 'Throne contested, half the realm lost' refers to the Chinese Civil War that followed. 'Golden turtle carries its master' — Taiwan (shaped like a turtle) became the Nationalist government's final refuge. 'Banners split eight ways, descend upon Qinzhou' describes the PLA's nationwide advance."
+      "verdict_en": "'Red rooster crows' refers to 1945 (yiyou, Rooster year) when Japan surrendered unconditionally. 'Ghosts' refers to the Japanese (colloquially called 'guizi/devils' in Chinese). 'Throne contested, half the realm lost' refers to the Chinese Civil War that followed. 'Golden turtle carries its master' — Taiwan (shaped like a turtle) became the Nationalist government's final refuge. 'Banners split eight ways, descend upon Qinzhou' describes the PLA's nationwide advance.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 12,
@@ -142,7 +164,9 @@
       "year": 1949,
       "status": "partial",
       "verdict_zh": "「中兴事业付麟儿」被解读为蒋介石将复国希望寄托于蒋经国（「麟儿」指优秀子嗣）。「继统偏安三十六」指国民党在台湾偏安，从1949年至1980年代约三十六年。「坐看境外血如泥」指台湾隔海观望大陆的政治运动。但「豕後牛前」的具体指向、「三十六」的精确起止年份均有多种解读，整体部分吻合。",
-      "verdict_en": "'Qilin child' is interpreted as Chiang Kai-shek entrusting his legacy to Chiang Ching-kuo. 'Partial peace for thirty-six years' refers to the KMT's rule in Taiwan, approximately 36 years from 1949 to the mid-1980s. 'Watching blood flow like mud beyond the border' alludes to Taiwan observing political upheavals on the mainland. However, specific correspondences for 'after the pig, before the ox' and the exact 36-year period remain debated."
+      "verdict_en": "'Qilin child' is interpreted as Chiang Kai-shek entrusting his legacy to Chiang Ching-kuo. 'Partial peace for thirty-six years' refers to the KMT's rule in Taiwan, approximately 36 years from 1949 to the mid-1980s. 'Watching blood flow like mud beyond the border' alludes to Taiwan observing political upheavals on the mainland. However, specific correspondences for 'after the pig, before the ox' and the exact 36-year period remain debated.",
+      "yearReason": "根据黄蘖禅师诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Huangbo Zen Master's poems corresponds to this historical period"
     },
     {
       "id": 13,

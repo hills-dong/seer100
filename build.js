@@ -100,7 +100,8 @@ function generateNoscript(siteData, lang) {
     const q = lang === 'en' && p.q_en ? p.q_en : p.q;
     const a = lang === 'en' && p.a_en ? p.a_en : p.a;
     html += `<div class="prophecy-item">`;
-    html += `<div class="prophecy-header"><span class="prophecy-id">#${p.id}</span> <span class="prophecy-cat"><i class="${cat.icon}"></i> ${cat[catKey]}</span>${p.year ? ` <span class="prophecy-year-tag">${p.year}</span>` : ''}</div>`;
+    const yr = p.year ? (lang === 'en' ? (p.yearReason_en || '') : (p.yearReason || '')) : '';
+    html += `<div class="prophecy-header"><span class="prophecy-id">#${p.id}</span> <span class="prophecy-cat"><i class="${cat.icon}"></i> ${cat[catKey]}</span>${p.year ? ` <span class="prophecy-year-tag"${yr ? ` title="${escapeHtml(yr)}"` : ''}>${p.year}</span>` : ''}</div>`;
     html += `<div class="prophecy-q">${escapeHtml(q)}</div>`;
     html += `<div class="prophecy-a"><span class="kfk-name">${answerer}: </span>${escapeHtml(a)}</div>`;
     html += `</div>\n`;

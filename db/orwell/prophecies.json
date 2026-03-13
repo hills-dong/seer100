@@ -1,7 +1,172 @@
 {
   "prophecies": [
     {
-      "id": 1,
+      "cat": "tech",
+      "q": "「电幕」——无处不在的双向监控屏幕",
+      "a": "「电幕同时发送和接收信号。温斯顿发出的每一个声响……都可以被接收到。在电幕的视野范围内，你能被看见的同时也能被听见。」",
+      "q_en": "'Telescreens' — ubiquitous two-way surveillance screens",
+      "a_en": "\"The telescreen received and transmitted simultaneously. Any sound that Winston made... would be picked up by it. There was... no way of knowing whether you were being watched at any given moment.\"",
+      "year": 2013,
+      "date": "1949-06-08",
+      "status": "verified",
+      "verdict_zh": "2013年斯诺登揭露了NSA通过PRISM等项目进行的大规模监控，包括利用手机摄像头和麦克风。智能电视也被发现能被远程激活用于监听（2017年维基解密Vault 7泄露）。奥威尔的电幕概念几乎完全实现。",
+      "verdict_en": "Snowden's 2013 revelations exposed NSA mass surveillance through PRISM, including smartphone cameras and microphones. Smart TVs were found to be remotely activatable for surveillance (2017 WikiLeaks Vault 7). Orwell's telescreen concept was nearly fully realized.",
+      "yearReason": "奥威尔《一九八四》中的电幕概念在2013年斯诺登揭露大规模监控后被广泛类比",
+      "yearReason_en": "Orwell's telescreen concept from '1984' was widely analogized after Snowden's 2013 mass surveillance revelations",
+      "id": 1
+    },
+    {
+      "cat": "politics",
+      "q": "「双重思想」——同时相信两个矛盾的信念",
+      "a": "「知道又不知道，在有意识地欺骗的同时又完全相信自己的真诚。」",
+      "q_en": "'Doublethink' — simultaneously holding two contradictory beliefs",
+      "a_en": "\"To know and not to know, to be conscious of complete truthfulness while telling carefully constructed lies.\"",
+      "year": 2016,
+      "date": "1949-06-08",
+      "status": "verified",
+      "verdict_zh": "2016年美国总统大选期间，「后真相」（post-truth）被牛津词典评为年度词汇。政客公开否认有据可查的事实（如就职典礼人数争议），与奥威尔描述的双重思想如出一辙。「另类事实」（alternative facts）一词直接呼应了《一九八四》。",
+      "verdict_en": "During the 2016 US election, 'post-truth' was Oxford Dictionary's word of the year. Politicians openly denied documented facts (inauguration crowd size controversy), mirroring Orwell's doublethink. The term 'alternative facts' directly echoed '1984'.",
+      "yearReason": "2016年「后真相」成为年度词汇，政治话语中的双重思想特征凸显",
+      "yearReason_en": "'Post-truth' became word of the year in 2016, highlighting doublethink characteristics in political discourse",
+      "id": 2
+    },
+    {
+      "cat": "tech",
+      "q": "「记忆洞」——系统性删除和篡改历史",
+      "a": "「谁控制过去就控制未来，谁控制现在就控制过去。」不符合官方叙事的文件被投入记忆洞销毁。",
+      "q_en": "'Memory hole' — systematic deletion and alteration of history",
+      "a_en": "\"Who controls the past controls the future. Who controls the present controls the past.\" Documents not fitting the official narrative were dropped into the memory hole.",
+      "year": 2020,
+      "date": "1949-06-08",
+      "status": "verified",
+      "verdict_zh": "中国的互联网审查（防火长城）、俄罗斯的信息管制、以及全球社交媒体平台的内容删除和「降权」机制都体现了「记忆洞」概念。2020年后各国对社交媒体的信息管控进一步加强。数字时代的内容删除比奥威尔想象的更高效。",
+      "verdict_en": "China's Great Firewall, Russia's information control, and global social media content removal and 'shadow banning' all embody the 'memory hole' concept. Post-2020, information controls on social media intensified worldwide. Digital-age content deletion is more efficient than Orwell imagined.",
+      "yearReason": "互联网审查和数字内容删除在2020年代成为全球性现象",
+      "yearReason_en": "Internet censorship and digital content deletion became global phenomena in the 2020s",
+      "id": 3
+    },
+    {
+      "cat": "politics",
+      "q": "「永久战争」——以维持权力为目的的持续冲突",
+      "a": "「战争的目的不是取得胜利，而是保持战争本身的持续。」三个超级大国之间进行着无休止的战争。",
+      "q_en": "'Perpetual war' — continuous conflict to maintain power",
+      "a_en": "\"The object of war is not to make or prevent conquests of territory, but to keep the structure of society intact.\" Three superpowers wage endless war.",
+      "year": 2001,
+      "date": "1949-06-08",
+      "status": "verified",
+      "verdict_zh": "2001年「反恐战争」开始后，美国在阿富汗（2001-2021）和伊拉克（2003-2011）发动了持续数十年的军事行动。「永久战争」概念被广泛用于批评反恐战争的无限期性质——没有明确的敌人、没有胜利的定义、没有结束的条件。",
+      "verdict_en": "After the 'War on Terror' began in 2001, the US waged decades-long military operations in Afghanistan (2001-2021) and Iraq (2003-2011). 'Perpetual war' has been widely used to critique the indefinite nature of the War on Terror — no clear enemy, no definition of victory, no end conditions.",
+      "yearReason": "奥威尔描述的永久战争概念在2001年反恐战争开始后被广泛引用",
+      "yearReason_en": "Orwell's perpetual war concept was widely cited after the War on Terror began in 2001",
+      "id": 4
+    },
+    {
+      "cat": "tech",
+      "q": "「新话」——通过简化语言限制思想",
+      "a": "「新话的目的不是扩大而是缩小思想范围。最终我们要使思想犯罪成为不可能，因为不会有表达它的词语。」",
+      "q_en": "'Newspeak' — limiting thought through simplified language",
+      "a_en": "\"The purpose of Newspeak was not only to provide a medium of expression for the worldview proper to Ingsoc, but to make all other modes of thought impossible.\"",
+      "year": 2020,
+      "date": "1949-06-08",
+      "status": "partial",
+      "verdict_zh": "2020年代，语言控制成为热门社会议题。社交媒体平台的「敏感词」过滤、企业的「政治正确」语言规范、以及推特/X将字数限制在280字符等现象，都被认为与新话的精神相似。但与奥威尔的极端设想不同，这些变化更多是社会自发的而非政府强制的。",
+      "verdict_en": "In the 2020s, language control became a hot social issue. Social media 'sensitive word' filtering, corporate 'politically correct' language norms, and Twitter/X's 280-character limit have all been compared to Newspeak. Unlike Orwell's extreme vision, these changes are more socially driven than government-mandated.",
+      "yearReason": "语言控制和简化在2020年代社交媒体时代成为显著现象",
+      "yearReason_en": "Language control and simplification became prominent in the social media era of the 2020s",
+      "id": 5
+    },
+    {
+      "cat": "tech",
+      "q": "「老大哥在看着你」——面部识别与AI监控",
+      "a": "「老大哥在看着你。」——巨型海报上的面孔和标语无处不在。",
+      "q_en": "'Big Brother is watching you' — facial recognition and AI surveillance",
+      "a_en": "\"Big Brother is watching you.\" — Giant posters with the face and slogan everywhere.",
+      "year": 2020,
+      "date": "1949-06-08",
+      "status": "verified",
+      "verdict_zh": "2020年代面部识别技术在全球广泛部署。中国的「天网」系统拥有超过6亿个监控摄像头；伦敦成为全球监控密度最高的城市之一；美国执法机构使用Clearview AI进行面部识别追踪。奥威尔的「老大哥」已从隐喻变为现实技术。",
+      "verdict_en": "Facial recognition was widely deployed globally in the 2020s. China's 'Skynet' has over 600 million surveillance cameras; London became one of the most surveilled cities globally; US law enforcement uses Clearview AI for facial recognition. Orwell's 'Big Brother' has gone from metaphor to actual technology.",
+      "yearReason": "面部识别和AI监控技术在2020年代实现全球性大规模部署",
+      "yearReason_en": "Facial recognition and AI surveillance achieved global mass deployment in the 2020s",
+      "id": 6
+    },
+    {
+      "cat": "politics",
+      "q": "「思想警察」——网络言论监控",
+      "a": "在大洋国，思想警察通过电幕监控人们的一言一行。任何对党的不忠想法都可能被发现并惩罚。（《1984》）",
+      "q_en": "'Thought Police' — online speech monitoring",
+      "a_en": "In Oceania, the Thought Police monitor people's every word and action through telescreens. Any disloyal thought toward the Party could be detected and punished. (Nineteen Eighty-Four)",
+      "year": 2013,
+      "date": "1949-06-08",
+      "status": "partial",
+      "verdict_zh": "2013年斯诺登揭露NSA棱镜计划（PRISM），证实美国政府大规模监控公民网络通讯。中国的网络审查系统（防火长城）和社会信用体系也呈现了奥威尔式特征。但民主国家的监控程度远未达到大洋国的极端水平。",
+      "verdict_en": "In 2013, Snowden revealed the NSA's PRISM program, confirming US government mass surveillance of citizens' online communications. China's internet censorship (Great Firewall) and social credit system also show Orwellian characteristics. But democratic countries' surveillance hasn't reached Oceania's extreme level.",
+      "yearReason": "奥威尔1949年描述的思想监控在2013年棱镜门事件后得到部分印证",
+      "yearReason_en": "Orwell's 1949 thought surveillance was partially confirmed after the 2013 PRISM revelations",
+      "id": 7
+    },
+    {
+      "cat": "politics",
+      "q": "「真理部」——媒体操控与假新闻",
+      "a": "真理部负责篡改历史记录，使党的预言永远正确。「谁控制了过去，就控制了未来；谁控制了现在，就控制了过去。」（《1984》）",
+      "q_en": "'Ministry of Truth' — media manipulation and fake news",
+      "a_en": "The Ministry of Truth alters historical records to make the Party's predictions always correct. 'Who controls the past controls the future; who controls the present controls the past.' (Nineteen Eighty-Four)",
+      "year": 2016,
+      "date": "1949-06-08",
+      "status": "partial",
+      "verdict_zh": "2016年美国大选期间「假新闻」成为全球热词。社交媒体上虚假信息泛滥，deepfake技术使视频造假变得容易。「后真相时代」（post-truth）被牛津词典选为2016年年度词汇。但系统性的历史篡改在民主国家尚未实现。",
+      "verdict_en": "'Fake news' became a global buzzword during the 2016 US election. Misinformation flooded social media, and deepfake technology made video fabrication easy. 'Post-truth' was Oxford Dictionary's 2016 word of the year. But systematic historical falsification hasn't materialized in democracies.",
+      "yearReason": "奥威尔描述的媒体操控在2016年「后真相」时代加速体现",
+      "yearReason_en": "Orwell's media manipulation accelerated in the 2016 'post-truth' era",
+      "id": 8
+    },
+    {
+      "cat": "society",
+      "q": "「非人化」——数字社会的取消文化",
+      "a": "在大洋国，「非人」是被党从所有记录中抹除的人——他们从未存在过。照片被修改，文件被销毁，名字被删除。（《1984》）",
+      "q_en": "'Unperson' — cancel culture in digital society",
+      "a_en": "In Oceania, an 'unperson' is someone erased from all records by the Party — they never existed. Photos are altered, documents destroyed, names deleted. (Nineteen Eighty-Four)",
+      "year": 2020,
+      "date": "1949-06-08",
+      "status": "partial",
+      "verdict_zh": "2020年代「取消文化」使公众人物因言论不当被社交媒体「删除」——账号被封禁、作品被下架、历史贡献被否认。虽然规模和方式与大洋国不同，但「从公共记忆中抹除一个人」的概念已部分实现。",
+      "verdict_en": "In the 2020s, 'cancel culture' sees public figures 'deleted' from social media for inappropriate speech — accounts banned, works pulled, historical contributions denied. While the scale differs from Oceania, the concept of 'erasing someone from public memory' has been partially realized.",
+      "yearReason": "奥威尔的「非人」概念在2020年代取消文化中得到部分体现",
+      "yearReason_en": "Orwell's 'unperson' concept was partially manifested in 2020s cancel culture",
+      "id": 9
+    },
+    {
+      "cat": "politics",
+      "q": "「双重思想」——同时接受矛盾的信念",
+      "a": "党要求公民掌握「双重思想」——同时持有两个相互矛盾的信念，并且两个都接受。「战争即和平，自由即奴役，无知即力量。」（《1984》）",
+      "q_en": "'Doublethink' — accepting contradictory beliefs simultaneously",
+      "a_en": "The Party requires citizens to master 'doublethink' — holding two contradictory beliefs simultaneously and accepting both. 'War is peace, freedom is slavery, ignorance is strength.' (Nineteen Eighty-Four)",
+      "year": 2020,
+      "date": "1949-06-08",
+      "status": "partial",
+      "verdict_zh": "2020年代政治极化加剧，人们对同一事件持完全相反的解读。社交媒体回音室使人们同时相信矛盾的叙事而不自觉。政客公开否认已记录在案的言论和事实。虽未达到奥威尔描述的系统性程度，但「双重思想」的雏形已清晰可见。",
+      "verdict_en": "Political polarization intensified in the 2020s, with people holding completely opposite interpretations of the same events. Social media echo chambers enable people to believe contradictory narratives unconsciously. Politicians openly deny documented statements and facts. While not as systematic as Orwell described, the prototype of 'doublethink' is clearly visible.",
+      "yearReason": "奥威尔的「双重思想」概念在2020年代政治极化和信息茧房中得到印证",
+      "yearReason_en": "Orwell's 'doublethink' concept was confirmed in 2020s political polarization and information bubbles",
+      "id": 10
+    },
+    {
+      "cat": "war",
+      "q": "「永久战争」——作为政治工具的持续冲突",
+      "a": "大洋国与欧亚国或东亚国之间的战争从未真正结束。战争的目的不是取胜，而是维持社会等级制度和消耗多余产能。「战争不是为了赢得胜利，而是为了永远持续。」（《1984》）",
+      "q_en": "'Perpetual war' — continuous conflict as political tool",
+      "a_en": "The war between Oceania and Eurasia or Eastasia never truly ends. War's purpose isn't victory but maintaining social hierarchy and consuming surplus production. 'The war is not meant to be won, it is meant to be continuous.' (Nineteen Eighty-Four)",
+      "year": 2001,
+      "date": "1949-06-08",
+      "status": "partial",
+      "verdict_zh": "2001年「反恐战争」开启了一场没有明确终点的全球性冲突。阿富汗战争持续20年（2001-2021），伊拉克战争、叙利亚内战接连不断。军工复合体利益驱动下，战争成为部分经济体的永久组成部分。",
+      "verdict_en": "The 'War on Terror' in 2001 began a global conflict with no clear endpoint. The Afghanistan war lasted 20 years (2001-2021), followed by Iraq War and Syrian civil war. Driven by military-industrial complex interests, war has become a permanent component of some economies.",
+      "yearReason": "奥威尔的「永久战争」概念在2001年反恐战争后得到印证",
+      "yearReason_en": "Orwell's 'perpetual war' concept was confirmed after the 2001 War on Terror",
+      "id": 11
+    },
+    {
+      "id": 12,
       "cat": "tech",
       "q": "电幕——无处不在的监控设备",
       "q_en": "Telescreens — Ubiquitous surveillance devices",
@@ -10,10 +175,12 @@
       "year": 2013,
       "status": "verified",
       "verdict_zh": "2013年爱德华·斯诺登揭露NSA棱镜计划（PRISM），证实美国政府可通过智能手机、电脑摄像头和麦克风进行大规模监控。全球各大城市部署了数以亿计的监控摄像头。智能电视、智能音箱等设备已被证实可被用于监听用户。",
-      "verdict_en": "In 2013, Edward Snowden revealed the NSA's PRISM program, confirming mass government surveillance through smartphones, computer cameras, and microphones. Hundreds of millions of CCTV cameras are deployed worldwide. Smart TVs and smart speakers have been proven capable of eavesdropping on users."
+      "verdict_en": "In 2013, Edward Snowden revealed the NSA's PRISM program, confirming mass government surveillance through smartphones, computer cameras, and microphones. Hundreds of millions of CCTV cameras are deployed worldwide. Smart TVs and smart speakers have been proven capable of eavesdropping on users.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 2,
+      "id": 13,
       "cat": "politics",
       "q": "老大哥——无所不在的领袖崇拜",
       "q_en": "Big Brother — omnipresent leader worship",
@@ -22,10 +189,12 @@
       "year": 2001,
       "status": "verified",
       "verdict_zh": "2001年9·11事件后，美英等国以反恐为名建立了全面监控体系。英国成为全球监控摄像头密度最高的国家之一，伦敦一个市民平均每天被拍摄超过300次。「老大哥」一词已成为监控社会的通用代名词。",
-      "verdict_en": "After 9/11 in 2001, the US and UK established comprehensive surveillance systems in the name of counter-terrorism. The UK became one of the most surveilled countries in the world — a Londoner is captured on camera over 300 times per day on average. 'Big Brother' has become a universal synonym for surveillance society."
+      "verdict_en": "After 9/11 in 2001, the US and UK established comprehensive surveillance systems in the name of counter-terrorism. The UK became one of the most surveilled countries in the world — a Londoner is captured on camera over 300 times per day on average. 'Big Brother' has become a universal synonym for surveillance society.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 3,
+      "id": 14,
       "cat": "society",
       "q": "新话——通过简化语言来限制思想",
       "q_en": "Newspeak — limiting thought through language simplification",
@@ -34,10 +203,12 @@
       "year": 2016,
       "status": "verified",
       "verdict_zh": "社交媒体时代的政治话语日趋简化——Twitter/X的字符限制迫使复杂议题被压缩为口号，「政治正确」语言规范限制了某些话题的讨论空间。2016年以来，「后真相」被牛津词典选为年度词汇，反映出语言被武器化的趋势。学术界广泛引用奥威尔来分析当代语言政治。",
-      "verdict_en": "Political discourse in the social media era has been increasingly simplified — Twitter/X's character limits compress complex issues into slogans, and 'political correctness' language norms restrict discussion of certain topics. Since 2016, 'post-truth' was named Oxford's word of the year, reflecting the weaponization of language. Academics widely cite Orwell in analyzing contemporary language politics."
+      "verdict_en": "Political discourse in the social media era has been increasingly simplified — Twitter/X's character limits compress complex issues into slogans, and 'political correctness' language norms restrict discussion of certain topics. Since 2016, 'post-truth' was named Oxford's word of the year, reflecting the weaponization of language. Academics widely cite Orwell in analyzing contemporary language politics.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 4,
+      "id": 15,
       "cat": "politics",
       "q": "真理部——系统性篡改历史记录",
       "q_en": "Ministry of Truth — systematic falsification of historical records",
@@ -46,10 +217,12 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "数字时代使历史记录的篡改变得前所未有的容易。社交媒体平台大规模删帖和封号，搜索引擎结果被算法操控，维基百科条目被政治化编辑。2020年新冠疫情期间，多国政府被指控隐瞒或修改疫情数据。深度伪造（deepfake）技术使视频和音频证据也变得不可信。",
-      "verdict_en": "The digital age has made historical falsification unprecedentedly easy. Social media platforms engage in mass deletion and account bans, search engine results are algorithmically manipulated, and Wikipedia entries are politically edited. During COVID-19 in 2020, multiple governments were accused of concealing or altering pandemic data. Deepfake technology has rendered even video and audio evidence unreliable."
+      "verdict_en": "The digital age has made historical falsification unprecedentedly easy. Social media platforms engage in mass deletion and account bans, search engine results are algorithmically manipulated, and Wikipedia entries are politically edited. During COVID-19 in 2020, multiple governments were accused of concealing or altering pandemic data. Deepfake technology has rendered even video and audio evidence unreliable.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 5,
+      "id": 16,
       "cat": "war",
       "q": "永恒战争——用战争维持社会控制",
       "q_en": "Perpetual war — maintaining social control through endless conflict",
@@ -58,10 +231,12 @@
       "year": 2003,
       "status": "verified",
       "verdict_zh": "自2001年美国发动「反恐战争」以来，战争状态已持续超过二十年。阿富汗战争（2001-2021）成为美国历史上最长的战争。伊拉克战争（2003年）以「大规模杀伤性武器」为由发动，事后证实情报有误。战争经济体系（军工复合体）使持续冲突成为结构性需要。",
-      "verdict_en": "Since the US launched the 'War on Terror' in 2001, a state of war has persisted for over two decades. The Afghanistan War (2001-2021) became the longest war in US history. The Iraq War (2003) was launched on the pretext of 'weapons of mass destruction', which were later proven non-existent. The military-industrial complex makes perpetual conflict a structural necessity."
+      "verdict_en": "Since the US launched the 'War on Terror' in 2001, a state of war has persisted for over two decades. The Afghanistan War (2001-2021) became the longest war in US history. The Iraq War (2003) was launched on the pretext of 'weapons of mass destruction', which were later proven non-existent. The military-industrial complex makes perpetual conflict a structural necessity.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 6,
+      "id": 17,
       "cat": "society",
       "q": "双重思想——同时持有两种矛盾信念",
       "q_en": "Doublethink — holding two contradictory beliefs simultaneously",
@@ -70,10 +245,12 @@
       "year": 2017,
       "status": "verified",
       "verdict_zh": "2017年美国白宫顾问凯莉安·康威提出「另类事实」（alternative facts）一词来反驳媒体报道，完美体现了双重思想的概念。各国政治中普遍存在的「认知失调」——一边宣称自由民主，一边实施监控审查；一边标榜和平，一边发动战争——已成为常态。",
-      "verdict_en": "In 2017, US White House advisor Kellyanne Conway coined 'alternative facts' to counter media reporting, perfectly embodying doublethink. The cognitive dissonance prevalent in global politics — proclaiming freedom while implementing surveillance, championing peace while waging war — has become normalized."
+      "verdict_en": "In 2017, US White House advisor Kellyanne Conway coined 'alternative facts' to counter media reporting, perfectly embodying doublethink. The cognitive dissonance prevalent in global politics — proclaiming freedom while implementing surveillance, championing peace while waging war — has become normalized.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 7,
+      "id": 18,
       "cat": "politics",
       "q": "思想罪——惩罚异端思想本身",
       "q_en": "Thoughtcrime — punishing heretical thoughts themselves",
@@ -82,10 +259,12 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "社交媒体时代的「取消文化」（cancel culture）已使人们因为表达不合时宜的观点而遭到社会性封杀。2020年前后，多位学者、记者和公众人物因发表争议言论而被解雇或封号。中国的社会信用体系通过算法监控公民行为和言论，对「失信」者实施惩罚。预测性警务（predictive policing）技术开始用于在犯罪发生前识别潜在嫌疑人。",
-      "verdict_en": "Social media-era 'cancel culture' has led to people being socially ostracized for expressing unacceptable views. Around 2020, multiple academics, journalists, and public figures were fired or deplatformed for controversial statements. China's Social Credit System uses algorithms to monitor citizens' behavior and speech, punishing those deemed 'untrustworthy'. Predictive policing technology has begun identifying potential suspects before crimes occur."
+      "verdict_en": "Social media-era 'cancel culture' has led to people being socially ostracized for expressing unacceptable views. Around 2020, multiple academics, journalists, and public figures were fired or deplatformed for controversial statements. China's Social Credit System uses algorithms to monitor citizens' behavior and speech, punishing those deemed 'untrustworthy'. Predictive policing technology has begun identifying potential suspects before crimes occur.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 8,
+      "id": 19,
       "cat": "tech",
       "q": "记忆洞——数字化销毁不便的记录",
       "q_en": "Memory hole — digital destruction of inconvenient records",
@@ -94,10 +273,12 @@
       "year": 2018,
       "status": "verified",
       "verdict_zh": "数字时代的「记忆洞」比物理销毁更加高效。各国政府和企业可以批量删除网页、社交媒体帖子和新闻报道。2018年欧盟《通用数据保护条例》（GDPR）中的「被遗忘权」允许个人要求删除网络信息。中国的互联网审查系统可在数分钟内删除敏感内容。搜索引擎的降权机制使信息即使存在也无法被发现。",
-      "verdict_en": "The digital-age 'memory hole' is more efficient than physical destruction. Governments and corporations can mass-delete web pages, social media posts, and news reports. The EU's 2018 GDPR introduced the 'right to be forgotten', allowing individuals to request deletion of online information. China's internet censorship system can remove sensitive content within minutes. Search engine de-ranking makes information effectively unfindable even if it still exists."
+      "verdict_en": "The digital-age 'memory hole' is more efficient than physical destruction. Governments and corporations can mass-delete web pages, social media posts, and news reports. The EU's 2018 GDPR introduced the 'right to be forgotten', allowing individuals to request deletion of online information. China's internet censorship system can remove sensitive content within minutes. Search engine de-ranking makes information effectively unfindable even if it still exists.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 9,
+      "id": 20,
       "cat": "society",
       "q": "无产者——被娱乐麻痹的大众",
       "q_en": "Proles — masses pacified by entertainment",
@@ -106,10 +287,12 @@
       "year": 2015,
       "status": "verified",
       "verdict_zh": "短视频平台（TikTok、抖音，2016年上线）、手机游戏和社交媒体已成为现代社会的「面包与马戏」。2015年以来，全球智能手机普及率超过40%，人均每日屏幕使用时间超过7小时。流媒体、即时满足的内容消费模式使公众对政治议题的关注度持续下降。算法推荐系统创造了信息茧房，使人们沉浸在个性化的娱乐泡沫中。",
-      "verdict_en": "Short video platforms (TikTok/Douyin, launched 2016), mobile games, and social media have become modern society's 'bread and circuses'. Since 2015, global smartphone penetration exceeded 40%, with average daily screen time surpassing 7 hours. Streaming and instant-gratification content consumption have steadily reduced public engagement with political issues. Algorithm-driven recommendation systems create filter bubbles, immersing people in personalized entertainment cocoons."
+      "verdict_en": "Short video platforms (TikTok/Douyin, launched 2016), mobile games, and social media have become modern society's 'bread and circuses'. Since 2015, global smartphone penetration exceeded 40%, with average daily screen time surpassing 7 hours. Streaming and instant-gratification content consumption have steadily reduced public engagement with political issues. Algorithm-driven recommendation systems create filter bubbles, immersing people in personalized entertainment cocoons.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 10,
+      "id": 21,
       "cat": "politics",
       "q": "《动物庄园》——革命者变成新的压迫者",
       "q_en": "Animal Farm — revolutionaries becoming new oppressors",
@@ -118,10 +301,12 @@
       "year": 1991,
       "status": "verified",
       "verdict_zh": "1991年苏联解体，验证了奥威尔对革命蜕变的预言。苏联从工人革命起步，最终演变为特权官僚阶层统治的极权国家，与《动物庄园》中猪从革命领袖蜕变为新压迫者的寓言高度吻合。此后，阿拉伯之春（2011年）等多次革命运动也重复了类似的权力循环。",
-      "verdict_en": "The 1991 collapse of the Soviet Union validated Orwell's prophecy of revolutionary degeneration. The USSR began as a workers' revolution but evolved into a totalitarian state ruled by a privileged bureaucratic class — closely mirroring how the pigs in 'Animal Farm' transformed from revolutionary leaders into new oppressors. Subsequent revolutions like the Arab Spring (2011) have repeated similar power cycles."
+      "verdict_en": "The 1991 collapse of the Soviet Union validated Orwell's prophecy of revolutionary degeneration. The USSR began as a workers' revolution but evolved into a totalitarian state ruled by a privileged bureaucratic class — closely mirroring how the pigs in 'Animal Farm' transformed from revolutionary leaders into new oppressors. Subsequent revolutions like the Arab Spring (2011) have repeated similar power cycles.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 11,
+      "id": 22,
       "cat": "war",
       "q": "三大超级大国——地缘政治格局的永恒对峙",
       "q_en": "Three superpowers — eternal geopolitical standoff",
@@ -130,10 +315,12 @@
       "year": 2022,
       "status": "verified",
       "verdict_zh": "当今世界的地缘格局与奥威尔的三大超级大国构想高度相似：以美国为首的西方阵营（大洋国）、俄罗斯及其盟友（欧亚国）、中国及东亚国家（东亚国）。2022年俄乌战争爆发后，这种三足鼎立的格局更加明显，联盟关系不断变化，但核武器的存在确保了没有一方能够彻底征服另一方。",
-      "verdict_en": "Today's geopolitical landscape closely mirrors Orwell's three superpowers: the US-led Western bloc (Oceania), Russia and allies (Eurasia), and China plus East Asian nations (Eastasia). After the 2022 Russia-Ukraine war, this tripartite structure became more pronounced, with shifting alliances but nuclear weapons ensuring no side can fully conquer another."
+      "verdict_en": "Today's geopolitical landscape closely mirrors Orwell's three superpowers: the US-led Western bloc (Oceania), Russia and allies (Eurasia), and China plus East Asian nations (Eastasia). After the 2022 Russia-Ukraine war, this tripartite structure became more pronounced, with shifting alliances but nuclear weapons ensuring no side can fully conquer another.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 12,
+      "id": 23,
       "cat": "tech",
       "q": "仇恨两分钟——操控群体情绪的媒体",
       "q_en": "Two Minutes Hate — media-driven manipulation of collective emotion",
@@ -142,10 +329,12 @@
       "year": 2016,
       "status": "verified",
       "verdict_zh": "社交媒体的「愤怒经济」完美复刻了「仇恨两分钟」。2016年以来，算法被证实优先推送引发愤怒的内容以提高用户参与度。Twitter/X上的网络暴力、微博热搜的定向引导、Facebook被揭露的情绪操控实验（2014年）——都在印证奥威尔对集体情绪操控的预见。平台设计使人们无法抵抗参与集体愤怒。",
-      "verdict_en": "Social media's 'outrage economy' perfectly replicates the 'Two Minutes Hate'. Since 2016, algorithms have been proven to prioritize anger-inducing content for engagement. Twitter/X mob harassment, Weibo trending topic manipulation, and Facebook's exposed emotional manipulation experiment (2014) all confirm Orwell's foresight about collective emotion control. Platform design makes it impossible to resist joining collective outrage."
+      "verdict_en": "Social media's 'outrage economy' perfectly replicates the 'Two Minutes Hate'. Since 2016, algorithms have been proven to prioritize anger-inducing content for engagement. Twitter/X mob harassment, Weibo trending topic manipulation, and Facebook's exposed emotional manipulation experiment (2014) all confirm Orwell's foresight about collective emotion control. Platform design makes it impossible to resist joining collective outrage.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 13,
+      "id": 24,
       "cat": "society",
       "q": "《政治与英语》——政治语言的堕落",
       "q_en": "Politics and the English Language — degradation of political language",
@@ -154,10 +343,12 @@
       "year": 2003,
       "status": "verified",
       "verdict_zh": "政治委婉语的泛滥印证了奥威尔的警告。「附带损害」（collateral damage）替代「平民伤亡」、「强化审讯」（enhanced interrogation）替代「酷刑」、「负增长」替代「衰退」——政治语言持续被用来掩盖暴力和欺骗的本质。2003年伊拉克战争中「大规模杀伤性武器」的叙事是典型案例。",
-      "verdict_en": "The proliferation of political euphemisms confirms Orwell's warning. 'Collateral damage' replaces 'civilian casualties', 'enhanced interrogation' replaces 'torture', 'negative growth' replaces 'recession' — political language continues to obscure the reality of violence and deception. The 'weapons of mass destruction' narrative during the 2003 Iraq War is a textbook case."
+      "verdict_en": "The proliferation of political euphemisms confirms Orwell's warning. 'Collateral damage' replaces 'civilian casualties', 'enhanced interrogation' replaces 'torture', 'negative growth' replaces 'recession' — political language continues to obscure the reality of violence and deception. The 'weapons of mass destruction' narrative during the 2003 Iraq War is a textbook case.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 14,
+      "id": 25,
       "cat": "tech",
       "q": "面部犯罪——表情可以构成罪行",
       "q_en": "Facecrime — facial expressions as criminal evidence",
@@ -166,10 +357,12 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "面部识别技术已在全球范围内广泛部署用于监控和执法。2020年，中国在新冠疫情期间通过面部识别追踪市民行踪。伦敦警方部署了实时面部识别摄像系统。美国多家执法机构使用Clearview AI等面部识别工具。情绪识别AI试图通过分析面部表情来判断一个人的意图和态度——这正是「面部犯罪」的技术实现。",
-      "verdict_en": "Facial recognition technology has been widely deployed globally for surveillance and law enforcement. In 2020, China used facial recognition to track citizens during COVID-19. London police deployed live facial recognition cameras. Multiple US law enforcement agencies use facial recognition tools like Clearview AI. Emotion-recognition AI attempts to judge intent and attitude through facial analysis — the technological realization of 'facecrime'."
+      "verdict_en": "Facial recognition technology has been widely deployed globally for surveillance and law enforcement. In 2020, China used facial recognition to track citizens during COVID-19. London police deployed live facial recognition cameras. Multiple US law enforcement agencies use facial recognition tools like Clearview AI. Emotion-recognition AI attempts to judge intent and attitude through facial analysis — the technological realization of 'facecrime'.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 15,
+      "id": 26,
       "cat": "economy",
       "q": "经济不平等是刻意设计的——人为制造稀缺",
       "q_en": "Economic inequality by design — artificial scarcity",
@@ -178,10 +371,12 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "2020年新冠疫情加剧了全球贫富分化——全球亿万富翁财富增加了3.9万亿美元，同期超过1亿人陷入极端贫困。乐施会（Oxfam）2023年报告显示，全球最富有的1%人口拥有的财富几乎是其余99%人口的两倍。计划性报废（planned obsolescence）和人为制造稀缺的商业模式印证了奥威尔对经济结构的分析。",
-      "verdict_en": "COVID-19 in 2020 accelerated global wealth inequality — billionaires gained $3.9 trillion while over 100 million people fell into extreme poverty. Oxfam's 2023 report showed the richest 1% own nearly twice as much wealth as the other 99% combined. Planned obsolescence and artificial scarcity business models confirm Orwell's analysis of economic structures."
+      "verdict_en": "COVID-19 in 2020 accelerated global wealth inequality — billionaires gained $3.9 trillion while over 100 million people fell into extreme poverty. Oxfam's 2023 report showed the richest 1% own nearly twice as much wealth as the other 99% combined. Planned obsolescence and artificial scarcity business models confirm Orwell's analysis of economic structures.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     },
     {
-      "id": 16,
+      "id": 27,
       "cat": "politics",
       "q": "黑白——对客观事实的系统性否认",
       "q_en": "Blackwhite — systematic denial of objective facts",
@@ -190,7 +385,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "后真相时代最突出的特征就是对客观事实的公然否认。2020年美国大选后的「选举欺诈」叙事、新冠疫情中的反科学运动、气候变化否认论——都体现了权力对事实的系统性扭曲。社交媒体创造的信息茧房使人们可以生活在完全不同的「事实宇宙」中，正如奥威尔所预见的那样，客观真理本身成了可以被否定的对象。",
-      "verdict_en": "The defining feature of the post-truth era is the brazen denial of objective facts. The 'election fraud' narrative after the 2020 US election, anti-science movements during COVID-19, and climate change denial all demonstrate systematic distortion of facts by power. Social media filter bubbles allow people to live in entirely different 'fact universes' — as Orwell foresaw, objective truth itself has become something that can be denied."
+      "verdict_en": "The defining feature of the post-truth era is the brazen denial of objective facts. The 'election fraud' narrative after the 2020 US election, anti-science movements during COVID-19, and climate change denial all demonstrate systematic distortion of facts by power. Social media filter bubbles allow people to live in entirely different 'fact universes' — as Orwell foresaw, objective truth itself has become something that can be denied.",
+      "yearReason": "奥威尔在《一九八四》中设定了该时间背景",
+      "yearReason_en": "Orwell set this time period in \"Nineteen Eighty-Four\""
     }
   ]
 }

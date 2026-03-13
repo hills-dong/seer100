@@ -10,7 +10,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "2019-2020年澳大利亚经历创纪录干旱后紧接毁灭性洪水，印证了「破坏水系平衡将招致极端水文灾害」的警示。默里-达令盆地因过度取水导致严重生态退化。",
-      "verdict_en": "Australia experienced record drought in 2019-2020 followed by devastating floods, confirming the warning that disrupting water balance invites extreme hydrological disasters. The Murray-Darling Basin suffered severe ecological degradation from over-extraction."
+      "verdict_en": "Australia experienced record drought in 2019-2020 followed by devastating floods, confirming the warning that disrupting water balance invites extreme hydrological disasters. The Murray-Darling Basin suffered severe ecological degradation from over-extraction.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "2019-2020年澳大利亚「黑色夏天」丛林大火烧毁超过1860万公顷土地，造成约30亿动物死亡或流离失所。科学研究证实，殖民者禁止原住民传统焚烧后，植被燃料大量积聚是灾难性大火的关键因素。此后澳大利亚多州重新引入原住民冷火管理技术。",
-      "verdict_en": "The 2019-2020 Australian 'Black Summer' bushfires burned over 18.6 million hectares, killing or displacing approximately 3 billion animals. Scientific research confirmed that the prohibition of Aboriginal burning practices after colonization led to massive fuel accumulation, a key factor in catastrophic fires. Several Australian states have since reintroduced Aboriginal cool-fire management."
+      "verdict_en": "The 2019-2020 Australian 'Black Summer' bushfires burned over 18.6 million hectares, killing or displacing approximately 3 billion animals. Scientific research confirmed that the prohibition of Aboriginal burning practices after colonization led to massive fuel accumulation, a key factor in catastrophic fires. Several Australian states have since reintroduced Aboriginal cool-fire management.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 3,
@@ -34,7 +38,9 @@
       "year": 1788,
       "status": "verified",
       "verdict_zh": "1788年英国第一舰队抵达悉尼湾，开启澳大利亚殖民史。此后原住民土地被大规模侵占、人口从估计75万骤降至1920年代的约7万、语言和文化遭到系统性压制。多个部落长老证实这些预警在殖民者到来前就已存在于口传传统中。",
-      "verdict_en": "The British First Fleet arrived at Sydney Cove in 1788, beginning the colonization of Australia. Aboriginal land was massively appropriated, the population dropped from an estimated 750,000 to about 70,000 by the 1920s, and languages and cultures were systematically suppressed. Multiple tribal elders have confirmed these warnings existed in oral tradition before colonizers arrived."
+      "verdict_en": "The British First Fleet arrived at Sydney Cove in 1788, beginning the colonization of Australia. Aboriginal land was massively appropriated, the population dropped from an estimated 750,000 to about 70,000 by the 1920s, and languages and cultures were systematically suppressed. Multiple tribal elders have confirmed these warnings existed in oral tradition before colonizers arrived.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 4,
@@ -46,7 +52,9 @@
       "year": 2000,
       "status": "verified",
       "verdict_zh": "澳大利亚自殖民以来已失去约40%的森林覆盖，大规模土地清理导致严重土壤盐碱化和沙漠化。联合国环境署数据显示，全球每年因土壤退化损失约240亿吨表土。原住民传统的镶嵌式火焰管理被证明能有效维持土壤健康。",
-      "verdict_en": "Australia has lost approximately 40% of its forest cover since colonization. Large-scale land clearing has caused severe soil salinization and desertification. UNEP data shows the world loses about 24 billion tonnes of topsoil annually to degradation. Aboriginal traditional mosaic burning practices have been proven effective in maintaining soil health."
+      "verdict_en": "Australia has lost approximately 40% of its forest cover since colonization. Large-scale land clearing has caused severe soil salinization and desertification. UNEP data shows the world loses about 24 billion tonnes of topsoil annually to degradation. Aboriginal traditional mosaic burning practices have been proven effective in maintaining soil health.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 5,
@@ -58,7 +66,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "默里-达令盆地是澳大利亚最大河流系统，因过度灌溉取水，2018-2019年发生大规模鱼类死亡事件（达令河畔门宁迪湖附近约百万条鱼死亡）。湿地面积过去200年间缩减超过50%，符合「水潭连锁干涸」的描述。",
-      "verdict_en": "The Murray-Darling Basin, Australia's largest river system, suffered massive fish kills in 2018-2019 (approximately one million fish died near Menindee Lakes on the Darling River) due to excessive irrigation extraction. Wetland area has shrunk by over 50% in the past 200 years, matching the description of cascading waterhole collapse."
+      "verdict_en": "The Murray-Darling Basin, Australia's largest river system, suffered massive fish kills in 2018-2019 (approximately one million fish died near Menindee Lakes on the Darling River) due to excessive irrigation extraction. Wetland area has shrunk by over 50% in the past 200 years, matching the description of cascading waterhole collapse.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 6,
@@ -70,7 +80,9 @@
       "year": 2020,
       "status": "partial",
       "verdict_zh": "殖民以来，澳大利亚原住民约250种语言中已有超过100种灭绝，剩余语言中大部分处于濒危状态。歌之路知识的丧失与语言灭绝直接相关。但近年来「歌之路复兴运动」在多个社区展开，部分知识正在被记录和恢复，尚未完全断裂。",
-      "verdict_en": "Since colonization, over 100 of approximately 250 Aboriginal Australian languages have become extinct, and most surviving languages are endangered. Loss of Songline knowledge is directly linked to language extinction. However, Songline revival movements have emerged in multiple communities in recent years, with some knowledge being documented and recovered — the break is not yet complete."
+      "verdict_en": "Since colonization, over 100 of approximately 250 Aboriginal Australian languages have become extinct, and most surviving languages are endangered. Loss of Songline knowledge is directly linked to language extinction. However, Songline revival movements have emerged in multiple communities in recent years, with some knowledge being documented and recovered — the break is not yet complete.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 7,
@@ -82,7 +94,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "全球范围内的生态指标与此描述高度吻合：全球蜂群数量显著下降（蜂群崩溃综合征自2006年起被广泛报告）；2019-2020澳大利亚大火期间大规模蝙蝠和鸟类异常行为；大堡礁珊瑚白化导致鱼类栖息地崩溃。WWF《地球生命力报告2022》显示1970-2018年全球野生动物种群平均下降69%。",
-      "verdict_en": "Global ecological indicators closely match this description: significant global bee population decline (Colony Collapse Disorder widely reported since 2006); mass bat and bird behavioral anomalies during the 2019-2020 Australian fires; Great Barrier Reef coral bleaching causing fish habitat collapse. WWF's Living Planet Report 2022 shows global wildlife populations declined by an average of 69% between 1970 and 2018."
+      "verdict_en": "Global ecological indicators closely match this description: significant global bee population decline (Colony Collapse Disorder widely reported since 2006); mass bat and bird behavioral anomalies during the 2019-2020 Australian fires; Great Barrier Reef coral bleaching causing fish habitat collapse. WWF's Living Planet Report 2022 shows global wildlife populations declined by an average of 69% between 1970 and 2018.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 8,
@@ -94,7 +108,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "联合国2019年报告指出约100万物种面临灭绝威胁，人类活动是首要原因。澳大利亚是发达国家中哺乳动物灭绝率最高的国家（自1788年以来至少34种哺乳动物灭绝）。全球土壤退化影响约32亿人。「照顾大地」的理念已被联合国教科文组织纳入可持续发展教育框架。",
-      "verdict_en": "A 2019 UN report found approximately 1 million species face extinction, with human activity as the primary cause. Australia has the highest mammalian extinction rate among developed nations (at least 34 mammal species extinct since 1788). Global soil degradation affects approximately 3.2 billion people. The 'Care for Country' concept has been incorporated into UNESCO's sustainable development education framework."
+      "verdict_en": "A 2019 UN report found approximately 1 million species face extinction, with human activity as the primary cause. Australia has the highest mammalian extinction rate among developed nations (at least 34 mammal species extinct since 1788). Global soil degradation affects approximately 3.2 billion people. The 'Care for Country' concept has been incorporated into UNESCO's sustainable development education framework.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 9,
@@ -106,7 +122,9 @@
       "year": 1970,
       "status": "verified",
       "verdict_zh": "1910-1970年间，澳大利亚政府系统性地将原住民儿童从家庭中强制带走（「被偷走的一代」），估计涉及10万名儿童。这些被带走的孩子长大后普遍出现身份认同危机、精神健康问题和更高的自杀率。2008年澳大利亚总理陆克文正式向「被偷走的一代」道歉。",
-      "verdict_en": "Between 1910 and 1970, the Australian government systematically removed Aboriginal children from their families (the 'Stolen Generations'), affecting an estimated 100,000 children. These removed children experienced widespread identity crises, mental health issues, and higher suicide rates as adults. In 2008, Australian PM Kevin Rudd formally apologized to the Stolen Generations."
+      "verdict_en": "Between 1910 and 1970, the Australian government systematically removed Aboriginal children from their families (the 'Stolen Generations'), affecting an estimated 100,000 children. These removed children experienced widespread identity crises, mental health issues, and higher suicide rates as adults. In 2008, Australian PM Kevin Rudd formally apologized to the Stolen Generations.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 10,
@@ -118,7 +136,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "大堡礁自1998年以来经历了6次大规模白化事件（1998、2002、2016、2017、2020、2022），2016年白化事件导致约30%的珊瑚死亡。海洋酸化（pH值自工业革命以来下降约0.1个单位）和全球变暖是主要原因。联合国教科文组织曾多次考虑将大堡礁列入「濒危世界遗产」名录。",
-      "verdict_en": "The Great Barrier Reef has experienced 6 mass bleaching events since 1998 (1998, 2002, 2016, 2017, 2020, 2022), with the 2016 event killing approximately 30% of corals. Ocean acidification (pH decreased by ~0.1 units since the Industrial Revolution) and global warming are primary causes. UNESCO has repeatedly considered listing the Great Barrier Reef as 'World Heritage in Danger'."
+      "verdict_en": "The Great Barrier Reef has experienced 6 mass bleaching events since 1998 (1998, 2002, 2016, 2017, 2020, 2022), with the 2016 event killing approximately 30% of corals. Ocean acidification (pH decreased by ~0.1 units since the Industrial Revolution) and global warming are primary causes. UNESCO has repeatedly considered listing the Great Barrier Reef as 'World Heritage in Danger'.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 11,
@@ -130,7 +150,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "全球气候变化导致澳大利亚季节模式显著改变：火灾季提前且延长，2019年丛林大火始于9月（往年通常12月才开始）。物候学研究显示鸟类迁徙和植物花期已偏移数周。澳大利亚气象局数据显示全国平均气温自1910年以来上升约1.4°C。",
-      "verdict_en": "Global climate change has significantly altered Australian seasonal patterns: fire season starts earlier and lasts longer, with 2019 bushfires beginning in September (historically starting in December). Phenological studies show bird migration and plant flowering have shifted by several weeks. Australian Bureau of Meteorology data shows national average temperature has risen approximately 1.4°C since 1910."
+      "verdict_en": "Global climate change has significantly altered Australian seasonal patterns: fire season starts earlier and lasts longer, with 2019 bushfires beginning in September (historically starting in December). Phenological studies show bird migration and plant flowering have shifted by several weeks. Australian Bureau of Meteorology data shows national average temperature has risen approximately 1.4°C since 1910.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 12,
@@ -142,7 +164,9 @@
       "year": "未确定",
       "status": "partial",
       "verdict_zh": "这一趋势已初现端倪：澳大利亚多州政府自2020年起正式采纳原住民冷火管理技术；联合国教科文组织将原住民生态知识纳入可持续发展框架；全球「传统生态知识」(TEK)研究领域快速增长。但主流社会对原住民知识的整合仍处于早期阶段，距离真正的「两种知识交汇」尚有距离。",
-      "verdict_en": "This trend is emerging: multiple Australian state governments have formally adopted Aboriginal cool-fire management since 2020; UNESCO has incorporated indigenous ecological knowledge into sustainability frameworks; the field of Traditional Ecological Knowledge (TEK) research is rapidly growing globally. However, mainstream integration of Aboriginal knowledge remains in early stages, still far from a true convergence of the two knowledge systems."
+      "verdict_en": "This trend is emerging: multiple Australian state governments have formally adopted Aboriginal cool-fire management since 2020; UNESCO has incorporated indigenous ecological knowledge into sustainability frameworks; the field of Traditional Ecological Knowledge (TEK) research is rapidly growing globally. However, mainstream integration of Aboriginal knowledge remains in early stages, still far from a true convergence of the two knowledge systems.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 13,
@@ -154,7 +178,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "2020年力拓集团（Rio Tinto）炸毁西澳46000年历史的朱坎峡谷（Juukan Gorge）原住民遗址引发全球谴责，CEO因此辞职。澳大利亚采矿业每年产生数十亿吨废水，昆士兰州阿德勒矿区的酸性矿山排水已污染数百公里水道。",
-      "verdict_en": "Rio Tinto's 2020 destruction of the 46,000-year-old Juukan Gorge Aboriginal heritage site in Western Australia triggered global condemnation, leading to the CEO's resignation. Australian mining generates billions of tonnes of wastewater annually, with acid mine drainage from Queensland's Adler mining area contaminating hundreds of kilometers of waterways."
+      "verdict_en": "Rio Tinto's 2020 destruction of the 46,000-year-old Juukan Gorge Aboriginal heritage site in Western Australia triggered global condemnation, leading to the CEO's resignation. Australian mining generates billions of tonnes of wastewater annually, with acid mine drainage from Queensland's Adler mining area contaminating hundreds of kilometers of waterways.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     },
     {
       "id": 14,
@@ -166,7 +192,9 @@
       "year": 2020,
       "status": "verified",
       "verdict_zh": "现代生态学核心原理「生态系统相互依存」与此教导高度一致。2020年全球有记录以来最热年份之一，北极冰融加速影响全球洋流，导致澳大利亚降水模式改变。IPBES（生物多样性和生态系统服务政府间科学政策平台）2019年报告首次从系统视角确认人类活动的连锁生态影响。",
-      "verdict_en": "The core ecological principle of 'ecosystem interdependence' aligns closely with this teaching. 2020 was among the hottest years on record globally; accelerated Arctic ice melt affected global ocean currents, altering Australian rainfall patterns. The 2019 IPBES report was the first to systematically confirm the cascading ecological impacts of human activity."
+      "verdict_en": "The core ecological principle of 'ecosystem interdependence' aligns closely with this teaching. 2020 was among the hottest years on record globally; accelerated Arctic ice melt affected global ocean currents, altering Australian rainfall patterns. The 2019 IPBES report was the first to systematically confirm the cascading ecological impacts of human activity.",
+      "yearReason": "澳大利亚原住民梦境时代传统中的预言",
+      "yearReason_en": "From the Australian Aboriginal Dreamtime tradition prophecies"
     }
   ]
 }

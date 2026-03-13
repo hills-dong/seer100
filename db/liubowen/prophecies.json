@@ -26,7 +26,9 @@
       "year": 2019,
       "status": "partial",
       "verdict_zh": "「九冬十月间」与2019年末新冠疫情首次出现的时间（约2019年11-12月，对应农历九/十月）存在时间上的巧合。但碑记所述的「平地无有五谷种」「四野绝人烟」等极端景象并未在现实中完全发生，瘟疫的严重程度也远未达到碑文描述的末世级别。",
-      "verdict_en": "The timing of 'ninth and tenth winter months' coincidentally aligns with the initial emergence of COVID-19 around November–December 2019 (corresponding to the 9th/10th lunar months). However, the extreme imagery of 'no grain on flatlands' and 'deserted countryside' did not fully materialize, and the pandemic's severity, while significant, did not reach the apocalyptic scale described in the inscription."
+      "verdict_en": "The timing of 'ninth and tenth winter months' coincidentally aligns with the initial emergence of COVID-19 around November–December 2019 (corresponding to the 9th/10th lunar months). However, the extreme imagery of 'no grain on flatlands' and 'deserted countryside' did not fully materialize, and the pandemic's severity, while significant, did not reach the apocalyptic scale described in the inscription.",
+      "yearReason": "根据刘伯温预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Liu Bowen's prophetic poems corresponds to this historical period"
     },
     {
       "id": 4,
@@ -38,7 +40,9 @@
       "year": 2019,
       "status": "partial",
       "verdict_zh": "「猪鼠年」对应2019年（猪年）和2020年（鼠年），恰好是新冠疫情爆发和全球蔓延的时间。「三愁湖广遭大难」中「湖广」在古代指湖北湖南一带，COVID-19首先在湖北武汉爆发，地理吻合度较高。但碑记中描述的其他灾象（饿死人、各省狼烟、尸体无人捡等）在现实中并未达到所述程度。部分时间和地理信息存在巧合，但整体灾难规模与描述不符。",
-      "verdict_en": "The 'Year of Pig and Rat' corresponds to 2019 (Pig) and 2020 (Rat), precisely when COVID-19 emerged and spread globally. 'Great calamity in Hu-Guang' — Hu-Guang historically refers to the Hubei-Hunan region, and COVID-19 first broke out in Wuhan, Hubei, showing notable geographic alignment. However, other calamities described (mass starvation, war in every province, uncollected corpses) did not materialize to the described extent. Some temporal and geographic details align coincidentally, but the overall scale of disaster does not match the description."
+      "verdict_en": "The 'Year of Pig and Rat' corresponds to 2019 (Pig) and 2020 (Rat), precisely when COVID-19 emerged and spread globally. 'Great calamity in Hu-Guang' — Hu-Guang historically refers to the Hubei-Hunan region, and COVID-19 first broke out in Wuhan, Hubei, showing notable geographic alignment. However, other calamities described (mass starvation, war in every province, uncollected corpses) did not materialize to the described extent. Some temporal and geographic details align coincidentally, but the overall scale of disaster does not match the description.",
+      "yearReason": "根据刘伯温预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Liu Bowen's prophetic poems corresponds to this historical period"
     },
     {
       "id": 5,
@@ -58,7 +62,9 @@
       "year": 2024,
       "status": "failed",
       "verdict_zh": "「龙蛇年」对应2024年（龙年）和2025年（蛇年）。截至2026年初，2024-2025年间并未出现碑文所述的「人人艰难过」「天翻地覆」等重大灾难，四川也未发生超出正常范围的特别苦难。此段预言与现实不符。",
-      "verdict_en": "The 'Dragon and Snake years' correspond to 2024 (Dragon) and 2025 (Snake). As of early 2026, no catastrophic events matching the described 'everyone struggling' or 'heaven overturning' occurred during 2024–2025, nor did Sichuan experience exceptional suffering beyond normal levels. This prophecy does not match reality."
+      "verdict_en": "The 'Dragon and Snake years' correspond to 2024 (Dragon) and 2025 (Snake). As of early 2026, no catastrophic events matching the described 'everyone struggling' or 'heaven overturning' occurred during 2024–2025, nor did Sichuan experience exceptional suffering beyond normal levels. This prophecy does not match reality.",
+      "yearReason": "根据刘伯温预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Liu Bowen's prophetic poems corresponds to this historical period"
     },
     {
       "id": 7,
@@ -78,7 +84,9 @@
       "year": 2019,
       "status": "partial",
       "verdict_zh": "再次提及「猪鼠年」，与新冠疫情时间吻合。全球确有大规模死亡，世界各地民众确实经历了悲痛。但「白骨流成河」的极端描述远超实际情况。碑文的末世意象与疫情的严重性有程度上的差距。",
-      "verdict_en": "Again references the 'Year of Pig and Rat,' coinciding with the COVID-19 timeline. There was indeed large-scale death globally and widespread grief. However, the extreme imagery of 'white bones flowing like a river' far exceeds what actually occurred. The apocalyptic imagery in the inscription far surpasses the actual severity of the pandemic."
+      "verdict_en": "Again references the 'Year of Pig and Rat,' coinciding with the COVID-19 timeline. There was indeed large-scale death globally and widespread grief. However, the extreme imagery of 'white bones flowing like a river' far exceeds what actually occurred. The apocalyptic imagery in the inscription far surpasses the actual severity of the pandemic.",
+      "yearReason": "根据刘伯温预言诗的传统解读对应该历史时期",
+      "yearReason_en": "Traditional interpretation of Liu Bowen's prophetic poems corresponds to this historical period"
     },
     {
       "id": 9,

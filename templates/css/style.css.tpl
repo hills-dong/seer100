@@ -569,6 +569,43 @@ main {
   border-radius: 3px;
   border: 1px solid color-mix(in srgb, var(--primary) 25%, var(--border));
   font-variant-numeric: tabular-nums;
+  position: relative;
+}
+
+.prophecy-year-tag[data-reason] {
+  cursor: help;
+}
+
+.year-reason-tip {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--text);
+  color: var(--white);
+  font-size: 0.6875rem;
+  font-weight: normal;
+  line-height: 1.6;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: normal;
+  min-width: 180px;
+  max-width: 280px;
+  z-index: 200;
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--text) 20%, transparent);
+}
+
+.year-reason-tip::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 12px;
+  border: 5px solid transparent;
+  border-bottom-color: var(--text);
+}
+
+.prophecy-year-tag[data-reason]:hover .year-reason-tip {
+  display: block;
 }
 
 .prophecy-q {
