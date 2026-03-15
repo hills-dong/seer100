@@ -984,6 +984,11 @@ footer .disclaimer {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .list-info::after {
+    left: 0;
+    right: 0;
+  }
+
   .header-inner {
     gap: 4px;
   }
