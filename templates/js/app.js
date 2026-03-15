@@ -228,3 +228,11 @@ window.addEventListener('scroll', () => {
 document.addEventListener('DOMContentLoaded', () => {
   renderAll();
 });
+
+// Prevent pinch-zoom on mobile
+document.addEventListener('touchstart', function(e) {
+  if (e.touches.length > 1) e.preventDefault();
+}, { passive: false });
+document.addEventListener('gesturestart', function(e) {
+  e.preventDefault();
+}, { passive: false });
