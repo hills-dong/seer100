@@ -24,7 +24,7 @@
     "category": "psychic",
     "country": "BG",
     "startYear": "1950",
-    "count": 71,
+    "count": 72,
     "logo": "logo.svg",
     "title_zh": "巴巴·万加预言",
     "title_en": "Baba Vanga Prophecies",
@@ -75,7 +75,7 @@
     "category": "psychic",
     "country": "IN",
     "startYear": "2019",
-    "count": 30,
+    "count": 33,
     "logo": "logo.svg",
     "title_zh": "阿南德预言",
     "title_en": "Abhigya Anand Predictions",
@@ -354,7 +354,7 @@
     "primary": "#8c5070",
     "title_zh": "西尔维娅·布朗预言",
     "title_en": "Sylvia Browne Prophecies",
-    "hitRate": 51
+    "hitRate": 50
   },
   {
     "name": "Fatima 法蒂玛预言",
@@ -519,7 +519,7 @@
     "startYear": "2005",
     "name_zh": "雷·库兹韦尔预言",
     "name_en": "Ray Kurzweil Predictions",
-    "count": 22,
+    "count": 25,
     "logo": "logo.svg",
     "primary": "#2e7a4a",
     "title_zh": "雷·库兹韦尔预言",
@@ -813,7 +813,7 @@
     "primary": "#8c4040",
     "title_zh": "金·克莱门特预言",
     "title_en": "Kim Clement Prophecies",
-    "hitRate": 81
+    "hitRate": 79
   },
   {
     "name": "QAnon Q Drops",
@@ -893,12 +893,12 @@
     "startYear": "1139",
     "name_zh": "圣马拉基教皇预言",
     "name_en": "Prophecy of the Popes",
-    "count": 22,
+    "count": 23,
     "logo": "logo.svg",
     "primary": "#8c7040",
     "title_zh": "圣马拉基教皇预言",
     "title_en": "Prophecy of the Popes",
-    "hitRate": 73
+    "hitRate": 66
   },
   {
     "name": "Hildegard of Bingen 宾根的希尔德加德",
@@ -961,12 +961,12 @@
     "startYear": "2010",
     "name_zh": "马斯克预言",
     "name_en": "Elon Musk Predictions",
-    "count": 27,
+    "count": 31,
     "logo": "logo.svg",
     "primary": "#8c5070",
     "title_zh": "马斯克预言",
     "title_en": "Elon Musk Predictions",
-    "hitRate": 26
+    "hitRate": 25
   },
   {
     "name": "Stephen Hawking 霍金预言",
@@ -1267,7 +1267,7 @@
     "startYear": "2015",
     "name_zh": "赫拉利预言",
     "name_en": "Harari Predictions",
-    "count": 20,
+    "count": 23,
     "logo": "logo.svg",
     "primary": "#8c6a20",
     "title_zh": "赫拉利预言",
@@ -1391,7 +1391,7 @@
     "primary": "#4a8060",
     "title_zh": "Web Bot 预言",
     "title_en": "Web Bot Predictions",
-    "hitRate": 29
+    "hitRate": 25
   },
   {
     "name": "Cyberpunk 赛博朋克预言（Gibson/Dick）",
@@ -1590,12 +1590,12 @@
     "startYear": "2015",
     "name_zh": "比尔·盖茨预言",
     "name_en": "Bill Gates Predictions",
-    "count": 27,
+    "count": 30,
     "logo": "logo.svg",
     "primary": "#4a7a50",
     "title_zh": "比尔·盖茨预言",
     "title_en": "Bill Gates Predictions",
-    "hitRate": 84
+    "hitRate": 82
   },
   {
     "name": "Alvin Toffler《未来的冲击》",
@@ -1644,6 +1644,6 @@
     "title_zh": "龙树谅预言",
     "title_en": "Tatsuki Ryo Prophecies",
     "primary": "#8c5a6a",
-    "hitRate": 78
+    "hitRate": 64
   }
 ]

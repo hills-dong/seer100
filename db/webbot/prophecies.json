@@ -204,9 +204,9 @@
       "a_en": "Clif High claims Web Bot detected strong language signals related to 'solar flare,' 'geomagnetic storm,' 'power grid,' and 'communication disruption,' predicting that the 2024-2025 solar maximum would trigger severe geomagnetic disaster events causing widespread blackouts and communication outages.",
       "year": 2025,
       "date": "2023",
-      "status": "partial",
-      "verdict_zh": "2024-2025年确实处于第25太阳周期活动极大期，2024年5月发生了20年来最强的地磁风暴（G5级），全球多地可见壮观极光，部分地区出现短暂GPS和无线电干扰。但并未发生Web Bot所预测的\"大面积停电和通信中断\"等严重灾难。太阳活动极大期是天文学界早已预知的周期性事件，并非独特预见。",
-      "verdict_en": "2024-2025 is indeed the Solar Cycle 25 maximum period. In May 2024, the strongest geomagnetic storm in 20 years (G5-level) occurred, producing spectacular auroras visible worldwide with brief GPS and radio interference in some areas. However, the 'widespread blackouts and communication outages' Web Bot predicted did not occur. Solar maximum is a periodic event well-known to astronomers in advance, not a unique prediction.",
+      "status": "failed",
+      "verdict_zh": "2024-2025年确实处于第25太阳周期活动极大期：2024年5月发生了20年来最强的地磁风暴（G5级），全球多地可见极光，部分地区出现短暂GPS和无线电干扰；2025年1月1日、4月16日、6月1日和11月11-12日又先后出现G4级（强烈）地磁暴，其中11月那次由2025年最强的X5.1级耀斑引发，极光南至美国南部可见，部分地区出现短波无线电中断，个别电网运营商采取了保护性措施。但这些事件均未造成Web Bot所预测的「大面积停电和通信中断」。预言的核心——严重的地磁灾难和大面积停电——并未发生；唯一对上的「太阳活动极大期」是天文学界早已预知的周期性事件，并非独特预见，故判为未应验。",
+      "verdict_en": "2024-2025 was indeed the Solar Cycle 25 maximum: in May 2024 the strongest geomagnetic storm in 20 years (G5) produced auroras visible worldwide, with brief GPS and radio interference in some areas; further G4 (severe) storms followed on January 1, April 16, June 1 and November 11-12, 2025, the last driven by the year's strongest flare (X5.1), with auroras seen as far south as the southern US, shortwave radio blackouts in some regions, and some grid operators taking protective measures. None of these events caused the 'widespread blackouts and communication outages' Web Bot predicted. The core of the prediction — a severe geomagnetic disaster with widespread blackouts — did not happen; the only matching element, solar maximum, is a periodic event well known to astronomers in advance, so it is rated as failed.",
       "yearReason": "网络机器人项目的数据分析预测了该时期",
       "yearReason_en": "Web Bot project data analysis predicted this period"
     }

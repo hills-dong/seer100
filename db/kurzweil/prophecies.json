@@ -329,6 +329,51 @@
       "yearReason": "库兹韦尔2005年《奇点临近》中预测2029年自动驾驶汽车主流化",
       "yearReason_en": "Kurzweil predicted mainstream self-driving cars by 2029 in 'The Singularity Is Near' (2005)",
       "id": 22
+    },
+    {
+      "id": 23,
+      "cat": "tech",
+      "q": "2045年人类将通过与AI融合使智能扩展千倍",
+      "a": "库兹韦尔重申其两项核心预测：2029年AI将达到人类水平；2045年奇点到来。他进一步解释，所谓奇点是指人类通过与AI融合，把自身智能扩展约一千倍。",
+      "q_en": "By 2045 humans will expand their intelligence a thousandfold by merging with AI",
+      "a_en": "Kurzweil reaffirmed his two core predictions: human-level AI by 2029 and the Singularity by 2045. He clarified that the Singularity means humans merging with AI and expanding their own intelligence roughly a thousandfold.",
+      "year": 2045,
+      "date": "2026-01-20",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "库兹韦尔在《Moonshots》播客中重申2045年奇点预测",
+      "yearReason_en": "Kurzweil restated his 2045 Singularity date on the Moonshots podcast"
+    },
+    {
+      "id": 24,
+      "cat": "tech",
+      "q": "计算机模拟将取代漫长的人体临床试验",
+      "a": "库兹韦尔表示，用计算机模拟来测试治疗方案、从而省去漫长人体试验周期的能力，大约五年内就会实现；他还称七年内人类将找到能非常快速攻克疾病的方法。",
+      "q_en": "Computer simulation will replace lengthy human clinical testing",
+      "a_en": "Kurzweil said the ability to test treatments through computer simulation, eliminating long human-testing periods, \"will be there in about five years,\" and that within seven years we will come up with things that overcome disease very quickly.",
+      "year": 2031,
+      "date": "2026-02-11",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "库兹韦尔称「大约五年内」，按2026年起算为2031年",
+      "yearReason_en": "Kurzweil said \"in about five years\"; counted from 2026 this is 2031"
+    },
+    {
+      "id": 25,
+      "cat": "tech",
+      "q": "2032年人类将达到长寿逃逸速度",
+      "a": "库兹韦尔表示：「到2032年，你每活一年就能赢回一年寿命；在那之后，你赢回的将超过一年。」他强调这并非永生，人仍可能死于事故，而是指衰老不再是不可避免的死因。他在2024年曾称将在2030年代初达到这一点。",
+      "q_en": "Humanity will reach longevity escape velocity by 2032",
+      "a_en": "Kurzweil said: \"By 2032, you'll gain back one year for each year lived. Beyond that, you'll actually get back more than a year.\" He stressed this is not immortality — people could still die in accidents — but that aging would no longer be an unavoidable cause of death. In 2024 he had placed this in the early 2030s.",
+      "year": 2032,
+      "date": "2026-02-11",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "库兹韦尔在采访中明确给出2032年",
+      "yearReason_en": "Kurzweil explicitly stated 2032 in the interview"
     }
   ]
 }

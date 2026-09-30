@@ -1,21 +1,21 @@
 {
   "siteId": "musk",
   "answererName": "Elon Musk",
-  "publishDate": "2002-2024",
+  "publishDate": "2002-2026",
   "baseUrl": "https://seer100.com/musk",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
     "zh": {
       "htmlLang": "zh-CN",
-      "title": "埃隆·马斯克预言全集 - 科技狂人对人类未来的17条预测与验证 | Elon Musk Predictions",
-      "description": "特斯拉、SpaceX、xAI CEO 埃隆·马斯克关于火星殖民、全自动驾驶、AI 风险、脑机接口、人形机器人等领域的17条公开预测，附真实度验证。许多预测已错过原定时间表。",
+      "title": "埃隆·马斯克预言全集 - 科技狂人对人类未来的31条预测与验证 | Elon Musk Predictions",
+      "description": "特斯拉、SpaceX、xAI CEO 埃隆·马斯克关于火星殖民、全自动驾驶、AI 风险、脑机接口、人形机器人等领域的31条公开预测，附真实度验证。许多预测已错过原定时间表。",
       "keywords": "马斯克预言,Elon Musk predictions,火星殖民,全自动驾驶,AI风险,Neuralink,特斯拉,SpaceX,马斯克预测验证",
       "siteName": "马斯克预言",
       "ogTitle": "埃隆·马斯克预言全集 | Elon Musk Predictions",
-      "ogDescription": "特斯拉、SpaceX CEO 马斯克关于火星殖民、全自动驾驶、AI 风险等17条预测的完整收录与验证。",
+      "ogDescription": "特斯拉、SpaceX CEO 马斯克关于火星殖民、全自动驾驶、AI 风险等31条预测的完整收录与验证。",
       "locale": "zh_CN",
-      "twitterDescription": "马斯克17条公开预测全集：火星殖民、全自动驾驶、AI 风险、Neuralink 脑机接口等，附真实度验证。"
+      "twitterDescription": "马斯克31条公开预测全集：火星殖民、全自动驾驶、AI 风险、Neuralink 脑机接口等，附真实度验证。"
     },
     "en": {
       "htmlLang": "en",

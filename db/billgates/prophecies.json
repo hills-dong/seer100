@@ -175,8 +175,8 @@
       "year": 2026,
       "date": "2013",
       "status": "partial",
-      "verdict_zh": "截至2025年底，全球野生脊髓灰质炎病例已降至极低水平（2024年仅报告12例），但阿富汗和巴基斯坦仍有零星病例。盖茨基金会投入数十亿美元推动根除工作，取得了巨大进展，但完全根除的目标尚未实现。",
-      "verdict_en": "By the end of 2025, wild poliovirus cases dropped to extremely low levels (only 12 reported in 2024), but sporadic cases persisted in Afghanistan and Pakistan. The Gates Foundation invested billions toward eradication with enormous progress, but the goal of complete eradication has not yet been achieved.",
+      "verdict_zh": "截至2026年9月，野生脊髓灰质炎病毒仍在阿富汗和巴基斯坦流行。据全球根除脊灰行动（GPEI）数据，2025年两国共报告52例（巴基斯坦31例、阿富汗21例），2026年截至9月23日又报告36例（阿富汗32例、巴基斯坦4例），阿富汗病例因难民大规模回流而上升。全球病例较1988年已下降超过99%，盖茨基金会为此投入数十亿美元，进展巨大，但「最后阶段」已持续十余年，根除目标仍未实现。",
+      "verdict_en": "As of September 2026, wild poliovirus remains endemic in Afghanistan and Pakistan. According to the Global Polio Eradication Initiative (GPEI), the two countries reported 52 cases in 2025 (31 in Pakistan, 21 in Afghanistan) and 36 more in 2026 as of September 23 (32 in Afghanistan, 4 in Pakistan), with Afghanistan's rise linked to mass refugee returns. Global cases have fallen by more than 99% since 1988 and the Gates Foundation has invested billions, but the \"final stages\" have now lasted more than a decade and eradication has not been achieved.",
       "yearReason": "比尔·盖茨在演讲、博客或采访中提及该时间",
       "yearReason_en": "Bill Gates mentioned this timeframe in speeches, blog posts, or interviews"
     },
@@ -188,9 +188,9 @@
       "a_en": "Polio will be completely eradicated from the Earth by 2026, becoming the second disease to be fully eliminated by humanity after smallpox.",
       "year": 2026,
       "date": "2013",
-      "status": "partial",
-      "verdict_zh": "2024年全球仅在巴基斯坦和阿富汗报告了少量野生脊髓灰质炎病例。消灭进程非常接近目标但受政治动荡、疫苗犹豫等因素拖延。盖茨基金会已投入超过60亿美元用于消灭小儿麻痹症。",
-      "verdict_en": "In 2024, only a few wild poliovirus cases were reported in Pakistan and Afghanistan. Eradication is very close but delayed by political instability and vaccine hesitancy. The Gates Foundation has invested over $6 billion in polio eradication.",
+      "status": "failed",
+      "verdict_zh": "2026年未能实现根除。GPEI数据显示，2026年截至9月23日，阿富汗已报告32例、巴基斯坦4例野生脊灰病例，2025年两国共52例，两国环境样本也持续检出病毒。按世卫组织标准，宣布根除需全球连续至少三年无野生病毒病例，因此2026年根除已不可能。全球病例较1988年下降超过99%，进展巨大，但时间表落空。",
+      "verdict_en": "Eradication was not achieved in 2026. GPEI data show 32 wild poliovirus cases in Afghanistan and 4 in Pakistan in 2026 as of September 23, after 52 cases across the two countries in 2025, with ongoing positive environmental samples. Under WHO standards, certification requires at least three consecutive years with no wild poliovirus cases worldwide, so eradication by 2026 is impossible. Global cases have fallen by more than 99% since 1988 — enormous progress, but the timeline was missed.",
       "yearReason": "盖茨多次公开表示小儿麻痹症将在2020年代中期被消灭",
       "yearReason_en": "Gates repeatedly stated polio would be eradicated by the mid-2020s",
       "id": 13
@@ -404,6 +404,51 @@
       "yearReason": "盖茨在2023年博客文章中预测AI代理将在五年内普及",
       "yearReason_en": "Gates predicted AI agents would become ubiquitous within five years in a 2023 blog post",
       "id": 27
+    },
+    {
+      "id": 28,
+      "cat": "society",
+      "q": "到2045年终结可预防的母婴死亡和致命传染病",
+      "a": "盖茨宣布将在未来20年通过盖茨基金会捐出其绝大部分财富（约2000亿美元），基金会将于2045年关闭。他表示希望届时实现：不再有母亲和儿童死于可预防的原因，下一代在没有致命传染病的世界中成长，数亿人摆脱贫困；其中包括根除脊髓灰质炎、疟疾等疾病。",
+      "q_en": "Preventable maternal and child deaths and deadly infectious diseases will be ended by 2045",
+      "a_en": "Gates announced he would give away virtually all of his wealth (about $200 billion) through the Gates Foundation over the next 20 years, with the foundation closing in 2045. He said he hoped that by then no mother or child would die of a preventable cause, the next generation would grow up in a world without deadly infectious diseases, and hundreds of millions would escape poverty — including eradicating diseases such as polio and malaria.",
+      "year": 2045,
+      "date": "2025-05-08",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "盖茨以基金会关闭的2045年为目标期限",
+      "yearReason_en": "Gates set 2045, the year the foundation closes, as the deadline"
+    },
+    {
+      "id": 29,
+      "cat": "climate",
+      "q": "气候变化不会导致人类灭亡",
+      "a": "盖茨在COP30前发表备忘录《关于气候的三个严峻真相》，称气候变化虽会带来严重后果，尤其对最贫穷国家的人们，但不会导致人类灭亡；在可预见的未来，人们仍能在地球大部分地方生存和繁荣。他主张气候策略应以人类福祉为中心，而不是只盯着温度和短期减排目标。",
+      "q_en": "Climate change will not lead to humanity's demise",
+      "a_en": "In a memo titled \"Three Tough Truths About Climate\" released ahead of COP30, Gates wrote that although climate change will have serious consequences — particularly for people in the poorest countries — it will not lead to humanity's demise; people will be able to live and thrive in most places on Earth for the foreseeable future. He argued climate strategy should center on human welfare rather than temperature and near-term emissions targets.",
+      "year": "未确定",
+      "date": "2025-10-28",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "盖茨未给出具体年份，仅称「可预见的未来」",
+      "yearReason_en": "Gates gave no specific year, only \"the foreseeable future\""
+    },
+    {
+      "id": 30,
+      "cat": "economy",
+      "q": "AI对就业市场的冲击将在未来五年持续扩大",
+      "a": "盖茨在年度信《未来一年》中写道，AI将让我们用更少的劳动生产多得多的商品和服务；AI对就业市场的影响已经开始显现，并将在未来五年持续扩大。他还认为AI和机器人的能力没有上限，在超越人类水平之前不会停滞；未来十年最大的两个挑战是坏人滥用AI和AI对就业的冲击。",
+      "q_en": "AI's impact on the job market will grow over the next five years",
+      "a_en": "In his \"Year Ahead\" letter, Gates wrote that AI capabilities will allow us to make far more goods and services with less labor, that AI's impact on the job market is already beginning and will grow over the next five years. He also argued there is no upper limit on how intelligent AIs or how good robots will get, and that advances will not plateau before exceeding human levels; the two biggest challenges of the next decade will be misuse of AI by bad actors and its disruption of the job market.",
+      "year": 2031,
+      "date": "2026-01-09",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "盖茨称影响将在「未来五年」扩大，按2026年起算为2031年",
+      "yearReason_en": "Gates said the impact would grow \"over the next five years\"; counted from 2026 this is 2031"
     }
   ]
 }

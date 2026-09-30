@@ -1,32 +1,32 @@
 {
   "siteId": "harari",
   "answererName": "Yuval Noah Harari",
-  "publishDate": "2015-2018",
+  "publishDate": "2015-2026",
   "baseUrl": "https://seer100.com/harari",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
     "zh": {
       "htmlLang": "zh-CN",
-      "title": "赫拉利预言全集 - 《未来简史》《今日简史》中的14条未来预测与验证 | Harari Predictions",
-      "description": "以色列历史学家尤瓦尔·诺亚·赫拉利在《未来简史》《今日简史》及公开演讲中提出的14条关于AI、数据主义、生物监控、无用阶级等未来预测，含真实度验证。",
+      "title": "赫拉利预言全集 - 《未来简史》《今日简史》中的23条未来预测与验证 | Harari Predictions",
+      "description": "以色列历史学家尤瓦尔·诺亚·赫拉利在《未来简史》《今日简史》及公开演讲中提出的23条关于AI、数据主义、生物监控、无用阶级等未来预测，含真实度验证。",
       "keywords": "赫拉利,尤瓦尔赫拉利,未来简史,今日简史,Homo Deus,人工智能预言,数据主义,无用阶级,算法权威,赫拉利预言",
       "siteName": "赫拉利预言",
       "ogTitle": "赫拉利预言全集 | Harari Predictions",
-      "ogDescription": "以色列历史学家赫拉利在《未来简史》《今日简史》中提出的14条未来预测与验证分析。涵盖AI、数据主义、生物监控等领域。",
+      "ogDescription": "以色列历史学家赫拉利在《未来简史》《今日简史》中提出的23条未来预测与验证分析。涵盖AI、数据主义、生物监控等领域。",
       "locale": "zh_CN",
-      "twitterDescription": "赫拉利14条未来预测，含真实度验证。涵盖AI取代人类工作、数据主义、生物监控、无用阶级等。"
+      "twitterDescription": "赫拉利23条未来预测，含真实度验证。涵盖AI取代人类工作、数据主义、生物监控、无用阶级等。"
     },
     "en": {
       "htmlLang": "en",
       "title": "Harari Predictions - 14 Forecasts from Homo Deus & 21 Lessons | Full Archive & Verification",
-      "description": "Israeli historian Yuval Noah Harari's 14 predictions from Homo Deus, 21 Lessons for the 21st Century, and public lectures. Topics include AI replacing jobs, dataism, biometric surveillance, useless class, and algorithmic authority.",
+      "description": "Israeli historian Yuval Noah Harari's 23 predictions from Homo Deus, 21 Lessons for the 21st Century, and public lectures. Topics include AI replacing jobs, dataism, biometric surveillance, useless class, and algorithmic authority.",
       "keywords": "Yuval Harari,Harari predictions,Homo Deus,21 Lessons,AI predictions,dataism,useless class,algorithmic authority,biometric surveillance,future predictions",
       "siteName": "Harari Predictions",
       "ogTitle": "Harari Predictions - Forecasts from Homo Deus & 21 Lessons",
-      "ogDescription": "14 predictions from historian Yuval Noah Harari on AI, dataism, surveillance, and the future of humanity. Full archive with real-world verification.",
+      "ogDescription": "23 predictions from historian Yuval Noah Harari on AI, dataism, surveillance, and the future of humanity. Full archive with real-world verification.",
       "locale": "en_US",
-      "twitterDescription": "14 predictions from Yuval Harari on AI, dataism, biometric surveillance, and the useless class. Verified against reality."
+      "twitterDescription": "23 predictions from Yuval Harari on AI, dataism, biometric surveillance, and the useless class. Verified against reality."
     }
   },
   "structuredData": [

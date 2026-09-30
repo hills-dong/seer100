@@ -1,21 +1,21 @@
 {
   "siteId": "billgates",
   "answererName": "Bill Gates",
-  "publishDate": "1995-2024",
+  "publishDate": "1995-2026",
   "baseUrl": "https://seer100.com/billgates",
   "defaultLang": "zh",
   "languages": ["zh", "en"],
   "meta": {
     "zh": {
       "htmlLang": "zh-CN",
-      "title": "比尔·盖茨预言全集 - 科技远见者对未来的15条预测与验证 | Bill Gates Predictions",
-      "description": "微软联合创始人比尔·盖茨（1955-）在著作、TED演讲和年度公开信中留下的15条重要预测，涵盖互联网商业、大流行病预警、AI革命、气候技术等领域，并对已到期预言进行验证评估。",
+      "title": "比尔·盖茨预言全集 - 科技远见者对未来的30条预测与验证 | Bill Gates Predictions",
+      "description": "微软联合创始人比尔·盖茨（1955-）在著作、TED演讲和年度公开信中留下的30条重要预测，涵盖互联网商业、大流行病预警、AI革命、气候技术等领域，并对已到期预言进行验证评估。",
       "keywords": "比尔盖茨,比尔盖茨预言,盖茨预测,Bill Gates predictions,未来预测,大流行病预测,AI预言,科技预言,盖茨TED演讲",
       "siteName": "比尔·盖茨预言",
       "ogTitle": "比尔·盖茨预言全集 | Bill Gates Predictions",
-      "ogDescription": "微软联合创始人比尔·盖茨在著作、演讲和公开信中留下的15条重要预测与验证分析。涵盖互联网、大流行病、AI、气候技术等领域。",
+      "ogDescription": "微软联合创始人比尔·盖茨在著作、演讲和公开信中留下的30条重要预测与验证分析。涵盖互联网、大流行病、AI、气候技术等领域。",
       "locale": "zh_CN",
-      "twitterDescription": "15条比尔·盖茨对未来的预测，含真实度验证。已应验：互联网商业革命、智能手机普及、大流行病预警等。"
+      "twitterDescription": "30条比尔·盖茨对未来的预测，含真实度验证。已应验：互联网商业革命、智能手机普及、大流行病预警等。"
     },
     "en": {
       "htmlLang": "en",
@@ -24,9 +24,9 @@
       "keywords": "Bill Gates,Bill Gates predictions,Gates forecasts,tech predictions,pandemic prediction,AI prediction,future technology,Gates TED talk,The Road Ahead",
       "siteName": "Bill Gates Predictions",
       "ogTitle": "Bill Gates Predictions - The Tech Visionary's Complete Forecasts",
-      "ogDescription": "15 predictions from Microsoft co-founder Bill Gates. Full archive with real-world verification covering internet, pandemics, AI, climate technology, and more.",
+      "ogDescription": "30 predictions from Microsoft co-founder Bill Gates. Full archive with real-world verification covering internet, pandemics, AI, climate technology, and more.",
       "locale": "en_US",
-      "twitterDescription": "15 predictions from Bill Gates. Verified: internet commerce revolution, smartphone ubiquity, pandemic warning. From 1995 to 2024."
+      "twitterDescription": "30 predictions from Bill Gates. Verified: internet commerce revolution, smartphone ubiquity, pandemic warning. From 1995 to 2024."
     }
   },
   "structuredData": [

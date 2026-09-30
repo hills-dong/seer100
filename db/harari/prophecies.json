@@ -212,6 +212,51 @@
     },
     {
       "id": 15,
+      "cat": "spirit",
+      "q": "AI将接管一切由文字构成的事物，包括宗教",
+      "a": "赫拉利在达沃斯论坛上表示，AI不只是工具，而是能自主学习和决策的行动者。如果法律由文字构成，AI将接管法律体系；如果书籍只是文字的组合，AI将接管书籍；如果宗教建立在文字之上，AI将接管宗教——尤其是以经典为核心的犹太教、基督教和伊斯兰教。他还设想，未来可能出现由AI创立、获得数百万人信仰的新宗教。",
+      "q_en": "AI will take over everything made of words, including religion",
+      "a_en": "At Davos, Harari said AI is not just a tool but an agent that can learn and make decisions by itself. \"If laws are made of words, then AI will take over the legal system. If books are just combinations of words, then AI will take over books. If religion is built from words, then AI will take over religion\" — especially scripture-based faiths such as Judaism, Christianity and Islam. He also raised the scenario of AI persons creating a new religion that gains the faith of millions.",
+      "year": "未确定",
+      "date": "2026-01-20",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "赫拉利未给出具体年份",
+      "yearReason_en": "Harari gave no specific year"
+    },
+    {
+      "id": 16,
+      "cat": "politics",
+      "q": "各国将面临是否赋予AI法人地位的抉择",
+      "a": "赫拉利把AI的到来比作一场「移民潮」：这些AI「移民」会抢走工作，彻底改变艺术、宗教和爱情等文化，并且更可能效忠于少数大国的企业或政府。他预言各国很快将面临是否赋予AI法律人格的抉择，例如某个国家承认数百万AI的法人地位、由它们创办和经营数百万家公司，其他国家将被迫应对。",
+      "q_en": "Nations will soon have to decide whether to grant AI legal personhood",
+      "a_en": "Harari framed the arrival of AI as a form of \"immigration\": these AI \"immigrants\" will take jobs, completely change culture including art, religion and romance, and are likely to serve corporations or governments of a few major powers. He predicted countries will soon face the question of granting AI legal personhood — for example, one country recognizing millions of AIs as legal persons that start and run millions of corporations, forcing other nations to respond.",
+      "year": "未确定",
+      "date": "2026-01-20",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "赫拉利称「很快」，未给出具体年份",
+      "yearReason_en": "Harari said \"soon\" without giving a specific year"
+    },
+    {
+      "id": 17,
+      "cat": "economy",
+      "q": "若按当前轨迹，十年内AI将比人类更聪明并掌控局面",
+      "a": "赫拉利在接受《经济学人》总编辑采访时表示，按照当前轨迹，十年内AI很可能比人类更聪明，并因此掌控局面，但这并非不可避免，人类目前仍有能力做出选择。他另外描绘了一种可能的未来：由AI控制的金融体系支配世界，就像今天人类的金融体系支配着牛和鸡的生活，而牛和鸡根本不知道金融的存在。",
+      "q_en": "On the current trajectory, AI will be smarter than humans and in control within ten years",
+      "a_en": "In an interview with The Economist's editor-in-chief, Harari said that given the current trajectory, it is very likely that AI will be more intelligent than us within ten years and will therefore be in control, though this is not inevitable and humans still have the power to decide. Separately, he described a possible future of \"an AI financial system controlling the world the same way that today the human financial system controls the lives of cows and chickens, but the cows and chickens have no idea that finance even exists.\"",
+      "year": 2036,
+      "date": "2026-08-20",
+      "status": "pending",
+      "verdict_zh": "",
+      "verdict_en": "",
+      "yearReason": "赫拉利称「十年内」，按2026年起算为2036年",
+      "yearReason_en": "Harari said \"in ten years\"; counted from 2026 this is 2036"
+    },
+    {
+      "id": 18,
       "cat": "tech",
       "q": "AI将创造「无用阶级」",
       "a": "随着人工智能和自动化的发展，数十亿人将变得在经济上毫无用处，形成一个庞大的「无用阶级」（useless class）。这些人不仅是失业，而是根本不可雇佣——因为他们无法做到任何AI做不到的事情。",
@@ -225,7 +270,7 @@
       "yearReason_en": "Harari projected this timeframe in works such as \"Homo Deus\""
     },
     {
-      "id": 16,
+      "id": 19,
       "cat": "tech",
       "q": "算法比你更了解你自己",
       "a": "算法将比人类更了解自己。通过持续监控你的生物特征数据——心率、脑波、血压——算法将比你自己更早知道你的欲望、情绪和决定。",
@@ -239,7 +284,7 @@
       "yearReason_en": "Harari projected this timeframe in works such as \"Homo Deus\""
     },
     {
-      "id": 17,
+      "id": 20,
       "cat": "spirit",
       "q": "数据主义将成为新宗教",
       "a": "数据主义（Dataism）将取代人文主义，成为21世纪的主导意识形态。在数据主义看来，宇宙由数据流构成，任何现象或实体的价值取决于它对数据处理的贡献。人类不过是生化算法，与计算机算法并无本质区别。",
@@ -253,7 +298,7 @@
       "yearReason_en": "Harari projected this timeframe in works such as \"Homo Deus\""
     },
     {
-      "id": 18,
+      "id": 21,
       "cat": "society",
       "q": "隐私的终结",
       "a": "隐私将成为一个过时的概念。当算法可以通过你的生物特征数据推断你的性取向、政治倾向和情绪状态时，隐私就不再有意义。人类将生活在一个「全透明」的世界里。",
@@ -267,7 +312,7 @@
       "yearReason_en": "Harari projected this timeframe in works such as \"Homo Deus\""
     },
     {
-      "id": 19,
+      "id": 22,
       "cat": "society",
       "q": "人类将变得「可被黑客入侵」",
       "a": "人类有机体将变得可以被黑客入侵。通过理解人类的生化机制和收集足够的生物数据，外部系统可以预测和操纵人的欲望、决策和情绪——就像黑客入侵计算机一样。",
@@ -281,7 +326,7 @@
       "yearReason_en": "Harari projected this timeframe in works such as \"Homo Deus\""
     },
     {
-      "id": 20,
+      "id": 23,
       "cat": "society",
       "q": "「升级人类」与「自然人类」之间的不平等",
       "a": "生物技术将使富人能够升级自己的身体和大脑，创造出一个生物学意义上的上层阶级。人类可能分裂为两个物种：拥有增强能力的「神人」（Homo Deus）和未经升级的普通人。这将是人类历史上第一次真正的生物学不平等。",
